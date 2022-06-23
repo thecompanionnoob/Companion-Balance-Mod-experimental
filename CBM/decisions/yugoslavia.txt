@@ -1,0 +1,77 @@
+political_decisions = {
+	form_yugoslavia = {
+		potential = {
+			NOT = {
+				exists = YUG
+			}
+			NOT = {
+				has_country_flag = formed_yugoslavia
+			}
+			OR = {
+				tag = SER
+				tag = CRO
+				tag = ALB
+				tag = BOS
+			}
+		}
+		allow = {
+			ideological_thought = 1
+			war = no
+			owns = 798 #nis
+			owns = 794 #belgrade
+			owns = 2538 #novi sad
+			owns = 783 #sarajevo
+			owns = 771 #zagreb
+		}
+		effect = {
+			any_owned_province = {
+				limit = {
+					OR = {
+						is_core = BOS
+						is_core = SER
+						is_core = ALB
+						is_core = CRO
+						is_core = SLO
+					}
+				}
+				add_core = YUG
+			}
+			change_tag = YUG
+			set_country_flag = formed_yugoslavia
+			add_accepted_culture = serb
+			add_accepted_culture = croat
+			add_accepted_culture = albanian
+			prestige = 100 #high because hard to do
+			badboy = 10 #high because very powerful, not too high because hard to do
+			any_pop = {
+				limit = {
+					OR = {
+						culture = serb
+						culture = croat
+						culture = albanian
+					}
+				}
+				militancy = -2
+			}
+			any_pop = {
+				limit = {
+					AND = {
+						NOT = {
+							culture = serb
+						}
+						NOT = {
+							culture = croat
+						}
+						NOT = {
+							culture = albanian
+						}
+					}
+				}
+				militancy = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

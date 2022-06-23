@@ -1,0 +1,87 @@
+#Dutch West Indies Region : 19500
+#Ruled by Netherlands 1836
+#Curacao (12300/3100 POPS)
+2234 = {
+	bureaucrats = {
+		culture = caribeno
+		religion = sunni
+		size = 10
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = sunni
+		size = 140
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = sunni
+		size = 40
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = sunni
+		size = 300
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = sunni
+		size = 60
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = sunni
+		size = 5600
+	}
+}
+#Aruba (2400/600 POPS)
+2235 = {
+	clergymen = {
+		culture = caribeno
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = sunni
+		size = 50
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = sunni
+		size = 1100
+	}
+}
+#Saint Martin (4800/1200 POPS)
+2236 = {
+	clergymen = {
+		culture = caribeno
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = sunni
+		size = 110
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = sunni
+		size = 2240
+	}
+
+}

@@ -1,0 +1,31 @@
+country_event = {
+	id = 69001
+
+	trigger = {
+		OR = {
+			tag = MCK
+			tag = YNN
+			tag = NAN
+		}
+		year = 1837
+		NOT = {
+			has_country_flag = already_got_china_reunify
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	title = "EVTNAME69001"
+	desc = "EVTDESC69001"
+	picture = "Opiumwar"
+
+	option = {
+		name = "EVTOPTA69001"
+		prestige = 5
+		set_global_flag = china_reunify_cb
+		set_country_flag = already_got_china_reunify
+	}
+}
+

@@ -1,0 +1,7 @@
+
+add_core = XIN
+trade_goods = cotton
+life_rating = 32
+add_core = MCK
+owner = MCK
+controller = MCK

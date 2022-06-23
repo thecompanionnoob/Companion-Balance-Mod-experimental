@@ -1,0 +1,128 @@
+v0.1:
+
+AS A DISCLAIMER:
+	This mod is basically just throwing all my ideas at the wall, some things might not work, some things might not be balanced, some things might not be fun. I am always welcoming to 
+	criticism and new ideas from others, just send me a message on Discord (Thecompanionnoob#6745).
+
+	This changelog is incomplete, know that there are several changes unlisted.
+
+Because this is probably going to be the most opened file in the mod other than the readme, i would also like to outline my general design philosophy and purpose for this mod here:
+	This mod is a rebalancing and performance focused mod made for multiplayer but playable in singleplayer. The ultimate goal is to make every country on the map by default either
+	no longer exist, or have content with interesting and varied gameplay, and many different ways to play each nation, while also improving the game's performance and adding quality
+	of life features while maintaining reasonable balance. I do not expect this release to meet all of those goals, but only then will I feel this mod is fully complete.
+
+	I had to replace the localisation files midway through development, PLEASE let me know if you find any localisation issues.
+
+*Misc changes:
+	*Many minor bugs & issues fixed, such as Peremyshl being Ukrainian.
+
+*Music & Graphical Changes:
+	*New title screen!
+	*Default music volume changed from 100% so that your eardrums don't burst when loading the mod for the first time.
+	*Removed the map overlay textures.
+
+*Mechanics Changes:
+	*Infamy limit is now 35.
+	*Adding wargoals no longer requires Jingoism.
+	*Electric gear, Ammunition, and Canned Food Factories require steel instead of iron.
+	*AI is far more willing to make peace.
+	*Gas attack & defense has a 100% chance of being invented after getting Military Directionism.
+	*Immigrant attraction from universal suffrage, weighted universal suffrage, and wealth voting has been increased.
+	*Immigrant attraction is reduced by 5% if you have slavery.
+	*Added grants.
+	*Added transfer CB.
+	*Capitals can be taken with the Take State CB or with the Acquire Core CB.
+	*Education effeciency from all the education techs is increased.
+	*All starting generals and admirals removed, every country that is meant to be playable starts with a +3 attack +3 defense general named "Giga Chad".
+	*Education & healthcare reforms debuffed, still have same effects just to a much lesser degree.
+	*Every suggested playable country starts has the same parties, which are as follows:
+	*	-Conservative: state capitalist, protectionist, moralist, limited citizenship, pro military.
+	*	-Reactionary: state capitalist, protectionist, moralist, residency, jingoism.
+	*	-Liberal: interventionist, protectionist, pluralist, full citizenship, pro military.
+	*	-Anarcho Liberal: laissez faire, free trade, athiest, full citizenship, pro military.
+	*	-Socialist: state capitalism, protectionism, secularized, full citizenship, anti military.
+	*	-Communist: planned economy, protectionism, atheist, full citizenship, pro military.
+	*	-Fascist: state capitalism, protectionism, moralism, residency, jingoism.
+	*Sanctions are now in the game; if you go over ~50 infamy (it is very slightly lower because of math) you will get some pretty horrible modifiers, and they will go away if you go under 50 infamy. (go to events\sanctions.txt for the modifiers or just go in game and type into the console "event 69002").
+	*Chinese culture pops now emigrate at a FAR lower rate than vanilla (there will still be some emigration, but it is far smaller).
+	*Emigration chance from unemployment increased.
+
+*Map & Pop Changes:
+	* 🦀 🦀 🦀 Sokoto is gone 🦀 🦀 🦀 
+	*The Caribbean is united into Haiti.
+	*Philippines starts independent.
+	*China is split into 3:
+	*	-The Southern nation is Yunnan, and starts with roughly equal pops to Manchuria and slightly more than Nanjing. All 3 have Land Reform and Imported Weapons at start, but Yunnan has Imported Ships.
+	*	-The Northern nation is Manchuria, and has Foreign Training methods as its special reform alongside the standard Imported Weapons and Land Reform.
+	*	-The Central nation is Nanjing, which starts with Administrative Reform as its special reform alongside Imported Weapons and Land Reform. They also start with 2 million less pops than the other 2 to compensate for the extra reform progress % of their reform.
+	*	-Each nation also has its own culture, which none of the others accept. If anyone forms china they get all 3 cultures as accepted.
+	*	-To form China you must conquer certain provinces from all 3 nations a civilize, and it grants 200 prestige and 25 infamy (keep in mind the infamy limit is 35 and china has not spent any infamy to unify due to special CB).
+	*	-Each Chinese nation gets Chinese Reunification CBs against eachother until they form China (unlocked 1837 to give a year to prepare).
+	*The Balkans start independent.
+	*Philippines starts independent.
+	*Canada starts independent. 
+	*Uncolonised land in North America is now owned by surrounding countries.
+	*Japan starts as russia sphere.
+	*Texas starts annexed into Mexico, although its cores still exist.
+	*Scandinavia starts unified.
+	*Haiti's pop is doubled (including the new land I gave them).
+	*Japan start civilized with 5 tech in all categories except no experimental railroads.
+	*Mainland Turkey's pop is doubled.
+	*USCA starts with Panama and Belize.
+	*South American borders cleaned up to follow state boundaries.
+	*USCA's pops doubled.
+	*Colombia's pops doubled.
+	*Starting militancy in USCA pops is removed.
+	*Starting war between Tripoli and Ottos is removed, and the rest of Libya is given to Tripoli.
+	*Egyptian provinces in Turkey given to Ottos, Ottoman provinces in Syria given to Egypt.
+	*Ottoman cores in the Levant are removed except for the state of Aleppo.
+	*Egypt start civilized with the same tech as Ottomans.
+	*Iraq starts independent.
+	*Balkan countries pops doubled (not in lands of foreign countries, for example croatian pops not doubled but bulgarians are).
+	*Australia starts independent with the same tech as GB.
+	*Georgia starts independent with the entire caucases.
+	*The state of United Provinces in India is split into Allahabad and United Provinces.
+	*Indonesian nations completely removed except Brunei. (land given to Netherlands)
+	*Ottomans have cores on Armenia.
+	*Russia has cores on Georgia.
+	*In order to improve performance, many regions which have seperate cores but are all ruled by 1 nation are consolidated into 1 tag's cores; for example all of the baltic states only have Latvian cores.
+	*Canadian soldier pops doubled (only in provinces with a decent population, so quebec/ontario/maritimes/st. johns in newfoundland).
+
+*New/Modified Events & Decisions:
+	*Spain has decisions to accept Portuguese and Berber if they do not go carlist, and has decisions to accept Caribeno and Filipino if they do.
+	*Statue of liberty no longer gives immigrant attraction.
+	*Philippines has a decision to accept Asian Minor if they take Java.
+	*The American Civil war is reworked:
+	*	-Slavery can be outlawed at any time like any other government reform, however it will instantly start the civil war.
+	*	-If slavery is not abolished by 1860, northern states will secede under the Free States of America, and the CSA can never rebel.
+	*	-Civil war events are more frequent than usual at start but do not increase in frequency over time (to reduce event spam & consciousness/militancy increase)
+	*	-The CSA and FSA start with their cores, and can still both gain more through the "secessionist sentiments" event.
+	*Manifest Destiny requires Ideological Thought rather than Romanticism, as there wouldn't be any other reason to get Romanticism than Manifest Destiny.
+	*Manifest Destiny also no longer requires owning Texas.
+	*Trail of tears removed (necessary because Cherokee removed).
+	*Immigration attraction from homestead act removed, and assimilation reduced from 50% to 5%.
+	*Brazil starts without afro brazilian accepted, and gets it accepted if they have outlawed slavery and have state & government.
+	*Greece can no longer form byzantium, but Aegea instead, which grants turkish as accepted pops.
+	*USCA starts with mexican and north andean accepted.
+	*Ottos get a decision in the first few months to decide to either reclaim European land or Middle Eastern land.
+	*The European route for the Ottomans grants Greek and Bulgarian as accepted.
+	*The Middle Eastern route gives Bedouin, Misri, and Caucasian as accepted.
+	*Bulgaria gets decisions to accept Greek, Albanian, Romanian, and Serbian. This is balanced by Bulgaria having the hardest starting situation in the Balkans (not counting Albania).
+
+*Culture & Religion Changes:
+	*NOTE so people don't get angry: these changes are not based on any realism, history, or political opinions, these are made solely with gameplay, balance, and performance in mind.
+	*The entire world is Sunni.
+	*All of the caribbean is Caribeno.
+	*Catalan & Basque are now Spanish.
+	*Indonesia is Asian Minor.
+	*Mainland Southeast Asia is Thai. 
+	*Not written here specifically, but many regions are homogenized, such as the Phillippines being entirely Filipino.
+	*Texan is now Dixie.
+	*Flemish is now dutch, and Wallonian is now French.
+	*Norwegian, Icelandic, Danish, Finnish, Swedish, and Sami are united into Scandinavian culture.
+	*All native american cultures have been consolidated into native american minor.
+	*All Oceanic cultures are consolidated into Hawaiian.
+	*Uzbek, Turkmen, Tajik, and Kyrgyz are now all Kazakh.
+	*Ukrainian, Byelorussian, Latvian, Lithuanian, and Estonian are all now Ruthenian.
+	*Georgian, Armenian, Azerbaijani and North Caucasian are now Caucasian.
+	*Minor chinese cultures removed, now it is just Beifaren, Nanfaren, and Manchu.

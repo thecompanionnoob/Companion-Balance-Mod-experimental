@@ -1,0 +1,221 @@
+#Leeward Islands Region - 61600
+#Ruled by Britain 1836
+#Antigua (25000/6250 POPS) #now independent
+2224 = {
+	aristocrats = {
+		culture = caribeno
+		religion = sunni
+		size = 100
+	}
+
+	bureaucrats = {
+		culture = caribeno
+		religion = sunni
+		size = 60
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = sunni
+		size = 20
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = sunni
+		size = 400
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = sunni
+		size = 20
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = sunni
+		size = 400
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = sunni
+		size = 300
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = sunni
+		size = 10940
+	}
+}
+#Montserrat (5300/1325 POPS) #still British Colony
+2225 = {
+	aristocrats = {
+		culture = caribeno
+		religion = sunni
+		size = 20
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = sunni
+		size = 10
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = sunni
+		size = 60
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = sunni
+		size = 60
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = sunni
+		size = 30
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = sunni
+		size = 90
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = sunni
+		size = 20
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = sunni
+		size = 2760
+	}
+}
+#Tortola (4800/1200 POPS) #still British Colony
+2226 = {
+	aristocrats = {
+		culture = caribeno
+		religion = sunni
+		size = 20
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = sunni
+		size = 20
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = sunni
+		size = 80
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = sunni
+		size = 80
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = sunni
+		size = 30
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = sunni
+		size = 70
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = sunni
+		size = 20
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = sunni
+		size = 2080
+	}
+}
+#Saint Kitts (26500/6625 POPS) #now independent
+2227 = {
+	aristocrats = {
+		culture = caribeno
+		religion = sunni
+		size = 150
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = sunni
+		size = 30
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = sunni
+		size = 450
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = sunni
+		size = 520
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = sunni
+		size = 300
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = sunni
+		size = 150
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = sunni
+		size = 11800
+	}
+
+}
