@@ -30,12 +30,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA36898"
-		release_vassal = HAN
-		diplomatic_influence = {
-			who = HAN
-			value = -200
-		}
-		prestige = 5
+		prestige = 20
 	}
 }
 

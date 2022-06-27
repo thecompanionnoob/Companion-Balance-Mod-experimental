@@ -10,7 +10,7 @@ HAN = {
 
 	value = 125
 
-	level = 3
+	level = 2
 
 	influence_value = 25
 
@@ -422,29 +422,6 @@ army = {
 		name= "X. Kavalleriebrigade"
 		type = dragoon
 		home = 692
-	}
-}
-
-army = {
-	name = "VIII. Korps"
-	location = 594
-	
-	regiment = {
-		name = "XXX. Linieninfanteriebrigade"
-		type = infantry
-		home = 594
-	}
-	
-	regiment = {
-		name= "XI. Kavalleriebrigade"
-		type = dragoon
-		home = 701
-	}
-
-	regiment = {
-		name = "V. Artilleriebrigade"
-		type = artillery
-		home = 701
 	}
 }
 
