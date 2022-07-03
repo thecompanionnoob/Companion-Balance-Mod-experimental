@@ -9,12 +9,6 @@ country_event = {
 		civilized = yes
 		NOT = {
 			OR = {
-				religion = sunni
-				religion = shiite
-			}
-		}
-		NOT = {
-			OR = {
 				has_country_modifier = libertine_culture
 				has_country_modifier = temperance_league
 				poor_strata_life_needs = 0.9
@@ -72,12 +66,6 @@ country_event = {
 	
 	trigger = {
 		civilized = yes
-		NOT = {
-			OR = {
-				religion = sunni
-				religion = shiite
-			}
-		}
 		NOT = {
 			poor_strata_life_needs = 0.95
 		}
@@ -319,12 +307,6 @@ country_event = {
 
 	trigger = {
 		civilized = yes
-		NOT = {
-			OR = {
-				religion = sunni
-				religion = shiite
-			}
-		}
 		moralism = 10
 		conservative = 20
 	}
@@ -392,12 +374,6 @@ country_event = {
 		
 	trigger = {
 		civilized = yes
-		NOT = {
-			OR = {
-				religion = sunni
-				religion = shiite
-			}
-		}
 		has_country_modifier = temperance_league
 	}
 
