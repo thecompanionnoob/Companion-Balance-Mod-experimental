@@ -36,6 +36,8 @@ political_parties = underground_parties
 foreign_weapons = yes_foreign_weapons
 land_reform = yes_land_reform
 
+flintlock_rifles = 1
+
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
