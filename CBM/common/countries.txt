@@ -14,6 +14,7 @@ USA		= "countries/USA.txt"
 JAP		= "countries/Japan.txt"
 ITA		= "countries/Italy.txt"
 KUK		= "countries/Austria-Hungary.txt"
+DAN		= "countries/Danubia.txt"
 
 
 # Scandinavia
@@ -68,9 +69,7 @@ VEN		= "countries/Venice.txt"
 BOH		= "countries/Bohemia-Moravia.txt"
 KRA		= "countries/Krakow.txt"
 CRI		= "countries/Crimea.txt"
-EST		= "countries/Estonia.txt"
 HUN		= "countries/Hungary.txt"
-LIT		= "countries/Lithuania.txt"
 LAT		= "countries/Latvia.txt"
 POL		= "countries/Poland.txt"
 SLV		= "countries/Slovakia.txt"

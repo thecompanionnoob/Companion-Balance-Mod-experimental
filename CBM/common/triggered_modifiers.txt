@@ -2,3 +2,33 @@
 # these are checked for each countries once/month and then applied.
 #
 # Effects are fully scriptable here.
+big_country_leadership = {
+	trigger = {
+		total_pops = 2500000 #2.5 million
+	}
+	icon = 9
+	leadership_modifier = 1
+}
+#ai buffs
+ai_literacy = {
+	trigger = {
+		ai = yes
+		civilized = yes
+	}
+	icon = 9
+	education_effeciency_modifier = 0.2
+}
+ai_tax = {
+	trigger = {
+		ai = yes
+	}
+	icon = 9
+	min_tax = 0.99
+}
+ai_tariffs = {
+	trigger = {
+		ai = yes
+	}
+	icon = 9
+	min_tariff = 0.5
+}

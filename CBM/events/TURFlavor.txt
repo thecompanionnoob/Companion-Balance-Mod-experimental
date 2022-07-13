@@ -93,8 +93,6 @@ country_event = {
 country_event = {
 	id = 69000
 
-	major = yes
-
 	trigger = {
 		tag = TUR
 	}

@@ -148,40 +148,6 @@ political_decisions = {
 		}
 	}
 	
-	end_the_merina_monarchy = {
-		potential = {
-			OR = {
-				has_country_flag = lambert_has_been_chartered
-				MAD = {
-					in_sphere = FRA
-					civilized = no
-			}
-				}
-			NOT = {
-				has_country_flag = merina_monarchy_is_over
-			}
-			exists = MAD
-			MAD = {AI = yes}
-			tag = FRA
-		}
-		
-		allow = {
-			MAD = {
-				in_sphere = FRA
-				civilized = no
-				war = no
-			}
-			invention = mission_to_civilize
-			invention = expansionism
-			war = no
-		}
-		
-		effect = {
-			inherit = MAD
-			set_country_flag = merina_monarchy_is_over
-		}
-	}
-	
 	brazzas_expedition = {
 		potential = {
 			tag = FRA
@@ -207,10 +173,19 @@ political_decisions = {
 	the_rhine_crisis = {
 		potential = {
 			tag = FRA
-			exists = PRU
-			PRU = {
-				owns = 572
-				owns = 575
+			OR = {
+				exists = PRU
+				exists = NGF
+			}
+			OR = {
+				PRU = {
+					owns = 572
+					owns = 575
+				}
+				NGF = {
+					owns = 572
+					owns = 575
+				}
 			}
 			NOT = {
 				has_country_flag = crisis_on_the_rhine

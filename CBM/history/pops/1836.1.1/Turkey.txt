@@ -47,61 +47,25 @@
 	clergymen = {
 		culture = turkish
 		religion = sunni
-		size = 350
+		size = 500
 	}
 
 	artisans = {
 		culture = turkish
 		religion = sunni
-		size = 16000
+		size = 20000
 	}
 
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 9650
-	}
-
-	clergymen = {
-		culture = bulgarian
-		religion = sunni
-		size = 100
-	}
-
-	artisans = {
-		culture = bulgarian
-		religion = sunni
-		size = 4000
-	}
-
-	farmers = {
-		culture = bulgarian
-		religion = sunni
-		size = 17900
-	}
-
-	clergymen = {
-		culture = turkish
-		religion = sunni
-		size = 50
+		size = 27550
 	}
 
 	artisans = {
 		culture = turkish
 		religion = sunni
 		size = 1950
-	}
-
-	clergymen = {
-		culture = turkish
-		religion = sunni
-		size = 100
-	}
-
-	artisans = {
-		culture = turkish
-		religion = sunni
-		size = 3900
 	}
 }
 #Kirklareli (112000/28000 POPS)
@@ -155,19 +119,19 @@
 	}
 
 	clergymen = {
-		culture = bulgarian
+		culture = turkish
 		religion = sunni
 		size = 150
 	}
 
 	artisans = {
-		culture = bulgarian
+		culture = turkish
 		religion = sunni
 		size = 200
 	}
 
 	farmers = {
-		culture = bulgarian
+		culture = turkish
 		religion = sunni
 		size = 11650
 	}
@@ -377,19 +341,19 @@
 	}
 
 	clergymen = {
-		culture = bulgarian
+		culture = turkish
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = bulgarian
+		culture = turkish
 		religion = sunni
 		size = 5000
 	}
 
 	farmers = {
-		culture = bulgarian
+		culture = turkish
 		religion = sunni
 		size = 950
 	}
@@ -437,13 +401,13 @@
 	}
 
 	clergymen = {
-		culture = north_italian
+		culture = turkish
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = north_italian
+		culture = turkish
 		religion = sunni
 		size = 4000
 	}

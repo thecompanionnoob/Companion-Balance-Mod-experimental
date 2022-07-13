@@ -117,87 +117,6 @@ political_decisions = {
 		}
 	}
 
-	protect_eastern_christians = {
-		potential = {
-			tag = RUS
-			is_greater_power = yes
-			government = absolute_monarchy
-			NOT = {
-				has_country_flag = eastern_christians_up_in_here_yall
-			}
-			exists = TUR
-			TUR = {
-				government = absolute_monarchy
-				is_greater_power = no
-			}
-		}
-		
-		allow = {
-			NOT = {
-				relation = {
-					who = TUR
-					value = 0
-				}
-			}
-			TUR = {
-				average_militancy = 3
-			}
-		}
-		
-		effect = {
-			set_country_flag = eastern_christians_up_in_here_yall
-			add_country_modifier = {
-				name = protector_of_eastern_christendom
-				duration = -1
-			}
-			any_greater_power = {
-				limit = {
-					NOT = {
-						tag = TUR
-					}
-					capital_scope = {
-						continent = europe
-					}
-				}
-				country_event = { id=19030 days=0 }
-			}
-		}
-	}
-	
-	peking_convention = {
-		potential = {
-			tag = RUS
-			MCK = {
-					owns = 1082 }
-			NOT = {
-				has_country_flag = peking_convention
-				war_with = MCK
-			}
-			OR = {
-				is_sphere_leader_of = MCK
-				has_global_flag = summer_palace_torched
-			}
-		}
-		
-		allow = {
-			is_greater_power = yes
-		}
-		
-		effect = {
-			CHI_1082 = {
-				add_core = RUS
-			}
-			1469 = {
-				add_core = RUS
-			}
-			set_country_flag = peking_convention			
-			MCK = {
-				country_event = { id=80000 days=0 }
-			}
-			prestige = 2
-		}
-	}
-
 	russian_vladivostok = {
 		potential = {
 		tag = RUS
@@ -205,7 +124,7 @@ political_decisions = {
 		owns = 1084
 		owns = 2617
 		owns = 1083
-        owns = 1082
+        	owns = 1082
 		NOT = {
 				has_global_flag = russian_vladivostok
 			}
@@ -236,27 +155,6 @@ political_decisions = {
 			}
 			prestige = 5
 			set_global_flag = russian_vladivostok
-		}
-	}
-	
-	move_capital_to_moscow = {
-		potential = {
-			tag = RUS
-			NOT = { owns = 339 } # Viipuri
-			owns = 1008 # Moscow
-			capital = 994
-		}
-		
-		allow = {
-			owns = 1008 # Moscow
-		}
-		
-		effect = {
-			capital = 1008
-			prestige = 5
-		}
-		ai_will_do = {
-			factor = 1
 		}
 	}
 	
