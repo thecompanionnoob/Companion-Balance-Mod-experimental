@@ -1,0 +1,30 @@
+dummy;;;;;;;;;x
+NAN;Nanjing;;;;;;;;;x
+NAN_ADJ;Nanjing;;;;;;;;;x
+FSA;Free States of America;;;;;;;;;x
+FSA_ADJ;Free American;;;;;;;;;x
+PAK;Pakistan;;;;;;;;;x
+PAK_ADJ;Pakistani;;;;;;;;;x
+MGH;Mughal Empire;;;;;;;;;x
+MGH_ADJ;Mughal;;;;;;;;;x
+AEG;Aegea;;;;;;;;;x
+AEG_ADJ;Aegean;;;;;;;;;x
+NORMAL_WAR_ITALY_REUNIFY_NAME;War of Italian Unification;;;;;;;;;x
+NORMAL_WAR_CHINA_REUNIFY_NAME;War of Chinese Reunification;;;;;;;;;x
+italy_must_come_together;Italian Unification;;;;;;;;;x
+china_must_come_together;Chinese Reunification;;;;;;;;;x
+italy_must_come_together_short;Acquire Italian State $STATE$;;;;;;;;;x
+china_must_come_together_short;Acquire Chinese State $STATE$;;;;;;;;;x
+italy_must_come_together_setup;Italian Unification;;;;;;;;;x
+china_must_come_together_setup;Chinese Reunification;;;;;;;;;x
+italy_must_come_together_desc;Italian Unification;;;;;;;;;x
+china_must_come_together_desv;Chinese Reunification;;;;;;;;;x
+caucasian;Caucasian;;;;;;;;;x
+ruthenian;Ruthenian;;;;;;;;;x
+mountain_german;Alpine German;;;;;;;;;x
+DAN;Danubia;;;;;;;;;x
+DAN_ADJ;Danubian;;;;;;;;;x
+big_country_leadership;Leadership buff for large nations;;;;;;;;;x
+PRB;Portugal-Brazil;;;;;;;;;x
+PRB_ADJ;Porto-Brazilian;;;;;;;;;x
+ethiopian;Ethiopian;;;;;;;;;x

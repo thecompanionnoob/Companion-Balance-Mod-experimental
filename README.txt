@@ -33,6 +33,4 @@ Tips for getting the right checksum:
 
 	(if you dont have the steam version, it shouldn't be a problem, but if you dont have money issues you could try buying the game on steam)
 
-	5. if this fails, ask someone else for help (who probably knows more than me tbh)
-
-	6. if all else fails, uninstall and reinstall the game. (probably delete the game manually as well, not just through steam as well as the vic2 folder in the documents folder)
+	5. if all else fails, uninstall and reinstall the game. (delete the game manually as well, not just through steam as well as the vic2 folder in the documents folder)
