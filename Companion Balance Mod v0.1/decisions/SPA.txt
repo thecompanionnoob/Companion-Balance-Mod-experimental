@@ -1,0 +1,90 @@
+political_decisions = {
+	SPA_accept_portuguese = {
+		potential = {
+			tag = SPA
+			NOT = {
+				has_country_flag = portuguese_accepted
+				has_country_flag = filipino_accepted
+				has_country_flag = caribeno_accepted
+				has_country_flag = carlism_prevails
+			}
+		}
+		allow = {
+			ideological_thought = 1
+			owns = 521
+		}
+		effect = {
+			add_accepted_culture = portuguese
+			badboy = 5
+			prestige = 15
+			set_country_flag = portuguese_accepted
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	SPA_accept_berber = {
+		potential = {
+			tag = SPA
+			NOT = {
+				has_country_flag = berber_accepted
+				has_country_flag = filipino_accepted
+				has_country_flag = caribeno_accepted
+				has_country_flag = carlism_prevails
+			}
+		}
+		allow = {
+			ideological_thought = 1
+			owns = 1680
+		}
+		effect = {
+			add_accepted_culture = berber
+			badboy = 5
+			prestige = 15
+			set_country_flag = berber_accepted
+		}
+	}
+	SPA_accept_filipino = {
+		potential = {
+			tag = SPA
+			NOT = {
+				has_country_flag = filipino_accepted
+				has_country_flag = berber_accepted
+				has_country_flag = portuguese_accepted
+			}
+			has_country_flag = carlism_prevails
+		}
+		allow = {
+			ideological_thought = 1
+			owns = 1455
+		}
+		effect = {
+			add_accepted_culture = filipino
+			badboy = 5
+			prestige = 15
+			set_country_flag = filipino_accepted
+		}
+	}
+	SPA_accept_caribeno = {
+		potential = {
+			tag = SPA
+			NOT = {
+				has_country_flag = caribeno_accepted
+				has_country_flag = portuguese_accepted
+				has_country_flag = berber_accepted
+			}
+			has_country_flag = carlism_prevails
+		}
+		allow = {
+			ideological_thought = 1
+			owns = 2209
+			owns = 2213
+		}
+		effect = {
+			add_accepted_culture = caribeno
+			badboy = 5
+			prestige = 15
+			set_country_flag = caribeno_accepted
+		}
+	}
+}
