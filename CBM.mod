@@ -1,5 +1,5 @@
-name = "Companion Balance Mod v0.1"
-path = "mod/CBM"
+name = "Companion Balance Mod v1.0"
+path = "mod/CBM v1.0"
 user_dir = "CBM"
 replace_path = "events"
 replace_path = "history"

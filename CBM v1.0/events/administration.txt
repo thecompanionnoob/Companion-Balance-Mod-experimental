@@ -1,0 +1,66 @@
+country_event = { #tech school explanation
+	id = 69001
+	title = "EVTNAME69001"
+	desc = "EVTDESC69001"
+
+	trigger = {
+		NOT = {
+			has_country_flag = tech_school_explained
+		}
+	}
+
+	option = {
+		name = "EVTOPTA69001"
+		prestige = 1
+		set_country_flag = tech_school_explained
+	}
+}
+country_event = { #unoccupy request for when war is surrendered
+	id = 69007
+	title = "EVTNAME69007"
+	desc = "EVTDESC69007"
+	
+	is_triggered_only = yes
+
+	option = { #yes we will unoccupy you
+		name = "EVTOPTA69007"
+		FROM = {
+			country_event = { id = 69008 days = 0 }
+		}
+	}
+
+	option = { #no, you are epically trolling
+		name = "EVTOPTB69007"
+		FROM = {
+			country_event = { id = 69009 days = 0 }
+		}
+	}
+}
+
+country_event = { #unoccupy accepted yay
+	id = 69008
+	title = "EVTNAME69008"
+	desc = "EVTDESC69008"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA69008"
+		any_owned = {
+			limit = { controlled_by = FROM }
+			change_controller = THIS
+		}
+	}
+}
+
+country_event = { #rejection :(
+	id = 69009
+	title = "EVTNAME69009"
+	desc = "EVTDESC69009"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA69009"
+	}
+}

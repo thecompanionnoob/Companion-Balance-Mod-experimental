@@ -1,0 +1,68 @@
+leader = {
+	name = "Giga Chad"
+	date = 1835.12.31
+	type = land
+	personality = defence_3.1
+	background = attack_3.1
+	prestige = 0
+} 
+
+army = {
+	name = "Royal Siamese Army"
+	location = 1346
+	regiment = {
+		name= "1. Brigade"
+		type = infantry
+		home = 1346
+	}
+
+	regiment = {
+		name= "2. Brigade"
+		type = infantry
+		home = 1347
+	}
+
+	regiment = {
+		name= "3. Brigade"
+		type = infantry
+		home = 1348
+	}
+
+	regiment = {
+		name= "4. Brigade"
+		type = infantry
+		home = 1349
+	}
+
+	regiment = {
+		name= "5. Brigade"
+		type = infantry
+		home = 1350
+	}
+
+	regiment = {
+		name= "6. Brigade"
+		type = infantry
+		home = 1351
+	}
+
+	regiment = {
+		name= "7. Brigade"
+		type = infantry
+		home = 1352
+	}
+
+	regiment = {
+		name= "8. Brigade"
+		type = cavalry
+		home = 1353
+	}
+
+	regiment = {
+		name= "9. Brigade"
+		type = cavalry
+		home = 1354
+	}
+
+}
+

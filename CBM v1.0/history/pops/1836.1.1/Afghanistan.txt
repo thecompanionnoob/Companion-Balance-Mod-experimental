@@ -1,0 +1,304 @@
+#Afghanistan Region (3672000)
+#under the rule of Afghanistan in 1836
+#Kabul (996000/249000 POPS)
+1209 = {
+	aristocrats = {
+		culture = kazak
+		religion = sunni
+		size = 5000
+	}
+
+	bureaucrats = {
+		culture = kazak
+		religion = sunni
+		size = 825
+	}
+
+	officers = {
+		culture = kazak
+		religion = sunni
+		size = 975
+	}
+
+	clergymen = {
+		culture = kazak
+		religion = sunni
+		size = 2488
+	}
+
+	artisans = {
+		culture = kazak
+		religion = sunni
+		size = 11100
+	}
+
+	soldiers = {
+		culture = kazak
+		religion = sunni
+		size = 12250
+	}
+
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 216462
+	}
+}
+#Balkh (516000/129000 POPS)
+1211 = {
+	aristocrats = {
+		culture = kazak
+		religion = sunni
+		size = 2500
+	}
+
+	clergymen = {
+		culture = kazak
+		religion = sunni
+		size = 1288
+	}
+
+	artisans = {
+		culture = kazak
+		religion = sunni
+		size = 4050
+	}
+
+	soldiers = {
+		culture = kazak
+		religion = sunni
+		size = 1300
+	}
+
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 119799
+	}
+}
+#Herat (324000/81000 POPS)
+1212 = {
+	aristocrats = {
+		culture = kazak
+		religion = sunni
+		size = 1575
+	}
+
+	clergymen = {
+		culture = kazak
+		religion = sunni
+		size = 810
+	}
+
+	artisans = {
+		culture = kazak
+		religion = sunni
+		size = 4050
+	}
+
+	soldiers = {
+		culture = kazak
+		religion = sunni
+		size = 5100
+	}
+
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 69650
+	}
+}
+#Bamyan (412000/103000 POPS)
+1213 = {
+	aristocrats = {
+		culture = kazak
+		religion = sunni
+		size = 1975
+	}
+
+	clergymen = {
+		culture = kazak
+		religion = sunni
+		size = 1000
+	}
+
+	artisans = {
+		culture = kazak
+		religion = sunni
+		size = 5550
+	}
+
+	soldiers = {
+		culture = kazak
+		religion = sunni
+		size = 3825
+	}
+
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 92250
+	}
+}
+#Farrah (464000/116000 POPS)
+1214 = {
+	aristocrats = {
+		culture = kazak
+		religion = sunni
+		size = 2275
+	}
+
+	clergymen = {
+		culture = kazak
+		religion = sunni
+		size = 1150
+	}
+
+	artisans = {
+		culture = kazak
+		religion = sunni
+		size = 5800
+	}
+
+	soldiers = {
+		culture = kazak
+		religion = sunni
+		size = 2200
+	}
+
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 104762
+	}
+}
+#Qandahar (368000/92000 POPS)
+1215 = {
+	aristocrats = {
+		culture = kazak
+		religion = sunni
+		size = 1775
+	}
+
+	clergymen = {
+		culture = kazak
+		religion = sunni
+		size = 938
+	}
+
+	artisans = {
+		culture = kazak
+		religion = sunni
+		size = 4575
+	}
+
+	soldiers = {
+		culture = kazak
+		religion = sunni
+		size = 2300
+	}
+
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 82775
+	}
+}
+#Jalalabad (268000/67000 POPS)
+1216 = {
+	aristocrats = {
+		culture = kazak
+		religion = sunni
+		size = 1300
+	}
+
+	clergymen = {
+		culture = kazak
+		religion = sunni
+		size = 675
+	}
+
+	artisans = {
+		culture = kazak
+		religion = sunni
+		size = 3350
+	}
+
+	soldiers = {
+		culture = kazak
+		religion = sunni
+		size = 4000
+	}
+
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 57985
+	}
+}
+#Ghzani (324000/81000 POPS)
+1217 = {
+	aristocrats = {
+		culture = kazak
+		religion = sunni
+		size = 1550
+	}
+
+	clergymen = {
+		culture = kazak
+		religion = sunni
+		size = 801
+	}
+
+	artisans = {
+		culture = kazak
+		religion = sunni
+		size = 4050
+	}
+
+	soldiers = {
+		culture = kazak
+		religion = sunni
+		size = 800
+	}
+
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 72887
+	}
+}
+#Badakhshan Region (340000)
+#under the rule of Afghanistan in 1836
+#Faizabad (340000/85000 POPS)
+1210 = {
+	aristocrats = {
+		culture = kazak
+		religion = sunni
+		size = 1775
+	}
+
+	clergymen = {
+		culture = kazak
+		religion = sunni
+		size = 825
+	}
+
+	artisans = {
+		culture = kazak
+		religion = sunni
+		size = 4100
+	}
+
+	soldiers = {
+		culture = kazak
+		religion = sunni
+		size = 5100
+	}
+
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 73337
+	}
+}

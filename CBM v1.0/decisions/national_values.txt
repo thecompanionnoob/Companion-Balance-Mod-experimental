@@ -1,0 +1,88 @@
+political_decisions = {
+	nv_switch_enable = {
+		alert = no
+		potential = {
+			NOT = {
+				has_country_flag = nv_switch_enabled
+			}
+			NOT = {
+				has_country_flag = picked_nv
+			}
+		}
+		allow = {}
+		effect = {
+			set_country_flag = nv_switch_enabled
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nv_switch_disable = {
+		alert = no
+		potential = {
+			has_country_flag = nv_switch_enabled
+			NOT = {
+				has_country_flag = picked_nv
+			}
+		}
+		allow = {}
+		effect = {
+			clr_country_flag = nv_switch_enabled
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	order_decision = {
+		alert = no
+		potential = {
+			has_country_flag = nv_switch_enabled
+			NOT = {
+				has_country_flag = picked_nv
+			}
+		}
+		allow = {}
+		effect = {
+			set_country_flag = picked_nv
+			nationalvalue = nv_order
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	liberty_decision = {
+		alert = no
+		potential = {
+			has_country_flag = nv_switch_enabled
+			NOT = {
+				has_country_flag = picked_nv
+			}
+		}
+		allow = {}
+		effect = {
+			set_country_flag = picked_nv
+			nationalvalue = nv_liberty
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	equality_decision = {
+		alert = no
+		potential = {
+			has_country_flag = nv_switch_enabled
+			NOT = {
+				has_country_flag = picked_nv
+			}
+		}
+		allow = {}
+		effect = {
+			set_country_flag = picked_nv
+			nationalvalue = nv_equality
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+		

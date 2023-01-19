@@ -1,0 +1,80 @@
+# Triggered modifiers are here.
+# these are checked for each countries once/month and then applied.
+#
+# Effects are fully scriptable here.
+
+
+
+unciv_can_mobilize_yay = {
+	trigger = {
+		NOT = {
+			civilized = yes
+		}
+	}
+	mobilisation_size = 0.08 #the base debuff so uncivs cant mob is -0.10, so this means that if u are unciv you can mob, just less than a civilized nation
+}
+
+
+
+#the reform desire militancy may be too much or too little, requires playtesting either in sp or the first mp games
+early_game_reform_desire_militancy = {
+	trigger = {
+		NOT = {
+			year = 1850
+		}
+		civilized = yes
+	}
+	icon = 9
+	global_pop_militancy_modifier = 0.07
+}
+
+early_midgame_reform_desire_militancy = {
+	trigger = {
+		year = 1850
+		NOT = {
+			year = 1875
+		}
+		civilized = yes
+	}
+	icon = 9
+	global_pop_militancy_modifier = 0.13
+}
+
+late_midgame_reform_desire_militancy = {
+	trigger = {
+		year = 1875
+		NOT = {
+			year = 1900
+		}
+		civilized = yes
+	}
+	icon = 9
+	global_pop_militancy_modifier = 0.2
+}
+
+late_game_reform_desire_militancy = {
+	trigger = {
+		year = 1900
+		civilized = yes
+	}
+	icon = 9
+	global_pop_militancy_modifier = 0.27
+}
+
+
+
+#ai help
+ai_tax = {
+	trigger = {
+		ai = yes
+	}
+	icon = 9
+	min_tax = 0.99
+}
+ai_tariffs = {
+	trigger = {
+		ai = yes
+	}
+	icon = 9
+	min_tariff = 0.5
+}

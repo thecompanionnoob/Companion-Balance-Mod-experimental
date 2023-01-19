@@ -4,22 +4,21 @@ AS A DISCLAIMER:
 	This mod is basically just throwing all my ideas at the wall, some things might not work, some things might not be balanced, some things might not be fun. I am always welcoming to 
 	criticism and new ideas from others, just send me a message on Discord (Thecompanionnoob#6745).
 
-	This changelog is incomplete, know that there are several changes unlisted.
+	This changelog is incomplete, know that there are several changes unlisted (some changes may be wrong, if i forgot to change it here when i edited the change).
 
 Because this is probably going to be the most opened file in the mod other than the readme, i would also like to outline my general design philosophy and purpose for this mod here:
 	This mod is a rebalancing and performance focused mod made for multiplayer but playable in singleplayer. The ultimate goal is to make every country on the map by default either
 	no longer exist, or have content with interesting and varied gameplay, and many different ways to play each nation, while also improving the game's performance and adding quality
 	of life features while maintaining reasonable balance. I do not expect this release to meet all of those goals, but only then will I feel this mod is fully complete.
 
-	I had to replace the localisation files midway through development, PLEASE let me know if you find any localisation issues.
+	I had to replace the localisation files midway through development, PLEASE let me know if you find any localisation issues. (such as missing localisation, question marks in the names of things, etc.)
 
-*Misc changes:
-	*Many minor bugs & issues fixed, such as Peremyshl being Ukrainian.
+*Misc changes
+	*Added a host nation in the place of sikkim in the himalayas called "hostland"
 
 *Music & Graphical Changes:
 	*New title screen!
-	*Default music volume changed from 100% so that your eardrums don't burst when loading the mod for the first time.
-	*Removed the map overlay textures.
+	*Changed the map graphics quite a bit, emphasis on micro. if you don't like it, delete everything in the CBM/map/terrain folder; it shouldn't change the checksum. You can also replace these with the files from another mod with a map that you prefer.
 
 *Mechanics Changes:
 	*Infamy limit is now 35.
@@ -43,9 +42,17 @@ Because this is probably going to be the most opened file in the mod other than 
 	*	-Socialist: state capitalism, protectionism, secularized, full citizenship, anti military.
 	*	-Communist: planned economy, protectionism, atheist, full citizenship, pro military.
 	*	-Fascist: state capitalism, protectionism, moralism, residency, jingoism.
-	*Sanctions are now in the game; if you go over ~50 infamy (it is very slightly lower because of math) you will get some pretty horrible modifiers, and they will go away if you go under 50 infamy. (go to events\sanctions.txt for the modifiers or just go in game and type into the console "event 69002").
 	*Chinese culture pops now emigrate at a FAR lower rate than vanilla (there will still be some emigration, but it is far smaller).
-	*Emigration chance from unemployment increased.
+	*Emigration chance from unemployment increased. (if pops are unemployed this is now a skill issue due to RGOs not firing pops, in vanilla it just happens normally)
+	*AI has some extra buffs. (see triggered_modifiers.txt in common for the buffs)
+	*Countries over 2.5m pops get extra leadership.
+	*The max fort level is lower than vanilla (it increases by 1 every other tech, while vanilla increases by 1 every tech). This is for a few reasons, including:
+	*	Forts add warscore cost for acquire state wargoals (by a lot!) which is quite an issue, this is like a bandaid fix. Later i will overhaul warscore, in an update
+	*	Less forts should make combat more biased towards offense, which can (theoretically) make for more dynamic wars.
+	*RGOs don't fire pops when the goods' price is too low.
+	*All nations start with traditional academia, and can change to any other tech school at any time with no penalty, however this decision is permanent.
+	*National values work similarly, and have been rebalanced. See the decisions in game or common/nationalvalues.txt for their modifiers.
+	*Uncivs can now mobilize, but less than civilized nations (depending on their chosen national value).
 
 *Map & Pop Changes:
 	* 🦀 🦀 🦀 Sokoto is gone 🦀 🦀 🦀 
@@ -56,8 +63,10 @@ Because this is probably going to be the most opened file in the mod other than 
 	*	-The Northern nation is Manchuria, and has Foreign Training methods as its special reform alongside the standard Imported Weapons and Land Reform.
 	*	-The Central nation is Nanjing, which starts with Administrative Reform as its special reform alongside Imported Weapons and Land Reform. They also start with 2 million less pops than the other 2 to compensate for the extra reform progress % of their reform.
 	*	-Each nation also has its own culture, which none of the others accept. If anyone forms china they get all 3 cultures as accepted.
-	*	-To form China you must conquer certain provinces from all 3 nations a civilize, and it grants 200 prestige and 25 infamy (keep in mind the infamy limit is 35 and china has not spent any infamy to unify due to special CB).
-	*	-Each Chinese nation gets Chinese Reunification CBs against eachother until they form China (unlocked 1837 to give a year to prepare).
+	*	-To form China you must conquer certain provinces from all 3 nations and civilize, it grants 200 prestige and 25 infamy (keep in mind the infamy limit is 35 and china has not spent any infamy to unify due to special CB).
+	*	-Each Chinese nation gets Chinese Reunification CBs against eachother until someone forms China (unlocked 1837 to give a year to prepare).
+	*China's pops have been halved.
+	*Sardinia and Sicily both get special cbs on italian minors; they each have unique italy formation decisions that just require owning key central italian states, so it is like a race for one to form italy before the other.
 	*The Balkans start independent.
 	*Philippines starts independent.
 	*Canada starts independent. 
@@ -86,9 +95,12 @@ Because this is probably going to be the most opened file in the mod other than 
 	*Ottomans have cores on Armenia.
 	*Russia has cores on Georgia.
 	*In order to improve performance, many regions which have seperate cores but are all ruled by 1 nation are consolidated into 1 tag's cores; for example all of the baltic states only have Latvian cores.
-	*Canadian soldier pops doubled (only in provinces with a decent population, so quebec/ontario/maritimes/st. johns in newfoundland).
+	*Canadian soldier pops doubled.
+	*Siam has been given extra starting reforms as well as having cambodia and laos annexed at game start.
+	*The modern nation of pakistan is united and has decisions to form the Mughal Empire and then form India.
+	*India's pops outside of Pakistan have been halved.
 
-*New/Modified Events & Decisions:
+*Events & Decisions:
 	*Spain has decisions to accept Portuguese and Berber if they do not go carlist, and has decisions to accept Caribeno and Filipino if they do.
 	*Statue of liberty no longer gives immigrant attraction.
 	*Philippines has a decision to accept Asian Minor if they take Java.
@@ -107,7 +119,9 @@ Because this is probably going to be the most opened file in the mod other than 
 	*Ottos get a decision in the first few months to decide to either reclaim European land or Middle Eastern land.
 	*The European route for the Ottomans grants Greek and Bulgarian as accepted.
 	*The Middle Eastern route gives Bedouin, Misri, and Caucasian as accepted.
-	*Bulgaria gets decisions to accept Greek, Albanian, Romanian, and Serbian. This is balanced by Bulgaria having the hardest starting situation in the Balkans (not counting Albania).
+	*Bulgaria gets decisions to accept Greek, Albanian, Romanian, and Serbian. This is balanced by Bulgaria having by far the hardest starting situation in the Balkans (not counting Albania).
+	*Most railroading decisions and events removed, such as the crimean war decision & events.
+	*Most larp decisions and events that just give prestige or other non-consequential modifiers are removed for preformance.
 
 *Culture & Religion Changes:
 	*NOTE so people don't get angry: these changes are not based on any realism, history, or political opinions, these are made solely with gameplay, balance, and performance in mind.
@@ -126,3 +140,4 @@ Because this is probably going to be the most opened file in the mod other than 
 	*Ukrainian, Byelorussian, Latvian, Lithuanian, and Estonian are all now Ruthenian.
 	*Georgian, Armenian, Azerbaijani and North Caucasian are now Caucasian.
 	*Minor chinese cultures removed, now it is just Beifaren, Nanfaren, and Manchu.
+	*South German is split into Alpine German and South German.

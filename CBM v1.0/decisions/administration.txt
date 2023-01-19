@@ -1,0 +1,47 @@
+political_decisions = {
+	request_unoccupation = {
+		potential = {
+			ai = no
+		}
+		allow = {
+			war = yes
+			NOT = { has_country_modifier = requesting_cease_fire }
+			war_countries = { ai = no }
+		}
+		effect = {
+			add_country_modifier = { name = requesting_cease_fire duration = 20 }
+			any_owned = {
+				limit = {
+					NOT = {
+						countrolled_by = this
+					}
+					controller = { ai = no }
+				}
+				controller = { 
+					country_event = { id = 69007 days = 0 }
+				}
+			}
+		}
+	}
+	setup = {
+		potential = { 
+			tag = JAN 
+			NOT = {
+				has_country_flag = setup
+			}
+		}
+		allow = {}
+		effect = {
+			any_country = {
+				limit = { is_greater_power = yes }
+				treasury = 200000
+			}
+			any_country = {
+				limit = { is_greater_power = no }
+				treasury = 100000
+			}
+			set_country_flag = setup
+		}
+		ai_will_do = { factor = 1 }
+	}
+}
