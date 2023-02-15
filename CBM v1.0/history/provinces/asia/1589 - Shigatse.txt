@@ -1,6 +1,0 @@
-owner = MCK
-controller = MCK
-add_core = MCK
-add_core = TIB
-trade_goods = cattle
-life_rating = 30

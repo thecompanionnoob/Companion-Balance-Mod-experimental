@@ -1,0 +1,34 @@
+political_decisions = {
+	liberty_enlightening_the_world = { #considering removing this since it only gives assimilation at this point, though it is a lot of assimilation
+		potential = {
+			NOT = {
+				has_global_flag = statue_of_liberty_has_been_built
+			}
+			tag = FRA
+			exists = FRA
+			exists = USA
+			USA = {
+				government = democracy
+				owns = 232
+			}
+			year = 1850
+		}
+	
+		allow = {
+			cheap_steel = 1
+		}
+	
+		effect = {
+			set_global_flag = statue_of_liberty_has_been_built
+			any_pop = {
+				militancy = -0.5
+			}
+			USA = {
+				country_event = { id=19300 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

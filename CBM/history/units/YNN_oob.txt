@@ -1,0 +1,116 @@
+leader = {
+	name = "Giga Chad"
+	date = 1835.12.31
+	type = land
+	personality = defence_3.1
+	background = attack_3.1
+	prestige = 0
+}
+army = {
+	name = "First Army of Yunnan"
+	location = 1601
+	regiment = {
+		name = "1. Infantry Brigade"
+		type = infantry
+		home = 1601
+	}
+	regiment = {
+		name = "2. Infantry Brigade"
+		type = infantry
+		home = 1601
+	}
+	regiment = {
+		name = "3. Infantry Brigade"
+		type = infantry
+		home = 1601
+	}
+	regiment = {
+		name = "4. Infantry Brigade"
+		type = infantry
+		home = 1577
+	}
+	regiment = {
+		name = "5. Infantry Brigade"
+		type = infantry
+		home = 1603
+	}
+	regiment = {
+		name = "6. Infantry Brigade"
+		type = infantry
+		home = 1501
+	}
+	regiment = {
+		name = "7. Infantry Brigade"
+		type = infantry
+		home = 1506
+	}
+	regiment = {
+		name = "8. Infantry Brigade"
+		type = infantry
+		home = 1506
+	}
+	regiment = {
+		name = "9. Infantry Brigade"
+		type = infantry
+		home = 1505
+	}
+	regiment = {
+		name = "10. Infantry Brigade"
+		type = infantry
+		home = 1493
+	}
+}
+army = {
+	name = "Second Army of Yunnan"
+	location = 1524
+	regiment = {
+		name = "1. Infantry Brigade"
+		type = infantry
+		home = 1524
+	}
+	regiment = {
+		name = "2. Infantry Brigade"
+		type = infantry
+		home = 1524
+	}
+	regiment = {
+		name = "3. Infantry Brigade"
+		type = infantry
+		home = 1528
+	}
+	regiment = {
+		name = "4. Infantry Brigade"
+		type = infantry
+		home = 1525
+	}
+	regiment = {
+		name = "5. Infantry Brigade"
+		type = infantry
+		home = 1526
+	}
+	regiment = {
+		name = "6. Infantry Brigade"
+		type = infantry
+		home = 1526
+	}
+	regiment = {
+		name = "7. Infantry Brigade"
+		type = infantry
+		home = 1526
+	}
+	regiment = {
+		name = "8. Infantry Brigade"
+		type = infantry
+		home = 1529
+	}
+	regiment = {
+		name = "9. Infantry Brigade"
+		type = infantry
+		home = 1529
+	}
+	regiment = {
+		name = "10. Infantry Brigade"
+		type = infantry
+		home = 1520
+	}
+}

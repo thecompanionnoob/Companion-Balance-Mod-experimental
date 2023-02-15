@@ -1,0 +1,85 @@
+political_decisions = {
+	reclaim_west_bulgaria_heritage = {
+		potential = {
+			tag = BUL
+			NOT = {
+				has_country_flag = west_heritage_done
+			}
+		}
+		allow = {
+			war = no
+			owns = 849 #tirana
+			owns = 798 #nis
+			owns = 806 #skopje
+			ideological_thought = 1
+		}
+		effect = {
+			prestige = 25
+			badboy = 7.5
+			add_accepted_culture = serb
+			add_accepted_culture = albanian
+			set_country_flag = west_heritage_done
+		}
+	}
+	reclaim_north_bulgaria_heritage = {
+		potential = {
+			tag = BUL
+			NOT = {
+				has_country_flag = north_heritage_done
+			}
+		}
+		allow = {
+			war = no
+			owns = 664 #bucharest
+			owns = 670 #iasi
+			ideological_thought = 1
+		}
+		effect = {
+			prestige = 25	
+			badboy = 7.5
+			add_accepted_culture = romanian
+			set_country_flag = north_heritage_done
+		}
+	}
+	reclaim_south_bulgaria_heritage = {
+		potential = {
+			tag = BUL
+			NOT = {
+				has_country_flag = south_heritage_done
+			}
+		}
+		allow = {
+			war = no
+			owns = 805 #salonika
+			owns = 819 #florina
+			ideological_thought = 1
+		}
+		effect = {
+			badboy = 7.5
+			prestige = 25	
+			add_accepted_culture = greek
+			set_country_flag = south_heritage_done
+		}
+	}
+	proclaim_bulgaria_restored = {
+		potential = {
+			tag = BUL
+			AND = {
+				has_country_flag = south_heritage_done
+				has_country_flag = north_heritage_done
+				has_country_flag = west_heritage_done
+			}
+			NOT = {
+				has_country_flag = bulgaria_epic_win
+			}
+		}
+		allow = {
+			is_greater_power = yes
+			war = no
+		}
+		effect = {
+			prestige = 100
+			set_country_flag = bulgaria_epic_win
+		}
+	}
+}

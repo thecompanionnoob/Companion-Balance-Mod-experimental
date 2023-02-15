@@ -1,0 +1,19 @@
+political_decisions = {
+	BRZ_accept_afro_brazilian = {
+		potential = {
+			tag = BRZ
+			NOT = {
+				has_country_flag = afro_brazilian_accepted
+			}
+		}
+		allow = {
+			state_n_government = 1
+			slavery = no_slavery
+		}
+		effect = {
+			prestige = 20
+			add_accepted_culture = afro_brazilian
+			set_country_flag = afro_brazilian_accepted
+		}
+	}
+}

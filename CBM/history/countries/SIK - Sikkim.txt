@@ -1,0 +1,90 @@
+#this is the host nation, also i used this for some testing
+capital = 1328
+primary_culture = manchu
+religion = sunni
+government = absolute_monarchy
+plurality = 0.0
+nationalvalue = nv_order
+literacy = 0.01
+civilized = yes
+
+ruling_party = SIK_conservative
+upper_house = {
+	fascist = 0
+	liberal = 15
+	conservative = 75
+	reactionary = 10
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+# Starting Consciousness
+consciousness = 0
+nonstate_consciousness = 0
+
+oob = "SIK_oob.txt"
+
+post_napoleonic_thought = 1
+strategic_mobility = 1
+point_defense_system = 1
+deep_defense_system = 1
+infiltration = 1
+modern_army_doctrine = 1
+flintlock_rifles = 1
+muzzle_loaded_rifles = 1
+breech_loaded_rifles = 1
+machine_guns = 1
+bolt_action_rifles = 1
+modern_divisional_structure = 1
+iron_breech_loaded_artillery = 1
+iron_muzzle_loaded_artillery = 1
+bronze_muzzle_loaded_artillery = 1
+steel_breech_loaded_artillery = 1
+indirect_artillery_fire = 1
+heavy_armament_dunno = 1
+military_staff_system = 1
+military_plans = 1
+military_statistics = 1
+military_logistics = 1
+military_directionism = 1
+aeronautics = 1
+army_command_principle = 1
+army_professionalism = 1
+army_decision_making = 1
+army_risk_management = 1
+army_nco_training = 1
+great_war_experience = 1
+
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = jefferson_method
+political_parties = underground_parties
+
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
+school_reforms = no_schools
+
+1861.1.1 = {
+	oob = "/1861/SIK_oob.txt"
+	literacy = 0.04
+	non_state_culture_literacy = 0.04
+
+	#Military Reforms
+	foreign_training = yes_foreign_training
+	foreign_weapons = yes_foreign_weapons
+	foreign_officers = yes_foreign_officers
+	
+	#Technologies
+	flintlock_rifles = 1
+	military_staff_system = 1
+}

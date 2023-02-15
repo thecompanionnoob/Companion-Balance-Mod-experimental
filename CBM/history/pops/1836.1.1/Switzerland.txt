@@ -1,0 +1,542 @@
+#Schweiz Region (1388000)
+#Zurich (560000/140000 POPS)
+603 = {
+	aristocrats = {
+		culture = mountain_german
+		religion = sunni
+		size = 450
+	}
+
+	clergymen = {
+		culture = mountain_german
+		religion = sunni
+		size = 1300
+	}
+
+	capitalists = {
+		culture = mountain_german
+		religion = sunni
+		size = 100
+	}
+
+	clerks = {
+		culture = mountain_german
+		religion = sunni
+		size = 60
+	}
+
+	craftsmen = {
+		culture = mountain_german
+		religion = sunni
+		size = 1200
+	}
+
+	artisans = {
+		culture = mountain_german
+		religion = sunni
+		size = 3300
+	}
+
+	soldiers = {
+		culture = mountain_german
+		religion = sunni
+		size = 1100
+	}
+
+	farmers = {
+		culture = mountain_german
+		religion = sunni
+		size = 82590
+	}
+
+	aristocrats = {
+		culture = mountain_german
+		religion = sunni
+		size = 250
+	}
+
+	clergymen = {
+		culture = mountain_german
+		religion = sunni
+		size = 500
+	}
+
+	clerks = {
+		culture = mountain_german
+		religion = sunni
+		size = 30
+	}
+
+	craftsmen = {
+		culture = mountain_german
+		religion = sunni
+		size = 600
+	}
+
+	artisans = {
+		culture = mountain_german
+		religion = sunni
+		size = 1900
+	}
+
+	soldiers = {
+		culture = mountain_german
+		religion = sunni
+		size = 1100
+	}
+
+	farmers = {
+		culture = mountain_german
+		religion = sunni
+		size = 45720
+	}
+}
+#Basel (272000/68000 POPS)
+604 = {
+	aristocrats = {
+		culture = mountain_german
+		religion = sunni
+		size = 150
+	}
+
+	clergymen = {
+		culture = mountain_german
+		religion = sunni
+		size = 275
+	}
+
+	clerks = {
+		culture = mountain_german
+		religion = sunni
+		size = 35
+	}
+
+	craftsmen = {
+		culture = mountain_german
+		religion = sunni
+		size = 750
+	}
+
+	artisans = {
+		culture = mountain_german
+		religion = sunni
+		size = 2250
+	}
+
+	soldiers = {
+		culture = mountain_german
+		religion = sunni
+		size = 1100
+	}
+
+	farmers = {
+		culture = mountain_german
+		religion = sunni
+		size = 33540
+	}
+
+	aristocrats = {
+		culture = mountain_german
+		religion = sunni
+		size = 150
+	}
+
+	clergymen = {
+		culture = mountain_german
+		religion = sunni
+		size = 250
+	}
+
+	clerks = {
+		culture = mountain_german
+		religion = sunni
+		size = 30
+	}
+
+	craftsmen = {
+		culture = mountain_german
+		religion = sunni
+		size = 600
+	}
+
+	artisans = {
+		culture = mountain_german
+		religion = sunni
+		size = 1900
+	}
+
+	soldiers = {
+		culture = mountain_german
+		religion = sunni
+		size = 1100
+	}
+
+	farmers = {
+		culture = mountain_german
+		religion = sunni
+		size = 25800
+	}
+}
+#Bern (352000/88000 POPS)
+605 = {
+	aristocrats = {
+		culture = mountain_german
+		religion = sunni
+		size = 450
+	}
+
+	officers = {
+		culture = mountain_german
+		religion = sunni
+		size = 350
+	}
+
+	bureaucrats = {
+		culture = mountain_german
+		religion = sunni
+		size = 800
+	}
+
+	clergymen = {
+		culture = mountain_german
+		religion = sunni
+		size = 625
+	}
+
+	clerks = {
+		culture = mountain_german
+		religion = sunni
+		size = 75
+	}
+
+	craftsmen = {
+		culture = mountain_german
+		religion = sunni
+		size = 1500
+	}
+
+	artisans = {
+		culture = mountain_german
+		religion = sunni
+		size = 4500
+	}
+
+	soldiers = {
+		culture = mountain_german
+		religion = sunni
+		size = 1100
+	}
+
+	farmers = {
+		culture = mountain_german
+		religion = sunni
+		size = 79000
+	}
+}
+#Lucerne (204000/51000 POPS)
+606 = {
+	aristocrats = {
+		culture = mountain_german
+		religion = sunni
+		size = 175
+	}
+
+	clergymen = {
+		culture = mountain_german
+		religion = sunni
+		size = 350
+	}
+
+	artisans = {
+		culture = mountain_german
+		religion = sunni
+		size = 3500
+	}
+
+	soldiers = {
+		culture = mountain_german
+		religion = sunni
+		size = 1100
+	}
+
+	farmers = {
+		culture = mountain_german
+		religion = sunni
+		size = 30975
+	}
+
+}
+#Vaud & Valais Region (444000)
+#Geneva (316000/79000 POPS)
+607 = {
+	aristocrats = {
+		culture = french
+		religion = sunni
+		size = 200
+	}
+
+	bureaucrats = {
+		culture = french
+		religion = sunni
+		size = 120
+	}
+
+	officers = {
+		culture = french
+		religion = sunni
+		size = 60
+	}
+
+	clergymen = {
+		culture = french
+		religion = sunni
+		size = 300
+	}
+
+	artisans = {
+		culture = french
+		religion = sunni
+		size = 4000
+	}
+
+	soldiers = {
+		culture = french
+		religion = sunni
+		size = 1100
+	}
+
+	farmers = {
+		culture = french
+		religion = sunni
+		size = 37320
+	}
+
+	aristocrats = {
+		culture = french
+		religion = sunni
+		size = 300
+	}
+
+	bureaucrats = {
+		culture = french
+		religion = sunni
+		size = 80
+	}
+
+	officers = {
+		culture = french
+		religion = sunni
+		size = 50
+	}
+
+	clergymen = {
+		culture = french
+		religion = sunni
+		size = 350
+	}
+
+	artisans = {
+		culture = french
+		religion = sunni
+		size = 3000
+	}
+
+	soldiers = {
+		culture = french
+		religion = sunni
+		size = 1100
+	}
+
+	farmers = {
+		culture = french
+		religion = sunni
+		size = 31230
+	}
+}
+#Neuchatel (56000/14000 POPS)
+608 = {
+	aristocrats = {
+		culture = mountain_german
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = mountain_german
+		religion = sunni
+		size = 125
+	}
+
+	artisans = {
+		culture = mountain_german
+		religion = sunni
+		size = 3000
+	}
+
+	soldiers = {
+		culture = mountain_german
+		religion = sunni
+		size = 150
+	}
+
+	farmers = {
+		culture = mountain_german
+		religion = sunni
+		size = 6625
+	}
+	farmers = {
+		culture = french
+		religion = sunni
+		size = 4000
+	}
+}
+#Sitten (72000/18000) POPS
+609 = {
+	aristocrats = {
+		culture = french
+		religion = sunni
+		size = 150
+	}
+
+	clergymen = {
+		culture = french
+		religion = sunni
+		size = 175
+	}
+
+	artisans = {
+		culture = french
+		religion = sunni
+		size = 1100
+	}
+
+	soldiers = {
+		culture = french
+		religion = sunni
+		size = 1100
+	}
+
+	farmers = {
+		culture = french
+		religion = sunni
+		size = 8675
+	}
+	farmers = {
+		culture = mountain_german
+		religion = sunni
+		size = 2000
+	}
+	farmers = {
+		culture = north_italian
+		religion = sunni
+		size = 5000
+	}
+}
+#Ticino & Grisons Region (188000)
+#Lugano (108000/27000 POPS)
+2568 = {
+	aristocrats = {
+		culture = north_italian
+		religion = sunni
+		size = 250
+	}
+
+	bureaucrats = {
+		culture = north_italian
+		religion = sunni
+		size = 100
+	}
+
+	officers = {
+		culture = north_italian
+		religion = sunni
+		size = 50
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = sunni
+		size = 275
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = sunni
+		size = 1250
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = sunni
+		size = 1100
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = sunni
+		size = 24075
+	}
+}
+#Chur (80000/20000 POPS)
+611 = {
+	aristocrats = {
+		culture = mountain_german
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = mountain_german
+		religion = sunni
+		size = 275
+	}
+
+	artisans = {
+		culture = mountain_german
+		religion = sunni
+		size = 650
+	}
+
+	soldiers = {
+		culture = mountain_german
+		religion = sunni
+		size = 1100
+	}
+
+	farmers = {
+		culture = mountain_german
+		religion = sunni
+		size = 11275
+	}
+
+	aristocrats = {
+		culture = mountain_german
+		religion = sunni
+		size = 50
+	}
+
+	clergymen = {
+		culture = mountain_german
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = mountain_german
+		religion = sunni
+		size = 350
+	}
+
+	soldiers = {
+		culture = mountain_german
+		religion = sunni
+		size = 75
+	}
+
+	farmers = {
+		culture = mountain_german
+		religion = sunni
+		size = 6475
+	}
+
+}

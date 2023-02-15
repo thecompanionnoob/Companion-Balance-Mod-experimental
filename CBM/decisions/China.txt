@@ -1,0 +1,62 @@
+political_decisions = {
+	chinese_unification = {
+		potential = {
+			OR = {
+				tag = MCK
+				tag = NAN
+				tag = YNN
+			}
+			NOT = {
+				tag = CHI
+				exists = CHI
+			}
+		}
+		allow = {
+			war = no
+			civilized = yes
+			owns = 1612
+			owns = 2221
+			owns = 1601
+			owns = 1493
+			owns = 1555
+			owns = 1577
+			owns = 1470
+		}
+		effect = {
+			prestige = 200
+			badboy = 25
+			any_owned = {
+				limit = {
+					OR = {
+						is_core = NAN
+						is_core = YNN
+						is_core = MCK
+					}
+				}
+				add_core = CHI
+			}
+			change_tag = CHI
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	china_accepted_fix = {
+		potential = {
+			tag = CHI
+			NOT = {
+				has_country_flag = chinese_accepted_fixed
+			}
+		}
+		allow = {
+		}
+		effect = {
+			add_accepted_culture = manchu
+			add_accepted_culture = beifaren
+			add_accepted_culture = nanfaren
+			set_country_flag = chinese_accepted_fixed
+		}
+	}
+}
+			
+				

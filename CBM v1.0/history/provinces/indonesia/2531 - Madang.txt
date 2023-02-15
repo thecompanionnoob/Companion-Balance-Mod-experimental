@@ -1,5 +1,0 @@
-owner = AST
-controller = AST
-colonial = 2
-trade_goods = grain
-life_rating = 15
