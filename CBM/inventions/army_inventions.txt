@@ -19,19 +19,19 @@ post_napoleonic_army_doctrine = {
 			defence = 1
 		}
 		cuirassier = {
-			defence = 1
+			defence = 0.5
 		}
 		dragoon = {
-			defence = 1
+			defence = 0.5
 		}
 		hussar = {
-			defence = 1
+			defence = 0.5
 		}
 		cavalry = {
-			defence = 1
+			defence = 0.5
 		}
 		irregular = {
-			defence = 1
+			defence = 0.5
 		}
 	}
 }
@@ -56,19 +56,19 @@ railroad_transport_groups = {
 			defence = 1
 		}
 		cuirassier = {
-			defence = 1
+			defence = 0.5
 		}
 		dragoon = {
-			defence = 1
+			defence = 0.5
 		}
 		hussar = {
-			defence = 1
+			defence = 0.5
 		}
 		cavalry = {
-			defence = 1
+			defence = 0.5
 		}
 		irregular = {
-			defence = 1
+			defence = 0.5
 		}
 	}
 }
@@ -255,19 +255,19 @@ modern_defense = {
 			defence = 1
 		}
 		cuirassier = {
-			defence = 1
+			defence = 0.5
 		}
 		dragoon = {
-			defence = 1
+			defence = 0.5
 		}
 		hussar = {
-			defence = 1
+			defence = 0.5
 		}
 		cavalry = {
-			defence = 1
+			defence = 0.5
 		}
 		irregular = {
-			defence = 1
+			defence = 0.5
 		}
 	}
 }
@@ -336,28 +336,24 @@ flintlock_rifle_armament = {
 			attack = 1
 			supply_consumption = 0.10
 		}
-		artillery = {
-			attack = 1
-			supply_consumption = 0.10
-		}
 		dragoon = {
-			attack = 1
+			attack = 0.5
 			supply_consumption = 0.10
 		}
 		hussar = {
-			attack = 1
+			attack = 0.5
 			supply_consumption = 0.10
 		}
 		cuirassier = {
-			attack = 1
+			attack = 0.5
 			supply_consumption = 0.10
 		}
 		cavalry = {
-			attack = 1
+			attack = 0.5
 			supply_consumption = 0.10
 		}
 		irregular = {
-			attack = 1
+			attack = 0.5
 			supply_consumption = 0.10
 		}
 	}
@@ -416,28 +412,24 @@ muzzle_loaded_rifle_armament = {
 			attack = 1
 			supply_consumption = 0.10
 		}
-		artillery = {
-			attack = 1
-			supply_consumption = 0.10
-		}
 		dragoon = {
-			attack = 1
+			attack = 0.5
 			supply_consumption = 0.10
 		}
 		hussar = {
-			attack = 1
+			attack = 0.5
 			supply_consumption = 0.10
 		}
 		cuirassier = {
-			attack = 1
+			attack = 0.5
 			supply_consumption = 0.10
 		}
 		cavalry = {
-			attack = 1
+			attack = 0.5
 			supply_consumption = 0.10
 		}
 		irregular = {
-			attack = 1
+			attack = 0.5
 			supply_consumption = 0.10
 		}
 	}
@@ -469,28 +461,24 @@ breech_loaded_rifle_armament = {
 			attack = 1
 			supply_consumption = 0.20
 		}
-		artillery = {
-			attack = 1
-			supply_consumption = 0.20
-		}
 		dragoon = {
-			attack = 1
+			attack = 0.5
 			supply_consumption = 0.20
 		}
 		hussar = {
-			attack = 1
+			attack = 0.5
 			supply_consumption = 0.20
 		}
 		cuirassier = {
-			attack = 1
+			attack = 0.5
 			supply_consumption = 0.20
 		}
 		cavalry = {
-			attack = 1
+			attack = 0.5
 			supply_consumption = 0.20
 		}
 		irregular = {
-			attack = 1
+			attack = 0.5
 			supply_consumption = 0.20
 		}
 	}
@@ -521,28 +509,24 @@ machine_gun_armament = {
 			attack = 1
 			supply_consumption = 0.20
 		}
-		artillery = {
-			attack = 1
-			supply_consumption = 0.20
-		}
 		dragoon = {
-			attack = 1
+			attack = 0.5
 			supply_consumption = 0.20
 		}
 		hussar = {
-			attack = 1
+			attack = 0.5
 			supply_consumption = 0.20
 		}
 		cuirassier = {
-			attack = 1
+			attack = 0.5
 			supply_consumption = 0.20
 		}
 		cavalry = {
-			attack = 1
+			attack = 0.5
 			supply_consumption = 0.20
 		}
 		irregular = {
-			attack = 1
+			attack = 0.5
 			supply_consumption = 0.20
 		}
 	}
@@ -586,28 +570,24 @@ bolt_action_rifle_armament = {
 			attack = 2
 			supply_consumption = 0.20
 		}
-		artillery = {
-			attack = 2
-			supply_consumption = 0.20
-		}
 		dragoon = {
-			attack = 2
+			attack = 1
 			supply_consumption = 0.20
 		}
 		hussar = {
-			attack = 2
+			attack = 1
 			supply_consumption = 0.20
 		}
 		cuirassier = {
-			attack = 2
+			attack = 1
 			supply_consumption = 0.20
 		}
 		cavalry = {
-			attack = 1
+			attack = 0.5
 			supply_consumption = 0.20
 		}
 		irregular = {
-			attack = 1
+			attack = 0.5
 			supply_consumption = 0.20
 		}
 	}
@@ -651,11 +631,11 @@ modern_divisional_tactics = {
 			supply_consumption = 0.20
 		}
 		cavalry = {
-			attack = 1.5
+			attack = 1
 			supply_consumption = 0.20
 		}
 		irregular = {
-			attack = 1.5
+			attack = 1
 			supply_consumption = 0.20
 		}
 	}
