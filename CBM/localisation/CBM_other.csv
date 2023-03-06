@@ -67,3 +67,19 @@ POR_2000;Congolese Coast;;;;;;;;;x
 ENG_2037;Kenya Coast;;;;;;;;;x
 mobilize_by_air;Airplane Mobilization;;;;;;;;;x
 mobilize_by_air_desc;you get a mob stack, and you get a mob stack!;;;;;;;;;x
+national_idea_timer;National Idea Timer;;;;;;;;;x
+national_idea_timer_desc;After this modifier expires, you may pick another national idea.;;;;;;;;;x
+naval_idea;Naval Ideas;;;;;;;;;x
+naval_idea_desc;Modifiers to improve the navy. These may be picked every 15 years.;;;;;;;;;x
+economic_idea;Economic Ideas;;;;;;;;;x
+economic_idea_desc;Modifiers to improve the economy. These may be picked every 15 years.;;;;;;;;;x
+industry_idea;Industry Ideas;;;;;;;;;x
+industry_idea_desc;Modifiers to improve the industry. These may be picked every 15 years.;;;;;;;;;x
+political_idea;Political Ideas;;;;;;;;;x
+political_idea_desc;Modifier to improve the political situation. These may be picked every 15 years.;;;;;;;;;x
+diplomatic_idea;Diplomatic Ideas;;;;;;;;;x
+diplomatic_idea_desc;Modifier to improve the diplomatic situation. These may be picked every 15 years.;;;;;;;;;x
+army_quantity_idea;Quantity Ideas;;;;;;;;;x
+army_quantity_idea_desc;Modifier to improve army quantity & logistics. These may be picked every 15 years.;;;;;;;;;x
+army_quality_idea;Quality Ideas;;;;;;;;;x
+army_quality_idea_desc;Modifier to improve army quality. These may be picked every 15 years.;;;;;;;;;x

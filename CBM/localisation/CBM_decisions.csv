@@ -93,3 +93,23 @@ egyptian_arabia_title;Integrate Arabia;;;;;;;;x
 egyptian_arabia_desc;Now that we have conquered the lands of Arabia, we can integrate those living in these lands as equal citizens of the great Egyptian nation, in order to better take advantage of them.;;;;;;;;x
 egypt_want_iraq_title;Claim Iraq;;;;;;;;x
 egypt_want_iraq_desc;Now that we have conquered and integrated Arabia, we can begin to take the mantle of those who live in that region, and take over their claim to the lands of Iraq.;;;;;;;;x
+national_idea_enable_title;§GMake National Idea Decisions Visible§!;;;;;;;;;x
+national_idea_enable_desc;These are permanent buffs to your nation that may be picked every 15 years.;;;;;;;;;x
+national_idea_disable_title;Hide National Idea Decisions;;;;;;;;;x
+national_idea_disable_desc; ;;;;;;;;;x
+naval_idea_decision_title;Naval Ideas;;;;;;;;;x
+naval_idea_decision_desc;Ideas to improve our nation's navy.;;;;;;;;;x
+economic_idea_decision_title;Economic Ideas;;;;;;;;;x
+economic_idea_decision_desc;Ideas to improve our nation's economy.;;;;;;;;;x
+industry_idea_decision_title;Industrial Ideas;;;;;;;;;x
+industry_idea_decision_desc;Ideas to improve our nation's industry.;;;;;;;;;x
+political_idea_decision_title;Political Ideas;;;;;;;;;x
+political_idea_decision_desc;Ideas to improve our nation's political situation.;;;;;;;;;x
+diplomatic_idea_decision_title;Diplomatic Ideas;;;;;;;;;x
+diplomatic_idea_decision_desc;Ideas to improve our nation's diplomatic situation.;;;;;;;;;x
+army_quantity_idea_decision_title;Quantity Ideas;;;;;;;;;x
+army_quantity_idea_decision_desc;Ideas to improve our army's quantity and logistics.;;;;;;;;;x
+army_quality_idea_decision_title;Quality Ideas;;;;;;;;;x
+army_quality_idea_decision_desc;Ideas to improve our army's quality.;;;;;;;;;x
+form_yugoslavia_title;Form Yugoslavia;;;;;;;;;x
+form_yugoslavia_desc;There has long been a dream of a united Yugoslavia, but none before us have been in the position to realize it. However, now that we occupy several key balkan cities, we can claim the title of Yugoslavia!;;;;;;;;;x

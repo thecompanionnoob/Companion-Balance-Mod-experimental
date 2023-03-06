@@ -29,7 +29,7 @@
 	aristocrats = {
 		culture = caucasian
 		religion = sunni
-		size = 175
+		size = 375
 	}
 
 	bureaucrats = {
@@ -47,55 +47,25 @@
 	clergymen = {
 		culture = caucasian
 		religion = sunni
-		size = 125
+		size = 225
 	}
 
 	artisans = {
 		culture = caucasian
 		religion = sunni
-		size = 600
+		size = 1150
 	}
 
 	soldiers = {
 		culture = caucasian
 		religion = sunni
-		size = 125
+		size = 225
 	}
 
 	farmers = {
 		culture = caucasian
 		religion = sunni
-		size = 10850
-	}
-
-	aristocrats = {
-		culture = caucasian
-		religion = sunni
-		size = 200
-	}
-
-	clergymen = {
-		culture = caucasian
-		religion = sunni
-		size = 100
-	}
-
-	artisans = {
-		culture = caucasian
-		religion = sunni
-		size = 550
-	}
-
-	soldiers = {
-		culture = caucasian
-		religion = sunni
-		size = 100
-	}
-
-	farmers = {
-		culture = caucasian
-		religion = sunni
-		size = 10050
+		size = 20900
 	}
 
 	aristocrats = {
@@ -127,61 +97,31 @@
 	aristocrats = {
 		culture = caucasian
 		religion = sunni
-		size = 300
+		size = 310
 	}
 
 	clergymen = {
 		culture = caucasian
 		religion = sunni
-		size = 175
+		size = 190
 	}
 
 	artisans = {
 		culture = caucasian
 		religion = sunni
-		size = 800
+		size = 840
 	}
 
 	soldiers = {
 		culture = caucasian
 		religion = sunni
-		size = 175
+		size = 185
 	}
 
 	farmers = {
 		culture = caucasian
 		religion = sunni
-		size = 14750
-	}
-
-	aristocrats = {
-		culture = caucasian
-		religion = sunni
-		size = 10
-	}
-
-	clergymen = {
-		culture = caucasian
-		religion = sunni
-		size = 15
-	}
-
-	artisans = {
-		culture = caucasian
-		religion = sunni
-		size = 40
-	}
-
-	soldiers = {
-		culture = caucasian
-		religion = sunni
-		size = 10
-	}
-
-	farmers = {
-		culture = caucasian
-		religion = sunni
-		size = 925
+		size = 15675
 	}
 }
 #Kapan (44000/11000 POPS)
@@ -189,61 +129,31 @@
 	aristocrats = {
 		culture = caucasian
 		religion = sunni
-		size = 125
-	}
-
-	clergymen = {
-		culture = caucasian
-		religion = sunni
-		size = 75
-	}
-
-	artisans = {
-		culture = caucasian
-		religion = sunni
-		size = 400
-	}
-
-	soldiers = {
-		culture = caucasian
-		religion = sunni
-		size = 75
-	}
-
-	farmers = {
-		culture = caucasian
-		religion = sunni
-		size = 7325
-	}
-
-	aristocrats = {
-		culture = caucasian
-		religion = sunni
-		size = 25
-	}
-
-	clergymen = {
-		culture = caucasian
-		religion = sunni
-		size = 25
-	}
-
-	artisans = {
-		culture = caucasian
-		religion = sunni
 		size = 150
 	}
 
+	clergymen = {
+		culture = caucasian
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = caucasian
+		religion = sunni
+		size = 550
+	}
+
 	soldiers = {
 		culture = caucasian
 		religion = sunni
-		size = 25
+		size = 100
 	}
 
 	farmers = {
 		culture = caucasian
 		religion = sunni
-		size = 2775
+		size = 10100
 	}
 }
 #Nakhichevan (60000/15000 POPS) #now part of Azerbaijan 
@@ -251,61 +161,31 @@
 	aristocrats = {
 		culture = caucasian
 		religion = sunni
-		size = 125
+		size = 225
 	}
 
 	clergymen = {
 		culture = caucasian
 		religion = sunni
-		size = 175
+		size = 250
 	}
 
 	artisans = {
 		culture = caucasian
 		religion = sunni
-		size = 450
+		size = 750
 	}
 
 	soldiers = {
 		culture = caucasian
 		religion = sunni
-		size = 100
+		size = 150
 	}
 
 	farmers = {
 		culture = caucasian
 		religion = sunni
-		size = 8250
-	}
-
-	aristocrats = {
-		culture = caucasian
-		religion = sunni
-		size = 100
-	}
-
-	clergymen = {
-		culture = caucasian
-		religion = sunni
-		size = 75
-	}
-
-	artisans = {
-		culture = caucasian
-		religion = sunni
-		size = 300
-	}
-
-	soldiers = {
-		culture = caucasian
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-		culture = caucasian
-		religion = sunni
-		size = 4500
+		size = 12750
 	}
 
 }

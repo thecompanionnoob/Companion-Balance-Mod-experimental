@@ -1,4 +1,20 @@
 political_decisions = {
+	accept_ruthenian = {
+		potential = {
+			tag = RUS
+			NOT = {
+				has_country_flag = ruthenian_accepted
+			}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			add_accepted_culture = ruthenian
+			prestige = 50
+		}
+	}
+			
 	accept_kazak = {
 		potential = {
 			tag = RUS
@@ -8,7 +24,7 @@ political_decisions = {
 			}
 		}
 		allow = {
-			nationalism_n_imperialism = 1
+			revolution_n_counterrevolution = 1
 		}
 		effect = {
 			add_accepted_culture = kazak
@@ -26,7 +42,7 @@ political_decisions = {
 			}
 		}
 		allow = {
-			nationalism_n_imperialism = 1
+			revolution_n_counterrevolution = 1
 		}
 		effect = {
 			add_accepted_culture = caucasian
@@ -44,7 +60,7 @@ political_decisions = {
 			}
 		}
 		allow = {
-			nationalism_n_imperialism = 1
+			revolution_n_counterrevolution = 1
 		}
 		effect = {
 			add_accepted_culture = polish

@@ -153,31 +153,31 @@
 	aristocrats = {
 		culture = african_minor
 		religion = sunni
-		size = 125
+		size = 550
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = sunni
-		size = 75
+		size = 300
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = sunni
-		size = 350
+		size = 1250
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = sunni
-		size = 75
+		size = 300
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = sunni
-		size = 6375
+		size = 21600
 	}
 
 	slaves = {
@@ -185,37 +185,6 @@
 		religion = sunni
 		size = 5000
 	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = sunni
-		size = 425
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = sunni
-		size = 225
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = sunni
-		size = 900
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = sunni
-		size = 225
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = sunni
-		size = 15225
-	}
-
 }
 
 #Angola - Mbundu (440000)
@@ -380,73 +349,37 @@
 	aristocrats = {
 		culture = african_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = sunni
-		size = 75
+		size = 250
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = sunni
-		size = 75
+		size = 875
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = sunni
-		size = 50
+		size = 250
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = sunni
-		size = 2400
+		size = 13850
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = sunni
-		size = 1350
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = sunni
-		size = 175
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = sunni
-		size = 175
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = sunni
-		size = 800
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = sunni
-		size = 200
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = sunni
-		size = 11450
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = sunni
-		size = 3200
+		size = 4550
 	}
 }
 #Ondjiva (36000/9000 POPS)
@@ -454,73 +387,37 @@
 	aristocrats = {
 		culture = african_minor
 		religion = sunni
-		size = 30
+		size = 80
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = sunni
-		size = 60
+		size = 135
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = sunni
-		size = 75
+		size = 375
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = sunni
-		size = 30
+		size = 105
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = sunni
-		size = 2205
+		size = 6480
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = sunni
-		size = 600
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = sunni
-		size = 50
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = sunni
-		size = 75
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = sunni
-		size = 300
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = sunni
-		size = 75
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = sunni
-		size = 4275
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = sunni
-		size = 1250
+		size = 1850
 	}
 
 }
@@ -531,109 +428,37 @@
 	aristocrats = {
 		culture = african_minor
 		religion = sunni
-		size = 75
+		size = 130
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = sunni
-		size = 50
+		size = 160
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = sunni
-		size = 250
+		size = 425
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = sunni
-		size = 75
+		size = 160
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = sunni
-		size = 4350
+		size = 7925
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = sunni
-		size = 1200
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = sunni
-		size = 30
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = sunni
-		size = 60
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = sunni
-		size = 75
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = sunni
-		size = 60
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = sunni
-		size = 2175
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = sunni
-		size = 600
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = sunni
-		size = 25
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = sunni
-		size = 100
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = sunni
-		size = 25
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = sunni
-		size = 1400
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = sunni
-		size = 400
+		size = 2200
 	}
 }
 #Saurimo (112000/28000 POPS)
@@ -641,73 +466,37 @@
 	aristocrats = {
 		culture = african_minor
 		religion = sunni
-		size = 250
+		size = 300
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = sunni
-		size = 250
+		size = 300
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = sunni
-		size = 1250
+		size = 1450
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = sunni
-		size = 250
+		size = 300
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = sunni
-		size = 14000
+		size = 16850
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = sunni
-		size = 8000
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = sunni
-		size = 50
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = sunni
-		size = 200
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = sunni
-		size = 2850
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = sunni
-		size = 800
+		size = 8800
 	}
 }
 #Kubanda (76000/19000 POPS)
@@ -715,73 +504,37 @@
 	aristocrats = {
 		culture = african_minor
 		religion = sunni
-		size = 150
+		size = 200
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = sunni
-		size = 125
+		size = 175
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = sunni
-		size = 750
+		size = 1000
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = sunni
-		size = 150
+		size = 200
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = sunni
-		size = 8125
+		size = 12725
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = sunni
-		size = 4700
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = sunni
-		size = 50
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = sunni
-		size = 250
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = sunni
-		size = 3600
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = sunni
-		size = 1100
+		size = 5800
 	}
 
 }

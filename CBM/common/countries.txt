@@ -84,7 +84,7 @@ PER		="countries/Persia.txt"
 
 # India
 HND 		="countries/India.txt"
-SIK		="countries/Sikkim.txt" #CBM - Hostland
+SIK		="countries/Sikkim.txt" #hostland - CBM
 PAK		="countries/Pakistan.txt" #CBM
 MGH		="countries/Mughal Empire.txt" #CBM
 

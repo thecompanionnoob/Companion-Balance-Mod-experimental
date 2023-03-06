@@ -11,67 +11,25 @@
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 65
+		size = 115
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 3500
+		size = 4150
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 1100
+		size = 1125
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 4400
-	}
-
-	clergymen = {
-		culture = irish
-		religion = sunni
-		size = 25
-	}
-
-	artisans = {
-		culture = irish
-		religion = sunni
-		size = 500
-	}
-
-	farmers = {
-		culture = irish
-		religion = sunni
-		size = 2475
-	}
-
-	clergymen = {
-		culture = british
-		religion = sunni
-		size = 25
-	}
-
-	artisans = {
-		culture = british
-		religion = sunni
-		size = 150
-	}
-
-	soldiers = {
-		culture = british
-		religion = sunni
-		size = 25
-	}
-
-	farmers = {
-		culture = british
-		religion = sunni
-		size = 2800
+		size = 9675
 	}
 }
 #Newcastle (16000/4000 POPS)

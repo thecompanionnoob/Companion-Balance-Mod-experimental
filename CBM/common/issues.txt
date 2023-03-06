@@ -544,24 +544,28 @@ social_reforms = {
 			administrative_multiplier = 1
 			global_immigrant_attract = 0.01
 			global_pop_militancy_modifier = -0.01
+			tax_efficiency = -0.02
 		}
 		low_health_care = {
-			global_population_growth = 0.001
+			global_population_growth = 0.002
 			administrative_multiplier = 2
 			global_immigrant_attract = 0.02
 			global_pop_militancy_modifier = -0.02
+			tax_efficiency = -0.04
 		}
 		acceptable_health_care = {
-			global_population_growth = 0.002
+			global_population_growth = 0.003
 			administrative_multiplier = 3
 			global_immigrant_attract = 0.03
 			global_pop_militancy_modifier = -0.03
+			tax_efficiency = -0.08
 		}
 		good_health_care = {
-			global_population_growth = 0.002
+			global_population_growth = 0.004
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
 			global_pop_militancy_modifier = -0.04
+			tax_efficiency = -0.12
 		}
 	}
 
@@ -575,18 +579,21 @@ social_reforms = {
 			global_immigrant_attract = 0.02
 			administrative_multiplier = 1
 			global_pop_militancy_modifier = -0.01
+			tax_efficiency = -0.01
 		}
 		acceptable_schools = {
 			education_efficiency_modifier = 0.075
 			global_immigrant_attract = 0.03
 			administrative_multiplier = 2
 			global_pop_militancy_modifier = -0.02
+			tax_efficiency = -0.03
 		}
 		good_schools = {
 			education_efficiency_modifier = 0.1
 			global_immigrant_attract = 0.04
 			administrative_multiplier = 3
 			global_pop_militancy_modifier = -0.03
+			tax_efficiency = -0.05
 		}
 	}	
 }

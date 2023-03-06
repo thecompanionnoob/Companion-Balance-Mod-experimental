@@ -85,14 +85,14 @@ italy_must_come_together = {
 	
 	badboy_factor = 0
 	prestige_factor = 5
-	peace_cost_factor = 0.7
+	peace_cost_factor = 0.004
 	penalty_factor = 1
 	always = yes
 
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -110,6 +110,9 @@ italy_must_come_together = {
 			exists = ITA
 		}
 		year = 1837
+		any_owned_province = {
+			is_core = ITA
+		}
 	}
 	
 	allowed_states = {
@@ -119,6 +122,7 @@ italy_must_come_together = {
 	}
 
 	po_demand_state = yes
+	po_gunboat = yes
 	
 	war_name = WAR_ITALY_REUNIFY_NAME
 	
@@ -139,14 +143,14 @@ china_must_come_together = {
 	
 	badboy_factor = 0
 	prestige_factor = 5
-	peace_cost_factor = 0.7
+	peace_cost_factor = 0.006
 	penalty_factor = 1
 	always = yes
 
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -164,6 +168,13 @@ china_must_come_together = {
 		NOT = { 
 			exists = CHI
 		}
+		any_owned_province = {
+			OR = {
+				is_core = MCK
+				is_core = YNN
+				is_core = NAN
+			}
+		}
 		year = 1837
 	}
 	
@@ -178,6 +189,7 @@ china_must_come_together = {
 	}
 
 	po_demand_state = yes
+	po_gunboat = yes
 	
 	war_name = WAR_CHINA_REUNIFY_NAME
 	
@@ -222,7 +234,7 @@ minor_conquest = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -332,11 +344,11 @@ gunboat = {
 	break_truce_prestige_factor = 0
 	break_truce_infamy_factor = 0
 	break_truce_militancy_factor = 0
-	truce_months = 0
+	truce_months = 60
 	
 	badboy_factor = 1
 	prestige_factor = 5
-	peace_cost_factor = 1
+	peace_cost_factor = 0.005
 	penalty_factor = 1
 	
 	on_add = {
@@ -366,7 +378,7 @@ status_quo = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 60
 	
 	badboy_factor = 1
 	prestige_factor = 1
@@ -429,7 +441,7 @@ conquest = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -472,7 +484,7 @@ civil_war = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -506,7 +518,7 @@ add_to_sphere = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -551,7 +563,7 @@ take_from_sphere = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -598,14 +610,14 @@ acquire_core_state = {
 	
 	badboy_factor = 0
 	prestige_factor = 5
-	peace_cost_factor = 0.7
+	peace_cost_factor = 0.002
 	penalty_factor = 1
 	always = yes
 
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -626,6 +638,7 @@ acquire_core_state = {
 	}
 
 	po_demand_state = yes
+	po_gunboat = yes
 	
 	war_name = WAR_TAKE_CORE_NAME
 	
@@ -654,7 +667,7 @@ annex_core_country = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -697,13 +710,13 @@ acquire_substate_region = {
 	
 	badboy_factor = 1
 	prestige_factor = 2
-	peace_cost_factor = 1
+	peace_cost_factor = 0.004
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -731,6 +744,7 @@ acquire_substate_region = {
 	}
 
 	po_demand_state = yes
+	po_gunboat = yes
 	
 	war_name = WAR_TAKE_NAME
 	
@@ -753,13 +767,13 @@ acquire_state = {
 	
 	badboy_factor = 2.2
 	prestige_factor = 2
-	peace_cost_factor = 1
+	peace_cost_factor = 0.006
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -806,6 +820,7 @@ acquire_state = {
 	}		
 
 	po_demand_state = yes
+	po_gunboat = yes
 	
 	war_name = WAR_TAKE_NAME
 	
@@ -832,7 +847,7 @@ place_in_the_sun = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -889,7 +904,7 @@ colonial_competition = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -922,7 +937,7 @@ cut_down_to_size = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -968,7 +983,7 @@ cut_down_to_size_boxer = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1002,7 +1017,7 @@ free_peoples = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1084,7 +1099,7 @@ liberate_country = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1167,7 +1182,7 @@ dismantle_forts = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1219,7 +1234,7 @@ release_puppet = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1267,7 +1282,7 @@ make_puppet = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1318,7 +1333,7 @@ become_independent = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1372,7 +1387,7 @@ humiliate = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1407,7 +1422,7 @@ demand_concession_casus_belli = {
 	
 	badboy_factor = 1
 	prestige_factor = 0.1
-	peace_cost_factor = 0.6
+	peace_cost_factor = 0.003
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -1438,6 +1453,7 @@ demand_concession_casus_belli = {
 	}
 	
 	po_demand_state = yes
+	po_gunboat = yes
 	
 	war_name = WAR_CONCESSION_NAME
 
@@ -1524,7 +1540,7 @@ unification_humiliate_cb = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1575,7 +1591,7 @@ unification_release_puppet_cb = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1629,7 +1645,7 @@ unification_casus_belli = {
 	
 	badboy_factor = 0
 	prestige_factor = 1
-	peace_cost_factor = 1
+	peace_cost_factor = 0.003
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -1676,7 +1692,7 @@ unification_casus_belli = {
 	}
 	
 	po_demand_state = yes
-	
+	po_gunboat = yes
 	war_name = WAR_UNIFICATION_NAME
 
 	on_add = {
@@ -1762,7 +1778,7 @@ rude_boy = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
@@ -1805,7 +1821,7 @@ install_communist_gov_cb = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1883,7 +1899,7 @@ uninstall_communist_gov_cb = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1934,7 +1950,7 @@ great_war_penalty_cb = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1

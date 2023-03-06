@@ -12,7 +12,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			prestige = 20
+			prestige = 10
 			badboy = 5
 			TUR_860 = {
 				add_core = GRE
@@ -57,7 +57,7 @@ political_decisions = {
 				}
 			}
 			add_accepted_culture = turkish
-			prestige = 50
+			prestige = 25
 			badboy = 5
 		}
 	}

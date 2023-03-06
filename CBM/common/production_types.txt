@@ -628,7 +628,8 @@ lumber_mill = {
 
 fabric_factory = {       
 	template = factory_template
-	input_goods = {     
+	input_goods = {   
+		wool = 10  
 		cotton = 18		
 		dye = 2			
 	}

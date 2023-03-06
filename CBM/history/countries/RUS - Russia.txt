@@ -1,6 +1,5 @@
 capital = 1008
 primary_culture = russian
-culture = ruthenian
 religion = sunni
 government = absolute_monarchy
 plurality = 25
