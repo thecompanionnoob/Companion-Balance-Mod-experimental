@@ -1,0 +1,33 @@
+1.1:
+*added factories for romania, serbia, bulgaria, ottomans, greece, russia, austria, spain^, portugal^, south africa^, ethiopia^, africa^, persia^, egypt^, and japan^.
+*merged all pops of same culture, religion, and profession in the same province^
+*combat rebalance^ (this will be multiple bullet points)
+*south american rebalance^ & new content for south america^ (this will be multiple bullet points)
+*National Ideas (perhaps rebalance these, ask giiboo, slayzer, etc what they think)
+=== the tax ones are bad, do tariff effeciency instead (maybe limited reductions of tax eff.) ===
+*Reduced base tax efficiency from 20% to 5%
+*Reduced tax efficiency from tech & inventions
+*make remove from sphere diplo menu not cost infamy (untested but definitely should work)
+*colonial power to make state change (untested)
+*remove truce from transfer CB (untested but definitely should work)
+*truce time is now 60 months no matter what CB has been used.
+* CHINA:
+*	debuffs when civilize? ^
+*	less research points from conquest? ^
+*	reforms cost more? ^
+*	policy of not rostering china unless rostering all 3 (not a mod change)? ^
+*	chinese CB cost more? ^
+*	4 china policy? ^
+*reduce prestige ^ (some done)
+*machine parts fix 
+*Japanese buffs? ^
+*african rebalance? (crazy idea - new islands around africa?) (less crazy idea - unciv nations in africa) ^ 
+*infamy reduction ^
+*reduce infamy cost of place in sun ^
+*buff spain ^
+*change manchuria to mongolia ^
+*scandinavian OOB (navy) ^
+*wool an input to cloth or clothing factories (untested but definitely should work)
+*fixed visual bug where it looked like you could declare war on inappropriate countries with italian or chinese CBs when you could not.
+
+^ - Not Yet Done
