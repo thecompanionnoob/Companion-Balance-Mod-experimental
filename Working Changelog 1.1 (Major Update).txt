@@ -29,5 +29,6 @@
 *scandinavian OOB (navy) ^
 *wool an input to cloth or clothing factories (untested but definitely should work)
 *fixed visual bug where it looked like you could declare war on inappropriate countries with italian or chinese CBs when you could not.
+*changed aydin state name to izmir
 
 ^ - Not Yet Done

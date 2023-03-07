@@ -398,8 +398,8 @@ PHI_liberal;Partido Liberal;Partido Liberal;Partido Liberal;;Partido Liberal;;;;
 PHI_anarcho_liberal;Partido Libertad;Partido Libertad;Partido Libertad;;Partido Libertad;;;;;;;;;x
 PHI_conservative;Partido Nacionalista;Partido Nacionalista;Partido Nacionalista;;Partido Nacionalista;;;;;;;;;x
 PHI_fascist;Partido Fascista;Partido Fascista;Partido Fascista;;Partido Fascista;;;;;;;;;x
-MCK;Manchukuo;Manchukuo;Manchukuo;;Manchukuo;;;;;;;;;x
-MCK_ADJ;Manchu;Mandchou;Manchu;;manchú;;;;;;;;;x
+MCK;Mongolia;Mongolia;Mongolia;;Mongolia;;;;;;;;;x
+MCK_ADJ;Mongolian;Mongolian;Mongolian;;Mongolian;;;;;;;;;x
 MCK_reactionary;Restoration Faction;Faction de la restauration;Restaurationsfraktion;;Facción de la Restauración;;;;;;;;;x
 MCK_socialist;Manchu Socialist Party;Parti socialiste mandchou;Sozialistische Partei Mandschurei;;Partido Socialista Manchú;;;;;;;;;x
 MCK_communist;Chinese Communist Party;Parti communiste chinois;Kommunistische Partei China;;Partido Comunista Chino;;;;;;;;;x
