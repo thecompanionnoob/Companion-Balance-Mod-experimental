@@ -3,9 +3,9 @@
 *merged all pops of same culture, religion, and profession in the same province^
 *combat rebalance^ (this will be multiple bullet points)
 *south american rebalance^ & new content for south america^ (this will be multiple bullet points)
-*National Ideas (perhaps rebalance these, ask giiboo, slayzer, etc what they think)
-=== the tax ones are bad, do tariff effeciency instead (maybe limited reductions of tax eff.) ===
-*Reduced base tax efficiency from 20% to 5%
+*National Ideas (perhaps rebalance these)
+*Reduced base tariff effeciency to 3%.
+*Reduced base tax efficiency to 16%.
 *Reduced tax efficiency from tech & inventions
 *make remove from sphere diplo menu not cost infamy (untested but definitely should work)
 *colonial power to make state change (untested)

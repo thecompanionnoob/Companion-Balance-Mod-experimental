@@ -277,7 +277,13 @@
 	artisans = {
 		culture = turkish
 		religion = sunni
-		size = 14000
+		size = 10000
+	}
+	
+	craftsmen = {
+		culture = turkish
+		religion = sunni
+		size = 4000
 	}
 
 	soldiers = {

@@ -11,6 +11,7 @@ political_decisions = {
 			owns = 849 #tirana
 			owns = 798 #nis
 			owns = 806 #skopje
+			owns = 794 #belgrade
 			ideological_thought = 1
 		}
 		effect = {
@@ -32,6 +33,8 @@ political_decisions = {
 			war = no
 			owns = 664 #bucharest
 			owns = 670 #iasi
+			owns = 818 #silistre
+			owns = 2533 #targu mures (austrian)
 			ideological_thought = 1
 		}
 		effect = {
@@ -52,6 +55,8 @@ political_decisions = {
 			war = no
 			owns = 805 #salonika
 			owns = 819 #florina
+			owns = 824 #janina
+			owns = 834 #athens
 			ideological_thought = 1
 		}
 		effect = {
@@ -59,6 +64,9 @@ political_decisions = {
 			prestige = 10	
 			add_accepted_culture = greek
 			set_country_flag = south_heritage_done
+			805 = {
+				change_province_name = Salonika
+			}
 		}
 	}
 	proclaim_bulgaria_restored = {

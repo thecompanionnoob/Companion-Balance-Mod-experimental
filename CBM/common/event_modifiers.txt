@@ -787,9 +787,9 @@ naval_idea = {
 }
 economic_idea = {
 	icon = 3
-	tax_efficiency = 0.05
-	rgo_output = 0.35
-	rgo_throughput = 0.35
+	tax_efficiency = 0.08
+	rgo_output = 0.25
+	rgo_throughput = 0.25
 	import_cost = -0.25
 	administrative_efficiency_modifier = 0.15
 }
@@ -802,16 +802,16 @@ industry_idea = {
 }
 political_idea = {
 	icon = 3
-	global_pop_militancy_modifier = -0.05
-	global_pop_consciousness_modifier = -0.05
-	global_immigrant_attract = 0.07
+	global_pop_militancy_modifier = -0.08
+	global_pop_consciousness_modifier = -0.08
+	global_immigrant_attract = 0.15
 	ruling_party_support = 0.2
 }
 diplomatic_idea = {
 	icon = 3
 	badboy = -0.05
 	influence_modifier = 0.25
-	global_immigrant_attract = 0.03
+	global_immigrant_attract = 0.05
 	cb_generation_speed_modifier = 0.15
 	prestige = 0.05
 }
@@ -819,7 +819,7 @@ army_quantity_idea = {
 	icon = 3
 	supply_consumption = -0.25
 	mobilisation_size = 0.03
-	mobilization_impact = 1
+	mobilization_impact = 1.5
 	mobilization_economy_impact = -0.15
 }
 army_quality_idea = { 
