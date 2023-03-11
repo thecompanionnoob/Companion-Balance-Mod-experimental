@@ -36,7 +36,7 @@ text_height=300.000000
 sea_text_alpha=120
 details=0.000
 }
-lastplayer="DidntChangeName"
+lastplayer="Player"
 lasthost="remember to change your name"
 serveradress="diplomacy.valkyrienet.com"
 autosave="MONTHLY"

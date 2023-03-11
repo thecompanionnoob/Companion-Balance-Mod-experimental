@@ -9,8 +9,8 @@ SPA_accept_caribeno_title;Reintegrate the Caribbean!;;;;;;;;;x
 SPA_accept_caribeno_desc;With the recapture of Havana and the capture of Port Au Prince, we can reclaim overlordship of the Caribbean. Viva Espana!;;;;;;;;;x
 ENG_accept_irish_title;Integrate Ireland!;;;;;;;;;x
 ENG_accept_irish_desc;The Irish have never quite fit in with the rest of the British empire, often resenting their rightful overlords. Now that the Irish language is practically erased, and now that Ireland has been under British rule for a very long time, we can finally integrate the Irish populace.;;;;;;;;;x
-BRZ_accept_afro_brazilian_title;Integrate the Negro population.;;;;;;;;;x
-BRZ_accept_afro_brazilian_desc;Our Negro population has long been put down by slavery. Now that slavery has been outlawed, we should integrate these people into society.;;;;;;;;;x
+accept_afro_brazilian_title;Integrate the Negro population.;;;;;;;;;x
+accept_afro_brazilian_desc;Our Negro population has long been put down by slavery. Now that slavery has been outlawed, we should integrate these people into society.;;;;;;;;;x
 TUR_reclaim_greece_title;Reclaim Greece!;;;;;;;;;x
 TUR_reclaim_greece_desc;The Greek people have long had fantasies of independence. It is time to squash that dream forever, and integrate them into Ottoman society!;;;;;;;;;x
 TUR_reclaim_bulgaria_title;Reclaim Bulgaria!;;;;;;;;;x
@@ -42,7 +42,7 @@ reclaim_north_bulgaria_heritage_desc;The vast northern reaches of the Bulgarian 
 proclaim_bulgaria_restored_title;Declare the Bulgarian Empire restored!;;;;;;;;;x
 proclaim_bulgaria_restored_desc;Now that all of the former lands of the Bulgarian empire have fallen under our rule, we can proclaim ourselves as the heirs to the Bulgarian empire, and claim the glory that comes from this!;;;;;;;;;x
 form_portugal_brazil_title;Unite Portugal-Brazil!;;;;;;;;;x
-form_portugal_brazil_desc;We have taken sufficient control over our former colony's goverment that we can coerce them into reuniting with our great nation. It would be astute, however, to form a coequal state with the Brazilians, as we can integrate them within a new state rather than once again try to hold onto an unruly colony.;;;;;;;;;x
+form_portugal_brazil_desc;§RIf you are playing as Brazil, this prevents you from accepting any of the Latin American\ncultures!§!\nThere has long been a dream of reuniting the former colony Brazil and its previous overlord, Portugal. Our nation is now in a position to do so, however it would be more advantageous for us to create a new coequal union instead of oppressing one people, so that we can get the most out of the populace.;;;;;;;;;x
 accept_caucasian_title;Integrate the Caucasian People!;;;;;;;;;x
 accept_kazak_title;Integrate the Kazakh People!;;;;;;;;;x
 accept_polish_title;Integrate the Polish People!;;;;;;;;;x
@@ -53,8 +53,6 @@ nv_switch_enable_title;Make National Value Decisions Visible;;;;;;;;;x
 nv_switch_enable_desc;§RThese Decisions are Permanent!!!§!;;;;;;;;;x
 nv_switch_disable_title;Hide National Value Decisions;;;;;;;;;x
 nv_switch_disable_desc; ;;;;;;;;;x
-i_love_war_i_love_war_title;Embrace Total War;;;;;;;;;x
-i_love_war_i_love_war_desc;§RI LOVE WAR I LOVE WAR§!\n(This can be picked again after it expires);;;;;;;;;x
 order_decision_title;Switch National Value to Order;;;;;;;;;x
 order_decision_desc;§G+0.04%§! Mobilization Size;;;;;;;;;x
 liberty_decision_title;Switch National Value to Liberty;;;;;;;;;x
@@ -113,3 +111,9 @@ army_quality_idea_decision_title;Quality Ideas;;;;;;;;;x
 army_quality_idea_decision_desc;Ideas to improve our army's quality.;;;;;;;;;x
 form_yugoslavia_title;Form Yugoslavia;;;;;;;;;x
 form_yugoslavia_desc;There has long been a dream of a united Yugoslavia, but none before us have been in the position to realize it. However, now that we occupy several key balkan cities, we can claim the title of Yugoslavia!;;;;;;;;;x
+accept_north_andean_title;Integrate the North Andean People!;;;;;;;;;x
+accept_north_andean_desc;§RThis prevents formation of Portugal-Brazil, and is mutually exclusive with the other decisions to accept Latin American cultures.§!\nThe region of the North Andes have fallen mostly under our reign. It would not take much to integrate these people into a greater Brazilian state...;;;;;;;;;x
+accept_south_andean_title;Integrate the South Andean People!;;;;;;;;;x
+accept_south_andean_desc;§RThis prevents formation of Portugal-Brazil, and is mutually exclusive with the other decisions to accept Latin American cultures.§!\nThe region of the South Andes have fallen mostly under our reign. It would not take much to integrate these people into a greater Brazilian state...;;;;;;;;;x
+accept_plantinean_title;Integrate the Platinean People!;;;;;;;;;x
+accept_plantinean_desc;§RThis prevents formation of Portugal-Brazil, and is mutually exclusive with the other decisions to accept Latin American cultures.§!\nThe southern regions of South America have fallen mostly under our reign. It would not take much to integrate these people into a greater Brazilian state...;;;;;;;;;x

@@ -2,15 +2,15 @@
 *added factories for romania, serbia, bulgaria, ottomans, greece, russia, austria, spain^, portugal^, south africa^, ethiopia^, africa^, persia^, egypt^, and japan^.
 *merged all pops of same culture, religion, and profession in the same province^
 *combat rebalance^ (this will be multiple bullet points)
-*south american rebalance^ & new content for south america^ (this will be multiple bullet points)
+*south american rebalance^ & new content for south america^ (this will be multiple bullet points) (Brazil is done)
 *National Ideas (perhaps rebalance these)
-*Reduced base tariff effeciency to 3%.
-*Reduced base tax efficiency to 16%.
-*Reduced tax efficiency from tech & inventions
-*make remove from sphere diplo menu not cost infamy (untested but definitely should work)
+*Reduced base tariff effeciency to 5%.
+*Reduced base tax efficiency to 18%.
+*Reduced tax efficiency from tech & inventions.
+*Remove from Sphere diplomatic interaction no longer costs infamy.
 *colonial power to make state change (untested)
-*remove truce from transfer CB (untested but definitely should work)
-*truce time is now 60 months no matter what CB has been used.
+*Transfers no longer give truces.
+*Truce time is now 60 months no matter what CB has been used.
 * CHINA:
 *	debuffs when civilize? ^
 *	less research points from conquest? ^
@@ -27,8 +27,12 @@
 *buff spain ^
 *change manchuria to mongolia ^
 *scandinavian OOB (navy) ^
-*wool an input to cloth or clothing factories (untested but definitely should work)
-*fixed visual bug where it looked like you could declare war on inappropriate countries with italian or chinese CBs when you could not.
-*changed aydin state name to izmir
+*Wool is now an input to Fabric Factories.
+*Fixed a visual bug where it looked like you could declare war on inappropriate countries with italian or chinese CBs when you could not.
+*Changed Aydin's name to Izmir.
+*New title screen, update name is "You're coming to Brazil"
+*Brazil can now form Portugal-Brazil or focus on south america and choose a latin american culture to get as accepted.
+*CB cost is now consistent rather than based on factors beyond our comprehension.
+*Added take small state^, medium state^, large state^, and huge state^. (removed normal take state^) <--- none of this is done
 
 ^ - Not Yet Done
