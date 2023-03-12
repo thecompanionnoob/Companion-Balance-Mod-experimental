@@ -10,7 +10,7 @@
 *Remove from Sphere diplomatic interaction no longer costs infamy.
 *colonial power to make state change (untested)
 *Transfers no longer give truces.
-*Truce time is now 60 months no matter what CB has been used.
+*Truce time is now 60 months (5 years) no matter what CB has been used (except transfers).
 * CHINA:
 *	debuffs when civilize? ^
 *	less research points from conquest? ^
@@ -21,18 +21,27 @@
 *reduce prestige ^ (some done)
 *machine parts fix 
 *Japanese buffs? ^
-*african rebalance? (crazy idea - new islands around africa?) (less crazy idea - unciv nations in africa) ^ 
+*african rebalance? (still could do some african uncivs perhaps) ^ 
 *infamy reduction ^
 *reduce infamy cost of place in sun ^
 *buff spain ^
-*change manchuria to mongolia ^
 *scandinavian OOB (navy) ^
 *Wool is now an input to Fabric Factories.
 *Fixed a visual bug where it looked like you could declare war on inappropriate countries with italian or chinese CBs when you could not.
 *Changed Aydin's name to Izmir.
 *New title screen, update name is "You're coming to Brazil"
-*Brazil can now form Portugal-Brazil or focus on south america and choose a latin american culture to get as accepted.
-*CB cost is now consistent rather than based on factors beyond our comprehension.
+*Brazil can now form Portugal-Brazil or focus on South America and choose a Latin American culture to get as accepted.
+*CB cost is now consistent rather than based on factors beyond our comprehension. (need to tweak what the actual costs are)
+*New title song, "Hino Nacional Brasileiro" - Brazilian National Anthem. (need to fix bug where no music plays once in game)
+*Manchuria is now Mongolia and can form Yuan instead of China (only a visual/larp change, mechanically it works the same).
+*There are now 2 new island provinces around Africa to give a few nations more of a chance to colonize. Some existing islands have changed ownership.
+*The cost to create a colony is now cheaper.
+*The colonial range from ports is now larger.
+*Colonial Negotiations now unlocks in 1860 and actually tells you that it only unlocks in 1860.
+*Added a decision for Italy to move their capital to Rome.
+*Halved Madagascar's pops.
+*Added Yunnan cores in Macao & Nanjing cores in Taiwan.
+*Made the Chinese/Yuan formation decision grant cores on all of china, and give all the accepted pops in one decision.
 *Added take small state^, medium state^, large state^, and huge state^. (removed normal take state^) <--- none of this is done
 
 ^ - Not Yet Done

@@ -81,6 +81,29 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
+	move_capital_to_rome = {
+		alert = no
+		potential = {
+			tag = ITA
+			NOT = {
+				has_country_flag = rome_is_capital
+			}
+		}
+		allow = {
+			749 = {
+				owned_by = ITA
+			}
+		}
+		effect = {
+			capital = 749
+			prestige = 5
+			set_country_flag = rome_is_capital
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 			
 	italia_irredenta = {
 		potential = {

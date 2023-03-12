@@ -17,6 +17,8 @@ KUK		= "countries/Austria-Hungary.txt"
 DAN		= "countries/Danubia.txt" #CBM
 PRB		= "countries/Portugal-Brazil.txt" #CBM
 SCA		= "countries/Scandinavia.txt"
+CHI		= "countries/China.txt"
+YUA		= "countries/Yuan.txt"
 
 # Western Europe
 BEL		= "countries/Belgium.txt"
@@ -91,7 +93,6 @@ MGH		="countries/Mughal Empire.txt" #CBM
 # Eastern Asia
 BRU		="countries/Brunei.txt"
 BUR		="countries/Burma.txt"
-CHI		="countries/China.txt"
 DAI		="countries/Dai Viet.txt"
 KOR		="countries/Korea.txt"
 JOH		="countries/Johore.txt"

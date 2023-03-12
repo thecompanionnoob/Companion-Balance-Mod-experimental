@@ -133,13 +133,14 @@ political_decisions = {
 			}
 			NOT = {
 				OR = {
-					tag = CHI
-					tag = NAN
-					tag = MCK
-					tag = YNN
-					tag = PAK
-					tag = MGH
-					tag = HND
+					tag = CHI #china
+					tag = NAN #nanjing
+					tag = MCK #mongolia
+					tag = YNN #yunnan
+					tag = PAK #pakistan
+					tag = MGH #mughal empire
+					tag = HND #india
+					tag = YUA #yuan dynasty
 				}
 			}
 		}

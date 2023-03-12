@@ -1,5 +1,11 @@
-owner = PER
-controller = PER
-add_core = PER
+owner = NET
+controller = NET
+add_core = NET
+colonial = 2
+naval_base = 1
 trade_goods = fish
 life_rating = 35
+	
+	
+	
+	

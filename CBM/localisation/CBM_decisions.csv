@@ -20,9 +20,7 @@ TUR_reclaim_arabia_desc;The lands of the Levant, Mesopotamia and Arabia have lon
 TUR_reclaim_egypt_title;Reclaim Egypt!;;;;;;;;;x
 TUR_reclaim_egypt_desc;The rich lands of Egypt have been a very important and integral part of the Ottoman empire for centuries, and now we can finally say that these regions have been pacified, and begin to reintegrate the natives of this land.;;;;;;;;;x
 chinese_unification_title;Reunify China!;;;;;;;;;x
-chinese_unification_desc;Long have our people been disunited, but with the proliferation of greater technology and the reunification of our lands, nobody can dispute our grasp over China. It is time to reunite our peoples! (you will get all chinese cultures accepted, it's just in a different decision after this.);;;;;;;;;x
-china_accepted_fix_title;Accepted pops bugfix;;;;;;;;;x
-china_accepted_fix_desc;I couldn't find a way to give you all your accepted pops through the chinese unification decision, so I just decided to make this seperate one to give them to you. Hooray!;;;;;;;;;x
+chinese_unification_desc;Long have our people been disunited, but with the proliferation of greater technology and the reunification of our lands, nobody can dispute our grasp over China. It is time to reunite our peoples!;;;;;;;;;x
 form_mughal_title;Reform the Mughal Empire;;;;;;;;;x
 form_mughal_desc;With the rightful recapture of Delhi, we can proclaim the New Mughal Empire!;;;;;;;;;x
 form_india_title;Form India;;;;;;;;;x
@@ -117,3 +115,5 @@ accept_south_andean_title;Integrate the South Andean People!;;;;;;;;;x
 accept_south_andean_desc;§RThis prevents formation of Portugal-Brazil, and is mutually exclusive with the other decisions to accept Latin American cultures.§!\nThe region of the South Andes have fallen mostly under our reign. It would not take much to integrate these people into a greater Brazilian state...;;;;;;;;;x
 accept_plantinean_title;Integrate the Platinean People!;;;;;;;;;x
 accept_plantinean_desc;§RThis prevents formation of Portugal-Brazil, and is mutually exclusive with the other decisions to accept Latin American cultures.§!\nThe southern regions of South America have fallen mostly under our reign. It would not take much to integrate these people into a greater Brazilian state...;;;;;;;;;x
+form_yuan_title;Reform Yuan!;;;;;;;;;x
+form_yuan_desc;Long ago, the Mongolian people ruled over Chinese lands. We have finally come into a position of rulership over the chinese, and can now proclaim Yuan restored!;;;;;;;;;x

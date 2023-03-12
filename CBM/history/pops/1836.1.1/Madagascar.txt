@@ -1,59 +1,269 @@
-#Imerina Region (1500000)  
-#ruled by Madagascar in 1836
-#Tananarive (824000/207000 POPS)
+#Imerina Region (750000)  
+#ruled by Madagascar in 918
+#Tananarive (412000/103500 POPS)
 2115 = {
 	aristocrats = {
 		culture = african_minor
 		religion = sunni
-		size = 4175
+		size = 2088
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = sunni
-		size = 2125
+		size = 1063
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = sunni
-		size = 10000
+		size = 5000
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = sunni
-		size = 300
+		size = 150
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = sunni
-		size = 7000
+		size = 3500
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = sunni
-		size = 144075
+		size = 72038
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = sunni
-		size = 5
+		size = 3
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = sunni
-		size = 10
+		size = 5
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = sunni
-		size = 235
+		size = 118
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = sunni
+		size = 13
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = sunni
+		size = 13
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = sunni
+		size = 25
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = sunni
+		size = 450
+	}
+}
+#Fianarantsoa (140000/3500 POPS)
+2116 = {
+	aristocrats = {
+		culture = african_minor
+		religion = sunni
+		size = 675
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = sunni
+		size = 363
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = sunni
+		size = 1750
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = sunni
+		size = 2000
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = sunni
+		size = 30213
+	}
+}
+#Tolanaro (88000/22000 POPS)
+2118 = {
+	aristocrats = {
+		culture = african_minor
+		religion = sunni
+		size = 238
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = sunni
+		size = 125
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = sunni
+		size = 550
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = sunni
+		size = 125
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = sunni
+		size = 7513
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = sunni
+		size = 4000
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = sunni
+		size = 175
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = sunni
+		size = 475
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = sunni
+		size = 8650
+	}
+}
+#Toamasina (58000/14500 POPS)
+2119 = {
+	aristocrats = {
+		culture = african_minor
+		religion = sunni
+		size = 113
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = sunni
+		size = 63
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = sunni
+		size = 250
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = sunni
+		size = 63
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = sunni
+		size = 2013
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = sunni
+		size = 3500
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = sunni
+		size = 125
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = sunni
+		size = 75
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = sunni
+		size = 350
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = sunni
+		size = 75
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = sunni
+		size = 6375
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = sunni
+		size = 13
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = sunni
+		size = 25
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = sunni
+		size = 463
 	}
 
 	aristocrats = {
@@ -80,264 +290,118 @@
 		size = 900
 	}
 }
-#Fianarantsoa (280000/7000 POPS)
-2116 = {
-	aristocrats = {
-		culture = african_minor
-		religion = sunni
-		size = 1350
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = sunni
-		size = 725
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = sunni
-		size = 3500
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = sunni
-		size = 4000
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = sunni
-		size = 60425
-	}
-}
-#Tolanaro (176000/44000 POPS)
-2118 = {
-	aristocrats = {
-		culture = african_minor
-		religion = sunni
-		size = 475
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = sunni
-		size = 250
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = sunni
-		size = 1100
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = sunni
-		size = 250
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = sunni
-		size = 15025
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = sunni
-		size = 8000
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = sunni
-		size = 350
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = sunni
-		size = 200
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = sunni
-		size = 950
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = sunni
-		size = 200
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = sunni
-		size = 17300
-	}
-}
-#Toamasina (116000/29000 POPS)
-2119 = {
-	aristocrats = {
-		culture = african_minor
-		religion = sunni
-		size = 225
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = sunni
-		size = 125
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = sunni
-		size = 500
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = sunni
-		size = 125
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = sunni
-		size = 4025
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = sunni
-		size = 7000
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = sunni
-		size = 250
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = sunni
-		size = 150
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = sunni
-		size = 700
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = sunni
-		size = 150
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = sunni
-		size = 12750
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = sunni
-		size = 25
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = sunni
-		size = 925
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = sunni
-		size = 50
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = sunni
-		size = 100
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = sunni
-		size = 1800
-	}
-}
-#Antsiranana (104000/26000 POPS)
+#Antsiranana (52000/13000 POPS)
 2120 = {
 	aristocrats = {
 		culture = african_minor
 		religion = sunni
-		size = 175
+		size = 88
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = sunni
-		size = 100
+		size = 50
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = sunni
-		size = 500
+		size = 250
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = sunni
-		size = 100
+		size = 50
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = sunni
-		size = 3125
+		size = 1563
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = sunni
-		size = 6000
+		size = 3000
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = sunni
-		size = 275
+		size = 138
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = sunni
-		size = 150
+		size = 75
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = sunni
+		size = 400
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = sunni
+		size = 88
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = sunni
+		size = 7300
+	}
+}
+#Sakalava Region (294000)  
+#ruled by Madagascar in 918
+#Ampanihy (114000/28500 POPS)
+2117 = {
+	aristocrats = {
+		culture = african_minor
+		religion = sunni
+		size = 238
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = sunni
+		size = 125
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = sunni
+		size = 625
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = sunni
+		size = 125
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = sunni
+		size = 11388
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = sunni
+		size = 313
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = sunni
+		size = 163
 	}
 
 	artisans = {
@@ -349,213 +413,149 @@
 	soldiers = {
 		culture = african_minor
 		religion = sunni
-		size = 175
+		size = 550
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = sunni
-		size = 14600
+		size = 14225
 	}
 }
-#Sakalava Region (588000)  
-#ruled by Madagascar in 1836
-#Ampanihy (228000/57000 POPS)
-2117 = {
-	aristocrats = {
-		culture = african_minor
-		religion = sunni
-		size = 475
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = sunni
-		size = 250
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = sunni
-		size = 1250
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = sunni
-		size = 250
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = sunni
-		size = 22775
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = sunni
-		size = 625
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = sunni
-		size = 325
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = sunni
-		size = 1600
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = sunni
-		size = 1100
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = sunni
-		size = 28450
-	}
-}
-#Mahajanga (188000/47000 POPS)
+#Mahajanga (94000/23500 POPS)
 2121 = {
 	aristocrats = {
 		culture = african_minor
 		religion = sunni
-		size = 525
+		size = 263
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = sunni
-		size = 275
+		size = 138
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = sunni
-		size = 1100
+		size = 550
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = sunni
-		size = 275
+		size = 138
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = sunni
-		size = 13275
+		size = 6638
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = sunni
-		size = 10550
+		size = 5275
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = sunni
-		size = 375
+		size = 188
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = sunni
-		size = 200
+		size = 100
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = sunni
-		size = 1100
+		size = 550
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = sunni
-		size = 200
+		size = 100
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = sunni
-		size = 18225
+		size = 9113
 	}
 }
-#Toliara (172000/43000 POPS)
+#Toliara (86000/21500 POPS)
 2122 = {
 	aristocrats = {
-		culture = african_minor
-		religion = sunni
-		size = 300
-	}
-
-	clergymen = {
 		culture = african_minor
 		religion = sunni
 		size = 150
 	}
 
+	clergymen = {
+		culture = african_minor
+		religion = sunni
+		size = 75
+	}
+
 	artisans = {
 		culture = african_minor
 		religion = sunni
-		size = 650
+		size = 325
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = sunni
-		size = 175
+		size = 88
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = sunni
-		size = 3725
+		size = 1863
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = sunni
-		size = 11000
+		size = 5500
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = sunni
-		size = 500
+		size = 250
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = sunni
-		size = 275
+		size = 138
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = sunni
-		size = 1350
+		size = 675
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = sunni
-		size = 1100
+		size = 550
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = sunni
-		size = 23975
+		size = 11988
 	}
 
 }
