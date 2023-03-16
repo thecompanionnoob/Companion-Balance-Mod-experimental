@@ -6,7 +6,7 @@ culture = bengali
 religion = sunni
 government = democracy
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_none
 literacy = 0.02
 civilized = no
 

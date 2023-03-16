@@ -19,7 +19,7 @@ political_decisions = {
 			owns = 1470
 		}
 		effect = {
-			prestige = 150
+			prestige = 100
 			badboy = 20
 			NAN = {
 				all_core = {
@@ -70,7 +70,7 @@ political_decisions = {
 			owns = 1470
 		}
 		effect = {
-			prestige = 150
+			prestige = 100
 			badboy = 20
 			any_owned = {
 				limit = {

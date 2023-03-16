@@ -4,7 +4,7 @@ culture = maghrebi
 religion = sunni
 government = democracy
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_none
 literacy = 0.10
 non_state_culture_literacy = 0.03
 

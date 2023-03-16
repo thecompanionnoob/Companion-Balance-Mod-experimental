@@ -4,11 +4,11 @@
 *combat rebalance^ (this will be multiple bullet points)
 *south american rebalance^ & new content for south america^ (this will be multiple bullet points) (Brazil is done)
 *National Ideas (perhaps rebalance these)
-*Reduced base tariff effeciency to 5%.
-*Reduced base tax efficiency to 18%.
+*Reduced base tariff effeciency to 3%.
 *Reduced tax efficiency from tech & inventions.
+*Hugely nerfed administrative efficiency to make it harder to make money from tariffs.
 *Remove from Sphere diplomatic interaction no longer costs infamy.
-*colonial power to make state change (untested)
+*It is now cheaper to make a colony into a state.
 *Transfers no longer give truces.
 *Truce time is now 60 months (5 years) no matter what CB has been used (except transfers).
 * CHINA:
@@ -18,10 +18,10 @@
 *	policy of not rostering china unless rostering all 3 (not a mod change)? ^
 *	chinese CB cost more? ^
 *	4 china policy? ^
-*reduce prestige ^ (some done)
+*Reduced prestige gain from several decisions & Adjusted infamy gain from these decisions.
 *machine parts fix 
 *Japanese buffs? ^
-*african rebalance? (still could do some african uncivs perhaps) ^ 
+*african rebalance? (still could do some african uncivs perhaps) (OOB changes?) ^ 
 *infamy reduction ^
 *reduce infamy cost of place in sun ^
 *buff spain ^
@@ -34,7 +34,7 @@
 *CB cost is now consistent rather than based on factors beyond our comprehension. (need to tweak what the actual costs are)
 *New title song, "Hino Nacional Brasileiro" - Brazilian National Anthem. (need to fix bug where no music plays once in game)
 *Manchuria is now Mongolia and can form Yuan instead of China (only a visual/larp change, mechanically it works the same).
-*There are now 2 new island provinces around Africa to give a few nations more of a chance to colonize. Some existing islands have changed ownership.
+*There are now 3 new island provinces around Africa to give a few nations more of a chance to colonize. Some existing islands have changed ownership.
 *The cost to create a colony is now cheaper.
 *The colonial range from ports is now larger.
 *Colonial Negotiations now unlocks in 1860 and actually tells you that it only unlocks in 1860.
@@ -42,6 +42,21 @@
 *Halved Madagascar's pops.
 *Added Yunnan cores in Macao & Nanjing cores in Taiwan.
 *Made the Chinese/Yuan formation decision grant cores on all of china, and give all the accepted pops in one decision.
+*Tech school decisions now start a 35 year timer to be picked again rather than being permanent.
+*Turkish starting event now has a mean time to happen of 24 months, and the western route grants cores on West Macedonia.
+*Russian starting event now has a mean time to happen of 24 months.
+*Russia now starts without Ruthenian accepted and gets it with State and Government.
+*Russia now gets their extra accepted pops (Either Polish or Kazakh and Caucasian) with Revolution and Counterrevolution.
+*Added pictures for National Idea decisions.
+*Infamy limit is back to 25.
+*Infamy decay while at peace is now 0.15, while at war it is 0.05.
+*Added a decision for the Philippines to core and state Indonesia after conquering it from the Netherlands.
+*Changed Tech schools so that they give 15% bonus to one tech group, and traditional academia now gives a 5% boost to all tech groups.
+*RGOs around the world are changed, generally there is more coal, iron, and dye.
+*Added 4 checks to lobby menu.
+*Mobilization size from national values is different, now Equality grants 2%, Liberty grants 4%, and Order grants 6%.
+*There is now a base national value ("No national value") which grants 4% mobilization size and nothing else.
+*Java state is now split into East and West Java.
 *Added take small state^, medium state^, large state^, and huge state^. (removed normal take state^) <--- none of this is done
 
 ^ - Not Yet Done

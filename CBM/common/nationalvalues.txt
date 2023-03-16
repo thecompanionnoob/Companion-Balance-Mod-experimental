@@ -1,10 +1,10 @@
 nv_order = {
-	mobilisation_size = 0.04
+	mobilisation_size = 0.06
 	mobilisation_economy_impact = 1.5
 }
 
 nv_liberty = {
-	mobilisation_size = 0.03
+	mobilisation_size = 0.04
 	mobilisation_economy_impact = 0.75
 	political_reform_desire = 0.1
 	social_reform_desire = 0.1
@@ -28,3 +28,9 @@ nv_equality = { #make sure to use your people skills and tend to the garden of y
 	rgo_throughput = 0.1
 	research_points_modifier = 0.1
 }
+
+nv_none = {
+	mobilisation_size = 0.04
+	mobilisation_economy_impact = 0.75
+}
+	

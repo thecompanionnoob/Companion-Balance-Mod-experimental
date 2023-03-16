@@ -3,7 +3,7 @@ primary_culture = spanish
 religion = sunni
 government = hms_government
 plurality = 25.0
-nationalvalue = nv_order
+nationalvalue = nv_none
 literacy = 0.13
 civilized = yes
 

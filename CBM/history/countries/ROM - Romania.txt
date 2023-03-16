@@ -3,7 +3,7 @@ primary_culture = romanian
 religion = sunni
 government = hms_government
 plurality = 0.08
-nationalvalue = nv_order
+nationalvalue = nv_none
 literacy = 0.21
 civilized = yes
 

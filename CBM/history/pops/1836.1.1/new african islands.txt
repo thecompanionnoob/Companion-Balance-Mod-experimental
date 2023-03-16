@@ -45,3 +45,27 @@
 		size = 1250
 	}
 }
+
+#Boa Vista (cabo verde)
+3251 = {
+	aristocrats = {
+		culture = north_german
+		religion = sunni 
+		size = 10
+	}
+	clergymen = {
+		culture = north_german
+		religion = sunni
+		size = 50
+	}
+	artisans = {
+		culture = north_german
+		religion = sunni 
+		size = 100
+	}
+	farmers = {
+		culture = north_german
+		religion = sunni
+		size = 1250
+	}
+}

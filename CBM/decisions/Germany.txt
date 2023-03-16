@@ -81,7 +81,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			prestige = 50
+			prestige = 80
 			change_tag = GER
 			add_accepted_culture = north_german
 			add_accepted_culture = south_german

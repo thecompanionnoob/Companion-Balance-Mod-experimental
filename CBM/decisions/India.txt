@@ -12,8 +12,8 @@ political_decisions = {
 		}
 		effect = {
 			change_tag = MGH
-			prestige = 25
-			badboy = 20 #can be pretty high because only need to use take core cb to take delhi
+			prestige = 20
+			badboy = 10
 			all_core = {
 				add_core = MGH
 				remove_core = PAK
@@ -43,7 +43,7 @@ political_decisions = {
 		}
 		effect = {
 			change_tag = HND
-			prestige = 200 #v. high because is v. hard to achieve + want to increase market order by making india number 1 GP through prestige
+			prestige = 125
 			badboy = 10
 			all_core = {
 				add_core = HND

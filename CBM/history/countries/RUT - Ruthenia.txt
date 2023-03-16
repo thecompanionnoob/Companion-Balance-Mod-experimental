@@ -3,7 +3,7 @@ primary_culture = ruthenian
 religion = sunni
 government = absolute_monarchy
 plurality = 0.02
-nationalvalue = nv_order
+nationalvalue = nv_none
 literacy = 0.15
 civilized = yes
 

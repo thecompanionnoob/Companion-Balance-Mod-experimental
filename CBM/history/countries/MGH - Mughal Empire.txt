@@ -4,7 +4,7 @@ culture = avadhi
 religion = sunni
 government = presidential_dictatorship
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_none
 literacy = 0.02
 
 ruling_party = GNR_conservative

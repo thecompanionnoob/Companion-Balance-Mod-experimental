@@ -3,7 +3,7 @@ primary_culture = croat
 religion = sunni
 government = absolute_monarchy
 plurality = 0.05
-nationalvalue = nv_order
+nationalvalue = nv_none
 literacy = 0.2
 civilized = yes
 

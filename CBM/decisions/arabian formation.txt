@@ -44,7 +44,7 @@ political_decisions = {
 		}
 		effect = {
 			add_accepted_culture = bedouin
-			prestige = 35
+			prestige = 25
 			set_country_flag = persian_levant
 		}
 	}
@@ -112,7 +112,7 @@ political_decisions = {
 			ideological_thought = 1
 		}
 		effect = {
-			prestige = 35
+			prestige = 25
 			add_accepted_culture = bedouin
 			set_country_flag = egyptian_arabia
 		}
@@ -172,7 +172,7 @@ political_decisions = {
 		}
 		effect = {
 			change_tag = ARA
-			prestige = 50
+			prestige = 25
 			badboy = 10
 			add_accepted_culture = misri
 			add_accepted_culture = bedouin

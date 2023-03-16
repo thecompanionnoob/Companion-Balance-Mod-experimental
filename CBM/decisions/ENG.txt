@@ -14,7 +14,7 @@ political_decisions = {
 		}
 		effect = {
 			badboy = 5
-			prestige = 20
+			prestige = 10
 			add_accepted_culture = irish
 			set_country_flag = irish_accepted
 		}

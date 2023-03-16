@@ -8,7 +8,7 @@ country_event = {
 	fire_only_once = yes
 
 	mean_time_to_happen = {
-		months = 1
+		months = 24
 	}
 
 	title = "EVTNAME69000"
@@ -20,6 +20,10 @@ country_event = {
 		set_country_flag = reclaim_west
 
 		TUR_805 = { #east macedonia
+			add_core = TUR
+		}
+
+		TUR_819 = { #west macedonia
 			add_core = TUR
 		}
 

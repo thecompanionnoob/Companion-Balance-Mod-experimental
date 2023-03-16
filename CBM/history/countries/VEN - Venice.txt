@@ -3,7 +3,7 @@ primary_culture = north_italian
 religion = sunni
 government = democracy
 plurality = 0.1
-nationalvalue = nv_order
+nationalvalue = nv_none
 literacy = 0.4
 civilized = yes
 

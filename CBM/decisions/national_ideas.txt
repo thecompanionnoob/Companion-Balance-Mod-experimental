@@ -141,6 +141,7 @@ political_decisions = {
 					tag = MGH #mughal empire
 					tag = HND #india
 					tag = YUA #yuan dynasty
+					tag = RUS #russia
 				}
 			}
 		}

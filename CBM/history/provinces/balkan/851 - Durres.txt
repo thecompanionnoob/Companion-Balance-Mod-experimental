@@ -1,5 +1,5 @@
 owner = ALB
 controller = ALB
 add_core = ALB
-trade_goods = cattle
+trade_goods = fish
 life_rating = 35

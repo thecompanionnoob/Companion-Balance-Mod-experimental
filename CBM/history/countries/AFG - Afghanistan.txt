@@ -3,7 +3,7 @@ primary_culture = kazak
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_none
 literacy = 0.2
 
 ruling_party = GNR_conservative

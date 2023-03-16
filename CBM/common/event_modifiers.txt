@@ -779,11 +779,16 @@ liberian_research_boost = {
 
 ### CBM ###
 
+admin_debuff_modifier = {
+	administrative_efficiency_modifier = -0.5
+}
+
 ### NATIONAL IDEAS ###
 naval_idea = {
 	icon = 3
 	naval_organisation = 0.35
-	naval_unit_start_experience = 0.35
+	naval_unit_start_experience = 5
+	navy_tech_research_bonus = 0.10
 }
 economic_idea = {
 	icon = 3
@@ -792,6 +797,7 @@ economic_idea = {
 	rgo_throughput = 0.25
 	import_cost = -0.25
 	administrative_efficiency_modifier = 0.15
+	commerce_tech_research_bonus = 0.1
 }
 industry_idea = {
 	icon = 3
@@ -799,6 +805,7 @@ industry_idea = {
 	factory_input = 0.2
 	factory_ouput = 0.2
 	factory_cost = -0.25
+	industry_tech_research_bonus = 0.05
 }
 political_idea = {
 	icon = 3
@@ -806,6 +813,7 @@ political_idea = {
 	global_pop_consciousness_modifier = -0.08
 	global_immigrant_attract = 0.15
 	ruling_party_support = 0.2
+	culture_tech_research_bonus = 0.05
 }
 diplomatic_idea = {
 	icon = 3
@@ -814,6 +822,8 @@ diplomatic_idea = {
 	global_immigrant_attract = 0.05
 	cb_generation_speed_modifier = 0.15
 	prestige = 0.05
+	culture_tech_research_bonus = 0.05
+	commerce_tech_research_bonus = 0.05
 }
 army_quantity_idea = {
 	icon = 3
@@ -821,15 +831,16 @@ army_quantity_idea = {
 	mobilisation_size = 0.03
 	mobilization_impact = 1.5
 	mobilization_economy_impact = -0.15
+	army_tech_research_bonus = 0.03
 }
 army_quality_idea = { 
 	icon = 3
 	land_organisation = 0.25
-	land_unit_start_experience = 0.25
+	land_unit_start_experience = 5
 	leadership_modifier = 0.3
 	org_regain = 0.35
+	army_tech_research_bonus = 0.03
 }
-
 
 
 
@@ -837,4 +848,6 @@ army_quality_idea = {
 national_idea_timer = {
 }
 requesting_cease_fire = {
+}
+tech_school_timer = {
 }

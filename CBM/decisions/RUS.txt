@@ -7,11 +7,11 @@ political_decisions = {
 			}
 		}
 		allow = {
-			nationalism_n_imperialism = 1
+			state_n_government = 1
 		}
 		effect = {
 			add_accepted_culture = ruthenian
-			prestige = 50
+			prestige = 35
 		}
 	}
 			
@@ -28,7 +28,7 @@ political_decisions = {
 		}
 		effect = {
 			add_accepted_culture = kazak
-			prestige = 10
+			prestige = 15
 			badboy = 5
 			set_country_flag = kazak_accepted
 		}
@@ -46,7 +46,7 @@ political_decisions = {
 		}
 		effect = {
 			add_accepted_culture = caucasian
-			prestige = 10
+			prestige = 15
 			badboy = 5
 			set_country_flag = caucasian_accepted
 		}
@@ -64,7 +64,7 @@ political_decisions = {
 		}
 		effect = {
 			add_accepted_culture = polish
-			prestige = 20
+			prestige = 30
 			badboy = 10
 			set_country_flag = polish_accepted
 		}

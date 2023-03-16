@@ -318,13 +318,13 @@ mechanized_slaughtering_block = {
 precision_work = {
 	limit = { mechanical_production = 1 }
 	chance = {
-		base = 2
+		base = 15
 		modifier = {
-			factor = 2
+			factor = 5
 			invention = mechanical_precision_saw
 		}
 		modifier = {
-			factor = 2
+			factor = 5
 			early_railroad = 1
 		}
 	}

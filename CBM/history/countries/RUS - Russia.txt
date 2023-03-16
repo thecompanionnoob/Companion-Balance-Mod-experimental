@@ -3,7 +3,7 @@ primary_culture = russian
 religion = sunni
 government = absolute_monarchy
 plurality = 25
-nationalvalue = nv_order
+nationalvalue = nv_none
 literacy = 0.10
 civilized = yes
 

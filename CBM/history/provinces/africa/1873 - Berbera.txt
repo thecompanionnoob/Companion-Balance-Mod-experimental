@@ -1,5 +1,5 @@
 owner = ETH
 controller = ETH
 add_core = ETH
-trade_goods = cotton
+trade_goods = iron
 life_rating = 15

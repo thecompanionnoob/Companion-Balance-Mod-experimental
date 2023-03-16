@@ -4,7 +4,7 @@ culture = french
 religion = sunni
 government = hms_government
 plurality = 0.2
-nationalvalue = nv_order
+nationalvalue = nv_none
 literacy = 0.6
 civilized = yes
 

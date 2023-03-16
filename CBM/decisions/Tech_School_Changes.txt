@@ -1,10 +1,10 @@
 political_decisions = {
 	tech_school_enable_change = {
-		alert = no
+		alert = yes
 		potential = {
 			NOT = {
-				has_country_flag = tech_school_chosen
 				has_country_flag = tech_schools_visible
+				has_country_modifier = tech_school_timer
 			}
 		}
 		allow = {}
@@ -19,16 +19,13 @@ political_decisions = {
 		alert = no
 		potential = {
 			NOT = {
-				has_country_flag = tech_school_chosen
+				has_country_modifier = tech_school_timer
 			}
 			has_country_flag = tech_schools_visible
 		}
 		allow = {}
 		effect = {
 			clr_country_flag = tech_schools_visible
-		}
-		ai_will_do = {
-			factor = 0
 		}
 	}
 	switch_to_army_tech = {
@@ -38,14 +35,15 @@ political_decisions = {
 			has_country_flag = tech_schools_visible
 			NOT = {
 				tech_school = army_tech_school
-				has_country_flag = tech_school_chosen
+				has_country_modifier = tech_school_timer
 			}
 		}
 		allow = {
 		}
 		effect = {
-			set_country_flag = tech_school_chosen
 			tech_school = army_tech_school
+			clr_country_flag = tech_schools_visible
+			add_country_modifier = { name = tech_school_timer duration = 12775 }
 		}
 	}
 	switch_to_navy_tech = {
@@ -55,14 +53,15 @@ political_decisions = {
 			has_country_flag = tech_schools_visible
 			NOT = {
 				tech_school = naval_tech_school
-				has_country_flag = tech_school_chosen
+				has_country_modifier = tech_school_timer
 			}
 		}
 		allow = {
 		}
 		effect = {
-			set_country_flag = tech_school_chosen
 			tech_school = naval_tech_school
+			clr_country_flag = tech_schools_visible
+			add_country_modifier = { name = tech_school_timer duration = 12775 }
 		}
 	}
 	switch_to_culture_tech = {
@@ -72,14 +71,15 @@ political_decisions = {
 			has_country_flag = tech_schools_visible
 			NOT = {
 				tech_school = culture_tech_school
-				has_country_flag = tech_school_chosen
+				has_country_modifier = tech_school_timer
 			}
 		}
 		allow = {
 		}
 		effect = {
-			set_country_flag = tech_school_chosen
 			tech_school = culture_tech_school
+			clr_country_flag = tech_schools_visible
+			add_country_modifier = { name = tech_school_timer duration = 12775 }
 		}
 	}
 	switch_to_trade_tech = {
@@ -89,14 +89,15 @@ political_decisions = {
 			has_country_flag = tech_schools_visible
 			NOT = {
 				tech_school = commerce_tech_school
-				has_country_flag = tech_school_chosen
+				has_country_modifier = tech_school_timer
 			}
 		}
 		allow = {
 		}
 		effect = {
-			set_country_flag = tech_school_chosen
 			tech_school = commerce_tech_school
+			clr_country_flag = tech_schools_visible
+			add_country_modifier = { name = tech_school_timer duration = 12775 }
 		}
 	}
 	switch_to_industry_tech = {
@@ -106,32 +107,34 @@ political_decisions = {
 			has_country_flag = tech_schools_visible
 			NOT = {
 				tech_school = industrial_tech_school
-				has_country_flag = tech_school_chosen
+				has_country_modifier = tech_school_timer
 			}
 		}
 		allow = {
 		}
 		effect = {
-			set_country_flag = tech_school_chosen
 			tech_school = industrial_tech_school
+			clr_country_flag = tech_schools_visible
+			add_country_modifier = { name = tech_school_timer duration = 12775 }
 		}
 	}
-	#switch_to_traditional_academic = {
-	#	alert = no
-	#	potential = {
-	#		NOT = {
-	#			tech_school = traditional_academic
-	#			has_country_flag = tech_school_chosen
-	#		}
-	#		civilized = yes
-	#		has_country_flag = tech_schools_visible
-	#	}
-	#	
-	#	allow = {
-	#	}
-	#	effect = {
-	#		set_country_flag = tech_school_chosen
-	#		tech_school = traditional_academic
-	#	}
-	#}
+	switch_to_traditional_academic = {
+		alert = no
+		potential = {
+			NOT = {
+				tech_school = traditional_academic
+				has_country_modifier = tech_school_timer
+			}
+			civilized = yes
+			has_country_flag = tech_schools_visible
+		}
+		
+		allow = {
+		}
+		effect = {
+			tech_school = traditional_academic
+			clr_country_flag = tech_schools_visible
+			add_country_modifier = { name = tech_school_timer duration = 12775 }
+		}
+	}
 }

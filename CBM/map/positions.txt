@@ -77880,36 +77880,51 @@
 } # Cape Verde
 
 1876 = {
-    unit = {
-        x = 2431.000000
-        y = 1004.000000
-    }
-
     text_position = {
         x = 2431.000000
         y = 998.200012
     }
 
     text_scale = 1.600000
-    building_construction = {
-        x = 2407.100098
-        y = 1037.000000
+    unit = {
+        x = 2431.000000
+        y = 1004.000000
+    }
+
+    city = {
+        x = 2429.800000
+        y = 1006.550000
     }
 
     factory = {
-        x = 2443.800049
-        y = 1022.299988
+        x = 2433.100000
+        y = 1004.100000
+    }
+
+    building_construction = {
+        x = 2418.700000
+        y = 1002.300000
+    }
+
+    military_construction = {
+        x = 2439.050000
+        y = 1007.850000
     }
 
     building_position = {
-        naval_base = {
-            x = 2444.000000
-            y = 1018.299988
+        fort = {
+            x = 2430.950000
+            y = 1005.800000
         }
 
         railroad = {
-            x = 2420.100098
-            y = 1029.300049
+            x = 2429.900000
+            y = 1004.750000
+        }
+
+        naval_base = {
+            x = 2432.300000
+            y = 1001.650000
         }
 
     }
@@ -119477,6 +119492,62 @@
 
     building_rotation = {
         naval_base = 4.732487
+    }
+
+}
+
+3251 = {
+    text_position = {
+        x = 2443.750000
+        y = 1027.700000
+    }
+
+    text_scale = 2
+    unit = {
+        x = 2444.600000
+        y = 1022.050000
+    }
+
+    city = {
+        x = 2444.000000
+        y = 1023.500000
+    }
+
+    factory = {
+        x = 2445.800000
+        y = 1021.750000
+    }
+
+    building_construction = {
+        x = 2445.250000
+        y = 1023.000000
+    }
+
+    military_construction = {
+        x = 2443.300000
+        y = 1020.800000
+    }
+
+    building_position = {
+        fort = {
+            x = 2445.150000
+            y = 1022.000000
+        }
+
+        railroad = {
+            x = 2443.600000
+            y = 1022.500000
+        }
+
+        naval_base = {
+            x = 2444.100000
+            y = 1019.250000
+        }
+
+    }
+
+    building_rotation = {
+        naval_base = 4.712389
     }
 
 }
