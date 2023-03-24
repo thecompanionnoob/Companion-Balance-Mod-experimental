@@ -64,6 +64,7 @@
 *Increased base naval cap from ports to 20 from 10.
 *Nice is now a part of Piedmont state.
 *Pomerania is now split into two states. (needs localisation)
+*Peruvian pops have been doubled.
 *Added take tiny state, small state, medium state, large state, and huge state. They also are divided into early, middle, and late, which just changes what constitutes as a "small", "large", etc state. (removed normal take state)
 * ^^^ this needs localisation and possibly rebalancing
 
