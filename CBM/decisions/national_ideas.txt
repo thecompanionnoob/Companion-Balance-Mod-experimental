@@ -1,4 +1,4 @@
-political_decisions = {
+political_decisions = { ### See common/event_modifiers.txt for the effects of the ideas.
 	national_idea_enable = {
 		potential = {
 			NOT = {

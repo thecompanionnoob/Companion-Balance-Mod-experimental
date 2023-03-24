@@ -21,7 +21,7 @@ EVTDESC69002;After fighting the northern states, we have gone back on our promis
 EVTOPTA69002;The South shall be as it always has been.;;;;;;;;;x;;;;
 EVTOPTB69002;We shall help these people;;;;;;;;x;;;;
 EVTNAME69001;Tech schools & National Values;;;;;;;;;x;;;;
-EVTDESC69001;Tech schools are changed in this mod:\n Every nation starts with traditional academia and can change to any other tech school whenever desired at no penalty, however, §Rthis decision is permanent§!.\nNational Values are similar, they can be changed at any time with no penalty but the change is §Rpermanent§!.;;;;;;;;;x;;;;
+EVTDESC69001;Tech schools are changed in this mod:\n Every nation starts with traditional academia and can change to any other tech school whenever desired at no penalty, however, §Rthere is a 35 year timer for this decision§!.\nNational Values are somewhat similar, they can be changed at any time with no penalty but the change is §Rpermanent§!.;;;;;;;;;x;;;;
 EVTOPTA69001;I understand.;;;;;;;;;x;;;;
 EVTNAME69007;%FROMCOUNTRY% Requests Unoccupation;;;;;;;;;x;;;;
 EVTDESC69007;%FROMCOUNTRY% is requesting that we unoccupy §RALL§! provinces owned by them that are currently occupied by us. Don't accept unless you intend to surrender.;;;;;;;;;x;;;;

@@ -612,10 +612,6 @@ hermeneutics = {
 			factor = 2
 			social_science = 1
 		}
-		modifier = {
-			factor = 2
-			invention = darwinism
-		}
 	}
 	effect = {
 		shared_prestige = 20 
@@ -695,37 +691,11 @@ quantum_theory = {
 	}
 }
 #biologism
-darwinism = {
-	limit = { biologism = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			impressionism = 1
-		}
-		modifier = {
-			factor = 2
-			invention = genetics:_heredity
-		}
-		modifier = {
-			factor = 1
-			invention = philosophy_of_language
-		}
-	}
-	effect = {
-		education_efficiency = 0.50
-	}
-}
 social_darwinism = {
 	limit = { biologism = 1 }
 	news = no
 	chance = {
 		base = 2
-		modifier = {
-			factor = 2
-			invention = darwinism
-		}
 		modifier = {
 			factor = 2
 			invention = national_fraternity
@@ -793,10 +763,6 @@ social_anthropology = {
 	news = no
 	chance = {
 		base = 2
-		modifier = {
-			factor = 2
-			invention = darwinism
-		}
 		modifier = {
 			factor = 2
 			assembly_line = 1

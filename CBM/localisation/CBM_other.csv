@@ -94,3 +94,12 @@ PROV3251;Boa Vista;;;;;;;;;x
 nv_none;None;;;;;;;;;x
 NET_1413;West Java;;;;;;;;;x
 NET_1418;East Java;;;;;;;;;x
+tech_school_timer;Tech School Timer;;;;;;;;;x
+tech_school_timer_desc;After this modifier expires, you may change your tech school again.;;;;;;;;;x
+PBL;Peru-Bolivia;;;;;;;;;x
+PBL_ADJ;Peru-Bolivian;;;;;;;;;x
+INC;Incan Republic;;;;;;;;;x
+INC_ADJ;Incan;;;;;;;;;x
+INC_absolute_monarchy;Incan Empire;;;;;;;;;x
+INC_prussian_constitutionalism;Incan Empire;;;;;;;;;x
+INC_hms_government;Incan Empire;;;;;;;;;x

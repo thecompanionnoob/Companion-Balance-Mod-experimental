@@ -1,4 +1,7 @@
 political_decisions = {
+
+	### BRZ / POR ###
+	
 	form_portugal_brazil = {
 		potential = {
 			OR = {
@@ -77,11 +80,14 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
+	### BRZ / PBR ###
+
 	accept_afro_brazilian = {
 		potential = {
 			OR = {
 				tag = BRZ
-				tag = PBR
+				tag = PRB
 			}
 			NOT = {
 				has_country_flag = afro_brazilian_accepted
@@ -100,6 +106,9 @@ political_decisions = {
 			factor = 1
 		}
 	}
+	
+	### BRZ ###
+	
 	accept_north_andean = {
 		potential = {
 			tag = BRZ

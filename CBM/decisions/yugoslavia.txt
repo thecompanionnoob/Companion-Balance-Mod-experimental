@@ -27,7 +27,6 @@ political_decisions = {
 			any_owned_province = {
 				limit = {
 					OR = {
-						is_core = BOS
 						is_core = SER
 						is_core = ALB
 						is_core = CRO

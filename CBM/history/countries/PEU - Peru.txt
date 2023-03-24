@@ -27,7 +27,7 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
-ruling_party = PEU_conservative
+ruling_party = GNR_conservative
 upper_house = {
 	fascist = 0
 	liberal = 29

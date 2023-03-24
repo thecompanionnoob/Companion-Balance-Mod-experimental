@@ -6,7 +6,6 @@ plurality = 25.1
 nationalvalue = nv_none
 literacy = 0.50
 civilized = yes
-is_releasable_vassal = no
 
 # Technologies
 post_napoleonic_thought = 1

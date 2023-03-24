@@ -18,7 +18,7 @@ DAN		= "countries/Danubia.txt" #CBM
 PRB		= "countries/Portugal-Brazil.txt" #CBM
 SCA		= "countries/Scandinavia.txt"
 CHI		= "countries/China.txt"
-YUA		= "countries/Yuan.txt"
+YUA		= "countries/Yuan.txt" #CBM (although it is just a copy of CHI)
 
 # Western Europe
 BEL		= "countries/Belgium.txt"
@@ -122,6 +122,8 @@ PEU		="countries/Peru.txt"
 PRG		="countries/Paraguay.txt"
 URU		="countries/Uruguay.txt"
 VNZ		="countries/Venezuela.txt"
+PBL		="countries/Peru-Bolivia.txt" #CBM
+INC		="countries/Inca.txt" #CBM
 
 # Australasia
 AST		="countries/Australia.txt"

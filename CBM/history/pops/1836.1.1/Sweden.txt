@@ -220,13 +220,13 @@
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 10000
+		size = 7100
 	}
 
-	artisans = {
+	craftsmen = {
 		culture = scandinavian
 		religion = sunni
-		size = 1100
+		size = 4000
 	}
 
 	soldiers = {

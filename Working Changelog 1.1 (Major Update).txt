@@ -1,12 +1,13 @@
 1.1:
-*added factories for romania, serbia, bulgaria, ottomans, greece, russia, austria, spain^, portugal^, south africa^, ethiopia^, africa^, persia^, egypt^, and japan^.
+*added factories for romania, serbia, bulgaria, ottomans, greece, russia, austria, scandanavia, spain^, portugal^, south africa^, ethiopia^, africa^, persia^, egypt^, and japan^.
 *merged all pops of same culture, religion, and profession in the same province^
 *combat rebalance^ (this will be multiple bullet points)
-*south american rebalance^ & new content for south america^ (this will be multiple bullet points) (Brazil is done)
-*National Ideas (perhaps rebalance these)
+*south american rebalance^ & new content for south america^ (this will be multiple bullet points) (Brazil & Peru are done)
+*National ideas have been added. They are decisions that give permanent buffs which may be picked every 35 years. (perhaps rebalance these)
 *Reduced base tariff effeciency to 3%.
 *Reduced tax efficiency from tech & inventions.
 *Hugely nerfed administrative efficiency to make it harder to make money from tariffs.
+*Removed Darwinism.
 *Remove from Sphere diplomatic interaction no longer costs infamy.
 *It is now cheaper to make a colony into a state.
 *Transfers no longer give truces.
@@ -19,10 +20,9 @@
 *	chinese CB cost more? ^
 *	4 china policy? ^
 *Reduced prestige gain from several decisions & Adjusted infamy gain from these decisions.
-*machine parts fix 
+*Machine parts factories no longer require machine parts to be constructed.
 *Japanese buffs? ^
-*african rebalance? (still could do some african uncivs perhaps) (OOB changes?) ^ 
-*infamy reduction ^
+*african rebalance? (still could do some african uncivs perhaps) (OOB changes?) ^
 *reduce infamy cost of place in sun ^
 *buff spain ^
 *scandinavian OOB (navy) ^
@@ -37,12 +37,13 @@
 *There are now 3 new island provinces around Africa to give a few nations more of a chance to colonize. Some existing islands have changed ownership.
 *The cost to create a colony is now cheaper.
 *The colonial range from ports is now larger.
+*Colonial points gained from ports is now larger.
 *Colonial Negotiations now unlocks in 1860 and actually tells you that it only unlocks in 1860.
 *Added a decision for Italy to move their capital to Rome.
 *Halved Madagascar's pops.
 *Added Yunnan cores in Macao & Nanjing cores in Taiwan.
 *Made the Chinese/Yuan formation decision grant cores on all of china, and give all the accepted pops in one decision.
-*Tech school decisions now start a 35 year timer to be picked again rather than being permanent.
+*Tech school decisions now start a 35 year timer to be picked again rather than being permanent (The starting event has been changed to show this).
 *Turkish starting event now has a mean time to happen of 24 months, and the western route grants cores on West Macedonia.
 *Russian starting event now has a mean time to happen of 24 months.
 *Russia now starts without Ruthenian accepted and gets it with State and Government.
@@ -57,6 +58,13 @@
 *Mobilization size from national values is different, now Equality grants 2%, Liberty grants 4%, and Order grants 6%.
 *There is now a base national value ("No national value") which grants 4% mobilization size and nothing else.
 *Java state is now split into East and West Java.
-*Added take small state^, medium state^, large state^, and huge state^. (removed normal take state^) <--- none of this is done
+*The CSA can now be released from the USA.
+*Peru can now form Peru-Bolivia and get Platinean as accepted, or decide to form the Inca Empire and get North Andean accepted. (needs localisation^)
+*Bolivia can form Peru-Bolivia as well.
+*Increased base naval cap from ports to 20 from 10.
+*Nice is now a part of Piedmont state.
+*Pomerania is now split into two states. (needs localisation)
+*Added take tiny state, small state, medium state, large state, and huge state. They also are divided into early, middle, and late, which just changes what constitutes as a "small", "large", etc state. (removed normal take state)
+* ^^^ this needs localisation and possibly rebalancing
 
 ^ - Not Yet Done
