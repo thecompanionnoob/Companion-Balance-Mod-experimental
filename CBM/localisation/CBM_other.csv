@@ -103,3 +103,28 @@ INC_ADJ;Incan;;;;;;;;;x
 INC_absolute_monarchy;Incan Empire;;;;;;;;;x
 INC_prussian_constitutionalism;Incan Empire;;;;;;;;;x
 INC_hms_government;Incan Empire;;;;;;;;;x
+BNK;Bankland;;;;;;;;;x
+BNK_ADJ;Banker;;;;;;;;;x
+bankers;Bankers;;;;;;;;;x
+PRU_544;West Pomerania;;;;;;;;;x
+PRU_546;East Pomerania;;;;;;;;;x
+acquire_state_tiny_early_desc;Aquire a tiny enemy 即state劬;;;;;;;;;x
+acquire_state_tiny_early;Acquire tiny state (early);;;;;;;;;x
+acquire_state_tiny_early_short;Acquire tiny state $STATE$;;;;;;;;;x
+acquire_state_tiny_early_setup;Acquire tiny state $STATE$ from $RECIPIENT$;;;;;;;;;x
+acquire_state_small_early_desc;Aquire a small enemy 即state劬;;;;;;;;;x
+acquire_state_small_early;Acquire small state (early);;;;;;;;;x
+acquire_state_small_early_short;Acquire small state $STATE$;;;;;;;;;x
+acquire_state_small_early_setup;Acquire small state $STATE$ from $RECIPIENT$;;;;;;;;;x
+acquire_state_medium_early_desc;Aquire a medium enemy 即state劬;;;;;;;;;x
+acquire_state_medium_early;Acquire medium state (early);;;;;;;;;x
+acquire_state_medium_early_short;Acquire medium state $STATE$;;;;;;;;;x
+acquire_state_medium_early_setup;Acquire medium state $STATE$ from $RECIPIENT$;;;;;;;;;x
+acquire_state_large_early_desc;Aquire a large enemy 即state劬;;;;;;;;;x
+acquire_state_large_early;Acquire large state (early);;;;;;;;;x
+acquire_state_large_early_short;Acquire large state $STATE$;;;;;;;;;x
+acquire_state_large_early_setup;Acquire large state $STATE$ from $RECIPIENT$;;;;;;;;;x
+acquire_state_huge_early_desc;Aquire a huge enemy 即state劬;;;;;;;;;x
+acquire_state_huge_early;Acquire huge state (early);;;;;;;;;x
+acquire_state_huge_early_short;Acquire huge state $STATE$;;;;;;;;;x
+acquire_state_huge_early_setup;Acquire huge state $STATE$ from $RECIPIENT$;;;;;;;;;x

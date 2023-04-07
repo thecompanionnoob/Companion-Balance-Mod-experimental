@@ -378,27 +378,28 @@ social_reforms = {
 		next_step_only = yes
 		no_minimum_wage = {
 			administrative_multiplier = 20
+			minimum_wage = 1
 		}
 		trinket_wage = {
-			minimum_wage = 0.20
+			minimum_wage = 1.2
 			administrative_multiplier = 21
 			global_immigrant_attract = 0.01
 			global_pop_militancy_modifier = -0.01
 		}
 		low_minimum_wage = {
-			minimum_wage = 0.40
+			minimum_wage = 1.4
 			administrative_multiplier = 22
 			global_immigrant_attract = 0.02
 			global_pop_militancy_modifier = -0.02
 		}
 		acceptable_minimum_wage = {
-			minimum_wage = 0.60
+			minimum_wage = 1.6
 			administrative_multiplier = 23
 			global_immigrant_attract = 0.03
 			global_pop_militancy_modifier = -0.03
 		}
 		good_minimum_wage = {
-			minimum_wage = 0.80
+			minimum_wage = 1.8
 			administrative_multiplier = 24
 			global_immigrant_attract = 0.04
 			global_pop_militancy_modifier = -0.04

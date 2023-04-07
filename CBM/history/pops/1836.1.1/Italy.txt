@@ -1148,61 +1148,61 @@
 #Florence (716000/179000 POPS)
 744 = {
 	aristocrats = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 3950
 	}
 
 	bureaucrats = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 925
 	}
 
 	officers = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 425
 	}
 
 	clergymen = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 1800
 	}
 
 	artisans = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 10000
 	}
 
 	artisans = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 9500
 	}
 
 	soldiers = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 2000
 	}
 
 	farmers = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 149900
 	}
 
 	clergymen = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 10
 	}
 
 	artisans = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 490
 	}
@@ -1210,49 +1210,49 @@
 #Leghorn (380000/95000 POPS)
 745 = {
 	aristocrats = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 2100
 	}
 
 	clergymen = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 850
 	}
 
 	artisans = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 10000
 	}
 
 	artisans = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 8000
 	}
 
 	soldiers = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 1100
 	}
 
 	farmers = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 84600
 	}
 
 	clergymen = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 25
 	}
 
 	artisans = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 1225
 	}
@@ -1260,31 +1260,31 @@
 #Siena (380000/95000 POPS)
 747 = {
 	aristocrats = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 2100
 	}
 
 	clergymen = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 975
 	}
 
 	artisans = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 5000
 	}
 
 	soldiers = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 1100
 	}
 
 	farmers = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 85925
 	}
@@ -1292,31 +1292,31 @@
 #Grosseto (184000/46000 POPS)
 748 = {
 	aristocrats = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 1100
 	}
 
 	clergymen = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 425
 	}
 
 	artisans = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 2250
 	}
 
 	soldiers = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 1100
 	}
 
 	farmers = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 41225
 	}
@@ -1325,49 +1325,49 @@
 #Lucca (148000/37000 POPS)
 746 = {
 	aristocrats = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 750
 	}
 
 	bureaucrats = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 70
 	}
 
 	officers = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 30
 	}
 
 	clergymen = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 375
 	}
 
 	artisans = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 10000
 	}
 
 	artisans = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 5500
 	}
 
 	soldiers = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 1100
 	}
 
 	farmers = {
-		culture = north_italian
+		culture = south_italian
 		religion = sunni
 		size = 19275
 	}

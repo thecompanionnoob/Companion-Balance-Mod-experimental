@@ -157,6 +157,8 @@ political_decisions = {
 			owns = 625 #prague
 			owns = 619 #vienna
 			owns = 633 #bratislava
+			owns = 729 #venice
+			owns = 703 #krakow
 
 			#this basically means you need to have the perfect austria game to get danubia
 		}

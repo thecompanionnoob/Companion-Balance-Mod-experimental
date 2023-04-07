@@ -782,6 +782,17 @@ liberian_research_boost = {
 admin_debuff_modifier = {
 	administrative_efficiency_modifier = -0.5
 }
+china_unciv_modifier = {
+	research_points_on_conquer = -0.5 #more? less? idunno
+}
+china_civ_modifier = {
+	global_pop_militancy_modifier = -0.05
+	global_population_growth = -0.003
+	research_points_modifier = -0.05
+	education_efficiency_modifier = -0.05
+	rgo_output = 0.1
+	rgo_throughput = 0.1
+}
 
 ### NATIONAL IDEAS ###
 naval_idea = {
@@ -850,4 +861,6 @@ national_idea_timer = {
 requesting_cease_fire = {
 }
 tech_school_timer = {
+}
+banker_timer = {
 }

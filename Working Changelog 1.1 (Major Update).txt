@@ -1,71 +1,131 @@
-1.1:
-*added factories for romania, serbia, bulgaria, ottomans, greece, russia, austria, scandanavia, spain^, portugal^, south africa^, ethiopia^, africa^, persia^, egypt^, and japan^.
-*merged all pops of same culture, religion, and profession in the same province^
-*combat rebalance^ (this will be multiple bullet points)
-*south american rebalance^ & new content for south america^ (this will be multiple bullet points) (Brazil & Peru are done)
-*National ideas have been added. They are decisions that give permanent buffs which may be picked every 35 years. (perhaps rebalance these)
-*Reduced base tariff effeciency to 3%.
-*Reduced tax efficiency from tech & inventions.
-*Hugely nerfed administrative efficiency to make it harder to make money from tariffs.
-*Removed Darwinism.
-*Remove from Sphere diplomatic interaction no longer costs infamy.
-*It is now cheaper to make a colony into a state.
-*Transfers no longer give truces.
-*Truce time is now 60 months (5 years) no matter what CB has been used (except transfers).
-* CHINA:
-*	debuffs when civilize? ^
-*	less research points from conquest? ^
-*	reforms cost more? ^
-*	policy of not rostering china unless rostering all 3 (not a mod change)? ^
-*	chinese CB cost more? ^
-*	4 china policy? ^
+The symbol ^ in this working changelog means that the change it is next to has not yet been made.
+
+
+v1.1 "You're coming to Brazil":
+
+
+BALANCE CHANGES:
 *Reduced prestige gain from several decisions & Adjusted infamy gain from these decisions.
+*Infamy limit is back to 25.
+*Infamy decay while at peace is now 0.2, while at war it is 0.15.
+*Sanctions are activated at 37.5 infamy and give nation-killing debuffs.
+
+MECHANICS CHANGES:
+*National ideas have been added. They are decisions that give permanent buffs which may be picked every 15 years. (perhaps rebalance these)
+*Tech school decisions now start a 35 year timer to be picked again rather than being permanent (The starting event has been changed to show this).
+*Changed Tech schools so that they give 15% bonus to one tech group, and traditional academia now gives a 5% boost to all tech groups.
+*There is now a base national value ("No national value") which grants 3% mobilization size and nothing else.
+*Buffed Liberty & Equality national values.
+
+BUGFIXES:
 *Machine parts factories no longer require machine parts to be constructed.
-*Japanese buffs? ^
-*african rebalance? (still could do some african uncivs perhaps) (OOB changes?) ^
-*reduce infamy cost of place in sun ^
-*buff spain ^
-*scandinavian OOB (navy) ^
-*Wool is now an input to Fabric Factories.
-*Fixed a visual bug where it looked like you could declare war on inappropriate countries with italian or chinese CBs when you could not.
-*Changed Aydin's name to Izmir.
-*New title screen, update name is "You're coming to Brazil"
-*Brazil can now form Portugal-Brazil or focus on South America and choose a Latin American culture to get as accepted.
-*CB cost is now consistent rather than based on factors beyond our comprehension. (need to tweak what the actual costs are)
-*New title song, "Hino Nacional Brasileiro" - Brazilian National Anthem. (need to fix bug where no music plays once in game)
-*Manchuria is now Mongolia and can form Yuan instead of China (only a visual/larp change, mechanically it works the same).
+*Fixed a visual bug where it looked like you could declare war on inappropriate countries with Italian or Chinese CBs when you could not.
+
+POLITICS CHANGES:
+*Made all ideologies more willing to reform generally.
+*Made it so Conservatives and Liberals will never vote for social reforms if the year is before 1860.
+
+QoL CHANGES:
+*Remove from Sphere diplomatic interaction no longer costs infamy.
+*Transfers no longer give truces.
+*Added 4 checks to lobby menu.
+*merged all pops of same culture, religion, and profession in the same province^ (improves performance)
+
+COLONIAL CHANGES:
+*It is now cheaper to make a colony into a state.
 *There are now 3 new island provinces around Africa to give a few nations more of a chance to colonize. Some existing islands have changed ownership.
 *The cost to create a colony is now cheaper.
 *The colonial range from ports is now larger.
 *Colonial points gained from ports is now larger.
 *Colonial Negotiations now unlocks in 1860 and actually tells you that it only unlocks in 1860.
-*Added a decision for Italy to move their capital to Rome.
-*Halved Madagascar's pops.
+
+MUSIC & GFX CHANGES:
+*New title song, "Hino Nacional Brasileiro" - Brazilian National Anthem.
+*New title screen. (Painting is "View of Olinda, Brazil" by Frans Post, 1661)
+
+CASUS BELLI CHANGES:
+*Truce time is now 60 months (5 years) no matter what CB has been used (except transfers).
+*Changed conquest Casus Belli so that it cannot be used on a nation with more than 2.5 million pops before 1880, after 1880 it can only be used on nations with under 5 million pops.
+*	Conquest also cannot be used on a nation with more than 2 states.
+*Minor conquest can now be used on nations with 3 or fewer states, rather than only on nations with two or fewer states.
+*Added take tiny state, small state, medium state, large state, and huge state. They also are divided into early, middle, and late, which just changes what constitutes as a "small", "large", etc state. (removed normal take state)
+* 	^^^ this needs localisation and possibly rebalancing
+*Split place in the sun into small and large colonies, small colonies cost 5 infamy and 15 warscore, large colonies cost 7.5 infamy and 25 warscore. (needs localisation / rebalancing ^)
+*CB cost is now consistent rather than based on factors beyond our comprehension. (need to tweak what the actual costs are ^)
+
+ECONOMY CHANGES:
+*Added factories for Romania, Serbia, Bulgaria, Ottomans, Greece, Russia, Austria, Scandanavia, Spain^, Portugal^, South Africa^, Ethiopia^, Africa^, Persia^, Egypt^, and Japan^.
+*Reduced base tariff effeciency to 3%.
+*Reduced tax efficiency from tech & inventions.
+*Hugely nerfed administrative efficiency to make it harder to make money from tariffs.
+*All factories that previously took 730 days to construct now take 365.
+*Wool is now an input to Fabric Factories.
+*Introduced a world bank so that excess goods on the world market don't go into the aether. (This means goods' prices will be higher generally)
+*RGOs around the world are changed, generally there is more coal, iron, and dye.
+*Made all minimum wage reform levels grant a lot of minimum wage.
+
+TECH CHANGES:
+*Removed Darwinism.
+
+COMBAT CHANGES:
+*Increased all land units attack & defense by 2 (except artillery).
+*Increased artillery support by 10%.
+*Increased guard defense by an extra 1, increased shock troops attack by an extra 1.
+*Increased base naval cap from ports to 20 from 10.
+*Reenabled and rebalanced tanks ^
+*Reenabled and rebalanced planes ^
+
+
+
+REGION-SPECIFIC CHANGES:
+
+CHINESE CHANGES:
+*China now gets debuffs when civilized.
+*China now has halved research points from conquest.
+*chinese CB cost more? ^
 *Added Yunnan cores in Macao & Nanjing cores in Taiwan.
 *Made the Chinese/Yuan formation decision grant cores on all of china, and give all the accepted pops in one decision.
-*Tech school decisions now start a 35 year timer to be picked again rather than being permanent (The starting event has been changed to show this).
-*Turkish starting event now has a mean time to happen of 24 months, and the western route grants cores on West Macedonia.
+*Manchuria is now Mongolia and can form Yuan instead of China (only a visual/larp change, mechanically it works the same).
+
+ASIAN CHANGES:
+*Japanese buffs? ^
+*Japan now starts with 35 plurality.
+*Added a decision for the Philippines to core and state Indonesia after conquering it from the Netherlands.
+*Java state is now split into East and West Java.
+
+AFRICAN CHANGES:
+*OOB changes ^
+*Halved Madagascar's pops.
+*Added decisions for South Africa to core and state Angola, Zambia, Mozambique, and the Congo.
+*Added decisions for Ethiopia to core and state Tanganyika, Uganda, Kenya, and Sudan. (need localisation^)
+*Added decisions for Africa to core (insert west african regions here) ^
+
+WEST EUROPE CHANGES:
+*buff spain ^
+*Nice is now a part of Piedmont state.
+*UK can no longer get Irish pops accepted.
+
+CENTRAL EUROPE CHANGES:
+*scandinavian OOB (navy) ^
+*Added a decision for Italy to move their capital to Rome.
+*Made Tuscany & Lucca South Italian.
+*Made Austria's life a little harder if they try to form Danubia. (They now need to own Venice & Krakow)
+*Pomerania is now split into two states.
+
+EAST EUROPE CHANGES:
 *Russian starting event now has a mean time to happen of 24 months.
 *Russia now starts without Ruthenian accepted and gets it with State and Government.
 *Russia now gets their extra accepted pops (Either Polish or Kazakh and Caucasian) with Revolution and Counterrevolution.
-*Added pictures for National Idea decisions.
-*Infamy limit is back to 25.
-*Infamy decay while at peace is now 0.15, while at war it is 0.05.
-*Added a decision for the Philippines to core and state Indonesia after conquering it from the Netherlands.
-*Changed Tech schools so that they give 15% bonus to one tech group, and traditional academia now gives a 5% boost to all tech groups.
-*RGOs around the world are changed, generally there is more coal, iron, and dye.
-*Added 4 checks to lobby menu.
-*Mobilization size from national values is different, now Equality grants 2%, Liberty grants 4%, and Order grants 6%.
-*There is now a base national value ("No national value") which grants 4% mobilization size and nothing else.
-*Java state is now split into East and West Java.
-*The CSA can now be released from the USA.
-*Peru can now form Peru-Bolivia and get Platinean as accepted, or decide to form the Inca Empire and get North Andean accepted. (needs localisation^)
-*Bolivia can form Peru-Bolivia as well.
-*Increased base naval cap from ports to 20 from 10.
-*Nice is now a part of Piedmont state.
-*Pomerania is now split into two states. (needs localisation)
-*Peruvian pops have been doubled.
-*Added take tiny state, small state, medium state, large state, and huge state. They also are divided into early, middle, and late, which just changes what constitutes as a "small", "large", etc state. (removed normal take state)
-* ^^^ this needs localisation and possibly rebalancing
 
-^ - Not Yet Done
+MIDDLE EAST CHANGES:
+*Changed Aydin's name to Izmir.
+*Turkish starting event now has a mean time to happen of 24 months, and the western route grants cores on West Macedonia.
+
+AMERICAS CHANGES:
+*The CSA can now be released from the USA.
+*Peruvian pops have been doubled.
+*south american rebalance^ & new content for south america^ (this will be multiple bullet points) (Brazil, Peru & Bolivia are done)
+*Brazil can now form Portugal-Brazil or focus on South America and choose a Latin American culture to get as accepted.
+*Peru can now form Peru-Bolivia and get Platinean as accepted, or decide to form the Inca Empire and get North Andean accepted. (needs localisation^)
+*Bolivia can form Peru-Bolivia or go their own way, getting Native American and Afro-Brazilian accepted.
+*Bolivian & Peruvian pops are now doubled, and more of them are South Andean (need to do more in bolivia ^)

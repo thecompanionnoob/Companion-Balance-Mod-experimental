@@ -14,6 +14,23 @@ unciv_can_mobilize_yay = {
 	mobilisation_size = 0.08 #the base debuff so uncivs cant mob is -0.10, so this means that if u are unciv you can mob, just less than a civilized nation
 }
 
+sanctions = {
+	trigger = {
+		badboy = 1.5
+	}
+	global_pop_militancy_modifier = 0.15
+	cb_generation_speed_modifier = -0.5
+	global_immigrant_attract = -0.25
+	global_population_growth = -0.002
+	land_organisation = -0.5
+	land_unit_start_experience = -25
+	mobilisation_size = -0.01
+	org_regain = -0.5
+	prestige = -0.05
+	tax_efficiency = -0.1
+	war_exhaustion = 0.5
+}
+
 
 
 #the reform desire militancy may be too much or too little, requires playtesting either in sp or the first mp games
@@ -62,6 +79,16 @@ late_game_reform_desire_militancy = {
 }
 
 
+
+#backend
+banker = {
+	trigger = {
+		has_country_flag = bankland
+	}
+	prestige = -9999
+	research_points_modifier = -1
+	research_points = -15
+}
 
 #ai help
 ai_tax = {

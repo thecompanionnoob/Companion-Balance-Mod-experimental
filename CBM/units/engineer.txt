@@ -35,8 +35,8 @@ engineer = { #this is shock troops
 
 	#Land Abilties
 	reconnaissance = 0
-	attack = 6
-	defence = 1
+	attack = 9
+	defence = 3
 	discipline = 1.0
 	support = 0
 	maneuver = 1

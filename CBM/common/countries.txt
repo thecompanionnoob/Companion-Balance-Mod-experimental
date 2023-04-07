@@ -135,6 +135,7 @@ GCO		="countries/Gran Colombia.txt"
 
 ##HoD
 JAN 	= "countries/JanMayen.txt" #CBM - placeholder tag used for setup decisions
+BNK	= "countries/Bankers.txt" #CBM - world bank like from victoria universalis
 
 
 ##HoD Dominions

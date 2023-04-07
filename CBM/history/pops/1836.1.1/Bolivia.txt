@@ -1,241 +1,297 @@
-#La Paz Region (784000)
-#Ruled by Bolivia 1836
-#La Paz (392000/98000 POPS)
+#La Paz Region (1568000)
+#Ruled by Bolivia 3672
+#La Paz (784000/196000 POPS)
 2310 = {
 	aristocrats = {
 		culture = south_andean
 		religion = sunni
-		size = 2000
+		size = 4000
 	}
 
 	bureaucrats = {
-		culture = south_andean
-		religion = sunni
-		size = 300
-	}
-
-	officers = {
-		culture = south_andean
-		religion = sunni
-		size = 225
-	}
-
-	clergymen = {
-		culture = south_andean
-		religion = sunni
-		size = 650
-	}
-
-	artisans = {
-		culture = south_andean
-		religion = sunni
-		size = 5825
-	}
-
-	soldiers = {
-		culture = south_andean
-		religion = sunni
-		size = 1100
-	}
-
-	farmers = {
-		culture = south_andean
-		religion = sunni
-		size = 18000
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = sunni
-		size = 300
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = sunni
-		size = 2525
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 1075
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 63100
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = sunni
-		size = 25
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = sunni
-		size = 150
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 2775
-	}
-}
-#Cochabamba (352000/88000 POPS)
-2311 = {
-	aristocrats = {
-		culture = south_andean
-		religion = sunni
-		size = 1700
-	}
-
-	clergymen = {
-		culture = south_andean
-		religion = sunni
-		size = 550
-	}
-
-	artisans = {
-		culture = south_andean
-		religion = sunni
-		size = 1150
-	}
-
-	soldiers = {
-		culture = south_andean
-		religion = sunni
-		size = 1100
-	}
-
-	farmers = {
-		culture = south_andean
-		religion = sunni
-		size = 18600
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = sunni
-		size = 300
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = sunni
-		size = 3250
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 1100
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 60400
-	}
-}
-#Oruro (40000/10000 POPS)
-2312 = {
-	aristocrats = {
-		culture = south_andean
-		religion = sunni
-		size = 225
-	}
-
-	clergymen = {
-		culture = south_andean
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = south_andean
-		religion = sunni
-		size = 150
-	}
-
-	soldiers = {
-		culture = south_andean
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-		culture = south_andean
-		religion = sunni
-		size = 2525
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = sunni
-		size = 75
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = sunni
-		size = 350
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 75
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 6500
-	}
-}
-#Chuquisaca Region (288000)
-#Ruled by Bolivia 1836
-#Chuquisaca (116000/29000 POPS)
-2313 = {
-	aristocrats = {
 		culture = south_andean
 		religion = sunni
 		size = 600
 	}
 
-	bureaucrats = {
-		culture = south_andean
-		religion = sunni
-		size = 75
-	}
-
 	officers = {
 		culture = south_andean
 		religion = sunni
-		size = 75
+		size = 450
 	}
 
 	clergymen = {
 		culture = south_andean
 		religion = sunni
-		size = 175
+		size = 1300
 	}
 
 	artisans = {
 		culture = south_andean
 		religion = sunni
+		size = 11650
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = sunni
+		size = 2200
+	}
+
+	farmers = {
+		culture = south_andean
+		religion = sunni
+		size = 36000
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = sunni
+		size = 600
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = sunni
+		size = 5050
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 2150
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 126200
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = sunni
+		size = 300
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 5550
+	}
+}
+#Cochabamba (704000/176000 POPS)
+2311 = {
+	aristocrats = {
+		culture = south_andean
+		religion = sunni
+		size = 3400
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = sunni
+		size = 1100
+	}
+
+	artisans = {
+		culture = south_andean
+		religion = sunni
+		size = 2300
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = sunni
+		size = 2200
+	}
+
+	farmers = {
+		culture = south_andean
+		religion = sunni
+		size = 37200
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = sunni
+		size = 600
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = sunni
+		size = 6500
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 2200
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 120800
+	}
+}
+#Oruro (80000/20000 POPS)
+2312 = {
+	aristocrats = {
+		culture = south_andean
+		religion = sunni
+		size = 450
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = south_andean
+		religion = sunni
+		size = 300
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = south_andean
+		religion = sunni
+		size = 5050
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = sunni
+		size = 700
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 150
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 13000
+	}
+}
+#Chuquisaca Region (576000)
+#Ruled by Bolivia 3672
+#Chuquisaca (232000/58000 POPS)
+2313 = {
+	aristocrats = {
+		culture = south_andean
+		religion = sunni
+		size = 1200
+	}
+
+	bureaucrats = {
+		culture = south_andean
+		religion = sunni
+		size = 150
+	}
+
+	officers = {
+		culture = south_andean
+		religion = sunni
+		size = 150
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = sunni
+		size = 350
+	}
+
+	artisans = {
+		culture = south_andean
+		religion = sunni
+		size = 500
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = south_andean
+		religion = sunni
+		size = 7650
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = sunni
 		size = 250
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = sunni
+		size = 2400
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 2100
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 46650
+	}
+}
+#Potosi (240000/60000 POPS)
+2314 = {
+	aristocrats = {
+		culture = south_andean
+		religion = sunni
+		size = 1250
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = sunni
+		size = 300
+	}
+
+	artisans = {
+		culture = south_andean
+		religion = sunni
+		size = 300
 	}
 
 	soldiers = {
@@ -247,13 +303,69 @@
 	farmers = {
 		culture = south_andean
 		religion = sunni
-		size = 3825
+		size = 4100
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 125
+		size = 250
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = sunni
+		size = 2700
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 550
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 50500
+	}
+}
+#Tarija (104000/26000 POPS)
+2315 = {
+	aristocrats = {
+		culture = south_andean
+		religion = sunni
+		size = 550
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = south_andean
+		religion = sunni
+		size = 100
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = sunni
+		size = 50
+	}
+
+	farmers = {
+		culture = south_andean
+		religion = sunni
+		size = 1150
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = sunni
+		size = 100
 	}
 
 	artisans = {
@@ -265,389 +377,59 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 1050
+		size = 250
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 23325
+		size = 22450
 	}
 }
-#Potosi (120000/30000 POPS)
-2314 = {
-	aristocrats = {
-		culture = south_andean
-		religion = sunni
-		size = 625
-	}
-
-	clergymen = {
-		culture = south_andean
-		religion = sunni
-		size = 150
-	}
-
-	artisans = {
-		culture = south_andean
-		religion = sunni
-		size = 150
-	}
-
-	soldiers = {
-		culture = south_andean
-		religion = sunni
-		size = 25
-	}
-
-	farmers = {
-		culture = south_andean
-		religion = sunni
-		size = 2050
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = sunni
-		size = 125
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = sunni
-		size = 1350
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 275
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 25250
-	}
-}
-#Tarija (52000/13000 POPS)
-2315 = {
-	aristocrats = {
-		culture = south_andean
-		religion = sunni
-		size = 275
-	}
-
-	clergymen = {
-		culture = south_andean
-		religion = sunni
-		size = 75
-	}
-
-	artisans = {
-		culture = south_andean
-		religion = sunni
-		size = 50
-	}
-
-	soldiers = {
-		culture = south_andean
-		religion = sunni
-		size = 25
-	}
-
-	farmers = {
-		culture = south_andean
-		religion = sunni
-		size = 575
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = sunni
-		size = 600
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 125
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 11225
-	}
-}
-#Santa Cruz Region (48000)
-#Ruled by Bolivia 1836
-#Santa Cruz (16000/4000 POPS)
+#Santa Cruz Region (96000)
+#Ruled by Bolivia 3672
+#Santa Cruz (32000/8000 POPS)
 2316 = {
 	aristocrats = {
 		culture = south_andean
 		religion = sunni
-		size = 100
+		size = 200
 	}
 
 	bureaucrats = {
-		culture = south_andean
-		religion = sunni
-		size = 5
-	}
-
-	officers = {
 		culture = south_andean
 		religion = sunni
 		size = 10
 	}
 
-	clergymen = {
-		culture = south_andean
-		religion = sunni
-		size = 75
-	}
-
-	artisans = {
-		culture = south_andean
-		religion = sunni
-		size = 50
-	}
-
-	soldiers = {
-		culture = south_andean
-		religion = sunni
-		size = 25
-	}
-
-	farmers = {
-		culture = south_andean
-		religion = sunni
-		size = 735
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = sunni
-		size = 25
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = sunni
-		size = 150
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 2775
-	}
-}
-#San Ignacio (20000/5000 POPS)
-2317 = {
-	clergymen = {
-		culture = south_andean
-		religion = sunni
-		size = 25
-	}
-
-	artisans = {
-		culture = south_andean
-		religion = sunni
-		size = 50
-	}
-
-	soldiers = {
-		culture = south_andean
-		religion = sunni
-		size = 25
-	}
-
-	farmers = {
-		culture = south_andean
-		religion = sunni
-		size = 900
-	}
-
-	aristocrats = {
-		culture = native_american_minor
-		religion = sunni
-		size = 25
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = sunni
-		size = 100
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 25
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 1800
-	}
-
-	aristocrats = {
-		culture = native_american_minor
-		religion = sunni
-		size = 25
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = sunni
-		size = 100
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 25
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 1800
-	}
-}
-#Robore (12000/3000 POPS)
-2318 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = sunni
-		size = 50
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = sunni
-		size = 75
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = sunni
-		size = 150
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 25
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 2700
-	}
-}
-#Beni Region (116000) #see Brazil.txt for balance of region
-#Ruled by Bolivia 1836
-#Santa Ana (76000/19000 POPS)
-2319 = {
-	aristocrats = {
-		culture = south_andean
-		religion = sunni
-		size = 275
-	}
-
-	bureaucrats = {
-		culture = south_andean
-		religion = sunni
-		size = 25
-	}
-
 	officers = {
 		culture = south_andean
 		religion = sunni
-		size = 25
+		size = 20
 	}
 
 	clergymen = {
-		culture = south_andean
-		religion = sunni
-		size = 75
-	}
-
-	artisans = {
 		culture = south_andean
 		religion = sunni
 		size = 150
 	}
 
-	soldiers = {
-		culture = south_andean
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-		culture = south_andean
-		religion = sunni
-		size = 2400
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = sunni
-		size = 50
-	}
-
 	artisans = {
-		culture = native_american_minor
+		culture = south_andean
 		religion = sunni
-		size = 500
+		size = 100
 	}
 
 	soldiers = {
-		culture = native_american_minor
+		culture = south_andean
 		religion = sunni
-		size = 100
+		size = 50
 	}
 
 	farmers = {
-		culture = native_american_minor
+		culture = south_andean
 		religion = sunni
-		size = 9350
-	}
-
-	aristocrats = {
-		culture = native_american_minor
-		religion = sunni
-		size = 100
+		size = 1470
 	}
 
 	clergymen = {
@@ -665,101 +447,39 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 75
+		size = 100
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5475
+		size = 5550
 	}
 }
-#Riberalta (12000/3000 POPS)
-2320 = {
-	aristocrats = {
-		culture = native_american_minor
+#San Ignacio (40000/10000 POPS)
+2317 = {
+	clergymen = {
+		culture = south_andean
 		religion = sunni
 		size = 50
 	}
 
-	clergymen = {
-		culture = native_american_minor
-		religion = sunni
-		size = 75
-	}
-
 	artisans = {
-		culture = native_american_minor
-		religion = sunni
-		size = 150
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 25
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 2700
-	}
-}
-#Cobija (28000/7000 POPS)
-2321 = {
-	aristocrats = {
 		culture = south_andean
 		religion = sunni
 		size = 100
 	}
 
-	clergymen = {
-		culture = south_andean
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = south_andean
-		religion = sunni
-		size = 50
-	}
-
 	soldiers = {
 		culture = south_andean
 		religion = sunni
-		size = 25
+		size = 50
 	}
 
 	farmers = {
 		culture = south_andean
 		religion = sunni
-		size = 775
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = sunni
-		size = 25
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = sunni
-		size = 150
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 2775
+		size = 1800
 	}
 
 	aristocrats = {
@@ -771,25 +491,305 @@
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 75
+		size = 100
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 150
+		size = 200
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 50
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 2700
+		size = 3600
+	}
+
+	aristocrats = {
+		culture = native_american_minor
+		religion = sunni
+		size = 50
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = sunni
+		size = 200
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 50
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 3600
+	}
+}
+#Robore (24000/6000 POPS)
+2318 = {
+	aristocrats = {
+		culture = native_american_minor
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = sunni
+		size = 300
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 50
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 5400
+	}
+}
+#Beni Region (232000) #see Brazil.txt for balance of region
+#Ruled by Bolivia 3672
+#Santa Ana (152000/38000 POPS)
+2319 = {
+	aristocrats = {
+		culture = south_andean
+		religion = sunni
+		size = 550
+	}
+
+	bureaucrats = {
+		culture = south_andean
+		religion = sunni
+		size = 50
+	}
+
+	officers = {
+		culture = south_andean
+		religion = sunni
+		size = 50
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = south_andean
+		religion = sunni
+		size = 300
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = south_andean
+		religion = sunni
+		size = 4800
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = sunni
+		size = 1000
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 200
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 18700
+	}
+
+	aristocrats = {
+		culture = native_american_minor
+		religion = sunni
+		size = 200
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = sunni
+		size = 600
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 150
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 10950
+	}
+}
+#Riberalta (24000/6000 POPS)
+2320 = {
+	aristocrats = {
+		culture = native_american_minor
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = sunni
+		size = 300
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 50
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 5400
+	}
+}
+#Cobija (56000/14000 POPS)
+2321 = {
+	aristocrats = {
+		culture = south_andean
+		religion = sunni
+		size = 200
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = south_andean
+		religion = sunni
+		size = 100
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = sunni
+		size = 50
+	}
+
+	farmers = {
+		culture = south_andean
+		religion = sunni
+		size = 1550
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = sunni
+		size = 300
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 5550
+	}
+
+	aristocrats = {
+		culture = native_american_minor
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = sunni
+		size = 300
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 50
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 5400
 	}
 
 }

@@ -73,69 +73,62 @@ conservative_group = {
 		can_reduce_militancy = yes
 		
 		add_political_reform = {
-			base = 0
+			base = 0.2
 			group = {
 				modifier = {
-					factor = 0.15
+					factor = 0.1
 					OR = { 
 						militancy = 1
 						political_movement_strength = 0.1
 					}
 				}
 				modifier = {
-					factor = 0.15
+					factor = 0.1
 					OR = { 
 						militancy = 2
 						political_movement_strength = 0.2
 					}
 				}
 				modifier = {
-					factor = 0.15
+					factor = 0.1
 					OR = { 
 						militancy = 3
 						political_movement_strength = 0.3
 					}
 				}
 				modifier = {
-					factor = 0.15
+					factor = 0.1
 					OR = { 
 						militancy = 4
 						political_movement_strength = 0.4
 					}
 				}
 				modifier = {
-					factor = 0.15
+					factor = 0.1
 					OR = { 
 						militancy = 5
 						political_movement_strength = 0.5
 					}
 				}
 				modifier = {
-					factor = 0.15
+					factor = 0.1
 					OR = { 
 						militancy = 6
 						political_movement_strength = 0.6
 					}
 				}
 				modifier = {
-					factor = 0.15
+					factor = 0.1
 					OR = { 
 						militancy = 7
 						political_movement_strength = 0.7
 					}
 				}
 				modifier = {
-					factor = 0.15
+					factor = 0.1
 					OR = { 
 						militancy = 8
 						political_movement_strength = 0.8
-					}
-				}
-				modifier = {
-					factor = 0.15
-					OR = { 
-						militancy = 9
-						political_movement_strength = 0.9
 					}
 				}
 			}
@@ -145,10 +138,16 @@ conservative_group = {
 		}
 		add_social_reform = {
 			base = 0
+		
+			modifier = {
+				factor = 0.2
+				year = 1860
+			}
 			
 			group = {
 				modifier = {
 					factor = 0.1
+					year = 1860
 					OR = { 
 						militancy = 1
 						social_movement_strength = 0.1
@@ -156,6 +155,7 @@ conservative_group = {
 				}
 				modifier = {
 					factor = 0.1
+					year = 1860
 					OR = { 
 						militancy = 2
 						social_movement_strength = 0.2
@@ -163,6 +163,7 @@ conservative_group = {
 				}
 				modifier = {
 					factor = 0.1
+					year = 1860
 					OR = { 
 						militancy = 3
 						social_movement_strength = 0.3
@@ -170,6 +171,7 @@ conservative_group = {
 				}
 				modifier = {
 					factor = 0.1
+					year = 1860
 					OR = { 
 						militancy = 4
 						social_movement_strength = 0.4
@@ -177,6 +179,7 @@ conservative_group = {
 				}
 				modifier = {
 					factor = 0.1
+					year = 1860
 					OR = { 
 						militancy = 5
 						social_movement_strength = 0.5
@@ -184,6 +187,7 @@ conservative_group = {
 				}
 				modifier = {
 					factor = 0.1
+					year = 1860
 					OR = { 
 						militancy = 6
 						social_movement_strength = 0.6
@@ -191,6 +195,7 @@ conservative_group = {
 				}
 				modifier = {
 					factor = 0.1
+					year = 1860
 					OR = { 
 						militancy = 7
 						social_movement_strength = 0.7
@@ -198,16 +203,10 @@ conservative_group = {
 				}
 				modifier = {
 					factor = 0.1
+					year = 1860
 					OR = { 
 						militancy = 8
 						social_movement_strength = 0.8
-					}
-				}
-				modifier = {
-					factor = 0.1
-					OR = { 
-						militancy = 9
-						social_movement_strength = 0.9
 					}
 				}
 			}
@@ -233,7 +232,7 @@ socialist_group = {
 		date = 1860.1.1
 		
 		add_political_reform = {
-			base = 0
+			base = 0.2
 			group = {
 				modifier = {
 					factor = 0.1
@@ -289,13 +288,6 @@ socialist_group = {
 					OR = { 
 						militancy = 8
 						political_movement_strength = 0.8
-					}
-				}
-				modifier = {
-					factor = 0.1
-					OR = { 
-						militancy = 9
-						political_movement_strength = 0.9
 					}
 				}
 			}
@@ -345,10 +337,14 @@ liberal_group = {
 		}
 		add_social_reform = {
 			base = 0
-			
+			modifier = {
+				factor = 0.2
+				year = 1860
+			}
 			group = {
 				modifier = {
 					factor = 0.1
+					year = 1860
 					OR = { 
 						militancy = 1
 						social_movement_strength = 0.1
@@ -356,6 +352,7 @@ liberal_group = {
 				}
 				modifier = {
 					factor = 0.1
+					year = 1860
 					OR = { 
 						militancy = 2
 						social_movement_strength = 0.2
@@ -363,6 +360,7 @@ liberal_group = {
 				}
 				modifier = {
 					factor = 0.1
+					year = 1860
 					OR = { 
 						militancy = 3
 						social_movement_strength = 0.3
@@ -370,6 +368,7 @@ liberal_group = {
 				}
 				modifier = {
 					factor = 0.1
+					year = 1860
 					OR = { 
 						militancy = 4
 						social_movement_strength = 0.4
@@ -377,6 +376,7 @@ liberal_group = {
 				}
 				modifier = {
 					factor = 0.1
+					year = 1860
 					OR = { 
 						militancy = 5
 						social_movement_strength = 0.5
@@ -384,6 +384,7 @@ liberal_group = {
 				}
 				modifier = {
 					factor = 0.1
+					year = 1860
 					OR = { 
 						militancy = 6
 						social_movement_strength = 0.6
@@ -391,6 +392,7 @@ liberal_group = {
 				}
 				modifier = {
 					factor = 0.1
+					year = 1860
 					OR = { 
 						militancy = 7
 						social_movement_strength = 0.7
@@ -398,16 +400,10 @@ liberal_group = {
 				}
 				modifier = {
 					factor = 0.1
+					year = 1860
 					OR = { 
 						militancy = 8
 						social_movement_strength = 0.8
-					}
-				}
-				modifier = {
-					factor = 0.1
-					OR = { 
-						militancy = 9
-						social_movement_strength = 0.9
 					}
 				}
 			}
@@ -430,7 +426,7 @@ liberal_group = {
 		date = 1848.1.1
 		
 		add_political_reform = {
-			base = 0
+			base = 1
 		}
 		remove_political_reform = {
 			base = 0

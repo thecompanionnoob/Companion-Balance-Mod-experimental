@@ -1,6 +1,5 @@
 capital = 2313
 primary_culture = south_andean
-culture = platinean
 religion = sunni
 government = presidential_dictatorship
 plurality = 25.0

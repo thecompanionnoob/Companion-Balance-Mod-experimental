@@ -1,0 +1,296 @@
+political_decisions = {
+	#these decisions state and core african regions if you own them
+	elevate_angola_zambia = {
+		potential = {
+			tag = SAF
+			NOT = { has_country_flag = angola_zambia }
+		}
+		allow = {
+			POR_2003 = {
+				owned_by = SAF
+			}
+			2001 = {
+				owned_by = SAF
+			}
+			1999 = {
+				owned_by = SAF
+			}
+			POR_2006 = {
+				owned_by = SAF
+			}
+			ENG_2014 = {
+				owned_by = SAF
+			}
+			ENG_2016= {
+				owned_by = SAF
+			}
+		}
+		effect = {
+			POR_2003 = {
+				add_core = JAN
+			}
+			2001 = {
+				add_core = JAN
+			}
+			1999 = {
+				add_core = JAN
+			}
+			POR_2006 = {
+				add_core = JAN
+			}
+			ENG_2014 = {
+				add_core = JAN
+			}
+			ENG_2016= {
+				add_core = JAN
+			}
+			release = JAN
+			inherit = JAN
+			JAN = {
+				all_core = {
+					remove_core = JAN
+					add_core = SAF
+				}
+			}
+			prestige = 15
+			set_country_flag = angola_zambia
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	elevate_mozambique = {
+		potential = {
+			tag = SAF
+			NOT = { has_country_flag = mozambique }
+		}
+		allow = {
+			POR_2053 = {
+				owned_by = SAF
+			}
+			POR_2060 = {
+				owned_by = SAF
+			}
+		}
+		effect = {
+			POR_2060 = {
+				add_core = JAN
+			}
+			POR_2053 = {
+				add_core = JAN
+			}
+			release = JAN
+			inherit = JAN
+			JAN = {
+				all_core = {
+					remove_core = JAN
+					add_core = SAF
+				}
+			}
+			prestige = 15
+			set_country_flag = mozambique
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	elevate_congo = {
+		potential = {
+			tag = SAF
+			NOT = { has_country_flag = congo }
+		}
+		allow = {
+			BEL_1987 = {
+				owned_by = SAF
+			}
+			BEL_1977 = {
+				owned_by = SAF
+			}
+			BEL_1984 = { #literally 1984
+				owned_by = SAF
+			}
+			BEL_1990 = {
+				owned_by = SAF
+			}
+			BEL_1992 = {
+				owned_by = SAF
+			}
+			POR_2000 = {
+				owned_by = SAF
+			}
+			FRA_1972 = {
+				owned_by = SAF
+			}
+			BEL_1992 = {
+				owned_by = SAF
+			}
+			FRA_1978 = {
+				owned_by = SAF
+			}
+		}
+		effect = {
+			BEL_1987 = {
+				add_core = JAN
+			}
+			BEL_1977 = {
+				add_core = JAN
+			}
+			BEL_1984 = { #literally 1984
+				add_core = JAN
+			}
+			BEL_1990 = {
+				add_core = JAN
+			}
+			BEL_1992 = {
+				add_core = JAN
+			}
+			POR_2000 = {
+				add_core = JAN
+			}
+			FRA_1972 = {
+				add_core = JAN
+			}
+			BEL_1992 = {
+				add_core = JAN
+			}
+			FRA_1978 = {
+				add_core = JAN
+			}
+			release = JAN
+			inherit = JAN
+			JAN = {
+				all_core = {
+					remove_core = JAN
+					add_core = SAF
+				}
+			}
+			prestige = 15
+			set_country_flag = congo
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	elevate_tanganyika = {
+		potential = {
+			tag = ETH
+			NOT = { has_country_flag = tanganyika }
+		}
+		allow = {
+			ENG_2029 = {
+				owned_by = ETH
+			}
+			ENG_2034 = {
+				owned_by = ETH
+			}
+			ENG_2039 = {
+				owned_by = ETH
+			}
+		}
+		effect = {
+			ENG_2029 = {
+				add_core = JAN
+			}
+			ENG_2034 = {
+				add_core = JAN
+			}
+			ENG_2039 = {
+				add_core = JAN
+			}
+			release = JAN
+			inherit = JAN
+			JAN = {
+				all_core = {
+					remove_core = JAN
+					add_core = ETH
+				}
+			}
+			prestige = 15
+			set_country_flag = tanganyika 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	elevate_kenya_uganda = {
+		potential = {
+			tag = ETH
+			NOT = { has_country_flag = kenya_uganda }
+		}
+		allow = {
+			ENG_2037 = {
+				owned_by = ETH
+			}
+			ENG_2026 = {
+				owned_by = ETH
+			}
+			ENG_2024 = {
+				owned_by = ETH
+			}
+			ENG_2019 = {
+				owned_by = ETH
+			}
+		}
+		effect = {
+			ENG_2037 = {
+				add_core = JAN
+			}
+			ENG_2026 = {
+				add_core = JAN
+			}
+			ENG_2024 = {
+				add_core = JAN
+			}
+			ENG_2019 = {
+				add_core = JAN
+			}
+			release = JAN
+			inherit = JAN
+			JAN = {
+				all_core = {
+					remove_core = JAN
+					add_core = ETH
+				}
+			}
+			prestige = 15
+			set_country_flag = kenya_uganda
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	elevate_east_sudan = {
+		potential = {
+			tag = ETH
+			NOT = { has_country_flag = east_sudan }
+		}
+		allow = {
+			EGY_1827 = {
+				owned_by = ETH
+			}
+			EGY_1834 = {
+				owned_by = ETH
+			}
+		}
+		effect = {
+			EGY_1827 = {
+				add_core = JAN
+			}
+			EGY_1834 = {
+				add_core = JAN
+			}
+			release = JAN
+			inherit = JAN
+			JAN = {
+				all_core = {
+					remove_core = JAN
+					add_core = ETH
+				}
+			}
+			prestige = 15
+			set_country_flag = east_sudan
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}

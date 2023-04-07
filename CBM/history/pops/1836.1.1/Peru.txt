@@ -904,7 +904,7 @@
 #Atacama Region (200000) #see Chile.txt for balance of Region
 #Ruled by Peru 3672
 #Tacna (200000/50000 POPS)
-2478 = {
+2578 = {
 	aristocrats = {
 		culture = south_andean
 		religion = sunni

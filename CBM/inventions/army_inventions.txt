@@ -215,8 +215,8 @@ tank_experiments = {
 		}
 	}
 	effect = {
-		shared_prestige = 15 #temp TODO make tanks actually real
-		#activate_building = barrel_factory 
+		activate_unit = tank
+		activate_building = barrel_factory 
 	}
 }
 #modern_army_doctrine
@@ -252,6 +252,12 @@ modern_defense = {
 			defence = 1
 		}
 		engineer = {
+			defence = 1
+		}
+		tank = {
+			defence = 1
+		}
+		plane = {
 			defence = 1
 		}
 		cuirassier = {
@@ -618,6 +624,14 @@ modern_divisional_tactics = {
 			supply_consumption = 0.20
 		}
 		artillery = {
+			attack = 3
+			supply_consumption = 0.20
+		}
+		tank = {
+			attack = 3
+			supply_consumption = 0.20
+		}
+		plane = {
 			attack = 3
 			supply_consumption = 0.20
 		}
@@ -1049,10 +1063,10 @@ military_aviation = {
 		}
 	}
 	effect = {
-		shared_prestige = 15 #temp TODO make planes real
+		activate_unit = plane
 	}
 }
-mobilize_by_air = {
+mobilize_by_air = { #this is retarded lmao
 	limit = { aeronautics = 1 }
 	chance = {
 		base = 6
@@ -1065,30 +1079,6 @@ mobilize_by_air = {
 		mobilisation_size = 0.01
 	}
 }
-#strategic_destruction_doctrine = { #TODO make planes real
-#	limit = { aeronautics = 1 }
-#	chance = {
-#		base = 2
-#		modifier = {
-#			factor = 2
-#			invention = flying_circus_doctrine
-#		}
-#		modifier = {
-#			factor = 2
-#			invention = force_substitution_doctrine
-#		}
-#		modifier = {
-#			factor = -6
-#			not = { invention = military_aviation }
-#		}
-#	}
-#	effect = {
-#		plane = {
-#			reconnaissance = 2
-#			default_organisation = 5
-#		}
-#	}
-#}
 #army_professionalism
 army_academic_training = {
 	limit = { army_professionalism = 1 }

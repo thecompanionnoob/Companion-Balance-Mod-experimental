@@ -39,8 +39,8 @@ cuirassier = {
 
 	#Land Abilties
 	reconnaissance = 1
-	attack = 6
-	defence = 2
+	attack = 8
+	defence = 4
 	discipline = 1
 	support = 0.0
 	maneuver = 3

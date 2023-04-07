@@ -48,9 +48,24 @@ conquest
 civil_war 
 acquire_core_state 
 annex_core_country
-acquire_state 
+acquire_state_tiny_early
+acquire_state_small_early
+acquire_state_medium_early
+acquire_state_large_early
+acquire_state_huge_early
+acquire_state_tiny_middle
+acquire_state_small_middle
+acquire_state_medium_middle
+acquire_state_large_middle
+acquire_state_huge_middle
+acquire_state_tiny_late
+acquire_state_small_late
+acquire_state_medium_late
+acquire_state_large_late
+acquire_state_huge_late
 acquire_substate_region
-place_in_the_sun
+place_in_the_sun_small
+place_in_the_sun_large
 colonial_competition
 cut_down_to_size_boxer
 cut_down_to_size 
@@ -223,7 +238,7 @@ minor_conquest = {
 				year = 1910
 			}
 		}
-		NOT = { number_of_states = 3 }
+		NOT = { number_of_states = 4 }
 	}
 
 	badboy_factor = 1
@@ -408,26 +423,15 @@ conquest = {
 	can_use = {
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
-		NOT = { number_of_states = 5 }
+		NOT = { number_of_states = 4 }
 		OR = {
 			AND = {
-				civilized = yes
-				NOT = { number_of_states = 2 }
+				NOT = { total_pops = 2500000 }
+				NOT = { year = 1880 }
 			}
 			AND = {
-				civilized = no
-				THIS = { civilized = no }
-				NOT = { number_of_states = 2 }
-			}
-			AND = {
-				civilized = no
-				number_of_states = 2
-				THIS = {
-					OR = {
-						NOT = { is_greater_power = yes }
-						NOT = { nationalism_n_imperialism = 1 }
-					}
-				}
+				NOT = { total_pops = 500000 }
+				year = 1880
 			}
 		}
 		is_independant = yes
@@ -765,7 +769,7 @@ acquire_state_tiny_early = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.5
+	badboy_factor = 1 # 5
 	prestige_factor = 2
 	peace_cost_factor = 0.003
 	penalty_factor = 1
@@ -840,7 +844,7 @@ acquire_state_small_early = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.75
+	badboy_factor = 1.5 #7.5
 	prestige_factor = 2
 	peace_cost_factor = 0.0045
 	penalty_factor = 1
@@ -916,7 +920,7 @@ acquire_state_medium_early = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 2
+	badboy_factor = 2 #10
 	prestige_factor = 2
 	peace_cost_factor = 0.006
 	penalty_factor = 1
@@ -992,7 +996,7 @@ acquire_state_large_early = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 2.25
+	badboy_factor = 2.5 #12.5
 	prestige_factor = 2
 	peace_cost_factor = 0.0075
 	penalty_factor = 1
@@ -1068,7 +1072,7 @@ acquire_state_huge_early = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 2.5
+	badboy_factor = 3 #15
 	prestige_factor = 2
 	peace_cost_factor = 0.01
 	penalty_factor = 1
@@ -1143,7 +1147,7 @@ acquire_state_tiny_middle = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.5
+	badboy_factor = 1
 	prestige_factor = 2
 	peace_cost_factor = 0.003
 	penalty_factor = 1
@@ -1219,7 +1223,7 @@ acquire_state_small_middle = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.75
+	badboy_factor = 1.5
 	prestige_factor = 2
 	peace_cost_factor = 0.0045
 	penalty_factor = 1
@@ -1373,7 +1377,7 @@ acquire_state_large_middle = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 2.25
+	badboy_factor = 2.5
 	prestige_factor = 2
 	peace_cost_factor = 0.0075
 	penalty_factor = 1
@@ -1450,7 +1454,7 @@ acquire_state_huge_middle = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 2.5
+	badboy_factor = 3
 	prestige_factor = 2
 	peace_cost_factor = 0.01
 	penalty_factor = 1
@@ -1526,7 +1530,7 @@ acquire_state_tiny_late = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.5
+	badboy_factor = 1
 	prestige_factor = 2
 	peace_cost_factor = 0.003
 	penalty_factor = 1
@@ -1601,7 +1605,7 @@ acquire_state_small_late = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.75
+	badboy_factor = 1.5
 	prestige_factor = 2
 	peace_cost_factor = 0.0045
 	penalty_factor = 1
@@ -1753,7 +1757,7 @@ acquire_state_large_late = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 2.25
+	badboy_factor = 2.5
 	prestige_factor = 2
 	peace_cost_factor = 0.0075
 	penalty_factor = 1
@@ -1829,7 +1833,7 @@ acquire_state_huge_late = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 2.5
+	badboy_factor = 3
 	prestige_factor = 2
 	peace_cost_factor = 0.01
 	penalty_factor = 1
@@ -1900,14 +1904,14 @@ acquire_state_huge_late = {
 }
 
 # Place in the Sun
-place_in_the_sun = {
+place_in_the_sun_small = {
 	sprite_index = 7
 	is_triggered_only = yes
 	months = 12
 
-	badboy_factor = 2
+	badboy_factor = 1
 	prestige_factor = 2
-	peace_cost_factor = 0.9
+	peace_cost_factor = 0.003
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -1928,6 +1932,7 @@ place_in_the_sun = {
 	
 	allowed_states = {
 		is_colonial = yes
+		NOT = { total_pops = 300000 }
 	}
 	
 	allowed_states_in_crisis = {
@@ -1942,6 +1947,62 @@ place_in_the_sun = {
 	}
 
 	po_demand_state = yes
+	po_gunboat = yes
+
+	war_name = WAR_COLONIAL_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+place_in_the_sun_large = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+
+	badboy_factor = 1.5
+	prestige_factor = 2
+	peace_cost_factor = 0.005
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		any_owned_province = {
+			is_colonial = yes
+		}	
+	}
+	
+	allowed_states = {
+		is_colonial = yes
+		total_pops = 300000
+	}
+	
+	allowed_states_in_crisis = {
+		any_owned_province = {
+			OR = {
+				is_coastal = yes
+				any_neighbor_province = {
+					owner = { tag = THIS }
+				}
+			}
+		}
+	}
+
+	po_demand_state = yes
+	po_gunboat = yes
 
 	war_name = WAR_COLONIAL_NAME
 	

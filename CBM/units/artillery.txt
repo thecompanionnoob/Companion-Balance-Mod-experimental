@@ -36,7 +36,7 @@ artillery = {
 	attack = 1
 	defence = 1.5
 	discipline = 1.0
-	support = 1.25 #(attack or defense + 10) * this - when in backline
+	support = 1.35 #(attack or defense + 10) * this - when in backline
 	maneuver = 1
 
 }

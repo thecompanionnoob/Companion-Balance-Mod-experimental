@@ -8,6 +8,9 @@ political_decisions = {
 			NOT = {
 				exists = PBL
 			}
+			NOT = {
+				has_country_flag = bolivia_go_own_way
+			}
 		}
 		allow = {
 			PEU = {

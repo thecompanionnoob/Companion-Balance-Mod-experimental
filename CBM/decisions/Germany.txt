@@ -68,16 +68,37 @@ political_decisions = {
 		
 		allow = {
 			war = no
-			GER = {
-				all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-							in_sphere = THIS
+			OR = {
+				AND = {
+					tag = NGF
+					GER = {
+						all_core = {
+						
+							OR = {
+								owned_by = THIS
+								owner = {
+									in_sphere = THIS
+								}
+							}
+						
 						}
 					}
 				}
-			}
+				AND = { ### austria doesnt need alsace 
+					tag = SGF
+					GER = {
+						all_core = {
+							OR = {
+								owned_by = THIS
+								owner = {
+									in_sphere = THIS
+								}
+								is_core = FRA
+							}
+						}
+					}
+				}
+			}				
 		}
 		
 		effect = {
