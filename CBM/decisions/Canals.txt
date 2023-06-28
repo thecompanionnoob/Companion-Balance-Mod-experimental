@@ -39,14 +39,16 @@ political_decisions = {
 		picture = suezcanal
 		potential = {
 			NOT = { is_canal_enabled = 2 }
-			is_greater_power = yes
-			mechanical_production = 1
 		}
 		allow = {
 			OR = {
 				1755 = { owner = { in_sphere = THIS } }
 				owns = 1755
 			}
+            OR = {
+                ai = no
+                is_greater_power = yes
+            }
 			invention = machine_tools
 			invention = nitroglycerin		
 			iron_steamers = 1
@@ -55,6 +57,7 @@ political_decisions = {
 			1755 = { secede_province = THIS }
 			enable_canal = 2
 			1755 = { set_province_flag = suez_canal }
+            1755 = { change_province_name = "Suez Canal" }
 			prestige = 10
 			set_global_flag = suez_canal_built
 		}
@@ -74,14 +77,16 @@ political_decisions = {
 		news_desc_short = "panama_canal_NEWS_SHORT"
 		potential = {
 			NOT = { is_canal_enabled = 3 }
-			is_greater_power = yes
-			mechanical_production = 1
 		}
 		allow = {
 			OR = {
 				1723 = { owner = { in_sphere = THIS } }
 				owns = 1723
 			}
+            OR = {
+			    is_greater_power = yes
+                ai = no
+            }
 			invention = machine_tools
 			invention = nitroglycerin
 			iron_steamers = 1
@@ -90,6 +95,7 @@ political_decisions = {
 		effect = {
 			1723 = { secede_province = THIS }
 			enable_canal = 3
+            1723 = { change_province_name = "Panama Canal" }
 			1723 = { set_province_flag = panama_canal }
 			prestige = 10
 		}

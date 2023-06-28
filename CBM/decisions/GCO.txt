@@ -12,7 +12,6 @@ political_decisions = {
 		}	
 		allow = {
 			war = no
-			is_greater_power = yes
 			GCO = {
 				all_core = {
 					owner = {
@@ -27,7 +26,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			prestige = 15
+			prestige = 25
 			any_country = {
 				limit = {
 					vassal_of = THIS
@@ -52,14 +51,6 @@ political_decisions = {
 				}
 
 			}
-			
-			2242 = { add_core = GCO } # Mahdia, prev VNZ core
-			
-			# some early claims we can roll with for future colombian lebensraum
-			2200 = { add_core = GCO }
-			2201 = { add_core = GCO }
-			2202 = { add_core = GCO }
-			2203 = { add_core = GCO }
 
 			change_tag = GCO
 		}
@@ -68,4 +59,81 @@ political_decisions = {
 			factor = 1
 		}
 	}
+    go_north = {
+        potential = {
+            OR = {
+                tag = GCO
+                tag = CLM
+            }
+            NOT = { has_country_flag = go_sea }
+            NOT = { has_country_flag = go_north }
+            NOT = { has_country_flag = go_south }
+        }
+        allow = {
+            tag = GCO
+            state_n_government = 1
+            all_core = {
+                owned_by = THIS
+            }
+        }
+        effect = {
+            add_accepted_culture = mexican
+            badboy = 5
+            prestige = 15
+            set_country_flag = go_north
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    go_sea = {
+        potential = {
+            OR = {
+                tag = GCO
+                tag = CLM
+            }
+            NOT = { has_country_flag = go_sea }
+            NOT = { has_country_flag = go_north }
+            NOT = { has_country_flag = go_south }
+        }
+        allow = {
+            tag = GCO
+            state_n_government = 1
+            all_core = {
+                owned_by = THIS
+            }
+        }
+        effect = {
+            add_accepted_culture = caribeno
+            badboy = 5
+            prestige = 15
+            set_country_flag = go_sea
+        }
+    }
+    go_south = {
+        potential = {
+            OR = {
+                tag = GCO
+                tag = CLM
+            }
+            NOT = { has_country_flag = go_sea }
+            NOT = { has_country_flag = go_north }
+            NOT = { has_country_flag = go_south }
+        }
+        allow = {
+            tag = GCO
+            state_n_government = 1
+            all_core = {
+                owned_by = THIS
+            }
+        }
+        effect = {
+            add_accepted_culture = south_andean
+            badboy = 5
+            prestige = 15
+            set_country_flag = go_south
+        }
+    }
+        
+    
 }

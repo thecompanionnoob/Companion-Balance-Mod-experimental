@@ -779,11 +779,11 @@ liberian_research_boost = {
 
 ### CBM ###
 
-admin_debuff_modifier = {
+admin_debuff_modifier = { #no longer used
 	administrative_efficiency_modifier = -0.5
 }
 china_unciv_modifier = {
-	research_points_on_conquer = -0.5 #more? less? idunno
+	research_points_on_conquer = -0.8
 }
 china_civ_modifier = {
 	global_pop_militancy_modifier = -0.05

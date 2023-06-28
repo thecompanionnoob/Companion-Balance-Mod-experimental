@@ -6,25 +6,49 @@ leader = {
 	background = attack_3.1
 	prestige = 0
 }
+leader = {
+	name = "Joe Biden"
+	date = 1835.12.31
+	type = land
+	personality = defence_4.1
+	background = attack_1.1
+	prestige = 0
+}
+leader = {
+	name = "Donald Trump"
+	date = 1835.12.31
+	type = land
+	personality = defence_1.1
+	background = attack_4.1
+	prestige = 0
+}
+leader = {
+	name = "Aqua Man"
+	date = 1835.12.31
+	type = sea
+	personality = defence_3.1
+	background = attack_3.1
+	prestige = 0
+}
 army = {
 	name = "Army of the Tokugawa Shogunate"
 	
 	location = 1650
 	regiment = {
 		name= "1.Edo"
-		type = irregular
+		type = infantry
 		home = 1650
 	}
 
 	regiment = {
 		name= "2.Edo"
-		type = irregular
+		type = infantry
 		home = 1649
 	}
 
 	regiment = {
 		name= "3.Edo"
-		type = irregular
+		type = infantry
 		home = 1652
 	}
 
@@ -35,19 +59,19 @@ army = {
 	location = 1640
 	regiment = {
 		name= "1.Choshu"
-		type = irregular
+		type = infantry
 		home = 1640
 	}
 
 	regiment = {
 		name= "2.Choshu"
-		type = irregular
+		type = infantry
 		home = 1638
 	}
 
 	regiment = {
 		name= "3.Choshu"
-		type = irregular
+		type = infantry
 		home = 1641
 	}
 
@@ -58,19 +82,19 @@ army = {
 	location = 1662
 	regiment = {
 		name= "1.1 Satsuma"
-		type = irregular
+		type = infantry
 		home = 1662
 	}
 
 	regiment = {
 		name= "2.1 Satsuma"
-		type = irregular
+		type = infantry
 		home = 1660
 	}
 
 	regiment = {
 		name= "3.1 Satsuma"
-		type = irregular
+		type = infantry
 		home = 1661
 	}
 
@@ -81,19 +105,19 @@ army = {
 	location = 1665
 	regiment = {
 		name= "1.Tosa"
-		type = irregular
+		type = infantry
 		home = 1665
 	}
 
 	regiment = {
 		name= "2.Tosa"
-		type = irregular
+		type = infantry
 		home = 1667
 	}
 
 	regiment = {
 		name= "3.Tosa"
-		type = irregular
+		type = infantry
 		home = 1666
 	}
 
@@ -104,19 +128,19 @@ army = {
 	location = 1668
 	regiment = {
 		name= "1.Sendai"
-		type = irregular
+		type = infantry
 		home = 1668
 	}
 
 	regiment = {
 		name= "2.Sendai"
-		type = irregular
+		type = infantry
 		home = 1673
 	}
 
 	regiment = {
 		name= "3.Sendai"
-		type = irregular
+		type = infantry
 		home = 1669
 	}
 
@@ -127,19 +151,19 @@ army = {
 	location = 1646
 	regiment = {
 		name= "1.Kaga"
-		type = irregular
+		type = infantry
 		home = 1645
 	}
 
 	regiment = {
 		name= "2.Kaga"
-		type = irregular
+		type = infantry
 		home = 1675
 	}
 
 	regiment = {
 		name= "3.Kaga"
-		type = irregular
+		type = infantry
 		home = 1677
 	}
 

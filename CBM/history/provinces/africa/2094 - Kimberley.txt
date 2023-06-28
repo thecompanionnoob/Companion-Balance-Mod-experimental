@@ -3,3 +3,11 @@ life_rating = 15
 add_core = SAF
 owner = SAF
 controller = SAF
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
+}
+    
+    
+

@@ -48,21 +48,11 @@ conquest
 civil_war 
 acquire_core_state 
 annex_core_country
-acquire_state_tiny_early
-acquire_state_small_early
-acquire_state_medium_early
-acquire_state_large_early
-acquire_state_huge_early
-acquire_state_tiny_middle
-acquire_state_small_middle
-acquire_state_medium_middle
-acquire_state_large_middle
-acquire_state_huge_middle
-acquire_state_tiny_late
-acquire_state_small_late
-acquire_state_medium_late
-acquire_state_large_late
-acquire_state_huge_late
+acquire_state_tiny
+acquire_state_small
+acquire_state_medium
+acquire_state_large
+acquire_state_huge
 acquire_substate_region
 place_in_the_sun_small
 place_in_the_sun_large
@@ -763,7 +753,7 @@ acquire_substate_region = {
 
 
 # Gain control of State
-acquire_state_tiny_early = {
+acquire_state_tiny = {
 	sprite_index = 6
 	is_triggered_only = yes
 	months = 12
@@ -784,7 +774,6 @@ acquire_state_tiny_early = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		NOT = { year = 1860 }
 		NOT = { is_our_vassal = THIS }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
@@ -814,7 +803,21 @@ acquire_state_tiny_early = {
 			not = {	is_core = THIS }
 			is_colonial = no
 		}
-		NOT = { total_pops = 50000 }
+        OR = {
+            AND = {
+		        NOT = { total_pops = 50000 }
+                NOT = { year = 1866 }
+            }
+            AND = {
+                NOT = { total_pops = 75000 }
+                year = 1866
+                NOT = { year = 1896 }
+            }
+            AND = {
+                NOT = { total_pops = 125000 }
+                year = 1896
+            }
+        }
 	}
 	
 	allowed_states_in_crisis = {
@@ -838,7 +841,7 @@ acquire_state_tiny_early = {
 		}
 	}
 }
-acquire_state_small_early = {
+acquire_state_small = {
 	sprite_index = 6
 	is_triggered_only = yes
 	months = 12
@@ -889,8 +892,24 @@ acquire_state_small_early = {
 			not = {	is_core = THIS }
 			is_colonial = no
 		}
-		total_pops = 50000
-		NOT = { total_pops = 100000 }
+        OR = {
+            AND = {
+                total_pops = 50000
+		        NOT = { total_pops = 100000 }
+                NOT = { year = 1866 }
+            }
+            AND = {
+                total_pops = 75000
+                NOT = { total_pops = 150000 }
+                year = 1866
+                NOT = { year = 1896 }
+            }
+            AND = {
+                total_pops = 125000
+                NOT = { total_pops = 250000 }
+                year = 1896
+            }
+        }
 	}
 	
 	allowed_states_in_crisis = {
@@ -914,7 +933,7 @@ acquire_state_small_early = {
 		}
 	}
 }
-acquire_state_medium_early = {
+acquire_state_medium = {
 	sprite_index = 6
 	is_triggered_only = yes
 	months = 12
@@ -965,8 +984,24 @@ acquire_state_medium_early = {
 			not = {	is_core = THIS }
 			is_colonial = no
 		}
-		total_pops = 100000
-		NOT = { total_pops = 200000 }
+        OR = {
+            AND = {
+                total_pops = 100000
+		        NOT = { total_pops = 150000 }
+                NOT = { year = 1866 }
+            }
+            AND = {
+                total_pops = 150000
+                NOT = { total_pops = 225000 }
+                year = 1866
+                NOT = { year = 1896 }
+            }
+            AND = {
+                total_pops = 250000
+                NOT = { total_pops = 375000 }
+                year = 1896
+            }
+        }
 	}
 	
 	allowed_states_in_crisis = {
@@ -990,7 +1025,7 @@ acquire_state_medium_early = {
 		}
 	}
 }
-acquire_state_large_early = {
+acquire_state_large = {
 	sprite_index = 6
 	is_triggered_only = yes
 	months = 12
@@ -1041,8 +1076,24 @@ acquire_state_large_early = {
 			not = {	is_core = THIS }
 			is_colonial = no
 		}
-		total_pops = 200000
-		NOT = { total_pops = 450000 }
+        OR = {
+            AND = {
+                total_pops = 150000
+		        NOT = { total_pops = 200000 }
+                NOT = { year = 1866 }
+            }
+            AND = {
+                total_pops = 225000
+                NOT = { total_pops = 300000 }
+                year = 1866
+                NOT = { year = 1896 }
+            }
+            AND = {
+                total_pops = 375000
+                NOT = { total_pops = 500000 }
+                year = 1896
+            }
+        }
 	}
 	
 	allowed_states_in_crisis = {
@@ -1066,7 +1117,7 @@ acquire_state_large_early = {
 		}
 	}
 }
-acquire_state_huge_early = {
+acquire_state_huge = {
 	sprite_index = 6
 	is_triggered_only = yes
 	months = 12
@@ -1117,7 +1168,21 @@ acquire_state_huge_early = {
 			not = {	is_core = THIS }
 			is_colonial = no
 		}
-		total_pops = 450000
+        OR = {
+            AND = {
+                total_pops = 200000
+                NOT = { year = 1866 }
+            }
+            AND = {
+                total_pops = 300000
+                year = 1866
+                NOT = { year = 1896 }
+            }
+            AND = {
+                total_pops = 500000
+                year = 1896
+            }
+        }
 	}
 	
 	allowed_states_in_crisis = {
@@ -1141,767 +1206,7 @@ acquire_state_huge_early = {
 		}
 	}
 }
-acquire_state_tiny_middle = {
-	sprite_index = 6
-	is_triggered_only = yes
-	months = 12
-	construction_speed = 0.5
-	
-	badboy_factor = 1
-	prestige_factor = 2
-	peace_cost_factor = 0.003
-	penalty_factor = 1
 
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 2
-	break_truce_militancy_factor = 2
-	truce_months = 60
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		year = 1860
-		NOT = { year = 1890 }
-		NOT = { is_our_vassal = THIS }
-		number_of_states = 2 # annex if you want their last state
-		any_owned_province = {
-			not = { is_core = THIS }
-			is_colonial = no
-		}
-		OR = {
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = yes
-				}
-			}
-			AND = {
-				civilized = no
-				THIS = {
-					civilized = no
-				}
-			}
-		}
-		is_independant = yes
-	}
-	
-	allowed_states = {
-		is_colonial = no
-		any_owned_province = {
-			not = {	is_core = THIS }
-			is_colonial = no
-		}
-		NOT = { total_pops = 75000 }
-	}
-	
-	allowed_states_in_crisis = {
-		any_owned_province = {
-			any_neighbor_province = {
-				owner = { tag = THIS }
-			}
-		}
-	}		
-
-	po_demand_state = yes
-	po_gunboat = yes
-	
-	war_name = WAR_TAKE_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
-}
-acquire_state_small_middle = {
-	sprite_index = 6
-	is_triggered_only = yes
-	months = 12
-	construction_speed = 0.5
-	
-	badboy_factor = 1.5
-	prestige_factor = 2
-	peace_cost_factor = 0.0045
-	penalty_factor = 1
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 2
-	break_truce_militancy_factor = 2
-	truce_months = 60
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		year = 1860
-		NOT = { year = 1890 }
-		NOT = { is_our_vassal = THIS }
-		number_of_states = 2 # annex if you want their last state
-		any_owned_province = {
-			not = { is_core = THIS }
-			is_colonial = no
-		}
-		OR = {
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = yes
-				}
-			}
-			AND = {
-				civilized = no
-				THIS = {
-					civilized = no
-				}
-			}
-		}
-		is_independant = yes
-	}
-	
-	allowed_states = {
-		is_colonial = no
-		any_owned_province = {
-			not = {	is_core = THIS }
-			is_colonial = no
-		}
-		total_pops = 75000
-		NOT = { total_pops = 150000 }
-	}
-	
-	allowed_states_in_crisis = {
-		any_owned_province = {
-			any_neighbor_province = {
-				owner = { tag = THIS }
-			}
-		}
-	}		
-
-	po_demand_state = yes
-	po_gunboat = yes
-	
-	war_name = WAR_TAKE_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
-}
-acquire_state_medium_middle = {
-	sprite_index = 6
-	is_triggered_only = yes
-	months = 12
-	construction_speed = 0.5
-	
-	badboy_factor = 2
-	prestige_factor = 2
-	peace_cost_factor = 0.006
-	penalty_factor = 1
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 2
-	break_truce_militancy_factor = 2
-	truce_months = 60
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		year = 1860
-		NOT = { year = 1890 }
-		NOT = { is_our_vassal = THIS }
-		number_of_states = 2 # annex if you want their last state
-		any_owned_province = {
-			not = { is_core = THIS }
-			is_colonial = no
-		}
-		OR = {
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = yes
-				}
-			}
-			AND = {
-				civilized = no
-				THIS = {
-					civilized = no
-				}
-			}
-		}
-		is_independant = yes
-	}
-	
-	allowed_states = {
-		is_colonial = no
-		any_owned_province = {
-			not = {	is_core = THIS }
-			is_colonial = no
-		}
-		total_pops = 150000
-		NOT = { total_pops = 250000 }
-	}
-	
-	allowed_states_in_crisis = {
-		any_owned_province = {
-			any_neighbor_province = {
-				owner = { tag = THIS }
-			}
-		}
-	}		
-
-	po_demand_state = yes
-	po_gunboat = yes
-	
-	war_name = WAR_TAKE_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
-}
-acquire_state_large_middle = {
-	sprite_index = 6
-	is_triggered_only = yes
-	months = 12
-	construction_speed = 0.5
-	
-	badboy_factor = 2.5
-	prestige_factor = 2
-	peace_cost_factor = 0.0075
-	penalty_factor = 1
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 2
-	break_truce_militancy_factor = 2
-	truce_months = 60
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		year = 1860
-		NOT = { year = 1890 }
-		NOT = { is_our_vassal = THIS }
-		number_of_states = 2 # annex if you want their last state
-		any_owned_province = {
-			not = { is_core = THIS }
-			is_colonial = no
-		}
-		OR = {
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = yes
-				}
-			}
-			AND = {
-				civilized = no
-				THIS = {
-					civilized = no
-				}
-			}
-		}
-		is_independant = yes
-	}
-	
-	allowed_states = {
-		is_colonial = no
-		any_owned_province = {
-			not = {	is_core = THIS }
-			is_colonial = no
-		}
-		total_pops = 250000
-		NOT = { total_pops = 600000 }
-	}
-	
-	allowed_states_in_crisis = {
-		any_owned_province = {
-			any_neighbor_province = {
-				owner = { tag = THIS }
-			}
-		}
-	}		
-
-	po_demand_state = yes
-	po_gunboat = yes
-	
-	war_name = WAR_TAKE_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
-}
-acquire_state_huge_middle = {
-	sprite_index = 6
-	is_triggered_only = yes
-	months = 12
-	construction_speed = 0.5
-	
-	badboy_factor = 3
-	prestige_factor = 2
-	peace_cost_factor = 0.01
-	penalty_factor = 1
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 2
-	break_truce_militancy_factor = 2
-	truce_months = 60
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		year = 1860
-		NOT = { year = 1890 }
-		NOT = { is_our_vassal = THIS }
-		number_of_states = 2 # annex if you want their last state
-		any_owned_province = {
-			not = { is_core = THIS }
-			is_colonial = no
-		}
-		OR = {
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = yes
-				}
-			}
-			AND = {
-				civilized = no
-				THIS = {
-					civilized = no
-				}
-			}
-		}
-		is_independant = yes
-	}
-	
-	allowed_states = {
-		is_colonial = no
-		any_owned_province = {
-			not = {	is_core = THIS }
-			is_colonial = no
-		}
-		total_pops = 600000
-	}
-	
-	allowed_states_in_crisis = {
-		any_owned_province = {
-			any_neighbor_province = {
-				owner = { tag = THIS }
-			}
-		}
-	}		
-
-	po_demand_state = yes
-	po_gunboat = yes
-	
-	war_name = WAR_TAKE_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
-}
-acquire_state_tiny_late = {
-	sprite_index = 6
-	is_triggered_only = yes
-	months = 12
-	construction_speed = 0.5
-	
-	badboy_factor = 1
-	prestige_factor = 2
-	peace_cost_factor = 0.003
-	penalty_factor = 1
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 2
-	break_truce_militancy_factor = 2
-	truce_months = 60
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		year = 1890
-		NOT = { is_our_vassal = THIS }
-		number_of_states = 2 # annex if you want their last state
-		any_owned_province = {
-			not = { is_core = THIS }
-			is_colonial = no
-		}
-		OR = {
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = yes
-				}
-			}
-			AND = {
-				civilized = no
-				THIS = {
-					civilized = no
-				}
-			}
-		}
-		is_independant = yes
-	}
-	
-	allowed_states = {
-		is_colonial = no
-		any_owned_province = {
-			not = {	is_core = THIS }
-			is_colonial = no
-		}
-		NOT = { total_pops = 75000 }
-	}
-	
-	allowed_states_in_crisis = {
-		any_owned_province = {
-			any_neighbor_province = {
-				owner = { tag = THIS }
-			}
-		}
-	}		
-
-	po_demand_state = yes
-	po_gunboat = yes
-	
-	war_name = WAR_TAKE_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
-}
-acquire_state_small_late = {
-	sprite_index = 6
-	is_triggered_only = yes
-	months = 12
-	construction_speed = 0.5
-	
-	badboy_factor = 1.5
-	prestige_factor = 2
-	peace_cost_factor = 0.0045
-	penalty_factor = 1
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 2
-	break_truce_militancy_factor = 2
-	truce_months = 60
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		year = 1890
-		NOT = { is_our_vassal = THIS }
-		number_of_states = 2 # annex if you want their last state
-		any_owned_province = {
-			not = { is_core = THIS }
-			is_colonial = no
-		}
-		OR = {
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = yes
-				}
-			}
-			AND = {
-				civilized = no
-				THIS = {
-					civilized = no
-				}
-			}
-		}
-		is_independant = yes
-	}
-	
-	allowed_states = {
-		is_colonial = no
-		any_owned_province = {
-			not = {	is_core = THIS }
-			is_colonial = no
-		}
-		total_pops = 100000
-		NOT = { total_pops = 200000 }
-	}
-	
-	allowed_states_in_crisis = {
-		any_owned_province = {
-			any_neighbor_province = {
-				owner = { tag = THIS }
-			}
-		}
-	}		
-
-	po_demand_state = yes
-	po_gunboat = yes
-	
-	war_name = WAR_TAKE_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
-}
-acquire_state_medium_late = {
-	sprite_index = 6
-	is_triggered_only = yes
-	months = 12
-	construction_speed = 0.5
-	
-	badboy_factor = 2
-	prestige_factor = 2
-	peace_cost_factor = 0.006
-	penalty_factor = 1
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 2
-	break_truce_militancy_factor = 2
-	truce_months = 60
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		year = 1890
-		NOT = { is_our_vassal = THIS }
-		number_of_states = 2 # annex if you want their last state
-		any_owned_province = {
-			not = { is_core = THIS }
-			is_colonial = no
-		}
-		OR = {
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = yes
-				}
-			}
-			AND = {
-				civilized = no
-				THIS = {
-					civilized = no
-				}
-			}
-		}
-		is_independant = yes
-	}
-	
-	allowed_states = {
-		is_colonial = no
-		any_owned_province = {
-			not = {	is_core = THIS }
-			is_colonial = no
-		}
-		total_pops = 200000
-		NOT = { total_pops = 300000 }
-	}
-	
-	allowed_states_in_crisis = {
-		any_owned_province = {
-			any_neighbor_province = {
-				owner = { tag = THIS }
-			}
-		}
-	}		
-
-	po_demand_state = yes
-	po_gunboat = yes
-	
-	war_name = WAR_TAKE_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
-}
-acquire_state_large_late = {
-	sprite_index = 6
-	is_triggered_only = yes
-	months = 12
-	construction_speed = 0.5
-	
-	badboy_factor = 2.5
-	prestige_factor = 2
-	peace_cost_factor = 0.0075
-	penalty_factor = 1
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 2
-	break_truce_militancy_factor = 2
-	truce_months = 60
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		year = 1890
-		NOT = { is_our_vassal = THIS }
-		number_of_states = 2 # annex if you want their last state
-		any_owned_province = {
-			not = { is_core = THIS }
-			is_colonial = no
-		}
-		OR = {
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = yes
-				}
-			}
-			AND = {
-				civilized = no
-				THIS = {
-					civilized = no
-				}
-			}
-		}
-		is_independant = yes
-	}
-	
-	allowed_states = {
-		is_colonial = no
-		any_owned_province = {
-			not = {	is_core = THIS }
-			is_colonial = no
-		}
-		total_pops = 300000
-		NOT = { total_pops = 700000 }
-	}
-	
-	allowed_states_in_crisis = {
-		any_owned_province = {
-			any_neighbor_province = {
-				owner = { tag = THIS }
-			}
-		}
-	}		
-
-	po_demand_state = yes
-	po_gunboat = yes
-	
-	war_name = WAR_TAKE_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
-}
-acquire_state_huge_late = {
-	sprite_index = 6
-	is_triggered_only = yes
-	months = 12
-	construction_speed = 0.5
-	
-	badboy_factor = 3
-	prestige_factor = 2
-	peace_cost_factor = 0.01
-	penalty_factor = 1
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 2
-	break_truce_militancy_factor = 2
-	truce_months = 60
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		year = 1890
-		NOT = { is_our_vassal = THIS }
-		number_of_states = 2 # annex if you want their last state
-		any_owned_province = {
-			not = { is_core = THIS }
-			is_colonial = no
-		}
-		OR = {
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = yes
-				}
-			}
-			AND = {
-				civilized = no
-				THIS = {
-					civilized = no
-				}
-			}
-		}
-		is_independant = yes
-	}
-	
-	allowed_states = {
-		is_colonial = no
-		any_owned_province = {
-			not = {	is_core = THIS }
-			is_colonial = no
-		}
-		total_pops = 700000
-	}
-	
-	allowed_states_in_crisis = {
-		any_owned_province = {
-			any_neighbor_province = {
-				owner = { tag = THIS }
-			}
-		}
-	}		
-
-	po_demand_state = yes
-	po_gunboat = yes
-	
-	war_name = WAR_TAKE_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
-}
 
 # Place in the Sun
 place_in_the_sun_small = {

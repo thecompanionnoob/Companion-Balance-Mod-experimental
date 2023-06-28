@@ -97,10 +97,12 @@ political_decisions = {
 					owned_by = AUS #hungary has less cores than vanilla
 				}
 			}
-			NOT = {
-				exists = HUN
-				exists = KUK
-			}
+			HUN = {
+                exists = no
+            }
+            KUK = {
+                exists = no
+            }
 			state_n_government = 1
 		}
 	

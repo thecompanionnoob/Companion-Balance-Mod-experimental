@@ -1,5 +1,9 @@
-owner = JOH
-controller = JOH
+owner = SPA
+controller = SPA
 add_core = JOH
 trade_goods = tropical_wood
 life_rating = 30
+colonial = 2
+    
+    
+    

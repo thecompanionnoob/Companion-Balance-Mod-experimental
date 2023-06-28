@@ -1,5 +1,9 @@
-owner = NET
-controller = NET
+owner = SPA
+controller = SPA
+add_core = JOH
 trade_goods = fish
 life_rating = 30
 colonial = 2
+    
+    
+    

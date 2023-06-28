@@ -52,9 +52,9 @@ nv_switch_enable_desc;§RThese Decisions are Permanent!!!§!;;;;;;;;;x
 nv_switch_disable_title;Hide National Value Decisions;;;;;;;;;x
 nv_switch_disable_desc; ;;;;;;;;;x
 order_decision_title;Switch National Value to Order;;;;;;;;;x
-order_decision_desc;§G+6%§! Mobilization Size;;;;;;;;;x
+order_decision_desc;§G+4%§! Mobilization Size;;;;;;;;;x
 liberty_decision_title;Switch National Value to Liberty;;;;;;;;;x
-liberty_decision_desc;§G+4%§! Mobilization Size\n§G+10%§! Political & Social Reform Desire\n§G+10%§! Diplomatic Influence\n§G+5%§! Immigration Attraction\n§G-0.1§! Monthly War Exhaustion\n§G+5%§! RGO Output & Throughput\n§G+5%§! Research Points;;;;;;;;;x
+liberty_decision_desc;§G+3%§! Mobilization Size\n§G+10%§! Political & Social Reform Desire\n§G+10%§! Diplomatic Influence\n§G+5%§! Immigration Attraction\n§G-0.1§! Monthly War Exhaustion\n§G+5%§! RGO Output & Throughput\n§G+5%§! Research Points;;;;;;;;;x
 equality_decision_title;Switch National Value to Equality;;;;;;;;;x
 equality_decision_desc;§G+2%§! Mobilization Size\n§G+20%§! Political & Social Reform Desire\n§G+20%§! Diplomatic Influence\n§G+10%§! Immigration Attraction\n§G-0.2§! Monthly War Exhaustion\n§G+10%§! RGO Output & Throughput\n§G+10%§! Research Points;;;;;;;;;x
 tech_school_enable_change_title;Make Tech School Decisions Visible;;;;;;;;;x
@@ -127,3 +127,15 @@ elevate_angola_zambia_title;Elevate Angola & Zambia;;;;;;;;;x
 elevate_angola_zambia_desc;§GThis decision will make all of Angola & Zambia into cores and states, despite what the tooltip may tell you.§!\nThe people of Angola & Zambia are truly the same as our own. We should elevate these lands into core components of our nation.;;;;;;;;;x
 elevate_congo_title;Elevate the Congo;;;;;;;;;x
 elevate_congo_desc;§GThis decision will make all of the Congo into cores and states, despite what the tooltip may tell you.§!\nThe people of the Congo are truly the same as our own. We should elevate these lands into core components of our nation.;;;;;;;;;x
+spanish_empire_way_title;Revive the Spanish Empire;;;;;;;;;x
+spanish_empire_way_desc;§RThis decision is mutually exclusive with the Iberian Union path.§!\nOur time of greatness was when we conquered overseas lands. Let us return to the era of success and prosperity!;;;;;;;;;x
+iberian_union_way_title;Move to form an Iberian Union;;;;;;;;;x
+iberian_union_way_desc;§RThis decision is mutually exclusive with the Spanish Empire path.§!\nDreams of a Spanish Empire lie dead in the past. We must move forward to a new era of united Iberian greatness.;;;;;;;;;x
+go_north_title;Declare Gran Colombian rule over Mexico;;;;;;;;;x
+go_north_desc;§RThis decision is mutually exclusive with the Caribbean & Southern paths.§!\nThe Mexican lands to our north are perhaps the most rich in our region. We must conquer and integrate these lands.;;;;;;;;;x
+go_south_title;Push for the South Andes;;;;;;;;;x
+go_south_desc;§RThis decision is mutually exclusive with the Caribbean & Mexican paths.§!\nThe lands to our southwest are not the richest, however they are culturally compatible with us and decently populated. We must integrate these regions.;;;;;;;;;x
+go_sea_title;Expand into the Caribbean;;;;;;;;;x
+go_sea_desc;§RThis decision is mutually exclusive with the Caribbean & Mexican paths.§!\nThe Caribbean islands are densly populated and should not be too difficult to conquer. We should move to invade this region immediately.;;;;;;;;;x
+form_peru_bolivia_title;Form Peru-Bolivia;;;;;;;;;x
+form_peru_bolivia_desc;§RIf you are playing as Peru, this decision disallows forming Inca.\nIf you are playing as Bolivia, this decision disallows accepting Native Americans and Brazilians.\n§!The Bolivian and Peruvian people are not all too different. In fact, we were once united under a confederation. We should restore this glorious union, and unite our peoples!;;;;;;;;;x

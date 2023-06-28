@@ -83,7 +83,7 @@ country_event = { #uncivilize
 
 
 #china_unciv_modifier = {
-#	research_points_on_conquer = -0.5
+#	research_points_on_conquer = -0.8
 #}
 
 #china_civ_modifier = {

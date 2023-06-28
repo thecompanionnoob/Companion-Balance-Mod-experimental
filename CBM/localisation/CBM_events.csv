@@ -40,3 +40,12 @@ EVTOPTB69010;We will focus on the West. §G(Grants Polish as accepted by decision
 EVTNAME69011;Uncivilized Mobilization;;;;;;;;;x;;;;
 EVTDESC69011;Uncivilized nations can mobilize in this mod if they have the correct national value (by default you can).;;;;;;;;;x;;;;
 EVTOPTA69011;Okay;;;;;;;;;x;;;;
+EVTNAME69012;China;;;;;;;;;x;;;;
+EVTDESC69012;China gets a debuff to research points on conquest, and you will get special CBs on the other chinese nations when it turns 1837.;;;;;;;;;x;;;;
+EVTOPTA69012;Okay;;;;;;;;;x;;;;
+EVTNAME69013;Civilized China;;;;;;;;;x;;;;
+EVTDESC69013;We have civilized. We now have debuffs.;;;;;;;;;x;;;;
+EVTOPTA69013;Okay;;;;;;;;;x;;;;
+EVTNAME69014;Uncivilized China;;;;;;;;;x;;;;
+EVTDESC69014;Since we have uncivilized, we lose the civilized China debuffs and gain back the uncivilized China debuff.;;;;;;;;;x;;;;
+EVTOPTA69014;Okay;;;;;;;;;x;;;;

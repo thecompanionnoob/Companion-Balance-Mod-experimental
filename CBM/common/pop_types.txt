@@ -452,7 +452,7 @@ colonialmigration_chance =
 #general emigration chance
 emigration_chance = 
 {
-	factor = 0.5
+	factor = 0.6
 
 	group = {
 
@@ -560,7 +560,7 @@ emigration_chance =
 		state_scope = { is_colonial = yes }
 	}
 	modifier = {
-		factor = -0.5
+		factor = -0.3
 		OR = {
 			culture = nanfaren
 			culture = beifaren
