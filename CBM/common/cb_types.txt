@@ -862,7 +862,6 @@ acquire_state_small = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		NOT = { year = 1860 }
 		NOT = { is_our_vassal = THIS }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
@@ -954,7 +953,6 @@ acquire_state_medium = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		NOT = { year = 1860 }
 		NOT = { is_our_vassal = THIS }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
@@ -1046,7 +1044,6 @@ acquire_state_large = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		NOT = { year = 1860 }
 		NOT = { is_our_vassal = THIS }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
@@ -1138,7 +1135,6 @@ acquire_state_huge = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		NOT = { year = 1860 }
 		NOT = { is_our_vassal = THIS }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
