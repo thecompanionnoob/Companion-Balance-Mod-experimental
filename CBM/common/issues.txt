@@ -14,16 +14,17 @@ party_issues = {
 	}
 	economic_policy = {
 		laissez_faire = {
-			max_tax = 0.5
+			max_tax = 0.9
 			factory_owner_cost = 0.3
-			factory_output = 0.05
+			factory_output = 0.1
+			factory_throughput = 0.05
 			
 			rules = {
 				build_factory = no
 				expand_factory = no
 				open_factory = no
 				destroy_factory = no
-				build_railway = no
+				build_railway = yes
 				factory_priority = no
 				can_subsidise = no
 				pop_build_factory = yes
@@ -40,6 +41,7 @@ party_issues = {
 		}
 		interventionism = {
 			factory_owner_cost = 0.5
+			factory_output = 0.05
 			
 			rules = {
 				build_factory = no
@@ -64,7 +66,6 @@ party_issues = {
 			}
 		}
 		state_capitalism = {
-			min_tax = 0.25
 			factory_owner_cost = 0.6
 			rules = {
 				build_factory = yes
@@ -78,16 +79,15 @@ party_issues = {
 				pop_expand_factory = no
 				pop_open_factory = yes
 				delete_factory_if_no_input = no
+				open_factory_invest = yes
 				build_factory_invest = yes
 				expand_factory_invest = yes
 				build_railway_invest = yes
+				allow_foreign_investment = yes
 				can_invest_in_pop_projects = yes
 			}
 		}
 		planned_economy = {
-			min_tax = 0.5
-			
-			factory_throughput = 0.05
 			factory_owner_cost = -1	#negative costs, can't build.
 			rules = {
 				build_factory = yes
@@ -100,10 +100,12 @@ party_issues = {
 				pop_build_factory = no
 				pop_expand_factory = no
 				pop_open_factory = no				
-				delete_factory_if_no_input = no		
+				delete_factory_if_no_input = no
+				open_factory_invest = yes
 				build_factory_invest = yes
 				expand_factory_invest = yes
 				build_railway_invest = yes
+				allow_foreign_investment = yes
 				can_invest_in_pop_projects = yes
 			}
 		}
@@ -129,11 +131,9 @@ party_issues = {
 		}
 		limited_citizenship = {
 			rules = { culture_voting = yes }
-			global_assimilation_rate = 0.10
 		}
 		full_citizenship = {
 			rules = { all_voting = yes }
-			global_assimilation_rate = 0.25
 		}
 	}
 	war_policy = {
@@ -144,16 +144,16 @@ party_issues = {
 			is_jingoism = yes
 			cb_generation_speed_modifier = 0.3
 			mobilization_impact = 4
-			org_regain = 0.5
-			reinforce_speed = 0.5
+			org_regain = 0.35
+			reinforce_speed = 0.35
 		}
 		pro_military = {
 			max_military_spending = 1.0
 			war_exhaustion_effect = 0.7
 			cb_generation_speed_modifier = 0.2
 			mobilization_impact = 3
-			org_regain = 0.25
-			reinforce_speed = 0.25
+			org_regain = 0.15
+			reinforce_speed = 0.15
 		}
 		anti_military = {
 			max_military_spending = 0.75
@@ -161,8 +161,8 @@ party_issues = {
 			war_exhaustion_effect = 1.2
 			cb_generation_speed_modifier = -0.2
 			mobilization_impact = 2
-			org_regain = -0.25
-			reinforce_speed = -0.25
+			org_regain = -0.15
+			reinforce_speed = -0.15
 		}
 		pacifism = {
 			max_military_spending = 0.5
@@ -170,8 +170,8 @@ party_issues = {
 			war_exhaustion_effect = 1.5
 			cb_generation_speed_modifier = -0.4
 			mobilization_impact = 1
-			org_regain = -0.5
-			reinforce_speed = -0.5
+			org_regain = -0.35
+			reinforce_speed = -0.35
 		}
 	}
 }
@@ -195,11 +195,13 @@ political_reforms = {
 	vote_franschise = {
 		next_step_only = yes
 		none_voting = {
+			rules = { sainte_laque = yes }
 			rich_vote = 0
 			middle_vote = 0
 			poor_vote = 0
 		}
 		landed_voting = {
+			rules = { sainte_laque = yes }
 			rich_vote = 1
 			middle_vote = 0
 			poor_vote = 0
@@ -208,6 +210,7 @@ political_reforms = {
 			global_pop_militancy_modifier = -0.01
 		}
 		wealth_weighted_voting = {
+			rules = { sainte_laque = yes }
 			rich_vote = 2
 			middle_vote = 1
 			poor_vote = 0
@@ -224,6 +227,7 @@ political_reforms = {
 			global_pop_militancy_modifier = -0.03
 		}
 		universal_weighted_voting = {
+			rules = { sainte_laque = yes }
 			rich_vote = 3
 			middle_vote = 2
 			poor_vote = 1
@@ -232,12 +236,54 @@ political_reforms = {
 			global_pop_militancy_modifier = -0.04
 		}
 		universal_voting = {
+			rules = { sainte_laque = yes }
 			rich_vote = 1
 			middle_vote = 1
 			poor_vote = 1
 			
 			global_immigrant_attract = 0.14
 			global_pop_militancy_modifier = -0.05
+		}
+	}
+	administrative_reform = {
+		corrupt_administrative_state = {
+			administrative_efficiency_modifier = -0.2
+			education_efficiency_modifier = -0.1
+			tax_efficiency = -0.05
+			tariff_efficiency_modifier = -0.5
+			allow = { 
+				AND = {
+					NOT = {
+						tag = JAN
+					}
+					tag = JAN
+				}
+			}
+		}
+		incompetent_administrative_state = {
+			administrative_efficiency_modifier = -0.1
+			education_efficiency_modifier = -0.05
+			tariff_efficiency_modifier = -0.4
+			allow = { 
+				AND = {
+					NOT = {
+						tag = JAN
+					}
+					tag = JAN
+				}
+			}
+		}
+		effective_administrative_state = {
+			tax_efficiency = 0.05
+			tariff_efficiency_modifier = -0.3
+			allow = { 
+				AND = {
+					NOT = {
+						tag = JAN
+					}
+					tag = JAN
+				}
+			}	
 		}
 	}
 	
@@ -269,26 +315,7 @@ political_reforms = {
 		}
 	}
 
-	voting_system = {
-		first_past_the_post = {
-			rules = { largest_share = yes }
-			allow = { 
-				NOT = { vote_franschise = none_voting }
-			}
-		}
-		jefferson_method = {
-			rules = { dhont = yes }
-			allow = { 
-				NOT = { vote_franschise = none_voting }
-			}
-		}
-		proportional_representation = {
-			rules = { sainte_laque = yes }
-			allow = { 
-				NOT = { vote_franschise = none_voting }
-			}			
-		}
-	}
+
 	public_meetings = {
 		no_meeting = {
 			global_pop_militancy_modifier = 0.01
@@ -377,30 +404,28 @@ social_reforms = {
 		administrative = yes
 		next_step_only = yes
 		no_minimum_wage = {
-			administrative_multiplier = 20
-			minimum_wage = 1
 		}
 		trinket_wage = {
-			minimum_wage = 1.2
-			administrative_multiplier = 21
+			minimum_wage = 0.2
+			administrative_multiplier = 1
 			global_immigrant_attract = 0.01
 			global_pop_militancy_modifier = -0.01
 		}
 		low_minimum_wage = {
-			minimum_wage = 1.4
-			administrative_multiplier = 22
+			minimum_wage = 0.4
+			administrative_multiplier = 2
 			global_immigrant_attract = 0.02
 			global_pop_militancy_modifier = -0.02
 		}
 		acceptable_minimum_wage = {
-			minimum_wage = 1.6
-			administrative_multiplier = 23
+			minimum_wage = 0.6
+			administrative_multiplier = 3
 			global_immigrant_attract = 0.03
 			global_pop_militancy_modifier = -0.03
 		}
 		good_minimum_wage = {
-			minimum_wage = 1.8
-			administrative_multiplier = 24
+			minimum_wage = 0.8
+			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
 			global_pop_militancy_modifier = -0.04
 		}

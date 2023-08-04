@@ -2,6 +2,7 @@ political_decisions = {
 	tech_school_enable_change = {
 		alert = yes
 		potential = {
+			civilized = yes
 			NOT = {
 				has_country_flag = tech_schools_visible
 				has_country_modifier = tech_school_timer
@@ -18,6 +19,7 @@ political_decisions = {
 	tech_school_disable_change = {
 		alert = no
 		potential = {
+			civilized = yes
 			NOT = {
 				has_country_modifier = tech_school_timer
 			}

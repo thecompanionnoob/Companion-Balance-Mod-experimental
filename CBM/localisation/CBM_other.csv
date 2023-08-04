@@ -112,19 +112,19 @@ acquire_state_tiny_desc;Aquire a tiny enemy §Ystate§W;;;;;;;;;x
 acquire_state_tiny;Acquire tiny state;;;;;;;;;x
 acquire_state_tiny_short;Acquire tiny state $STATE$;;;;;;;;;x
 acquire_state_tiny_setup;Acquire tiny state $STATE$ from $RECIPIENT$;;;;;;;;;x
-acquire_state_small_desc;Aquire a small enemy §Ystate§W;;;;;;;;;x
+acquire_state_small_desc;Acquire a small enemy §Ystate§W;;;;;;;;;x
 acquire_state_small;Acquire small state;;;;;;;;;x
 acquire_state_small_short;Acquire small state $STATE$;;;;;;;;;x
 acquire_state_small_setup;Acquire small state $STATE$ from $RECIPIENT$;;;;;;;;;x
-acquire_state_medium_desc;Aquire a medium enemy §Ystate§W;;;;;;;;;x
+acquire_state_medium_desc;Acquire a medium enemy §Ystate§W;;;;;;;;;x
 acquire_state_medium;Acquire medium state;;;;;;;;;x
 acquire_state_medium_short;Acquire medium state $STATE$;;;;;;;;;x
 acquire_state_medium_setup;Acquire medium state $STATE$ from $RECIPIENT$;;;;;;;;;x
-acquire_state_large_desc;Aquire a large enemy §Ystate§W;;;;;;;;;x
+acquire_state_large_desc;Acquire a large enemy §Ystate§W;;;;;;;;;x
 acquire_state_large;Acquire large state;;;;;;;;;x
 acquire_state_large_short;Acquire large state $STATE$;;;;;;;;;x
 acquire_state_large_setup;Acquire large state $STATE$ from $RECIPIENT$;;;;;;;;;x
-acquire_state_huge_desc;Aquire a huge enemy §Ystate§W;;;;;;;;;x
+acquire_state_huge_desc;Acquire a huge enemy §Ystate§W;;;;;;;;;x
 acquire_state_huge;Acquire huge state;;;;;;;;;x
 acquire_state_huge_short;Acquire huge state $STATE$;;;;;;;;;x
 acquire_state_huge_setup;Acquire huge state $STATE$ from $RECIPIENT$;;;;;;;;;x
@@ -132,3 +132,20 @@ china_unciv_modifier;Uncivilized China;;;;;;;;;x;;;;
 china_civ_modifier;Civilized China;;;;;;;;;x;;;;
 china_unciv_modifier_desc;Uncivilized China;;;;;;;;;x;;;;
 china_civ_modifier_desc;Civilized China;;;;;;;;;x;;;;
+corrupt_administrative_state;Corrupt Administration;;;;;;;;;x;;;;
+incompetent_administrative_state;Incompetent Administration;;;;;;;;;x;;;;
+effective_administrative_state;Effective Administration;;;;;;;;;x;;;;
+administrative_reform;Administrative Professionalism;;;;;;;;;x;;;;
+corrupt_administrative_state_desc;§GThis reform can be advanced via decision!§!\nThe bureaucracy works in bad faith for their own personal gain. This may be paired with systematic incompetence, but it certaintly hampers our state's ability to govern effectively regardless.;;;;;;;;;x;;;;
+incompetent_administrative_state_desc;§GThis reform can be advanced via decision!§!\nThe bureaucracy genuinely works as well as it can for the good of the state and the nation as a whole, however due to either a lack of funding, bad systemic policies, or simply an incompetent bureaucratic base, it simply is not able to perform the tasks required of it professionally, promptly, and properly.;;;;;;;;;x;;;;
+effective_administrative_state_desc;§GThis reform can be advanced via decision!§!\nThe bureaucracy quickly, professionally, and efficiently executes what is demanded of it by our government. This will certaintly save a lot of headaches, both of our average people, capitalists, government workers and leadership!;;;;;;;;;x;;;;
+place_in_the_sun_small;Place In The Sun (Small);;;;;;;;;x;;;;
+place_in_the_sun_small_desc;Acquire a small (<300k pop) enemy §Ycolony§W;;;;;;;;;x;;;;
+place_in_the_sun_small_short;Acquire small colony $STATE$;;;;;;;;;x;;;;
+place_in_the_sun_small_setup;Acquire small colony $STATE$ from $RECIPIENT$;;;;;;;;;x;;;;
+place_in_the_sun_small;Place In The Sun (Large);;;;;;;;;x;;;;
+place_in_the_sun_small_desc;Acquire a large (300k+ pop) enemy §Ycolony§W;;;;;;;;;x;;;;
+place_in_the_sun_small_short;Acquire large colony $STATE$;;;;;;;;;x;;;;
+place_in_the_sun_small_setup;Acquire large colony $STATE$ from $RECIPIENT$;;;;;;;;;x;;;;
+MEX_north_america_win;North American Hegemony;;;;;;;;;x;;;;
+MEX_north_america_win;Achieved North American Hegemony;;;;;;;;;x;;;;

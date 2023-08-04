@@ -4,7 +4,7 @@ tank = { #tanks are super high risk/high reward, massive attack stats with very 
 	type = land
 	sprite = Tank
 	active = no
-	unit_type = special
+	unit_type = infantry
 	floating_flag = yes
 	
 	#Core Abilities
@@ -33,8 +33,8 @@ tank = { #tanks are super high risk/high reward, massive attack stats with very 
 	
 
 	#Land Abilties 
-	attack = 16
-	defence = 6
+	attack = 13
+	defence = 2
 	discipline = 1
 	support = 0.0
 	maneuver = 2

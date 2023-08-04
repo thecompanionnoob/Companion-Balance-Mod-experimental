@@ -492,7 +492,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = sunni
-		size = 550
+		size = 4400
 	}
 
 	farmers = {
@@ -626,7 +626,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = sunni
-		size = 550
+		size = 4400
 	}
 
 	farmers = {

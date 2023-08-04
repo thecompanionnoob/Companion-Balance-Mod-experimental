@@ -661,7 +661,7 @@ guiTypes = {
 			}
 			
 			windowType = {
-				name = "voting_system"
+				name = "administrative_reform"
 				backGround =""
 				position = { x = 686 y = 289 }
 				size = { x=310 y=100 }
@@ -672,8 +672,8 @@ guiTypes = {
 				fullScreen = no
 				
 				iconType = {
-				 name = "politics_votingsys"
-				 spriteType = "GFX_politics_votingsys"
+				 name = "politics_civadminreform"
+				 spriteType = "GFX_politics_admin_reform"
 				 position = { x= 6 y = 9 }
 				 Orientation = "UPPER_LEFT"
 			 }

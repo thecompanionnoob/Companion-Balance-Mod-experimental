@@ -1403,7 +1403,7 @@
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 14000
+		size = 10000
 	}
 
 	farmers = {

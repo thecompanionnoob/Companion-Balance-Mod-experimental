@@ -14,7 +14,7 @@ country = {
 	GREAT_NATIONS_COUNT = 8,
 	GREATNESS_DAYS = 365, 	   -- how many days until country risks losing status as great nation
 	BADBOY_LIMIT = 25,
-	MAX_BUREAUCRACY_PERCENTAGE = 0.01, -- More than max percent bureaucrats of poplation will give no additional benefits
+	MAX_BUREAUCRACY_PERCENTAGE = 0.005, -- More than max percent bureaucrats of poplation will give no additional benefits
 	BUREAUCRACY_PERCENTAGE_INCREMENT = 0.001, -- For each social administrative reform level, this is added to MAX_BUREAUCRACY_PERCENTAGE
 	MIN_CRIMEFIGHT_PERCENT = 0.2,
 	MAX_CRIMEFIGHT_PERCENT = 0.99,
@@ -33,7 +33,7 @@ country = {
 	DIPLOMAT_TRAVEL_TIME = 0,
 	PROVINCE_OVERSEAS_PENALTY = 0.005, -- Each province req. this many goods flagged as overseas penalty 
 	NONCORE_TAX_PENALTY = -0.05, -- -5% for each non-core in state
-	BASE_TARIFF_EFFICIENCY = 0.03, -- baseline tariff efficiency
+	BASE_TARIFF_EFFICIENCY = 0, -- baseline tariff efficiency
 	COLONY_FORMED_PRESTIGE = 1, -- prestige from founding a colony.
 	CREATED_CB_VALID_TIME = 12,  -- how many months 
 	LOYALTY_BOOST_ON_PARTY_WIN = 0.1,
@@ -658,7 +658,7 @@ pops = {
 
 	PDEF_BASE_CON = 20.0,			-- so half'ed effect.
 	
-	NATIONAL_FOCUS_DIVIDER = 400000.0,
+	NATIONAL_FOCUS_DIVIDER = 10000.0,
 	
 	POP_SAVINGS = 0.018,
 	

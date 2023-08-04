@@ -1,88 +1,65 @@
 political_decisions = {
-	request_unoccupation = {
+	reform_admin_1_money = {
 		potential = {
-			ai = no
+			civilized = yes
+			administrative_reform = corrupt_administrative_state
+			NOT = { year = 1865 }
 		}
 		allow = {
-			war = yes
-			NOT = { has_country_modifier = requesting_cease_fire }
-			war_countries = { ai = no }
+			ideological_thought = 1
+			money = 750000
 		}
 		effect = {
-			add_country_modifier = { name = requesting_cease_fire duration = 20 }
-			any_owned = {
-				limit = {
-					NOT = {
-						countrolled_by = this
-					}
-					controller = { ai = no }
-				}
-				controller = { 
-					country_event = { id = 69007 days = 0 }
-				}
-			}
+			political_reform = incompetent_administrative_state
+			treasury = -750000
+			prestige = 10
 		}
 	}
-	setup = {
-		potential = { 
-			tag = JAN 
-			NOT = {
-				has_country_flag = setup
-			}
-		}
-		allow = {}
-		effect = {
-			any_country = {
-				limit = { is_greater_power = yes }
-				treasury = 200000
-			}
-			any_country = {
-				limit = { is_greater_power = no }
-				treasury = 100000
-			}
-			set_country_flag = setup #failsafe so that it doesnt do it twice for sure
-			JAN = {
-				all_core = {
-					remove_core = JAN
-					add_core = SCA
-				}
-				annex_to = SCA #remove the country from the map for simplicity since setup is all its used for
-			}
-		}
-		ai_will_do = { factor = 1 }
-	}
-	banker_pay = {
+	reform_admin_1_time = {
 		potential = {
-			tag = BNK
+			civilized = yes
+			administrative_reform = corrupt_administrative_state
+			year = 1865
 		}
 		allow = {
-			NOT = {
-				any_owned_province = {
-					any_pop = {
-						cash_reserves = 0.1
-					}
-				}
-			}
-			NOT = { has_country_flag = banker_timer }
+			ideological_thought = 1
 		}
 		effect = {
-			set_country_flag = banker_timer
-			add_country_modifier = { name = banker_timer duration = 5 }
-			any_pop = {
-				money = 2000000
-			}
+			political_reform = incompetent_administrative_state
+			prestige = 5
 		}
 	}
-	banker_pay_timer = {
+	reform_admin_2_money = {
 		potential = {
-			tag = BNK
+			civilized = yes
+			administrative_reform = incompetent_administrative_state
+			NOT = { year = 1895 }
 		}
 		allow = {
-			has_country_flag = banker_timer
-			NOT = { has_country_modifier = banker_timer }
+			year = 1865
+			state_n_government = 1
+			money = 750000
 		}
 		effect = {
-			clr_country_flag = banker_timer
+			political_reform = effective_administrative_state
+			treasury = -750000
+			prestige = 10
 		}
 	}
+	reform_admin_2_time = {
+		potential = {
+			civilized = yes
+			administrative_reform = incompetent_administrative_state
+			year = 1895
+		}
+		allow = {
+			state_n_government = 1
+		}
+		effect = {
+			political_reform = effective_administrative_state
+			prestige = 5
+		}
+	}
+			
+			
 }

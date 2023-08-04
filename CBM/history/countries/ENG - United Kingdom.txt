@@ -18,7 +18,7 @@ vote_franschise = wealth_voting
 public_meetings = yes_meeting
 press_rights = censored_press
 trade_unions = non_socialist
-voting_system = first_past_the_post
+administrative_reform = incompetent_administrative_state
 political_parties = non_secret_ballots
 
 # Social Reforms
@@ -132,7 +132,7 @@ vote_franschise = wealth_voting
 public_meetings = yes_meeting
 press_rights = free_press
 trade_unions = non_socialist
-voting_system = first_past_the_post
+administrative_reform = corrupt_administrative_state 
 political_parties = non_secret_ballots	
 ruling_party = ENG_liberal_2
 	

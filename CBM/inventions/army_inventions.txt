@@ -18,6 +18,9 @@ post_napoleonic_army_doctrine = {
 		engineer = {
 			defence = 1
 		}
+		tank = {
+			defence = 1
+		}
 		cuirassier = {
 			defence = 0.5
 		}
@@ -25,6 +28,9 @@ post_napoleonic_army_doctrine = {
 			defence = 0.5
 		}
 		hussar = {
+			defence = 0.5
+		}
+		plane = {
 			defence = 0.5
 		}
 		cavalry = {
@@ -55,6 +61,9 @@ railroad_transport_groups = {
 		engineer = {
 			defence = 1
 		}
+		tank = {
+			defence = 1
+		}
 		cuirassier = {
 			defence = 0.5
 		}
@@ -62,6 +71,9 @@ railroad_transport_groups = {
 			defence = 0.5
 		}
 		hussar = {
+			defence = 0.5
+		}
+		plane = {
 			defence = 0.5
 		}
 		cavalry = {
@@ -92,6 +104,9 @@ staff_command_support = {
 		engineer = {
 			defence = 2
 		}
+		tank = {
+			defence = 2
+		}
 		cuirassier = {
 			defence = 1
 		}
@@ -101,11 +116,14 @@ staff_command_support = {
 		hussar = {
 			defence = 1
 		}
-		cavalry = {
+		plane = {
 			defence = 1
 		}
+		cavalry = {
+			defence = 0.5
+		}
 		irregular = {
-			defence = 1
+			defence = 0.5
 		}
 	}
 }
@@ -130,20 +148,26 @@ deep_defense = {
 		engineer = {
 			defence = 3
 		}
+		tank = {
+			defence = 3
+		}
 		cuirassier = {
-			defence = 1.5
+			defence = 2
 		}
 		dragoon = {
-			defence = 1.5
+			defence = 2
 		}
 		hussar = {
-			defence = 1.5
+			defence = 2
+		}
+		plane = {
+			defence = 2
 		}
 		cavalry = {
-			defence = 1.5
+			defence = 1
 		}
 		irregular = {
-			defence = 1.5
+			defence = 1
 		}
 	}
 }
@@ -176,6 +200,9 @@ low_echelon_fire_support = {
 		guard = {
 			defence = 2
 		}
+		tank = {
+			defence = 2
+		}
 		engineer = {
 			defence = 2
 		}
@@ -188,11 +215,14 @@ low_echelon_fire_support = {
 		hussar = {
 			defence = 1
 		}
-		cavalry = {
+		plane = {
 			defence = 1
 		}
+		cavalry = {
+			defence = 0.5
+		}
 		irregular = {
-			defence = 1
+			defence = 0.5
 		}
 	}
 }
@@ -261,13 +291,13 @@ modern_defense = {
 			defence = 1
 		}
 		cuirassier = {
-			defence = 0.5
+			defence = 1
 		}
 		dragoon = {
-			defence = 0.5
+			defence = 1
 		}
 		hussar = {
-			defence = 0.5
+			defence = 1
 		}
 		cavalry = {
 			defence = 0.5
@@ -342,6 +372,10 @@ flintlock_rifle_armament = {
 			attack = 1
 			supply_consumption = 0.10
 		}
+		tank = {
+			attack = 1
+			supply_consumption = 0.10
+		}
 		dragoon = {
 			attack = 0.5
 			supply_consumption = 0.10
@@ -359,6 +393,10 @@ flintlock_rifle_armament = {
 			supply_consumption = 0.10
 		}
 		irregular = {
+			attack = 0.5
+			supply_consumption = 0.10
+		}
+		plane = {
 			attack = 0.5
 			supply_consumption = 0.10
 		}
@@ -418,6 +456,10 @@ muzzle_loaded_rifle_armament = {
 			attack = 1
 			supply_consumption = 0.10
 		}
+		tank = {
+			attack = 1
+			supply_consumption = 0.10
+		}
 		dragoon = {
 			attack = 0.5
 			supply_consumption = 0.10
@@ -435,6 +477,10 @@ muzzle_loaded_rifle_armament = {
 			supply_consumption = 0.10
 		}
 		irregular = {
+			attack = 0.5
+			supply_consumption = 0.10
+		}
+		plane = {
 			attack = 0.5
 			supply_consumption = 0.10
 		}
@@ -467,6 +513,10 @@ breech_loaded_rifle_armament = {
 			attack = 1
 			supply_consumption = 0.20
 		}
+		tank = {
+			attack = 1
+			supply_consumption = 0.20
+		}
 		dragoon = {
 			attack = 0.5
 			supply_consumption = 0.20
@@ -485,6 +535,10 @@ breech_loaded_rifle_armament = {
 		}
 		irregular = {
 			attack = 0.5
+			supply_consumption = 0.20
+		}
+		plane = {
+			attack = 1
 			supply_consumption = 0.20
 		}
 	}
@@ -515,6 +569,10 @@ machine_gun_armament = {
 			attack = 1
 			supply_consumption = 0.20
 		}
+		tank = {
+			attack = 1
+			supply_consumption = 0.20
+		}
 		dragoon = {
 			attack = 0.5
 			supply_consumption = 0.20
@@ -532,6 +590,10 @@ machine_gun_armament = {
 			supply_consumption = 0.20
 		}
 		irregular = {
+			attack = 0.5
+			supply_consumption = 0.20
+		}
+		plane = {
 			attack = 0.5
 			supply_consumption = 0.20
 		}
@@ -579,6 +641,10 @@ bolt_action_rifle_armament = {
 			attack = 2
 			supply_consumption = 0.20
 		}
+		tank = {
+			attack = 2
+			supply_consumption = 0.20
+		}
 		dragoon = {
 			attack = 1
 			supply_consumption = 0.20
@@ -588,6 +654,10 @@ bolt_action_rifle_armament = {
 			supply_consumption = 0.20
 		}
 		cuirassier = {
+			attack = 1
+			supply_consumption = 0.20
+		}
+		plane = {
 			attack = 1
 			supply_consumption = 0.20
 		}
@@ -632,7 +702,7 @@ modern_divisional_tactics = {
 			supply_consumption = 0.20
 		}
 		plane = {
-			attack = 3
+			attack = 2
 			supply_consumption = 0.20
 		}
 		dragoon = {
@@ -683,30 +753,30 @@ rear_area_dumps = {
 #indirect_artillery_fire
 
 #heavy_armament
-#armoured_cars = {	#TODO make tanks real
-#	limit = { heavy_armament_dunno = 1 }
-#	chance = {
-#		base = 2
-#		modifier = {
-#			factor = 2
-#			invention = tractors
-#		}
-#		modifier = {
-#			factor = 2
-#			invention = tankette
-#		}
-#		modifier = {
-#			factor = -6
-#			not = { invention = tank_exploits }
-#		}
-#	}
-#	effect = {
-#		tank = {
-#			maximum_speed = 1
-#			supply_consumption = 0.5
-#		}
-#	}
-#}
+armoured_cars = {
+	limit = { heavy_armament_dunno = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = tractors
+		}
+		modifier = {
+			factor = 2
+			invention = tankette
+		}
+		modifier = {
+			factor = -6
+			not = { invention = tank_exploits }
+		}
+	}
+	effect = {
+		tank = {
+			maximum_speed = 1
+			supply_consumption = 0.5
+		}
+	}
+}
 #military_staff_system
 cuirassier_activation = {
 	limit = { military_staff_system = 1 }

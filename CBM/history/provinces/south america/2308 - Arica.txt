@@ -1,6 +1,5 @@
-owner = BOL
-controller = BOL
-add_core = PEU
+owner = CHL
+controller = CHL
 add_core = CHL
 trade_goods = sulphur
 life_rating = 35

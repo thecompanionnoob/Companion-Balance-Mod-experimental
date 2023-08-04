@@ -41,7 +41,7 @@ promotion_focus =
 
 	promote_bureaucrats =
 	{
-		bureaucrats = 0.20 #20% more likeley to become this type
+		bureaucrats = 0.35 #35% more likeley to become this type
 		icon = 7
 		outliner_show_as_percent = yes
 	}

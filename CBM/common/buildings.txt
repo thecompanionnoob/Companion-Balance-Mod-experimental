@@ -1,4 +1,4 @@
-# Do not change tags in here without changing every other reference to them.
+Fn# Do not change tags in here without changing every other reference to them.
 # If adding new buildings, make sure they are uniquely named.
 #
 # Order in here matters for selection priority if icons are overlapping,
@@ -653,7 +653,7 @@ fort = {
 
 naval_base = {    
 	type = naval_base
-	cost = 15000
+	cost = 7500
 	goods_cost =
 	{
 		timber = 50
@@ -671,7 +671,7 @@ naval_base = {
 	max_level = 6
 	colonial_points = { 50 80 110 140 170 200 } #points at levels 1-6
 	province = yes
-	one_per_state = yes
+	one_per_state = no
 	colonial_range = 75
 	local_ship_build = -0.10
 }

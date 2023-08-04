@@ -252,7 +252,7 @@ electric_gear_factory = {
 		value = 0.05
 	}
 	bonus = {
-		trigger = { trade_goods_in_state = iron }
+		trigger = { has_building = steel_factory }
 		value = 0.05
 	}
 }
@@ -526,7 +526,7 @@ ammunition_factory = {
 		value = 0.15
 	}
 	bonus = {
-		trigger = { trade_goods_in_state = iron }
+		trigger = { has_building = steel_factory }
 		value = 0.1
 	}
 }
@@ -555,7 +555,7 @@ canned_food_factory = {
 		value = 0.1
 	}
 	bonus = {
-		trigger = { trade_goods_in_state = iron }
+		trigger = { has_building = steel_factory }
 		value = 0.05
 	}
 }
@@ -636,8 +636,12 @@ fabric_factory = {
 	output_goods = fabric 
 	value = 45			#81
 	bonus = {
+		trigger = { trade_goods_in_state = wool }
+		value = 0.08
+	}
+	bonus = {
 		trigger = { trade_goods_in_state = cotton }
-		value = 0.125
+		value = 0.08
 	}
 	bonus = {
 		trigger = {
@@ -646,7 +650,7 @@ fabric_factory = {
 				trade_goods_in_state = dye
 				}
 			}
-		value = 0.125
+		value = 0.08
 	}
 }
 

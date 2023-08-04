@@ -24,14 +24,16 @@ political_decisions = {
 		potential = {
 			tag = USA
 			NOT = {
-				has_country_flag = hasmanifestdestiny
+				has_global_flag = manifest_destiny
 			}
 		}
 		allow = {
 			ideological_thought = 1
 		}
 		effect = {
-			set_country_flag = hasmanifestdestiny
+			set_global_flag = manifest_destiny
+			prestige = 10
+			badboy = 5
 			diplomatic_influence = {
 				who = MEX
 				value = -500
@@ -47,15 +49,6 @@ political_decisions = {
 				add_core = USA
 			}
 			MEX_103 = {
-				add_core = USA
-			}
-			USA_129 = {
-				add_core = USA
-			}
-			USA_106 = {
-				add_core = USA
-			}
-			USA_81 = {
 				add_core = USA
 			}
 			MEX_94 = {

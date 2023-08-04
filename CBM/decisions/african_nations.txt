@@ -294,3 +294,450 @@ political_decisions = {
 			factor = 1
 		}
 	}
+	elevate_sahara = {
+		potential = {
+			tag = MOR
+			NOT = { has_country_flag = maghreb_sahara }
+		}
+		allow = {
+			1696 = {
+				owned_by = MOR
+			}
+			1773 = {
+				owned_by = MOR
+			}
+			1774 = {
+				owned_by = MOR
+			}
+			FRA_1780 = {
+				owned_by = MOR
+			}
+			ALD_1714 = {
+				owned_by = MOR
+			}
+			FRA_1803 = {
+				owned_by = MOR
+			}
+			ALD_1718 = {
+				owned_by = MOR
+			}
+			FRA_1813 = {
+				owned_by = MOR
+			}
+			TRI_1743 = {
+				owned_by = MOR
+			}
+		}
+		effect = {
+			1696 = {
+				add_core = JAN
+			}
+			1773 = {
+				add_core = JAN
+			}
+			1774 = {
+				add_core = JAN
+			}
+			FRA_1780 = {
+				add_core = JAN
+			}
+			ALD_1714 = {
+				add_core = JAN
+			}
+			FRA_1803 = {
+				add_core = JAN
+			}
+			ALD_1718 = {
+				add_core = JAN
+			}
+			FRA_1813 = {
+				add_core = JAN
+			}
+			TRI_1743 = {
+				add_core = JAN
+			}
+			release = JAN
+			inherit = JAN
+			JAN = {
+				all_core = {
+					remove_core = JAN
+					add_core = MOR
+				}
+			}
+			prestige = 5
+			set_country_flag = maghreb_sahara
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	elevate_senegambia_mauritania_coast = {
+		potential = {
+			tag = MOR
+			NOT = { has_country_flag = senegambia_mauritania_coast }
+		}
+		allow = {
+			FRA_1775 = {
+				owned_by = MOR
+			}
+			FRA_1783 = {
+				owned_by = MOR
+			}
+			FRA_1788 = {
+				owned_by = MOR
+			}
+		}
+		effect = {
+			FRA_1775 = {
+				add_core = JAN
+			}
+			FRA_1783 = {
+				add_core = JAN
+			}
+			FRA_1788 = {
+				add_core = JAN
+			}
+			release = JAN
+			inherit = JAN
+			JAN = {
+				all_core = {
+					remove_core = JAN
+					add_core = MOR
+				}
+			}
+			prestige = 5
+			set_country_flag = senegambia_mauritania_coast 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	elevate_inland_senegambia_guinea_mali = {
+		potential = {
+			tag = MOR
+			NOT = { has_country_flag = inland_senegambia_guinea_mali }
+		}
+		allow = {
+			FRA_1786 = {
+				owned_by = MOR
+			}
+			FRA_1880 = {
+				owned_by = MOR
+			}
+			FRA_1801 = {
+				owned_by = MOR
+			}
+			FRA_1879 = {
+				owned_by = MOR
+			}
+			FRA_1798 = {
+				owned_by = MOR
+			}
+		}
+		effect = {
+			FRA_1786 = {
+				add_core = JAN
+			}
+			FRA_1880 = {
+				add_core = JAN
+			}
+			FRA_1801 = {
+				add_core = JAN
+			}
+			FRA_1879 = {
+				add_core = JAN
+			}
+			FRA_1798 = {
+				add_core = JAN
+			}
+			release = JAN
+			inherit = JAN
+			JAN = {
+				all_core = {
+					remove_core = JAN
+					add_core = MOR
+				}
+			}
+			prestige = 5
+			set_country_flag = inland_senegambia_guinea_mali
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	elevate_liberia_guinea_coast = {
+		potential = {
+			tag = MOR
+			NOT = { has_country_flag = liberia_guinea_coast }
+		}
+		allow = {
+			FRA_1884 = {
+				owned_by = MOR
+			}
+			ENG_1887 = {
+				owned_by = MOR
+			}
+		}
+		effect = {
+			FRA_1884 = {
+				add_core = JAN
+			}
+			ENG_1887 = {
+				add_core = JAN
+			}
+			release = JAN
+			inherit = JAN
+			JAN = {
+				all_core = {
+					remove_core = JAN
+					add_core = MOR
+				}
+			}
+			prestige = 5
+			set_country_flag = liberia_guinea_coast 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	elevate_inland_liberia = {
+		potential = {
+			tag = MOR
+			NOT = { has_country_flag = liberia_inland }
+		}
+		allow = {
+			FRA_1889 = {
+				owned_by = MOR
+			}
+			FRA_1893 = {
+				owned_by = MOR
+			}
+		}
+		effect = {
+			FRA_1889 = {
+				add_core = JAN
+			}
+			FRA_1893 = {
+				add_core = JAN
+			}
+			release = JAN
+			inherit = JAN
+			JAN = {
+				all_core = {
+					remove_core = JAN
+					add_core = MOR
+				}
+			}
+			prestige = 5
+			set_country_flag = liberia_inland 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	elevate_gold_coast = {
+		potential = {
+			tag = MOR
+			NOT = { has_country_flag = gold_coast }
+		}
+		allow = {
+			FRA_1892 = {
+				owned_by = MOR
+			}
+			FRA_1908 = {
+				owned_by = MOR
+			}
+		}
+		effect = {
+			FRA_1892 = {
+				add_core = JAN
+			}
+			FRA_1908 = {
+				add_core = JAN
+			}
+			release = JAN
+			inherit = JAN
+			JAN = {
+				all_core = {
+					remove_core = JAN
+					add_core = MOR
+				}
+			}
+			prestige = 5
+			set_country_flag = gold_coast
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	elevate_inland_gold_coast = {
+		potential = {
+			tag = MOR
+			NOT = { has_country_flag = inland_gold_coast }
+		}
+		allow = {
+			FRA_1914 = {
+				owned_by = MOR
+			}
+			FRA_1907 = {
+				owned_by = MOR
+			}
+			FRA_1901 = {
+				owned_by = MOR
+			}
+			FRA_1919 = {
+				owned_by = MOR
+			}
+		}
+		effect = {
+			FRA_1914 = {
+				add_core = JAN
+			}
+			FRA_1907 = {
+				add_core = JAN
+			}
+			FRA_1901 = {
+				add_core = JAN
+			}
+			FRA_1919 = {
+				add_core = JAN
+			}
+			release = JAN
+			inherit = JAN
+			JAN = {
+				all_core = {
+					remove_core = JAN
+					add_core = MOR
+				}
+			}
+			prestige = 5
+			set_country_flag = inland_gold_coast 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	elevate_west_nigeria = {
+		potential = {
+			tag = MOR
+			NOT = { has_country_flag = west_nigeria }
+		}
+		allow = {
+			FRA_1808 = {
+				owned_by = MOR
+			}
+			FRA_1927 = {
+				owned_by = MOR
+			}
+			FRA_1923 = {
+				owned_by = MOR
+			}
+			FRA_1939 = {
+				owned_by = MOR
+			}
+		}
+		effect = {
+			FRA_1808 = {
+				add_core = JAN
+			}
+			FRA_1927 = {
+				add_core = JAN
+			}
+			FRA_1923 = {
+				add_core = JAN
+			}
+			FRA_1939 = {
+				add_core = JAN
+			}
+			release = JAN
+			inherit = JAN
+			JAN = {
+				all_core = {
+					remove_core = JAN
+					add_core = MOR
+				}
+			}
+			prestige = 5
+			set_country_flag = west_nigeria 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	elevate_east_nigeria = {
+		potential = {
+			tag = MOR
+			NOT = { has_country_flag = east_nigeria }
+		}
+		allow = {
+			FRA_1816 = {
+				owned_by = MOR
+			}
+			FRA_1937 = {
+				owned_by = MOR
+			}
+			FRA_1930 = {
+				owned_by = MOR
+			}
+		}
+		effect = {
+			FRA_1816 = {
+				add_core = JAN
+			}
+			FRA_1937 = {
+				add_core = JAN
+			}
+			FRA_1930 = {
+				add_core = JAN
+			}
+			release = JAN
+			inherit = JAN
+			JAN = {
+				all_core = {
+					remove_core = JAN
+					add_core = MOR
+				}
+			}
+			prestige = 5
+			set_country_flag = east_nigeria 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	elevate_nigerian_coast = {
+		potential = {
+			tag = MOR
+			NOT = { has_country_flag = nigerian_coast }
+		}
+		allow = {
+			FRA_1923_two = {
+				owned_by = MOR
+			}
+			FRA_1931 = {
+				owned_by = MOR
+			}
+		}
+		effect = {
+			FRA_1923_two = {
+				add_core = JAN
+			}
+			FRA_1931 = {
+				add_core = JAN
+			}
+			release = JAN
+			inherit = JAN
+			JAN = {
+				all_core = {
+					remove_core = JAN
+					add_core = MOR
+				}
+			}
+			prestige = 5
+			set_country_flag = nigerian_coast 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

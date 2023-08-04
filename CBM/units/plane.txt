@@ -1,4 +1,4 @@
-plane = { #weak atk/def, strong other stats
+plane = { #good expensive cav basically
 	icon = 19
 	
 	type = land
@@ -36,9 +36,9 @@ plane = { #weak atk/def, strong other stats
 
 	#Land Abilties
 	reconnaissance = 4
-	attack = 6
-	defence = 6
-	discipline = 0.1
-	support = 2
-	maneuver = 2
+	attack = 8
+	defence = 8
+	discipline = 1.0
+	support = 0.0
+	maneuver = 4
 }

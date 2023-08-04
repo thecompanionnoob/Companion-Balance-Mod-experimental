@@ -16,6 +16,9 @@ political_decisions = {
             badboy = -2.5
             set_country_flag = iberian_union
         }
+	ai_will_do = {
+			factor = 1
+	}
     }
     spanish_empire_way = {
         potential = {
@@ -44,7 +47,7 @@ political_decisions = {
 			NOT = {
 				has_country_flag = portuguese_accepted
 			}
-            has_country_flag = iberian_union
+           		has_country_flag = iberian_union
 		}
 		allow = {
 			ideological_thought = 1
@@ -63,25 +66,29 @@ political_decisions = {
 
         ### SPANISH EMPIRE EXCLUSIVE ###
 
-    SPA_accept_mexican = {
-        potential = {
-            tag = SPA
-            NOT = {
-                has_country_flag = mexican_accepted
-            }
-        }
-        allow = {
-            ideological_thought = 1
-            owns = 2172
-            owns = 2166
-        }
-        effect = {
-            add_accepted_culture = mexican
-            badboy = 5
-            prestige = 15
-            set_country_flag = mexican_accepted
-        }
-    }
+	SPA_accept_mexican = {
+		potential = {
+			tag = SPA
+			NOT = {
+				has_country_flag = mexican_accepted
+			}
+			has_country_flag = spanish_empire
+		}
+		allow = {
+			ideological_thought = 1
+			owns = 2172
+			owns = 2166
+		}
+		effect = {
+			add_accepted_culture = mexican
+			badboy = 5
+			prestige = 15
+			set_country_flag = mexican_accepted
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
         ### SHARED ###
 
@@ -102,6 +109,9 @@ political_decisions = {
 			prestige = 15
 			set_country_flag = berber_accepted
 		}
+		ai_will_do = {
+			factor = 1
+		}
 	}
 	SPA_accept_filipino = {
 		potential = {
@@ -121,6 +131,9 @@ political_decisions = {
 			prestige = 15
 			set_country_flag = filipino_accepted
 		}
+		ai_will_do = {
+			factor = 1
+		}
 	}
 	SPA_accept_caribeno = {
 		potential = {
@@ -139,6 +152,9 @@ political_decisions = {
 			badboy = 5
 			prestige = 15
 			set_country_flag = caribeno_accepted
+		}
+		ai_will_do = {
+			factor = 1
 		}
 	}
 }

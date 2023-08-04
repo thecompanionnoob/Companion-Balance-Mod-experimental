@@ -18,7 +18,7 @@ vote_franschise = wealth_voting
 public_meetings = yes_meeting
 press_rights = censored_press
 trade_unions = no_trade_unions
-voting_system = first_past_the_post
+administrative_reform = incompetent_administrative_state
 political_parties = non_secret_ballots
 
 # Social Reforms
