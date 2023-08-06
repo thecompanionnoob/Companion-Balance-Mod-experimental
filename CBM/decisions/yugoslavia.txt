@@ -5,7 +5,7 @@ political_decisions = {
 				exists = YUG
 			}
 			NOT = {
-				has_country_flag = formed_yugoslavia
+				has_global_flag = formed_yugoslavia
 			}
 			OR = {
 				tag = SER
@@ -36,12 +36,12 @@ political_decisions = {
 				add_core = YUG
 			}
 			change_tag = YUG
-			set_country_flag = formed_yugoslavia
+			set_global_flag = formed_yugoslavia
 			add_accepted_culture = serb
 			add_accepted_culture = croat
 			add_accepted_culture = albanian
 			prestige = 30
-			badboy = 10
+			badboy = 5
 			any_pop = {
 				limit = {
 					OR = {

@@ -10,6 +10,7 @@ political_decisions = {
 			state_n_government = 1
 		}
 		effect = {
+			set_country_flag = ruthenian_accepted
 			add_accepted_culture = ruthenian
 			prestige = 35
 		}
