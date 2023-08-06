@@ -85,13 +85,15 @@ COMBAT CHANGES:
 *Increased artillery support by 10%.
 *Increased guard defense by an extra 1, increased shock troops attack by an extra 1.
 *Increased base naval cap from ports to 20 from 10.
-*Made it so ports can be constructed in every province. This is an experimental change that I may end up reverting.
+*Reduced port cost.
+*Made it faster to build ports.
 *Reenabled Tanks: They now are basically super high attack expensive infantry that is weak on the defence, like shock infantry but more extreme.
 *Reenabled Planes: They are now really good cavalry (akin to how you have 1 hussar per stack) but expensive.
 *Minor rebalancing of atk/def gain from mil inventions.
 
 MINOR / MISC CHANGES:
-*Changed canal decisions so they are more visible and made it so if you are a player and own the province for the canal you do not need to be a great power to build it. The decisions also rename Suez and Balboa to Suez Canal and Panama Canal, respectively.
+*Changed canal decisions so they are more visible and made it so if you are a player and own the province for the canal you do not need to be a great power 
+to build it. The decisions also rename Suez and Balboa to Suez Canal and Panama Canal, respectively.
 
 
 REGION-SPECIFIC CHANGES:

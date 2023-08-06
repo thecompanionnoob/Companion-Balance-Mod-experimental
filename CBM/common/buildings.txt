@@ -662,7 +662,7 @@ naval_base = {
 		steel = 100
 		machine_parts = 1
 	}
-	time = 1080
+	time = 365
 	naval_capacity = 1
 	capital = yes
 	onmap = yes
@@ -671,7 +671,7 @@ naval_base = {
 	max_level = 6
 	colonial_points = { 50 80 110 140 170 200 } #points at levels 1-6
 	province = yes
-	one_per_state = no
+	one_per_state = yes
 	colonial_range = 75
 	local_ship_build = -0.10
 }
