@@ -13,20 +13,7 @@ political_decisions = {
 			}
 		}
 		allow = {
-			PEU = {
-				all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-							AND = {
-								ai = yes
-								in_sphere = THIS
-							}
-						}
-					}
-				}
-			}
-			BOL = {
+			PBL = {
 				all_core = {
 					OR = {
 						owned_by = THIS
