@@ -1,0 +1,140 @@
+leader = {
+	name = "Giga Chad"
+	date = 1835.12.31
+	type = land
+	personality = defence_3.1
+	background = attack_3.1
+	prestige = 0
+}
+leader = {
+	name = "Joe Biden"
+	date = 1835.12.31
+	type = land
+	personality = defence_4.1
+	background = attack_1.1
+	prestige = 0
+}
+leader = {
+	name = "Donald Trump"
+	date = 1835.12.31
+	type = land
+	personality = defence_1.1
+	background = attack_4.1
+	prestige = 0
+}
+leader = {
+	name = "Aqua Man"
+	date = 1835.12.31
+	type = sea
+	personality = defence_3.1
+	background = attack_3.1
+	prestige = 0
+}
+army = {
+	name = "1st Army of Allah"
+	location = 1288
+	regiment = {
+		name = "1st Infantry"
+		type = infantry
+		home = 1288
+	}
+	regiment = {
+		name = "2nd Infantry"
+		type = infantry
+		home = 1288
+	}
+	regiment = {
+		name = "3rd Infantry"
+		type = infantry
+		home = 1290
+	}
+	regiment = {
+		name = "4th Infantry"
+		type = infantry
+		home = 1290
+	}
+	regiment = {
+		name = "5th Infantry"
+		type = infantry
+		home = 1221
+	}
+	regiment = {
+		name = "1st Artillery"
+		type = artillery
+		home = 1289
+	}
+	regiment = {
+		name = "2nd Artillery"
+		type = artillery
+		home = 1289
+	}
+	regiment = {
+		name = "3rd Artillery"
+		type = artillery
+		home = 1222
+	}
+	regiment = {
+		name = "4th Artillery"
+		type = artillery
+		home = 1221
+	}
+	regiment = {
+		name = "5th Artillery"
+		type = artillery
+		home = 1221
+	}
+}
+army = {
+	name = "2nd Army of Allah"
+	location = 1227
+	regiment = {
+		name = "6th Infantry"
+		type = infantry
+		home = 1227
+	}
+	regiment = {
+		name = "7th Infantry"
+		type = infantry
+		home = 1227
+	}
+	regiment = {
+		name = "8th Infantry"
+		type = infantry
+		home = 1220
+	}
+	regiment = {
+		name = "9th Infantry"
+		type = infantry
+		home = 1231
+	}
+	regiment = {
+		name = "10th Infantry"
+		type = infantry
+		home = 1219
+	}
+	regiment = {
+		name = "6th Artillery"
+		type = artillery
+		home = 1234
+	}
+	regiment = {
+		name = "7th Artillery"
+		type = artillery
+		home = 1220
+	}
+	regiment = {
+		name = "8th Artillery"
+		type = artillery
+		home = 1233
+	}
+	regiment = {
+		name = "9th Artillery"
+		type = artillery
+		home = 1238
+	}
+	regiment = {
+		name = "10th Artillery"
+		type = artillery
+		home = 1229
+	}
+}

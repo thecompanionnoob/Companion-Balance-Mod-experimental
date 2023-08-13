@@ -1,9 +1,0 @@
-#all is sunni
-
-#baba is you
-muslim = {
-	sunni = {
-		icon = 5
-		color = { 0 0.6 0 }
-	}
-}

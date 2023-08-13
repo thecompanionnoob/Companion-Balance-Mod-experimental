@@ -1,0 +1,18 @@
+political_decisions = {
+	player_alliances = {
+		alert = no
+		potential = {
+			tag = SIK
+			ai = no
+		}
+		allow = {}
+		effect = {
+			any_country = {
+				limit = {
+					ai = no
+				}
+				create_alliance = SIK
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+v1.11:
+
+CHANGES FOR ALL NATIONS:
+
+*Naval ideas now unlock an invention that reduces the amount of time required for ships to build.
+*Maximum warscore from battles is now 25.
+*All disease events are now removed.
+*All natural disaster events are now removed.
+*Potato blight events are now removed.
+*Tariff efficiency is now lower.
+*Militancy gain is nerfed.
+*Fixed Place in the Sun localisation.
+*Fixed Minor Conquest localisation.
+*Under Laissez faire, now factories will only delete if there are 8 factories already in a state.
+*Added a 30% boost to RGO output until 1880.
+*Doubled the life & everyday needs of Bureaucrats, Soldiers, and Clergymen. (so they are more expensive to fund)
+*Reduced base tax efficiency by 5%.
+
+COUNTRY-SPECIFIC CHANGES:
+
+Ottomans:
+*Ottomans now start with 14% literacy rather than 4%.
+
+USA:
+*Made USA's conservative party laissez faire, so they are stuck with laissez faire until socialists.
+*Added a modifier for USA: "The Slavery Debate" which reduces immigration and mob size. 
+	This modifier gets reduced upon winning the civil war and gets removed 20 years after the civil war.
+*Changed both historical and ahistorical ACW to a restore order CB so foreign powers can join.
+
+
+

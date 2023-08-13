@@ -1,0 +1,139 @@
+political_decisions = {
+	form_gran_colombia = {
+		potential = {
+			OR = {
+				tag = ECU
+				tag = CLM
+				tag = VNZ
+			}
+			NOT = {
+				exists = GCO
+			}
+		}	
+		allow = {
+			war = no
+			GCO = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 25
+			any_country = {
+				limit = {
+					vassal_of = THIS
+				}
+				any_owned = {
+					limit = {
+						is_core = GCO
+					}
+					secede_province = THIS
+				}
+			}
+			any_country = {
+				limit = {
+					in_sphere = THIS
+				}
+				
+				any_owned = {
+					limit = {
+						is_core = GCO
+					}
+					secede_province = THIS
+				}
+
+			}
+
+			change_tag = GCO
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    go_north = {
+        potential = {
+            OR = {
+                tag = GCO
+                tag = CLM
+            }
+            NOT = { has_country_flag = go_sea }
+            NOT = { has_country_flag = go_north }
+            NOT = { has_country_flag = go_south }
+        }
+        allow = {
+            tag = GCO
+            state_n_government = 1
+            all_core = {
+                owned_by = THIS
+            }
+        }
+        effect = {
+            add_accepted_culture = mexican
+            badboy = 5
+            prestige = 15
+            set_country_flag = go_north
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    go_sea = {
+        potential = {
+            OR = {
+                tag = GCO
+                tag = CLM
+            }
+            NOT = { has_country_flag = go_sea }
+            NOT = { has_country_flag = go_north }
+            NOT = { has_country_flag = go_south }
+        }
+        allow = {
+            tag = GCO
+            state_n_government = 1
+            all_core = {
+                owned_by = THIS
+            }
+        }
+        effect = {
+            add_accepted_culture = caribeno
+            badboy = 5
+            prestige = 15
+            set_country_flag = go_sea
+        }
+    }
+    go_south = {
+        potential = {
+            OR = {
+                tag = GCO
+                tag = CLM
+            }
+            NOT = { has_country_flag = go_sea }
+            NOT = { has_country_flag = go_north }
+            NOT = { has_country_flag = go_south }
+        }
+        allow = {
+            tag = GCO
+            state_n_government = 1
+            all_core = {
+                owned_by = THIS
+            }
+        }
+        effect = {
+            add_accepted_culture = south_andean
+            badboy = 5
+            prestige = 15
+            set_country_flag = go_south
+        }
+    }
+        
+    
+}

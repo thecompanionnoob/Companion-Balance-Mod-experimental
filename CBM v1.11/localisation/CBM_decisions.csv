@@ -1,0 +1,181 @@
+dummy;;;;;;;;;x
+SPA_accept_portuguese_title;Integrate the Portuguese!;;;;;;;;;x
+SPA_accept_portuguese_desc;The portuguese people are quite similar to ours, sharing a similar language and connected history. With our control over Lisbon solidified, it would not take much to integrate them into Spain.;;;;;;;;;x
+SPA_accept_berber_title;Integrate the Moroccan People!;;;;;;;;;x
+SPA_accept_berber_desc;The Moroccan people have an intertwined history with ours, and although they have a very different culture and language, with our control over Morocco it should not take too much effort to integrate them.;;;;;;;;;x
+SPA_accept_filipino_title;Reintegrate the Philippines!;;;;;;;;;x
+SPA_accept_filipino_desc;With the stunning recapture of faraway Manila, we can reclaim our overlordship of the Philippines. Viva Espana!;;;;;;;;;x
+SPA_accept_caribeno_title;Reintegrate the Caribbean!;;;;;;;;;x
+SPA_accept_caribeno_desc;With the recapture of Havana and the capture of Port Au Prince, we can reclaim overlordship of the Caribbean. Viva Espana!;;;;;;;;;x
+ENG_accept_irish_title;Integrate Ireland!;;;;;;;;;x
+ENG_accept_irish_desc;The Irish have never quite fit in with the rest of the British empire, often resenting their rightful overlords. Now that the Irish language is practically erased, and now that Ireland has been under British rule for a very long time, we can finally integrate the Irish populace.;;;;;;;;;x
+accept_afro_brazilian_title;Integrate the Negro population.;;;;;;;;;x
+accept_afro_brazilian_desc;Our Negro population has long been put down by slavery. Now that slavery has been outlawed, we should integrate these people into society.;;;;;;;;;x
+TUR_reclaim_greece_title;Reclaim Greece!;;;;;;;;;x
+TUR_reclaim_greece_desc;The Greek people have long had fantasies of independence. It is time to squash that dream forever, and integrate them into Ottoman society!;;;;;;;;;x
+TUR_reclaim_bulgaria_title;Reclaim Bulgaria!;;;;;;;;;x
+TUR_reclaim_bulgaria_desc;Bulgaria has been an integral part of our empire for centuries, only recently falling out of our grasp. The time has come to bring them back to their rightful overlord.;;;;;;;;;x
+TUR_reclaim_arabia_title;Reclaim Arabia!;;;;;;;;;x
+TUR_reclaim_arabia_desc;The lands of the Levant, Mesopotamia and Arabia have long been on the fringes of our empire, and have recently fallen entirely out of our control. However, recently much of this land has been recaptured, and we can reintegrate the people inhabiting these regions.;;;;;;;;;x
+TUR_reclaim_egypt_title;Reclaim Egypt!;;;;;;;;;x
+TUR_reclaim_egypt_desc;The rich lands of Egypt have been a very important and integral part of the Ottoman empire for centuries, and now we can finally say that these regions have been pacified, and begin to reintegrate the natives of this land.;;;;;;;;;x
+chinese_unification_title;Reunify China!;;;;;;;;;x
+chinese_unification_desc;Long have our people been disunited, but with the proliferation of greater technology and the reunification of our lands, nobody can dispute our grasp over China. It is time to reunite our peoples!;;;;;;;;;x
+form_mughal_title;Reform the Mughal Empire;;;;;;;;;x
+form_mughal_desc;With the rightful recapture of Delhi, we can proclaim the New Mughal Empire!;;;;;;;;;x
+form_india_title;Form India;;;;;;;;;x
+form_india_desc;With all the vast and diverse peoples of India united under our banner, we can claim a united state between all Indians, to become the world's next rising power!;;;;;;;;;x
+AST_accept_hawaiian_title;Elevate the Aboriginal People;;;;;;;;;x
+AST_accept_hawaiian_desc;The original people of our lands have long been outcast from our society, however we are now in a position where this can be changed, and these people can be brought to equal status in our society!;;;;;;;;;x
+TUR_accept_caucasian_title;Integrate the Caucasian People;;;;;;;;;x
+TUR_accept_caucasian_desc;The people of the Caucas mountains have long been close to our nation, now they can finally be an equal part of our glorious empire!;;;;;;;;;x
+accept_asian_minor_title;Integrate the Indonesian people!;;;;;;;;;x
+accept_asian_minor_desc;Long have the people of the Spice Islands been subjugated and colonised, and many may see our new rule as just another colonizer. We shall suprise them by elevating them to our equals, and for this they shall flock to our banner in droves!;;;;;;;;;x
+reclaim_west_bulgaria_heritage_title;Reclaim the western heritage of the Bulgarian Empire!;;;;;;;;;x
+reclaim_west_bulgaria_heritage_desc;The western edge of the Bulgarian empire of centuries past has now fallen under our rule! This presents a golden opportunity to integrate these people into a new Bulgarian state!;;;;;;;;;x
+reclaim_south_bulgaria_heritage_title;Reclaim the southern heritage of the Bulgarian Empire!;;;;;;;;;x
+reclaim_south_bulgaria_heritage_desc;The lands of northern Greece were an integral part of the Bulgarian Empire, and now that they have fallen back under our control, it would not take too much convincing to make the local people think they are just as Bulgarian as the rest of us...;;;;;;;;;x
+reclaim_north_bulgaria_heritage_title;Reclaim the northern heritage of the Bulgarian Empire!;;;;;;;;;x
+reclaim_north_bulgaria_heritage_desc;The vast northern reaches of the Bulgarian Empire have come back under our control, and although the Romanian people are quite different to ours, we can elevate them to our status in the new glorious Bulgarian state!;;;;;;;;;x
+proclaim_bulgaria_restored_title;Declare the Bulgarian Empire restored!;;;;;;;;;x
+proclaim_bulgaria_restored_desc;Now that all of the former lands of the Bulgarian empire have fallen under our rule, we can proclaim ourselves as the heirs to the Bulgarian empire, and claim the glory that comes from this!;;;;;;;;;x
+form_portugal_brazil_title;Unite Portugal-Brazil!;;;;;;;;;x
+form_portugal_brazil_desc;§RIf you are playing as Brazil, this prevents you from accepting any of the Latin American\ncultures!§!\nThere has long been a dream of reuniting the former colony Brazil and its previous overlord, Portugal. Our nation is now in a position to do so, however it would be more advantageous for us to create a new coequal union instead of oppressing one people, so that we can get the most out of the populace.;;;;;;;;;x
+accept_caucasian_title;Integrate the Caucasian People!;;;;;;;;;x
+accept_kazak_title;Integrate the Kazakh People!;;;;;;;;;x
+accept_polish_title;Integrate the Polish People!;;;;;;;;;x
+accept_caucasian_desc;The Caucasian people have always been close to our nation, but now we are in a position to integrate them as equals into our great state!;;;;;;;;;x
+accept_polish_desc;The Polish people have always been close to our nation, but now we are in a position to integrate them as equals into our great state!;;;;;;;;;x
+accept_kazak_desc;The Kazakh people have always been close to our nation, but now we are in a position to integrate them as equals into our great state!;;;;;;;;;x
+nv_switch_enable_title;Make National Value Decisions Visible;;;;;;;;;x
+nv_switch_enable_desc;§RThese Decisions are Permanent!!!§!;;;;;;;;;x
+nv_switch_disable_title;Hide National Value Decisions;;;;;;;;;x
+nv_switch_disable_desc; ;;;;;;;;;x
+order_decision_title;Switch National Value to Order;;;;;;;;;x
+order_decision_desc;§G+4%§! Mobilization Size;;;;;;;;;x
+liberty_decision_title;Switch National Value to Liberty;;;;;;;;;x
+liberty_decision_desc;§G+3%§! Mobilization Size\n§G+10%§! Political & Social Reform Desire\n§G+10%§! Diplomatic Influence\n§G+10%§! Immigration Attraction\n§G-0.1§! Monthly War Exhaustion\n§G+10%§! RGO Output & Throughput\n§G+5%§! Research Points;;;;;;;;;x
+equality_decision_title;Switch National Value to Equality;;;;;;;;;x
+equality_decision_desc;§G+2%§! Mobilization Size\n§G+20%§! Political & Social Reform Desire\n§G+20%§! Diplomatic Influence\n§G+15%§! Immigration Attraction\n§G-0.2§! Monthly War Exhaustion\n§G+20%§! RGO Output & Throughput\n§G+10%§! Research Points;;;;;;;;;x
+tech_school_enable_change_title;Make Tech School Decisions Visible;;;;;;;;;x
+tech_school_enable_change_desc;§RThese decisions can only be picked every 35 years!§!;;;;;;;;;x
+tech_school_disable_change_title;Hide Tech School Decisions;;;;;;;;;x
+tech_school_disable_change_desc; ;;;;;;;;;x
+form_aegea_title;Form Aegean Nation!;;;;;;;;;x
+form_aegea_desc;While some in both Greece and Turkey may call it an abomination, creating a united nation around the Aegean sea would be a convenient way to create a new, coequal union between Greeks and Turks.;;;;;;;;;x
+form_south_german_confederation_title;Form the South German Confederation;;;;;;;;;x
+form_south_german_confederation_desc;§RIf this decision is taken, you cannot form Austria-Hungary or Danubia!§!\n§GThis decision allows forming Germany!\n§!While we have greatly expanded our empire to the east, some reject the idea of embracing new cultures into the Austrian domain, instead suggesting we should unite with our brothers to the west. We are now in a position to make this a reality, either directly or indirectly controlling all of south Germany, without another German power strong enough to challenge our rule.;;;;;;;;;x
+form_danubia_title;Form Danubia;;;;;;;;;x
+form_danubia_desc;A portion of the empire has been calling for some time for equal rights with the Hungarian and Austrian population. Some of those in power have sought to take advantage of this, by forming a union of many balkan cultures, a united Danubian empire.;;;;;;;;;x
+form_austria_hungary_title;Form Austria-Hungary;;;;;;;;;x
+form_austria_hungary_desc;§RIf this decision is taken, you cannot form SGF or Germany!§!\n§GThis decision allows forming Danubia!\n§!For a long time now, the Hungarian population in the empire has been considered an underclass, however they make up a very large portion of our population. We are in a position to create an equal union between our peoples, possibly breathing new life into our decaying empire.;;;;;;;;;x
+request_unoccupation_title;Request that our land be unoccupied;;;;;;;;;x
+request_unoccupation_desc;This decision sends an event to all enemies in all wars that occupy land in your nation individually that will, if they accept, unoccupy any land that they have occupied in your country.;;;;;;;;;x
+persia_want_levant_title;Claim the Levant;;;;;;;;;x
+persia_want_levant_desc;The lands of the Levant have been a part of the Persian empire historically, and we are now in a position to attempt to reclaim these lands for the Persian nation and people.;;;;;;;;x
+persian_levant_title;Integrate the Levant;;;;;;;;x
+persian_levant_desc;Now that the Levantine lands have fallen under our control, we can integrate the people of this region into our ever-growing nation.;;;;;;;;x
+persia_want_egypt_coast_title;Claim the Egyptian Coast;;;;;;;;x
+persia_want_egypt_coast_desc;The Egyptian coast has been a part of the Persian Empire historically, and we are now in a position to attempt to reclaim these lands for the Persian nation and people.;;;;;;;;x
+SAR_form_italy_title;Form Italy;;;;;;;;x
+SAR_form_italy_desc;The Italian people have been disunited into tiny squabbling states for centuries. However, we have now achieved a position from which we can unite these disparate peoples.;;;;;;;;x
+SIC_form_italy_title;Form Italy;;;;;;;;x
+SIC_form_italy_desc;The Italian people have been disunited into tiny squabbling states for centuries. However, we have now achieved a position from which we can unite these disparate peoples.;;;;;;;;x
+player_alliances_title;Ally all player nations.;;;;;;;;x
+player_alliances_desc;Allies all player nations, by force.;;;;;;;;x
+egypt_want_arabia_title;Claim Arabia;;;;;;;;x
+egypt_want_arabia_desc;Though sparsely populated, we have historic claim to the lands of Arabia, and are now in a position to bring these claims into the modern era.;;;;;;;;x
+egyptian_arabia_title;Integrate Arabia;;;;;;;;x
+egyptian_arabia_desc;Now that we have conquered the lands of Arabia, we can integrate those living in these lands as equal citizens of the great Egyptian nation, in order to better take advantage of them.;;;;;;;;x
+egypt_want_iraq_title;Claim Iraq;;;;;;;;x
+egypt_want_iraq_desc;Now that we have conquered and integrated Arabia, we can begin to take the mantle of those who live in that region, and take over their claim to the lands of Iraq.;;;;;;;;x
+national_idea_enable_title;§GMake National Idea Decisions Visible§!;;;;;;;;;x
+national_idea_enable_desc;These are permanent buffs to your nation that may be picked every 15 years.;;;;;;;;;x
+national_idea_disable_title;Hide National Idea Decisions;;;;;;;;;x
+national_idea_disable_desc; ;;;;;;;;;x
+naval_idea_decision_title;Naval Ideas;;;;;;;;;x
+naval_idea_decision_desc;Ideas to improve our nation's navy.;;;;;;;;;x
+economic_idea_decision_title;Economic Ideas;;;;;;;;;x
+economic_idea_decision_desc;Ideas to improve our nation's economy.;;;;;;;;;x
+industry_idea_decision_title;Industrial Ideas;;;;;;;;;x
+industry_idea_decision_desc;Ideas to improve our nation's industry.;;;;;;;;;x
+political_idea_decision_title;Political Ideas;;;;;;;;;x
+political_idea_decision_desc;Ideas to improve our nation's political situation.;;;;;;;;;x
+diplomatic_idea_decision_title;Diplomatic Ideas;;;;;;;;;x
+diplomatic_idea_decision_desc;Ideas to improve our nation's diplomatic situation.;;;;;;;;;x
+army_quantity_idea_decision_title;Quantity Ideas;;;;;;;;;x
+army_quantity_idea_decision_desc;Ideas to improve our army's quantity and logistics.;;;;;;;;;x
+army_quality_idea_decision_title;Quality Ideas;;;;;;;;;x
+army_quality_idea_decision_desc;Ideas to improve our army's quality.;;;;;;;;;x
+form_yugoslavia_title;Form Yugoslavia;;;;;;;;;x
+form_yugoslavia_desc;There has long been a dream of a united Yugoslavia, but none before us have been in the position to realize it. However, now that we occupy several key balkan cities, we can claim the title of Yugoslavia!;;;;;;;;;x
+accept_north_andean_title;Integrate the North Andean People!;;;;;;;;;x
+accept_north_andean_desc;§RThis prevents formation of Portugal-Brazil, and is mutually exclusive with the other decisions to accept Latin American cultures.§!\nThe region of the North Andes have fallen mostly under our reign. It would not take much to integrate these people into a greater Brazilian state...;;;;;;;;;x
+accept_south_andean_title;Integrate the South Andean People!;;;;;;;;;x
+accept_south_andean_desc;§RThis prevents formation of Portugal-Brazil, and is mutually exclusive with the other decisions to accept Latin American cultures.§!\nThe region of the South Andes have fallen mostly under our reign. It would not take much to integrate these people into a greater Brazilian state...;;;;;;;;;x
+accept_plantinean_title;Integrate the Platinean People!;;;;;;;;;x
+accept_plantinean_desc;§RThis prevents formation of Portugal-Brazil, and is mutually exclusive with the other decisions to accept Latin American cultures.§!\nThe southern regions of South America have fallen mostly under our reign. It would not take much to integrate these people into a greater Brazilian state...;;;;;;;;;x
+form_yuan_title;Reform Yuan!;;;;;;;;;x
+form_yuan_desc;Long ago, the Mongolian people ruled over Chinese lands. We have finally come into a position of rulership over the chinese, and can now proclaim Yuan restored!;;;;;;;;;x
+end_colonial_rule_in_indonesia_title;End Colonial Rule Over Indonesia!;;;;;;;;;x
+end_colonial_rule_in_indonesia_desc;§GThis decision will make all of the former Dutch colonies in Indonesia into cores and states, despite what the tooltip may tell you.§!\nNow that we have liberated all of Indonesia from foreign overlords, it is only right that we would elevate these lands into full states in our nation.;;;;;;;;;x
+move_capital_to_rome_title;Move Capital To Rome;;;;;;;;;x
+move_capital_to_rome_desc;Many see Rome as the historic capital of the Italian peninsula, and with its central location we may be able to bring together the two halves of our nation by making it our new capital.;;;;;;;;;x
+elevate_mozambique_title;Elevate Mozambique;;;;;;;;;x
+elevate_mozambique_desc;§GThis decision will make all of Mozambique into cores and states, despite what the tooltip may tell you.§!\nThe people of Mozambique are truly the same as our own. We should elevate these lands into core components of our nation.;;;;;;;;;x
+elevate_angola_zambia_title;Elevate Angola & Zambia;;;;;;;;;x
+elevate_angola_zambia_desc;§GThis decision will make all of Angola & Zambia into cores and states, despite what the tooltip may tell you.§!\nThe people of Angola & Zambia are truly the same as our own. We should elevate these lands into core components of our nation.;;;;;;;;;x
+elevate_congo_title;Elevate the Congo;;;;;;;;;x
+elevate_congo_desc;§GThis decision will make all of the Congo into cores and states, despite what the tooltip may tell you.§!\nThe people of the Congo are truly the same as our own. We should elevate these lands into core components of our nation.;;;;;;;;;x
+elevate_tanganyika_title;Elevate Tanganyika;;;;;;;;;x
+elevate_tanganyika_desc;§GThis decision will make all of Tanganyika (Tanzania without Zanzibar) into cores and states, despite what the tooltip may tell you.§!\nThe people of Tanganyika are truly the same as our own. We should elevate these lands into core components of our nation.;;;;;;;;;x
+elevate_kenya_uganda_title;Elevate Kenya & Uganda;;;;;;;;;x
+elevate_kenya_uganda_desc;§GThis decision will make all of Kenya & Uganda into cores and states, despite what the tooltip may tell you.§!\nThe people of Kenya & Uganda are truly the same as our own. We should elevate these lands into core components of our nation.;;;;;;;;;x
+elevate_east_sudan_title;Elevate Eastern Sudan;;;;;;;;;x
+elevate_east_sudan_desc;§GThis decision will make all of East Sudan into cores and states, despite what the tooltip may tell you.§!\nThe people of East Sudan are truly the same as our own. We should elevate these lands into core components of our nation.;;;;;;;;;x
+elevate_sahara_title;Elevate The Sahara;;;;;;;;;x
+elevate_sahara_desc;§GThis decision will make all of the Sahara into cores and states, despite what the tooltip may tell you.§!\nThe people of the Sahara are truly the same as our own. We should elevate these lands into core components of our nation.;;;;;;;;;x
+elevate_inland_senegambia_guinea_mali_title;Elevate Inland Senegambia, Guinea, and Mali;;;;;;;;;x
+elevate_inland_senegambia_guinea_mali_desc;§GThis decision will make all of inland Senegambia, Guinea, and Mali into cores and states, despite what the tooltip may tell you.§!\nThe people of inland Senegambia, Guinea and Mali are truly the same as our own. We should elevate these lands into core components of our nation.;;;;;;;;;x
+elevate_senegambia_mauritania_coast_title;Elevate The Senegambia-Mauritania Coast;;;;;;;;;x
+elevate_senegambia_mauritania_coast_desc;§GThis decision will make all of the Senegambia-Mauritania Coast into cores and states, despite what the tooltip may tell you.§!\nThe people of the Senegambia-Mauritania Coast are truly the same as our own. We should elevate these lands into core components of our nation.;;;;;;;;;x
+elevate_liberia_guinea_coast_title;Elevate The Liberia Coast & Guinea Coast;;;;;;;;;x
+elevate_liberia_guinea_coast_desc;§GThis decision will make all of the Liberia Coast & Guinea Coast into cores and states, despite what the tooltip may tell you.§!\nThe people of the Liberia Coast & Guinea Coast are truly the same as our own. We should elevate these lands into core components of our nation.;;;;;;;;;x
+elevate_inland_liberia_title;Elevate Inland Libera;;;;;;;;;x
+elevate_inland_liberia_desc;§GThis decision will make all of the inland Liberia into cores and states, despite what the tooltip may tell you.§!\nThe people of inland Liberia are truly the same as our own. We should elevate these lands into core components of our nation.;;;;;;;;;x
+elevate_gold_coast_title;Elevate The Gold Coast;;;;;;;;;x
+elevate_gold_coast_desc;§GThis decision will make all of the Gold Coast into cores and states, despite what the tooltip may tell you.§!\nThe people of the Gold Coast are truly the same as our own. We should elevate these lands into core components of our nation.;;;;;;;;;x
+elevate_nigerian_coast_title;Elevate The Nigerian Coast;;;;;;;;;x
+elevate_nigerian_coast_desc;§GThis decision will make all of the Nigerian Coast into cores and states, despite what the tooltip may tell you.§!\nThe people of the Nigerian Coast are truly the same as our own. We should elevate these lands into core components of our nation.;;;;;;;;;x
+elevate_west_nigeria_title;Elevate West Nigeria;;;;;;;;;x
+elevate_west_nigeria_desc;§GThis decision will make all of West Nigeria into cores and states, despite what the tooltip may tell you.§!\nThe people of West Nigeria are truly the same as our own. We should elevate these lands into core components of our nation.;;;;;;;;;x
+elevate_east_nigeria_title;Elevate East Nigeria;;;;;;;;;x
+elevate_east_nigeria_desc;§GThis decision will make all of East Nigeria into cores and states, despite what the tooltip may tell you.§!\nThe people of East Nigeria are truly the same as our own. We should elevate these lands into core components of our nation.;;;;;;;;;x
+elevate_inland_gold_coast_title;Elevate Inland Gold Coast;;;;;;;;;x
+elevate_inland_gold_coast_desc;§GThis decision will make all of inland Gold Coast into cores and states, despite what the tooltip may tell you.§!\nThe people of inland Gold Coast are truly the same as our own. We should elevate these lands into core components of our nation.;;;;;;;;;x
+spanish_empire_way_title;Revive the Spanish Empire;;;;;;;;;x
+spanish_empire_way_desc;§RThis decision is mutually exclusive with the Iberian Union path.§!\nOur time of greatness was when we conquered overseas lands. Let us return to the era of success and prosperity!;;;;;;;;;x
+iberian_union_way_title;Embrace Iberian Union doctrine;;;;;;;;;x
+iberian_union_way_desc;§RThis decision is mutually exclusive with the Spanish Empire path.§!\nDreams of a Spanish Empire lie dead in the past. We must move forward to a new era of united Iberian greatness.;;;;;;;;;x
+go_north_title;Declare Gran Colombian rule over Mexico;;;;;;;;;x
+go_north_desc;§RThis decision is mutually exclusive with the Caribbean & Southern paths.§!\nThe Mexican lands to our north are perhaps the most rich in our region. We must conquer and integrate these lands.;;;;;;;;;x
+go_south_title;Push for the South Andes;;;;;;;;;x
+go_south_desc;§RThis decision is mutually exclusive with the Caribbean & Mexican paths.§!\nThe lands to our southwest are not the richest, however they are culturally compatible with us and decently populated. We must integrate these regions.;;;;;;;;;x
+go_sea_title;Expand into the Caribbean;;;;;;;;;x
+go_sea_desc;§RThis decision is mutually exclusive with the Southern & Mexican paths.§!\nThe Caribbean islands are densly populated and should not be too difficult to conquer. We should move to invade this region immediately.;;;;;;;;;x
+form_peru_bolivia_title;Form Peru-Bolivia;;;;;;;;;x
+form_peru_bolivia_desc;§RIf you are playing as Peru, this decision disallows forming Inca.\nIf you are playing as Bolivia, this decision disallows accepting Native Americans and Brazilians.\n§!The Bolivian and Peruvian people are not all too different. In fact, we were once united under a confederation. We should restore this glorious union, and unite our peoples!;;;;;;;;;x
+reform_admin_1_money_title;Reform our Administration;;;;;;;;;x
+reform_admin_1_money_desc;§RIn 1865, a decision unlocks which has the same effect of this decision, without costing money.§!\nOur bureaucracy is extremely corrupt and woefully inadequate to deal with the challenges of a state such as ours. We should institute a wide-sweeping reform to rip out the corruption from the administration.;;;;;;;;;x
+reform_admin_1_time_title;Reform our Administration;;;;;;;;;x
+reform_admin_1_time_desc;Our bureaucracy is extremely corrupt and woefully inadequate to deal with the challenges of a state such as ours. We should institute a wide-sweeping reform to rip out the corruption from the administration.;;;;;;;;;x
+reform_admin_2_money_title;Reform our Administration;;;;;;;;;x
+reform_admin_2_money_desc;§RIn 1895, a decision unlocks which has the same effect of this decision, without costing money.§!\nWhile our previous corruption-focused reform was effective and majorly improved the state of our bureaucracy, we still suffer from wide-reaching incompetence. We should invest more in our bureacracy and ensure its quality and professionalism.;;;;;;;;;x
+reform_admin_2_time_title;Reform our Administration;;;;;;;;;x
+reform_admin_2_time_desc;While our previous corruption-focused reform was effective and majorly improved the state of our bureaucracy, we still suffer from wide-reaching incompetence. We should invest more in our bureacracy and ensure its quality and professionalism.;;;;;;;;;x
+assert_north_american_dominance_mexico_title;Assert North American Hegemony;;;;;;;;;x
+assert_north_american_dominance_mexico_desc;§RMutually exclusive with the "March South" decision.§!\nWe have beaten the American dogs back from our lands, and now we shall claim the North American hegemony!;;;;;;;;;x
+mexico_go_south_title;March South;;;;;;;;;x
+mexico_go_south_desc;§RMutually exclusive with the "North American Hegemony" decision.§!\nWe have already taken our rightful lands in Central America. What's now preventing us from marching south into the lands of Gran Colombia, and making an even greater empire for our people yet?;;;;;;;;;x
+form_inca_title;Reform the Inca Empire;;;;;;;;;x
+form_inca_desc;§RThis decision disallows forming Peru-Bolivia§!\nThe legacy of the Inca empire is mixed among our populace, however we can reclaim this title and bring it into new glory!;;;;;;;;;x

@@ -1,0 +1,183 @@
+political_decisions = { ### See common/event_modifiers.txt for the effects of the ideas.
+	national_idea_enable = {
+		potential = {
+			NOT = {
+				has_country_modifier = national_idea_timer
+			}
+			NOT = {
+				has_country_flag = national_ideas_enabled
+			}
+		}
+		allow = {}
+		effect = {
+			set_country_flag = national_ideas_enabled
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	national_idea_disable = {
+		alert = no
+		potential = {
+			has_country_flag = national_ideas_enabled
+		}
+		allow = {}
+		effect = {
+			clr_country_flag = national_ideas_enabled
+		}
+	}
+	naval_idea_decision = { #alll the naval modifiers
+		alert = no
+		potential = {
+			has_country_flag = national_ideas_enabled
+			NOT = {
+				has_country_modifier = national_idea_timer
+			}
+			NOT = {
+				has_country_flag = naval_idea_done
+			}
+		}
+		allow = {}
+		effect = {
+			clr_country_flag = national_ideas_enabled
+			clr_country_flag = national_idea_reminder
+			set_country_flag = naval_idea_done
+			add_country_modifier = { name = naval_idea duration = -1 }
+			add_country_modifier = { name = national_idea_timer duration = 5475 }
+		}
+	}
+	economic_idea_decision = { #tax efficiency, RGO effeciency, general economic modifiers
+		alert = no
+		potential = {
+			has_country_flag = national_ideas_enabled
+			NOT = {
+				has_country_modifier = national_idea_timer
+			}
+			NOT = {
+				has_country_flag = economic_idea_done
+			}
+		}
+		allow = {}
+		effect = {
+			clr_country_flag = national_ideas_enabled
+			clr_country_flag = national_idea_reminder
+			set_country_flag = economic_idea_done
+			add_country_modifier = { name = economic_idea duration = -1 }
+			add_country_modifier = { name = national_idea_timer duration = 5475 }
+		}
+	}
+	industry_idea_decision = { #more industry output, throughput, input
+		alert = no
+		potential = {
+			has_country_flag = national_ideas_enabled
+			NOT = {
+				has_country_modifier = national_idea_timer
+			}
+			NOT = {
+				has_country_flag = industry_idea_done
+			}
+		}
+		allow = {}
+		effect = {
+			clr_country_flag = national_ideas_enabled
+			clr_country_flag = national_idea_reminder
+			set_country_flag = industry_idea_done
+			add_country_modifier = { name = industry_idea duration = -1 }
+			add_country_modifier = { name = national_idea_timer duration = 5475 }
+		}
+	}
+	political_idea_decision = { #less militancy, consciousness, more ruling party support
+		alert = no
+		potential = {
+			has_country_flag = national_ideas_enabled
+			NOT = {
+				has_country_modifier = national_idea_timer
+			}
+			NOT = {
+				has_country_flag = political_idea_done
+			}
+		}
+		allow = {}
+		effect = {
+			clr_country_flag = national_ideas_enabled
+			clr_country_flag = national_idea_reminder
+			set_country_flag = political_idea_done
+			add_country_modifier = { name = political_idea duration = -1 }
+			add_country_modifier = { name = national_idea_timer duration = 5475 }
+		}
+	}
+	diplomatic_idea_decision = { #less infamy, sphere quicker
+		alert = no
+		potential = {
+			has_country_flag = national_ideas_enabled
+			NOT = {
+				has_country_modifier = national_idea_timer
+			}
+			NOT = {
+				has_country_flag = diplomatic_idea_done
+			}
+		}
+		allow = {}
+		effect = {
+			clr_country_flag = national_ideas_enabled
+			clr_country_flag = national_idea_reminder
+			set_country_flag = diplomatic_idea_done
+			add_country_modifier = { name = diplomatic_idea duration = -1 }
+			add_country_modifier = { name = national_idea_timer duration = 5475 }
+		}
+	}
+	army_quantity_idea_decision = { #army quantity & logistics modifiers
+		alert = no
+		potential = {
+			has_country_flag = national_ideas_enabled
+			NOT = {
+				has_country_modifier = national_idea_timer
+			}
+			NOT = {
+				has_country_flag = army_quantity_idea_done
+			}
+			NOT = {
+				OR = {
+					tag = CHI #china
+					tag = NAN #nanjing
+					tag = MCK #mongolia
+					tag = YNN #yunnan
+					tag = PAK #pakistan
+					tag = MGH #mughal empire
+					tag = HND #india
+					tag = YUA #yuan dynasty
+					tag = RUS #russia
+				}
+			}
+		}
+		allow = {}
+		effect = {
+			clr_country_flag = national_ideas_enabled
+			clr_country_flag = national_idea_reminder
+			set_country_flag = army_quantity_idea_done
+			add_country_modifier = { name = army_quantity_idea duration = -1 }
+			add_country_modifier = { name = national_idea_timer duration = 5475 }
+		}
+	}
+	army_quality_idea_decision = { #army quality modifiers
+		alert = no
+		potential = {
+			has_country_flag = national_ideas_enabled
+			NOT = {
+				has_country_modifier = national_idea_timer
+			}
+			NOT = {
+				has_country_flag = army_quality_idea_done
+			}
+		}
+		allow = {}
+		effect = {
+			clr_country_flag = national_ideas_enabled
+			clr_country_flag = national_idea_reminder
+			set_country_flag = army_quality_idea_done
+			add_country_modifier = { name = army_quality_idea duration = -1 }
+			add_country_modifier = { name = national_idea_timer duration = 5475 }
+		}
+	}
+}
+			

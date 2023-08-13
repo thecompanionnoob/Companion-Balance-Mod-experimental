@@ -1,7 +1,0 @@
-###########################################################################
-#
-# Political Events
-#
-# Event IDs 3000 are reserved for this. DO NOT CHANGE.<--- like im gonna listen to that, this is removed lmao
-#
-###########################################################################

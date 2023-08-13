@@ -1,0 +1,96 @@
+country_event = { #explanation
+	id = 69012
+	title = "EVTNAME69012"
+	desc = "EVTDESC69012"
+
+	trigger = {
+		NOT = {
+			has_country_flag = china_explained
+		}
+		OR = {
+			tag = MCK
+			tag = YNN
+			tag = NAN
+		}
+	}
+	immediate = {
+		add_country_modifier = { name = china_unciv_modifier duration = -1 }
+	}
+	option = {
+		name = "EVTOPTA69012"
+		prestige = -1
+		set_country_flag = china_explained
+		add_country_modifier = { name = china_unciv_modifier duration = -1 }
+	}
+}
+country_event = { #civilize
+	id = 69013
+	title = "EVTNAME69013"
+	desc = "EVTDESC69013"
+
+	trigger = {
+		OR = {
+			tag = MCK
+			tag = YNN
+			tag = NAN
+			tag = CHI
+			tag = YUA
+		}
+		NOT = {
+			has_country_flag = chinese_civilized
+		}
+		civilized = yes
+	}
+	immediate = {	
+		add_country_modifier = { name = china_civ_modifier duration = -1 }
+		remove_country_modifier = china_unciv_modifier
+		set_country_flag = chinese_civilized
+	}
+	option = {
+		name = "EVTOPTA69013"
+		prestige = 15
+	}
+}
+country_event = { #uncivilize
+	id = 69014
+	title = "EVTNAME69014"
+	desc = "EVTDESC69014"
+
+	trigger = {
+		OR = {
+			tag = MCK
+			tag = YNN
+			tag = NAN
+			tag = CHI
+			tag = YUA
+		}
+		has_country_flag = chinese_civilized
+		civilized = no
+	}
+
+	immediate = {
+		add_country_modifier = { name = china_unciv_modifier duration = -1 }
+		remove_country_modifier = china_civ_modifier
+		clr_country_flag = chinese_civilized
+	}
+	option = {
+		name = "EVTOPTA69014"
+		prestige = -15
+	}
+}
+			
+#for reference:
+
+
+#china_unciv_modifier = {
+#	research_points_on_conquer = -0.8
+#}
+
+#china_civ_modifier = {
+#	global_pop_militancy_modifier = -0.05
+#	global_population_growth = -0.003
+#	research_points_modifier = -0.05
+#	education_efficiency_modifier = -0.05
+#	rgo_output = 0.1
+#	rgo_throughput = 0.1
+#}

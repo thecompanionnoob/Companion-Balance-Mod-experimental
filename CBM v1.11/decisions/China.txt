@@ -1,0 +1,97 @@
+political_decisions = {
+	form_yuan = {
+		potential = {
+			tag = MCK
+			NOT = {
+				exists = CHI
+				exists = YUA
+			}
+		}
+		allow = {
+			war = no
+			civilized = yes
+			owns = 1612
+			owns = 2221
+			owns = 1601
+			owns = 1493
+			owns = 1555
+			owns = 1577
+			owns = 1470
+		}
+		effect = {
+			prestige = 100
+			badboy = 20
+			NAN = {
+				all_core = {
+					add_core = YUA
+				}
+			}
+			YNN = {
+				all_core = {
+					add_core = YUA
+				}
+			}
+			MCK = {
+				all_core = {
+					add_core = YUA
+				}
+			}
+			change_tag = YUA
+			capital = 1612
+			add_accepted_culture = beifaren
+			add_accepted_culture = nanfaren
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	chinese_unification = {
+		potential = {
+			OR = {
+				tag = NAN
+				tag = YNN
+			}
+			NOT = {
+				exists = CHI
+				exists = YUA
+			}
+		}
+		allow = {
+			war = no
+			civilized = yes
+			owns = 1612
+			owns = 2221
+			owns = 1601
+			owns = 1493
+			owns = 1555
+			owns = 1577
+			owns = 1470
+		}
+		effect = {
+			prestige = 100
+			badboy = 20
+			any_owned = {
+				limit = {
+					OR = {
+						is_core = NAN
+						is_core = YNN
+						is_core = MCK
+					}
+				}
+				add_core = CHI
+			}
+			change_tag = CHI
+			capital = 1612
+			add_accepted_culture = manchu
+			add_accepted_culture = beifaren
+			add_accepted_culture = nanfaren
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+			
+				

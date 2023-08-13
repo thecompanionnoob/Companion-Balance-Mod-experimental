@@ -1,0 +1,34 @@
+#Southern Melanesia (24000) #see Vanuatu.txt for balance of region
+#uncolonized in 1836
+#New Caledonia (24000/6000 POPS) 
+1097 = {
+	aristocrats = {
+		culture = hawaiian
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = hawaiian
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = hawaiian
+		religion = sunni
+		size = 300
+	}
+
+	soldiers = {
+		culture = hawaiian
+		religion = sunni
+		size = 75
+	}
+
+	farmers = {
+		culture = hawaiian
+		religion = sunni
+		size = 5475
+	}
+}

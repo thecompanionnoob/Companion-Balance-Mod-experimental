@@ -1,0 +1,261 @@
+leader = {
+	name = "Giga Chad"
+	date = 1835.12.31
+	type = land
+	personality = defence_3.1
+	background = attack_3.1
+	prestige = 0
+}
+leader = {
+	name = "Joe Biden"
+	date = 1835.12.31
+	type = land
+	personality = defence_4.1
+	background = attack_1.1
+	prestige = 0
+}
+leader = {
+	name = "Donald Trump"
+	date = 1835.12.31
+	type = land
+	personality = defence_1.1
+	background = attack_4.1
+	prestige = 0
+}
+leader = {
+	name = "Aqua Man"
+	date = 1835.12.31
+	type = sea
+	personality = defence_3.1
+	background = attack_3.1
+	prestige = 0
+}
+army = {
+	name = "Army of the West"
+	location = 860
+	regiment = {
+		name = "1. Infantry"
+		type = infantry
+		home = 860
+	}
+	regiment = {
+		name = "2. Infantry"
+		type = infantry
+		home = 860
+	}
+	regiment = {
+		name = "3. Infantry"
+		type = infantry
+		home = 859
+	}
+	regiment = {
+		name = "4. Infantry"
+		type = infantry
+		home = 828
+	}
+	regiment = {
+		name = "5. Infantry"
+		type = infantry
+		home = 861
+	}
+	regiment = {
+		name = "1. Artillery"
+		type = artillery
+		home = 862
+	}
+	regiment = {
+		name = "2. Artillery"
+		type = artillery
+		home = 863
+	}
+	regiment = {
+		name = "3. Artillery"
+		type = artillery
+		home = 864
+	}
+	regiment = {
+		name = "4. Artillery"
+		type = artillery
+		home = 870
+	}
+}
+army = {
+	name = "Army of the West"
+	location = 882
+	regiment = {
+		name = "6. Infantry"
+		type = infantry
+		home = 882
+	}
+	regiment = {
+		name = "7. Infantry"
+		type = infantry
+		home = 882
+	}
+	regiment = {
+		name = "8. Infantry"
+		type = infantry
+		home = 886
+	}
+	regiment = {
+		name = "9. Infantry"
+		type = infantry
+		home = 887
+	}
+	regiment = {
+		name = "10. Infantry"
+		type = infantry
+		home = 876
+	}
+	regiment = {
+		name = "5. Artillery"
+		type = artillery
+		home = 894
+	}
+	regiment = {
+		name = "6. Artillery"
+		type = artillery
+		home = 883
+	}
+	regiment = {
+		name = "7. Artillery"
+		type = artillery
+		home = 888
+	}
+	regiment = {
+		name = "8. Artillery"
+		type = artillery
+		home = 883
+	}
+}
+	
+navy = {
+	name = "Ottoman Navy"
+	location = 860
+	ship = {
+		name= "Masudiya"
+		type = manowar
+	}
+
+	ship = {
+		name= "Sadd al Bahri"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ankay i Barhi"
+		type = manowar
+	}
+
+	ship = {
+		name= "Taus i Barhi"
+		type = manowar
+	}
+
+	ship = {
+		name= "Tevfik Nyuma"
+		type = manowar
+	}
+
+	ship = {
+		name= "Bisharet Nyuma"
+		type = manowar
+	}
+
+	ship = {
+		name= "Killid i Barhi"
+		type = manowar
+	}
+
+	ship = {
+		name= "Heybetendaz"
+		type = manowar
+	}
+
+	ship = {
+		name= "Melek i Barhi"
+		type = manowar
+	}
+
+	ship = {
+		name= "Sayyad i Barhi"
+		type = manowar
+	}
+
+	ship = {
+		name= "Gulbang i Nusret"
+		type = manowar
+	}
+
+	ship = {
+		name= "Jebel Andaz"
+		type = manowar
+	}
+
+	ship = {
+		name= "Iskenderiya"
+		type = frigate
+	}
+
+	ship = {
+		name= "Badere i Zaffar"
+		type = frigate
+	}
+
+	ship = {
+		name= "Mahubey Subham"
+		type = frigate
+	}
+
+	ship = {
+		name= "Metelin"
+		type = frigate
+	}
+
+	ship = {
+		name= "Denyuvet"
+		type = frigate
+	}
+
+	ship = {
+		name= "Rahbar i Alam"
+		type = frigate
+	}
+
+	ship = {
+		name= "Malbaik Nesuret"
+		type = frigate
+	}
+
+	ship = {
+		name= "Bedr i Zafar"
+		type = frigate
+	}
+
+	ship = {
+		name= "Meskeni Ghazi"
+		type = frigate
+	}
+
+	ship = {
+		name= "Fakim i Zafar"
+		type = frigate
+	}
+
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = clipper_transport
+	}
+
+}
+

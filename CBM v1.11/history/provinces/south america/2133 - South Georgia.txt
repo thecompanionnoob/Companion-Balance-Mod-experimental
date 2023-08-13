@@ -1,0 +1,5 @@
+owner = BNK
+controller = BNK
+add_core = BNK
+trade_goods = precious_metal
+life_rating = 30

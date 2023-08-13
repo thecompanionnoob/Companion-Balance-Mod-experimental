@@ -1,0 +1,59 @@
+leader = {
+	name = "Giga Chad"
+	date = 1835.12.31
+	type = land
+	personality = defence_3.1
+	background = attack_3.1
+	prestige = 0
+}
+leader = {
+	name = "Joe Biden"
+	date = 1835.12.31
+	type = land
+	personality = defence_4.1
+	background = attack_1.1
+	prestige = 0
+}
+leader = {
+	name = "Donald Trump"
+	date = 1835.12.31
+	type = land
+	personality = defence_1.1
+	background = attack_4.1
+	prestige = 0
+}
+leader = {
+	name = "Aqua Man"
+	date = 1835.12.31
+	type = sea
+	personality = defence_3.1
+	background = attack_3.1
+	prestige = 0
+}
+army = {
+	name = "Ejército de Bolivia"
+	location = 2313 #Chuquisaca (Sucre)
+	regiment = {
+		name= "1. Brigada de Infanteria"
+		type = infantry
+		home = 2313
+	}
+
+	regiment = {
+		name= "2. Brigada de Infanteria"
+		type = infantry
+		home = 2310
+	}
+
+	regiment = {
+		name= "3. Brigada de Infanteria"
+		type = infantry
+		home = 2311
+	}
+}
+
+PEU=
+	{
+		value=200
+	}
+	

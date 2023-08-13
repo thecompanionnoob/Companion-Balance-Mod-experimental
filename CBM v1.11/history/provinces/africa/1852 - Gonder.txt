@@ -1,0 +1,13 @@
+owner = ETH
+controller = ETH
+add_core = ETH
+trade_goods = cattle
+life_rating = 30
+state_building = {
+	level = 1
+	building = canned_food_factory
+	upgrade = yes
+}
+    
+
+    
