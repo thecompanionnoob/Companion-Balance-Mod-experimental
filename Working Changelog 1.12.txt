@@ -1,0 +1,27 @@
+v1.12:
+
+CHANGES FOR ALL NATIONS:
+*Removed extra mobilization size from military logistics and added extra mob size to mob inventions.
+*Moved colonial negotations to State & Government: It will unlock if you are a great power or secondary power after 1860. This will unlock coastal Africa.
+*Changed Mission to civilize so that it will unlock if you are a great power or secondary power after 1880. This will unlock inland africa.
+*Normal crises were already disabled but now colonial crises *should* also be disabled.
+*Fixed wealth voting not working properly.
+
+
+COUNTRY-SPECIFIC CHANGES:
+
+PERU/BOLIVIA:
+*Removed starting alliance between Peru and Bolivia.
+
+USA:
+*Increased mob size debuff to usa.
+
+FRANCE:
+*Added machine parts factory in Paris and removed luxury furniture factory in Paris.
+
+ARGENTINA:
+*Gave Argentina South Andean as accepted.
+
+CHILE:
+*Gave Chile Platinean as accepted.
+*Added all needed for Chile to be playable.

@@ -1,0 +1,7 @@
+alliance=
+	{
+		first="BOL"
+		second="PEU"
+		end_date="1835.1.1"
+		start_date="1831.1.1"
+	}
