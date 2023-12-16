@@ -1,0 +1,32 @@
+#Mexican extra mob
+country_event = {
+	id = 69017
+	title = "EVTNAME69017"
+	desc = "EVTDESC69017"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = MEX
+	}
+
+	option = {
+		name = "EVTOPTA69017"
+        add_country_modifier = { name = extra_mob_1 duration = 3650 }
+	}
+}
+#Canada extra mob
+country_event = {
+	id = 69018
+	title = "EVTNAME69018"
+	desc = "EVTDESC69018"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = CAN
+	}
+
+	option = {
+		name = "EVTOPTA69018"
+        add_country_modifier = { name = extra_mob_2 duration = 3650 }
+	}
+}

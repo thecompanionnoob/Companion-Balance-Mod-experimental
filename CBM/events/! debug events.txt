@@ -111,3 +111,17 @@ country_event = {
 		}
 	}
 }
+country_event = {
+    id = 8
+    title = "WE"
+    desc = "WE"
+
+    trigger = {
+        war = no
+        war = yes
+    }
+    option = {
+        name = "WE"
+        war_exhaustion = 25
+    }
+}

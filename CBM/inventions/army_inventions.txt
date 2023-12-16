@@ -847,7 +847,7 @@ mobilization_time_tables = {
 		}
 	}
 	effect = {
-		mobilisation_size = 0.02
+		mobilisation_size = 0.01
 	}
 }
 
@@ -884,7 +884,7 @@ statistical_mobilization = { #no idea what to call this lmao
 		}
 	}
 	effect = {
-		mobilisation_size = 0.02
+		mobilisation_size = 0.01
 	}
 }
 
@@ -941,7 +941,7 @@ mobilization_logistics = { #again, no idea what to call this
 		}
 	}
 	effect = {
-		mobilisation_size = 0.02
+		mobilisation_size = 0.04
 	}
 }
 

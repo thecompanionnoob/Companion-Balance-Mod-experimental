@@ -159,3 +159,7 @@ healing_wounds;Healing Wounds;;;;;;;;;x;;;;
 healing_wounds_desc;We are still recovering from the deep divisions caused by the slavery debate and subsequent civil war.;;;;;;;;;x;;;;
 southern_riots;The Bleeding South;;;;;;;;;x;;;;
 southern_riots_desc;Due to our expansion of civil rights to southern negroes, the south is engulfed in white riots and negro counter-riots. The southern whites say we have overstepped the bounds of states' rights, while the southern negroes claim we have not gone far enough, and have not done enough to put down white riots. We must simply pray that the anger burns itself out, and that peace soon returns to the southern states.;;;;;;;;;x;;;;
+extra_mob_1;Patriotic Fervor;;;;;;
+extra_mob_1_desc;Patriotic Fervor;;;;;;
+extra_mob_2;Patriotic Fervor;;;;;;
+extra_mob_2_desc;Patriotic Fervor;;;;;;
