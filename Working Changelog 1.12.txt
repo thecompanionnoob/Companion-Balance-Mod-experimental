@@ -36,3 +36,6 @@ MEXICO:
 
 CANADA:
 *Gave Canada a +2 mob modifier for the first 10 years of the game.
+
+RUSSIA:
+*Added localisation for the accept Ruthenian decision.
