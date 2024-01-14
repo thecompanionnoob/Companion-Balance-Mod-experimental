@@ -5,22 +5,13 @@
 
 
 
-unciv_can_mobilize_yay = {
-	trigger = {
-		NOT = {
-			civilized = yes
-		}
-	}
-	mobilisation_size = 0.08 #the base debuff so uncivs cant mob is -0.10, so this means that if u are unciv you can mob, just less than a civilized nation
-}
-
 sanctions = {
 	trigger = {
 		badboy = 1.5
 	}
 	global_pop_militancy_modifier = 0.15
 	cb_generation_speed_modifier = -0.5
-	global_immigrant_attract = -0.25
+	global_immigrant_attract = -1
 	global_population_growth = -0.002
 	land_organisation = -0.5
 	land_unit_start_experience = -25

@@ -195,7 +195,7 @@ civ_nation = {
 }
 
 unciv_nation = {
-	mobilisation_size = -0.1
+	mobilisation_size = -0.02
 	diplomatic_points_modifier = -0.25
 	cb_generation_speed_modifier = 0.8
 }
@@ -217,7 +217,7 @@ generalised_debt_default = {
 }
 
 total_occupation = {
-	war_exhaustion = 0.05				#increased by war exhaustion.
+	war_exhaustion = 0.5				#increased by war exhaustion.
 }
 
 total_blockaded = {

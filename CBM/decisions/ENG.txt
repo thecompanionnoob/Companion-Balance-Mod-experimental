@@ -1,1 +1,18 @@
-
+political_decisions = {
+    repeal_corn_laws = {
+        potential = {
+            tag = ENG
+            NOT = { has_country_flag = repealed_corn_laws }
+        }
+        allow = {
+            revolution_n_counterrevolution = 1
+        }
+        effect = {
+            set_country_flag = repealed_corn_laws
+            remove_country_modifier = corn_laws
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

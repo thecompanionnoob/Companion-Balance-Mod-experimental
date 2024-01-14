@@ -44298,10 +44298,10 @@
         y = 1656.000000
     }
 
-    text_scale = 6.199996
+    text_scale = 4.199996
     building_construction = {
         x = 4598.000000
-        y = 1664.000000
+        y = 1650.000000
     }
 
     military_construction = {
@@ -44311,13 +44311,13 @@
 
     factory = {
         x = 4605.000000
-        y = 1688.000000
+        y = 1650.000000
     }
 
     building_position = {
         fort = {
             x = 4682.000000
-            y = 1674.000000
+            y = 1645.000000
         }
 
     }
@@ -119549,5 +119549,42 @@
     building_rotation = {
         naval_base = 4.712389
     }
+
+}
+3252 = {
+    unit = {
+        x = 4601.000000
+        y = 1691.000000
+    }
+
+    text_position = {
+        x = 4604.000000
+        y = 1689.000000
+    }
+
+    text_scale = 3.5
+    building_construction = {
+        x = 4598.000000
+        y = 1682.000000
+    }
+
+    military_construction = {
+        x = 4602.000000
+        y = 1683.000000
+    }
+
+    factory = {
+        x = 4595.000000
+        y = 1687.000000
+    }
+
+    building_position = {
+        fort = {
+            x = 4602.000000
+            y = 1688.000000
+        }
+
+    }
+
 
 }

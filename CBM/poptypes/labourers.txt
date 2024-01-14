@@ -44,56 +44,24 @@ country_migration_target =
 	factor = 1
 
 	modifier = {
-		factor = 0.9
+		factor = 0.85
 		unemployment = 0.05
 	}
 	modifier = {
-		factor = 0.9
+		factor = 0.85
 		unemployment = 0.1
 	}
 	modifier = {
-		factor = 0.9
+		factor = 0.85
 		unemployment = 0.15
 	}
 	modifier = {
-		factor = 0.9
+		factor = 0
 		unemployment = 0.2
-	}
-	modifier = {
-		factor = 0.9
-		unemployment = 0.25
-	}
-	modifier = {
-		factor = 0.9
-		unemployment = 0.3
-	}
-	modifier = {
-		factor = 0.9
-		unemployment = 0.35
-	}
-	modifier = {
-		factor = 0.1
-		unemployment = 0.5
-	}
-	modifier = {
-		factor = 1.2
-		is_greater_power = yes
 	}
 	modifier = {
 		factor = 2.0
 		has_pop_culture = THIS
-	}
-	modifier = {
-		factor = 1.05
-		vote_franschise = wealth_voting
-	}
-	modifier = {
-		factor = 1.25
-		vote_franschise = universal_weighted_voting
-	}
-	modifier = {
-		factor = 1.5
-		vote_franschise = universal_voting
 	}
 	modifier = {
 		factor = 4.0
@@ -103,7 +71,7 @@ country_migration_target =
 			continent = oceania
 		}
 	}
-	modifier = {
+		modifier = {
 		factor = 0.1
 		NOT = {
 			any_owned_province = {

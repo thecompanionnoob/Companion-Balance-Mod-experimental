@@ -788,6 +788,12 @@ acquire_state_tiny = {
 				}
 			}
 			AND = {
+				civilized = yes
+				THIS = {
+					civilized = no
+				}
+			}
+			AND = {
 				civilized = no
 				THIS = {
 					civilized = no
@@ -873,6 +879,12 @@ acquire_state_small = {
 				civilized = yes
 				THIS = {
 					civilized = yes
+				}
+			}
+			AND = {
+				civilized = yes
+				THIS = {
+					civilized = no
 				}
 			}
 			AND = {
@@ -967,6 +979,12 @@ acquire_state_medium = {
 				}
 			}
 			AND = {
+				civilized = yes
+				THIS = {
+					civilized = no
+				}
+			}
+			AND = {
 				civilized = no
 				THIS = {
 					civilized = no
@@ -1058,6 +1076,12 @@ acquire_state_large = {
 				}
 			}
 			AND = {
+				civilized = yes
+				THIS = {
+					civilized = no
+				}
+			}
+			AND = {
 				civilized = no
 				THIS = {
 					civilized = no
@@ -1146,6 +1170,12 @@ acquire_state_huge = {
 				civilized = yes
 				THIS = {
 					civilized = yes
+				}
+			}
+			AND = {
+				civilized = yes
+				THIS = {
+					civilized = no
 				}
 			}
 			AND = {

@@ -1,0 +1,19 @@
+country_event = {
+	id = 69019
+	title = "EVTNAME69019"
+	desc = "EVTDESC69019"
+	
+	trigger = {
+	    tag = ENG
+	}
+
+    immediate = { #cant be cheesed with rehosts and shiz
+        add_country_modifier = { name = corn_laws duration = -1 }
+    }
+
+    fire_only_once = yes
+	
+	option = {
+		name = "EVTOPTA69019"
+	}
+}
