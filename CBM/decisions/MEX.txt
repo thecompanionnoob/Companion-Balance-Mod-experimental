@@ -3,8 +3,10 @@ political_decisions = {
 		potential = {
 			tag = MEX
 		 	NOT = {
-				has_country_flag = mexico_go_south
-				has_country_flag = north_america
+                OR = {
+				    has_country_flag = mexico_go_south
+				    has_country_flag = north_america
+                }
 			}
 		}
 		allow = {
@@ -40,6 +42,7 @@ political_decisions = {
 			}
 		}
 		effect = {
+            set_country_flag = north_america
 			add_country_modifier = { name = MEX_north_america_win duration = -1 } #assimilation rate +75%
 			prestige = 25
 			badboy = 5
@@ -97,8 +100,10 @@ political_decisions = {
 		potential = {
 			tag = MEX
 		 	NOT = {
-				has_country_flag = mexico_go_south
-				has_country_flag = north_america
+                OR = {
+				    has_country_flag = mexico_go_south
+				    has_country_flag = north_america
+                }
 			}
 		}
 		allow = {
@@ -110,6 +115,7 @@ political_decisions = {
 			}
 		}
 		effect = {
+            set_country_flag = mexico_go_south
 			add_accepted_culture = north_andean
 			prestige = 25
 			badboy = 5
