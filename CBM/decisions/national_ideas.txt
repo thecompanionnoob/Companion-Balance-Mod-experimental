@@ -136,7 +136,7 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 				has_country_modifier = national_idea_timer
 			}
 			NOT = {
-				has_country_flag = army_quantity_idea_done
+				has_country_modifier = army_quantity_idea
 			}
 			NOT = {
 				OR = {
@@ -156,7 +156,6 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 		effect = {
 			clr_country_flag = national_ideas_enabled
 			clr_country_flag = national_idea_reminder
-			set_country_flag = army_quantity_idea_done
 			add_country_modifier = { name = army_quantity_idea duration = -1 }
 			add_country_modifier = { name = national_idea_timer duration = 5475 }
 		}
