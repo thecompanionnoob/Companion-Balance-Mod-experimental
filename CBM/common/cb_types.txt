@@ -448,18 +448,8 @@ conquest = {
 			}
 		}
 		NOT = { is_our_vassal = THIS }
-		# only one state or unciv
 		NOT = { number_of_states = 4 }
-		OR = {
-			AND = {
-				NOT = { total_pops = 2500000 }
-				NOT = { year = 1880 }
-			}
-			AND = {
-				NOT = { total_pops = 500000 }
-				year = 1880
-			}
-		}
+		NOT = { total_pops = 2500000 }
 		is_independant = yes
 	}
 
@@ -1880,7 +1870,7 @@ make_puppet = {
 			}
 		}
 		NOT = { is_our_vassal = THIS }
-		NOT = { number_of_states = 4 }
+		NOT = { total_pops = 2500000 }
 		is_greater_power = no
 		is_vassal = no
 	}

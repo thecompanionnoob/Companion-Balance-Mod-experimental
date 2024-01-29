@@ -27,11 +27,12 @@ BUGFIXES/QoL:
 *Fixed broken Mexican decisions.
 *Added ghost army/navy automatic removal. TODO non-functional
 *Prevented sphering and declaring war on the world bank nation & ghost army removal nation. 
-*TODO readded puppeting nations, somehow this was removed at some point.
 *Fixed Prussian-owned African island lacking continent (causes crash).
 *Fixed industry ideas, the output bonus was not being applied and the input bonus was actually a malus.
 *Added missing port in Valera.
 *Fixed 3 LR provinces in Philippines, India, South Africa, Africa, Canada, USCA, and the Caribbean.
+*Made Puppeting nations allowed as long as they have under 2.5m pop.
+*Made conquest CB available as long as the conquest target has less than 4 states and less than 2.5m pop.
 
 
 
