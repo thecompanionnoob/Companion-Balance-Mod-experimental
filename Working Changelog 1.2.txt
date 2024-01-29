@@ -21,14 +21,17 @@ CHANGES FOR ALL COUNTRIES:
 *TODO redid promotion.
 
 
-BUGFIXES:
+BUGFIXES/QoL:
+
 *Yuan now has an adjective.
-*Fixed broken Mexico decisions potential.
-*TODO added ghost army/navy automatic removal.
-*TODO prevented sphering and declaring war on the world bank nation.
+*Fixed broken Mexican decisions.
+*Added ghost army/navy automatic removal. TODO non-functional
+*Prevented sphering and declaring war on the world bank nation & ghost army removal nation. 
 *TODO readded puppeting nations, somehow this was removed at some point.
 *Fixed Prussian-owned African island lacking continent (causes crash).
 *Fixed industry ideas, the output bonus was not being applied and the input bonus was actually a malus.
+*Added missing port in Valera.
+*Fixed 3 LR provinces in Philippines, India, South Africa, Africa, Canada, USCA, and the Caribbean.
 
 
 

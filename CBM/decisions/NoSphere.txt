@@ -1,0 +1,22 @@
+political_decisions = {
+	unsphere_me_please = {
+		potential = {
+			OR = {
+				tag = GHO
+				tag = BNK
+			}
+		}
+		allow = { part_of_sphere = yes }
+		effect = {
+			sphere_owner = {
+				diplomatic_influence = {
+					who = THIS
+					value = -200
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
