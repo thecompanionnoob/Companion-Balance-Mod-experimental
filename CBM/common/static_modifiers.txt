@@ -216,12 +216,15 @@ generalised_debt_default = {
 	
 }
 
+
+#100 * this * pct of occupied home provinces
 total_occupation = {
-	war_exhaustion = 0.5				#increased by war exhaustion.
+	war_exhaustion = 0.05 #vanilla is 0.05
 }
 
+#this * pct of home ports blockaded
 total_blockaded = {
-	war_exhaustion = 0.5				#increased by war exhaustion.  
+	war_exhaustion = 0.35 #vanilla is 0.5
 }
 
 in_bankrupcy = {
