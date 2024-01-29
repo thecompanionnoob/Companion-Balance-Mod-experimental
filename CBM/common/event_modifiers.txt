@@ -825,8 +825,8 @@ economic_idea = {
 industry_idea = {
 	icon = 3
 	factory_throughput = 0.05
-	factory_input = 0.10
-	factory_ouput = 0.10
+	factory_input = -0.10
+	factory_output = 0.10
 	factory_cost = -0.20
 	industry_tech_research_bonus = 0.05
 }
