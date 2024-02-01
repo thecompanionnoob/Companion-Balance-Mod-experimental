@@ -19,6 +19,8 @@ CHANGES FOR ALL COUNTRIES:
 *TODO increased rp gain of uncivs. (... perhaps give them the first rp tech?)
 *TODO perhaps add promotion as an aspect of ideas.
 *TODO redid promotion.
+*Made Puppeting nations allowed as long as they have under 2.5m pop.
+*Made conquest CB available as long as the conquest target has less than 4 states and less than 2.5m pop.
 
 
 BUGFIXES/QoL:
@@ -31,8 +33,6 @@ BUGFIXES/QoL:
 *Fixed industry ideas, the output bonus was not being applied and the input bonus was actually a malus.
 *Added missing port in Valera.
 *Fixed 3 LR provinces in Philippines, India, South Africa, Africa, Canada, USCA, and the Caribbean.
-*Made Puppeting nations allowed as long as they have under 2.5m pop.
-*Made conquest CB available as long as the conquest target has less than 4 states and less than 2.5m pop.
 
 
 
