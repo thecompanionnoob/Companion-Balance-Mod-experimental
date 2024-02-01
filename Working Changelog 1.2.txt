@@ -10,7 +10,7 @@ CHANGES FOR ALL COUNTRIES:
 *Increased militancy required for rebels to pop.
 *Made it so that uncivs may declare for take state on civilized nations.
 *Moved unciv mob buff from being a triggered modifier to just changing the static modifier of uncivs. (technical change that shouldn't have gameplay impact)
-*Increased WE gain from full occupation.
+*Reduced WE gain from blockades.
 *Reduced education efficiency gain from tech from 20% to 15% per tech. (TODO... test low lit nations, this might be better reverted)
 *TODO added ability to take capitals of uncivs without using annexation cb.
 *Simplified the system and emphasized economic factors for migration targets.
@@ -33,6 +33,7 @@ BUGFIXES/QoL:
 *Fixed industry ideas, the output bonus was not being applied and the input bonus was actually a malus.
 *Added missing port in Valera.
 *Fixed 3 LR provinces in Philippines, India, South Africa, Africa, Canada, USCA, and the Caribbean.
+*Removed erroneous text in buildings.txt file.
 
 
 
