@@ -47,6 +47,9 @@ TODO these are very much subject to change ^^^
 Danubia:
 *Improved Danubian Flags.
 
+Portugal-Brazil:
+*Improved Portugese-Brazilian Flags.
+
 Japan:
 *Redid Japanese states, there are now more (~3-4 provinces per state) (TODO look at these a bit, biggest state still has 1m pop...)
 
