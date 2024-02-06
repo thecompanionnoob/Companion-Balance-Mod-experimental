@@ -27,7 +27,7 @@ BUGFIXES/QoL:
 
 *Yuan now has an adjective.
 *Fixed broken Mexican decisions.
-*Added ghost army/navy automatic removal. TODO non-functional
+*Added ghost army/navy automatic removal. TODO does not seem to work for navies (cur implementation only works for belgium, as a test.)
 *Prevented sphering and declaring war on the world bank nation & ghost army removal nation. 
 *Fixed Prussian-owned African island lacking continent (causes crash).
 *Fixed industry ideas, the output bonus was not being applied and the input bonus was actually a malus.
