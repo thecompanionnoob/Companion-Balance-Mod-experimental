@@ -340,7 +340,7 @@ malthusian_thought = {
 	cost = 3600
 
 	colonial_migration = 0.05
-	education_efficiency = 0.15
+	education_efficiency = 0.2
 	
 	ai_chance = {
 		factor = 1.01
@@ -363,7 +363,7 @@ positivism = {
 	year = 1836
 	cost = 7200
 	colonial_migration = 0.05
-	education_efficiency = 0.15
+	education_efficiency = 0.2
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -383,7 +383,7 @@ functionalism = {
 	cost = 10800
 
 	colonial_migration = 0.05
-	education_efficiency = 0.15
+	education_efficiency = 0.2
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -403,7 +403,7 @@ biologism = {
 	cost = 14400
 
 	colonial_migration = 0.05
-	education_efficiency = 0.15
+	education_efficiency = 0.2
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -423,7 +423,7 @@ social_science = {
 	cost = 18000
 
 	colonial_migration = 0.05
-	education_efficiency = 0.15
+	education_efficiency = 0.2
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -443,7 +443,7 @@ social_alienation = {
 	cost = 21600
 	
 	colonial_migration = 0.05
-	education_efficiency = 0.15
+	education_efficiency = 0.2
 	ai_chance = {
 		factor = 1.01
 		modifier = {

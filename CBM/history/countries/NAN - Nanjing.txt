@@ -45,10 +45,11 @@ land_reform = yes_land_reform
 foreign_weapons = yes_foreign_weapons
 admin_reform = yes_admin_reform
 
-oob = "NAN_oob.txt"
-
 #tech
+late_enlightenment_philosophy = 1
 flintlock_rifles = 1
+
+oob = "NAN_oob.txt"
 
 # Starting Consciousness
 consciousness = 2

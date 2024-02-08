@@ -11,16 +11,15 @@ CHANGES FOR ALL COUNTRIES:
 *Made it so that uncivs may declare for take state on civilized nations.
 *Moved unciv mob buff from being a triggered modifier to just changing the static modifier of uncivs. (technical change that shouldn't have gameplay impact)
 *Reduced WE gain from blockades.
-*Reduced education efficiency gain from tech from 20% to 15% per tech. (TODO... test low lit nations, this might be better reverted)
 *TODO added ability to take capitals of uncivs without using annexation cb.
 *Simplified the system and emphasized economic factors for migration targets.
 *Set conversion chance to 0 and removed all other factors on the offchance that it affects performance.
 *TODO changed starting generals so that they are gained by event, so ai wont get the generals. (they still only appear if a player is on the nation before 1840, they're for the start of the game)
-*TODO increased rp gain of uncivs. (... perhaps give them the first rp tech?)
 *TODO perhaps add promotion as an aspect of ideas.
 *TODO redid promotion.
 *Made Puppeting nations allowed as long as they have under 2.5m pop.
 *Made conquest CB available as long as the conquest target has less than 4 states and less than 2.5m pop.
+*Made "Inhospitable Climate" equal to "Harsh Climate" for supply limit.
 
 
 BUGFIXES/QoL:
@@ -64,3 +63,10 @@ All American nations but Canada and USA:
 
 Haiti:
 *Gave Cuba to Spain (TODO)
+
+China:
+*Gave Chinese nations the first research points tech.
+
+Pakistan:
+*Made Pakistan start as civilized with equivalent tech to Persia.
+*Buffed literacy from 2% to 6%

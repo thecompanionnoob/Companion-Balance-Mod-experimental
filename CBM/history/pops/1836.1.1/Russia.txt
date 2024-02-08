@@ -9327,6 +9327,31 @@
 		size = 7650
 	}
 }
+3254 = {
+	aristocrats = {
+		culture = russian
+		religion = sunni
+		size = 50
+	}
+
+	clergymen = {
+		culture = russian
+		religion = sunni
+		size = 175
+	}
+
+	soldiers = {
+		culture = russian
+		religion = sunni
+		size = 300
+	}
+
+	farmers = {
+		culture = russian
+		religion = sunni
+		size = 7650
+	}
+}
 #under the rule of China in 1836
 #Yaksa (52000/13000 POPS)
 1081 = {

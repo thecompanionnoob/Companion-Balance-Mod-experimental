@@ -1076,7 +1076,7 @@ province;red;green;blue;x;x
 1075;104;34;110;Irkutsk;x
 1076;160;160;96;Chunskoye;x
 1077;35;34;255;Krasnoyarsk;x
-1078;105;155;146;Chita;x
+1078;105;155;146;Verkhneudinsk;x
 1079;96;160;96;Gazimursky Zavod;x
 1080;160;160;223;Bauntovskiy;x
 1081;160;32;224;Yaksa;x
@@ -3250,9 +3250,9 @@ province;red;green;blue;x;x
 3249;54;14;244;Rodrigues;x
 3250;55;14;248;Sal;x
 3251;56;14;232;Boa Vista;x
-3252;57;14;236;Nerchinsk;
-3253;58;14;240;siberia_2;
-;59;14;244;x;
+3252;57;14;236;Nerchinsk;x
+3253;58;14;240;Mogocha;x
+3254;59;14;244;Chita;x
 ;60;14;248;x;
 ;61;14;232;x;
 ;62;14;236;x

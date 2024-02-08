@@ -49,6 +49,7 @@ oob = "MCK_oob.txt"
 
 #tech
 flintlock_rifles = 1
+late_enlightenment_philosophy = 1
 
 # Starting Consciousness
 consciousness = 2

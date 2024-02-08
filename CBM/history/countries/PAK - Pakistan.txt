@@ -4,7 +4,8 @@ religion = sunni
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_none
-literacy = 0.02
+literacy = 0.06
+civilized = yes 
 
 ruling_party = GNR_conservative
 upper_house = {
@@ -23,16 +24,23 @@ nonstate_consciousness = 0
 
 oob = "PAK_oob.txt"
 
-#unciv reforms
-foreign_training = yes_foreign_training
-foreign_weapons = yes_foreign_weapons
-military_constructions = yes_military_constructions #debatable if this should be here, we'll see how it works out
 
-#tech
-flintlock_rifles = 1
 post_napoleonic_thought = 1
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+army_command_principle = 1
+post_nelsonian_thought = 1
+the_command_principle = 1
+private_banks = 1
+no_standard = 1
+guild_based_production = 1
+classicism_n_early_romanticism = 1
+late_enlightenment_philosophy = 1
+enlightenment_thought = 1
+water_wheel_power = 1
+publishing_industry = 1
 
-#normal reforms
+
 slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting

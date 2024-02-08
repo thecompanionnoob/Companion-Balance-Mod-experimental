@@ -246,6 +246,7 @@ minor_conquest = {
 				year = 1910
 			}
 		}
+		civilized = yes 
 		NOT = { number_of_states = 4 }
 	}
 
@@ -451,6 +452,7 @@ conquest = {
 		NOT = { number_of_states = 4 }
 		NOT = { total_pops = 2500000 }
 		is_independant = yes
+		civilized = yes 
 	}
 
 	badboy_factor = 2.2
@@ -2041,7 +2043,6 @@ demand_concession_casus_belli = {
 		any_owned_province = {
 			is_colonial = no
 		}
-		not = { any_owned_province = { is_capital = yes } }
 	}
 	
 	po_demand_state = yes
@@ -2095,18 +2096,16 @@ establish_protectorate_casus_belli = {
 		}
 		OR = {
 			NOT = {
-				number_of_states = 2 
+				total_pops = 2500000
 			}
 			AND = {
 				THIS = {
-					AND = {
-						is_greater_power = yes
-						nationalism_n_imperialism = 1
-					}
+					nationalism_n_imperialism = 1
 				}
-				NOT = { number_of_states = 5 }
+				NOT = { total_pops = 5000000 }
 			}
 		}
+		NOT = { number_of_states = 4 }
 		civilized = no
 	}
 	
