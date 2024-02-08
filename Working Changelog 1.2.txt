@@ -20,6 +20,7 @@ CHANGES FOR ALL COUNTRIES:
 *Made Puppeting nations allowed as long as they have under 2.5m pop.
 *Made conquest CB available as long as the conquest target has less than 4 states and less than 2.5m pop.
 *Made "Inhospitable Climate" equal to "Harsh Climate" for supply limit.
+*Adjusted state size thresholds for CBs.
 
 
 BUGFIXES/QoL:
@@ -33,6 +34,7 @@ BUGFIXES/QoL:
 *Added missing port in Valera.
 *Fixed 3 LR provinces in Philippines, India, South Africa, Africa, Canada, USCA, and the Caribbean.
 *Removed erroneous text in buildings.txt file.
+*Added state size being assigned by an annual event that assigns cores, so you can see what size a state is.
 
 
 

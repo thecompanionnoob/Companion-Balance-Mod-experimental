@@ -1,0 +1,20 @@
+early (pre 1866):
+tiny - <125k
+small - >125k <250k
+medium - >250k <350k
+large - >350k <550k
+huge - >550k
+
+middle (pre 1896 post 1866):
+tiny - <200k
+small - >200k <375k
+medium - >375k <600k
+large - >600k <800k
+huge - >800k
+
+late (post 1896):
+tiny - <300k
+small - >300k <550k
+medium - >550k <800k
+large - >800k <1250k
+huge - >1250k

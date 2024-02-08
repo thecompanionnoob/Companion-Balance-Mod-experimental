@@ -861,21 +861,10 @@ acquire_state_tiny = {
 			not = {	is_core = THIS }
 			is_colonial = no
 		}
-        OR = {
-            AND = {
-		        NOT = { total_pops = 50000 }
-                NOT = { year = 1866 }
-            }
-            AND = {
-                NOT = { total_pops = 75000 }
-                year = 1866
-                NOT = { year = 1896 }
-            }
-            AND = {
-                NOT = { total_pops = 125000 }
-                year = 1896
-            }
-        }
+		any_owned_province = {
+			is_core = TNY
+		}
+        
 	}
 	
 	allowed_states_in_crisis = {
@@ -961,24 +950,9 @@ acquire_state_small = {
 			not = {	is_core = THIS }
 			is_colonial = no
 		}
-        OR = {
-            AND = {
-                total_pops = 50000
-		        NOT = { total_pops = 100000 }
-                NOT = { year = 1866 }
-            }
-            AND = {
-                total_pops = 75000
-                NOT = { total_pops = 150000 }
-                year = 1866
-                NOT = { year = 1896 }
-            }
-            AND = {
-                total_pops = 125000
-                NOT = { total_pops = 250000 }
-                year = 1896
-            }
-        }
+		any_owned_province = {
+			is_core = SMA
+		}
 	}
 	
 	allowed_states_in_crisis = {
@@ -1064,24 +1038,9 @@ acquire_state_medium = {
 			not = {	is_core = THIS }
 			is_colonial = no
 		}
-        OR = {
-            AND = {
-                total_pops = 100000
-		        NOT = { total_pops = 150000 }
-                NOT = { year = 1866 }
-            }
-            AND = {
-                total_pops = 150000
-                NOT = { total_pops = 225000 }
-                year = 1866
-                NOT = { year = 1896 }
-            }
-            AND = {
-                total_pops = 250000
-                NOT = { total_pops = 375000 }
-                year = 1896
-            }
-        }
+		any_owned_province = {
+			is_core = MED
+		}
 	}
 	
 	allowed_states_in_crisis = {
@@ -1167,24 +1126,9 @@ acquire_state_large = {
 			not = {	is_core = THIS }
 			is_colonial = no
 		}
-        OR = {
-            AND = {
-                total_pops = 150000
-		        NOT = { total_pops = 200000 }
-                NOT = { year = 1866 }
-            }
-            AND = {
-                total_pops = 225000
-                NOT = { total_pops = 300000 }
-                year = 1866
-                NOT = { year = 1896 }
-            }
-            AND = {
-                total_pops = 375000
-                NOT = { total_pops = 500000 }
-                year = 1896
-            }
-        }
+		any_owned_province = {
+			is_core = LRG
+		}
 	}
 	
 	allowed_states_in_crisis = {
@@ -1270,21 +1214,9 @@ acquire_state_huge = {
 			not = {	is_core = THIS }
 			is_colonial = no
 		}
-        OR = {
-            AND = {
-                total_pops = 200000
-                NOT = { year = 1866 }
-            }
-            AND = {
-                total_pops = 300000
-                year = 1866
-                NOT = { year = 1896 }
-            }
-            AND = {
-                total_pops = 500000
-                year = 1896
-            }
-        }
+		any_owned_province = {
+			is_core = HUG
+		}
 	}
 	
 	allowed_states_in_crisis = {

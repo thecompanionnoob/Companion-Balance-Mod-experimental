@@ -141,6 +141,13 @@ JAN 	= "countries/JanMayen.txt" #CBM - placeholder tag used for setup decisions
 BNK	= "countries/Bankers.txt" #CBM - world bank like from victoria universalis
 GHO = "countries/Ghostland.txt" #CBM - country for deleting ghost armies and navies
 
+#State Size Tags - CBM
+TNY		="countries/TinyState.txt"
+SML		="countries/SmallState.txt"
+MED		="countries/MediumState.txt"
+LRG		="countries/LargeState.txt"
+HUG		="countries/HugeState.txt"
+
 
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions
