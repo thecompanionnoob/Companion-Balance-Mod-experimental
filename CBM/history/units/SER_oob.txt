@@ -36,16 +36,53 @@ army = {
 	location = 794
 	regiment = {
 		name= "1st Serbian Infantry"
-		type = infantry
+		type = hussar
 		home = 794
 	}
-
 	regiment = {
 		name= "2nd Serbian Infantry"
 		type = infantry
 		home = 795
 	}
-
-
+		regiment = {
+		name= "2nd Serbian Infantry"
+		type = infantry
+		home = 796
+	}
+		regiment = {
+		name= "2nd Serbian Infantry"
+		type = infantry
+		home = 797
+	}
+		regiment = {
+		name= "2nd Serbian Infantry"
+		type = infantry
+		home = 798
+	}
+		regiment = {
+		name= "2nd Serbian Infantry"
+		type = artillery
+		home = 804
+	}
+		regiment = {
+		name= "2nd Serbian Infantry"
+		type = artillery
+		home = 802
+	}
+		regiment = {
+		name= "2nd Serbian Infantry"
+		type = artillery
+		home = 799
+	}
+		regiment = {
+		name= "2nd Serbian Infantry"
+		type = artillery
+		home = 803
+	}
+	regiment = {
+		name= "2nd Serbian Infantry"
+		type = artillery
+		home = 2583
+	}
 }
 

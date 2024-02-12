@@ -35,7 +35,7 @@ army = {
 	location = 664
 	regiment = {
 		name = "1. Infantry"
-		type = infantry
+		type = hussar
 		home = 664
 	}
 	regiment = {
@@ -51,16 +51,36 @@ army = {
 	regiment = {
 		name = "1. Infantry"
 		type = infantry
-		home = 674
+		home = 670
 	}
 	regiment = {
 		name = "1. Infantry"
 		type = infantry
-		home = 675
+		home = 667
 	}
 	regiment = {
 		name = "1. Infantry"
-		type = infantry
+		type = artillery
+		home = 670
+	}
+		regiment = {
+		name = "1. Infantry"
+		type = artillery
+		home = 672
+	}
+		regiment = {
+		name = "1. Infantry"
+		type = artillery
+		home = 673
+	}
+		regiment = {
+		name = "1. Infantry"
+		type = artillery
+		home = 672
+	}
+		regiment = {
+		name = "1. Infantry"
+		type = artillery
 		home = 670
 	}
 }

@@ -36,7 +36,7 @@ army = {
 	location = 836
 	regiment = {
 		name= "1. Taxiarchia Pezikou"
-		type = infantry
+		type = hussar
 		home = 834
 	}
 
@@ -57,21 +57,35 @@ army = {
 		type = infantry
 		home = 838
 	}
-}
-
-army = {
-	name = "Stratós Epeírou"
-	location = 837
 	regiment = {
 		name= "5. Taxiarchia Pezikou"
 		type = infantry
 		home = 837
 	}
-
 	regiment = {
 		name= "6. Taxiarchia Pezikou"
-		type = infantry
+		type = artillery
 		home = 841
+	}
+	regiment = {
+		name= "7. Taxiarchia Pezikou"
+		type = artillery
+		home = 834
+	}
+	regiment = {
+		name= "8. Taxiarchia Pezikou"
+		type = artillery
+		home = 840
+	}
+	regiment = {
+		name= "9. Taxiarchia Pezikou"
+		type = artillery
+		home = 839
+	}
+	regiment = {
+		name= "10. Taxiarchia Pezikou"
+		type = artillery
+		home = 842
 	}
 }
 
