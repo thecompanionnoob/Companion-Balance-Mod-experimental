@@ -41,13 +41,14 @@ political_decisions = {
 
         ### IBERIAN UNION EXCLUSIVE ###
 
-	SPA_accept_portuguese = {
+	SPA_accept_portuguese_owns = {
 		potential = {
 			tag = SPA
 			NOT = {
 				has_country_flag = portuguese_accepted
 			}
            		has_country_flag = iberian_union
+            NOT = { is_our_vassal = POR }
 		}
 		allow = {
 			ideological_thought = 1
@@ -63,6 +64,33 @@ political_decisions = {
 			factor = 1
 		}
 	}
+    SPA_accept_portuguese_puppet = {
+        potential = {
+            tag = SPA
+            NOT = {
+				has_country_flag = portuguese_accepted
+			}
+           	has_country_flag = iberian_union
+            is_our_vassal = POR
+		}
+		allow = {
+			ideological_thought = 1
+            is_our_vassal = POR
+		}
+		effect = {
+            POR = {
+                annex_to = THIS
+            }
+			add_accepted_culture = portuguese
+			badboy = 5
+			prestige = 15
+			set_country_flag = portuguese_accepted
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+         
 
         ### SPANISH EMPIRE EXCLUSIVE ###
 

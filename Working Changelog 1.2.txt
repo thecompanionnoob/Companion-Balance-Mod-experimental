@@ -9,7 +9,6 @@ CHANGES FOR ALL COUNTRIES:
 *National Focuses are now more powerful.
 *Increased militancy required for rebels to pop.
 *Made it so that uncivs may declare for take state on civilized nations.
-*Moved unciv mob buff from being a triggered modifier to just changing the static modifier of uncivs. (technical change that shouldn't have gameplay impact)
 *Reduced WE gain from blockades.
 *TODO added ability to take capitals of uncivs without using annexation cb.
 *Simplified the system and emphasized economic factors for migration targets.
@@ -42,6 +41,7 @@ BUGFIXES/QoL:
 *Removed erroneous text in buildings.txt file.
 *Added state size being assigned by an annual event that assigns cores, so you can see what size a state is.
 *Slightly optimized handling of National Idea modifiers and decisions.
+*Moved unciv mob buff from being a triggered modifier to just changing the static modifier of uncivs. (technical change that shouldn't have gameplay impact)
 
 
 
@@ -66,8 +66,8 @@ Russia:
 *Allowed Russia to take quantity ideas.
 
 Spain:
-*Figure out a buff (TODO)
 *Buffed Spanish Literacy from 13% to 35%.
+*Allowed Spain to annex Portugal and get Portuguese accepted w/ Ideological Thought if they take Iberian Union route and puppet Portugal.
 
 All American nations but Canada and USA:
 *Added Tech (TODO)
