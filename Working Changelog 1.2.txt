@@ -21,6 +21,7 @@ CHANGES FOR ALL COUNTRIES:
 *Made conquest CB available as long as the conquest target has less than 4 states and less than 2.5m pop.
 *Made "Inhospitable Climate" equal to "Harsh Climate" for supply limit.
 *Adjusted state size thresholds for CBs.
+*Made it so that "Land! Liberty! Labor!" & "Baby Boom" both last for 6 months.
 
 
 BUGFIXES/QoL:
@@ -35,6 +36,7 @@ BUGFIXES/QoL:
 *Fixed 3 LR provinces in Philippines, India, South Africa, Africa, Canada, USCA, and the Caribbean.
 *Removed erroneous text in buildings.txt file.
 *Added state size being assigned by an annual event that assigns cores, so you can see what size a state is.
+*Slightly optimized handling of National Idea modifiers and decisions.
 
 
 
@@ -56,6 +58,7 @@ Japan:
 
 Russia:
 *Added more provinces in Siberia to make warfare there more varied and interesting. (TODO, partially done)
+*Allowed Russia to take quantity ideas.
 
 Spain:
 *Figure out a buff (TODO)
@@ -72,3 +75,4 @@ China:
 Pakistan:
 *Made Pakistan start as civilized with equivalent tech to Persia.
 *Buffed literacy from 2% to 6%
+

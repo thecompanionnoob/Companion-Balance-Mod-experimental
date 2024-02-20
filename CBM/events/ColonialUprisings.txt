@@ -1167,7 +1167,7 @@ country_event = {
 			any_owned = {
 				add_province_modifier = {
 					name = colonial_recruitment
-					duration = 7300
+					duration = 182
 				}
 			}
 		}
@@ -1182,7 +1182,7 @@ country_event = {
 			any_owned = {
 				add_province_modifier = {
 					name = baby_boom
-					duration = 1825
+					duration = 182
 				}
 			}
 		}
