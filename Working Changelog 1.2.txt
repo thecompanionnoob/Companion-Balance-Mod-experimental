@@ -42,6 +42,7 @@ BUGFIXES/QoL:
 *Added state size being assigned by an annual event that assigns cores, so you can see what size a state is.
 *Slightly optimized handling of National Idea modifiers and decisions.
 *Moved unciv mob buff from being a triggered modifier to just changing the static modifier of uncivs. (technical change that shouldn't have gameplay impact)
+*Ensured that the World Bank demanded all goods as much as possible.
 
 
 

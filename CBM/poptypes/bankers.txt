@@ -20,33 +20,61 @@ rebel =
 }
 
 everyday_needs = {
-	rubber = 3000
-	tropical_wood = 2000
-	silk = 2000
-	dye = 2000
-	artillery = 6000
-	aeroplanes = 1000
-	fuel = 3000
-	small_arms = 6000
-	ammunition = 6000
-	canned_food = 12000
-	cotton = 5000
-	tobacco = 4000
-	wool = 15000
-	sulphur = 2500
-	timber = 5000
-	coal = 10000
-	iron = 10000
-	oil = 3000
-	clipper_convoy = 3000
-	steamer_convoy = 3000
-	grain = 40000
-	fruit = 15000
-	fish = 20000
-	cattle = 15000
-	opium = 4000
-	tea = 4000
-	coffee = 4000
+
+    #mil goods
+    ammunition = 40000
+    small_arms = 40000
+    artillery = 40000
+    canned_food = 40000
+    barrels = 40000
+    aeroplanes = 40000
+
+    #raw goods
+    cotton = 40000
+    dye = 40000
+    wool = 40000
+    silk = 40000
+    coal = 40000
+    sulphur = 40000
+    iron = 40000
+    timber = 40000
+    tropical_wood = 40000
+    rubber = 40000
+    oil = 40000
+
+    #industrial goods
+    steel = 40000
+    cement = 40000
+    machine_parts = 40000
+    glass = 40000
+    fuel = 40000
+    fertilizer = 40000
+    explosives = 40000
+    clipper_convoy = 40000
+    steamer_convoy = 40000
+    electric_gear = 40000
+    fabric = 40000
+    lumber = 40000
+
+    #consumer goods
+    paper = 40000
+    cattle = 40000
+    fish = 40000
+    fruit = 40000
+    grain = 40000
+    tobacco = 40000
+    tea = 40000
+    coffee = 40000
+    opium = 40000
+    automobiles = 40000
+    telephones = 40000
+    wine = 40000
+    liquor = 40000
+    regular_clothes = 40000
+    luxury_clothes = 40000
+    furniture = 40000
+    luxury_furniture = 40000
+    radio = 40000
 }
 
 life_needs = {
