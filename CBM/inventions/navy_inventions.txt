@@ -1,17 +1,53 @@
 naval_ideas = {
 	limit = { 
 		post_nelsonian_thought = 1 
-		has_country_flag = naval_idea_done #need to put here so it is not unlocked from the start
+		has_country_modifier = naval_idea #need to put here so it is not unlocked from the start
 	}
 	chance = {
 		base = 0
 		modifier = {
 			factor = 100
-			has_country_flag = naval_idea_done
+			has_country_modifier = naval_idea
 		}
 	}
 	effect = {
-		navy_base = { build_time = -60 }
+		navy_base = { 
+			maximum_speed = 1
+        }
+
+        #-20% build time
+
+        clipper_transport = {
+            build_time = -18 # 90 -> 72
+        }
+        frigate = {
+            build_time = -36 # 180 -> 144
+        }
+        manowar = {
+            build_time = -72 # 360 -> 288
+        }
+        steam_transport = {
+            build_time = -18 # 90 -> 72
+        }
+        commerce_raider = {
+            build_time = -72 # 360 -> 288
+        }
+        monitor = {
+            build_time = -72 # 360 -> 288
+        }
+        ironclad = {
+            build_time = -72 # 360 -> 288
+        }
+        cruiser = {
+            build_time = -48 # 240 -> 192
+        }
+        battleship = {
+            build_time = -72 # 360 -> 288
+        }
+        dreadnought = {
+            build_time = -72 # 360 -> 288
+        }
+        
 	}
 }
 #torpedo attacks

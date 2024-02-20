@@ -379,7 +379,7 @@ migration_chance =
 #general colonial migration mtth, same for all pops
 colonialmigration_chance = 
 {
-	factor = 0.25
+	factor = 1
 
 	modifier = {
 		factor = -0.5
@@ -447,6 +447,14 @@ colonialmigration_chance =
 		}
 		
 	}
+    modifier = {
+        factor = -5
+        OR = {
+            continent = europe
+            continent = africa
+            continent = asia
+        }
+    }
 }
 
 #general emigration chance
@@ -550,7 +558,7 @@ emigration_chance =
 		state_scope = { is_colonial = yes }
 	}
 	modifier = {
-		factor = -0.3
+		factor = -0.2
 		OR = {
 			culture = nanfaren
 			culture = beifaren

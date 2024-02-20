@@ -809,9 +809,9 @@ healing_wounds = {
 ### NATIONAL IDEAS ###
 naval_idea = {
 	icon = 3
-	naval_organisation = 0.35
+	naval_organisation = 0.25
 	naval_unit_start_experience = 5
-	navy_tech_research_bonus = 0.10
+	navy_tech_research_bonus = 0.05
 }
 economic_idea = {
 	icon = 3
