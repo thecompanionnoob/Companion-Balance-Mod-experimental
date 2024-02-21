@@ -83,3 +83,9 @@ Pakistan:
 *Made Pakistan start as civilized with equivalent tech to Persia.
 *Buffed literacy from 2% to 6%
 
+Albania:
+*Divided Albania between Serbia and Greece.
+
+Italy:
+*Added a requirement for Italia Irredentia to own all cores, and added the removal of Italian Minors' cores with the decision.
+

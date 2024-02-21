@@ -115,11 +115,47 @@ political_decisions = {
 		
 		allow = {
 			is_greater_power = yes
+            has_unclaimed_cores = no
 		}
 		
 		effect = {
 			badboy = 5
 			set_country_flag = italia_ulterior
+            TUS = {
+                all_core = {
+                    remove_core = TUS
+                }
+            }
+            PAP = {
+                all_core = {
+                    remove_core = PAP
+                }
+            }
+            SIC = {
+                all_core = {
+                    remove_core = SIC
+                }
+            }
+            SAR = {
+                all_core = {
+                    remove_core = SAR
+                }
+            }
+            LUC = {
+                all_core = {
+                    remove_core = LUC
+                }
+            }
+            MOD = {
+                all_core = {
+                    remove_core = MOD
+                }
+            }
+            PAR = {
+                all_core = {
+                    remove_core = PAR
+                }
+            }
 			729 = {
 				add_core = ITA
 			}
