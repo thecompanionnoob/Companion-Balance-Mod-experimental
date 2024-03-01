@@ -23,9 +23,9 @@ CHANGES FOR ALL COUNTRIES:
 *Made it so that "Land! Liberty! Labor!" & "Baby Boom" both last for 6 months.
 *Halved WE bonuses from national values.
 *Reduced emigration nerf for China & India (aka pops will be quicker to emigrate now).
-*Buffed colonial migration and made colonial migration impossible in Asia, Africa, and Europe.
 *Made Naval Ideas' build time buff scale depending on the build time of the ship in question. It is now -20% of the base build speed of any given ship.
 *Reduced the organization and research bonuses of naval, and added a speed bonus.
+*Added a colonial migration national idea that enables colonial migration.
 
 
 BUGFIXES/QoL:

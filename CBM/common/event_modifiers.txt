@@ -863,6 +863,9 @@ army_quality_idea = {
 	org_regain = 0.25
 	army_tech_research_bonus = 0.03
 }
+colonial_migration_idea = {
+    icon = 3
+}
 
 extra_mob_1 = {
 	icon = 3
