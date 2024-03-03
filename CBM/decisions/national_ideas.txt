@@ -45,6 +45,46 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			add_country_modifier = { name = national_idea_timer duration = 5475 }
 		}
 	}
+    colonial_migration_decision = { #allows colonial migration
+        alert = no
+        potential = {
+            has_country_flag = national_ideas_enabled
+            NOT = {
+				has_country_modifier = national_idea_timer
+			}
+			NOT = {
+				has_country_modifier = economic_idea
+			}
+        }
+        allow = {}
+		effect = {
+			clr_country_flag = national_ideas_enabled
+			clr_country_flag = national_idea_reminder
+			add_country_modifier = { name = colonial_migration_idea duration = -1 }
+			add_country_modifier = { name = national_idea_timer duration = 5475 }
+             
+		}
+    }
+    colonial_migration_enable = {
+        potential = {
+            has_country_modifier = colonial_migration_idea
+            NOT = { has_country_flag = colonial_migration_idea }
+        }
+        allow = {}
+        effect = {
+            set_country_flag = colonial_migration_idea
+        }
+    }
+    colonial_migration_disable = {
+        potential = {
+            has_country_flag = colonial_migration_idea 
+        }
+        allow = {}
+        effect = {
+            clr_country_flag = colonial_migration_idea
+        }
+    }
+
 	economic_idea_decision = { #tax efficiency, RGO effeciency, general economic modifiers
 		alert = no
 		potential = {

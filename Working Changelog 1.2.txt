@@ -23,9 +23,11 @@ CHANGES FOR ALL COUNTRIES:
 *Made it so that "Land! Liberty! Labor!" & "Baby Boom" both last for 6 months.
 *Halved WE bonuses from national values.
 *Reduced emigration nerf for China & India (aka pops will be quicker to emigrate now).
-*Buffed colonial migration and made colonial migration impossible in Asia, Africa, and Europe.
 *Made Naval Ideas' build time buff scale depending on the build time of the ship in question. It is now -20% of the base build speed of any given ship.
 *Reduced the organization and research bonuses of naval, and added a speed bonus.
+*Added a colonial migration national idea that enables colonial migration.
+*Made the base tech school 0 on all techs instead of +5, and nerfed all tech schools to be +10 instead of +15.
+*Nerfed RP tech by 20% (multiplicitavely, so 50% -> 40% & 100% -> 80%).
 
 
 BUGFIXES/QoL:
@@ -43,6 +45,7 @@ BUGFIXES/QoL:
 *Slightly optimized handling of National Idea modifiers and decisions.
 *Moved unciv mob buff from being a triggered modifier to just changing the static modifier of uncivs. (technical change that shouldn't have gameplay impact)
 *Ensured that the World Bank demanded all goods as much as possible.
+*Made all RGOs always hire as much as possible.
 
 
 
@@ -81,11 +84,14 @@ China:
 
 Pakistan:
 *Made Pakistan start as civilized with equivalent tech to Persia.
-*Buffed literacy from 2% to 6%
+*Buffed literacy from 2% to 6%.
 
 Albania:
 *Divided Albania between Serbia and Greece.
 
 Italy:
 *Added a requirement for Italia Irredentia to own all cores, and added the removal of Italian Minors' cores with the decision.
+
+USA:
+*Made all colonies into states.
 
