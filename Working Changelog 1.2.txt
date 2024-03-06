@@ -15,7 +15,11 @@ CHANGES FOR ALL COUNTRIES:
 *Set conversion chance to 0 and removed all other factors on the offchance that it affects performance.
 *TODO changed starting generals so that they are gained by event, so ai wont get the generals. (they still only appear if a player is on the nation before 1840, they're for the start of the game)
 *TODO perhaps add promotion as an aspect of ideas.
-*TODO redid promotion.
+*Readjusted Promotion in General, biggest points include:
+    *Besides what is listed, the system is generally more simple and promotion is buffed.
+    *Literacy's impact on promotion is buffed but suffers from diminishing returns in benefit at higher percentages.
+    *Made it so that Soldiers can only demote to farmers and promote to officers.
+    *Bureaucrats will naturally promote to 1%, at an accelerated rate if you fund admin 100%.
 *Made Puppeting nations allowed as long as they have under 2.5m pop.
 *Made conquest CB available as long as the conquest target has less than 4 states and less than 2.5m pop.
 *Made "Inhospitable Climate" equal to "Harsh Climate" for supply limit.
@@ -28,6 +32,7 @@ CHANGES FOR ALL COUNTRIES:
 *Added a colonial migration national idea that enables colonial migration.
 *Made the base tech school 0 on all techs instead of +5, and nerfed all tech schools to be +10 instead of +15.
 *Nerfed RP tech by 20% (multiplicitavely, so 50% -> 40% & 100% -> 80%).
+*Buffed education reforms (2nd reform: 7.5% -> 10%, 3rd reform: 10% -> 15%).
 
 
 BUGFIXES/QoL:
@@ -46,6 +51,7 @@ BUGFIXES/QoL:
 *Moved unciv mob buff from being a triggered modifier to just changing the static modifier of uncivs. (technical change that shouldn't have gameplay impact)
 *Ensured that the World Bank demanded all goods as much as possible.
 *Made all RGOs always hire as much as possible.
+*Made it so that the AI will click the "do not allow giving grants" decision to ensure they never give grants.
 
 
 

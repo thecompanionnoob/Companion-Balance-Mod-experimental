@@ -610,14 +610,14 @@ social_reforms = {
 			tax_efficiency = -0.01
 		}
 		acceptable_schools = {
-			education_efficiency_modifier = 0.075
+			education_efficiency_modifier = 0.1
 			global_immigrant_attract = 0.03
 			administrative_multiplier = 2
 			global_pop_militancy_modifier = -0.02
 			tax_efficiency = -0.03
 		}
 		good_schools = {
-			education_efficiency_modifier = 0.1
+			education_efficiency_modifier = 0.15
 			global_immigrant_attract = 0.04
 			administrative_multiplier = 3
 			global_pop_militancy_modifier = -0.03

@@ -56,7 +56,6 @@ political_decisions = {
 		alert = no
 		potential = {
 			civilized = yes
-			ai = no
 			has_country_flag = will_give_grants
 		}
 		
@@ -66,5 +65,8 @@ political_decisions = {
 		effect = {
 			clr_country_flag = will_give_grants 
 			}
+        ai_will_do = {
+            factor = 1
+        }
 	}
 }

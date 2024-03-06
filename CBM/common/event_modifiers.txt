@@ -806,6 +806,15 @@ healing_wounds = {
 	icon = 4
 }
 
+extra_mob_1 = {
+	icon = 3
+	mobilisation_size = 0.01
+}
+extra_mob_2 = {
+	icon = 3
+	mobilisation_size = 0.02
+}
+
 ### NATIONAL IDEAS ###
 naval_idea = {
 	icon = 3
@@ -867,20 +876,12 @@ colonial_migration_idea = {
     icon = 3
 }
 
-extra_mob_1 = {
-	icon = 3
-	mobilisation_size = 0.01
-}
-extra_mob_2 = {
-	icon = 3
-	mobilisation_size = 0.02
-}
 
+national_idea_timer = {
+}
 
 
 #backend modifiers, dont actually do anything just are for technical stuff, like delaying when you can take a decision again etc
-national_idea_timer = {
-}
 requesting_cease_fire = {
 }
 tech_school_timer = {
