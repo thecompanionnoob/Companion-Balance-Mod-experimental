@@ -52,6 +52,8 @@ BUGFIXES/QoL:
 *Ensured that the World Bank demanded all goods as much as possible.
 *Made all RGOs always hire as much as possible.
 *Made it so that the AI will click the "do not allow giving grants" decision to ensure they never give grants.
+*Enabled attack & mobilization popups by default.
+*Changed conquest so that it may always be used on a 1 state nation.
 
 
 
@@ -100,4 +102,8 @@ Italy:
 
 USA:
 *Made all colonies into states.
+
+China:
+*Made the Chinese formation decision grant cores over all of China.
+*Reduced infamy gain from forming China.
 

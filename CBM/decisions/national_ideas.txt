@@ -53,7 +53,7 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 				has_country_modifier = national_idea_timer
 			}
 			NOT = {
-				has_country_modifier = economic_idea
+				has_country_modifier = colonial_migration_idea
 			}
         }
         allow = {}

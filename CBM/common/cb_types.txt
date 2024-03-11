@@ -450,7 +450,12 @@ conquest = {
 		}
 		NOT = { is_our_vassal = THIS }
 		NOT = { number_of_states = 4 }
-		NOT = { total_pops = 2500000 }
+		NOT = { 
+            AND = {
+                total_pops = 2500000 
+                number_of_states = 2
+            }
+        }
 		is_independant = yes
 		civilized = yes 
 	}
