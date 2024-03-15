@@ -21,6 +21,7 @@ CHANGES FOR ALL COUNTRIES:
     *Made it so that Soldiers can only demote to farmers and promote to officers.
     *Bureaucrats will naturally promote to 1%, at an accelerated rate if you fund admin 100%.
     *Officers promote to aristocrats if they are rich and demote to soldiers (or farmers if soldiers are over 5%) if they are poor or over 0.2%.
+    *Clergy will promote to aristocrats if they are rich and demote to farmers if they are poor, severely nerfed demotion if they are under 4%.
 
 
 POPS:
@@ -29,7 +30,7 @@ FARMER/LABOURER: DONE
 SOLDIER: DONE
 OFFICER: DONE
 
-CLERGY: NOT DONE
+CLERGY: DONE
 
 ARTISAN: NOT DONE
 CRAFTSMAN: NOT DONE
