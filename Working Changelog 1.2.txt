@@ -21,6 +21,26 @@ CHANGES FOR ALL COUNTRIES:
     *Made it so that Soldiers can only demote to farmers and promote to officers.
     *Bureaucrats will naturally promote to 1%, at an accelerated rate if you fund admin 100%.
     *Officers promote to aristocrats if they are rich and demote to soldiers (or farmers if soldiers are over 5%) if they are poor or over 0.2%.
+
+
+POPS:
+FARMER/LABOURER: DONE
+
+SOLDIER: DONE
+OFFICER: DONE
+
+CLERGY: NOT DONE
+
+ARTISAN: NOT DONE
+CRAFTSMAN: NOT DONE
+CLERK: NOT DONE
+
+BUREAUCRAT: NOT DONE
+
+ARISTOCRAT: NOT DONE
+CAPITALIST: NOT DONE
+
+
 *Made Puppeting nations allowed as long as they have under 2.5m pop.
 *Made conquest CB available as long as the conquest target has less than 4 states and less than 1m pop, but always allowed when at 1 state remaining.
 *Minor conquest is available at 500k pop or less.
