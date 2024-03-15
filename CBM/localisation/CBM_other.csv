@@ -69,19 +69,19 @@ mobilize_by_air;Airplane Mobilization;;;;;;;;;x
 mobilize_by_air_desc;you get a mob stack, and you get a mob stack!;;;;;;;;;x
 national_idea_timer;National Idea Timer;;;;;;;;;x
 national_idea_timer_desc;After this modifier expires, you may pick another national idea.;;;;;;;;;x
-naval_idea;Naval Ideas;;;;;;;;;x
+naval_idea;Naval Idea;;;;;;;;;x
 naval_idea_desc;Modifiers to improve the navy. These may be picked every 15 years.;;;;;;;;;x
-economic_idea;Economic Ideas;;;;;;;;;x
+economic_idea;Economic Idea;;;;;;;;;x
 economic_idea_desc;Modifiers to improve the economy. These may be picked every 15 years.;;;;;;;;;x
-industry_idea;Industry Ideas;;;;;;;;;x
+industry_idea;Industry Idea;;;;;;;;;x
 industry_idea_desc;Modifiers to improve the industry. These may be picked every 15 years.;;;;;;;;;x
-political_idea;Political Ideas;;;;;;;;;x
+political_idea;Political Idea;;;;;;;;;x
 political_idea_desc;Modifier to improve the political situation. These may be picked every 15 years.;;;;;;;;;x
-diplomatic_idea;Diplomatic Ideas;;;;;;;;;x
+diplomatic_idea;Diplomatic Idea;;;;;;;;;x
 diplomatic_idea_desc;Modifier to improve the diplomatic situation. These may be picked every 15 years.;;;;;;;;;x
-army_quantity_idea;Quantity Ideas;;;;;;;;;x
+army_quantity_idea;Quantity Idea;;;;;;;;;x
 army_quantity_idea_desc;Modifier to improve army quantity & logistics. These may be picked every 15 years.;;;;;;;;;x
-army_quality_idea;Quality Ideas;;;;;;;;;x
+army_quality_idea;Quality Idea;;;;;;;;;x
 army_quality_idea_desc;Modifier to improve army quality. These may be picked every 15 years.;;;;;;;;;x
 YUA;Yuan;;;;;;;;;x
 YUA_ADJ;Yuan;;;;;;;;;x
@@ -150,8 +150,8 @@ place_in_the_sun_large_short;Acquire large colony $STATE$;;;;;;;;;x;;;;
 place_in_the_sun_large_setup;Acquire large colony $STATE$ from $RECIPIENT$;;;;;;;;;x;;;;
 MEX_north_america_win;North American Hegemony;;;;;;;;;x;;;;
 MEX_north_america_win;Achieved North American Hegemony;;;;;;;;;x;;;;
-naval_ideas;Naval Ideas;;;;;;;;;x;;;;
-naval_ideas_desc;Naval Ideas;;;;;;;;;x;;;;
+naval_ideas;Naval Idea;;;;;;;;;x;;;;
+naval_ideas_desc;Naval Idea;;;;;;;;;x;;;;
 minor_conquest;Minor Conquest;;;;;;;;;x;;;;
 minor_conquest_desc;Conquer a small nation.;;;;;;;;;x;;;;
 minor_conquest_short;Conquer $RECIPIENT$;;;;;;;;;x;;;;
@@ -177,6 +177,7 @@ SML;Small State Flag;;;;;;
 MED;Medium State Flag;;;;;;
 LRG;Large State Flag;;;;;;
 HUG;Huge State Flag;;;;;;
-colonial_migration_idea;Colonial Migration Ideas;;;;;;
+colonial_migration_idea;Colonial Migration Idea;;;;;;
 colonial_migration_idea_desc;This idea enables a decision to toggle Colonial Migration.;;;;;;
-PROV3256;Irkutsk;;;;;;
+education_idea;Education Idea;;;;;;
+education_idea_desc;Education Idea;;;;;;

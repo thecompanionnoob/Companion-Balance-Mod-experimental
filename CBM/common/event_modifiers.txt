@@ -875,6 +875,10 @@ army_quality_idea = {
 colonial_migration_idea = {
     icon = 3
 }
+education_idea = {
+    icon = 3
+    education_efficiency_modifier = 0.2
+}
 
 
 national_idea_timer = {

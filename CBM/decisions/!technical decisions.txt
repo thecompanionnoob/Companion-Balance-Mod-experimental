@@ -3,7 +3,7 @@ political_decisions = {
 		potential = { 
 			tag = JAN 
 			NOT = {
-				has_country_flag = setup
+				has_global_flag = setup
 			}
 		}
 		allow = {}
@@ -16,7 +16,7 @@ political_decisions = {
 				limit = { is_greater_power = no }
 				treasury = 100000
 			}
-			set_country_flag = setup #failsafe so that it doesnt do it twice for sure
+			set_global_flag = setup #failsafe so that it doesnt do it twice for sure
 			JAN = {
 				all_core = {
 					remove_core = JAN

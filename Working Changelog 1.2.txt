@@ -21,7 +21,8 @@ CHANGES FOR ALL COUNTRIES:
     *Made it so that Soldiers can only demote to farmers and promote to officers.
     *Bureaucrats will naturally promote to 1%, at an accelerated rate if you fund admin 100%.
 *Made Puppeting nations allowed as long as they have under 2.5m pop.
-*Made conquest CB available as long as the conquest target has less than 4 states and less than 2.5m pop.
+*Made conquest CB available as long as the conquest target has less than 4 states and less than 1m pop, but always allowed when at 1 state remaining.
+*Minor conquest is available at 500k pop or less.
 *Made "Inhospitable Climate" equal to "Harsh Climate" for supply limit.
 *Adjusted state size thresholds for CBs.
 *Made it so that "Land! Liberty! Labor!" & "Baby Boom" both last for 6 months.
@@ -33,7 +34,8 @@ CHANGES FOR ALL COUNTRIES:
 *Made the base tech school 0 on all techs instead of +5, and nerfed all tech schools to be +10 instead of +15.
 *Nerfed RP tech by 20% (multiplicitavely, so 50% -> 40% & 100% -> 80%).
 *Buffed education reforms (2nd reform: 7.5% -> 10%, 3rd reform: 10% -> 15%).
-
+*Added an Education idea (+20%).
+*Added decisions to roll back healthcare and education reforms if desired (at the cost of some militancy and consciousness).
 
 BUGFIXES/QoL:
 
@@ -102,6 +104,7 @@ Italy:
 
 USA:
 *Made all colonies into states.
+*Made all parties before socialism Laissez Faire, socialists are now interventionist and communists are state capitalist.
 
 China:
 *Made the Chinese formation decision grant cores over all of China.

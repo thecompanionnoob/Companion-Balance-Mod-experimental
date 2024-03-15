@@ -231,21 +231,7 @@ minor_conquest = {
 				tag = GHO 
 			}
 		}
-		OR = {
-			NOT = { total_pops = 400000 }
-			AND = {
-				NOT = { total_pops = 550000 }
-				year = 1860
-			}
-			AND = {
-				NOT = { total_pops = 800000 }
-				year = 1885
-			}
-			AND = {
-				NOT = { total_pops = 1200000 }
-				year = 1910
-			}
-		}
+		NOT = { total_pops = 500000 }
 		civilized = yes 
 		NOT = { number_of_states = 4 }
 	}
@@ -452,7 +438,7 @@ conquest = {
 		NOT = { number_of_states = 4 }
 		NOT = { 
             AND = {
-                total_pops = 2500000 
+                total_pops = 1000000 
                 number_of_states = 2
             }
         }
