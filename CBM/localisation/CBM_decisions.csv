@@ -191,3 +191,7 @@ colonial_migration_enable_title;Enable Colonial Migration;;;;;;
 colonial_migration_enable_desc;Enable the ability for your pops to migrate to colonies. This is reversible at any time.;;;;;;
 colonial_migration_disable_title;Disable Colonial Migration;;;;;;
 colonial_migration_disable_desc;Disable the ability for your pops to migrate to colonies. This is reversible at any time.;;;;;;
+roll_back_healthcare_title;Roll Back Healthcare Reforms;;;;;;
+roll_back_healthcare_desc;If our financial condition is dire enough, we can consider rolling back our healthcare system.;;;;;;
+roll_back_education_title;Roll Back Education Reforms;;;;;;
+roll_back_education_desc;If our financial condition is dire enough, we can consider rolling back our school system.;;;;;;

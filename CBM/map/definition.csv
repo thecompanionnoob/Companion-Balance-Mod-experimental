@@ -1073,7 +1073,7 @@ province;red;green;blue;x;x
 1072;97;160;223;Okhotsk;x
 1073;97;128;192;Gizhiga;x
 1074;160;96;223;Petropavlovsk;x
-1075;104;34;110;Irkutsk;x
+1075;104;34;110;Tolun;x
 1076;160;160;96;Chunskoye;x
 1077;35;34;255;Krasnoyarsk;x
 1078;105;155;146;Verkhneudinsk;x
@@ -3254,7 +3254,7 @@ province;red;green;blue;x;x
 3253;58;14;240;Mogocha;x
 3254;59;14;244;Chita;x
 3255;60;14;248;Kurumkan;x
-;61;14;232;x;
+3256;61;14;232;Irkutsk;x
 ;62;14;236;x
 ;63;14;240;x
 ;64;14;244;x

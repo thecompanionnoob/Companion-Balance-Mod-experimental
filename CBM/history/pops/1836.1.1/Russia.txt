@@ -8908,103 +8908,25 @@
 	aristocrats = {
 		culture = russian
 		religion = sunni
-		size = 500
-	}
-
-	bureaucrats = {
-		culture = russian
-		religion = sunni
-		size = 75
-	}
-
-	officers = {
-		culture = russian
-		religion = sunni
-		size = 65
+		size = 50
 	}
 
 	clergymen = {
-		culture = russian
-		religion = sunni
-		size = 600
-	}
-
-	artisans = {
-		culture = russian
-		religion = sunni
-		size = 3000
-	}
-
-	soldiers = {
-		culture = russian
-		religion = sunni
-		size = 1100
-	}
-
-	farmers = {
-		culture = russian
-		religion = sunni
-		size = 54760
-	}
-
-	aristocrats = {
 		culture = russian
 		religion = sunni
 		size = 175
 	}
 
-	clergymen = {
-		culture = russian
-		religion = sunni
-		size = 125
-	}
-
-	artisans = {
-		culture = russian
-		religion = sunni
-		size = 600
-	}
-
 	soldiers = {
 		culture = russian
 		religion = sunni
-		size = 125
+		size = 300
 	}
 
 	farmers = {
 		culture = russian
 		religion = sunni
-		size = 10975
-	}
-
-	aristocrats = {
-		culture = russian
-		religion = sunni
-		size = 2
-	}
-
-	clergymen = {
-		culture = russian
-		religion = sunni
-		size = 5
-	}
-
-	artisans = {
-		culture = russian
-		religion = sunni
-		size = 10
-	}
-
-	soldiers = {
-		culture = russian
-		religion = sunni
-		size = 3
-	}
-
-	farmers = {
-		culture = russian
-		religion = sunni
-		size = 230
+		size = 7650
 	}
 }
 #Vanavara (1000/250 POPS)
@@ -9375,6 +9297,109 @@
 		culture = russian
 		religion = sunni
 		size = 7650
+	}
+}
+3256 = {
+	aristocrats = {
+		culture = russian
+		religion = sunni
+		size = 500
+	}
+
+	bureaucrats = {
+		culture = russian
+		religion = sunni
+		size = 75
+	}
+
+	officers = {
+		culture = russian
+		religion = sunni
+		size = 65
+	}
+
+	clergymen = {
+		culture = russian
+		religion = sunni
+		size = 600
+	}
+
+	artisans = {
+		culture = russian
+		religion = sunni
+		size = 3000
+	}
+
+	soldiers = {
+		culture = russian
+		religion = sunni
+		size = 1100
+	}
+
+	farmers = {
+		culture = russian
+		religion = sunni
+		size = 54760
+	}
+
+	aristocrats = {
+		culture = russian
+		religion = sunni
+		size = 175
+	}
+
+	clergymen = {
+		culture = russian
+		religion = sunni
+		size = 125
+	}
+
+	artisans = {
+		culture = russian
+		religion = sunni
+		size = 600
+	}
+
+	soldiers = {
+		culture = russian
+		religion = sunni
+		size = 125
+	}
+
+	farmers = {
+		culture = russian
+		religion = sunni
+		size = 10975
+	}
+
+	aristocrats = {
+		culture = russian
+		religion = sunni
+		size = 2
+	}
+
+	clergymen = {
+		culture = russian
+		religion = sunni
+		size = 5
+	}
+
+	artisans = {
+		culture = russian
+		religion = sunni
+		size = 10
+	}
+
+	soldiers = {
+		culture = russian
+		religion = sunni
+		size = 3
+	}
+
+	farmers = {
+		culture = russian
+		religion = sunni
+		size = 230
 	}
 }
 #under the rule of China in 1836

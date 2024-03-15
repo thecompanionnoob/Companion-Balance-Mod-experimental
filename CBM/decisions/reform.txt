@@ -60,6 +60,50 @@ political_decisions = {
 			prestige = 5
 		}
 	}
+	roll_back_healthcare = {
+		alert = no
+		potential = {
+			OR = {
+				health_care = trinket_health_care
+				health_care = low_health_care
+				health_care = acceptable_health_care
+				health_care = good_health_care
+			}
+		}
+		allow = { }
+		effect = {
+			any_pop = {
+				militancy = 2
+				consciousness = 2
+			}
+			social_reform = no_health_care
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	roll_back_education = {
+		alert = no
+		potential = {
+			OR = {
+				school_reforms = low_schools
+				school_reforms = acceptable_schools
+				school_reforms = good_schools
+			}
+		}
+		allow = { }
+		effect = {
+			any_pop = {
+				militancy = 2
+				consciousness = 2
+			}
+			social_reform = no_schools
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+				
 			
 			
 }
