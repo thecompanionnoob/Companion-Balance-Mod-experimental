@@ -23,6 +23,7 @@ CHANGES FOR ALL COUNTRIES:
     *Officers promote to aristocrats if they are rich and demote to soldiers (or farmers if soldiers are over 5%) if they are poor or over 0.2%.
     *Clergy will promote to aristocrats if they are rich and demote to farmers if they are poor, severely nerfed demotion if they are under 4%.
     *Artisans are now poor strata, they promote to craftsmen always if there are factories available, otherise they promote to soldiers if there are less than 5% soldiers, otherwise they will demote into farmers.
+    *Craftsmen only promote to clerks at the proper ratio for factories at 5% intervals, and only demote to farmers.
 
 
 POPS:
@@ -34,7 +35,7 @@ OFFICER: DONE
 CLERGY: DONE
 
 ARTISAN: DONE
-CRAFTSMAN: NOT DONE
+CRAFTSMAN: DONE
 CLERK: NOT DONE
 
 BUREAUCRAT: NOT DONE
