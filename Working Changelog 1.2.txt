@@ -14,7 +14,6 @@ CHANGES FOR ALL COUNTRIES:
 *Simplified the system and emphasized economic factors for migration targets.
 *Set conversion chance to 0 and removed all other factors on the offchance that it affects performance.
 *TODO changed starting generals so that they are gained by event, so ai wont get the generals. (they still only appear if a player is on the nation before 1840, they're for the start of the game)
-*TODO perhaps add promotion as an aspect of ideas.
 *Readjusted Promotion in General, biggest points include:
     *Besides what is listed, the system is generally more simple and promotion is buffed.
     *Literacy's impact on promotion is buffed but suffers from diminishing returns in benefit at higher percentages.
@@ -24,6 +23,7 @@ CHANGES FOR ALL COUNTRIES:
     *Clergy will promote to aristocrats if they are rich and demote to farmers if they are poor, severely nerfed demotion if they are under 4%.
     *Artisans are now poor strata, they promote to craftsmen always if there are factories available, otherise they promote to soldiers if there are less than 5% soldiers, otherwise they will demote into farmers.
     *Craftsmen only promote to clerks at the proper ratio for factories at 5% intervals, and only demote to farmers.
+*Added a promotion idea.
 
 
 POPS:

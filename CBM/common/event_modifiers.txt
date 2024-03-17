@@ -879,6 +879,9 @@ education_idea = {
     icon = 3
     education_efficiency_modifier = 0.2
 }
+promotion_idea = {
+    icon = 3
+}
 
 
 national_idea_timer = {

@@ -144,6 +144,27 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			add_country_modifier = { name = national_idea_timer duration = 5475 }
 		}
 	}
+    promotion_idea_decision = { #buffs promotion
+		alert = no
+		potential = {
+			has_country_flag = national_ideas_enabled
+			NOT = {
+				has_country_modifier = national_idea_timer
+			}
+			NOT = {
+				has_country_modifier = promotion_idea
+			}
+		}
+		allow = {}
+		effect = {
+			clr_country_flag = national_ideas_enabled
+			clr_country_flag = national_idea_reminder
+            set_country_flag = promotion_idea #unfortunately necessary, pop_types.txt is so buggy
+			add_country_modifier = { name = promotion_idea duration = -1 }
+			add_country_modifier = { name = national_idea_timer duration = 5475 }
+		}
+	}
+        
 	education_idea_decision = { #education eff.
 		alert = no
 		potential = {
