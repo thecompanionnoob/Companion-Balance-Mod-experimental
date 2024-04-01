@@ -23,27 +23,11 @@ CHANGES FOR ALL COUNTRIES:
     *Clergy will promote to aristocrats if they are rich and demote to farmers if they are poor, severely nerfed demotion if they are under 4%.
     *Artisans are now poor strata, they promote to craftsmen always if there are factories available, otherise they promote to soldiers if there are less than 5% soldiers, otherwise they will demote into farmers.
     *Craftsmen only promote to clerks at the proper ratio for factories at 5% intervals, and only demote to farmers.
-*Added a promotion idea.
-
-
-POPS:
-FARMER/LABOURER: DONE
-
-SOLDIER: DONE
-OFFICER: DONE
-
-CLERGY: DONE
-
-ARTISAN: DONE
-CRAFTSMAN: DONE
-CLERK: NOT DONE
-
-BUREAUCRAT: NOT DONE
-
-ARISTOCRAT: NOT DONE
-CAPITALIST: NOT DONE
-
-
+    *Clerks will demote to craftsmen if there is work available and they are at an improper ratio, they will demote to farmers if there is no work available and they will promote to aristocrats if they have >50% luxury needs.
+    *Bureaucrats can only demote to farmers, and will do so if either they are over 2% or if they are between 1 and 2 percent and admin funding is under 50%.
+    *Aristocrats will demote to either craftsmen or farmers when under 50% everyday needs (depending on if there is craftsmen work available). They will promote to either capitalists or officers at >50% everyday needs and >55% literacy depending on if there are sufficient officers or not.
+    *Capitalists will demote the same way as aristocrats, and promote to officers if officers are needed and they have over 55% literacy.
+*Added a promotion idea, which simply buffs promotion rate (quite significantly).
 *Made Puppeting nations allowed as long as they have under 2.5m pop.
 *Made conquest CB available as long as the conquest target has less than 4 states and less than 1m pop, but always allowed when at 1 state remaining.
 *Minor conquest is available at 500k pop or less.
