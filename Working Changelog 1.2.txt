@@ -28,8 +28,8 @@ CHANGES FOR ALL COUNTRIES:
     *Capitalists will demote the same way as aristocrats, and promote to officers if officers are needed and they have over 55% literacy.
 *Added a promotion idea, which simply buffs promotion rate (quite significantly).
 *Made Puppeting nations allowed as long as they have under 2.5m pop.
-*Made conquest CB available as long as the conquest target has less than 4 states and less than 1m pop, but always allowed when at 1 state remaining.
-*Minor conquest is available at 500k pop or less.
+*Made conquest CB available as long as the conquest target has less than 4 states and less than 750k pop, but always allowed when at 1 state remaining.
+*Minor conquest is available at 250k pop or less.
 *Made "Inhospitable Climate" equal to "Harsh Climate" for supply limit.
 *Adjusted state size thresholds for CBs.
 *Made it so that "Land! Liberty! Labor!" & "Baby Boom" both last for 6 months.
@@ -84,7 +84,7 @@ Portugal-Brazil:
 *Improved Portugese-Brazilian Flags.
 
 Japan:
-*Redid Japanese states, there are now more (~3-4 provinces per state) (TODO look at these a bit, biggest state still has 1m pop...)
+*Redid Japanese states, there are now more.
 
 Russia:
 *Added more provinces in Siberia to make warfare there more varied and interesting. (TODO, partially done)

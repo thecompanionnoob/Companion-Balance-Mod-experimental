@@ -231,7 +231,7 @@ minor_conquest = {
 				tag = GHO 
 			}
 		}
-		NOT = { total_pops = 500000 }
+		NOT = { total_pops = 250000 }
 		civilized = yes 
 		NOT = { number_of_states = 4 }
 	}
@@ -438,7 +438,7 @@ conquest = {
 		NOT = { number_of_states = 4 }
 		NOT = { 
             AND = {
-                total_pops = 1000000 
+                total_pops = 750000 
                 number_of_states = 2
             }
         }
