@@ -644,12 +644,6 @@ economic_boom = {
 }
 
 #### ENG - ENGLAND #####
-corn_laws = {
-	tax_efficiency = -0.10
-	global_pop_militancy_modifier = 0.02
-	global_pop_consciousness_modifier = 0.02
-	icon = 6
-}
 
 the_yard = {
 	tax_efficiency = 0.01
@@ -774,6 +768,12 @@ liberian_research_boost = {
 
 
 ### CBM ###
+corn_laws = {
+	tax_efficiency = -0.14
+	global_pop_militancy_modifier = 0.02
+	global_pop_consciousness_modifier = 0.02
+	icon = 6
+}
 
 admin_debuff_modifier = { #no longer used
 	administrative_efficiency_modifier = -0.5

@@ -69,3 +69,6 @@ EVT69021;this event is taken by background.;;;;;;;;;x;;;;
 EVT69022;this event is taken by background.;;;;;;;;;x;;;;
 EVT69023;this event is taken by background.;;;;;;;;;x;;;;
 EVT69024;this event is taken by background.;;;;;;;;;x;;;;
+EVTNAME69025;Scripted Generals;;;;;;
+EVTDESC69025;This event provides you with scripted generals. It only works in 1840 and before and for players, so the ai wont have these and players taking over countries in the mid-late game wont get these either.;;;;;;
+EVTOPTA69025;Thanks!;;;;;;

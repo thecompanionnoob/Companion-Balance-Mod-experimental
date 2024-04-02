@@ -76,7 +76,6 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			NOT = {
 				has_country_modifier = economic_idea
 			}
-            NOT = { tag = ENG }
 		}
 		allow = {}
 		effect = {
@@ -96,7 +95,6 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			NOT = {
 				has_country_modifier = industry_idea
 			}
-            NOT = { tag = ENG }
 		}
 		allow = {}
 		effect = {
