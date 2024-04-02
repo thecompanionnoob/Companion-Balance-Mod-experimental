@@ -17,7 +17,7 @@ dreadnought = {
 	priority = 60
 	max_strength = 100
 	default_organisation = 30
-	maximum_speed = 10
+	maximum_speed = 9
 	weighted_value = 100.0
 
 
@@ -30,7 +30,7 @@ dreadnought = {
 		telephones = 10
 		fuel = 25
 	}
-	min_port_level = 5
+	min_port_level = 4
 	limit_per_port = -1
 	supply_consumption_score = 60
 	
@@ -44,8 +44,8 @@ dreadnought = {
 	}
 	
 	#Naval Abilties
-	hull = 80
-	gun_power = 60
+	hull = 75
+	gun_power = 75
 	fire_range = 0.8
 	evasion = 0
 }

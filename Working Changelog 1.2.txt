@@ -4,15 +4,19 @@ v1.2 "Siberian Breaks"
 
 CHANGES FOR ALL COUNTRIES:
 
+Misc:
 *New Title Screen! Painting is "Siberian Cossacks at the Inspection of New Lands" by Nikolai Karazin, painted 1891.
 *New Title Song, "March of the Siberian Riflemen".
 *National Focuses are now more powerful.
+*Made "Inhospitable Climate" equal to "Harsh Climate" for supply limit.
+*Made it so that "Land! Liberty! Labor!" & "Baby Boom" both last for 6 months.
+
+Politics:
 *Increased militancy required for rebels to pop.
-*Made it so that uncivs may declare for take state on civilized nations.
-*Reduced WE gain from blockades.
-*TODO added ability to take capitals of uncivs without using annexation cb.
-*Simplified the system and emphasized economic factors for migration targets.
-*Changed starting generals so that they are gained by event, so ai wont get the generals. (They still only appear if a player is on the nation before 1841, they're for the start of the game). Unfortunately due to the way generals by event work this means I had to get rid of the scripted 3/3 admiral.
+*Buffed education reforms (2nd reform: 7.5% -> 10%, 3rd reform: 10% -> 15%).
+*Added decisions to roll back healthcare and education reforms if desired (at the cost of some militancy and consciousness).
+
+Poptypes:
 *Readjusted Promotion in General, biggest points include:
     *Besides what is listed, the system is generally more simple and promotion is buffed.
     *Literacy's impact on promotion is buffed but suffers from diminishing returns in benefit at higher percentages.
@@ -26,29 +30,39 @@ CHANGES FOR ALL COUNTRIES:
     *Bureaucrats can only demote to farmers, and will do so if either they are over 2% or if they are between 1 and 2 percent and admin funding is under 50%.
     *Aristocrats will demote to either craftsmen or farmers when under 50% everyday needs (depending on if there is craftsmen work available). They will promote to either capitalists or officers at >50% everyday needs and >55% literacy depending on if there are sufficient officers or not.
     *Capitalists will demote the same way as aristocrats, and promote to officers if officers are needed and they have over 55% literacy.
+
+Ideas:
 *Added a promotion idea, which simply buffs promotion rate (quite significantly).
-*Made Puppeting nations allowed as long as they have under 2.5m pop.
-*Made conquest CB available as long as the conquest target has less than 4 states and less than 750k pop, but always allowed when at 1 state remaining.
-*Minor conquest is available at 250k pop or less.
-*Made "Inhospitable Climate" equal to "Harsh Climate" for supply limit.
-*Adjusted state size thresholds for CBs.
-*Made it so that "Land! Liberty! Labor!" & "Baby Boom" both last for 6 months.
-*Halved WE bonuses from national values.
-*Reduced emigration nerf for China & India (aka pops will be quicker to emigrate now).
-*Made Naval Ideas' build time buff scale depending on the build time of the ship in question. It is now -20% of the base build speed of any given ship.
-*Reduced the organization and research bonuses of naval, and added a speed bonus.
-*Added a colonial migration national idea that enables colonial migration.
-*Made the base tech school 0 on all techs instead of +5, and nerfed all tech schools to be +10 instead of +15.
-*Nerfed RP tech by 20% (multiplicitavely, so 50% -> 40% & 100% -> 80%).
-*Buffed education reforms (2nd reform: 7.5% -> 10%, 3rd reform: 10% -> 15%).
-*Added an Education idea (+20%).
-*Added decisions to roll back healthcare and education reforms if desired (at the cost of some militancy and consciousness).
 *Nerfed quantity idea mob size, buffed quantity idea army supply consumption.
 *Nerfed quality idea slightly.
+*Added an Education idea (+20%).
+*Added a colonial migration national idea that enables colonial migration.
+*Made Naval Ideas' build time buff scale depending on the build time of the ship in question. It is now -20% of the base build speed of any given ship.
+*Reduced the organization and research bonuses of naval, and added a speed bonus.
 
+CBs:
+*Added state size being assigned by an annual event that assigns cores, so you can see what size a state is.
+*Adjusted state size thresholds for CBs.
+*Modified place in the sun to use the new state size flags, small place in the sun works with tiny, small, and medium states, and large place in the sun works on large and huge states.
+*Made demand concesssion always allowed.
+*Made it so that uncivs may declare for take state on civilized nations.
+*Made Puppeting nations allowed as long as they have under 2.5m pop.
+*Made conquest CB available as long as the conquest target has less than 4 states and less than 500k pop, but always allowed when at 1 state remaining. (Establish protectorate works exactly the same way.)
+*Minor conquest is available at 250k pop or less.
 
-BUGFIXES/QoL:
+WE:
+*Halved WE bonuses from national values.
+*Reduced WE gain from blockades.
 
+Tech:
+*Made the base tech school 0 on all techs instead of +5, and nerfed all tech schools to be +10 instead of +15.
+*Nerfed RP tech by 20% (multiplicitavely, so 50% -> 40% & 100% -> 80%).
+
+Immigration:
+*Simplified the system and emphasized economic factors for migration targets.
+*Reduced emigration nerf for China & India (aka pops will be quicker to emigrate now).
+
+Bugfixes/QoL:
 *Yuan now has an adjective.
 *Fixed broken Mexican decisions.
 *Added ghost army/navy automatic removal. TODO does not seem to work for navies (cur implementation only works for belgium, as a test.)
@@ -58,7 +72,6 @@ BUGFIXES/QoL:
 *Added missing port in Valera.
 *Fixed 3 LR provinces in Philippines, India, South Africa, Africa, Canada, USCA, and the Caribbean.
 *Removed erroneous text in buildings.txt file.
-*Added state size being assigned by an annual event that assigns cores, so you can see what size a state is.
 *Slightly optimized handling of National Idea modifiers and decisions.
 *Moved unciv mob buff from being a triggered modifier to just changing the static modifier of uncivs. (technical change that shouldn't have gameplay impact)
 *Ensured that the World Bank demanded all goods as much as possible.
@@ -70,6 +83,7 @@ BUGFIXES/QoL:
 *Set conversion chance to 0 and removed all other factors on the offchance that it affects performance.
 *Added a decision to release vassals.
 *Fixed localisation for the request deoccupation decision, so you can tell which country is asking for deoccupation.
+*Changed starting generals so that they are gained by event, so ai wont get the generals. (They still only appear if a player is on the nation before 1841, they're for the start of the game). Unfortunately due to the way generals by event work this means I had to get rid of the scripted 3/3 admiral.
 
 
 COUNTRY-SPECIFIC CHANGES:
