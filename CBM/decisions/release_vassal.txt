@@ -1,0 +1,14 @@
+political_decisions = {
+    release_vassals = {
+    	alert = no
+    	potential = {
+    		ai = no
+	    	num_of_vassals = 1
+	    }
+	    allow = {
+	    }
+	    effect = {
+	    	country_event = { id = 69026 days = 0 }
+	    }
+    }
+}

@@ -1,0 +1,47 @@
+country_event = {
+    id = 69026
+    title = "EVTNAME69026"
+    desc = "EVTDESC69026"
+    
+    is_triggered_only = yes
+
+    option = {
+        name = "EVTOPTA69026"
+        any_country = {
+            limit = {
+                vassal_of = THIS
+            }
+            country_event = { id = 69027 days = 0 }
+        }
+    }
+    option = {
+        name = "EVTOPTB69026"
+    }
+}
+country_event = {
+    id = 69027
+    title = "EVTNAME69027"
+    desc = "EVTDESC69027"
+    
+    is_triggered_only = yes
+
+    option = {
+        name = "EVTOPTA69027"
+        overlord = { country_event = { id = 69028 days = 0 } }
+    }
+}
+country_event = {
+    id = 69028
+    title = "EVTNAME69028"
+    desc = "EVTDESC69028"
+    
+    is_triggered_only = yes
+
+    option = {
+        name = "EVTOPTA69028"
+        release_vassal = FROM
+    }
+    option = {
+        name = "EVTOPTB69028"
+    }
+}

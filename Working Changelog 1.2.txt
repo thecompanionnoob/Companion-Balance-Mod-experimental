@@ -43,6 +43,9 @@ CHANGES FOR ALL COUNTRIES:
 *Buffed education reforms (2nd reform: 7.5% -> 10%, 3rd reform: 10% -> 15%).
 *Added an Education idea (+20%).
 *Added decisions to roll back healthcare and education reforms if desired (at the cost of some militancy and consciousness).
+*Nerfed quantity idea mob size, buffed quantity idea army supply consumption.
+*Nerfed quality idea slightly.
+
 
 BUGFIXES/QoL:
 
@@ -65,7 +68,8 @@ BUGFIXES/QoL:
 *Changed conquest so that it may always be used on a 1 state nation.
 *Removed vanilla flags from the files (saving u guys so much storage space rn OMG!!!!1!1!1)
 *Set conversion chance to 0 and removed all other factors on the offchance that it affects performance.
-
+*Added a decision to release vassals.
+*Fixed localisation for the request deoccupation decision, so you can tell which country is asking for deoccupation.
 
 
 COUNTRY-SPECIFIC CHANGES:

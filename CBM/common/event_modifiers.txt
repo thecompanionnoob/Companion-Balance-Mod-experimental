@@ -858,18 +858,18 @@ diplomatic_idea = {
 }
 army_quantity_idea = {
 	icon = 3
-	supply_consumption = -0.20
-	mobilisation_size = 0.02
+	supply_consumption = -0.25
+	mobilisation_size = 0.01
 	mobilization_impact = 1.5
 	mobilization_economy_impact = -0.15
 	army_tech_research_bonus = 0.03
 }
 army_quality_idea = { 
 	icon = 3
-	land_organisation = 0.2
+	land_organisation = 0.15
 	land_unit_start_experience = 5
 	leadership_modifier = 0.3
-	org_regain = 0.25
+	org_regain = 0.20
 	army_tech_research_bonus = 0.03
 }
 colonial_migration_idea = {
