@@ -9,6 +9,8 @@ country_event = {
         NOT = { has_country_flag = starting_generals }
     }
 
+    immediate = { set_country_flag = starting_generals }
+
     option = {
         name = "EVTOPTA69025"
         define_general = {

@@ -10,6 +10,8 @@ country_event = { #tech school explanation
 		ai = no
 	}
 
+    immediate = { set_country_flag = tech_school_explained }
+
 	option = {
 		name = "EVTOPTA69001"
 		prestige = 1
@@ -28,6 +30,8 @@ country_event = { #unciv can mobilize explanation
 		civilized = no
 		ai = no
 	}
+
+    immediate = { set_country_flag = unciv_mobilize_explained }
 
 	option = {
 		name = "EVTOPTA69011"

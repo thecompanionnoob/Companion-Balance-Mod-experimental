@@ -942,7 +942,7 @@ acquire_state_small = {
 			is_colonial = no
 		}
 		any_owned_province = {
-			is_core = SMA
+			is_core = SML
 		}
 	}
 	
