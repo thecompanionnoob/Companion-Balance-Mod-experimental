@@ -1,4 +1,4 @@
-primary_culture = british
+primary_culture = polar_bears
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0

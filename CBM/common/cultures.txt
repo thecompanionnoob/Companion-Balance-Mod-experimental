@@ -976,5 +976,4 @@ bears = {
 		
 		last_names = { Beliy Medved Bjorn Rawrrorr Rrrrr Grrr Gyp Qoi Styrbjorn Blomstfjellet }
 	}
-	union = SCA
 }

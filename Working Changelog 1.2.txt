@@ -10,6 +10,7 @@ Misc:
 *National Focuses are now more powerful.
 *Made "Inhospitable Climate" equal to "Harsh Climate" for supply limit.
 *Made it so that "Land! Liberty! Labor!" & "Baby Boom" both last for 6 months.
+*Increased base productivity of coal RGO by about 20%.
 
 Politics:
 *Increased militancy required for rebels to pop.
