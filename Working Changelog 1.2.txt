@@ -85,6 +85,7 @@ Bugfixes/QoL:
 *Added a decision to release vassals.
 *Fixed localisation for the request deoccupation decision, so you can tell which country is asking for deoccupation.
 *Changed starting generals so that they are gained by event, so ai wont get the generals. (They still only appear if a player is on the nation before 1841, they're for the start of the game). Unfortunately due to the way generals by event work this means I had to get rid of the scripted 3/3 admiral.
+*Reduced CB generation time of negotiated transfer to ~3 days.
 
 
 COUNTRY-SPECIFIC CHANGES:
