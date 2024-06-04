@@ -10,7 +10,8 @@ Misc:
 *National Focuses are now more powerful.
 *Made "Inhospitable Climate" equal to "Harsh Climate" for supply limit.
 *Made it so that "Land! Liberty! Labor!" & "Baby Boom" both last for 6 months.
-*Increased base productivity of coal RGO by about 20%.
+*Increased base productivity of coal by 20%.
+*Reduced build time of all factories to 6 months instead of 1 year.
 
 Politics:
 *Increased militancy required for rebels to pop.
@@ -85,7 +86,37 @@ Bugfixes/QoL:
 *Added a decision to release vassals.
 *Fixed localisation for the request deoccupation decision, so you can tell which country is asking for deoccupation.
 *Changed starting generals so that they are gained by event, so ai wont get the generals. (They still only appear if a player is on the nation before 1841, they're for the start of the game). Unfortunately due to the way generals by event work this means I had to get rid of the scripted 3/3 admiral.
-*Reduced CB generation time of negotiated transfer to ~3 days.
+*Fixed request deoccupation so it wont make you ask yourself if you would like to deoccupy yourself.
+*Reduced generation time of Negotiated Transfer CB to 3 days.
+
+Combat:
+*Nerfed navy build time inventions
+*Rebalanced naval combat:
+
+	*Battleship and ironclad eras are identical except that the battleship era ships are much stronger, and much more expensive.
+	
+	*For each of these eras, there is a submarine-class ship, a light-class ship, and a heavy-class ship.
+	
+		*For reference:
+			*Dreadnoughts - Heavy
+			*Battleships - Light
+			*Cruisers - Submarine
+			
+			*Ironclads - Heavy
+			*Monitors - Light
+			*Commerce Raiders - Submarine
+			
+		*These are equal in cost within a single era and work on a "triangle-balance" system. Heavies easily beat lights, which easily beat subs, which easily beat heavies.
+		
+	*In the man-o-war era, the man-o-wars are better than frigates but significantly more expensive. Poorer countries can sustain frigate fleets, but if you have the money man-o-wars are simply better (Better cost to stats ratio).
+	
+	
+*Naval tech is completely changed to go along with the above rebalancing:
+	*The max level for ports is now 3. Tech is adjusted to reflect this.
+	*For each level of the port tech that doesnt give you a port, it gives a combat invention for that era's ships.
+	*The armament column grants global navy combat bonuses.
+	*The naval range column now grants throughput for clippers or steamers depending on era, and not naval range.
+	*The organization column now has the range bonus too.
 
 
 COUNTRY-SPECIFIC CHANGES:
