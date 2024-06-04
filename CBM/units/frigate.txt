@@ -11,10 +11,10 @@ frigate = {
 	colonial_points = 2
 	
 	#Core Abilities
-	priority = 13
+	priority = 20
 	max_strength = 100
 	default_organisation = 30
-	maximum_speed = 8
+	maximum_speed = 5
 	weighted_value = 2.0
 	can_build_overseas = yes
 
@@ -24,21 +24,21 @@ frigate = {
 		clipper_convoy = 10
 		artillery = 5
 	}
-	min_port_level = 0
+	min_port_level = 1
 	limit_per_port = -1
 	supply_consumption_score = 1
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		clipper_convoy = 0.16
-		artillery = 0.04 #0.08
+		clipper_convoy = 0.2
+		artillery = 0.08
 	}
 	
 	#Naval Abilties
-	hull = 3
-	gun_power = 4
-	fire_range = 0.50
-	evasion = 0.25
+	hull = 5
+	gun_power = 5
+	fire_range = 0.40
+	evasion = 0
 	torpedo_attack = 0
 }
 

@@ -14,7 +14,7 @@ clipper_transport = {
 	priority = 5
 	max_strength = 100
 	default_organisation = 30
-	maximum_speed = 7
+	maximum_speed = 5
 	weighted_value = 1.0
 	can_build_overseas = yes
 
@@ -24,7 +24,7 @@ clipper_transport = {
 	build_cost = {
 		clipper_convoy = 4
 	}
-	min_port_level = 0
+	min_port_level = 1
 	limit_per_port = -1
 	supply_consumption_score = 1
 

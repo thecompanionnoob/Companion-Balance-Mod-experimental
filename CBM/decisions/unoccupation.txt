@@ -13,7 +13,7 @@ political_decisions = {
 			any_owned = {
 				limit = {
 					NOT = {
-						countrolled_by = this
+						controlled_by = this
 					}
 					controller = { ai = no }
 				}

@@ -12,7 +12,7 @@ manowar = {
 	colonial_points = 5
 
 	#Core Abilities
-	priority = 25
+	priority = 20
 	max_strength = 100
 	default_organisation = 30
 	maximum_speed = 5
@@ -28,18 +28,18 @@ manowar = {
 	}
 	min_port_level = 1
 	limit_per_port = -1
-	supply_consumption_score = 2
+	supply_consumption_score = 1
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		clipper_convoy = 0.24
-		artillery = 0.08 #0.16
+		clipper_convoy = 0.4
+		artillery = 0.16
 	}
 	
 	#Naval Abilties
-	hull = 4
-	gun_power = 8
-	fire_range = 0.58
+	hull = 15
+	gun_power = 15
+	fire_range = 0.40
 	evasion = 0
 }
 

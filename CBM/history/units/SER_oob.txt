@@ -1,7 +1,5 @@
-
-
 army = {
-	name = "Army of the Principality of Serbia"
+	name = "Army of Falmes"
 	location = 794
 	regiment = {
 		name= "1st Serbian Infantry"
