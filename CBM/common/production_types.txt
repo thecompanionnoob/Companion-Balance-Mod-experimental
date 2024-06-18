@@ -755,7 +755,7 @@ cattle_ranch = {
 coal_mine = {
 	template = RGO_template_labourers
 	output_goods = coal 
-	value = 2.9
+	value = 3.5
 	mine = yes
 }
 
@@ -867,7 +867,7 @@ tea_plantation = {
 timber_lodge = {
 	template = RGO_template_labourers
 	output_goods = timber 
-	value = 8
+	value = 9.6
 	farm = yes
 }
 
