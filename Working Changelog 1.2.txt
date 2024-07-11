@@ -10,7 +10,6 @@ Misc:
 *National Focuses are now more powerful.
 *Made "Inhospitable Climate" equal to "Harsh Climate" for supply limit.
 *Made it so that "Land! Liberty! Labor!" & "Baby Boom" both last for 6 months.
-*Increased base productivity of coal by 20%.
 *Reduced build time of all factories to 6 months instead of 1 year.
 
 Politics:
@@ -63,6 +62,8 @@ Tech:
 Immigration:
 *Simplified the system and emphasized economic factors for migration targets.
 *Reduced emigration nerf for China & India (aka pops will be quicker to emigrate now).
+*Slightly reduced overall emigration
+*Reduced emigration from occupied provinces significantly.
 
 Bugfixes/QoL:
 *Yuan now has an adjective.
@@ -87,7 +88,6 @@ Bugfixes/QoL:
 *Fixed localisation for the request deoccupation decision, so you can tell which country is asking for deoccupation.
 *Changed starting generals so that they are gained by event, so ai wont get the generals. (They still only appear if a player is on the nation before 1841, they're for the start of the game). Unfortunately due to the way generals by event work this means I had to get rid of the scripted 3/3 admiral.
 *Fixed request deoccupation so it wont make you ask yourself if you would like to deoccupy yourself.
-*Reduced generation time of Negotiated Transfer CB to 3 days.
 
 Combat:
 *Nerfed navy build time inventions
