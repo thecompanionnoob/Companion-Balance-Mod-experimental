@@ -696,3 +696,20 @@ railroad = {
 	pop_build_factory = yes
 	spawn_railway_track = yes
 }
+
+#Province selector, thanks to Victoria Universalis for this
+province_selector = {
+	# Audax Validator "." Ignore_NEXT
+	type = province_selector
+	# Audax Validator "." Ignore_NEXT
+	goods_cost =
+	{
+	}
+	time = 1
+	visibility = no
+	onmap = no
+	max_level = 2
+	province = yes
+	#one_per_state = yes
+	
+}

@@ -1,0 +1,26 @@
+political_decisions = {
+	cancel_immigration_focus = {
+		potential = {
+			has_country_flag = province_migration
+		}
+		allow = { }
+		effect = {
+			any_owned = {
+				remove_province_modifier = province_attract_immigrants
+			}
+			clr_country_flag = province_migration 
+		}
+	}
+	cancel_assimilation_focus = {
+		potential = {
+			has_country_flag = assim_focusing
+		}
+		allow = { }
+		effect = {
+			any_owned = {
+				remove_province_modifier = assim_focus
+			}
+			clr_country_flag = assim_focusing 
+		}
+	}
+}

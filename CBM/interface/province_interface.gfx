@@ -1,4 +1,10 @@
 spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_immigrator_strip"
+		texturefile = "gfx\\interface\\immigrator_strip.dds"
+		noOfFrames = 2
+	}
 
 	spriteType = {
 		name = "GFX_crisis_temperature_bar_frame"

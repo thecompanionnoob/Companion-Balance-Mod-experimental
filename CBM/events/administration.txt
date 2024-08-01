@@ -1,21 +1,21 @@
-country_event = { #tech school explanation
+country_event = { #Province Selector explanation
 	id = 69001
 	title = "EVTNAME69001"
 	desc = "EVTDESC69001"
 
 	trigger = {
 		NOT = {
-			has_country_flag = tech_school_explained
+			has_country_flag = prov_select_explain
 		}
 		ai = no
 	}
 
-    immediate = { set_country_flag = tech_school_explained }
+    immediate = { set_country_flag = prov_select_explain }
 
 	option = {
 		name = "EVTOPTA69001"
 		prestige = 1
-		set_country_flag = tech_school_explained
+		set_country_flag = prov_select_explain
 	}
 }
 country_event = { #unciv can mobilize explanation

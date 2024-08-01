@@ -1,0 +1,111 @@
+#Thanks to Victoria Universalis for the idea of how to do this stuff but the event here is original
+
+
+province_event = {
+	id = 69029
+	title = "EVTNAME69029"
+	desc = "EVTDESC69029"
+	
+	is_triggered_only = yes
+	
+	allow_multiple_instances = no
+	
+	option = { #Attract immigration
+		name = "EVTOPTA69029"
+		owner = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+		add_core = JAN
+		owner = {
+			random_owned = {
+				limit = {
+					is_core = JAN
+					NOT = { has_province_modifier = province_attract_immigrants }
+				}
+				owner = {
+					set_country_flag = province_migration
+					any_owned = {
+						remove_province_modifier = province_attract_immigrants
+					}
+				}
+				state_scope = { 
+					any_owned = {
+						add_province_modifier = { name = province_attract_immigrants duration = -1 }
+					}
+				}
+			}
+		}
+		remove_core = JAN
+	}
+	
+	option = { #Assimilate
+		name = "EVTOPTB69029"
+		owner = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+		add_core = JAN
+		owner = {
+			random_owned = {
+				limit = {
+					is_core = JAN
+					NOT = { has_province_modifier = assim_focus }
+				}
+				owner = {
+					set_country_flag = assim_focusing
+					any_owned = {
+						remove_province_modifier = assim_focus
+						remove_core = ASS
+						state_scope = { flashpoint_tension = -100 }
+					}
+				}
+				state_scope = { 
+					flashpoint_tension = 5
+					any_owned = {
+						add_province_modifier = { name = assim_focus duration = -1 }
+						add_core = ASS
+					}
+				}
+			}
+		}
+		remove_core = JAN
+	}
+	option = { #nevermind
+		name = "EVTOPTC69029"
+		owner = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+	}
+}
+
+province_event = { #cleanup for assim focus
+	id = 69030
+	title = "EVTNAME69030"
+	
+	desc = "EVTDESC69030"
+	
+	trigger = {
+		is_core = ASS
+		NOT = { has_province_modifier = assim_focus }
+	}
+	
+	option = {
+		name = "EVTOPTA69030"
+		remove_core = ASS
+		state_scope = { flashpoint_tension = -100 }
+	}
+}

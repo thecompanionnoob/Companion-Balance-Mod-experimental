@@ -295,20 +295,40 @@ demotion_chance =
 #general migration chance mtth, same for all pops
 migration_chance = 
 {
-	factor = 0.9
+	factor = 0.4
 	
 	group = {
 		modifier = {
-			factor = -0.1
-			not = { consciousness = 6 }
+			factor = 0.1
+			consciousness = 1 
 		}
 		modifier = {
-			factor = -0.1
-			not = { consciousness = 7 }
+			factor = 0.1
+			consciousness = 2 
 		}
 		modifier = {
-			factor = -0.1
-			not = { consciousness = 8 } 
+			factor = 0.1
+			consciousness = 3 
+		}
+		modifier = {
+			factor = 0.1
+			consciousness = 4 
+		}
+		modifier = {
+			factor = 0.1
+			consciousness = 5 
+		}
+		modifier = {
+			factor = 0.1
+			consciousness = 6 
+		}
+		modifier = {
+			factor = 0.1
+			consciousness = 7 
+		}
+		modifier = {
+			factor = 0.1
+			consciousness = 8  
 		}
 	}
 
@@ -454,7 +474,7 @@ colonialmigration_chance =
 #general emigration chance
 emigration_chance = 
 {
-	factor = 0.7
+	factor = 0.65
 
 	group = {
 
@@ -532,10 +552,12 @@ emigration_chance =
 		modifier = {
 			factor = 0.3
 			unemployment = 0.1
+			location = { controlled_by = owner }
 		}
 		modifier = {
 			factor = 0.3
 			unemployment = 0.15
+			location = { controlled_by = owner }
 		}
 		
 	}
@@ -567,7 +589,7 @@ emigration_chance =
 #general assimilation mtth, same for all pops
 assimilation_chance = 
 {
-	factor = 1
+	factor = 0.8
 
 	group = {
 		modifier = {
@@ -586,8 +608,34 @@ assimilation_chance =
 
 	modifier = {
     	factor = -20
-		has_culture_core = yes
+		NOT = { location = { is_core = THIS } }
+		NOT = { location = { state_scope = { flashpoint_tension = 1 } } } #assim focus
 	}
+	modifier = {
+		factor = -100
+		state_scope = { is_colonial = yes }
+	}
+	modifier = {
+    	factor = 7
+		has_culture_core = yes	
+		OR = {
+			location = { is_core = THIS }
+			location = { state_scope = { flashpoint_tension = 1 } } #assim focus
+		}
+	}
+	modifier = { ### For some reason, it seems that even though there is no modifier, has_culture_core = no pops assimilate much more strongly, so modifier is scaled lower for them
+		factor = 0.07
+		has_culture_core = no
+		OR = {
+			location = { is_core = THIS }
+			location = { state_scope = { flashpoint_tension = 1 } } #assim focus
+		}
+	}
+	
+	##Another thing to note is that while testing it seems that if there are multiple tags with the culture of a pop in the province it nerfs the assim into the ground
+	##No idea how to fix this aside from making that situation more rare.
+	
+	
 	modifier = {
 		factor = 10
 		AND = {

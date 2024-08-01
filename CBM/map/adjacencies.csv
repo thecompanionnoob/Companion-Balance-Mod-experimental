@@ -87,6 +87,8 @@
 2512;2516;sea;2881;0;Cook Strait #NZ
 2537;1531;sea;2858;0;Villan Strait #New Britain-New Ireland
 
+
+
 #
 # Impassables
 #
@@ -122,6 +124,9 @@
 722;605;impassable;0;0;scary mountain
 721;609;impassable;0;0;scary mountain
 722;609;impassable;0;0;scary mountain
+2680;2659;impassable;0;0;scary mountain
+2681;2692;impassable;0;0;scary mountain
+2691;2692;impassable;0;0;scary mountain
 
 
 #

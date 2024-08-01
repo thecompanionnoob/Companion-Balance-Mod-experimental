@@ -148,6 +148,9 @@ MED		="countries/MediumState.txt"
 LRG		="countries/LargeState.txt"
 HUG		="countries/HugeState.txt"
 
+#Assim focus nation (funny tag)
+ASS		="countries/Assimilation.txt"
+
 
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions

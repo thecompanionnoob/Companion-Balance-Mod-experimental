@@ -97,7 +97,7 @@ country_migration_target =
 
 migration_target =
 {
-	factor = 0.01
+	factor = 0.01	
 	modifier = {
 		factor = 1.2
 		total_pops = 150000

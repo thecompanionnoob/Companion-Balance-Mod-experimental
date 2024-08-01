@@ -73,4 +73,32 @@ political_decisions = {
 			clr_country_flag = banker_timer
 		}
 	}
+	send_prov_select_event = {
+		potential = {
+			tag = BNK
+			NOT = { has_country_modifier = select_delay }
+		}
+		allow = { }
+		effect = {
+			any_country = {
+				limit = {
+					ai = no
+					any_owned_province = { has_building = province_selector }
+				}
+				random_owned = {
+					limit = {
+						has_building = province_selector
+					}
+					province_event = {
+						## Audax Validator "." Ignore_NEXT
+						id = 69029 days = 0
+					}
+				}
+			}
+			add_country_modifier = { name = select_delay duration = 1 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }
