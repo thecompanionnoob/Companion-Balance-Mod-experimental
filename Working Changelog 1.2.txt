@@ -6,7 +6,6 @@ CHANGES FOR ALL COUNTRIES:
 
 Misc:
 *New Title Screen! Painting is "Siberian Cossacks at the Inspection of New Lands" by Nikolai Karazin, painted 1891.
-*New Title Song, "March of the Siberian Riflemen".
 *National Focuses are now more powerful.
 *Made "Inhospitable Climate" equal to "Harsh Climate" for supply limit.
 *Made it so that "Land! Liberty! Labor!" & "Baby Boom" both last for 6 months.

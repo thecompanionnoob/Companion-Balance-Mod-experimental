@@ -928,9 +928,11 @@ naval_design_bureaus = {
 	area = naval_engineering
 	year = 1836
 	cost = 3600
-	navy_base = { hull = 1 }
-	navy_base = { gun_power = 1 }
-	navy_base = { default_organisation = 3 }
+	navy_base = { 
+		hull = 1
+		gun_power = 1
+		default_organisation = 3
+	}
 	unciv_military = yes
 	ai_chance = {
 		factor = 1

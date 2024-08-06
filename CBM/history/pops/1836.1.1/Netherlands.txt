@@ -230,7 +230,7 @@
 	officers = {
 		culture = dutch
 		religion = sunni
-		size = 0
+		size = 5
 	}
 
 	bureaucrats = {
