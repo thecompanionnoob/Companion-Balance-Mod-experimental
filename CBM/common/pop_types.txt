@@ -616,7 +616,7 @@ assimilation_chance =
 		state_scope = { is_colonial = yes }
 	}
 	modifier = {
-    	factor = 7
+    	factor = 8
 		has_culture_core = yes	
 		OR = {
 			location = { is_core = THIS }
@@ -624,7 +624,7 @@ assimilation_chance =
 		}
 	}
 	modifier = { ### For some reason, it seems that even though there is no modifier, has_culture_core = no pops assimilate much more strongly, so modifier is scaled lower for them
-		factor = 0.07
+		factor = 0.08
 		has_culture_core = no
 		OR = {
 			location = { is_core = THIS }

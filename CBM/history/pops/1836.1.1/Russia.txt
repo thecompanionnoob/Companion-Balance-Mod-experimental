@@ -6858,38 +6858,6 @@
 		size = 225
 	}
 }
-#Khatanga (1000/250 POPS)
-2654 = {
-	aristocrats = {
-		culture = russian
-		religion = sunni
-		size = 5
-	}
-
-	clergymen = {
-		culture = russian
-		religion = sunni
-		size = 5
-	}
-
-	artisans = {
-		culture = russian
-		religion = sunni
-		size = 10
-	}
-
-	soldiers = {
-		culture = russian
-		religion = sunni
-		size = 5
-	}
-
-	farmers = {
-		culture = russian
-		religion = sunni
-		size = 225
-	}
-}
 #Essey (1000/250 POPS)
 2674 = {
 	aristocrats = {
@@ -6927,31 +6895,61 @@
 	aristocrats = {
 		culture = russian
 		religion = sunni
-		size = 5
+		size = 100
 	}
 
 	clergymen = {
 		culture = russian
 		religion = sunni
-		size = 5
+		size = 250
 	}
 
 	artisans = {
 		culture = russian
 		religion = sunni
-		size = 10
+		size = 1300
 	}
 
 	soldiers = {
 		culture = russian
 		religion = sunni
-		size = 5
+		size = 250
 	}
 
 	farmers = {
 		culture = russian
 		religion = sunni
-		size = 225
+		size = 24100
+	}
+
+	aristocrats = {
+		culture = russian
+		religion = sunni
+		size = 50
+	}
+
+	clergymen = {
+		culture = russian
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = russian
+		religion = sunni
+		size = 150
+	}
+
+	soldiers = {
+		culture = russian
+		religion = sunni
+		size = 25
+	}
+
+	farmers = {
+		culture = russian
+		religion = sunni
+		size = 2725
 	}
 }
 #Udachniy (2000/500 POPS)
@@ -7498,34 +7496,64 @@
 }
 #Kular (1000/250 POPS)
 2652 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = russian
 		religion = sunni
-		size = 3
+		size = 50
 	}
 
 	clergymen = {
 		culture = russian
 		religion = sunni
-		size = 5
+		size = 75
 	}
 
 	artisans = {
 		culture = russian
 		religion = sunni
-		size = 10
+		size = 150
 	}
 
 	soldiers = {
 		culture = russian
 		religion = sunni
-		size = 2
+		size = 25
 	}
 
 	farmers = {
 		culture = russian
 		religion = sunni
-		size = 230
+		size = 2700
+	}
+
+	aristocrats = {
+		culture = kazak
+		religion = sunni
+		size = 425
+	}
+
+	clergymen = {
+		culture = kazak
+		religion = sunni
+		size = 200
+	}
+
+	artisans = {
+		culture = kazak
+		religion = sunni
+		size = 1100
+	}
+
+	soldiers = {
+		culture = kazak
+		religion = sunni
+		size = 225
+	}
+
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 19050
 	}
 }
 #Zhilinda (1000/250 POPS)

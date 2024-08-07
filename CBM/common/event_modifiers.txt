@@ -882,6 +882,10 @@ education_idea = {
 promotion_idea = {
     icon = 3
 }
+assim_idea = {
+	icon = 3
+	global_assimilation_rate = 0.75
+}
 
 
 national_idea_timer = {

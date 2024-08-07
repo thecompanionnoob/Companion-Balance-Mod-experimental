@@ -7773,25 +7773,13 @@
 	aristocrats = {
 		culture = manchu
 		religion = sunni
-		size = 6875
-	}
-
-	bureaucrats = {
-		culture = manchu
-		religion = sunni
-		size = 1150
-	}
-
-	officers = {
-		culture = manchu
-		religion = sunni
-		size = 800
+		size = 3775
 	}
 
 	clergymen = {
 		culture = manchu
 		religion = sunni
-		size = 3463
+		size = 1900
 	}
 
 	artisans = {
@@ -7803,61 +7791,117 @@
 	artisans = {
 		culture = manchu
 		religion = sunni
-		size = 5000
-	}
-
-	artisans = {
-		culture = manchu
-		religion = sunni
-		size = 5000
-	}
-
-	artisans = {
-		culture = manchu
-		religion = sunni
-		size = 2275
+		size = 4450
 	}
 
 	soldiers = {
 		culture = manchu
 		religion = sunni
-		size = 4000
+		size = 1900
 	}
 
 	farmers = {
 		culture = manchu
 		religion = sunni
-		size = 312050
+		size = 171975
 	}
 
 	aristocrats = {
-		culture = korean
+		culture = manchu
+		religion = sunni
+		size = 25
+	}
+
+	clergymen = {
+		culture = manchu
 		religion = sunni
 		size = 38
 	}
 
-	clergymen = {
-		culture = korean
-		religion = sunni
-		size = 25
-	}
-
 	artisans = {
-		culture = korean
+		culture = manchu
 		religion = sunni
-		size = 125
+		size = 75
 	}
 
 	soldiers = {
-		culture = korean
+		culture = manchu
+		religion = sunni
+		size = 13
+	}
+
+	farmers = {
+		culture = manchu
+		religion = sunni
+		size = 1350
+	}
+}
+#Daqing
+2654 = {
+	aristocrats = {
+		culture = manchu
+		religion = sunni
+		size = 3775
+	}
+
+	clergymen = {
+		culture = manchu
+		religion = sunni
+		size = 1900
+	}
+
+	artisans = {
+		culture = manchu
+		religion = sunni
+		size = 5000
+	}
+
+	artisans = {
+		culture = manchu
+		religion = sunni
+		size = 4450
+	}
+
+	soldiers = {
+		culture = manchu
+		religion = sunni
+		size = 1900
+	}
+
+	farmers = {
+		culture = manchu
+		religion = sunni
+		size = 171975
+	}
+
+	aristocrats = {
+		culture = manchu
 		religion = sunni
 		size = 25
 	}
 
-	farmers = {
-		culture = korean
+	clergymen = {
+		culture = manchu
 		religion = sunni
-		size = 2288
+		size = 38
+	}
+
+	artisans = {
+		culture = manchu
+		religion = sunni
+		size = 75
+	}
+
+	soldiers = {
+		culture = manchu
+		religion = sunni
+		size = 13
+	}
+
+	farmers = {
+		culture = manchu
+		religion = sunni
+		size = 1350
 	}
 }
 #Aigun (762000/190500 POPS)

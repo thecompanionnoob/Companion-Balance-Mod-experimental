@@ -39,6 +39,7 @@ Ideas:
 *Added a colonial migration national idea that enables colonial migration.
 *Made Naval Ideas' build time buff scale depending on the build time of the ship in question. It is now -20% of the base build speed of any given ship.
 *Reduced the organization and research bonuses of naval, and added a speed bonus.
+*Added an assimilation idea, it buffs the rate but it will not make non-core provinces without an assim focus assimilate.
 
 CBs:
 *Added state size being assigned by an annual event that assigns cores, so you can see what size a state is.

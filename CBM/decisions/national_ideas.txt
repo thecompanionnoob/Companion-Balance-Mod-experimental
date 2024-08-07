@@ -162,6 +162,26 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			add_country_modifier = { name = national_idea_timer duration = 5475 }
 		}
 	}
+
+	assimilation_idea_decision = { #buffs assim 
+		alert = no
+		potential = {
+			has_country_flag = national_ideas_enabled
+			NOT = {
+				has_country_modifier = national_idea_timer
+			}
+			NOT = {
+				has_country_modifier = assim_idea
+			}
+		}
+		allow = { }
+		effect = {
+			clr_country_flag = national_ideas_enabled
+			clr_country_flag = national_idea_reminder
+			add_country_modifier = { name = assim_idea duration = -1 }
+			add_country_modifier = { name = national_idea_timer duration = 5475 }
+		}
+	}
         
 	education_idea_decision = { #education eff.
 		alert = no

@@ -125,8 +125,40 @@
 721;609;impassable;0;0;scary mountain
 722;609;impassable;0;0;scary mountain
 2680;2659;impassable;0;0;scary mountain
-2681;2692;impassable;0;0;scary mountain
-2691;2692;impassable;0;0;scary mountain
+2615;2680;impassable;0;0;scary mountain
+2615;2657;impassable;0;0;scary mountain
+2692;2657;impassable;0;0;scary mountain
+1070;2657;impassable;0;0;scary mountain
+1070;2693;impassable;0;0;scary mountain
+1070;2701;impassable;0;0;scary mountain
+1070;2656;impassable;0;0;scary mountain
+1076;2656;impassable;0;0;scary mountain
+2677;2656;impassable;0;0;scary mountain
+2677;2694;impassable;0;0;scary mountain
+2677;2695;impassable;0;0;scary mountain
+2676;2695;impassable;0;0;scary mountain
+2645;2695;impassable;0;0;scary mountain
+2645;2650;impassable;0;0;scary mountain
+2645;1069;impassable;0;0;scary mountain
+2644;1069;impassable;0;0;scary mountain
+2672;2644;impassable;0;0;scary mountain
+2648;2669;impassable;0;0;scary mountain
+2648;2641;impassable;0;0;scary mountain
+2642;2641;impassable;0;0;scary mountain
+2642;1072;impassable;0;0;scary mountain
+2640;1072;impassable;0;0;scary mountain
+2640;2639;impassable;0;0;scary mountain
+2620;2639;impassable;0;0;scary mountain
+2620;2618;impassable;0;0;scary mountain
+2620;2638;impassable;0;0;scary mountain
+2660;2638;impassable;0;0;scary mountain
+2660;1073;impassable;0;0;scary mountain
+2622;1073;impassable;0;0;scary mountain
+2622;2663;impassable;0;0;scary mountain
+2666;2663;impassable;0;0;scary mountain
+2666;2634;impassable;0;0;scary mountain
+2666;2637;impassable;0;0;scary mountain
+2666;2590;impassable;0;0;scary mountain
 
 
 #
