@@ -126,11 +126,11 @@
 722;609;impassable;0;0;scary mountain
 2680;2659;impassable;0;0;scary mountain
 2615;2680;impassable;0;0;scary mountain
-2615;2657;impassable;0;0;scary mountain
-2692;2657;impassable;0;0;scary mountain
+2615;2693;impassable;0;0;scary mountain
+2692;2693;impassable;0;0;scary mountain
 1070;2657;impassable;0;0;scary mountain
 1070;2693;impassable;0;0;scary mountain
-1070;2701;impassable;0;0;scary mountain
+2701;2656;impassable;0;0;scary mountain
 1070;2656;impassable;0;0;scary mountain
 1076;2656;impassable;0;0;scary mountain
 2677;2656;impassable;0;0;scary mountain
