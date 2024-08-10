@@ -884,7 +884,7 @@ promotion_idea = {
 }
 assim_idea = {
 	icon = 3
-	global_assimilation_rate = 0.75
+	global_assimilation_rate = 1
 }
 
 
@@ -894,10 +894,11 @@ national_idea_timer = {
 ### PROV SELECTOR
 
 province_attract_immigrants = {
-	immigrant_attract = 100 #This doesnt really feel like it does much, seems to affect internal migration but not where foreign migrants go?
+	immigrant_attract = 400 #This doesnt really feel like it does much, seems to affect internal migration but not where foreign migrants go?
+	immigrant_push = -1
 }
-assim_focus = { #Effect can be seen in common/pop_types.txt or in the pop menu by hovering over pop culture to see promotion.
-	assimilation_rate = 0.75
+assim_focus = { 
+	assimilation_rate = 5
 }
 
 

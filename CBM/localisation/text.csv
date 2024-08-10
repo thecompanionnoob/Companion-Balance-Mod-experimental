@@ -6490,11 +6490,11 @@ RULE_EXPAND_FACTORY;Expand Factories;Agrandir des usines;Fabriken erweitern;;Amp
 RULE_BUILD_RAILWAY;Build Railway;Construire une voie ferrée;Eisenbahn bauen;;Construir ferrocarril;;;;;;;;;x;;;;
 RULE_FACTORY_PRIORITY;Prioritise Factories;Favoriser les usines;Fabriken priorisieren;;Priorizar fábricas;;;;;;;;;x;;;;
 RULE_PRIMARY_CULTURE_VOTING;Primary culture can vote;La culture principale peut voter;Primärkultur kann wählen;;Cultura principal puede votar;;;;;;;;;x;;;;
-RULE_CULTURE_VOTING;Accepted cultures can vote;Les cultures acceptées peuvent voter;Akzeptierte Kulturen können wählen;;Culturas aceptadas pueden votar;;;;;;;;;x;;;;
-RULE_ALL_VOTING;All cultures can vote;Toutes les cultures peuvent voter;Alle Kulturen können wählen;;Todas las culturas pueden votar;;;;;;;;;x;;;;
+RULE_CULTURE_VOTING;Accepted cultures can vote\n§G+5%§! Assimilation Rate;Les cultures acceptées peuvent voter;Akzeptierte Kulturen können wählen;;Culturas aceptadas pueden votar;;;;;;;;;x;;;;
+RULE_ALL_VOTING;All cultures can vote\n§G+10%§! Assimilation Rate;Toutes les cultures peuvent voter;Alle Kulturen können wählen;;Todas las culturas pueden votar;;;;;;;;;x;;;;
 RULE_LARGEST_SHARE;Largest Share wins;La plus grande part l'emporte;Größter Stimmenanteil gewinnt;;Gana la mayoría;;;;;;;;;x;;;;
 RULE_DHONT;Jefferson Method;Méthode de Jefferson;Jefferson-Methode;;Sistema de Jefferson;;;;;;;;;x;;;;
-RULE_SAINTE_LAQUE;Proportional Selection of Seats;Sélection proportionnelle des sièges;Verhältnisgemäße Sitzverteilung;;Designación proporcional de escaños;;;;;;;;;x;;;;
+RULE_SAINTE_LAQUE;\nProportional Selection of Seats;Sélection proportionnelle des sièges;Verhältnisgemäße Sitzverteilung;;Designación proporcional de escaños;;;;;;;;;x;;;;
 MINIMUM_STOCKPILE_TARGET;Minimum stockpile:;Quantité min. en réserve;Minimum-Vorrat:;;Reserva mínima:;;;;;;;;;x;;;;
 MAXIMUM_STOCKPILE_TARGET;Maximum stockpile:;Quantité max. en réserve;Maximal-Vorrat:;;Reserva máxima:;;;;;;;;;x;;;;
 GOV_NEED_DETAIL;Need $VAL$ for government;Un besoin de $VAL$ pour notre gouvernement;Benötigt $VAL$ für Regierung;;Se necesita $VAL$ para el gobierno;;;;;;;;;x;;;;

@@ -10,11 +10,14 @@ Misc:
 *Made "Inhospitable Climate" equal to "Harsh Climate" for supply limit.
 *Made it so that "Land! Liberty! Labor!" & "Baby Boom" both last for 6 months.
 *Reduced build time of all factories to 6 months instead of 1 year.
+*Increased base tax efficiency by 5%.
+*Core event will now fire only on provinces of an accepted culture. It fires no matter the rest of your country's situation and much faster than vanilla. Prestige techs will make it fire faster.
 
 Politics:
 *Increased militancy required for rebels to pop.
 *Buffed education reforms (2nd reform: 7.5% -> 10%, 3rd reform: 10% -> 15%).
 *Added decisions to roll back healthcare and education reforms if desired (at the cost of some militancy and consciousness).
+*Citizenship policy now impacts assimilation speed.
 
 Poptypes:
 *Readjusted Promotion in General, biggest points include:
@@ -88,6 +91,8 @@ Bugfixes/QoL:
 *Fixed localisation for the request deoccupation decision, so you can tell which country is asking for deoccupation.
 *Changed starting generals so that they are gained by event, so ai wont get the generals. (They still only appear if a player is on the nation before 1841, they're for the start of the game). Unfortunately due to the way generals by event work this means I had to get rid of the scripted 3/3 admiral.
 *Fixed request deoccupation so it wont make you ask yourself if you would like to deoccupy yourself.
+*Fixed SGF not having the generic parties.
+*Made all ideology enabling events fire immediately upon their dates being reached on a random civilized country with a certain literacy level (depending on the ideology)
 
 Combat:
 *Nerfed navy build time inventions
@@ -135,14 +140,16 @@ Japan:
 
 Russia:
 *Added more provinces in Siberia to make warfare there more varied and interesting. (TODO, partially done)
+*To compensate for this (and allow me to repurpose provinces so the performance impact is not significant), much of siberia is now uncolonized and blocked with a blue border.
 *Allowed Russia to take quantity ideas.
+*Added decisions to core and remove chinese cores in outer manchuria.
 
 Spain:
 *Buffed Spanish Literacy from 13% to 35%.
 *Allowed Spain to annex Portugal and get Portuguese accepted w/ Ideological Thought if they take Iberian Union route and puppet Portugal.
 
 All American nations but Canada and USA:
-*Added Tech (TODO)
+*Starting tech is now 5 in each category for all the countries in this region with content.
 
 Haiti:
 *Gave Cuba to Spain.

@@ -928,7 +928,12 @@ naval_design_bureaus = {
 	area = naval_engineering
 	year = 1836
 	cost = 3600
-	navy_base = { 
+	manowar = {
+		hull = 1
+		gun_power = 1
+		default_organisation = 3
+	}
+	frigate = {
 		hull = 1
 		gun_power = 1
 		default_organisation = 3
@@ -1019,9 +1024,16 @@ fire_control_systems = {
 	year = 1836
 	cost = 7200
 	unciv_military = yes
-	navy_base = { hull = 2 }
-	navy_base = { gun_power = 2 }
-	navy_base = { default_organisation = 3 }
+	manowar = {
+		hull = 2
+		gun_power = 2
+		default_organisation = 3
+	}
+	frigate = {
+		hull = 2
+		gun_power = 2
+		default_organisation = 3
+	}
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -1108,9 +1120,21 @@ weapon_platforms = {
 	year = 1850
 	cost = 10800
 	unciv_military = yes
-	navy_base = { hull = 3 }
-	navy_base = { gun_power = 3 }
-	navy_base = { default_organisation = 3 }
+	commerce_raider = {
+		hull = 3
+		gun_power = 3
+		default_organisation = 3
+	}
+	ironclad = {
+		hull = 3
+		gun_power = 3
+		default_organisation = 3
+	}
+	monitor = {
+		hull = 3
+		gun_power = 3
+		default_organisation = 3
+	}
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -1196,9 +1220,21 @@ main_armament = {
 	year = 1870
 	cost = 14400
 	unciv_military = yes
-	navy_base = { hull = 3 }
-	navy_base = { gun_power = 3 }
-	navy_base = { default_organisation = 3 }
+	commerce_raider = {
+		hull = 3
+		gun_power = 3
+		default_organisation = 3
+	}
+	ironclad = {
+		hull = 3
+		gun_power = 3
+		default_organisation = 3
+	}
+	monitor = {
+		hull = 3
+		gun_power = 3
+		default_organisation = 3
+	}
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -1289,9 +1325,21 @@ advanced_naval_design = {
 	year = 1900
 	cost = 18000
 	unciv_military = yes
-	navy_base = { hull = 5 }
-	navy_base = { gun_power = 5 }
-	navy_base = { default_organisation = 3 }
+	cruiser = {
+		hull = 5
+		gun_power = 5
+		default_organisation = 3
+	}
+	battleship = {
+		hull = 5
+		gun_power = 5
+		default_organisation = 3
+	}
+	dreadnought = {
+		hull = 5
+		gun_power = 5
+		default_organisation = 3
+	}
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -1377,9 +1425,21 @@ modern_naval_design = {
 	year = 1919
 	cost = 21600
 	unciv_military = yes
-	navy_base = { hull = 5 }
-	navy_base = { gun_power = 5 }
-	navy_base = { default_organisation = 3 }
+	cruiser = {
+		hull = 5
+		gun_power = 5
+		default_organisation = 3
+	}
+	battleship = {
+		hull = 5
+		gun_power = 5
+		default_organisation = 3
+	}
+	dreadnought = {
+		hull = 5
+		gun_power = 5
+		default_organisation = 3
+	}
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this

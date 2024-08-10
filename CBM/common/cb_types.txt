@@ -1273,7 +1273,7 @@ place_in_the_sun_small = {
 			    is_core = TNY
 		    }
 		    any_owned_province = {
-			    is_core = SMA
+			    is_core = SML
 		    }
 		    any_owned_province = {
 			    is_core = MED

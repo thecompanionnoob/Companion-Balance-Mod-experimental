@@ -70,4 +70,45 @@ political_decisions = {
 			set_country_flag = polish_accepted
 		}
 	}
+	claim_outer_manchu = {
+		potential = {
+			tag = RUS
+			NOT = { has_country_flag = outer_manchu_claim }
+		}
+		allow = {
+			ideological_thought = 1
+		}
+		effect = {
+			CHI_1082 = {
+				add_core = THIS
+			}
+			badboy = 5
+			set_country_flag = outer_manchu_claim
+		}
+	}
+	outer_manchu_russification = {
+		potential = {
+			tag = RUS
+			NOT = { has_country_flag = outer_manchu_russification }
+		}
+		allow = {
+			CHI_1082 = {
+				is_core = THIS
+				owned_by = THIS
+			}
+			money = 100000
+		}
+		effect = {
+			treasury = -100000
+			CHI_1082 = {
+				remove_core = CHI
+				remove_core = MCK
+				remove_core = YNN
+				remove_core = NAN
+				remove_core = YUA
+			}
+			prestige = 10
+			set_country_flag = outer_manchu_russification
+		}
+	}
 }
