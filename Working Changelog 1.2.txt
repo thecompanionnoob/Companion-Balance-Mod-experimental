@@ -13,6 +13,7 @@ Misc:
 *Increased base tax efficiency by 5%.
 *Core event will now fire only on provinces of an accepted culture. It fires no matter the rest of your country's situation and much faster than vanilla. Prestige techs will make it fire faster.
 *Reduced pop growth loss from occupation.
+*Made the Machine Parts factories not require machine parts for maintenance.
 
 Politics:
 *Increased militancy required for rebels to pop.
