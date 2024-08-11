@@ -73,7 +73,6 @@ Immigration:
 Bugfixes/QoL:
 *Yuan now has an adjective.
 *Fixed broken Mexican decisions.
-*Added ghost army automatic removal. It doesnt work for navies, let me know if you have a solution for that, although navies will move to the ghost removal nation sea tile so they're away from important areas. For some reason when i added PHI it broke everything so it doesnt work for them. gotta love vic2 jank.
 *Prevented sphering and declaring war on the world bank nation & ghost army removal nation. 
 *Fixed Prussian-owned African island lacking continent (causes crash).
 *Fixed industry ideas, the output bonus was not being applied and the input bonus was actually a malus.
