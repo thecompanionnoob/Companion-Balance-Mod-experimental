@@ -12,6 +12,7 @@ Misc:
 *Reduced build time of all factories to 6 months instead of 1 year.
 *Increased base tax efficiency by 5%.
 *Core event will now fire only on provinces of an accepted culture. It fires no matter the rest of your country's situation and much faster than vanilla. Prestige techs will make it fire faster.
+*Reduced pop growth loss from occupation.
 
 Politics:
 *Increased militancy required for rebels to pop.
@@ -137,9 +138,10 @@ Portugal-Brazil:
 
 Japan:
 *Redid Japanese states, there are now more.
+*Reduced literacy to 30% from 40%.
 
 Russia:
-*Added more provinces in Siberia to make warfare there more varied and interesting. (TODO, partially done)
+*Added more provinces in Siberia to make warfare there more varied and interesting.
 *To compensate for this (and allow me to repurpose provinces so the performance impact is not significant), much of siberia is now uncolonized and blocked with a blue border.
 *Allowed Russia to take quantity ideas.
 *Added decisions to core and remove chinese cores in outer manchuria.
