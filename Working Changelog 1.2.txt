@@ -115,6 +115,8 @@ Combat:
 		*These are equal in cost within a single era and work on a "triangle-balance" system. Heavies easily beat lights, which easily beat subs, which easily beat heavies.
 		
 	*In the man-o-war era, the man-o-wars are better than frigates but significantly more expensive. Poorer countries can sustain frigate fleets, but if you have the money man-o-wars are simply better (Better cost to stats ratio).
+
+	*Costs have been multiplied by 3 for the ironclad era and by two for the dreadnought era.
 	
 	
 *Naval tech is completely changed to go along with the above rebalancing:
