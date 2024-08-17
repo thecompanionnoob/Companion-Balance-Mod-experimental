@@ -1,3 +1,16 @@
+
+advanced_forest_management = {
+	limit = { high_n_low_pressure_steam_engines = 1 }
+	chance = {
+		base = 100
+	}
+	effect = {
+		rgo_goods_output = {
+			timber = 0.4
+		}
+	}
+}
+
 #combustion_engine
 daimlers_automobile = {
 	limit = { combustion_engine = 1 }

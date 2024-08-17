@@ -4,12 +4,14 @@
 party_issues = {
 	trade_policy = {
 		protectionism = {
-			max_tariff = 1
-			min_tariff = -0.25
+			max_tariff = 0.4
+			min_tariff = 0
 		}
 		free_trade = {
-			max_tariff = 0.25
-			min_tariff = -1
+			max_tariff = 0.2
+			min_tariff = 0
+			factory_output = 0.05
+			factory_throughput = 0.05
 		}
 	}
 	economic_policy = {
@@ -251,7 +253,7 @@ political_reforms = {
 			administrative_efficiency_modifier = -0.2
 			education_efficiency_modifier = -0.1
 			#tax_efficiency = -0.05
-			tariff_efficiency_modifier = -0.6
+			#tariff_efficiency_modifier = -0.6
 			allow = { 
 				AND = {
 					NOT = {
@@ -265,7 +267,7 @@ political_reforms = {
 			administrative_efficiency_modifier = -0.1
 			education_efficiency_modifier = -0.05
 			#tax_efficiency = -0.03
-			tariff_efficiency_modifier = -0.55
+			tariff_efficiency_modifier = 0.05
 			allow = { 
 				AND = {
 					NOT = {
@@ -276,7 +278,7 @@ political_reforms = {
 			}
 		}
 		effective_administrative_state = {
-			tariff_efficiency_modifier = -0.5
+			tariff_efficiency_modifier = 0.1
 			allow = { 
 				AND = {
 					NOT = {

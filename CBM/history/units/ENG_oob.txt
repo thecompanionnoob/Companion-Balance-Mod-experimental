@@ -548,12 +548,12 @@ navy = {
 
 	ship = {
 		name= "HMS Medea"
-		type = commerce_raider
+		type = frigate
 	}
 
 	ship = {
 		name= "HMS Phoenix"
-		type = commerce_raider
+		type = frigate
 	}
 
 }
@@ -1028,7 +1028,7 @@ navy = {
 
 	ship = {
 		name= "HMS Salamander"
-		type = commerce_raider
+		type = frigate
 	}
 
 }
