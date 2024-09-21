@@ -1,4 +1,4 @@
-color = { 124 40 30 }
+color = { 190 50 80 }
 graphical_culture = AustriaHungaryGC
 
 party = {
@@ -109,7 +109,7 @@ unit_names = {
 		"Zrinyi" "Viribis Unitis" "Tegetthoff" "Prinz Eugen" "Prinz Metternich" "Szent Istvan"
 	}
 	battleship = {
-		Habsburg Árpád Babenburg "Erzherzog Karl" "Erzherzog Friedrich" "Erzherzog Ferdinand Max" "Erzherzog Franz Ferdinand" Radetzky Zrínyi
+		Habsburg Ýrpád Babenburg "Erzherzog Karl" "Erzherzog Friedrich" "Erzherzog Ferdinand Max" "Erzherzog Franz Ferdinand" Radetzky Zrínyi
 	}
 	ironclad = {
 		"Hum" "Trabant" "Taurus" "Vesta" "Dalmat" "Camälion" "Kopernik" "Drach" "Salamander"

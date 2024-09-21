@@ -24,8 +24,8 @@ upper_house = {
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0
-1861.1.1 = {
-	oob = "/1861/HND_oob.txt"
+1925.1.1 = {
+	oob = "/1925/HND_oob.txt"
 }
 
 slavery = no_slavery

@@ -25,6 +25,7 @@ political_decisions = {
 			2418 = {
 				add_core = BOL
 			}
+			badboy = 5
 		}
 	}
 	accept_afro_brazil = {
@@ -53,7 +54,6 @@ political_decisions = {
 			add_accepted_culture = afro_brazilian
 			set_country_flag = afro_brazilians
 			prestige = 20
-			badboy = 5
 		}
 	}
 }

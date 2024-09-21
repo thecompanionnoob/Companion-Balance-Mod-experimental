@@ -74,12 +74,12 @@ consciousness = 3
 nonstate_consciousness = 1
 
 oob = "BRZ_oob.txt"
-1861.1.1 = {
-	oob = "/1861/BRZ_oob.txt"
+1925.1.1 = {
+	oob = "/1925/BRZ_oob.txt"
 	literacy = 0.16
 	non_state_culture_literacy = 0.05
 }
-1861.1.1 = {
+1925.1.1 = {
 
 plurality = 60
 

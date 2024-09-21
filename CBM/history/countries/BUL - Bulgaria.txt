@@ -55,10 +55,10 @@ malthusian_thought = 1
 
 oob = "BUL_oob.txt"
 
-1861.1.1 = {
-	oob = "/1861/BUL_oob.txt"
+1925.1.1 = {
+	oob = "/1925/BUL_oob.txt"
 }
-1861.1.1 = {
+1925.1.1 = {
 # Technologies
 
 #Inventions

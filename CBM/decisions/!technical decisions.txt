@@ -5,6 +5,7 @@ political_decisions = {
 			NOT = {
 				has_global_flag = setup
 			}
+			NOT = { year = 1840 }
 		}
 		allow = {}
 		effect = {
@@ -26,6 +27,154 @@ political_decisions = {
 			}
 		}
 		ai_will_do = { factor = 1 }
+	}
+	setup_great_war_two = {
+		potential = { 
+			tag = JAN 
+			NOT = {
+				has_global_flag = setup
+			}
+			year = 1840 
+		}
+		allow = {}
+		effect = {
+
+			#shiny rgos
+
+			#rubber rgos 
+			
+			1354 = { trade_goods = rubber }
+			1364 = { trade_goods = rubber }
+			1367 = { trade_goods = rubber }
+			1382 = { trade_goods = rubber }
+			1384 = { trade_goods = rubber }
+			1385 = { trade_goods = rubber }
+			1386 = { trade_goods = rubber }
+			1389 = { trade_goods = rubber }
+			1402 = { trade_goods = rubber }
+			1404 = { trade_goods = rubber }
+			1827 = { trade_goods = rubber }
+			1829 = { trade_goods = rubber }
+			1833 = { trade_goods = rubber }
+			1836 = { trade_goods = rubber }
+			1837 = { trade_goods = rubber }
+			1848 = { trade_goods = rubber }
+			1850 = { trade_goods = rubber }
+			1890 = { trade_goods = rubber }
+			1891 = { trade_goods = rubber }
+			1923 = { trade_goods = rubber }
+			1321 = { trade_goods = rubber }
+			1398 = { trade_goods = rubber }
+			1421 = { trade_goods = rubber }
+			1985 = { trade_goods = rubber }
+			1406 = { trade_goods = rubber }
+			1318 = { trade_goods = rubber }
+			2057 = { trade_goods = rubber }
+			1426 = { trade_goods = rubber }
+			2058 = { trade_goods = rubber }
+			977 = { trade_goods = rubber }
+			1978 = { trade_goods = rubber }
+			1980 = { trade_goods = rubber }
+			1981 = { trade_goods = rubber }
+			2624 = { trade_goods = rubber }
+			1926 = { trade_goods = rubber }
+			1929 = { trade_goods = rubber }
+			1931 = { trade_goods = rubber }
+			1932 = { trade_goods = rubber }
+			1957 = { trade_goods = rubber }
+			1986 = { trade_goods = rubber }
+			1988 = { trade_goods = rubber }
+			1989 = { trade_goods = rubber }
+			1996 = { trade_goods = rubber }
+			2192 = { trade_goods = rubber }
+			2317 = { trade_goods = rubber }
+			2318 = { trade_goods = rubber }
+			2319 = { trade_goods = rubber }
+			2321 = { trade_goods = rubber }
+			2402 = { trade_goods = rubber }
+			2404 = { trade_goods = rubber }
+			2405 = { trade_goods = rubber }
+			2549 = { trade_goods = rubber }
+			2550 = { trade_goods = rubber }
+			2600 = { trade_goods = rubber }
+
+			#oil rgos
+
+			1102 = { trade_goods = oil }
+			1205 = { trade_goods = oil }
+			1104 = { trade_goods = oil }
+			1186 = { trade_goods = oil }
+			1202 = { trade_goods = oil }
+			1107 = { trade_goods = oil }
+			132 = { trade_goods = oil }
+			667 = { trade_goods = oil }
+			672 = { trade_goods = oil }
+			1168 = { trade_goods = oil }
+			110 = { trade_goods = oil }
+			89 = { trade_goods = oil }
+			133 = { trade_goods = oil }
+			126 = { trade_goods = oil }
+			1399 = { trade_goods = oil }
+			1055 = { trade_goods = oil }
+			1393 = { trade_goods = oil }
+			1401 = { trade_goods = oil }
+			1425 = { trade_goods = oil }
+			1432 = { trade_goods = oil }
+			1335 = { trade_goods = oil }
+			134 = { trade_goods = oil }
+			705 = { trade_goods = oil }
+			1260 = { trade_goods = oil }
+			1086 = { trade_goods = oil }
+			129 = { trade_goods = oil }
+			1680 = { trade_goods = oil }
+			2173 = { trade_goods = oil }
+			87 = { trade_goods = oil }
+			2162 = { trade_goods = oil }
+			2163 = { trade_goods = oil }
+			702 = { trade_goods = oil }
+			1397 = { trade_goods = oil }
+			2237 = { trade_goods = oil }
+			2396 = { trade_goods = oil }
+			1131 = { trade_goods = oil }
+			1732 = { trade_goods = oil }
+			1720 = { trade_goods = oil }
+			1167 = { trade_goods = oil }
+			1163 = { trade_goods = oil }
+			2270 = { trade_goods = oil }
+			1170 = { trade_goods = oil }
+			1132 = { trade_goods = oil }
+			26 = { trade_goods = oil }
+
+
+			any_country = {
+				limit = { is_greater_power = yes }
+				treasury = 2000000
+			}
+			any_country = {
+				limit = { is_greater_power = no }
+				treasury = 600000
+			}
+			set_global_flag = setup #failsafe so that it doesnt do it twice for sure
+			JAN = {
+				all_core = {
+					remove_core = JAN
+					add_core = SCA
+				}
+				annex_to = SCA #remove the country from the map for simplicity since setup is all its used for
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	great_war_setup = {
+		potential = {
+			tag = BNK
+			war = yes 
+			war = no
+		}
+		allow = {}
+		effect = {
+			set_global_flag = great_war
+		}
 	}
 	annual_tick_starter = {
 		potential = {

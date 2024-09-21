@@ -39,10 +39,10 @@ upper_house = {
 	communist = 2
 }
 
-1861.1.1 = {
-	oob = "/1861/SGF_oob.txt"
+1925.1.1 = {
+	oob = "/1925/SGF_oob.txt"
 }
-1861.1.1 = {
+1925.1.1 = {
 # Technologies
 
 #Inventions

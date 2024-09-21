@@ -75,13 +75,13 @@ consciousness = 2
 nonstate_consciousness = 0
 
 oob = "CHL_oob.txt"
-1861.1.1 = {
-	oob = "/1861/CHL_oob.txt"
+1925.1.1 = {
+	oob = "/1925/CHL_oob.txt"
 	plurality = 60
 	literacy = 0.21
 	non_state_culture_literacy = 0.02
 }
-1861.1.1 = {
+1925.1.1 = {
 
 ruling_party = CHL_conservative_3
 

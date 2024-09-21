@@ -1,1 +1,127 @@
-#removed
+#inventions in political thought 
+
+#constitutionalism 
+
+country_event = {
+    id = 69037
+    title = "EVTNAME69037"
+    desc = "EVTDESC69037"
+    
+    trigger = {
+        invention = constitutionalism
+        NOT = { has_country_flag = constitutionalism }
+    }
+
+    immediate = {
+        set_country_flag = constitutionalism
+    }
+
+    option = {
+        name = "EVTOPTA69037"
+    }
+}
+
+#individualism 
+
+country_event = {
+    id = 69038
+    title = "EVTNAME69038"
+    desc = "EVTDESC69038"
+    
+    trigger = {
+        invention = individualism
+        NOT = { has_country_flag = individualism }
+    }
+
+    immediate = {
+        set_country_flag = individualism
+    }
+
+    option = {
+        name = "EVTOPTA69038"
+    }
+}
+
+#meritocracy vs aristocracy
+
+country_event = {
+    id = 69039
+    title = "EVTNAME69039"
+    desc = "EVTDESC69039"
+    
+    trigger = {
+        invention = meritocracy
+        NOT = { has_country_flag = meritocracy }
+    }
+
+    immediate = {
+        set_country_flag = meritocracy
+    }
+
+    option = {
+        name = "EVTOPTA69039"
+    }
+}
+
+#national fraternity 
+
+country_event = {
+    id = 69040
+    title = "EVTNAME69040"
+    desc = "EVTDESC69040"
+    
+    trigger = {
+        invention = national_fraternity
+        NOT = { has_country_flag = national_fraternity }
+    }
+
+    immediate = {
+        set_country_flag = national_fraternity
+    }
+
+    option = {
+        name = "EVTOPTA69040"
+    }
+}
+
+#womens suffrage movement
+
+country_event = {
+    id = 69041
+    title = "EVTNAME69041"
+    desc = "EVTDESC69041"
+    
+    trigger = {
+        invention = womens_suffrage_movement
+        NOT = { has_country_flag = womens_suffrage_movement }
+    }
+
+    immediate = {
+        set_country_flag = womens_suffrage_movement
+    }
+
+    option = {
+        name = "EVTOPTA69041"
+    }
+}
+
+#police state
+
+country_event = {
+    id = 69042
+    title = "EVTNAME69042"
+    desc = "EVTDESC69042"
+    
+    trigger = {
+        invention = the_police_state
+        NOT = { has_country_flag = the_police_state }
+    }
+
+    immediate = {
+        set_country_flag = the_police_state
+    }
+
+    option = {
+        name = "EVTOPTA69042"
+    }
+}

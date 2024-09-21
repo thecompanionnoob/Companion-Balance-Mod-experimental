@@ -29,16 +29,48 @@ state_building = {
 	building = clipper_shipyard
 	upgrade = yes
 }
-1861.1.1 = {
+1910.1.1 = {
+railroad = 5
 	state_building = {
-		level = 1
-		building = luxury_clothes_factory
+		level = 3
+		building = machine_parts_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
+		building = steel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = ammunition_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = artillery_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = small_arms_factory
 		upgrade = yes
 	}
 	state_building = {
 		level = 1
-		building = luxury_furniture_factory
+		building = explosives_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 3
+		building = steamer_shipyard
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = regular_clothes_factory
 		upgrade = yes
 	}
 }
-1861.1.1 = { railroad = 3 }
+
+

@@ -30,7 +30,7 @@ political_decisions = {
 		effect = {
 			add_accepted_culture = kazak
 			prestige = 15
-			badboy = 5
+			#badboy = 5
 			set_country_flag = kazak_accepted
 		}
 	}
@@ -48,7 +48,7 @@ political_decisions = {
 		effect = {
 			add_accepted_culture = caucasian
 			prestige = 15
-			badboy = 5
+			#badboy = 5
 			set_country_flag = caucasian_accepted
 		}
 	}
@@ -66,7 +66,7 @@ political_decisions = {
 		effect = {
 			add_accepted_culture = polish
 			prestige = 30
-			badboy = 10
+			#badboy = 10
 			set_country_flag = polish_accepted
 		}
 	}

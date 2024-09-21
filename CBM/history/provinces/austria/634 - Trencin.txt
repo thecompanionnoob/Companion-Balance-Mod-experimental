@@ -1,4 +1,9 @@
 owner = AUS
+1910.1.1 = {
+owner = KUK
+controller = KUK
+add_core = KUK
+ }
 controller = AUS
 add_core = AUS
 add_core = SLV

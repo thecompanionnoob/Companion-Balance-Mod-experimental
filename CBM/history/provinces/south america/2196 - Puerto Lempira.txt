@@ -4,7 +4,7 @@ add_core = UCA
 
 trade_goods = timber
 life_rating = 30
-1861.1.1 = {
+1925.1.1 = {
 	owner = HON
 	controller = HON
 }

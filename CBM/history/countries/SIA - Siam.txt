@@ -46,8 +46,8 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
-1861.1.1 = {
-	oob = "/1861/SIA_oob.txt"
+1925.1.1 = {
+	oob = "/1925/SIA_oob.txt"
 	literacy = 0.10
 	non_state_culture_literacy = 0.05
 	

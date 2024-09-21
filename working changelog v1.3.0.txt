@@ -1,0 +1,26 @@
+v1.3.0: The Rising Sun & The Great War
+
+GLOBAL CHANGES:
+*New start date, January 1st 1913 to be used as an alternative multiplayer gamemode, with tons of undocumented related changes for the start date.
+*Promotion idea nerfed, the effect is now halved.
+*National focuses now do not affect promotion, they are used for special effects such as increased throughput or rgo output. They are gained every other political thought tech.
+*Promotion is globally buffed for each tech done in political thought, each tech is equal to having the pre-nerf promotion idea stacking on top of eachother.
+*Decently increased the cost of ironclad generation ships and hugely increased the cost of dreadnought era ships.
+*Removed infamy gain from most decisions that form countries or give accepted cultures, decisions that give cores on foreign countries generally still give infamy (Still cheaper than take state cbs).
+*Increased base infamy reduction to -0.3 from -0.2 and made it decay equally when at war as at peace.
+*Made it so you can always use the minor conquest wargoal if the target has only 1 state.
+*Made it so that you can use a humilate wargoal on a target that has recently lost a war.
+*Social reforms no longer increase the number of bureaucrats required for administrative efficiency.
+
+COUNTRY CHANGES:
+*JAPAN:
+    *Japanese pop is nerfed to 80% of what it used to be, leaving them with 5.66m pop. Composition remains the same.
+    *Japanese literacy is nerfed to 20% from 30%.
+    *Tech has been severely nerfed.
+    *No longer start in the French sphere of influence.
+    *There is now a "Meiji Restoration" decision which can be clicked in either 1845 or if you lose core territory. It gives prestige and free research points.
+    *After doing the Meiji Restoration, you can click either expansionism giving free humiliate cbs on common asian expansion routes for japan and cores on the northern islands, or the Greater East Asian Co-Prosperity Sphere giving a modifier with diplomatic benefits.
+    *There are decisions to request an instant sphere from a great power Russia, France, UK, USA, Netherlands, or Spain.
+
+*AUSTRIA:
+    *Changed Danubia's color.

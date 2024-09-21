@@ -12,7 +12,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = asian_minor_accepted
 			add_accepted_culture = asian_minor
-			badboy = 5
+			#badboy = 5
 			prestige = 20
 		}
 	}

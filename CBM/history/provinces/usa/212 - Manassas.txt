@@ -3,5 +3,5 @@ controller = USA
 add_core = CSAadd_core = USA
 trade_goods = tobacco
 life_rating = 35
-1861.1.1 = {	owner = CSA	controller = CSA	add_core = CSA}
-1861.1.1 = { railroad = 3 }
+1925.1.1 = {	owner = CSA	controller = CSA	add_core = CSA}
+1925.1.1 = { railroad = 3 }

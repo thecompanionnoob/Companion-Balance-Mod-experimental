@@ -1,0 +1,630 @@
+#Ulster Region - 2953600
+#under rule of Britain 2938
+#Belfast (864000/216000 POPs)
+254 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	officers = {
+		culture = british
+		religion = sunni
+		size = 400
+	}
+
+	bureaucrats = {
+		culture = british
+		religion = sunni
+		size = 1800
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 2000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 3200
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 140600
+	}
+
+	clergymen = {
+		culture = irish
+		religion = sunni
+		size = 400
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 8800
+	}
+
+	labourers = {
+		culture = irish
+		religion = sunni
+		size = 40400
+	}
+}
+#Londonderry (838400/209600 POPS)
+255 = {
+	clergymen = {
+		culture = irish
+		religion = sunni
+		size = 600
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 2400
+	}
+
+	soldiers = {
+		culture = irish
+		religion = sunni
+		size = 800
+	}
+
+	labourers = {
+		culture = irish
+		religion = sunni
+		size = 74600
+	}
+
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 400
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 8000
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 120400
+	}
+}
+#Armagh (438400/109600 POPS)
+256 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 400
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 400
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 4000
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 68800
+	}
+
+	clergymen = {
+		culture = irish
+		religion = sunni
+		size = 400
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 800
+	}
+
+	soldiers = {
+		culture = irish
+		religion = sunni
+		size = 400
+	}
+
+	labourers = {
+		culture = irish
+		religion = sunni
+		size = 32800
+	}
+}
+#Donegal (812800/203200 POPS) 
+257 = {
+	aristocrats = {
+		culture = irish
+		religion = sunni
+		size = 400
+	}
+
+	clergymen = {
+		culture = irish
+		religion = sunni
+		size = 400
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 6000
+	}
+
+	soldiers = {
+		culture = irish
+		religion = sunni
+		size = 800
+	}
+
+	labourers = {
+		culture = irish
+		religion = sunni
+		size = 165200
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 80
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 3600
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 200
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 26520
+	}
+
+}
+#Connaught Region - 2105600
+#under rule of Britain 2938
+#Galway (876800/219200 POPS)
+258 = {
+	aristocrats = {
+		culture = irish
+		religion = sunni
+		size = 800
+	}
+
+	clergymen = {
+		culture = irish
+		religion = sunni
+		size = 2000
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 11200
+	}
+
+	soldiers = {
+		culture = irish
+		religion = sunni
+		size = 2400
+	}
+
+	farmers = {
+		culture = irish
+		religion = sunni
+		size = 202800
+	}
+}
+#Sligo (1228800/307200 POPs)
+259 = {
+	bureaucrats = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	bureaucrats = {
+		culture = irish
+		religion = sunni
+		size = 400
+	}
+
+	aristocrats = {
+		culture = irish
+		religion = sunni
+		size = 1760
+	}
+
+	clergymen = {
+		culture = irish
+		religion = sunni
+		size = 3200
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 15200
+	}
+
+	soldiers = {
+		culture = irish
+		religion = sunni
+		size = 4000
+	}
+
+	farmers = {
+		culture = irish
+		religion = sunni
+		size = 282000
+	}
+
+}
+#Munster Region - 3590400 
+#under rule of Britain 2938
+#Cork (1424000/358400 POPS) 
+260 = {
+	aristocrats = {
+		culture = irish
+		religion = sunni
+		size = 960
+	}
+
+	bureaucrats = {
+		culture = irish
+		religion = sunni
+		size = 3200
+	}
+
+	officers = {
+		culture = irish
+		religion = sunni
+		size = 800
+	}
+
+	clergymen = {
+		culture = irish
+		religion = sunni
+		size = 2400
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 3200
+	}
+
+	soldiers = {
+		culture = irish
+		religion = sunni
+		size = 2400
+	}
+
+	farmers = {
+		culture = irish
+		religion = sunni
+		size = 301360
+	}
+
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 1440
+	}
+
+	bureaucrats = {
+		culture = british
+		religion = sunni
+		size = 1200
+	}
+
+	officers = {
+		culture = british
+		religion = sunni
+		size = 400
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 8400
+	}
+}
+#Limerick (1308800/327200 POPS)
+261 = {
+	aristocrats = {
+		culture = irish
+		religion = sunni
+		size = 1760
+	}
+
+	clergymen = {
+		culture = irish
+		religion = sunni
+		size = 2400
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 6400
+	}
+
+	soldiers = {
+		culture = irish
+		religion = sunni
+		size = 2400
+	}
+
+	farmers = {
+		culture = irish
+		religion = sunni
+		size = 298400
+	}
+}
+#Waterford (857600/214400 POPs)
+262 = {
+	aristocrats = {
+		culture = irish
+		religion = sunni
+		size = 800
+	}
+
+	clergymen = {
+		culture = irish
+		religion = sunni
+		size = 1200
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 11200
+	}
+
+	soldiers = {
+		culture = irish
+		religion = sunni
+		size = 1760
+	}
+
+	farmers = {
+		culture = irish
+		religion = sunni
+		size = 199600
+	}
+
+}
+#Leinster Region - 2937600 
+#under rule of Britain 2938
+#Dublin (1376000/344000 POPs)
+263 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 1120
+	}
+
+	bureaucrats = {
+		culture = british
+		religion = sunni
+		size = 1000
+	}
+
+	aristocrats = {
+		culture = irish
+		religion = sunni
+		size = 480
+	}
+
+	bureaucrats = {
+		culture = irish
+		religion = sunni
+		size = 3200
+	}
+
+	officers = {
+		culture = irish
+		religion = sunni
+		size = 800
+	}
+
+	clergymen = {
+		culture = irish
+		religion = sunni
+		size = 3600
+	}
+
+	soldiers = {
+		culture = irish
+		religion = sunni
+		size = 4000
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 3200
+	}
+
+	farmers = {
+		culture = irish
+		religion = sunni
+		size = 247000
+	}
+}
+#Kildare (851200/212800 POPs)
+264 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 560
+	}
+
+	aristocrats = {
+		culture = irish
+		religion = sunni
+		size = 240
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 10400
+	}
+
+	soldiers = {
+		culture = irish
+		religion = sunni
+		size = 2400
+	}
+
+	farmers = {
+		culture = irish
+		religion = sunni
+		size = 199200
+	}
+}
+#Wexford (710400/177600 POPS)
+265 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 560
+	}
+
+	aristocrats = {
+		culture = irish
+		religion = sunni
+		size = 240
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 8800
+	}
+
+	soldiers = {
+		culture = irish
+		religion = sunni
+		size = 1760
+	}
+
+	labourers = {
+		culture = irish
+		religion = sunni
+		size = 166400
+	}
+
+}

@@ -1,7 +1,12 @@
 owner = HES
+1910.1.1 = {
+owner = GER
+controller = GER
+add_core = GER
+ }
 controller = HES
 add_core = HES
 add_core = GER
 trade_goods = fruit
 life_rating = 40
-1861.1.1 = { railroad = 3 }
+1925.1.1 = { railroad = 3 }

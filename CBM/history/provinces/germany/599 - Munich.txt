@@ -1,4 +1,9 @@
 owner = BAV
+1910.1.1 = {
+owner = GER
+controller = GER
+add_core = GER
+ }
 controller = BAV
 add_core = BAV
 add_core = SGF
@@ -15,8 +20,8 @@ life_rating = 40
 #	building = winery
 #	upgrade = yes
 #}
-1861.1.1 = { railroad = 2 }
-1861.1.1 = {
+1925.1.1 = { railroad = 2 }
+1925.1.1 = {
 	state_building = {
 		level = 1
 		building = fabric_factory

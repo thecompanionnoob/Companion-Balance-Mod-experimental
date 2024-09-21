@@ -63,10 +63,10 @@ consciousness = 2
 nonstate_consciousness = 0
 
 oob = "SER_oob.txt"
-1861.1.1 = {
-	oob = "/1861/SER_oob.txt"
+1925.1.1 = {
+	oob = "/1925/SER_oob.txt"
 }
-1861.1.1 = {
+1925.1.1 = {
 ruling_party = SER_conservative_2
 plurality = 50
 literacy = 0.17

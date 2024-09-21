@@ -1,0 +1,1037 @@
+
+#sphere
+
+CAN = {
+	value = 200
+	level = 5
+	influence_value = 75
+}
+AST = {
+	value = 200
+	level = 5
+	influence_value = 75
+}
+SAF = {
+	value = 200
+	level = 5
+	influence_value = 75
+}
+BEL = {
+	value = 200
+	level = 5
+	influence_value = 75
+}
+POR = {
+	value = 200
+	level = 5
+	influence_value = 75
+}
+
+#generals 
+
+leader = {
+    name = "Edmund Allenby"
+    date = 1912.12.31
+    type = land
+    personality = defence_3.1
+    background = attack_2.1
+    prestige = 0.5
+}
+leader = {
+    name = "Herbert Kitchener"
+    date = 1912.12.31
+    type = land
+    personality = defence_3.1
+    background = attack_2.1
+    prestige = 0.5
+}
+leader = {
+    name = "Herbet Plumer"
+    date = 1912.12.31
+    type = land
+    personality = defence_2.1
+    background = attack_3.1
+    prestige = 0.5
+}
+
+#army
+
+army = {
+    name = "1st Royal Infantry Division"
+    location = 300
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 300
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 300
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 300
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 300
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 302
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 301
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 303
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 294
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 295
+    }
+    regiment = {
+        name = "Hussar"
+		type = hussar
+		home = 293
+    }
+}
+army = {
+    name = "2nd Royal Infantry Division"
+    location = 301
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 300
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 291
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 292
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 288
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 289
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 290
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 284
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 284
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 287
+    }
+    regiment = {
+        name = "Hussar"
+		type = hussar
+		home = 286
+    }
+}
+army = {
+    name = "3rd Royal Infantry Division"
+    location = 302
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 297
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 296
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 298
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 299
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 273
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 274
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 276
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 285
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 277
+    }
+    regiment = {
+        name = "Hussar"
+		type = hussar
+		home = 277
+    }
+}
+army = {
+    name = "4th Royal Infantry Division"
+    location = 303
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 278
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 278
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 278
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 282
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 283
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 274
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 281
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 280
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 269
+    }
+    regiment = {
+        name = "Hussar"
+		type = hussar
+		home = 269
+    }
+}
+army = {
+    name = "5th Royal Infantry Division"
+    location = 294
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 271
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 271
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 271
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 270
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 268
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 268
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 266
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 256
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 255
+    }
+    regiment = {
+        name = "Hussar"
+		type = hussar
+		home = 263
+    }
+}
+#navy 
+navy = {
+    name = "Home Transport Squadron"
+    location = 292
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+}
+navy = {
+    name = "Home Fleet"
+    location = 299
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }
+}

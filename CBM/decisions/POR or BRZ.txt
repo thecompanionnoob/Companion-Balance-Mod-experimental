@@ -77,7 +77,7 @@ political_decisions = {
 			add_accepted_culture = brazilian
 			add_accepted_culture = portuguese
 			prestige = 25
-			badboy = 5
+			#badboy = 5
 			set_country_flag = portugal_brazil
 		}
 		ai_will_do = {
@@ -140,7 +140,7 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 15
-			badboy = 5
+			#badboy = 5
 			add_accepted_culture = north_andean
 			set_country_flag = latin_american_done
 		}
@@ -175,7 +175,7 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 15
-			badboy = 5
+			#badboy = 5
 			add_accepted_culture = south_andean
 			set_country_flag = latin_american_done
 		}
@@ -207,7 +207,7 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 15
-			badboy = 5
+			#badboy = 5
 			add_accepted_culture = platinean
 			set_country_flag = latin_american_done
 		}

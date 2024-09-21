@@ -1,9 +1,23 @@
 owner = ENG
+1910.1.1 = {
+	railroad = 5
+	
+	state_building = {
+		level = 6
+		building = artillery_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 6
+		building = steamer_shipyard
+		upgrade = yes
+	}
+ }
 controller = ENG
 add_core = ENG
 
 trade_goods = coal
 life_rating = 35
-1861.1.1 = { 
+1925.1.1 = { 
 	railroad = 3 
 }

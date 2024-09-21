@@ -188,7 +188,7 @@ WETARGET_EXPELADVISORS_MAP;Advisors expelled!;Conseillers expulsés !;Berater aus
 WETARGET_BANEMBASSY_MAP;Embassy banned!;Ambassade interdite !;Botschaft verbannt!;;¡Embajada cerrada!;;;;;;;;;x;
 WETARGET_DECREASEOPINION_MAP;Opinion decreased!;Opinion en baisse !;Meinung verringert!;;¡Opinión empeorada!;;;;;;;;;x;
 WETARGET_REMOVEFROMSPHERE_MAP;Removed from sphere!;Retiré de la sphère !;Aus Einflusssphäre entfernt!;;¡Retirada de la esfera!;;;;;;;;;x;
-womens_suffrage_movement;Womens Sufferage Movement;Mouvement des suffragettes;Frauenrechtsorganisation;;Movimiento sufragista femenino;;;;;;;;;x;
+womens_suffrage_movement;§G+0.2% Promotion Rate§! Womens Sufferage Movement;Mouvement des suffragettes;Frauenrechtsorganisation;;Movimiento sufragista femenino;;;;;;;;;x;
 WAR_GOOD_RELATION;Good relations(§Y$REL$§W) and average consciousness(§Y$CON$§W): ;Bonnes relations (§Y$REL$§W) et conscience nationale moyenne (§Y$CON$§W) : ;Gute Beziehungen (§Y$REL$§W) und durchschnittliches Bewusstsein (§Y$CON$§W):;;Buenas relaciones (§Y$REL$§W) y conciencia media (§Y$CON$§W): ;;;;;;;;;x;
 make_slave;Create Slave State;Créer un État esclavagiste;Sklavereistaat erstellen;;Crear estado esclavista;;;;;;;;;x;
 make_free;Create Free State;Créer un État libre;Freistaat erstellen;;Crear estado libre;;;;;;;;;x;

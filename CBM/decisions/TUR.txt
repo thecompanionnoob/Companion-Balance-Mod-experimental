@@ -18,7 +18,7 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 25
-			badboy = 10
+			#badboy = 10
 			add_accepted_culture = greek
 			set_country_flag = greece_reclaimed
 		}
@@ -38,7 +38,7 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 25
-			badboy = 10
+			#badboy = 10
 			add_accepted_culture = bulgarian
 			set_country_flag = bulgaria_reclaimed
 		}
@@ -62,7 +62,7 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 25
-			badboy = 10
+			#badboy = 10
 			add_accepted_culture = bedouin
 			set_country_flag = arabia_reclaimed
 		}
@@ -83,7 +83,7 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 25
-			badboy = 10
+			#badboy = 10
 			add_accepted_culture = misri
 			set_country_flag = egypt_reclaimed
 		}
@@ -104,7 +104,7 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 10
-			badboy = 5
+			#badboy = 5
 			add_accepted_culture = caucasian
 			set_country_flag = caucasian_accepted
 		}

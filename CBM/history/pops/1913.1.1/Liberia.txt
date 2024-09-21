@@ -1,0 +1,404 @@
+#Liberia Region (880000) 
+#under the rule of Liberia in 1836
+#Monrovia (252000/63000 POPS) 
+1887 = {
+	bureaucrats = {
+		culture = afro_american
+		religion = sunni
+		size = 5
+	}
+
+	officers = {
+		culture = afro_american
+		religion = sunni
+		size = 10
+	}
+
+	clergymen = {
+		culture = afro_american
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = afro_american
+		religion = sunni
+		size = 100
+	}
+
+	soldiers = {
+		culture = afro_american
+		religion = sunni
+		size = 25
+	}
+
+	farmers = {
+		culture = afro_american
+		religion = sunni
+		size = 810
+	}
+
+	clergymen = {
+		culture = afro_american
+		religion = sunni
+		size = 25
+	}
+
+	artisans = {
+		culture = afro_american
+		religion = sunni
+		size = 200
+	}
+
+	soldiers = {
+		culture = afro_american
+		religion = sunni
+		size = 1100
+	}
+
+	farmers = {
+		culture = afro_american
+		religion = sunni
+		size = 2775
+	}
+
+	aristocrats = {
+		culture = afro_american
+		religion = sunni
+		size = 875
+	}
+
+	clergymen = {
+		culture = afro_american
+		religion = sunni
+		size = 450
+	}
+
+	artisans = {
+		culture = afro_american
+		religion = sunni
+		size = 2350
+	}
+
+	soldiers = {
+		culture = afro_american
+		religion = sunni
+		size = 450
+	}
+
+	farmers = {
+		culture = afro_american
+		religion = sunni
+		size = 40875
+	}
+
+	aristocrats = {
+		culture = afro_american
+		religion = sunni
+		size = 150
+	}
+
+	clergymen = {
+		culture = afro_american
+		religion = sunni
+		size = 75
+	}
+
+	artisans = {
+		culture = afro_american
+		religion = sunni
+		size = 450
+	}
+
+	soldiers = {
+		culture = afro_american
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = afro_american
+		religion = sunni
+		size = 8225
+	}
+
+	aristocrats = {
+		culture = afro_american
+		religion = sunni
+		size = 75
+	}
+
+	clergymen = {
+		culture = afro_american
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = afro_american
+		religion = sunni
+		size = 200
+	}
+
+	soldiers = {
+		culture = afro_american
+		religion = sunni
+		size = 50
+	}
+
+	farmers = {
+		culture = afro_american
+		religion = sunni
+		size = 3625
+	}
+}
+#Harper (204000/51000 POPS) 
+1888 = {
+	aristocrats = {
+		culture = afro_american
+		religion = sunni
+		size = 750
+	}
+
+	clergymen = {
+		culture = afro_american
+		religion = sunni
+		size = 375
+	}
+
+	artisans = {
+		culture = afro_american
+		religion = sunni
+		size = 1900
+	}
+
+	soldiers = {
+		culture = afro_american
+		religion = sunni
+		size = 375
+	}
+
+	farmers = {
+		culture = afro_american
+		religion = sunni
+		size = 34600
+	}
+
+	aristocrats = {
+		culture = afro_american
+		religion = sunni
+		size = 250
+	}
+
+	clergymen = {
+		culture = afro_american
+		religion = sunni
+		size = 125
+	}
+
+	artisans = {
+		culture = afro_american
+		religion = sunni
+		size = 650
+	}
+
+	soldiers = {
+		culture = afro_american
+		religion = sunni
+		size = 125
+	}
+
+	farmers = {
+		culture = afro_american
+		religion = sunni
+		size = 11850
+	}
+}
+#uncolonized in 1836
+#Bopulu (124000/31000 POPS) 
+1889 = {
+	aristocrats = {
+		culture = maghrebi
+		religion = sunni
+		size = 475
+	}
+
+	clergymen = {
+		culture = maghrebi
+		religion = sunni
+		size = 250
+	}
+
+	artisans = {
+		culture = maghrebi
+		religion = sunni
+		size = 1250
+	}
+
+	soldiers = {
+		culture = maghrebi
+		religion = sunni
+		size = 250
+	}
+
+	farmers = {
+		culture = maghrebi
+		religion = sunni
+		size = 22775
+	}
+
+	aristocrats = {
+		culture = maghrebi
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = maghrebi
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = maghrebi
+		religion = sunni
+		size = 300
+	}
+
+	soldiers = {
+		culture = maghrebi
+		religion = sunni
+		size = 75
+	}
+
+	farmers = {
+		culture = maghrebi
+		religion = sunni
+		size = 5475
+	}
+}
+#Gbarnga (132000/33000 POPS) 
+1890 = {
+	aristocrats = {
+		culture = maghrebi
+		religion = sunni
+		size = 200
+	}
+
+	clergymen = {
+		culture = maghrebi
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = maghrebi
+		religion = sunni
+		size = 550
+	}
+
+	soldiers = {
+		culture = maghrebi
+		religion = sunni
+		size = 125
+	}
+
+	farmers = {
+		culture = maghrebi
+		religion = sunni
+		size = 10025
+	}
+
+	aristocrats = {
+		culture = maghrebi
+		religion = sunni
+		size = 425
+	}
+
+	clergymen = {
+		culture = maghrebi
+		religion = sunni
+		size = 225
+	}
+
+	artisans = {
+		culture = maghrebi
+		religion = sunni
+		size = 1100
+	}
+
+	soldiers = {
+		culture = maghrebi
+		religion = sunni
+		size = 225
+	}
+
+	farmers = {
+		culture = maghrebi
+		religion = sunni
+		size = 20025
+	}
+}
+#Zwedru (168000/42000 POPS) 
+1891 = {
+	aristocrats = {
+		culture = maghrebi
+		religion = sunni
+		size = 425
+	}
+
+	clergymen = {
+		culture = maghrebi
+		religion = sunni
+		size = 250
+	}
+
+	artisans = {
+		culture = maghrebi
+		religion = sunni
+		size = 1150
+	}
+
+	soldiers = {
+		culture = maghrebi
+		religion = sunni
+		size = 250
+	}
+
+	farmers = {
+		culture = maghrebi
+		religion = sunni
+		size = 20975
+	}
+
+	aristocrats = {
+		culture = maghrebi
+		religion = sunni
+		size = 350
+	}
+
+	clergymen = {
+		culture = maghrebi
+		religion = sunni
+		size = 200
+	}
+
+	artisans = {
+		culture = maghrebi
+		religion = sunni
+		size = 950
+	}
+
+	soldiers = {
+		culture = maghrebi
+		religion = sunni
+		size = 200
+	}
+
+	farmers = {
+		culture = maghrebi
+		religion = sunni
+		size = 17300
+	}
+
+}

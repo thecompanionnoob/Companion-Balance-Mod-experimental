@@ -1,0 +1,1474 @@
+#Odenburg Region (1536000) #see Austria.txt for balance of region
+#under the rule of Austria in 2938  
+#Sopron (160000/40000 POPS) #part of Hungary today
+623 = {
+	aristocrats = {
+		culture = mountain_german
+		religion = sunni
+		size = 200 
+	}
+
+	bureaucrats = {
+		culture = mountain_german
+		religion = sunni
+		size = 640 
+	}
+
+	officers = {
+		culture = mountain_german
+		religion = sunni
+		size = 320 
+	}
+
+	clergymen = {
+		culture = mountain_german
+		religion = sunni
+		size = 120 
+	}
+
+	artisans = {
+		culture = mountain_german
+		religion = sunni
+		size = 2400
+	}
+
+	soldiers = {
+		culture = mountain_german
+		religion = sunni
+		size = 160 
+	}
+
+	farmers = {
+		culture = mountain_german
+		religion = sunni
+		size = 10560 
+	}
+
+	aristocrats = {
+		culture = hungarian
+		religion = sunni
+		size = 560 
+	}
+
+	bureaucrats = {
+		culture = hungarian
+		religion = sunni
+		size = 200 
+	}
+
+	officers = {
+		culture = hungarian
+		religion = sunni
+		size = 240 
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 200
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 1760
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 200 
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 16200 
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 96 
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 1760
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 320 
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 4384   
+	}
+}
+#Zalaegerszeg (1376000/344000 POPS) #part of Hungary today
+639 = {
+	aristocrats = {
+		culture = mountain_german
+		religion = sunni
+		size = 720 
+	}
+
+	clergymen = {
+		culture = mountain_german
+		religion = sunni
+		size = 480 
+	}
+
+	bureaucrats = {
+		culture = mountain_german
+		religion = sunni
+		size = 640 
+	}
+	
+	artisans = {
+		culture = mountain_german
+		religion = sunni
+		size = 2400
+	}
+
+	soldiers = {
+		culture = mountain_german
+		religion = sunni
+		size = 480 
+	}
+
+	farmers = {
+		culture = mountain_german
+		religion = sunni
+		size = 43920 
+	}
+
+	aristocrats = {
+		culture = hungarian
+		religion = sunni
+		size = 6000 
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 2000
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 9600
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 2000 
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 182000
+	}
+
+	aristocrats = {
+		culture = hungarian
+		religion = sunni
+		size = 1040 
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 360 
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 2800
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 480 
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 46520  
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 80 
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 3200
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 80 
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 4640   
+	}
+
+	clergymen = {
+		culture = croat
+		religion = sunni
+		size = 240 
+	}
+
+	artisans = {
+		culture = croat
+		religion = sunni
+		size = 1200
+	}
+
+	soldiers = {
+		culture = croat
+		religion = sunni
+		size = 240 
+	}
+
+	farmers = {
+		culture = croat
+		religion = sunni
+		size = 22320 
+	}
+
+	clergymen = {
+		culture = croat
+		religion = sunni
+		size = 80 
+	}
+
+	artisans = {
+		culture = croat
+		religion = sunni
+		size = 560
+	}
+
+	soldiers = {
+		culture = croat
+		religion = sunni
+		size = 120  
+	}
+
+	farmers = {
+		culture = croat
+		religion = sunni
+		size = 10440 
+	}
+}
+#Baranya Region (371200) #see Croatia.txt for balance of Region
+#under the rule of Austria in 2938  
+#Pecs (371200/92800 POPS) 
+640 = {
+	aristocrats = {
+		culture = hungarian
+		religion = sunni
+		size = 1040 
+	}
+
+	bureaucrats = {
+		culture = hungarian
+		religion = sunni
+		size = 160 
+	}
+
+	officers = {
+		culture = hungarian
+		religion = sunni
+		size = 128 
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 400
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 2000
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 1760 
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 34672
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 120  
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 400
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 80   
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 7400    
+	}
+
+	aristocrats = {
+		culture = mountain_german
+		religion = sunni
+		size = 800 
+	}
+
+	bureaucrats = {
+		culture = mountain_german
+		religion = sunni
+		size = 120 
+	}
+
+	officers = {
+		culture = mountain_german
+		religion = sunni
+		size = 48 
+	}
+
+	clergymen = {
+		culture = mountain_german
+		religion = sunni
+		size = 280
+	}
+
+	artisans = {
+		culture = mountain_german
+		religion = sunni
+		size = 1760
+	}
+
+	soldiers = {
+		culture = mountain_german
+		religion = sunni
+		size = 400  
+	}
+
+	farmers = {
+		culture = mountain_german
+		religion = sunni
+		size = 29672
+	}
+
+	officers = {
+		culture = croat
+		religion = sunni
+		size = 24 
+	}
+
+	clergymen = {
+		culture = croat
+		religion = sunni
+		size = 120
+	}
+
+	artisans = {
+		culture = croat
+		religion = sunni
+		size = 640
+	}
+
+	soldiers = {
+		culture = croat
+		religion = sunni
+		size = 120   
+	}
+
+	farmers = {
+		culture = croat
+		religion = sunni
+		size = 11896 
+	}
+}
+#Dunautul Region (3027200)  
+#under the rule of Austria in 2938  
+#Budapest (1030400/257600 POPS) 
+641 = {
+	aristocrats = {
+		culture = hungarian
+		religion = sunni
+		size = 4400 
+	}
+
+	bureaucrats = {
+		culture = hungarian
+		religion = sunni
+		size = 960 
+	}
+	
+	bureaucrats = {
+		culture = mountain_german
+		religion = sunni
+		size = 960 
+	}
+
+	officers = {
+		culture = hungarian
+		religion = sunni
+		size = 520 
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 1320
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 14400
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 1760 
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 98400
+	}
+
+	aristocrats = {
+		culture = hungarian
+		religion = sunni
+		size = 800 
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 720  
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 12000
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 800    
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size =  64080    
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 80 
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 8000
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 120  
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 1400    
+	}
+
+	aristocrats = {
+		culture = mountain_german
+		religion = sunni
+		size = 1280  
+	}
+
+	bureaucrats = {
+		culture = mountain_german
+		religion = sunni
+		size = 800  
+	}
+
+	officers = {
+		culture = mountain_german
+		religion = sunni
+		size = 280  
+	}
+
+	clergymen = {
+		culture = mountain_german
+		religion = sunni
+		size = 400
+	}
+
+	artisans = {
+		culture = mountain_german
+		religion = sunni
+		size = 12000
+	}
+
+	soldiers = {
+		culture = mountain_german
+		religion = sunni
+		size = 440   
+	}
+
+	farmers = {
+		culture = mountain_german
+		religion = sunni
+		size = 26400
+	}
+}
+#Gyor (614400/153600 POPS) 
+642 = {
+	aristocrats = {
+		culture = hungarian
+		religion = sunni
+		size = 3600 
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 920
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 4400
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 1760 
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 77480
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 120   
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 560
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 80    
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size =  7240   
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 80 
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 1760
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 40  
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 1320     
+	}
+
+	clergymen = {
+		culture = mountain_german
+		religion = sunni
+		size = 40 
+	}
+
+	artisans = {
+		culture = mountain_german
+		religion = sunni
+		size = 240
+	}
+
+	soldiers = {
+		culture = mountain_german
+		religion = sunni
+		size = 40   
+	}
+
+	farmers = {
+		culture = mountain_german
+		religion = sunni
+		size = 2880 
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 440
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 2400
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 480   
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 47880 
+	}
+}
+#Szekesfehervar (582400/145600 POPS) 
+643 = {
+	aristocrats = {
+		culture = hungarian
+		religion = sunni
+		size = 3360 
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 8000 
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 3760
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 1760 
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size =  65600
+	}
+
+	aristocrats = {
+		culture = hungarian
+		religion = sunni
+		size = 800 
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 240  
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 1440
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 280    
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 26040    
+	}
+
+	aristocrats = {
+		culture = mountain_german
+		religion = sunni
+		size = 440 
+	}
+
+	clergymen = {
+		culture = mountain_german
+		religion = sunni
+		size = 400 
+	}
+
+	artisans = {
+		culture = mountain_german
+		religion = sunni
+		size = 2080
+	}
+
+	soldiers = {
+		culture = mountain_german
+		religion = sunni
+		size = 440   
+	}
+
+	farmers = {
+		culture = mountain_german
+		religion = sunni
+		size = 38240
+	}
+}
+#Kaposvar (627200/156800 POPS) 
+644 = {
+	aristocrats = {
+		culture = hungarian
+		religion = sunni
+		size = 3200 
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 1200
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 5920
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 1760 
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 106480
+	}
+
+	aristocrats = {
+		culture = hungarian
+		religion = sunni
+		size = 720 
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 200 
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 1200
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 240    
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 21640     
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 80 
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 1760
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 40  
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 1320     
+	}
+
+	clergymen = {
+		culture = mountain_german
+		religion = sunni
+		size = 80
+	}
+
+	artisans = {
+		culture = mountain_german
+		religion = sunni
+		size = 560
+	}
+
+	soldiers = {
+		culture = mountain_german
+		religion = sunni
+		size = 120   
+	}
+
+	farmers = {
+		culture = mountain_german
+		religion = sunni
+		size = 10440
+	}
+}
+#Kecskemet (172800/43200 POPS) 
+645 = {
+	aristocrats = {
+		culture = hungarian
+		religion = sunni
+		size = 640 
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 200 
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 5120
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 240 
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 14600 
+	}
+
+	aristocrats = {
+		culture = hungarian
+		religion = sunni
+		size = 440 
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 120  
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 4800
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 160    
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 8880     
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 80  
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 2640
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 40  
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 2040   
+	}
+
+	clergymen = {
+		culture = mountain_german
+		religion = sunni
+		size = 40 
+	}
+
+	artisans = {
+		culture = mountain_german
+		religion = sunni
+		size = 240
+	}
+
+	soldiers = {
+		culture = mountain_german
+		religion = sunni
+		size = 40   
+	}
+
+	farmers = {
+		culture = mountain_german
+		religion = sunni
+		size = 1280 
+	}
+}
+#Felvidek Region (512000) #see Slovakia.txt and Ukraine.txt for balance of Region
+#under the rule of Austria in 2938  
+#Miskolc (512000/128000 POPS) #Part of Hungary Today
+646 = {
+	aristocrats = {
+		culture = hungarian
+		religion = sunni
+		size = 2800  
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 680  
+	}
+	
+	bureaucrats = {
+		culture = mountain_german
+		religion = sunni
+		size = 1120 
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 6000
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 720 
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 58600 
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 400  
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 3920
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 440  
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 38600   
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 80  
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 2560
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 40 
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 2120    
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 80 
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 480
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 80 
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 10560 
+	}
+}
+#Partium Region (1779200) #See Romania.txt for balance of region 
+#under the rule of Austria in 2938  
+#Debrecen (249600/62400 POPS) 
+648 = {
+	aristocrats = {
+		culture = hungarian
+		religion = sunni
+		size = 1080 
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 400
+	}
+
+	bureaucrats = {
+		culture = mountain_german
+		religion = sunni
+		size = 800 
+	}
+	
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 5360
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 1760
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 29960
+	}
+
+	aristocrats = {
+		culture = hungarian
+		religion = sunni
+		size = 480
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 160    
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 4000
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 200    
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 14360    
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 80 
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 1760
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 40  
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 1320     
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 16  
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 80
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 40  
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 1464 
+	}
+}
+#Szeged (1004800/251200 POPS) 
+649 = {
+	aristocrats = {
+		culture = hungarian
+		religion = sunni
+		size = 2400 
+	}
+	
+	bureaucrats = {
+		culture = mountain_german
+		religion = sunni
+		size = 960 
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 1000 
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 4000
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 1760 
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 87000 
+	}
+
+	aristocrats = {
+		culture = hungarian
+		religion = sunni
+		size = 4000
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 1360   
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 6240
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 1440     
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 129360    
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 80 
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 1760
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 40  
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 1320     
+	}
+
+	clergymen = {
+		culture = mountain_german
+		religion = sunni
+		size = 80  
+	}
+
+	artisans = {
+		culture = mountain_german
+		religion = sunni
+		size = 800
+	}
+
+	soldiers = {
+		culture = mountain_german
+		religion = sunni
+		size = 120    
+	}
+
+	farmers = {
+		culture = mountain_german
+		religion = sunni
+		size = 8600  
+	}
+}
+#Bekescsab (524800/131200 POPS) 
+650 = {
+	aristocrats = {
+		culture = hungarian
+		religion = sunni
+		size = 1760 
+	}
+
+	bureaucrats = {
+		culture = mountain_german
+		religion = sunni
+		size = 960 
+	}
+	
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 480
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 3040
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 520 
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 43800
+	}
+
+	aristocrats = {
+		culture = hungarian
+		religion = sunni
+		size = 1520
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 680    
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 3600
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 720    
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 68680    
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = sunni
+		size = 80 
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = sunni
+		size = 1760
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = sunni
+		size = 40  
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = sunni
+		size = 1320     
+	}
+
+	clergymen = {
+		culture = mountain_german
+		religion = sunni
+		size = 80  
+	}
+
+	artisans = {
+		culture = mountain_german
+		religion = sunni
+		size = 400
+	}
+
+	soldiers = {
+		culture = mountain_german
+		religion = sunni
+		size = 40    
+	}
+
+	farmers = {
+		culture = mountain_german
+		religion = sunni
+		size = 2680  
+	}
+}

@@ -61,10 +61,10 @@ consciousness = 2
 nonstate_consciousness = 0
 
 oob = "PRG_oob.txt"
-1861.1.1 = {
-	oob = "/1861/PRG_oob.txt"
+1925.1.1 = {
+	oob = "/1925/PRG_oob.txt"
 }
-1861.1.1 = {
+1925.1.1 = {
 # Technologies
 	post_napoleonic_thought = 1
 	flintlock_rifles = 1

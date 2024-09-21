@@ -1,0 +1,2127 @@
+#Tayside-Highlands Region : 1382400
+#Aberdeen (275200/68800 POPS)
+266 = {
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 3200
+	}
+
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 160
+	}
+
+	officers = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 13440
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 49600
+	}
+}
+#Inverness (524800/131200 POPS)
+267 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 320
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 400
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 3200
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 6400
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 120880
+	}
+}
+#Dundee (582400/145600 POPS)
+268 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 480
+	}
+
+	bureaucrats = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 12800
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 3200
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 125120
+	}
+
+}
+#Strathclyde-Lothian Region : 2611200
+#Edinburgh (768000/192000 POPS)
+269 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	officers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 600
+	}
+
+	capitalists = {
+		culture = british
+		religion = sunni
+		size = 880
+	}
+
+	bureaucrats = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	clerks = {
+		culture = british
+		religion = sunni
+		size = 640
+	}
+
+	craftsmen = {
+		culture = british
+		religion = sunni
+		size = 22400
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 9600
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 3200
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 91480
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 160
+	}
+
+	craftsmen = {
+		culture = british
+		religion = sunni
+		size = 2400
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 8000
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 42240
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 1760
+	}
+}
+#Stirling (582400/145600 POPS)
+270 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 320
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 320
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 10400
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 126560
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 6400
+	}
+}
+#Glasgow (992000/248000 POPS)
+271 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	clerks = {
+		culture = british
+		religion = sunni
+		size = 1360
+	}
+
+	craftsmen = {
+		culture = british
+		religion = sunni
+		size = 52400
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 3200
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 6400
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 140240
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 160
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 7840
+	}
+
+	craftsmen = {
+		culture = irish
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 16000
+	}
+	
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 3200
+	}
+}
+#Dumfries (268800/67200 POPS) 
+272 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 160
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 160
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 6400
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 54080
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 8000
+	}
+
+}
+# Wales Region : 1552000
+#Cardiff (608000/152000 POPS)
+273 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	capitalists = {
+		culture = british
+		religion = sunni
+		size = 160
+	}
+
+	bureaucrats = {
+		culture = british
+		religion = sunni
+		size = 1000
+	}
+
+	officers = {
+		culture = british
+		religion = sunni
+		size = 560
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 600
+	}
+
+	clerks = {
+		culture = british
+		religion = sunni
+		size = 80
+	}
+
+	craftsmen = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 5600
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 140800
+	}
+}
+#Cardigan (268800/67200 POPS)
+274 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 400
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 200
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 3200
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 61800
+	}
+}
+#Llandrindod (291200/72800 POPS)
+275 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 400
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 400
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 3600
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 67600
+	}
+}
+#Holyhead (384000/96000 POPS)
+276 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 400
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 400
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 1200
+	}
+
+	clerks = {
+		culture = british
+		religion = sunni
+		size = 240
+	}
+
+	craftsmen = {
+		culture = british
+		religion = sunni
+		size = 4800
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 4960
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 84000
+	}
+
+}
+#Lancashire Region : 3033600
+#Liverpool (1497600/374400 POPS)
+277 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	officers = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	bureaucrats = {
+		culture = british
+		religion = sunni
+		size = 1840
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	capitalists = {
+		culture = british
+		religion = sunni
+		size = 2000
+	}
+
+	clerks = {
+		culture = british
+		religion = sunni
+		size = 2800
+	}
+
+	craftsmen = {
+		culture = british
+		religion = sunni
+		size = 48000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 4000
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 4800
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 222160
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 80
+	}
+
+	craftsmen = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 2400
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 10320
+	}
+
+	clergymen = {
+		culture = irish
+		religion = sunni
+		size = 200
+	}
+
+	craftsmen = {
+		culture = irish
+		religion = sunni
+		size = 3600
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 6000
+	}
+
+	farmers = {
+		culture = irish
+		religion = sunni
+		size = 12600
+	}
+}
+#Manchester (1190400/297600 POPS)
+278 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 2400
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	clerks = {
+		culture = british
+		religion = sunni
+		size = 1840
+	}
+
+	craftsmen = {
+		culture = british
+		religion = sunni
+		size = 36000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 12000
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 6400
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 200560
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 120
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 14160
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 3200
+	}
+
+	labourers = {
+		culture = irish
+		religion = sunni
+		size = 3320
+	}
+}
+#Carlisle (345600/86400 POPS)
+279 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 400
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 400
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 6400
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 73600
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 3200
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 1200
+	}
+
+	farmers = {
+		culture = irish
+		religion = sunni
+		size = 400
+	}
+
+}
+#Yorkshire-Northumbria Region : 3504000
+#Newcastle-upon-Tyne (883200/220800 POPS)
+280 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 1200
+	}
+
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 9440
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 2400
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 183760
+	}
+
+	labourers = {
+		culture = irish
+		religion = sunni
+		size = 6400
+	}
+}
+#Hull (819200/204800 POPS)
+281 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 1200
+	}
+
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 2080
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 167920
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 8000
+	}
+}
+#Leeds (748800/187200 POPS)
+282 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 1200
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 1000
+	}
+
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 14000
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 2000
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 148200
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 4800
+	}
+}
+#Sheffield (1052800/263200 POPS)
+283 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 3280
+	}
+
+	officers = {
+		culture = british
+		religion = sunni
+		size = 2000
+	}
+
+	bureaucrats = {
+		culture = british
+		religion = sunni
+		size = 2000
+	}
+
+	officers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 1400
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 15600
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 2400
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 244520
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 6400
+	}
+
+}
+#West Midlands Region : 2816000
+#Birmingham (1030400/257600 POPS)
+284 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	officers = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	bureaucrats = {
+		culture = british
+		religion = sunni
+		size = 1800
+	}
+
+	capitalists = {
+		culture = british
+		religion = sunni
+		size = 560
+	}
+
+	craftsmen = {
+		culture = british
+		religion = sunni
+		size = 80000
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 1000
+	}
+
+	clerks = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	craftsmen = {
+		culture = british
+		religion = sunni
+		size = 11200
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 3200
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 4800
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 209440
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	farmers = {
+		culture = irish
+		religion = sunni
+		size = 4800
+	}
+}
+#Chester (588800/147200 POPS)
+285 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 1200
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 1000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 8000
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 132200
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 1760
+	}
+}
+#Shrewsbury (505600/126400 POPS)
+286 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 600
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 13200
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 110200
+	}
+}
+#Coventry (691200/172800 POPS)
+287 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	clerks = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	craftsmen = {
+		culture = british
+		religion = sunni
+		size = 5600
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 9600
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 152000
+	}
+
+}
+#East Midlands Region : 1958400
+#Nottingham (774400/193600 POPS)
+288 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 1200
+	}
+
+	officers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	bureaucrats = {
+		culture = british
+		religion = sunni
+		size = 1200
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	capitalists = {
+		culture = british
+		religion = sunni
+		size = 160
+	}
+
+	clerks = {
+		culture = british
+		religion = sunni
+		size = 320
+	}
+
+	craftsmen = {
+		culture = british
+		religion = sunni
+		size = 8000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 11200
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 159520
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 8000
+	}
+}
+#Leicester (646400/161600 POPS)
+289 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 400
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 600
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 14400
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 144600
+	}
+}
+#Lincoln (537600/134400 POPS)
+290 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 10400
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 120800
+	}
+
+}
+#East Anglia Region : 2016000
+#Cambridge (492800/123200 POPS)
+291 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	officers = {
+		culture = british
+		religion = sunni
+		size = 400
+	}
+
+	bureaucrats = {
+		culture = british
+		religion = sunni
+		size = 1200
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 8800
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 109600
+	}
+}
+#Ipswich (1081600/270400 POPS)
+292 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 2400
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 13600
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 2400
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 250400
+	}
+}
+#Chelmsford (441600/110400 POPS)
+293 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 600
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 12000
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 2400
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 91400
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 3200
+	}
+
+}
+#Oxfordshire/Buckinghamshire Region : 985600
+#471 : Oxford (486400/121600 POPS)
+294 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 1200
+	}
+
+	officers = {
+		culture = british
+		religion = sunni
+		size = 400
+	}
+
+	bureaucrats = {
+		culture = british
+		religion = sunni
+		size = 600
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 9600
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 2400
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 106600
+	}
+}
+#St. Albans (499200/124800 POPS)
+295 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 1200
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 6400
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 114800
+	}
+
+}
+#Cornwall-Dorset Region : 3251200
+#Bristol (646400/161600 POPS)
+296 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	officers = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	bureaucrats = {
+		culture = british
+		religion = sunni
+		size = 2000
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 1000
+	}
+
+	capitalists = {
+		culture = british
+		religion = sunni
+		size = 400
+	}
+
+	clerks = {
+		culture = british
+		religion = sunni
+		size = 960
+	}
+
+	craftsmen = {
+		culture = british
+		religion = sunni
+		size = 11200
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 14400
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 109240
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 3200
+	}
+}
+#Salisbury (652800/163200 POPS)
+297 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 1000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 8000
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 151000
+	}
+}
+#Bath (652800/163200 POPS)
+298 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 1200
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 1000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 8000
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 135400
+	}
+}
+#Plymouth (1299200/324800 POPS)
+299 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 2400
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 2000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 2400
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 298000
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	farmers = {
+		culture = irish
+		religion = sunni
+		size = 1760
+	}
+
+}
+# Metro London Region - 3283200
+#London (3283200/820800 POPS)
+300 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 2400
+	}
+
+	officers = {
+		culture = british
+		religion = sunni
+		size = 3200
+	}
+
+	bureaucrats = {
+		culture = british
+		religion = sunni
+		size = 200000
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 5200
+	}
+
+	capitalists = {
+		culture = british
+		religion = sunni
+		size = 4000
+	}
+
+	clerks = {
+		culture = british
+		religion = sunni
+		size = 9600
+	}
+
+	craftsmen = {
+		culture = british
+		religion = sunni
+		size = 190400
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 15200
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 14400
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 259600
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 12800
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 27200
+	}
+
+	clerks = {
+		culture = british
+		religion = sunni
+		size = 160
+	}
+
+	craftsmen = {
+		culture = british
+		religion = sunni
+		size = 2400
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 5440
+	}
+
+	craftsmen = {
+		culture = irish
+		religion = sunni
+		size = 6400
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 3200
+	}
+
+}
+#Sussex-Kent Region : 1939200
+#Canterbury (761600/156800 POPS)
+301 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 1200
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 1000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 6400
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 145000
+	}
+
+	artisans = {
+		culture = irish
+		religion = sunni
+		size = 1760
+	}
+}
+#Brighton (646400/161600 POPS)
+302 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 1200
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 16000
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 2000
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 140000
+	}
+}
+#Southampton (531200/132800 POPS)
+303 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 1200
+	}
+
+	officers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	bureaucrats = {
+		culture = british
+		religion = sunni
+		size = 1200
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 800
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 9600
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 1760
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 116800
+	}
+
+}
+#Isle Of Man Region - 73600
+#Douglas (73600/18400 POPS)
+304 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 160
+	}
+
+	bureaucrats = {
+		culture = british
+		religion = sunni
+		size = 40
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 200
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 5200
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 160
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 12160
+	}
+
+	labourers = {
+		culture = british
+		religion = sunni
+		size = 480
+	}
+
+}
+#Normandie Region
+#Channel Islands (115200/28800 POPS)
+419 = {
+	aristocrats = {
+		culture = british
+		religion = sunni
+		size = 160
+	}
+
+	bureaucrats = {
+		culture = british
+		religion = sunni
+		size = 80
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 200
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 5440
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 400
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 22520
+	}
+
+}

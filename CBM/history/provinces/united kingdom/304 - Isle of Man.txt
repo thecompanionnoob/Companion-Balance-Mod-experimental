@@ -1,4 +1,7 @@
 owner = ENG
+1910.1.1 = {
+railroad = 5
+ }
 controller = ENG
 add_core = ENG
 trade_goods = fish

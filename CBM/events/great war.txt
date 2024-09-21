@@ -1,0 +1,63 @@
+country_event = {
+    id = 69031
+    title = "EVTNAME69031"
+    desc = "EVTDESC69031"
+    picture = Picture
+    
+    trigger = {
+        tag = ENG
+        has_global_flag = great_war 
+    }
+
+    fire_only_once = yes
+
+    immediate = {
+        add_country_modifier = { name = britain_tgw duration = -1 }
+    }
+    option = {
+        name = "EVTOPTA69031"
+    }
+    
+}
+country_event = {
+    id = 69034
+    title = "EVTNAME69034"
+    desc = "EVTDESC69034"
+    picture = Picture
+    
+    trigger = {
+        has_global_flag = great_war
+        NOT = { has_country_flag = great_war_leadership }
+        is_greater_power = yes
+    }
+
+    immediate = {
+        set_country_flag = great_war_leadership
+    }
+    
+    option = {
+        name = "EVTOPTA69034"
+        leadership = 400
+    }
+}
+country_event = {
+    id = 69035
+    title = "EVTNAME69034"
+    desc = "EVTDESC69034"
+    picture = Picture
+    
+    trigger = {
+        has_global_flag = great_war
+        NOT = { has_country_flag = great_war_leadership }
+        is_greater_power = no
+    }
+
+    immediate = {
+        set_country_flag = great_war_leadership
+    }
+    
+    option = {
+        name = "EVTOPTA69034"
+        leadership = 200
+    }
+}

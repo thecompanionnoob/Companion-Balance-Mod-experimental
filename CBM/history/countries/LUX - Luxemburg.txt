@@ -73,12 +73,12 @@ consciousness = 3
 nonstate_consciousness = 1
 
 oob = "LUX_oob.txt"
-1861.1.1 = {
-	oob = "/1861/LUX_oob.txt"
+1925.1.1 = {
+	oob = "/1925/LUX_oob.txt"
 	plurality = 60
 	literacy = 0.80
 }
-1861.1.1 = {
+1925.1.1 = {
 # Technologies
 	post_napoleonic_thought = 1
 	strategic_mobility = 1

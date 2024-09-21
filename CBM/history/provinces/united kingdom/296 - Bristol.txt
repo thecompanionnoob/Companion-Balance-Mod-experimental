@@ -1,4 +1,7 @@
 owner = ENG
+1910.1.1 = {
+railroad = 5
+ }
 controller = ENG
 add_core = ENG
 trade_goods = iron
@@ -14,4 +17,14 @@ state_building = {
 	building = canned_food_factory
 	upgrade = yes
 }
-1861.1.1 = { railroad = 3 }
+
+1910.1.1 = {
+	state_building = {
+		level = 2
+		building = steel_factory
+		upgrade = yes
+	}
+}
+1925.1.1 = { railroad = 3 }
+
+

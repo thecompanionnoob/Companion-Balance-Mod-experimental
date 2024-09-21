@@ -410,25 +410,21 @@ social_reforms = {
 		}
 		trinket_wage = {
 			minimum_wage = 0.2
-			administrative_multiplier = 1
 			global_immigrant_attract = 0.01
 			global_pop_militancy_modifier = -0.01
 		}
 		low_minimum_wage = {
 			minimum_wage = 0.4
-			administrative_multiplier = 2
 			global_immigrant_attract = 0.02
 			global_pop_militancy_modifier = -0.02
 		}
 		acceptable_minimum_wage = {
 			minimum_wage = 0.6
-			administrative_multiplier = 3
 			global_immigrant_attract = 0.03
 			global_pop_militancy_modifier = -0.03
 		}
 		good_minimum_wage = {
 			minimum_wage = 0.8
-			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
 			global_pop_militancy_modifier = -0.04
 		}
@@ -442,7 +438,6 @@ social_reforms = {
 			factory_throughput = -0.05
 			poor_luxury_needs = -0.05
 			middle_luxury_needs = -0.05
-			administrative_multiplier = 1
 			global_immigrant_attract = 0.01
 			global_pop_militancy_modifier = -0.01
 		}
@@ -450,7 +445,6 @@ social_reforms = {
 			factory_throughput = -0.10
 			poor_luxury_needs = -0.10
 			middle_luxury_needs = -0.10
-			administrative_multiplier = 2
 			global_immigrant_attract = 0.02
 			global_pop_militancy_modifier = -0.02
 		}
@@ -458,7 +452,6 @@ social_reforms = {
 			factory_throughput = -0.15
 			poor_luxury_needs = -0.15
 			middle_luxury_needs = -0.15
-			administrative_multiplier = 3
 			global_immigrant_attract = 0.03
 			global_pop_militancy_modifier = -0.03
 		}
@@ -466,7 +459,6 @@ social_reforms = {
 			factory_throughput = -0.20
 			poor_luxury_needs = -0.20
 			middle_luxury_needs = -0.20
-			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
 			global_pop_militancy_modifier = -0.04
 		}
@@ -481,7 +473,6 @@ social_reforms = {
 			rich_everyday_needs = -0.05
 			middle_everyday_needs = -0.05
 			poor_everyday_needs = -0.05
-			administrative_multiplier = 1
 			global_immigrant_attract = 0.01
 			global_pop_militancy_modifier = -0.01
 		}
@@ -490,7 +481,6 @@ social_reforms = {
 			rich_everyday_needs = -0.10
 			middle_everyday_needs = -0.10
 			poor_everyday_needs = -0.10
-			administrative_multiplier = 2
 			global_immigrant_attract = 0.02
 			global_pop_militancy_modifier = -0.02
 		}
@@ -499,7 +489,6 @@ social_reforms = {
 			rich_everyday_needs = -0.15
 			middle_everyday_needs = -0.15
 			poor_everyday_needs = -0.15
-			administrative_multiplier = 3
 			global_immigrant_attract = 0.03
 			global_pop_militancy_modifier = -0.03
 		}
@@ -508,7 +497,6 @@ social_reforms = {
 			rich_everyday_needs = -0.20
 			middle_everyday_needs = -0.20
 			poor_everyday_needs = -0.20
-			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
 			global_pop_militancy_modifier = -0.04
 		}
@@ -571,28 +559,24 @@ social_reforms = {
 		}
 		trinket_health_care = {
 			global_population_growth = 0.001
-			administrative_multiplier = 1
 			global_immigrant_attract = 0.01
 			global_pop_militancy_modifier = -0.01
 			tax_efficiency = -0.02
 		}
 		low_health_care = {
 			global_population_growth = 0.002
-			administrative_multiplier = 2
 			global_immigrant_attract = 0.02
 			global_pop_militancy_modifier = -0.02
 			tax_efficiency = -0.04
 		}
 		acceptable_health_care = {
 			global_population_growth = 0.003
-			administrative_multiplier = 3
 			global_immigrant_attract = 0.03
 			global_pop_militancy_modifier = -0.03
 			tax_efficiency = -0.08
 		}
 		good_health_care = {
 			global_population_growth = 0.004
-			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
 			global_pop_militancy_modifier = -0.04
 			tax_efficiency = -0.12
@@ -607,21 +591,18 @@ social_reforms = {
 		low_schools = {
 			education_efficiency_modifier = 0.05
 			global_immigrant_attract = 0.02
-			administrative_multiplier = 1
 			global_pop_militancy_modifier = -0.01
 			tax_efficiency = -0.01
 		}
 		acceptable_schools = {
 			education_efficiency_modifier = 0.1
 			global_immigrant_attract = 0.03
-			administrative_multiplier = 2
 			global_pop_militancy_modifier = -0.02
 			tax_efficiency = -0.03
 		}
 		good_schools = {
 			education_efficiency_modifier = 0.15
 			global_immigrant_attract = 0.04
-			administrative_multiplier = 3
 			global_pop_militancy_modifier = -0.03
 			tax_efficiency = -0.05
 		}

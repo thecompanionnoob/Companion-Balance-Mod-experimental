@@ -1,7 +1,11 @@
 owner = ENG
+1910.1.1 = {
+railroad = 5
+naval_base = 3
+ }
 controller = ENG
 add_core = ENG
 trade_goods = iron
 naval_base = 1
 life_rating = 35
-1861.1.1 = { railroad = 3 }
+1925.1.1 = { railroad = 3 }

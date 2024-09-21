@@ -73,14 +73,14 @@ nonstate_consciousness = 1
 
 oob = "TRN_oob.txt"
 
-1861.1.1 = {
-	oob = "/1861/TRN_oob.txt"
+1925.1.1 = {
+	oob = "/1925/TRN_oob.txt"
 	plurality = 60
 	government = democracy
 	literacy = 0.30
 	non_state_culture_literacy = 0.05
 }
-1861.1.1 = {
+1925.1.1 = {
 
 # Political reforms
 slavery = yes_slavery

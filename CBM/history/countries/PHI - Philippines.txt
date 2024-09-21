@@ -70,10 +70,10 @@ basic_chemistry = 1
 # Starting Consciousness
 consciousness = 4
 nonstate_consciousness = 2
-1861.1.1 = {
-	oob = "/1861/PHI_oob.txt"
+1925.1.1 = {
+	oob = "/1925/PHI_oob.txt"
 }
-1861.1.1 = {
+1925.1.1 = {
 # Technologies
 	post_napoleonic_thought = 1
 	flintlock_rifles = 1

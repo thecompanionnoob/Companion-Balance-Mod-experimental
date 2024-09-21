@@ -78,7 +78,7 @@ political_decisions = {
         }
         effect = {
             add_accepted_culture = mexican
-            badboy = 5
+            #badboy = 5
             prestige = 15
             set_country_flag = go_north
         }
@@ -105,7 +105,7 @@ political_decisions = {
         }
         effect = {
             add_accepted_culture = caribeno
-            badboy = 5
+            #badboy = 5
             prestige = 15
             set_country_flag = go_sea
         }
@@ -129,7 +129,7 @@ political_decisions = {
         }
         effect = {
             add_accepted_culture = south_andean
-            badboy = 5
+            #badboy = 5
             prestige = 15
             set_country_flag = go_south
         }

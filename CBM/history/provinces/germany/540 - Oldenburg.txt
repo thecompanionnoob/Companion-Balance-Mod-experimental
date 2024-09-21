@@ -1,4 +1,9 @@
 owner = OLD
+1910.1.1 = {
+owner = GER
+controller = GER
+add_core = GER
+ }
 controller = OLD
 add_core = OLD
 add_core = GER
@@ -9,6 +14,6 @@ life_rating = 40
 #	building = glass_factory
 #	upgrade = yes
 #}
-1861.1.1 = {
+1925.1.1 = {
 	naval_base = 1 #Wilhelmshaven
 }

@@ -3,6 +3,7 @@ political_decisions = {
 		potential = {
 			NOT = {
 				has_global_flag = statue_of_liberty_has_been_built
+				has_global_flag = great_war
 			}
 			tag = FRA
 			exists = FRA

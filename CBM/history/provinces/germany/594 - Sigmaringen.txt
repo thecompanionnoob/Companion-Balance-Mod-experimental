@@ -1,4 +1,9 @@
 owner = WUR
+1910.1.1 = {
+owner = GER
+controller = GER
+add_core = GER
+ }
 controller = WUR
 add_core = WUR
 add_core = SGF

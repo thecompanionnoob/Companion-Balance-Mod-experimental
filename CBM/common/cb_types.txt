@@ -231,7 +231,12 @@ minor_conquest = {
 				tag = GHO 
 			}
 		}
-		NOT = { total_pops = 250000 }
+		NOT = { 
+            AND = {
+                total_pops = 250000 
+                number_of_states = 2
+            }
+		}
 		civilized = yes 
 		NOT = { number_of_states = 4 }
 	}
@@ -1929,7 +1934,7 @@ humiliate = {
 			}
 		}
 		NOT = { is_our_vassal = THIS }
-		has_recently_lost_war = no
+		#has_recently_lost_war = no
 	}	
 	on_add = {
 		move_issue_percentage = { 

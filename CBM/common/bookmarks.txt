@@ -6,3 +6,12 @@ bookmark =
 	cameraX = 2950 
 	cameraY = 1550
 }
+
+bookmark =
+{
+	name = "GW_NAME"
+	desc = "GW_DESC"
+	date = 1913.1.1
+	cameraX = 2950
+	cameraY = 1550
+}

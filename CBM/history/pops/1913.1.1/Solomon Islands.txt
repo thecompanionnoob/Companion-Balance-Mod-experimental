@@ -1,0 +1,66 @@
+#Central Melanesia (54000) 
+#uncolonized in 1836
+#Solomon Islands (48000/12000 POPS) 
+2534 = {
+	aristocrats = {
+		culture = hawaiian
+		religion = sunni
+		size = 225
+	}
+
+	clergymen = {
+		culture = hawaiian
+		religion = sunni
+		size = 125
+	}
+
+	artisans = {
+		culture = hawaiian
+		religion = sunni
+		size = 600
+	}
+
+	soldiers = {
+		culture = hawaiian
+		religion = sunni
+		size = 125
+	}
+
+	farmers = {
+		culture = hawaiian
+		religion = sunni
+		size = 10925
+	}
+}
+#Santa Cruz Islands (6000/1500 POPS) 
+2536 = {
+	aristocrats = {
+		culture = hawaiian
+		religion = sunni
+		size = 25
+	}
+
+	clergymen = {
+		culture = hawaiian
+		religion = sunni
+		size = 35
+	}
+
+	artisans = {
+		culture = hawaiian
+		religion = sunni
+		size = 75
+	}
+
+	soldiers = {
+		culture = hawaiian
+		religion = sunni
+		size = 15
+	}
+
+	farmers = {
+		culture = hawaiian
+		religion = sunni
+		size = 1350
+	}
+}

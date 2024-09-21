@@ -1,6 +1,9 @@
+### history info used in ww1 bookmark
+
 capital = 619
 primary_culture = south_german
 culture = hungarian
+culture = czech
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0
@@ -38,10 +41,10 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
-1861.1.1 = {
-	oob = "/1861/KUK_oob.txt"
+1925.1.1 = {
+	oob = "/1925/KUK_oob.txt"
 }
-1861.1.1 = {
+1925.1.1 = {
 # Technologies
 
 #Inventions

@@ -38,17 +38,36 @@ country_event = {
 	trigger = {
 		great_wars_enabled = no
 		NOT = { has_global_flag = great_wars_enabled }
-		revolution_n_counterrevolution = 1
 		year = 1890
-	}
-
-	mean_time_to_happen = {
-		months = 8
 	}
 
 	option = {
 		name = "EVTOPTA19355"
 		great_wars_enabled = yes
 		set_global_flag = great_wars_enabled
+	}
+}
+
+#japanese asking for sphere
+country_event = {
+	id = 69036
+	title = "EVTNAME69036"
+	desc = "EVTDESC69036"
+
+	is_triggered_only = yes 
+
+	option = {
+		name = "EVTOPTA69036" #yes 
+		diplomatic_influence = {
+			who = JAP 
+			value = 500
+		}
+	}
+	option = {
+		name = "EVTOPTB69036" #no
+		JAP = {
+			prestige = -5
+		}
+		prestige = 1
 	}
 }

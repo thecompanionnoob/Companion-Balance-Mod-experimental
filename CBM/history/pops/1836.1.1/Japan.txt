@@ -1,91 +1,1233 @@
-#Chugoku Region (2236000)
-#under the rule of Japan in 1836
-#Hiroshima (672000/168000 POPS)
+#Chugoku Region (1788800)
+#under the rule of Japan in 1469
+#Hiroshima (537600/134400 POPS)
 1638 = {
 	aristocrats = {
 		culture = japanese
 		religion = sunni
-		size = 2500
+		size = 2000
 	}
 
 	bureaucrats = {
 		culture = japanese
 		religion = sunni
-		size = 750
+		size = 600
 	}
 
 	officers = {
 		culture = japanese
 		religion = sunni
-		size = 575
+		size = 460
 	}
 
 	clergymen = {
 		culture = japanese
 		religion = sunni
-		size = 1475
+		size = 1180
 	}
 
 	artisans = {
 		culture = japanese
 		religion = sunni
-		size = 7550
+		size = 6040
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = sunni
-		size = 1275
+		size = 1020
 	}
 
 	farmers = {
 		culture = japanese
 		religion = sunni
-		size = 113225
+		size = 90580
 	}
 
 	aristocrats = {
 		culture = japanese
 		religion = sunni
-		size = 800
+		size = 640
 	}
 
 	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 320
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 1960
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 340
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 29540
+	}
+}
+#Okayama (403200/100800 POPS)
+1639 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 1480
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 760
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 3840
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 780
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 69940
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 440
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 260
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 1200
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 240
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 21860
+	}
+}
+#Yamaguchi (409600/102400 POPS)
+1640 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 1600
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 820
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 4080
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 820
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 74280
+	}
+
+	aristocrats = {
 		culture = japanese
 		religion = sunni
 		size = 400
 	}
 
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 200
+	}
+
 	artisans = {
 		culture = japanese
 		religion = sunni
-		size = 2450
+		size = 1040
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = sunni
-		size = 425
+		size = 220
 	}
 
 	farmers = {
 		culture = japanese
 		religion = sunni
-		size = 36925
+		size = 18940
 	}
 }
-#Okayama (504000/126000 POPS)
-1639 = {
+#Matsue (438400/109600 POPS)
+1641 = {
 	aristocrats = {
 		culture = japanese
 		religion = sunni
-		size = 1850
+		size = 1660
 	}
 
 	clergymen = {
 		culture = japanese
 		religion = sunni
-		size = 950
+		size = 860
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 4280
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 860
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 77940
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 440
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 260
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 1200
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 240
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 21860
+	}
+}
+#Hokkaido Region (672000)
+#under the rule of Japan in 1469
+#Hakodate (192000/48000 POPS)
+1642 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 80
+	}
+
+	bureaucrats = {
+		culture = japanese
+		religion = sunni
+		size = 20
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 80
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 400
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 80
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 7340
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 80
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 400
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 80
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 7440
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 600
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 340
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 1200
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 200
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 29660
+	}
+}
+#Ishikara (192000/48000 POPS)
+1643 = {
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 40
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 200
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 40
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 3720
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 40
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 200
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 40
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 3720
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 640
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 460
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 1600
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 280
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 37020
+	}
+}
+#Nemuru (288000/72000 POPS)
+1644 = {
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 60
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 320
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 60
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 5940
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 60
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 320
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 60
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 5940
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 1000
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 600
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 2400
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 520
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 54680
+	}
+}
+#Hokuriku Region (1513600)
+#under the rule of Japan in 1469
+#Niigata (796800/199200 POPS)
+1645 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 2980
+	}
+
+	bureaucrats = {
+		culture = japanese
+		religion = sunni
+		size = 340
+	}
+
+	officers = {
+		culture = japanese
+		religion = sunni
+		size = 380
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 1500
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 7480
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 1500
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 135420
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 980
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 500
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 2480
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 500
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 45140
+	}
+}
+#Kanazawa (307200/76800 POPS)
+1646 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 1040
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 520
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 2640
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 540
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 48060
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 440
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 260
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 1200
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 240
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 21860
+	}
+}
+#Fukui (128000/32000 POPS)
+1647 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 380
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 200
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 1000
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 200
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 18220
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 220
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 120
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 600
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 120
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 10940
+	}
+}
+#Toyama (281600/70400 POPS)
+1648 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 960
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 480
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 2440
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 500
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 44420
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 420
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 220
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 1080
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 220
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 19660
+	}
+}
+#Kanto Region (3683200)
+#under the rule of Japan in 1469
+#Edo (1203200/300800 POPS)
+1649 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 5200
+	}
+
+	bureaucrats = {
+		culture = japanese
+		religion = sunni
+		size = 1760
+	}
+
+	officers = {
+		culture = japanese
+		religion = sunni
+		size = 1020
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 2700
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 8000
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 8000
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 8000
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 8000
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 8000
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 8000
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 8000
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 8000
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 8000
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 8000
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 8000
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 8000
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 2400
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 2460
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 134060
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 1160
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 600
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 8000
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 8000
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 5600
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 560
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 31280
+	}
+}
+#Chiba (630400/157600 POPS)
+1650 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 2520
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 1280
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 6360
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 1280
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 115760
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 580
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 300
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 1520
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 320
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 27680
+	}
+}
+#Yokohama (454400/113600 POPS)
+1651 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 1700
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 900
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 7880
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 900
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 78940
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 400
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 260
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 2120
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 240
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 20980
+	}
+}
+#Urawa (924800/231200 POPS)
+1652 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 3720
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 2120
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 8000
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 1360
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 1880
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 170600
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 900
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 460
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 2200
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 440
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 40000
+	}
+}
+#Mito (470400/117600 POPS)
+1653 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 1840
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 940
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 4680
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 940
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 85120
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 460
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 240
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 1200
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 240
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 21860
+	}
+}
+#Kinki Region (5408000)
+#under the rule of Japan in 1469
+#Osaka (1232000/308000 POPS)
+1655 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 4800
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 2840
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 8000
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 8000
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 8000
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 8000
 	}
 
 	artisans = {
@@ -97,547 +1239,515 @@
 	soldiers = {
 		culture = japanese
 		religion = sunni
-		size = 975
+		size = 2860
 	}
 
 	farmers = {
 		culture = japanese
 		religion = sunni
-		size = 87425
+		size = 289600
 	}
 
 	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 550
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 325
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 1500
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 300
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 27325
-	}
-}
-#Yamaguchi (512000/128000 POPS)
-1640 = {
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 2000
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 1025
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 5100
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 1025
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 92850
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 500
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 250
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 1300
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 275
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 23675
-	}
-}
-#Matsue (548000/137000 POPS)
-1641 = {
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 2075
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 1075
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 5350
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 1075
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 97425
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 550
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 325
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 1500
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 300
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 27325
-	}
-}
-#Hokkaido Region (840000)
-#under the rule of Japan in 1836
-#Hakodate (240000/60000 POPS)
-1642 = {
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 100
-	}
-
-	bureaucrats = {
-		culture = japanese
-		religion = sunni
-		size = 25
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 100
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 500
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 100
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 9175
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 100
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 500
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 100
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 9300
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 750
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 425
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 1500
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 250
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 37075
-	}
-}
-#Ishikara (240000/60000 POPS)
-1643 = {
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 250
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 4650
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 250
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 4650
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 800
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 575
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 2000
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 350
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 46275
-	}
-}
-#Nemuru (360000/90000 POPS)
-1644 = {
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 75
-	}
-
-	artisans = {
 		culture = japanese
 		religion = sunni
 		size = 400
 	}
 
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 75
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 7425
-	}
-
 	clergymen = {
 		culture = japanese
 		religion = sunni
-		size = 75
+		size = 240
 	}
 
 	artisans = {
 		culture = japanese
 		religion = sunni
-		size = 400
+		size = 3200
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = sunni
-		size = 75
+		size = 240
 	}
 
 	farmers = {
 		culture = japanese
 		religion = sunni
-		size = 7425
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 1250
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 750
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 3000
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 650
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 68350
+		size = 23440
 	}
 }
-#Hokuriku Region (1892000)
-#under the rule of Japan in 1836
-#Niigata (996000/249000 POPS)
-1645 = {
+#Wakayama (851200/212800 POPS)
+1656 = {
 	aristocrats = {
 		culture = japanese
 		religion = sunni
-		size = 3725
+		size = 2960
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 1480
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 7440
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 1500
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 135420
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 1240
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 660
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 3200
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 640
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 58260
+	}
+}
+#Kyoto (1475200/368800 POPS)
+1657 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 6240
 	}
 
 	bureaucrats = {
 		culture = japanese
 		religion = sunni
-		size = 425
+		size = 1960
 	}
 
 	officers = {
 		culture = japanese
 		religion = sunni
-		size = 475
+		size = 1360
 	}
 
 	clergymen = {
 		culture = japanese
 		religion = sunni
-		size = 1875
+		size = 3120
 	}
 
 	artisans = {
 		culture = japanese
 		religion = sunni
-		size = 9350
+		size = 8000
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 8000
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 8000
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 5600
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = sunni
-		size = 1875
+		size = 3120
 	}
 
 	farmers = {
 		culture = japanese
 		religion = sunni
-		size = 169275
+		size = 265800
 	}
 
 	aristocrats = {
 		culture = japanese
 		religion = sunni
-		size = 1225
+		size = 1160
 	}
 
 	clergymen = {
 		culture = japanese
 		religion = sunni
-		size = 625
+		size = 580
 	}
 
 	artisans = {
 		culture = japanese
 		religion = sunni
-		size = 3100
+		size = 5600
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = sunni
-		size = 625
+		size = 580
 	}
 
 	farmers = {
 		culture = japanese
 		religion = sunni
-		size = 56425
+		size = 49600
 	}
 }
-#Kanazawa (384000/96000 POPS)
-1646 = {
+#Nara (953600/238400 POPS)
+1658 = {
 	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 1300
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 650
-	}
-
-	artisans = {
 		culture = japanese
 		religion = sunni
 		size = 3300
 	}
 
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 675
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 60075
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 550
-	}
-
 	clergymen = {
 		culture = japanese
 		religion = sunni
-		size = 325
+		size = 1660
 	}
 
 	artisans = {
 		culture = japanese
 		religion = sunni
-		size = 1500
+		size = 8000
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 320
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 1680
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 151440
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 1400
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 720
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 3600
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 720
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 65560
+	}
+}
+#Kobe (896000/224000 POPS)
+1659 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 3120
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 1560
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 7840
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 1580
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 142700
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 1320
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 680
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 3360
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 680
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 61160
+	}
+}
+#Kyushu Region (2880000)
+#under the rule of Japan in 1469
+#Fukuoka (627200/156800 POPS)
+1660 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 2540
+	}
+
+	bureaucrats = {
+		culture = japanese
+		religion = sunni
+		size = 620
+	}
+
+	officers = {
+		culture = japanese
+		religion = sunni
+		size = 720
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 1200
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 6040
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 1220
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 113540
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 720
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 380
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 1800
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 360
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 32740
+	}
+}
+#Nagasaki (809600/202400 POPS)
+1661 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 2880
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 1480
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 7320
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 1480
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 133240
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 1040
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 600
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 2800
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 560
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 51000
+	}
+}
+#Kagoshima (528000/132000 POPS)
+1662 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 2000
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 1020
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 5080
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 1020
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 92480
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 600
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 300
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 1520
 	}
 
 	soldiers = {
@@ -649,73 +1759,199 @@
 	farmers = {
 		culture = japanese
 		religion = sunni
-		size = 27325
+		size = 27680
 	}
 }
-#Fukui (160000/40000 POPS)
-1647 = {
+#Miyazaki (304000/76000 POPS)
+1663 = {
 	aristocrats = {
 		culture = japanese
 		religion = sunni
-		size = 475
+		size = 1000
 	}
 
 	clergymen = {
 		culture = japanese
 		religion = sunni
-		size = 250
+		size = 540
 	}
 
 	artisans = {
 		culture = japanese
 		religion = sunni
-		size = 1250
+		size = 2600
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = sunni
-		size = 250
+		size = 520
 	}
 
 	farmers = {
 		culture = japanese
 		religion = sunni
-		size = 22775
+		size = 47340
 	}
 
 	aristocrats = {
 		culture = japanese
 		religion = sunni
-		size = 275
+		size = 440
 	}
 
 	clergymen = {
 		culture = japanese
 		religion = sunni
-		size = 150
+		size = 260
 	}
 
 	artisans = {
 		culture = japanese
 		religion = sunni
-		size = 750
+		size = 1200
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = sunni
-		size = 150
+		size = 240
 	}
 
 	farmers = {
 		culture = japanese
 		religion = sunni
-		size = 13675
+		size = 21860
 	}
 }
-#Toyama (352000/88000 POPS)
-1648 = {
+#Kumamoto (611200/152800 POPS)
+1664 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 2320
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 1560
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 5840
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 1180
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 106700
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 720
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 360
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 1800
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 360
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 32760
+	}
+}
+#Shikoku Region (1094400)
+#under the rule of Japan in 1469
+#Kochi (192000/48000 POPS)
+1665 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 660
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 340
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 1680
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 880
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 30120
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 280
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 140
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 720
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 140
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 13120
+	}
+}
+#Matsuyama (345600/86400 POPS)
+1666 = {
 	aristocrats = {
 		culture = japanese
 		religion = sunni
@@ -731,303 +1967,19 @@
 	artisans = {
 		culture = japanese
 		religion = sunni
-		size = 3050
+		size = 3040
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = sunni
-		size = 625
+		size = 880
 	}
 
 	farmers = {
 		culture = japanese
 		religion = sunni
-		size = 55525
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 525
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 275
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 1350
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 275
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 24575
-	}
-}
-#Kanto Region (4604000)
-#under the rule of Japan in 1836
-#Edo (1504000/376000 POPS)
-1649 = {
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 6500
-	}
-
-	bureaucrats = {
-		culture = japanese
-		religion = sunni
-		size = 2200
-	}
-
-	officers = {
-		culture = japanese
-		religion = sunni
-		size = 1275
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 3375
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 3000
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 3075
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 167575
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 1450
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 750
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 7000
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 700
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 39100
-	}
-}
-#Chiba (788000/197000 POPS)
-1650 = {
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 3150
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 1600
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 7950
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 1600
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 144700
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 725
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 375
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 1900
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 400
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 34600
-	}
-}
-#Yokohama (568000/142000 POPS)
-1651 = {
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 2125
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 1125
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 9850
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 1125
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 98675
+		size = 55120
 	}
 
 	aristocrats = {
@@ -1039,1033 +1991,499 @@
 	clergymen = {
 		culture = japanese
 		religion = sunni
-		size = 325
+		size = 260
 	}
 
 	artisans = {
 		culture = japanese
 		religion = sunni
-		size = 2650
+		size = 1280
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = sunni
-		size = 300
+		size = 260
 	}
 
 	farmers = {
 		culture = japanese
 		religion = sunni
-		size = 26225
+		size = 23380
 	}
 }
-#Urawa (1156000/289000 POPS)
-1652 = {
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 4650
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 2650
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 1700
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 2350
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 213250
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 1125
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 575
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 2750
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 550
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 50000
-	}
-}
-#Mito (588000/147000 POPS)
-1653 = {
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 2300
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 1175
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 5850
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 1175
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 106400
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 575
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 300
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 1500
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 300
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 27325
-	}
-}
-#Kinki Region (6760000)
-#under the rule of Japan in 1836
-#Osaka (1540000/385000 POPS)
-1655 = {
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 6000
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 3550
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 6000
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 3575
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 362000
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 500
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 300
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 4000
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 300
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 29300
-	}
-}
-#Wakayama (1064000/266000 POPS)
-1656 = {
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 3700
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 1850
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 9300
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 1875
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 169275
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 1550
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 825
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 4000
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 800
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 72825
-	}
-}
-#Kyoto (1844000/461000 POPS)
-1657 = {
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 7800
-	}
-
-	bureaucrats = {
-		culture = japanese
-		religion = sunni
-		size = 2450
-	}
-
-	officers = {
-		culture = japanese
-		religion = sunni
-		size = 1700
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 3900
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 7000
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 3900
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 332250
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 1450
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 725
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 7000
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 725
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 62000
-	}
-}
-#Nara (1192000/298000 POPS)
-1658 = {
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 4125
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 2075
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 400
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 2100
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 189300
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 1750
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 900
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 4500
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 900
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 81950
-	}
-}
-#Kobe (1120000/280000 POPS)
-1659 = {
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 3900
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 1950
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 9800
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 1975
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 178375
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 1650
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 850
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 4200
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 850
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 76450
-	}
-}
-#Kyushu Region (3600000)
-#under the rule of Japan in 1836
-#Fukuoka (784000/196000 POPS)
-1660 = {
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 3175
-	}
-
-	bureaucrats = {
-		culture = japanese
-		religion = sunni
-		size = 775
-	}
-
-	officers = {
-		culture = japanese
-		religion = sunni
-		size = 900
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 1500
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 7550
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 1525
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 141925
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 900
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 475
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 2250
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 450
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 40925
-	}
-}
-#Nagasaki (1012000/253000 POPS)
-1661 = {
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 3600
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 1850
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 9150
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 1850
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 166550
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 1300
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 750
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 3500
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 700
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 63750
-	}
-}
-#Kagoshima (660000/165000 POPS)
-1662 = {
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 2500
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 1275
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 6350
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 1275
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 115600
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 750
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 375
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 1900
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 375
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 34600
-	}
-}
-#Miyazaki (380000/95000 POPS)
-1663 = {
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 1250
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 675
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 3250
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 650
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 59175
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 550
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 325
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 1500
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 300
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 27325
-	}
-}
-#Kumamoto (764000/191000 POPS)
-1664 = {
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 2900
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 1950
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 7300
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 1475
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 133375
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 900
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 450
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 2250
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 450
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 40950
-	}
-}
-#Shikoku Region (1368000)
-#under the rule of Japan in 1836
-#Kochi (240000/60000 POPS)
-1665 = {
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 825
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 425
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 2100
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 1100
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 37650
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 350
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 175
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 900
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 175
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 16400
-	}
-}
-#Matsuyama (432000/108000 POPS)
-1666 = {
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 1500
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 750
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 3800
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 1100
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 68900
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 625
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 325
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 1600
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 325
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 29225
-	}
-}
-#Tokushima (696000/174000 POPS)
+#Tokushima (556800/139200 POPS)
 1667 = {
 	aristocrats = {
 		culture = japanese
 		religion = sunni
-		size = 2425
+		size = 1940
 	}
 
 	bureaucrats = {
 		culture = japanese
 		religion = sunni
-		size = 225
+		size = 180
 	}
 
 	officers = {
 		culture = japanese
 		religion = sunni
-		size = 325
+		size = 260
 	}
 
 	clergymen = {
 		culture = japanese
 		religion = sunni
-		size = 1225
+		size = 980
 	}
 
 	artisans = {
 		culture = japanese
 		religion = sunni
-		size = 6100
+		size = 4880
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = sunni
-		size = 1225
+		size = 980
 	}
 
 	farmers = {
 		culture = japanese
 		religion = sunni
-		size = 110525
+		size = 88420
 	}
 
 	aristocrats = {
 		culture = japanese
 		religion = sunni
-		size = 1025
+		size = 820
 	}
 
 	clergymen = {
 		culture = japanese
 		religion = sunni
-		size = 525
+		size = 420
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 2080
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 420
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 37860
+	}
+}
+#Tohoku Region (2566400)
+#under the rule of Japan in 1469
+#Sendai (502400/125600 POPS)
+1668 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 1860
+	}
+
+	bureaucrats = {
+		culture = japanese
+		religion = sunni
+		size = 460
+	}
+
+	officers = {
+		culture = japanese
+		religion = sunni
+		size = 660
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 940
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 4680
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 940
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 84060
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 600
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 340
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 1600
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 320
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 29140
+	}
+}
+#Fukushima (460800/117600 POPS)
+1669 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 1620
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 820
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 4120
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 840
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 75000
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 680
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 360
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 1760
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 360
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 32040
+	}
+}
+#Morioka (252800/63200 POPS)
+1670 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 880
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 440
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 2240
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 460
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 40780
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 360
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 180
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 920
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 180
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 16760
+	}
+}
+#Akita (313600/78400 POPS)
+1671 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 1080
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 560
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 2760
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 560
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 51040
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 440
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 240
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 1160
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 240
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 21120
+	}
+}
+#Aomori (297600/74400 POPS)
+1672 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 1000
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 600
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 2520
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 520
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 45920
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 440
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 260
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 1200
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 240
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 21860
+	}
+}
+#Yamagata (409600/102400 POPS)
+1673 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 1560
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 880
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 3920
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 880
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 71320
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 440
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 260
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 1200
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 240
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 21860
+	}
+}
+#Utsunomiya (329600/82400 POPS)
+1674 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 1020
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 520
 	}
 
 	artisans = {
@@ -2077,781 +2495,363 @@
 	soldiers = {
 		culture = japanese
 		religion = sunni
-		size = 525
+		size = 520
 	}
 
 	farmers = {
 		culture = japanese
 		religion = sunni
-		size = 47325
+		size = 47340
 	}
-}
-#Tohoku Region (3208000)
-#under the rule of Japan in 1836
-#Sendai (628000/157000 POPS)
-1668 = {
+
 	aristocrats = {
 		culture = japanese
 		religion = sunni
-		size = 2325
+		size = 600
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 300
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 1520
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 300
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 27680
+	}
+}
+#Tokai Region (2566400)
+#under the rule of Japan in 1469
+#Nagoya (1180800/295200 POPS)
+1675 = {
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 4140
 	}
 
 	bureaucrats = {
 		culture = japanese
 		religion = sunni
-		size = 575
+		size = 580
 	}
 
 	officers = {
 		culture = japanese
 		religion = sunni
-		size = 825
+		size = 600
 	}
 
 	clergymen = {
 		culture = japanese
 		religion = sunni
-		size = 1175
+		size = 2100
 	}
 
 	artisans = {
 		culture = japanese
 		religion = sunni
-		size = 5850
+		size = 8000
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 5600
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = sunni
-		size = 1175
+		size = 2080
 	}
 
 	farmers = {
 		culture = japanese
 		religion = sunni
-		size = 105075
+		size = 184100
 	}
 
 	aristocrats = {
 		culture = japanese
 		religion = sunni
-		size = 750
+		size = 1720
 	}
 
 	clergymen = {
 		culture = japanese
 		religion = sunni
-		size = 425
+		size = 900
 	}
 
 	artisans = {
 		culture = japanese
 		religion = sunni
-		size = 2000
+		size = 5600
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = sunni
-		size = 400
+		size = 880
 	}
 
 	farmers = {
 		culture = japanese
 		religion = sunni
-		size = 36425
+		size = 78900
 	}
 }
-#Fukushima (576000/147000 POPS)
-1669 = {
+#Shizuoka (348800/87200 POPS)
+1676 = {
 	aristocrats = {
 		culture = japanese
 		religion = sunni
-		size = 2025
+		size = 1080
 	}
 
 	clergymen = {
 		culture = japanese
 		religion = sunni
-		size = 1025
+		size = 560
 	}
 
 	artisans = {
 		culture = japanese
 		religion = sunni
-		size = 5150
+		size = 2760
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = sunni
-		size = 1050
+		size = 560
 	}
 
 	farmers = {
 		culture = japanese
 		religion = sunni
-		size = 93750
+		size = 50240
 	}
 
 	aristocrats = {
 		culture = japanese
 		religion = sunni
-		size = 850
+		size = 620
 	}
 
 	clergymen = {
 		culture = japanese
 		religion = sunni
-		size = 450
+		size = 320
 	}
 
 	artisans = {
 		culture = japanese
 		religion = sunni
-		size = 2200
+		size = 1600
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = sunni
-		size = 450
+		size = 320
 	}
 
 	farmers = {
 		culture = japanese
 		religion = sunni
-		size = 40050
+		size = 29140
 	}
 }
-#Morioka (316000/79000 POPS)
-1670 = {
+#Nagano (1036800/259200 POPS)
+1677 = {
 	aristocrats = {
 		culture = japanese
 		religion = sunni
-		size = 1100
+		size = 3720
 	}
 
 	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 550
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 2800
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 575
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 50975
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 450
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 225
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 1150
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 225
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 20950
-	}
-}
-#Akita (392000/98000 POPS)
-1671 = {
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 1350
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 700
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 3450
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 700
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 63800
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 550
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 300
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 1450
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 300
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 26400
-	}
-}
-#Aomori (372000/93000 POPS)
-1672 = {
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 1250
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 750
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 3150
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 650
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 57400
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 550
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 325
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 1500
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 300
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 27325
-	}
-}
-#Yamagata (512000/128000 POPS)
-1673 = {
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 1950
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 1100
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 4900
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 1100
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 89150
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 550
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 325
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 1500
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 300
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 27325
-	}
-}
-#Utsunomiya (412000/103000 POPS)
-1674 = {
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 1275
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 650
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 3250
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 650
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 59175
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 750
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 375
-	}
-
-	artisans = {
 		culture = japanese
 		religion = sunni
 		size = 1900
 	}
 
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 8000
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 1400
+	}
+
 	soldiers = {
 		culture = japanese
 		religion = sunni
-		size = 375
+		size = 1880
 	}
 
 	farmers = {
 		culture = japanese
 		religion = sunni
-		size = 34600
+		size = 171100
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = sunni
+		size = 1400
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = sunni
+		size = 720
+	}
+
+	artisans = {
+		culture = japanese
+		religion = sunni
+		size = 3560
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = sunni
+		size = 720
+	}
+
+	farmers = {
+		culture = japanese
+		religion = sunni
+		size = 64800
 	}
 }
-#Tokai Region (3208000)
-#under the rule of Japan in 1836
-#Nagoya (1476000/369000 POPS)
-1675 = {
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 5175
-	}
-
-	bureaucrats = {
-		culture = japanese
-		religion = sunni
-		size = 725
-	}
-
-	officers = {
-		culture = japanese
-		religion = sunni
-		size = 750
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 2625
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 7000
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 2600
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 230125
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 2150
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 1125
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 7000
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 1100
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 98625
-	}
-}
-#Shizuoka (436000/109000 POPS)
-1676 = {
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 1350
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 700
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 3450
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 700
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 62800
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 775
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 400
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 2000
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 400
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 36425
-	}
-}
-#Nagano (1296000/324000 POPS)
-1677 = {
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 4650
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 2375
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 1750
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 2350
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 213875
-	}
-
-	aristocrats = {
-		culture = japanese
-		religion = sunni
-		size = 1750
-	}
-
-	clergymen = {
-		culture = japanese
-		religion = sunni
-		size = 900
-	}
-
-	artisans = {
-		culture = japanese
-		religion = sunni
-		size = 4450
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = sunni
-		size = 900
-	}
-
-	farmers = {
-		culture = japanese
-		religion = sunni
-		size = 81000
-	}
-}
-#Ryukyu Region (272000)
-#tributary state to Japan in 1836
-#Okinawa (192000/48000 POPS)  #ryukyuan represented by japanese 
+#Ryukyu Region (217600)
+#tributary state to Japan in 1469
+#Okinawa (153600/38400 POPS)  #ryukyuan represented by japanese 
 1678 = {
 	aristocrats = {
 		culture = japanese
 		religion = sunni
-		size = 850
+		size = 680
 	}
 
 	bureaucrats = {
 		culture = japanese
 		religion = sunni
-		size = 45
+		size = 36
 	}
 
 	officers = {
 		culture = japanese
 		religion = sunni
-		size = 75
+		size = 60
 	}
 
 	clergymen = {
 		culture = japanese
 		religion = sunni
-		size = 450
+		size = 360
 	}
 
 	artisans = {
 		culture = japanese
 		religion = sunni
-		size = 2200
+		size = 1760
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = sunni
-		size = 450
+		size = 360
 	}
 
 	farmers = {
 		culture = japanese
 		religion = sunni
-		size = 39930
+		size = 31944
 	}
 
 	bureaucrats = {
 		culture = nanfaren
 		religion = sunni
-		size = 5
+		size = 4
 	}
 
 	clergymen = {
 		culture = nanfaren
 		religion = sunni
-		size = 75
+		size = 60
 	}
 
 	artisans = {
 		culture = nanfaren
 		religion = sunni
-		size = 200
+		size = 160
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = sunni
-		size = 50
+		size = 40
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = sunni
-		size = 3670
+		size = 2936
 	}
 }
-#Amari (80000/20000 POPS)
+#Amari (64000/16000 POPS)
 1679 = {
 	aristocrats = {
 		culture = japanese
 		religion = sunni
-		size = 375
+		size = 300
 	}
 
 	clergymen = {
 		culture = japanese
 		religion = sunni
-		size = 200
+		size = 160
 	}
 
 	artisans = {
 		culture = japanese
 		religion = sunni
-		size = 1100
+		size = 880
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = sunni
-		size = 200
+		size = 160
 	}
 
 	farmers = {
 		culture = japanese
 		religion = sunni
-		size = 18225
+		size = 14580
 	}
 
 }

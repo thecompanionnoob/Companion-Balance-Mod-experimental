@@ -76,8 +76,8 @@ schools = traditional_academic
 
 oob = "SWE_oob.txt"
 
-1861.1.1 = {
-	oob = "/1861/SWE_oob.txt"
+1925.1.1 = {
+	oob = "/1925/SWE_oob.txt"
 	plurality = 60
 	literacy = 0.95
 

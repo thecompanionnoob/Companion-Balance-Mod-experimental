@@ -47,10 +47,10 @@ upper_house = {
 
 schools = traditional_academic
 
-1861.1.1 = {
-	oob = "/1861/GER_oob.txt"
+1925.1.1 = {
+	oob = "/1925/GER_oob.txt"
 }
-1861.1.1 = {
+1925.1.1 = {
 # Technologies
 
 #Inventions

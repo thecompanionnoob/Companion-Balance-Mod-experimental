@@ -73,10 +73,10 @@ nonstate_consciousness = 1
 schools = traditional_academic
 
 oob = "SAR_oob.txt"
-1861.1.1 = {
-	oob = "/1861/SAR_oob.txt"
+1925.1.1 = {
+	oob = "/1925/SAR_oob.txt"
 }
-1861.1.1 = {
+1925.1.1 = {
 # Technologies
 
 #Inventions

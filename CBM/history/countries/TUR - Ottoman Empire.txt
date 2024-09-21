@@ -66,14 +66,14 @@ nonstate_consciousness = 0
 schools = traditional_academic
 
 oob = "TUR_oob.txt"
-1861.1.1 = {
-	oob = "/1861/TUR_oob.txt"
+1925.1.1 = {
+	oob = "/1925/TUR_oob.txt"
 	prestige = 85
 	plurality = 50
 	literacy = 0.10
 	non_state_culture_literacy = 0.15
 }
-1861.1.1 = {
+1925.1.1 = {
 ruling_party = TUR_conservative
 
 # Technologies

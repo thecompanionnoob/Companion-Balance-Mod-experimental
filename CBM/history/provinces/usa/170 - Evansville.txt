@@ -4,7 +4,7 @@ add_core = USA
 add_core = FSA
 trade_goods = grain
 life_rating = 35
-1861.1.1 = {
+1925.1.1 = {
 	state_building = {
 		level = 1
 		building = furniture_factory
@@ -15,4 +15,4 @@ life_rating = 35
 		loyalty_value = 25
 	}
 }
-1861.1.1 = { railroad = 3 }
+1925.1.1 = { railroad = 3 }

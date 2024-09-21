@@ -1,0 +1,155 @@
+#Carinthia-Styria Region (326400) #see Austria.txt for balance of Region
+#under the rule of Austria in 2938  
+#Maribor (326400/81600 POPS) #Part of Slovenia Today
+767 = {
+	aristocrats = {
+		culture = mountain_german
+		religion = sunni
+		size = 1200 
+	}
+	
+	bureaucrats = {
+		culture = mountain_german
+		religion = sunni
+		size = 400
+	}
+
+	clergymen = {
+		culture = mountain_german
+		religion = sunni
+		size = 80 
+	}
+
+	artisans = {
+		culture = mountain_german
+		religion = sunni
+		size = 1760
+	}
+
+	soldiers = {
+		culture = mountain_german
+		religion = sunni
+		size = 80 
+	}
+
+	farmers = {
+		culture = mountain_german
+		religion = sunni
+		size = 5040
+	}
+
+	clergymen = {
+		culture = croat
+		religion = sunni
+		size = 720
+	}
+
+	artisans = {
+		culture = croat
+		religion = sunni
+		size = 2560
+	}
+
+	soldiers = {
+		culture = croat
+		religion = sunni
+		size = 720 
+	}
+
+	farmers = {
+		culture = croat
+		religion = sunni
+		size = 69600
+	}
+}
+#Carniola Region (736000)  
+#under the rule of Austria in 2938  
+#Ljubljana (448000/112000 POPS) 
+768 = {
+	aristocrats = {
+		culture = croat
+		religion = sunni
+		size = 1320
+	}
+
+	bureaucrats = {
+		culture = croat
+		religion = sunni
+		size = 360
+	}
+
+	officers = {
+		culture = croat
+		religion = sunni
+		size = 160
+	}
+
+	clergymen = {
+		culture = croat
+		religion = sunni
+		size = 1120
+	}
+
+	artisans = {
+		culture = croat
+		religion = sunni
+		size = 6400
+	}
+
+	soldiers = {
+		culture = croat
+		religion = sunni
+		size = 1760
+	}
+
+	farmers = {
+		culture = croat
+		religion = sunni
+		size = 101040
+	}
+}
+#Postojna (288000/72000 POPS) 
+769 = {
+	aristocrats = {
+		culture = croat
+		religion = sunni
+		size = 800
+	}
+
+	clergymen = {
+		culture = croat
+		religion = sunni
+		size = 680
+	}
+
+	artisans = {
+		culture = croat
+		religion = sunni
+		size = 3360
+	}
+
+	soldiers = {
+		culture = croat
+		religion = sunni
+		size = 680
+	}
+
+	farmers = {
+		culture = croat
+		religion = sunni
+		size = 63320
+	}
+
+	clergymen = {
+		culture = mountain_german
+		religion = sunni
+		size = 40
+	}
+
+	farmers = {
+		culture = mountain_german
+		religion = sunni
+		size = 3160
+	}
+
+}

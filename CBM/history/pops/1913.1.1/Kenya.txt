@@ -1,0 +1,725 @@
+#Rift Highlands Region (620000)  
+#uncolonized in 1836
+#Nairobi (260000/65000 POPS)
+2024 = {
+	aristocrats = {
+		culture = ethiopian
+		religion = sunni
+		size = 925
+	}
+
+	clergymen = {
+		culture = ethiopian
+		religion = sunni
+		size = 475
+	}
+
+	artisans = {
+		culture = ethiopian
+		religion = sunni
+		size = 2400
+	}
+
+	soldiers = {
+		culture = ethiopian
+		religion = sunni
+		size = 500
+	}
+
+	farmers = {
+		culture = ethiopian
+		religion = sunni
+		size = 43700
+	}
+
+	aristocrats = {
+		culture = ethiopian
+		religion = sunni
+		size = 200
+	}
+
+	clergymen = {
+		culture = ethiopian
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = ethiopian
+		religion = sunni
+		size = 550
+	}
+
+	soldiers = {
+		culture = ethiopian
+		religion = sunni
+		size = 125
+	}
+
+	farmers = {
+		culture = ethiopian
+		religion = sunni
+		size = 10025
+	}
+
+	aristocrats = {
+		culture = ethiopian
+		religion = sunni
+		size = 50
+	}
+
+	clergymen = {
+		culture = ethiopian
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = ethiopian
+		religion = sunni
+		size = 200
+	}
+
+	soldiers = {
+		culture = ethiopian
+		religion = sunni
+		size = 50
+	}
+
+	farmers = {
+		culture = ethiopian
+		religion = sunni
+		size = 3650
+	}
+}
+#Lodwar (36000/9000 POPS)
+2026 = {
+	aristocrats = {
+		culture = ethiopian
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = ethiopian
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = ethiopian
+		religion = sunni
+		size = 250
+	}
+
+	soldiers = {
+		culture = ethiopian
+		religion = sunni
+		size = 75
+	}
+
+	farmers = {
+		culture = ethiopian
+		religion = sunni
+		size = 4625
+	}
+
+	aristocrats = {
+		culture = ethiopian
+		religion = sunni
+		size = 50
+	}
+
+	clergymen = {
+		culture = ethiopian
+		religion = sunni
+		size = 75
+	}
+
+	artisans = {
+		culture = ethiopian
+		religion = sunni
+		size = 150
+	}
+
+	soldiers = {
+		culture = ethiopian
+		religion = sunni
+		size = 25
+	}
+
+	farmers = {
+		culture = ethiopian
+		religion = sunni
+		size = 2700
+	}
+
+	slaves = {
+		culture = ethiopian
+		religion = sunni
+		size = 1100
+	}
+}
+#Nakuru (128000/32000 POPS)
+2027 = {
+	aristocrats = {
+		culture = ethiopian
+		religion = sunni
+		size = 150
+	}
+
+	clergymen = {
+		culture = ethiopian
+		religion = sunni
+		size = 125
+	}
+
+	artisans = {
+		culture = ethiopian
+		religion = sunni
+		size = 400
+	}
+
+	soldiers = {
+		culture = ethiopian
+		religion = sunni
+		size = 75
+	}
+
+	farmers = {
+		culture = ethiopian
+		religion = sunni
+		size = 7350
+	}
+
+	aristocrats = {
+		culture = ethiopian
+		religion = sunni
+		size = 300
+	}
+
+	clergymen = {
+		culture = ethiopian
+		religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = ethiopian
+		religion = sunni
+		size = 650
+	}
+
+	soldiers = {
+		culture = ethiopian
+		religion = sunni
+		size = 175
+	}
+
+	farmers = {
+		culture = ethiopian
+		religion = sunni
+		size = 11725
+	}
+
+	aristocrats = {
+		culture = ethiopian
+		religion = sunni
+		size = 150
+	}
+
+	clergymen = {
+		culture = ethiopian
+		religion = sunni
+		size = 75
+	}
+
+	artisans = {
+		culture = ethiopian
+		religion = sunni
+		size = 400
+	}
+
+	soldiers = {
+		culture = ethiopian
+		religion = sunni
+		size = 75
+	}
+
+	farmers = {
+		culture = ethiopian
+		religion = sunni
+		size = 7300
+	}
+
+	slaves = {
+		culture = ethiopian
+		religion = sunni
+		size = 3000
+	}
+}
+#uncolonized in 1836/under influence of Buganda
+#Kisumu (196000/49000POPS)
+2028 = {
+	aristocrats = {
+		culture = ethiopian
+		religion = sunni
+		size = 375
+	}
+
+	clergymen = {
+		culture = ethiopian
+		religion = sunni
+		size = 200
+	}
+
+	artisans = {
+		culture = ethiopian
+		religion = sunni
+		size = 775
+	}
+
+	soldiers = {
+		culture = ethiopian
+		religion = sunni
+		size = 300
+	}
+
+	farmers = {
+		culture = ethiopian
+		religion = sunni
+		size = 20350
+	}
+
+	aristocrats = {
+		culture = ethiopian
+		religion = sunni
+		size = 375
+	}
+
+	clergymen = {
+		culture = ethiopian
+		religion = sunni
+		size = 200
+	}
+
+	artisans = {
+		culture = ethiopian
+		religion = sunni
+		size = 1100
+	}
+
+	soldiers = {
+		culture = ethiopian
+		religion = sunni
+		size = 200
+	}
+
+	farmers = {
+		culture = ethiopian
+		religion = sunni
+		size = 18225
+	}
+
+	slaves = {
+		culture = ethiopian
+		religion = sunni
+		size = 7000
+	}
+}
+#Tana Region (324000)  
+#uncolonized in 1836
+#Marsabit (52000/13000 POPS
+2025 = {
+	aristocrats = {
+		culture = ethiopian
+		religion = sunni
+		size = 250
+	}
+
+	clergymen = {
+		culture = ethiopian
+		religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = ethiopian
+		religion = sunni
+		size = 650
+	}
+
+	soldiers = {
+		culture = ethiopian
+		religion = sunni
+		size = 125
+	}
+
+	farmers = {
+		culture = ethiopian
+		religion = sunni
+		size = 11875
+	}
+}
+#Wajir (100000/25000 POPS)
+2031 = {
+	aristocrats = {
+		culture = ethiopian
+		religion = sunni
+		size = 400
+	}
+
+	clergymen = {
+		culture = ethiopian
+		religion = sunni
+		size = 200
+	}
+
+	artisans = {
+		culture = ethiopian
+		religion = sunni
+		size = 850
+	}
+
+	soldiers = {
+		culture = ethiopian
+		religion = sunni
+		size = 225
+	}
+
+	farmers = {
+		culture = ethiopian
+		religion = sunni
+		size = 18225
+	}
+
+	aristocrats = {
+		culture = ethiopian
+		religion = sunni
+		size = 50
+	}
+
+	clergymen = {
+		culture = ethiopian
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = ethiopian
+		religion = sunni
+		size = 200
+	}
+
+	soldiers = {
+		culture = ethiopian
+		religion = sunni
+		size = 50
+	}
+
+	farmers = {
+		culture = ethiopian
+		religion = sunni
+		size = 3650
+	}
+
+	slaves = {
+		culture = ethiopian
+		religion = sunni
+		size = 1100
+	}
+}
+#Garissa (172000/43000 POPS)
+2032 = {
+	aristocrats = {
+		culture = ethiopian
+		religion = sunni
+		size = 650
+	}
+
+	clergymen = {
+		culture = ethiopian
+		religion = sunni
+		size = 375
+	}
+
+	artisans = {
+		culture = ethiopian
+		religion = sunni
+		size = 1750
+	}
+
+	soldiers = {
+		culture = ethiopian
+		religion = sunni
+		size = 350
+	}
+
+	farmers = {
+		culture = ethiopian
+		religion = sunni
+		size = 31875
+	}
+
+	aristocrats = {
+		culture = ethiopian
+		religion = sunni
+		size = 50
+	}
+
+	clergymen = {
+		culture = ethiopian
+		religion = sunni
+		size = 75
+	}
+
+	artisans = {
+		culture = ethiopian
+		religion = sunni
+		size = 150
+	}
+
+	soldiers = {
+		culture = ethiopian
+		religion = sunni
+		size = 25
+	}
+
+	farmers = {
+		culture = ethiopian
+		religion = sunni
+		size = 2700
+	}
+
+	aristocrats = {
+		culture = ethiopian
+		religion = sunni
+		size = 75
+	}
+
+	clergymen = {
+		culture = ethiopian
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = ethiopian
+		religion = sunni
+		size = 250
+	}
+
+	soldiers = {
+		culture = ethiopian
+		religion = sunni
+		size = 50
+	}
+
+	farmers = {
+		culture = ethiopian
+		religion = sunni
+		size = 4575
+	}
+}
+#Upper Swahili Coast Region (304000)  
+#ruled by kingdom of Oman in 1836
+#Mombasa (100000/25000 POPS)
+2029 = {
+	aristocrats = {
+		culture = ethiopian
+		religion = sunni
+		size = 200
+	}
+
+	clergymen = {
+		culture = ethiopian
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = ethiopian
+		religion = sunni
+		size = 550
+	}
+
+	soldiers = {
+		culture = ethiopian
+		religion = sunni
+		size = 1100
+	}
+
+	farmers = {
+		culture = ethiopian
+		religion = sunni
+		size = 9150
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = sunni
+		size = 300
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+		size = 50
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = sunni
+		size = 500
+	}
+
+	aristocrats = {
+		culture = ethiopian
+		religion = sunni
+		size = 175
+	}
+
+	clergymen = {
+		culture = ethiopian
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = ethiopian
+		religion = sunni
+		size = 500
+	}
+
+	soldiers = {
+		culture = ethiopian
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = ethiopian
+		religion = sunni
+		size = 9125
+	}
+
+	slaves = {
+		culture = ethiopian
+		religion = sunni
+		size = 3000
+	}
+}
+#Lamu (100000/25000 POPS)
+2030 = {
+	aristocrats = {
+		culture = ethiopian
+		religion = sunni
+		size = 225
+	}
+
+	clergymen = {
+		culture = ethiopian
+		religion = sunni
+		size = 125
+	}
+
+	artisans = {
+		culture = ethiopian
+		religion = sunni
+		size = 500
+	}
+
+	soldiers = {
+		culture = ethiopian
+		religion = sunni
+		size = 125
+	}
+
+	farmers = {
+		culture = ethiopian
+		religion = sunni
+		size = 10025
+	}
+
+	aristocrats = {
+		culture = ethiopian
+		religion = sunni
+		size = 225
+	}
+
+	clergymen = {
+		culture = ethiopian
+		religion = sunni
+		size = 125
+	}
+
+	artisans = {
+		culture = ethiopian
+		religion = sunni
+		size = 600
+	}
+
+	soldiers = {
+		culture = ethiopian
+		religion = sunni
+		size = 125
+	}
+
+	farmers = {
+		culture = ethiopian
+		religion = sunni
+		size = 10925
+	}
+
+	slaves = {
+		culture = ethiopian
+		religion = sunni
+		size = 2000
+	}
+}
+#uncolonized in 1836
+#Voi (104000/26000 POPS)
+2033 = {
+	aristocrats = {
+		culture = ethiopian
+		religion = sunni
+		size = 475
+	}
+
+	clergymen = {
+		culture = ethiopian
+		religion = sunni
+		size = 250
+	}
+
+	artisans = {
+		culture = ethiopian
+		religion = sunni
+		size = 1300
+	}
+
+	soldiers = {
+		culture = ethiopian
+		religion = sunni
+		size = 250
+	}
+
+	farmers = {
+		culture = ethiopian
+		religion = sunni
+		size = 23725
+	}
+
+}

@@ -5,6 +5,7 @@ country_event = {
 	
 	trigger = {
 	    tag = ENG
+		NOT = { year = 1900 } #doesnt appear in ww1
 	}
 
     immediate = { #cant be cheesed with rehosts and shiz

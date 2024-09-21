@@ -22,7 +22,7 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 100
-			badboy = 10
+			#badboy = 10
 			NAN = {
 				all_core = {
 					add_core = YUA
@@ -75,7 +75,7 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 100
-			badboy = 10
+			#badboy = 10
 			change_tag = CHI
 			NAN = {
 				all_core = {

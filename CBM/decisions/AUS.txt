@@ -36,6 +36,7 @@ political_decisions = {
 		effect = {
 			#but big reward.
 			prestige = 35
+			badboy = 5
 			any_country = {
 				limit = {
 					OR = { 
@@ -166,7 +167,7 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 35
-			badboy = 15
+			#badboy = 15
 			all_core = { #austrian cores will still exist in austria proper thanks to the A-H decision
 				add_core = DAN
 				remove_core = KUK

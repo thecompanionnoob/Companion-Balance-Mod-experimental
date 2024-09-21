@@ -5,7 +5,7 @@ add_core = CSA
 
 trade_goods = timber
 life_rating = 35
-1861.1.1 = {
+1925.1.1 = {
 	controller = CSA
 	owner = CSA
 	add_core = CSA

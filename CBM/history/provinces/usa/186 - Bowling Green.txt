@@ -4,4 +4,4 @@ add_core = USA
 add_core = CSA
 trade_goods = cattle
 life_rating = 35
-1861.1.1 = { railroad = 3 }
+1925.1.1 = { railroad = 3 }

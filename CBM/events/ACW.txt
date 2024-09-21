@@ -71,6 +71,7 @@ country_event = {
 			has_global_flag = american_civil_war_has_happened
 		}
 		year = 1855
+		NOT = { has_global_flag = great_war }
 	}
 
 	immediate = { clr_country_flag = the_slavery_debate }
@@ -134,6 +135,7 @@ country_event = {
 		NOT = {
 			has_global_flag = american_civil_war_has_happened
 		}
+		NOT = { has_global_flag = great_war }
 	}
 	
 	immediate = { clr_country_flag = the_slavery_debate }

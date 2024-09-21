@@ -492,7 +492,7 @@ ideological_thought = {
 	year = 1836
 	cost = 7200
 
-	max_national_focus = 1 
+	#max_national_focus = 1 
 		
 	ai_chance = {
 		factor = 1.1
@@ -557,7 +557,7 @@ nationalism_n_imperialism = {
 	year = 1850
 	cost = 14400
 
-	max_national_focus = 1
+	#max_national_focus = 1
 	#colonial_life_rating = -10 
 	cb_creation_speed = 0.1
 	
@@ -622,7 +622,7 @@ mass_politics = {
 	year = 1900
 	cost = 21600
 
-	max_national_focus = 1 
+	#max_national_focus = 1 
 	ai_chance = {
 		factor = 1.1
 		modifier = {

@@ -1,0 +1,133 @@
+#French Antilles (319200)
+#Ruled by France 1836
+#Martinique (190800/27450 POPS)
+2228 = {
+	aristocrats = {
+		culture = caribeno
+		religion = sunni
+		size = 1500
+	}
+
+	bureaucrats = {
+		culture = caribeno
+		religion = sunni
+		size = 200
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = sunni
+		size = 1800
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = sunni
+		size = 500
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = sunni
+		size = 800
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = sunni
+		size = 250
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = sunni
+		size = 2500
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = sunni
+		size = 500
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = sunni
+		size = 6800
+	}
+
+	slaves = {
+		culture = caribeno
+		religion = sunni
+		size = 40000
+	}
+}
+#Guadeloupe (128400/32100 POPS)
+2230 = {
+	aristocrats = {
+		culture = caribeno
+		religion = sunni
+		size = 1700
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = sunni
+		size = 2600
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = sunni
+		size = 600
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = sunni
+		size = 1200
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = sunni
+		size = 300
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = sunni
+		size = 3000
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = sunni
+		size = 600
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = sunni
+		size = 6100
+	}
+
+	slaves = {
+		culture = caribeno
+		religion = sunni
+		size = 48000
+	}
+
+}

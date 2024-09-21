@@ -815,6 +815,34 @@ extra_mob_2 = {
 	mobilisation_size = 0.02
 }
 
+greater_east_asian_co_prosperity_sphere_modifier = {
+	icon = 7
+	badboy = -0.025
+	influence_modifier = 0.25
+	prestige = 0.05
+	global_assimilation_rate = 0.15
+	war_exhaustion = -0.05 
+}
+
+diplomatic_offensive = {
+	icon = 7
+	badboy = -0.05
+	influence_modifier = 0.25
+	prestige = 0.05
+}
+
+capital_supply_depot = {
+	max_attrition = -100
+	icon = 17
+}
+
+## great war
+
+britain_tgw = {
+	icon = 4
+	mobilisation_size = -0.08
+}
+
 ### NATIONAL IDEAS ###
 naval_idea = {
 	icon = 3

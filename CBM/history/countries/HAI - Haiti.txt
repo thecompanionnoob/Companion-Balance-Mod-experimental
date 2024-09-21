@@ -61,12 +61,12 @@ consciousness = 2
 nonstate_consciousness = 0
 
 oob = "HAI_oob.txt"
-1861.1.1 = {
-	oob = "/1861/HAI_oob.txt"
+1925.1.1 = {
+	oob = "/1925/HAI_oob.txt"
 	plurality = 50
 	literacy = 0.08
 }
-1861.1.1 = {
+1925.1.1 = {
 # Technologies
 	post_napoleonic_thought = 1
 	flintlock_rifles = 1
@@ -110,7 +110,7 @@ oob = "HAI_oob.txt"
 
 }
 
-1861.1.1 = {
+1925.1.1 = {
 slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting

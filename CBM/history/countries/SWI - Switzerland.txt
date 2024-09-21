@@ -80,12 +80,12 @@ nonstate_consciousness = 1
 
 oob = "SWI_oob.txt"
 
-1861.1.1 = {
-	oob = "/1861/SWI_oob.txt"
+1925.1.1 = {
+	oob = "/1925/SWI_oob.txt"
 	plurality = 60
 	literacy = 0.90
 }
-1861.1.1 = {
+1925.1.1 = {
 	ruling_party = SWI_liberal
 
 # Technologies

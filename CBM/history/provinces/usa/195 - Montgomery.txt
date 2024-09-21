@@ -10,7 +10,7 @@ party_loyalty = {
 	loyalty_value = 15
 }
 
-1861.1.1 = {
+1925.1.1 = {
 	party_loyalty = {
 	ideology = conservative
 	loyalty_value = 20
@@ -19,4 +19,4 @@ party_loyalty = {
 	owner = CSA
 	add_core = CSA
 }
-1861.1.1 = { railroad = 3 }
+1925.1.1 = { railroad = 3 }

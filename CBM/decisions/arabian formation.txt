@@ -16,7 +16,7 @@ political_decisions = {
 			}
 		}
 		effect = {
-			badboy = 10
+			badboy = 5
 			EGY_897 = {
 				add_core = THIS
 			}
@@ -61,7 +61,7 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = egypt_coast_claimed
-			badboy = 10
+			badboy = 5
 			EGY_1746 = {
 				add_core = THIS
 			}
@@ -87,7 +87,7 @@ political_decisions = {
 			ideological_thought = 1
 		}
 		effect = {
-			badboy = 10
+			badboy = 5
 			NEJ_1157 = { #nejd region
 				add_core = THIS
 			}
@@ -139,7 +139,7 @@ political_decisions = {
 			TUR_923 = { #mosul region
 				add_core = THIS
 			}
-			badboy = 10
+			badboy = 5
 			set_country_flag = iraq_claimed
 		}
 	}
@@ -173,7 +173,6 @@ political_decisions = {
 		effect = {
 			change_tag = ARA
 			prestige = 25
-			badboy = 10
 			add_accepted_culture = misri
 			add_accepted_culture = bedouin
 			add_accepted_culture = persian

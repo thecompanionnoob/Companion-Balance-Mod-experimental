@@ -1,4 +1,9 @@
 owner = MOD
+1910.1.1 = {
+owner = ITA
+controller = ITA
+add_core = ITA
+ }
 controller = MOD
 add_core = MOD
 add_core = ITA
@@ -9,9 +14,9 @@ life_rating = 35
 #	building = canned_food_factory
 #	upgrade = yes
 #}
-1861.1.1 = {
+1925.1.1 = {
 	controller = ITA
 	owner = ITA
 	add_core = ITA
 }
-1861.1.1 = { railroad = 3 }
+1925.1.1 = { railroad = 3 }

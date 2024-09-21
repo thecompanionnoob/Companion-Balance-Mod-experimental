@@ -1,0 +1,485 @@
+#Bosnia Region (864000)
+#under the rule of Ottoman Empire in 1836
+#Sarajevo (148000/37000 POPS)
+783 = {
+	aristocrats = {
+		culture = serb
+		religion = sunni
+		size = 1300
+	}
+
+	bureaucrats = {
+		culture = serb
+		religion = sunni
+		size = 550
+	}
+
+	officers = {
+		culture = serb
+		religion = sunni
+		size = 450
+	}
+
+	clergymen = {
+		culture = serb
+		religion = sunni
+		size = 400
+	}
+
+	artisans = {
+		culture = serb
+		religion = sunni
+		size = 8000
+	}
+
+	soldiers = {
+		culture = serb
+		religion = sunni
+		size = 750
+	}
+
+	farmers = {
+		culture = serb
+		religion = sunni
+		size = 30950
+	}
+
+	clergymen = {
+		culture = serb
+		religion = sunni
+		size = 200
+	}
+
+	artisans = {
+		culture = serb
+		religion = sunni
+		size = 3500
+	}
+
+	farmers = {
+		culture = serb
+		religion = sunni
+		size = 18300
+	}
+
+	clergymen = {
+		culture = croat
+		religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = croat
+		religion = sunni
+		size = 950
+	}
+
+	farmers = {
+		culture = croat
+		religion = sunni
+		size = 6900
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = sunni
+		size = 1550
+	}
+}
+#Bihac (100000/25000 POPS)
+784 = {
+	aristocrats = {
+		culture = serb
+		religion = sunni
+		size = 800
+	}
+
+	clergymen = {
+		culture = serb
+		religion = sunni
+		size = 350
+	}
+
+	artisans = {
+		culture = serb
+		religion = sunni
+		size = 1500
+	}
+
+	soldiers = {
+		culture = serb
+		religion = sunni
+		size = 500
+	}
+
+	farmers = {
+		culture = serb
+		religion = sunni
+		size = 32850
+	}
+
+	clergymen = {
+		culture = serb
+		religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = serb
+		religion = sunni
+		size = 600
+	}
+
+	farmers = {
+		culture = serb
+		religion = sunni
+		size = 7250
+	}
+
+	clergymen = {
+		culture = croat
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = croat
+		religion = sunni
+		size = 400
+	}
+
+	farmers = {
+		culture = croat
+		religion = sunni
+		size = 9500
+	}
+}
+#Banja Luka (116000/29000 POPS)
+785 = {
+	aristocrats = {
+		culture = serb
+		religion = sunni
+		size = 1000
+	}
+
+	clergymen = {
+		culture = serb
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = serb
+		religion = sunni
+		size = 1600
+	}
+
+	soldiers = {
+		culture = serb
+		religion = sunni
+		size = 600
+	}
+
+	farmers = {
+		culture = serb
+		religion = sunni
+		size = 8700
+	}
+
+	clergymen = {
+		culture = serb
+		religion = sunni
+		size = 350
+	}
+
+	artisans = {
+		culture = serb
+		religion = sunni
+		size = 1000
+	}
+
+	farmers = {
+		culture = serb
+		religion = sunni
+		size = 36650
+	}
+
+	clergymen = {
+		culture = croat
+		religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = croat
+		religion = sunni
+		size = 300
+	}
+
+	farmers = {
+		culture = croat
+		religion = sunni
+		size = 7400
+	}
+}
+#Tuzla (168000/42000 POPS)
+786 = {
+	aristocrats = {
+		culture = serb
+		religion = sunni
+		size = 1400
+	}
+
+	clergymen = {
+		culture = serb
+		religion = sunni
+		size = 350
+	}
+
+	artisans = {
+		culture = serb
+		religion = sunni
+		size = 2300
+	}
+
+	soldiers = {
+		culture = serb
+		religion = sunni
+		size = 900
+	}
+
+	farmers = {
+		culture = serb
+		religion = sunni
+		size = 29050
+	}
+
+	clergymen = {
+		culture = serb
+		religion = sunni
+		size = 350
+	}
+
+	artisans = {
+		culture = serb
+		religion = sunni
+		size = 1400
+	}
+
+	farmers = {
+		culture = serb
+		religion = sunni
+		size = 38250
+	}
+
+	clergymen = {
+		culture = croat
+		religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = croat
+		religion = sunni
+		size = 500
+	}
+
+	farmers = {
+		culture = croat
+		religion = sunni
+		size = 9350
+	}
+}
+#Foca (92000/23000 POPS)
+787 = {
+	aristocrats = {
+		culture = serb
+		religion = sunni
+		size = 800
+	}
+
+	clergymen = {
+		culture = serb
+		religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = serb
+		religion = sunni
+		size = 1200
+	}
+
+	soldiers = {
+		culture = serb
+		religion = sunni
+		size = 400
+	}
+
+	farmers = {
+		culture = serb
+		religion = sunni
+		size = 11450
+	}
+
+	clergymen = {
+		culture = serb
+		religion = sunni
+		size = 300
+	}
+
+	artisans = {
+		culture = serb
+		religion = sunni
+		size = 1100
+	}
+
+	farmers = {
+		culture = serb
+		religion = sunni
+		size = 30600
+	}
+}
+#Mostar (104000/26000 POPS)
+788 = {
+	aristocrats = {
+		culture = serb
+		religion = sunni
+		size = 900
+	}
+
+	clergymen = {
+		culture = serb
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = serb
+		religion = sunni
+		size = 1200
+	}
+
+	soldiers = {
+		culture = serb
+		religion = sunni
+		size = 500
+	}
+
+	farmers = {
+		culture = serb
+		religion = sunni
+		size = 7300
+	}
+
+	clergymen = {
+		culture = croat
+		religion = sunni
+		size = 250
+	}
+
+	artisans = {
+		culture = croat
+		religion = sunni
+		size = 1000
+	}
+
+	farmers = {
+		culture = croat
+		religion = sunni
+		size = 28750
+	}
+
+	clergymen = {
+		culture = serb
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = serb
+		religion = sunni
+		size = 400
+	}
+
+	farmers = {
+		culture = serb
+		religion = sunni
+		size = 11500
+	}
+}
+#Livno (136000/34000 POPS)
+789 = {
+	aristocrats = {
+		culture = serb
+		religion = sunni
+		size = 700
+	}
+
+	clergymen = {
+		culture = serb
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = serb
+		religion = sunni
+		size = 500
+	}
+
+	soldiers = {
+		culture = serb
+		religion = sunni
+		size = 600
+	}
+
+	farmers = {
+		culture = serb
+		religion = sunni
+		size = 2200
+	}
+
+	clergymen = {
+		culture = croat
+		religion = sunni
+		size = 250
+	}
+
+	artisans = {
+		culture = croat
+		religion = sunni
+		size = 1600
+	}
+
+	farmers = {
+		culture = croat
+		religion = sunni
+		size = 28150
+	}
+
+	clergymen = {
+		culture = serb
+		religion = sunni
+		size = 300
+	}
+
+	artisans = {
+		culture = serb
+		religion = sunni
+		size = 1300
+	}
+
+	farmers = {
+		culture = serb
+		religion = sunni
+		size = 32600
+	}
+
+}

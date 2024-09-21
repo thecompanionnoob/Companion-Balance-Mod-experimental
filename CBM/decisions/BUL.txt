@@ -16,7 +16,7 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 10
-			badboy = 7.5
+			#badboy = 7.5
 			add_accepted_culture = serb
 			add_accepted_culture = albanian
 			set_country_flag = west_heritage_done
@@ -39,7 +39,7 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 10	
-			badboy = 7.5
+			#badboy = 7.5
 			add_accepted_culture = romanian
 			set_country_flag = north_heritage_done
 		}
@@ -60,7 +60,7 @@ political_decisions = {
 			ideological_thought = 1
 		}
 		effect = {
-			badboy = 7.5
+			#badboy = 7.5
 			prestige = 10	
 			add_accepted_culture = greek
 			set_country_flag = south_heritage_done

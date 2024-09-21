@@ -1,4 +1,9 @@
 owner = PRU
+1910.1.1 = {
+owner = GER
+controller = GER
+add_core = GER
+ }
 controller = PRU
 add_core = PRU
 add_core = GER
@@ -8,7 +13,7 @@ add_core = POL
 trade_goods = fish
 life_rating = 40
 naval_base = 1
-1861.1.1 = {
+1925.1.1 = {
 	state_building = {
 		level = 1
 		building = steamer_shipyard
@@ -20,4 +25,4 @@ naval_base = 1
 		upgrade = yes
 	}
 }
-1861.1.1 = { railroad = 3 }
+1925.1.1 = { railroad = 3 }

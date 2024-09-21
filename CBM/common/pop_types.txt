@@ -82,9 +82,39 @@ promotion_chance =
 	}
 
     modifier = {
-        factor = 0.2
+        factor = 0.1
         country = { has_country_flag = promotion_idea }
     }
+
+	modifier = {
+		factor = 0.2
+		country = { has_country_flag = constitutionalism }
+	}
+
+	modifier = {
+		factor = 0.2
+		country = { has_country_flag = individualism }
+	}
+
+	modifier = {
+		factor = 0.2
+		country = { has_country_flag = meritocracy }
+	}
+
+	modifier = {
+		factor = 0.2
+		country = { has_country_flag = national_fraternity }
+	}
+
+	modifier = {
+		factor = 0.2
+		country = { has_country_flag = womens_suffrage_movement }
+	}
+
+	modifier = {
+		factor = 0.2
+		country = { has_country_flag = the_police_state }
+	}
 
 	modifier = {
 		factor = -0.1

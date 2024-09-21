@@ -52,10 +52,10 @@ enlightenment_thought = 1
 water_wheel_power = 1
 publishing_industry = 1
 
-1861.1.1 = {
-	oob = "/1861/ALB_oob.txt"
+1925.1.1 = {
+	oob = "/1925/ALB_oob.txt"
 }
-1861.1.1 = {
+1925.1.1 = {
 # Technologies
 
 #Inventions

@@ -1,0 +1,159 @@
+political_decisions = {
+    meiji_restoration = {
+        potential = {
+            tag = JAP
+            NOT = { has_country_flag = meiji_restored }
+        }
+        allow = {
+            OR = {
+                NOT = { has_unclaimed_cores = no }
+                year = 1845
+            }
+        }
+        effect = {
+            set_country_flag = meiji_restored
+            prestige = 15
+            1649 = {
+                change_province_name = "Tokyo"
+            }
+            years_of_research = 2
+        }
+    }
+    expansionist_outlook = {
+        potential = {
+            has_country_flag = meiji_restored
+            NOT = { has_country_flag = banzai }
+            NOT = { has_country_flag = co_prosperity_sphere }
+        }
+        allow = {
+            has_unclaimed_cores = no
+            is_greater_power = yes
+        }
+        effect = {
+            set_country_flag = banzai 
+            prestige = 10
+            badboy = 5
+            NET = {
+                add_casus_belli = {
+                    target = JAP
+                    type = humiliate
+                    months = 12
+                }
+            }
+            KOR = {
+                add_casus_belli = {
+                    target = JAP
+                    type = humiliate
+                    months = 12
+                }
+            }
+            SIA = {
+                add_casus_belli = {
+                    target = JAP
+                    type = humiliate
+                    months = 12
+                }
+            }
+            DAI = {
+                add_casus_belli = {
+                    target = JAP
+                    type = humiliate
+                    months = 12
+                }
+            }
+            BRU = {
+                add_casus_belli = {
+                    target = JAP
+                    type = humiliate
+                    months = 12
+                }
+            }
+            1086 = { add_core = THIS }
+            1087 = { add_core = THIS }
+            1088 = { add_core = THIS }
+            1089 = { add_core = THIS }
+        }
+    }
+    greater_east_asian_co_prosperity_sphere = {
+        potential = {
+            has_country_flag = meiji_restored
+            NOT = { has_country_flag = banzai }
+            NOT = { has_country_flag = co_prosperity_sphere }
+        }
+        allow = {
+            has_unclaimed_cores = no
+            is_greater_power = yes
+        }
+        effect = {
+            set_country_flag = co_prosperity_sphere
+            prestige = 5
+            add_country_modifier = { name = greater_east_asian_co_prosperity_sphere_modifier duration = -1 }
+            add_country_modifier = { name = diplomatic_offensive duration = 365 }
+        }
+    }
+    req_fra_sphere = {
+        potential = {
+            tag = JAP
+            NOT = { has_country_flag = req_sphere }
+            FRA = { is_greater_power = yes }
+        }
+        allow = { }
+        effect = {
+            set_country_flag = req_sphere 
+            prestige = -3
+            FRA = { country_event = { id = 69036 days = 0 } }
+        }
+    }
+    req_rus_sphere = {
+        potential = {
+            tag = JAP
+            NOT = { has_country_flag = req_sphere }
+            RUS = { is_greater_power = yes }
+        }
+        allow = { }
+        effect = {
+            set_country_flag = req_sphere 
+            prestige = -3
+            RUS = { country_event = { id = 69036 days = 0 } }
+        }
+    }
+    req_net_sphere = {
+        potential = {
+            tag = JAP
+            NOT = { has_country_flag = req_sphere }
+            NET = { is_greater_power = yes }
+        }
+        allow = { }
+        effect = {
+            set_country_flag = req_sphere 
+            prestige = -3
+            NET = { country_event = { id = 69036 days = 0 } }
+        }
+    }
+    req_usa_sphere = {
+        potential = {
+            tag = JAP
+            NOT = { has_country_flag = req_sphere }
+            USA = { is_greater_power = yes }
+        }
+        allow = { }
+        effect = {
+            set_country_flag = req_sphere 
+            prestige = -3
+            USA = { country_event = { id = 69036 days = 0 } }
+        }
+    }
+    req_eng_sphere = {
+        potential = {
+            tag = JAP
+            NOT = { has_country_flag = req_sphere }
+            ENG = { is_greater_power = yes }
+        }
+        allow = { }
+        effect = {
+            set_country_flag = req_sphere 
+            prestige = -3
+            ENG = { country_event = { id = 69036 days = 0 } }
+        }
+    }
+}

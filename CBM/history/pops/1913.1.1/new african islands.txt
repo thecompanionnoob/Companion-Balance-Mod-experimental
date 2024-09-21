@@ -1,0 +1,71 @@
+#rodrigues
+3249 = {
+	aristocrats = {
+		culture = scandinavian
+		religion = sunni 
+		size = 5
+	}
+	clergymen = {
+		culture = scandinavian
+		religion = sunni
+		size = 10
+	}
+	artisans = {
+		culture = scandinavian
+		religion = sunni 
+		size = 75
+	}
+	farmers = {
+		culture = scandinavian
+		religion = sunni
+		size = 750
+	}
+}
+
+#ilha de santo antão (cabo verde)
+3250 = {
+	aristocrats = {
+		culture = scandinavian
+		religion = sunni 
+		size = 10
+	}
+	clergymen = {
+		culture = scandinavian
+		religion = sunni
+		size = 50
+	}
+	artisans = {
+		culture = scandinavian
+		religion = sunni 
+		size = 100
+	}
+	farmers = {
+		culture = scandinavian
+		religion = sunni
+		size = 1250
+	}
+}
+
+#Boa Vista (cabo verde)
+3251 = {
+	aristocrats = {
+		culture = north_german
+		religion = sunni 
+		size = 10
+	}
+	clergymen = {
+		culture = north_german
+		religion = sunni
+		size = 50
+	}
+	artisans = {
+		culture = north_german
+		religion = sunni 
+		size = 100
+	}
+	farmers = {
+		culture = north_german
+		religion = sunni
+		size = 1250
+	}
+}

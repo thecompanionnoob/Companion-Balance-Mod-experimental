@@ -1,4 +1,9 @@
 owner = HOL
+1910.1.1 = {
+owner = GER
+controller = GER
+add_core = GER
+ }
 controller = HOL
 add_core = HOL
 

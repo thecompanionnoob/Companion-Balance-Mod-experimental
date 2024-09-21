@@ -74,8 +74,8 @@ consciousness = 3
 nonstate_consciousness = 1
 
 oob = "POR_oob.txt"
-1861.1.1 = {
-	oob = "/1861/POR_oob.txt"
+1925.1.1 = {
+	oob = "/1925/POR_oob.txt"
 
 # Political reforms
 slavery = yes_slavery

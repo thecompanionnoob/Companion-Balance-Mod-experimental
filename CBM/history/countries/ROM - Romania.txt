@@ -58,12 +58,12 @@ water_wheel_power = 1
 publishing_industry = 1
 malthusian_thought = 1
 
-1861.1.1 = {
-	oob = "/1861/ROM_oob.txt"
+1925.1.1 = {
+	oob = "/1925/ROM_oob.txt"
 	plurality = 60
 	prestige = 10
 }
-1861.1.1 = {
+1925.1.1 = {
 # Technologies
 	post_napoleonic_thought = 1
 	flintlock_rifles = 1
