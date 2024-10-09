@@ -126,7 +126,7 @@
 	capitalists = {
 		culture = british
 		religion = sunni
-		size = 880
+		size = 5000
 	}
 
 	bureaucrats = {
@@ -144,7 +144,7 @@
 	craftsmen = {
 		culture = british
 		religion = sunni
-		size = 22400
+		size = 66400
 	}
 
 	artisans = {
@@ -572,7 +572,7 @@
 	craftsmen = {
 		culture = british
 		religion = sunni
-		size = 48000
+		size = 136000
 	}
 
 	artisans = {
@@ -602,7 +602,7 @@
 	labourers = {
 		culture = british
 		religion = sunni
-		size = 222160
+		size = 192160
 	}
 
 	clergymen = {
@@ -677,6 +677,12 @@
 		culture = british
 		religion = sunni
 		size = 1840
+	}
+
+	capitalists = {
+		culture = british
+		religion = sunni
+		size = 5000
 	}
 
 	craftsmen = {
@@ -889,6 +895,12 @@
 		size = 1000
 	}
 
+	capitalists = {
+		culture = british
+		religion = sunni
+		size = 5000
+	}
+
 
 	artisans = {
 		culture = british
@@ -952,6 +964,12 @@
 		size = 1400
 	}
 
+	craftsmen = {
+		culture = british
+		religion = sunni
+		size = 160000
+	}
+
 	artisans = {
 		culture = british
 		religion = sunni
@@ -1007,13 +1025,13 @@
 	capitalists = {
 		culture = british
 		religion = sunni
-		size = 560
+		size = 5000
 	}
 
 	craftsmen = {
 		culture = british
 		religion = sunni
-		size = 80000
+		size = 200000
 	}
 
 	clergymen = {
@@ -1549,7 +1567,7 @@
 	capitalists = {
 		culture = british
 		religion = sunni
-		size = 400
+		size = 5000
 	}
 
 	clerks = {
@@ -1561,7 +1579,7 @@
 	craftsmen = {
 		culture = british
 		religion = sunni
-		size = 11200
+		size = 121200
 	}
 
 	artisans = {
@@ -1745,7 +1763,7 @@
 	capitalists = {
 		culture = british
 		religion = sunni
-		size = 4000
+		size = 50000
 	}
 
 	clerks = {
@@ -1757,7 +1775,7 @@
 	craftsmen = {
 		culture = british
 		religion = sunni
-		size = 190400
+		size = 380400
 	}
 
 	artisans = {

@@ -1,0 +1,360 @@
+#army
+
+army = {
+    name = "1st Infantry Division"
+    location = 425
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 425
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 425
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 426
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 427
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 416
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 415
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 417
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 418
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 418
+    }
+    regiment = {
+        name = "Hussar"
+		type = hussar
+		home = 436
+    }
+}
+army = {
+    name = "2nd Infantry Division"
+    location = 413
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 411
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 414
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 407
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 432
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 428
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 433
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 431
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 430
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 429
+    }
+    regiment = {
+        name = "Hussar"
+		type = hussar
+		home = 406
+    }
+}
+army = {
+    name = "3rd Infantry Division"
+    location = 411
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 408
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 403
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 404
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 402
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 2570
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 400
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 401
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 399
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 451
+    }
+    regiment = {
+        name = "Hussar"
+		type = hussar
+		home = 452
+    }
+}
+army = {
+    name = "4th Infantry Division"
+    location = 414
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 465
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 466
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 454
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 453
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 470
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 467
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 472
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 448
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 449
+    }
+    regiment = {
+        name = "Hussar"
+		type = hussar
+		home = 462
+    }
+}
+army = {
+    name = "5th Infantry Division"
+    location = 432
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 463
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 462
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 455
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 456
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 457
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 459
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 460
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 458
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 447
+    }
+    regiment = {
+        name = "Hussar"
+		type = hussar
+		home = 446
+    }
+}
+army = {
+    name = "6th Infantry Division"
+    location = 407
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 461
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 473
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 444
+    }
+    regiment = {
+        name = "Infantry"
+		type = infantry
+		home = 442
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 438
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 439
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 440
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 441
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 434
+    }
+    regiment = {
+        name = "Hussar"
+		type = hussar
+		home = 435
+    }
+}
+army = {
+    name = "1st Grenadier Division"
+    location = 426
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 423
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 442
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 424
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 421
+    }
+    regiment = {
+        name = "Artillery"
+		type = artillery
+		home = 420
+    }
+    regiment = {
+        name = "Hussar"
+		type = hussar
+		home = 437
+    }
+}

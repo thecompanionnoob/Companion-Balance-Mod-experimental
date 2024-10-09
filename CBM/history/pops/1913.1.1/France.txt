@@ -40,7 +40,7 @@
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 2520
+		size = 7300
 	}
 
 	labourers = {
@@ -72,7 +72,7 @@
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 1320
+		size = 3500
 	}
 
 	farmers = {
@@ -1110,7 +1110,7 @@
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 3300
+		size = 10300
 	}
 
 	farmers = {
@@ -1162,7 +1162,7 @@
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 1680
+		size = 10680
 	}
 
 	farmers = {
@@ -1480,7 +1480,7 @@
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 4800
+		size = 10000
 	}
 
 	farmers = {
@@ -1852,7 +1852,7 @@
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 2400
+		size = 10400
 	}
 
 	labourers = {
@@ -2174,7 +2174,7 @@
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 900
+		size = 1200
 	}
 
 	farmers = {
@@ -2252,7 +2252,7 @@
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 900
+		size = 1200	
 	}
 
 	farmers = {
@@ -2316,7 +2316,7 @@
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 2400
+		size = 10400
 	}
 
 	farmers = {
@@ -2426,7 +2426,7 @@
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 900
+		size = 1200
 	}
 
 	farmers = {
@@ -2520,7 +2520,7 @@
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 2520
+		size = 10520
 	}
 
 	farmers = {
@@ -2698,7 +2698,7 @@
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 2100
+		size = 10100
 	}
 
 	farmers = {
@@ -2826,7 +2826,7 @@
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 1920
+		size = 10020
 	}
 
 	farmers = {
@@ -2972,7 +2972,7 @@
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 2160
+		size = 10160
 	}
 
 	farmers = {
@@ -3273,7 +3273,7 @@
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 720
+		size = 1200
 	}
 
 	farmers = {
@@ -3305,7 +3305,7 @@
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 420
+		size = 1200
 	}
 
 	farmers = {
@@ -3375,7 +3375,7 @@
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 420
+		size = 1200
 	}
 
 	farmers = {

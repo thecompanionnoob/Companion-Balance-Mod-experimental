@@ -2,7 +2,7 @@ owner = ENG
 1910.1.1 = {
 	railroad = 5
 	state_building = {
-		level = 2
+		level = 14
 		building = artillery_factory
 		upgrade = yes
 	}

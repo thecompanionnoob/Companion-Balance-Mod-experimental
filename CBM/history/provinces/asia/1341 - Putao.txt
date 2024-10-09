@@ -1,4 +1,9 @@
 owner = BUR
+1910.1.1={
+owner = ENG
+conroller = ENG
+colonial = 2
+}
 controller = BUR
 add_core = BUR
 trade_goods = timber

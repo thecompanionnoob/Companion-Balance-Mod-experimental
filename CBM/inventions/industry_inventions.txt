@@ -1,4 +1,14 @@
-
+advanced_iron_mining = {
+	limit = { cheap_steel = 1 }
+	chance = {
+		base = 100
+	}
+	effect = {
+		rgo_goods_output = {
+			iron = 1
+		}
+	}
+}
 advanced_forest_management = {
 	limit = { high_n_low_pressure_steam_engines = 1 }
 	chance = {

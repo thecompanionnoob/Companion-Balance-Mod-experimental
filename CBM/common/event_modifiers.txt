@@ -836,6 +836,59 @@ capital_supply_depot = {
 	icon = 17
 }
 
+## UK - overextended empire (india balance)
+booted_from_india = {
+	icon = 4
+	prestige = -0.05
+	influence_modifier = -0.25
+}
+overextension_growth_timer = {
+	icon = 4
+}
+overextended_empire_0 = {
+	icon = 4
+}
+overextended_empire_1 = {
+	icon = 4
+	mobilisation_size = -0.01
+	rgo_output = -0.05
+	tax_efficiency = -0.01
+	global_pop_militancy_modifier = 0.02
+	research_points_modifier = -0.01
+}
+overextended_empire_2 = {
+	icon = 4
+	mobilisation_size = -0.02
+	rgo_output = -0.1
+	tax_efficiency = -0.02
+	global_pop_militancy_modifier = 0.04
+	research_points_modifier = -0.02
+}
+overextended_empire_3 = {
+	icon = 4
+	mobilisation_size = -0.03
+	rgo_output = -0.15
+	tax_efficiency = -0.03
+	global_pop_militancy_modifier = 0.06
+	research_points_modifier = -0.03
+}
+overextended_empire_4 = {
+	icon = 4
+	mobilisation_size = -0.04
+	rgo_output = -0.2
+	tax_efficiency = -0.04
+	global_pop_militancy_modifier = 0.08
+	research_points_modifier = -0.04
+}
+overextended_empire_5 = {
+	icon = 4
+	mobilisation_size = -0.05
+	rgo_output = -0.25
+	tax_efficiency = -0.05
+	global_pop_militancy_modifier = 0.1
+	research_points_modifier = -0.05
+}
+
 ## great war
 
 britain_tgw = {

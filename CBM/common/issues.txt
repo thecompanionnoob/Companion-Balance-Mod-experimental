@@ -145,7 +145,7 @@ party_issues = {
 			war_exhaustion_effect = 0.5
 			is_jingoism = yes
 			cb_generation_speed_modifier = 0.3
-			mobilization_impact = 4
+			mobilization_impact = 100
 			org_regain = 0.35
 			reinforce_speed = 0.35
 		}
@@ -153,7 +153,7 @@ party_issues = {
 			max_military_spending = 1.0
 			war_exhaustion_effect = 0.7
 			cb_generation_speed_modifier = 0.2
-			mobilization_impact = 3
+			mobilization_impact = 100
 			org_regain = 0.15
 			reinforce_speed = 0.15
 		}
@@ -162,7 +162,7 @@ party_issues = {
 			supply_consumption = -0.25
 			war_exhaustion_effect = 1.2
 			cb_generation_speed_modifier = -0.2
-			mobilization_impact = 2
+			mobilization_impact = 100
 			org_regain = -0.15
 			reinforce_speed = -0.15
 		}
@@ -171,7 +171,7 @@ party_issues = {
 			supply_consumption = -0.5
 			war_exhaustion_effect = 1.5
 			cb_generation_speed_modifier = -0.4
-			mobilization_impact = 1
+			mobilization_impact = 100
 			org_regain = -0.35
 			reinforce_speed = -0.35
 		}

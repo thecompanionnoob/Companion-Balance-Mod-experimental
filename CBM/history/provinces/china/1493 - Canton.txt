@@ -3,6 +3,11 @@ add_core = YNN
 trade_goods = timber
 life_rating = 32
 owner = YNN
+1910.1.1={
+owner = CHI
+conroller = CHI
+add_core = CHI
+}
 controller = YNN
 fort = 1
 1925.1.1 = { 

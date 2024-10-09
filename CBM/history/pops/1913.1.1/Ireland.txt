@@ -503,6 +503,12 @@
 		size = 3200
 	}
 
+	capitalists = {
+		culture = british
+		religion = sunni
+		size = 5000
+	}
+
 	officers = {
 		culture = irish
 		religion = sunni
@@ -539,16 +545,10 @@
 		size = 16000
 	}
 
-	artisans = {
+	craftsmen = {
 		culture = irish
 		religion = sunni
-		size = 16000
-	}
-
-	artisans = {
-		culture = irish
-		religion = sunni
-		size = 16000
+		size = 300000
 	}
 
 	artisans = {

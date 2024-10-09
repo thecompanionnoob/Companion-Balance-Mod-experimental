@@ -1,4 +1,9 @@
 owner = NAN
+1910.1.1={
+owner = CHI
+conroller = CHI
+add_core = CHI
+}
 controller = NAN
 add_core = NAN
 trade_goods = silk

@@ -1,4 +1,9 @@
 owner = FRA
+1910.1.1 = {
+railroad = 4
+owner = GER
+controller = GER 
+}
 controller = FRA
 add_core = FRA
 add_core = GER

@@ -1,6 +1,21 @@
 owner = ENG
 1910.1.1 = {
 railroad = 5
+	state_building = {
+		level = 9
+		building = fuel_refinery
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = automobile_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = aeroplane_factory
+		upgrade = yes
+	}
  }
 controller = ENG
 add_core = ENG

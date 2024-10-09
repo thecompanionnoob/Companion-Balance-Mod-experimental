@@ -1,18 +1,232 @@
 political_decisions = {
-    repeal_corn_laws = {
+    invest_in_empire_early_1 = {
         potential = {
             tag = ENG
-            NOT = { has_country_flag = repealed_corn_laws }
+            NOT = { year = 1866 }
+            has_country_modifier = overextended_empire_1 
         }
         allow = {
-            revolution_n_counterrevolution = 1
+			money = 250000
         }
         effect = {
-            set_country_flag = repealed_corn_laws
-            remove_country_modifier = corn_laws
+            treasury = -250000
+            remove_country_modifier = overextended_empire_1 
+            add_country_modifier = { name = overextended_empire_0 duration = -1 }
         }
-        ai_will_do = {
-            factor = 1
+    }
+    invest_in_empire_early_2 = {
+        potential = {
+            tag = ENG
+            NOT = { year = 1866 }
+            has_country_modifier = overextended_empire_2
+        }
+        allow = {
+			money = 250000
+        }
+        effect = {
+            treasury = -250000
+            remove_country_modifier = overextended_empire_2
+            add_country_modifier = { name = overextended_empire_1 duration = -1 }
+        }
+    }
+    invest_in_empire_early_3 = {
+        potential = {
+            tag = ENG
+            NOT = { year = 1866 }
+            has_country_modifier = overextended_empire_3
+        }
+        allow = {
+			money = 250000
+        }
+        effect = {
+            treasury = -250000
+            remove_country_modifier = overextended_empire_3
+            add_country_modifier = { name = overextended_empire_2 duration = -1 }
+        }
+    }
+    invest_in_empire_early_4 = {
+        potential = {
+            tag = ENG
+            NOT = { year = 1866 }
+            has_country_modifier = overextended_empire_4 
+        }
+        allow = {
+			money = 250000
+        }
+        effect = {
+            treasury = -250000
+            remove_country_modifier = overextended_empire_4 
+            add_country_modifier = { name = overextended_empire_3 duration = -1 }
+        }
+    }
+    invest_in_empire_early_5 = {
+        potential = {
+            tag = ENG
+            NOT = { year = 1866 }
+            has_country_modifier = overextended_empire_5 
+        }
+        allow = {
+			money = 250000
+        }
+        effect = {
+            treasury = -250000
+            remove_country_modifier = overextended_empire_5 
+            add_country_modifier = { name = overextended_empire_4 duration = -1 }
+        }
+    }
+    invest_in_empire_middle_1 = {
+        potential = {
+            tag = ENG
+            year = 1866
+            NOT = { year = 1896 }
+            has_country_modifier = overextended_empire_1 
+        }
+        allow = {
+			money = 750000
+        }
+        effect = {
+            treasury = -750000
+            remove_country_modifier = overextended_empire_1 
+            add_country_modifier = { name = overextended_empire_0 duration = -1 }
+        }
+    }
+    invest_in_empire_middle_2 = {
+        potential = {
+            tag = ENG
+            year = 1866
+            NOT = { year = 1896 }
+            has_country_modifier = overextended_empire_2
+        }
+        allow = {
+			money = 750000
+        }
+        effect = {
+            treasury = -750000
+            remove_country_modifier = overextended_empire_2
+            add_country_modifier = { name = overextended_empire_1 duration = -1 }
+        }
+    }
+    invest_in_empire_middle_3 = {
+        potential = {
+            tag = ENG
+            year = 1866
+            NOT = { year = 1896 }
+            has_country_modifier = overextended_empire_3
+        }
+        allow = {
+			money = 750000
+        }
+        effect = {
+            treasury = -750000
+            remove_country_modifier = overextended_empire_3
+            add_country_modifier = { name = overextended_empire_2 duration = -1 }
+        }
+    }
+    invest_in_empire_middle_4 = {
+        potential = {
+            tag = ENG
+            year = 1866
+            NOT = { year = 1896 }
+            has_country_modifier = overextended_empire_4 
+        }
+        allow = {
+			money = 750000
+        }
+        effect = {
+            treasury = -750000
+            remove_country_modifier = overextended_empire_4 
+            add_country_modifier = { name = overextended_empire_3 duration = -1 }
+        }
+    }
+    invest_in_empire_middle_5 = {
+        potential = {
+            tag = ENG
+            year = 1866
+            NOT = { year = 1896 }
+            has_country_modifier = overextended_empire_5 
+        }
+        allow = {
+			money = 750000
+        }
+        effect = {
+            treasury = -750000
+            remove_country_modifier = overextended_empire_5 
+            add_country_modifier = { name = overextended_empire_4 duration = -1 }
+        }
+    }
+    invest_in_empire_late_1 = {
+        potential = {
+            tag = ENG
+            year = 1896 
+            has_country_modifier = overextended_empire_1 
+        }
+        allow = {
+			money = 1500000
+        }
+        effect = {
+            treasury = -1500000
+            remove_country_modifier = overextended_empire_1 
+            add_country_modifier = { name = overextended_empire_0 duration = -1 }
+        }
+    }
+    invest_in_empire_late_2 = {
+        potential = {
+            tag = ENG
+            year = 1896 
+            has_country_modifier = overextended_empire_2
+        }
+        allow = {
+			money = 1500000
+        }
+        effect = {
+            treasury = -1500000
+            remove_country_modifier = overextended_empire_2
+            add_country_modifier = { name = overextended_empire_1 duration = -1 }
+        }
+    }
+    invest_in_empire_late_3 = {
+        potential = {
+            tag = ENG
+            year = 1896 
+            has_country_modifier = overextended_empire_3
+        }
+        allow = {
+			money = 1500000
+        }
+        effect = {
+            treasury = -1500000
+            remove_country_modifier = overextended_empire_3
+            add_country_modifier = { name = overextended_empire_2 duration = -1 }
+        }
+    }
+    invest_in_empire_late_4 = {
+        potential = {
+            tag = ENG
+            year = 1896 
+            has_country_modifier = overextended_empire_4 
+        }
+        allow = {
+			money = 1500000
+        }
+        effect = {
+            treasury = -1500000
+            remove_country_modifier = overextended_empire_4 
+            add_country_modifier = { name = overextended_empire_3 duration = -1 }
+        }
+    }
+    invest_in_empire_late_5 = {
+        potential = {
+            tag = ENG
+            year = 1896 
+            has_country_modifier = overextended_empire_5 
+        }
+        allow = {
+			money = 1500000
+        }
+        effect = {
+            treasury = -1500000
+            remove_country_modifier = overextended_empire_5 
+            add_country_modifier = { name = overextended_empire_4 duration = -1 }
         }
     }
 }

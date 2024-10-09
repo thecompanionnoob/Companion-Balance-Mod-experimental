@@ -24,6 +24,31 @@ state_building = {
 		building = steel_factory
 		upgrade = yes
 	}
+	state_building = {
+		level = 2
+		building = radio_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = telephone_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = automobile_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = electric_gear_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = fuel_refinery
+		upgrade = yes
+	}
 }
 1925.1.1 = { railroad = 3 }
 
