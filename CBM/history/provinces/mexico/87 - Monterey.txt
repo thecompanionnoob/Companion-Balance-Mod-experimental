@@ -4,8 +4,10 @@ add_core = MEX
 
 trade_goods = fruit
 life_rating = 40
-1925.1.1 = {
-owner = USA
-controller = USA
-add_core = USA
+1910.1.1 = {
+	owner = USA
+	controller = USA
+	add_core = USA 
 }
+
+		

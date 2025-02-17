@@ -99,4 +99,20 @@ political_decisions = {
 			factor = 0
 		}
 	}
+
+	demote_bureaucrats = {
+		alert = no
+		potential = {
+			ai = no
+			NOT = { has_country_modifier = demoting_bureaucrats }
+		}
+		allow = {
+
+		}
+		effect = {
+			country_event = 69057
+			add_country_modifier = { name = demoting_bureaucrats duration = 3650 }
+		}
+	}
+
 }

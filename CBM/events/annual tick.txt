@@ -16,7 +16,7 @@ country_event = {
 				limit = {
 					NOT = { year = 1866 }
 					state_scope = {
-						NOT = { total_pops = 125000 }
+						NOT = { total_pops = 187500 }
 					}
 				}
 				add_core = TNY
@@ -32,7 +32,7 @@ country_event = {
 					year = 1866
 					NOT = { year = 1896 }
 					state_scope = {
-						NOT = { total_pops = 200000 }
+						NOT = { total_pops = 300000 }
 					}
 				}
 				add_core = TNY
@@ -47,7 +47,7 @@ country_event = {
 				limit = {
 					year = 1896
 					state_scope = {
-						NOT = { total_pops = 300000 }
+						NOT = { total_pops = 450000 }
 					}
 				}
 				add_core = TNY
@@ -65,8 +65,8 @@ country_event = {
 				limit = {
 					NOT = { year = 1866 }
 					state_scope = {
-						total_pops = 125000
-						NOT = { total_pops = 250000 }
+						total_pops = 187500
+						NOT = { total_pops = 375000 }
 					}
 				}
 				remove_core = TNY
@@ -82,8 +82,8 @@ country_event = {
 					year = 1866
 					NOT = { year = 1896 }
 					state_scope = {
-						total_pops = 200000
-						NOT = { total_pops = 375000 }
+						total_pops = 300000
+						NOT = { total_pops = 565000 }
 					}
 				}
 				remove_core = TNY
@@ -98,8 +98,8 @@ country_event = {
 				limit = {
 					year = 1896
 					state_scope = {
-						total_pops = 300000
-						NOT = { total_pops = 550000 }
+						total_pops = 450000
+						NOT = { total_pops = 825000 }
 					}
 				}
 				remove_core = TNY
@@ -116,8 +116,8 @@ country_event = {
 				limit = {
 					NOT = { year = 1866 }
 					state_scope = {
-						total_pops = 250000
-						NOT = { total_pops = 350000 }
+						total_pops = 375000
+						NOT = { total_pops = 525000 }
 					}
 				}
 				remove_core = TNY
@@ -133,8 +133,8 @@ country_event = {
 					year = 1866
 					NOT = { year = 1896 }
 					state_scope = {
-						total_pops = 375000
-						NOT = { total_pops = 600000 }
+						total_pops = 565000
+						NOT = { total_pops = 900000 }
 					}
 				}
 				remove_core = TNY
@@ -149,8 +149,8 @@ country_event = {
 				limit = {
 					year = 1896
 					state_scope = {
-						total_pops = 550000
-						NOT = { total_pops = 800000 }
+						total_pops = 825000
+						NOT = { total_pops = 1200000 }
 					}
 				}
 				remove_core = TNY
@@ -168,8 +168,8 @@ country_event = {
 				limit = {
 					NOT = { year = 1866 }
 					state_scope = {
-						total_pops = 350000
-						NOT = { total_pops = 550000 }
+						total_pops = 525000
+						NOT = { total_pops = 825000 }
 					}
 				}
 				remove_core = TNY
@@ -185,8 +185,8 @@ country_event = {
 					year = 1866
 					NOT = { year = 1896 }
 					state_scope = {
-						total_pops = 600000
-						NOT = { total_pops = 800000 }
+						total_pops = 900000
+						NOT = { total_pops = 1200000 }
 					}
 				}
 				remove_core = TNY
@@ -201,8 +201,8 @@ country_event = {
 				limit = {
 					year = 1896
 					state_scope = {
-						total_pops = 800000
-						NOT = { total_pops = 1250000 }
+						total_pops = 1200000
+						NOT = { total_pops = 1875000 }
 					}
 				}
 				remove_core = TNY
@@ -220,7 +220,7 @@ country_event = {
 				limit = {
 					NOT = { year = 1866 }
 					state_scope = {
-						total_pops = 550000
+						total_pops = 825000
 					}
 				}
 				remove_core = TNY
@@ -236,7 +236,7 @@ country_event = {
 					year = 1866
 					NOT = { year = 1896 }
 					state_scope = {
-						total_pops = 800000
+						total_pops = 1200000
 					}
 				}
 				remove_core = TNY
@@ -251,7 +251,7 @@ country_event = {
 				limit = {
 					year = 1896
 					state_scope = {
-						total_pops = 1250000
+						total_pops = 1875000
 					}
 				}
 				remove_core = TNY

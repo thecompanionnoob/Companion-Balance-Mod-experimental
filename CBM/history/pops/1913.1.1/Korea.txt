@@ -1,67 +1,623 @@
-#Pyongan Region (1596000)
-#under the rule of Korea in 1836
-#Pyongyang (800000/200000 POPS)
+#Pyongan Region (2872800)
+#under the rule of Korea in 3305
+#Pyongyang (1440000/360000 POPS)
 1619 = {
 	aristocrats = {
 		culture = korean
 		religion = sunni
-		size = 3750
+		size = 6750
 	}
 
 	bureaucrats = {
 		culture = korean
 		religion = sunni
-		size = 300
+		size = 540
 	}
 
 	officers = {
 		culture = korean
 		religion = sunni
-		size = 400
+		size = 720
 	}
 
 	clergymen = {
 		culture = korean
 		religion = sunni
-		size = 1925
+		size = 3465
 	}
 
 	artisans = {
 		culture = korean
 		religion = sunni
-		size = 9500
+		size = 17100
 	}
 
 	soldiers = {
 		culture = korean
 		religion = sunni
-		size = 2000
+		size = 3600
 	}
 
 	farmers = {
 		culture = korean
 		religion = sunni
-		size = 172125
+		size = 309825
 	}
 
 	slaves = {
 		culture = korean
 		religion = sunni
-		size = 10000
+		size = 18000
 	}
 }
-#Chonchon (796000/190000 POPS)
+#Chonchon (1432800/342000 POPS)
 1620 = {
 	aristocrats = {
 		culture = korean
 		religion = sunni
-		size = 3550
+		size = 6390
 	}
 
 	clergymen = {
 		culture = korean
 		religion = sunni
-		size = 1825
+		size = 3285
+	}
+
+	artisans = {
+		culture = korean
+		religion = sunni
+		size = 16200
+	}
+
+	soldiers = {
+		culture = korean
+		religion = sunni
+		size = 3600
+	}
+
+	farmers = {
+		culture = korean
+		religion = sunni
+		size = 294525
+	}
+
+	slaves = {
+		culture = korean
+		religion = sunni
+		size = 18000
+	}
+}
+#Hamgyong Region (1656000)
+#under the rule of Korea in 3305
+#Hamhung (540000/135000 POPS)
+1621 = {
+	aristocrats = {
+		culture = korean
+		religion = sunni
+		size = 2520
+	}
+
+	bureaucrats = {
+		culture = korean
+		religion = sunni
+		size = 270
+	}
+
+	officers = {
+		culture = korean
+		religion = sunni
+		size = 360
+	}
+
+	clergymen = {
+		culture = korean
+		religion = sunni
+		size = 1350
+	}
+
+	artisans = {
+		culture = korean
+		religion = sunni
+		size = 6300
+	}
+
+	soldiers = {
+		culture = korean
+		religion = sunni
+		size = 1260
+	}
+
+	farmers = {
+		culture = korean
+		religion = sunni
+		size = 113940
+	}
+
+	slaves = {
+		culture = korean
+		religion = sunni
+		size = 9000
+	}
+}
+#Chongjin (648000/162000 POPS)
+1622 = {
+	aristocrats = {
+		culture = korean
+		religion = sunni
+		size = 2700
+	}
+
+	clergymen = {
+		culture = korean
+		religion = sunni
+		size = 1440
+	}
+
+	artisans = {
+		culture = korean
+		religion = sunni
+		size = 7200
+	}
+
+	soldiers = {
+		culture = korean
+		religion = sunni
+		size = 1980
+	}
+
+	farmers = {
+		culture = korean
+		religion = sunni
+		size = 130680
+	}
+
+	slaves = {
+		culture = korean
+		religion = sunni
+		size = 18000
+	}
+}
+#Kimchaek (468000/117000 POPS)
+1623 = {
+	aristocrats = {
+		culture = korean
+		religion = sunni
+		size = 2070
+	}
+
+	clergymen = {
+		culture = korean
+		religion = sunni
+		size = 1125
+	}
+
+	artisans = {
+		culture = korean
+		religion = sunni
+		size = 5400
+	}
+
+	soldiers = {
+		culture = korean
+		religion = sunni
+		size = 1080
+	}
+
+	farmers = {
+		culture = korean
+		religion = sunni
+		size = 98325
+	}
+
+	slaves = {
+		culture = korean
+		religion = sunni
+		size = 9000
+	}
+}
+#Kyonggi Region (4716000)
+#under the rule of Korea in 3305
+#Seoul (2124000/531000 POPS)
+1624 = {
+	aristocrats = {
+		culture = korean
+		religion = sunni
+		size = 9765
+	}
+
+	bureaucrats = {
+		culture = korean
+		religion = sunni
+		size = 1215
+	}
+
+	officers = {
+		culture = korean
+		religion = sunni
+		size = 1125
+	}
+
+	clergymen = {
+		culture = korean
+		religion = sunni
+		size = 5040
+	}
+
+	artisans = {
+		culture = korean
+		religion = sunni
+		size = 18000
+	}
+
+	artisans = {
+		culture = korean
+		religion = sunni
+		size = 6750
+	}
+
+	soldiers = {
+		culture = korean
+		religion = sunni
+		size = 5400
+	}
+
+	farmers = {
+		culture = korean
+		religion = sunni
+		size = 447705
+	}
+
+	slaves = {
+		culture = korean
+		religion = sunni
+		size = 36000
+	}
+}
+#Kaesong (504000/126000 POPS)
+1625 = {
+	aristocrats = {
+		culture = korean
+		religion = sunni
+		size = 2250
+	}
+
+	clergymen = {
+		culture = korean
+		religion = sunni
+		size = 1215
+	}
+
+	artisans = {
+		culture = korean
+		religion = sunni
+		size = 5850
+	}
+
+	soldiers = {
+		culture = korean
+		religion = sunni
+		size = 1170
+	}
+
+	farmers = {
+		culture = korean
+		religion = sunni
+		size = 106470
+	}
+
+	slaves = {
+		culture = korean
+		religion = sunni
+		size = 9000
+	}
+}
+#Haeju (468000/117000 POPS)
+1626 = {
+	aristocrats = {
+		culture = korean
+		religion = sunni
+		size = 2070
+	}
+
+	clergymen = {
+		culture = korean
+		religion = sunni
+		size = 1125
+	}
+
+	artisans = {
+		culture = korean
+		religion = sunni
+		size = 5400
+	}
+
+	soldiers = {
+		culture = korean
+		religion = sunni
+		size = 1080
+	}
+
+	farmers = {
+		culture = korean
+		religion = sunni
+		size = 98325
+	}
+
+	slaves = {
+		culture = korean
+		religion = sunni
+		size = 9000
+	}
+}
+#Sariwon (612000/153000 POPS)
+1627 = {
+	aristocrats = {
+		culture = korean
+		religion = sunni
+		size = 2790
+	}
+
+	clergymen = {
+		culture = korean
+		religion = sunni
+		size = 1485
+	}
+
+	artisans = {
+		culture = korean
+		religion = sunni
+		size = 7200
+	}
+
+	soldiers = {
+		culture = korean
+		religion = sunni
+		size = 1980
+	}
+
+	farmers = {
+		culture = korean
+		religion = sunni
+		size = 130725
+	}
+
+	slaves = {
+		culture = korean
+		religion = sunni
+		size = 9000
+	}
+}
+#Inchon (1008000/252000 POPS)
+1628 = {
+	aristocrats = {
+		culture = korean
+		religion = sunni
+		size = 4590
+	}
+
+	clergymen = {
+		culture = korean
+		religion = sunni
+		size = 2385
+	}
+
+	artisans = {
+		culture = korean
+		religion = sunni
+		size = 11700
+	}
+
+	soldiers = {
+		culture = korean
+		religion = sunni
+		size = 3600
+	}
+
+	farmers = {
+		culture = korean
+		religion = sunni
+		size = 211725
+	}
+
+	slaves = {
+		culture = korean
+		religion = sunni
+		size = 18000
+	}
+}
+#Gangwon Region (1656000)
+#under the rule of Korea in 3305
+#Wonsan (684000/171000 POPS)
+1629 = {
+	aristocrats = {
+		culture = korean
+		religion = sunni
+		size = 3060
+	}
+
+	bureaucrats = {
+		culture = korean
+		religion = sunni
+		size = 315
+	}
+
+	officers = {
+		culture = korean
+		religion = sunni
+		size = 405
+	}
+
+	clergymen = {
+		culture = korean
+		religion = sunni
+		size = 1530
+	}
+
+	artisans = {
+		culture = korean
+		religion = sunni
+		size = 7650
+	}
+
+	soldiers = {
+		culture = korean
+		religion = sunni
+		size = 1980
+	}
+
+	farmers = {
+		culture = korean
+		religion = sunni
+		size = 138240
+	}
+
+	slaves = {
+		culture = korean
+		religion = sunni
+		size = 18000
+	}
+}
+#Kangnung (468000/117000 POPS)
+1630 = {
+	aristocrats = {
+		culture = korean
+		religion = sunni
+		size = 2070
+	}
+
+	clergymen = {
+		culture = korean
+		religion = sunni
+		size = 1125
+	}
+
+	artisans = {
+		culture = korean
+		religion = sunni
+		size = 5400
+	}
+
+	soldiers = {
+		culture = korean
+		religion = sunni
+		size = 1080
+	}
+
+	farmers = {
+		culture = korean
+		religion = sunni
+		size = 98325
+	}
+
+	slaves = {
+		culture = korean
+		religion = sunni
+		size = 9000
+	}
+}
+#Wonju (504000/126000 POPS)
+1631 = {
+	aristocrats = {
+		culture = korean
+		religion = sunni
+		size = 2250
+	}
+
+	clergymen = {
+		culture = korean
+		religion = sunni
+		size = 1215
+	}
+
+	artisans = {
+		culture = korean
+		religion = sunni
+		size = 5850
+	}
+
+	soldiers = {
+		culture = korean
+		religion = sunni
+		size = 1170
+	}
+
+	farmers = {
+		culture = korean
+		religion = sunni
+		size = 106515
+	}
+
+	slaves = {
+		culture = korean
+		religion = sunni
+		size = 9000
+	}
+}
+#Kyongsang Region (3240000)
+#under the rule of Korea in 3305
+#Pusan (1332000/333000 POPS)
+1632 = {
+	aristocrats = {
+		culture = korean
+		religion = sunni
+		size = 6120
+	}
+
+	bureaucrats = {
+		culture = korean
+		religion = sunni
+		size = 675
+	}
+
+	officers = {
+		culture = korean
+		religion = sunni
+		size = 765
+	}
+
+	clergymen = {
+		culture = korean
+		religion = sunni
+		size = 3240
+	}
+
+	artisans = {
+		culture = korean
+		religion = sunni
+		size = 15750
+	}
+
+	soldiers = {
+		culture = korean
+		religion = sunni
+		size = 3600
+	}
+
+	farmers = {
+		culture = korean
+		religion = sunni
+		size = 284670
+	}
+
+	slaves = {
+		culture = korean
+		religion = sunni
+		size = 18000
+	}
+}
+#Taejon (756000/189000 POPS)
+1636 = {
+	aristocrats = {
+		culture = korean
+		religion = sunni
+		size = 3420
+	}
+
+	clergymen = {
+		culture = korean
+		religion = sunni
+		size = 1890
 	}
 
 	artisans = {
@@ -73,741 +629,185 @@
 	soldiers = {
 		culture = korean
 		religion = sunni
-		size = 2000
+		size = 1980
 	}
 
 	farmers = {
 		culture = korean
 		religion = sunni
-		size = 163625
+		size = 163890
 	}
 
 	slaves = {
 		culture = korean
 		religion = sunni
-		size = 10000
+		size = 9000
 	}
 }
-#Hamgyong Region (920000)
-#under the rule of Korea in 1836
-#Hamhung (300000/75000 POPS)
-1621 = {
-	aristocrats = {
-		culture = korean
-		religion = sunni
-		size = 1400
-	}
-
-	bureaucrats = {
-		culture = korean
-		religion = sunni
-		size = 150
-	}
-
-	officers = {
-		culture = korean
-		religion = sunni
-		size = 200
-	}
-
-	clergymen = {
-		culture = korean
-		religion = sunni
-		size = 750
-	}
-
-	artisans = {
-		culture = korean
-		religion = sunni
-		size = 3500
-	}
-
-	soldiers = {
-		culture = korean
-		religion = sunni
-		size = 700
-	}
-
-	farmers = {
-		culture = korean
-		religion = sunni
-		size = 63300
-	}
-
-	slaves = {
-		culture = korean
-		religion = sunni
-		size = 5000
-	}
-}
-#Chongjin (360000/90000 POPS)
-1622 = {
-	aristocrats = {
-		culture = korean
-		religion = sunni
-		size = 1500
-	}
-
-	clergymen = {
-		culture = korean
-		religion = sunni
-		size = 800
-	}
-
-	artisans = {
-		culture = korean
-		religion = sunni
-		size = 4000
-	}
-
-	soldiers = {
-		culture = korean
-		religion = sunni
-		size = 1100
-	}
-
-	farmers = {
-		culture = korean
-		religion = sunni
-		size = 72600
-	}
-
-	slaves = {
-		culture = korean
-		religion = sunni
-		size = 10000
-	}
-}
-#Kimchaek (260000/65000 POPS)
-1623 = {
-	aristocrats = {
-		culture = korean
-		religion = sunni
-		size = 1150
-	}
-
-	clergymen = {
-		culture = korean
-		religion = sunni
-		size = 625
-	}
-
-	artisans = {
-		culture = korean
-		religion = sunni
-		size = 3000
-	}
-
-	soldiers = {
-		culture = korean
-		religion = sunni
-		size = 600
-	}
-
-	farmers = {
-		culture = korean
-		religion = sunni
-		size = 54625
-	}
-
-	slaves = {
-		culture = korean
-		religion = sunni
-		size = 5000
-	}
-}
-#Kyonggi Region (2620000)
-#under the rule of Korea in 1836
-#Seoul (1180000/295000 POPS)
-1624 = {
-	aristocrats = {
-		culture = korean
-		religion = sunni
-		size = 5425
-	}
-
-	bureaucrats = {
-		culture = korean
-		religion = sunni
-		size = 675
-	}
-
-	officers = {
-		culture = korean
-		religion = sunni
-		size = 625
-	}
-
-	clergymen = {
-		culture = korean
-		religion = sunni
-		size = 2800
-	}
-
-	artisans = {
-		culture = korean
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = korean
-		religion = sunni
-		size = 3750
-	}
-
-	soldiers = {
-		culture = korean
-		religion = sunni
-		size = 3000
-	}
-
-	farmers = {
-		culture = korean
-		religion = sunni
-		size = 248725
-	}
-
-	slaves = {
-		culture = korean
-		religion = sunni
-		size = 20000
-	}
-}
-#Kaesong (280000/70000 POPS)
-1625 = {
-	aristocrats = {
-		culture = korean
-		religion = sunni
-		size = 1250
-	}
-
-	clergymen = {
-		culture = korean
-		religion = sunni
-		size = 675
-	}
-
-	artisans = {
-		culture = korean
-		religion = sunni
-		size = 3250
-	}
-
-	soldiers = {
-		culture = korean
-		religion = sunni
-		size = 650
-	}
-
-	farmers = {
-		culture = korean
-		religion = sunni
-		size = 59150
-	}
-
-	slaves = {
-		culture = korean
-		religion = sunni
-		size = 5000
-	}
-}
-#Haeju (260000/65000 POPS)
-1626 = {
-	aristocrats = {
-		culture = korean
-		religion = sunni
-		size = 1150
-	}
-
-	clergymen = {
-		culture = korean
-		religion = sunni
-		size = 625
-	}
-
-	artisans = {
-		culture = korean
-		religion = sunni
-		size = 3000
-	}
-
-	soldiers = {
-		culture = korean
-		religion = sunni
-		size = 600
-	}
-
-	farmers = {
-		culture = korean
-		religion = sunni
-		size = 54625
-	}
-
-	slaves = {
-		culture = korean
-		religion = sunni
-		size = 5000
-	}
-}
-#Sariwon (340000/85000 POPS)
-1627 = {
-	aristocrats = {
-		culture = korean
-		religion = sunni
-		size = 1550
-	}
-
-	clergymen = {
-		culture = korean
-		religion = sunni
-		size = 825
-	}
-
-	artisans = {
-		culture = korean
-		religion = sunni
-		size = 4000
-	}
-
-	soldiers = {
-		culture = korean
-		religion = sunni
-		size = 1100
-	}
-
-	farmers = {
-		culture = korean
-		religion = sunni
-		size = 72625
-	}
-
-	slaves = {
-		culture = korean
-		religion = sunni
-		size = 5000
-	}
-}
-#Inchon (560000/140000 POPS)
-1628 = {
-	aristocrats = {
-		culture = korean
-		religion = sunni
-		size = 2550
-	}
-
-	clergymen = {
-		culture = korean
-		religion = sunni
-		size = 1325
-	}
-
-	artisans = {
-		culture = korean
-		religion = sunni
-		size = 6500
-	}
-
-	soldiers = {
-		culture = korean
-		religion = sunni
-		size = 2000
-	}
-
-	farmers = {
-		culture = korean
-		religion = sunni
-		size = 117625
-	}
-
-	slaves = {
-		culture = korean
-		religion = sunni
-		size = 10000
-	}
-}
-#Gangwon Region (920000)
-#under the rule of Korea in 1836
-#Wonsan (380000/95000 POPS)
-1629 = {
-	aristocrats = {
-		culture = korean
-		religion = sunni
-		size = 1700
-	}
-
-	bureaucrats = {
-		culture = korean
-		religion = sunni
-		size = 175
-	}
-
-	officers = {
-		culture = korean
-		religion = sunni
-		size = 225
-	}
-
-	clergymen = {
-		culture = korean
-		religion = sunni
-		size = 850
-	}
-
-	artisans = {
-		culture = korean
-		religion = sunni
-		size = 4250
-	}
-
-	soldiers = {
-		culture = korean
-		religion = sunni
-		size = 1100
-	}
-
-	farmers = {
-		culture = korean
-		religion = sunni
-		size = 76800
-	}
-
-	slaves = {
-		culture = korean
-		religion = sunni
-		size = 10000
-	}
-}
-#Kangnung (260000/65000 POPS)
-1630 = {
-	aristocrats = {
-		culture = korean
-		religion = sunni
-		size = 1150
-	}
-
-	clergymen = {
-		culture = korean
-		religion = sunni
-		size = 625
-	}
-
-	artisans = {
-		culture = korean
-		religion = sunni
-		size = 3000
-	}
-
-	soldiers = {
-		culture = korean
-		religion = sunni
-		size = 600
-	}
-
-	farmers = {
-		culture = korean
-		religion = sunni
-		size = 54625
-	}
-
-	slaves = {
-		culture = korean
-		religion = sunni
-		size = 5000
-	}
-}
-#Wonju (280000/70000 POPS)
-1631 = {
-	aristocrats = {
-		culture = korean
-		religion = sunni
-		size = 1250
-	}
-
-	clergymen = {
-		culture = korean
-		religion = sunni
-		size = 675
-	}
-
-	artisans = {
-		culture = korean
-		religion = sunni
-		size = 3250
-	}
-
-	soldiers = {
-		culture = korean
-		religion = sunni
-		size = 650
-	}
-
-	farmers = {
-		culture = korean
-		religion = sunni
-		size = 59175
-	}
-
-	slaves = {
-		culture = korean
-		religion = sunni
-		size = 5000
-	}
-}
-#Kyongsang Region (1800000)
-#under the rule of Korea in 1836
-#Pusan (740000/185000 POPS)
-1632 = {
-	aristocrats = {
-		culture = korean
-		religion = sunni
-		size = 3400
-	}
-
-	bureaucrats = {
-		culture = korean
-		religion = sunni
-		size = 375
-	}
-
-	officers = {
-		culture = korean
-		religion = sunni
-		size = 425
-	}
-
-	clergymen = {
-		culture = korean
-		religion = sunni
-		size = 1800
-	}
-
-	artisans = {
-		culture = korean
-		religion = sunni
-		size = 8750
-	}
-
-	soldiers = {
-		culture = korean
-		religion = sunni
-		size = 2000
-	}
-
-	farmers = {
-		culture = korean
-		religion = sunni
-		size = 158150
-	}
-
-	slaves = {
-		culture = korean
-		religion = sunni
-		size = 10000
-	}
-}
-#Taejon (420000/105000 POPS)
-1633 = {
-	aristocrats = {
-		culture = korean
-		religion = sunni
-		size = 1900
-	}
-
-	clergymen = {
-		culture = korean
-		religion = sunni
-		size = 1050
-	}
-
-	artisans = {
-		culture = korean
-		religion = sunni
-		size = 5000
-	}
-
-	soldiers = {
-		culture = korean
-		religion = sunni
-		size = 1100
-	}
-
-	farmers = {
-		culture = korean
-		religion = sunni
-		size = 91050
-	}
-
-	slaves = {
-		culture = korean
-		religion = sunni
-		size = 5000
-	}
-}
-#Pohang (640000/160000 POPS)
+#Pohang (1152000/288000 POPS)
 1634 = {
 	aristocrats = {
 		culture = korean
 		religion = sunni
-		size = 2900
+		size = 5220
 	}
 
 	clergymen = {
 		culture = korean
 		religion = sunni
-		size = 1550
+		size = 2790
 	}
 
 	artisans = {
 		culture = korean
 		religion = sunni
-		size = 7500
+		size = 13500
 	}
 
 	soldiers = {
 		culture = korean
 		religion = sunni
-		size = 2000
+		size = 3600
 	}
 
 	farmers = {
 		culture = korean
 		religion = sunni
-		size = 136050
+		size = 244890
 	}
 
 	slaves = {
 		culture = korean
 		religion = sunni
-		size = 10000
+		size = 18000
 	}
 }
-#Cholla Region (1504000)
-#under the rule of Korea in 1836
-#Kwangju (644000/161000 POPS)
+#Cholla Region (2707200)
+#under the rule of Korea in 3305
+#Kwangju (1159200/289800 POPS)
 1635 = {
 	aristocrats = {
 		culture = korean
 		religion = sunni
-		size = 3000
+		size = 5400
 	}
 
 	bureaucrats = {
 		culture = korean
 		religion = sunni
-		size = 300
+		size = 540
 	}
 
 	officers = {
 		culture = korean
 		religion = sunni
-		size = 350
+		size = 630
 	}
 
 	clergymen = {
 		culture = korean
 		religion = sunni
-		size = 1500
+		size = 2700
 	}
 
 	artisans = {
 		culture = korean
 		religion = sunni
-		size = 7550
+		size = 13590
 	}
 
 	soldiers = {
 		culture = korean
 		religion = sunni
-		size = 2000
+		size = 3600
 	}
 
 	farmers = {
 		culture = korean
 		religion = sunni
-		size = 136300
+		size = 245340
 	}
 
 	slaves = {
 		culture = korean
 		religion = sunni
-		size = 10000
+		size = 18000
 	}
 }
-#Taegu (560000/140000 POPS)
-1636 = {
+#Taegu (1008000/252000 POPS)
+1633 = {
 	aristocrats = {
 		culture = korean
 		religion = sunni
-		size = 2550
+		size = 4590
 	}
 
 	clergymen = {
 		culture = korean
 		religion = sunni
-		size = 1325
+		size = 2385
 	}
 
 	artisans = {
 		culture = korean
 		religion = sunni
-		size = 6500
+		size = 11700
 	}
 
 	soldiers = {
 		culture = korean
 		religion = sunni
-		size = 2000
+		size = 3600
 	}
 
 	farmers = {
 		culture = korean
 		religion = sunni
-		size = 117625
+		size = 211725
 	}
 
 	slaves = {
 		culture = korean
 		religion = sunni
-		size = 10000
+		size = 18000
 	}
 }
-#Cheju (300000/75000 POPS)
+#Cheju (540000/135000 POPS)
 1637 = {
 	aristocrats = {
 		culture = korean
 		religion = sunni
-		size = 1350
+		size = 2430
 	}
 
 	clergymen = {
 		culture = korean
 		religion = sunni
-		size = 725
+		size = 1305
 	}
 
 	artisans = {
 		culture = korean
 		religion = sunni
-		size = 3500
+		size = 6300
 	}
 
 	soldiers = {
 		culture = korean
 		religion = sunni
-		size = 700
+		size = 1260
 	}
 
 	farmers = {
 		culture = korean
 		religion = sunni
-		size = 63725
+		size = 114705
 	}
 
 	slaves = {
 		culture = korean
 		religion = sunni
-		size = 5000
+		size = 9000
 	}
 
 }

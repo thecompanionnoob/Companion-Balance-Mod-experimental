@@ -1,2 +1,18 @@
 trade_goods = fruit
 life_rating = 20
+
+1910.1.1 = {
+    owner = POR
+    controller = POR
+    colonial = 2
+}
+	
+	
+	
+
+	
+	
+	
+
+
+

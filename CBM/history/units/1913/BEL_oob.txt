@@ -1,0 +1,55 @@
+army = {
+    name = "Army of Belgium"
+    location = 387
+    
+    regiment = {
+        name = "Infantry"
+        type = infantry
+        home = 387
+    }    
+    regiment = {
+        name = "Infantry"
+        type = infantry
+        home = 387
+    }    
+    regiment = {
+        name = "Infantry"
+        type = infantry
+        home = 387
+    }    
+    regiment = {
+        name = "Infantry"
+        type = infantry
+        home = 389
+    }    
+    regiment = {
+        name = "Cavalry"
+        type = hussar
+        home = 390
+    }
+    regiment = {
+        name = "Artillery"
+        type = artillery
+        home = 391
+    }
+    regiment = {
+        name = "Artillery"
+        type = artillery
+        home = 388
+    }
+    regiment = {
+        name = "Artillery"
+        type = artillery
+        home = 393
+    }
+    regiment = {
+        name = "Artillery"
+        type = artillery
+        home = 394
+    }
+    regiment = {
+        name = "Artillery"
+        type = artillery
+        home = 395
+    }
+}

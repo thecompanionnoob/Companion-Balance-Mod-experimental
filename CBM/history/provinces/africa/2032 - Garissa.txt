@@ -1,2 +1,11 @@
 trade_goods = iron
 life_rating = 15
+
+1910.1.1 = {
+    owner = ENG
+    controller = ENG
+    colonial = 2
+}
+	
+	
+	

@@ -39,6 +39,7 @@
 
 # Order that CBs are executed in a peace treaty
 peace_order = { 
+ww1_casus_belli
 add_to_sphere 
 take_from_sphere 
 status_quo 
@@ -62,6 +63,7 @@ cut_down_to_size
 free_peoples
 liberate_country
 release_puppet
+release_indian_puppet
 become_independent
 make_puppet
 dismantle_forts
@@ -1772,10 +1774,82 @@ release_puppet = {
 	allowed_countries = {
 		is_our_vassal = FROM
 		FROM = { is_substate = no }
+		FROM = { 
+			#not indian puppets
+			NOT = {
+				OR = {
+					tag = HND
+					tag = MGH
+					tag = JAU
+					tag = BNG
+					tag = HYD
+					tag = TML
+				}
+			}
+		}
 	}
 	
 	po_release_puppet = yes
 	po_add_to_sphere = yes
+
+	war_name = WAR_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
+
+# Release Indian Puppet
+release_indian_puppet = {
+	sprite_index = 10
+	is_triggered_only = yes
+	months = 12
+
+	badboy_factor = 1
+	prestige_factor = 1
+	peace_cost_factor = 0.01
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		num_of_vassals_no_substates = 1
+	}
+	
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal is scope
+	allowed_countries = {
+		is_our_vassal = FROM
+		FROM = { is_substate = no }
+		FROM = { 
+			OR = {
+				tag = HND
+				tag = MGH
+				tag = JAU
+				tag = BNG
+				tag = HYD
+				tag = TML
+			}
+		}
+	}
+	
+	po_release_puppet = yes
+	po_add_to_sphere = yes
+	po_gunboat = yes
 
 	war_name = WAR_NAME
 	
@@ -1943,6 +2017,36 @@ humiliate = {
 			value = 0.25
 		}
 	}
+}
+ww1_casus_belli = {
+	sprite_index = 11
+	is_triggered_only = yes
+	months = 10000
+
+	badboy_factor = 1.5
+	prestige_factor = 1
+	peace_cost_factor = 100
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	po_remove_prestige = yes
+
+	tws_battle_factor = 2.0
+	
+	war_name = WAR_HUMILIATE_NAME
+
+	can_use = {
+		has_global_flag = great_war_decision
+	}	
+
 }
 
 # Demand Concession

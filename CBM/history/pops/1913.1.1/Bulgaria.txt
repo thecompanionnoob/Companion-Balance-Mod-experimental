@@ -87,7 +87,7 @@
 	soldiers = {
 		culture = bulgarian
 		religion = sunni
-		size = 4000
+		size = 15000
 	}
 
 	farmers = {
@@ -99,19 +99,19 @@
 	clergymen = {
 		culture = bulgarian
 		religion = sunni
-		size = 350
+		size = 1250
 	}
 
 	artisans = {
 		culture = bulgarian
 		religion = sunni
-		size = 4800
+		size = 8800
 	}
 
 	farmers = {
 		culture = bulgarian
 		religion = sunni
-		size = 80850
+		size = 120850
 	}
 
 	clergymen = {

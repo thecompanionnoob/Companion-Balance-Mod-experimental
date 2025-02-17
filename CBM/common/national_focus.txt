@@ -3,33 +3,55 @@ economic_focus =
 {
 	throughput_focus = {
 		local_factory_throughput = 0.15
-		icon = 17
+		icon = 6
 	}
 	efficiency_focus = {
 		local_factory_output = 0.05
 		local_factory_input = -0.05
-		icon = 17
+		icon = 7
 	}
 	rgo_focus = {
 		local_RGO_output = 0.25
 		icon = 21
 	}
-	artisan_focus = {
-		local_artisan_output = 0.25
-		icon = 6
-	}
+	#Non-functional, artisan output seems not able to be modified
+	#artisan_focus = {
+	#	local_artisan_output = 25.0
+	#	icon = 6
+	#}
 }
 
 political_focus = {
-	militancy_reform_focus = {
-		pop_militancy_modifier = 0.3
-		political_reform_desire = 0.5
-		social_reform_desire = 0.5
-		icon = 4
-	}
+	#Irrelevant with new reform system
+	#militancy_reform_focus = {
+	#	pop_militancy_modifier = 0.3
+	#	political_reform_desire = 0.5
+	#	social_reform_desire = 0.5
+	#	icon = 4
+	#}
 	pacification_focus = {
 		pop_militancy_modifier = -0.3
 		icon = 4
+	}
+}
+
+military_focus = {
+	scorched_earth_focus = {
+		pop_militancy_modifier = 0.1
+		max_attrition = 5
+		supply_limit = -4
+		#global_population_growth = -0.0004 #doesnt work
+		immigrant_push = 0.75
+		icon = 3
+	}
+	supply_focus = {
+		max_attrition = -1
+		supply_limit = 3
+		icon = 2
+	}
+	navy_build_focus = {
+		local_ship_build = -0.33
+		icon = 5
 	}
 }
 

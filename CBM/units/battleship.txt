@@ -26,7 +26,7 @@ battleship = {
 		steamer_convoy = 100
 		artillery = 25
 		canned_food = 10
-		telephones = 10
+		#telephones = 10
 		fuel = 25
 	}
 	min_port_level = 3
@@ -35,11 +35,11 @@ battleship = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 4.8
-		artillery = 2.4
-		canned_food = 2.4
-		coal = 10.0
-		fuel = 1.2
+		steamer_convoy = 20.0
+		artillery = 5.0
+		canned_food = 5.0
+		#coal = 20.0
+		fuel = 5.0
 	}
 	
 	#Naval Abilties

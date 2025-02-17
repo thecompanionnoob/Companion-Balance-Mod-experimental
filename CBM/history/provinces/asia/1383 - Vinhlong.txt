@@ -1,4 +1,9 @@
 owner = DAI
+1910.1.1={
+owner = FRA
+controller = FRA
+colonial = 2
+}
 controller = DAI
 add_core = DAI
 trade_goods = grain

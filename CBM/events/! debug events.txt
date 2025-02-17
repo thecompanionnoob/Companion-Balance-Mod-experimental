@@ -125,3 +125,18 @@ country_event = {
         war_exhaustion = 25
     }
 }
+
+country_event = {
+    id = 9
+    title = "no WE"
+    desc = "no WE"
+
+    trigger = {
+        war = no
+        war = yes
+    }
+    option = {
+        name = "no WE"
+        war_exhaustion = -25
+    }
+}

@@ -15,7 +15,9 @@ vote_franschise = universal_weighted_voting
 public_meetings = yes_meeting
 press_rights = free_press
 trade_unions = all_trade_unions
-administrative_reform = corrupt_administrative_state 
+administrative_reform = corrupt_administrative_state
+education_system = private_edu_system
+health_system = private_health_system 
 political_parties = non_secret_ballots
 
 # Social Reforms

@@ -3,6 +3,13 @@ country_event = {
 
 	trigger = {
 		tag = RUS
+		NOT = {
+			OR = {
+				has_country_flag = go_east
+				has_country_flag = go_west
+			}
+		}
+		NOT = { has_global_flag = great_war }
 	}
 
 	fire_only_once = yes

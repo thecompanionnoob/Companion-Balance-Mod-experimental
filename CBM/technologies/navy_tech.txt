@@ -1614,7 +1614,7 @@ naval_statistics = {
 	cost = 10800
 	unciv_military = yes
 	factory_goods_throughput = {
-		steamer_convoy = 0.10
+		steamer_convoy = 0.20
 	}
 		ai_chance = {
 		factor = 1.01
@@ -1658,7 +1658,7 @@ naval_logistics = {
 	cost = 14400
 	unciv_military = yes
 	factory_goods_throughput = {
-		steamer_convoy = 0.10
+		steamer_convoy = 0.20
 	}
 		ai_chance = {
 		factor = 1.01
@@ -1702,7 +1702,7 @@ naval_directionism = {
 	cost = 18000
 	unciv_military = yes
 	factory_goods_throughput = {
-		steamer_convoy = 0.10
+		steamer_convoy = 0.15
 	}
 		ai_chance = {
 		factor = 1.01
@@ -1746,7 +1746,7 @@ naval_integration = {
 	cost = 21600
 	unciv_military = yes
 	factory_goods_throughput = {
-		steamer_convoy = 0.10
+		steamer_convoy = 0.15
 	}
 		ai_chance = {
 		factor = 1.01

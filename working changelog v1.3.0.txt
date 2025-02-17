@@ -4,13 +4,32 @@ GLOBAL CHANGES:
 *New start date, January 1st 1913 to be used as an alternative multiplayer gamemode, with tons of undocumented related changes for the start date.
 *Promotion idea nerfed, the effect is now halved.
 *National focuses now do not affect promotion, they are used for special effects such as increased throughput or rgo output. They are gained every other political thought tech.
-*Promotion is globally buffed for each tech done in political thought, each tech is equal to having the pre-nerf promotion idea stacking on top of eachother.
+*Promotion is globally buffed for each tech done in political thought.
+*Promotion buffs from these techs and the idea are halved if there is over 750k pop in the province.
+*Promotion is buffed in the first year to make starting bureaucrats promote faster.
 *Decently increased the cost of ironclad generation ships and hugely increased the cost of dreadnought era ships.
 *Removed infamy gain from most decisions that form countries or give accepted cultures, decisions that give cores on foreign countries generally still give infamy (Still cheaper than take state cbs).
 *Increased base infamy reduction to -0.3 from -0.2 and made it decay equally when at war as at peace.
 *Made it so you can always use the minor conquest wargoal if the target has only 1 state.
 *Made it so that you can use a humilate wargoal on a target that has recently lost a war.
 *Social reforms no longer increase the number of bureaucrats required for administrative efficiency.
+*Reforms are now super super easy to pass.
+*Healthcare and Education reforms are changed; they start as private and cannot be invested in but have passive positive impacts, if you go to mixed system investment is capped and positive impact is lessened, if you go to public you can invest fully but there are no more passive benefits.
+*Healthcare and Education investment is also capped by technology, for healthcare chemistry tech and for education social thought tech. 
+*Laissez faire no longer caps tax to 90%.
+*Reduced iron consumption of steel factories greatly.
+*Removed pop growth inventions from chemistry tech line.
+*Reduced education efficiency from social thought tech line. 
+*Reduced RGO input consumption of a couple factories.
+*Made it so early game rgo output bonus never disappears.
+*Modified demand and factory efficiency for some consumer goods to make those the most profitable factories.
+*Allowed bureaucrats to promote beyond 1% in colonial states so you aren't prevented from stating them because of unaccepted bureaucrats.
+*Increased state size thresholds by 50%.
+*Massively nerfed pop attraction to fascism based on revanchism (no more 90+% fascist countries due to two lost core states).
+*Buffed commerce input and output techs.
+*Added the decision to remove unaccepted bureaucrats.
+*Made the grants decision check if you have the money to give people, preventing exploits.
+*Increased the value of telephones, automobiles, and radios, as well as increasing the factory production of these goods. Demand has also been increased, making these extremely profitable goods to produce.   
 
 COUNTRY CHANGES:
 *JAPAN:
@@ -24,3 +43,49 @@ COUNTRY CHANGES:
 
 *AUSTRIA:
     *Changed Danubia's color.
+
+*GERMANY:
+    *Made the german republic flag be the modern german flag
+
+*UK:
+    *India now starts released and divided into many states. Each of these states can be annexed by decision at the cost of money, and a 10 year timer until the next one may be annexed.
+    *There is a special cb for the releasing of these vassals that is much more expensive than the normal release vassal cb warscore-wise. (50 warscore each indian vassal released)
+    *Corn laws modifier is now removed.
+
+*RUSSIA:
+    *Russia now starts with a modifier for serfdom which requires state & government and 500k to remove.
+
+*Germany:
+    *Germany now retains the monarchist flag if they become hm's government.
+
+*France:
+    *Desaturated France's color.
+
+*Greece: 
+    *Darkened Greece's color.
+
+*USA:
+    *Lightened & added green to USA's color.
+    *CSA cores will now be correctly added to texas as soon as the usa owns texas if civil war has not happened already.
+    *Removed FSA cores in Ohio, Indiana, Illinois, Wisconsin, and Michigan.
+    *Merged some states in USA, Mexico, and Canada.
+
+*CHINA:
+    *Chinese unciv modifier now gives +10% research points.
+    *Promotion changes make China much more balanced (buffed early and nerfed late) now.
+    *Gave Chinese nations the first prestige tech so they can use the province selector.
+
+*SERBIA:
+    *Changed Serbia's color to contrast with Austria-Hungary
+
+*OTTOMANS:
+    *Changed Ottoman's Color.
+
+*ARGENTINA:
+    *Merged states
+
+*CHILE:
+    *Merged states
+
+*PAKISTAN:
+    *Removed decisions to form india, pakistan is now intended to be an ai country

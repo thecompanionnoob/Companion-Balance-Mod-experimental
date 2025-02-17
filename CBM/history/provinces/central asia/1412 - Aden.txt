@@ -3,8 +3,16 @@ controller = PER
 add_core = PER
 trade_goods = fish
 life_rating = 35
-1925.1.1 = {
-	owner = ENG
-	controller = ENG
-	colonial = 2
+
+1910.1.1 = {
+    owner = ENG
+    controller = ENG
+    colonial = 2
 }
+
+
+        
+
+
+
+

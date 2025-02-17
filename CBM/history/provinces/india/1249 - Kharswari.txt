@@ -1,6 +1,12 @@
-owner = ENG
-controller = ENG
+owner = JAU
+1910.1.1 = {
+owner = HND
+controller = HND
 add_core = HND
+}
+controller = JAU
+add_core = JAU
+
 trade_goods = coal
 life_rating = 28
-colonial = 2
+

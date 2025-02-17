@@ -1,0 +1,12 @@
+#sphere
+
+SER = {
+	value = 200
+	level = 5
+	influence_value = 75
+}
+ROM = {
+	value = 200
+	level = 5
+	influence_value = 75
+}

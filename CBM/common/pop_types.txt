@@ -2,6 +2,14 @@
 promotion_chance = 
 {
 	factor = 0.7
+	modifier = { #base
+		factor = 0.2
+		always = yes
+	}
+	modifier = { #starting bureaucrats promote faster
+		factor = 0.2
+		NOT = { year = 1837 }
+	}
 	group = {
 		modifier = {
 			factor = 0.02
@@ -66,60 +74,124 @@ promotion_chance =
 
 	group = {
 		modifier = {
-			factor = 0.1
+			factor = 0.05
 			life_needs = 0.9
 	
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.05
 			life_needs = 0.8 
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.05
 			life_needs = 0.7
 			strata = poor
 		}
 	}
+	group = {
+		modifier = {
+			factor = 0.05
+			everyday_needs = 0.9
+		}
+		modifier = {
+			factor = 0.05
+			everyday_needs = 0.8
+		}
+		modifier = {
+			factor = 0.05
+			everyday_needs = 0.7
+		}
+	}
+
+    modifier = {
+        factor = -0.05
+        country = { has_country_flag = has_serfdom }
+    }
 
     modifier = {
         factor = 0.1
         country = { has_country_flag = promotion_idea }
+		NOT = { total_pops = 750000 }
+    }
+
+    modifier = {
+        factor = 0.05
+        country = { has_country_flag = promotion_idea }
+		total_pops = 750000 
     }
 
 	modifier = {
-		factor = 0.2
+		factor = 0.05
 		country = { has_country_flag = constitutionalism }
+		NOT = { total_pops = 750000 }
 	}
 
 	modifier = {
-		factor = 0.2
+		factor = 0.025
+		country = { has_country_flag = constitutionalism }
+		total_pops = 750000 
+	}
+
+	modifier = {
+		factor = 0.1
 		country = { has_country_flag = individualism }
+		NOT = { total_pops = 750000 }
 	}
 
 	modifier = {
-		factor = 0.2
+		factor = 0.05
+		country = { has_country_flag = individualism }
+		total_pops = 750000 
+	}
+
+	modifier = {
+		factor = 0.1
 		country = { has_country_flag = meritocracy }
+		NOT = { total_pops = 750000 }
 	}
 
 	modifier = {
-		factor = 0.2
+		factor = 0.05
+		country = { has_country_flag = meritocracy }
+		total_pops = 750000
+	}
+
+	modifier = {
+		factor = 0.1
 		country = { has_country_flag = national_fraternity }
+		NOT = { total_pops = 750000 }
 	}
 
 	modifier = {
-		factor = 0.2
+		factor = 0.05
+		country = { has_country_flag = national_fraternity }
+		total_pops = 750000 
+	}
+
+	modifier = {
+		factor = 0.1
 		country = { has_country_flag = womens_suffrage_movement }
+		NOT = { total_pops = 750000 }
 	}
 
 	modifier = {
-		factor = 0.2
+		factor = 0.05
+		country = { has_country_flag = womens_suffrage_movement }
+		total_pops = 750000 
+	}
+
+	modifier = {
+		factor = 0.05
 		country = { has_country_flag = the_police_state }
+		NOT = { total_pops = 750000 }
 	}
 
 	modifier = {
-		factor = -0.1
-		not = { religion = this }
+		factor = 0.025
+		country = { has_country_flag = the_police_state }
+		total_pops = 750000 
 	}
+	
 	modifier = {
 		factor = -0.1
 		state_scope = { is_colonial = yes }
@@ -127,10 +199,6 @@ promotion_chance =
 	modifier = {
 		factor = -0.1
 		not = { culture = this }
-	}
-	modifier = {
-		factor = -0.1
-		country = { slavery = yes_slavery }
 	}
 	modifier = {
 		factor = -0.05

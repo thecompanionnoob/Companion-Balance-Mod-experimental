@@ -1,0 +1,80 @@
+#are on private healthcare
+country_event = {
+	id = 69043
+	title = "EVTNAME69043"
+	desc = "EVTDESC69043"
+
+	trigger = {
+		health_system = private_health_system
+        OR = {
+            health_care = trinket_health_care
+            health_care = low_health_care
+            health_care = acceptable_health_care
+            health_care = good_health_care
+        }
+	}
+
+	option = {
+		name = "EVTOPTA69043"
+		social_reform = no_health_care
+	}
+}
+#are on mixed healthcare
+country_event = {
+	id = 69044
+	title = "EVTNAME69044"
+	desc = "EVTDESC69044"
+
+	trigger = {
+		health_system = mixed_health_system
+        OR = {
+            health_care = acceptable_health_care
+            health_care = good_health_care
+        }
+	}
+
+	option = {
+		name = "EVTOPTA69044"
+		social_reform = no_health_care
+	}
+}
+#are on private education
+country_event = {
+	id = 69045
+	title = "EVTNAME69045"
+	desc = "EVTDESC69045"
+
+	trigger = {
+		education_system = private_edu_system
+        OR = {
+            school_reforms = low_schools
+			school_reforms = middling_schools
+			school_reforms = acceptable_schools
+            school_reforms = good_schools
+        }
+	}
+
+	option = {
+		name = "EVTOPTA69045"
+		social_reform = no_schools
+	}
+}
+#are on mixed education
+country_event = {
+	id = 69046
+	title = "EVTNAME69046"
+	desc = "EVTDESC69046"
+
+	trigger = {
+		education_system = mixed_edu_system
+        OR = {
+			school_reforms = acceptable_schools
+            school_reforms = good_schools
+        }
+	}
+
+	option = {
+		name = "EVTOPTA69046"
+		social_reform = no_schools
+	}
+}

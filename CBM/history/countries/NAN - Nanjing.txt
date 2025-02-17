@@ -16,7 +16,9 @@ vote_franschise = wealth_voting
 public_meetings = no_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
-administrative_reform = corrupt_administrative_state 
+administrative_reform = corrupt_administrative_state
+education_system = private_edu_system
+health_system = private_health_system 
 political_parties = underground_parties
 
 # Social Reforms
@@ -48,6 +50,7 @@ admin_reform = yes_admin_reform
 #tech
 late_enlightenment_philosophy = 1
 flintlock_rifles = 1
+classicism_n_early_romanticism = 1
 
 oob = "NAN_oob.txt"
 

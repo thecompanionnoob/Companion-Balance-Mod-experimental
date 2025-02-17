@@ -37,22 +37,22 @@ railroad = 5
 		upgrade = yes
 	}
 	state_building = {
-		level = 23
+		level = 28
 		building = steel_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 2
+		level = 9
 		building = ammunition_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 2
+		level = 7
 		building = artillery_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 2
+		level = 5
 		building = small_arms_factory
 		upgrade = yes
 	}
@@ -62,12 +62,12 @@ railroad = 5
 		upgrade = yes
 	}
 	state_building = {
-		level = 3
+		level = 18
 		building = steamer_shipyard
 		upgrade = yes
 	}
 	state_building = {
-		level = 2
+		level = 5
 		building = regular_clothes_factory
 		upgrade = yes
 	}

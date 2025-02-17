@@ -1,11 +1,11 @@
 owner = PAK
-1910.1.1={
-owner = ENG
-conroller = ENG
-colonial = 2
+1910.1.1 = {
+owner = HND
+controller = HND
+add_core = HND
 }
 controller = PAK
 add_core = PAK
-add_core = HND
+
 trade_goods = tea
 life_rating = 35

@@ -1,9 +1,14 @@
-owner = ENG
-controller = ENG
+owner = MGH
+1910.1.1 = {
+owner = HND
+controller = HND
+add_core = HND
+}
+controller = MGH
 add_core = MGH
 add_core = PAK
-add_core = HND
+
 trade_goods = grain
 life_rating = 32
-colonial = 2
+
 fort = 1

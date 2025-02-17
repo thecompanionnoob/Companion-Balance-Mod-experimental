@@ -1,8 +1,6 @@
 
 
 
-#### EVERY TIME YOU ADD A COUNTRY, ADD IT IN THE REMOVE GHOST ARMIES EVENT
-
 # Special countries...
 REB 	= 	"countries/rebels.txt"
 
@@ -22,6 +20,7 @@ PRB		= "countries/Portugal-Brazil.txt" #CBM
 SCA		= "countries/Scandinavia.txt"
 CHI		= "countries/China.txt"
 YUA		= "countries/Yuan.txt" #CBM (although it is just a copy of CHI)
+SOV     = "countries/Soviet.txt" #CBM - used for ww1 only 
 
 # Western Europe
 BEL		= "countries/Belgium.txt"
@@ -92,6 +91,10 @@ HND 		="countries/India.txt"
 SIK		="countries/Sikkim.txt" #hostland - CBM
 PAK		="countries/Pakistan.txt" #CBM
 MGH		="countries/Mughal Empire.txt" #CBM
+BNG     ="countries/Bengal.txt" #CBM
+JAU     ="countries/Jaunpur.txt" #CBM
+HYD     ="countries/Hyderabad.txt" #CBM.. mostly
+TML     ="countries/Tamil.txt" #CBM
 
 # Eastern Asia
 BRU		="countries/Brunei.txt"

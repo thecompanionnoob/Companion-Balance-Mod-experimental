@@ -780,6 +780,7 @@ admin_debuff_modifier = { #no longer used
 }
 china_unciv_modifier = {
 	research_points_on_conquer = -0.95
+	research_points_modifier = 0.1
 }
 china_civ_modifier = {
 	global_pop_militancy_modifier = -0.03
@@ -836,7 +837,17 @@ capital_supply_depot = {
 	icon = 17
 }
 
-## UK - overextended empire (india balance)
+integrating_india = {
+	icon = 4
+}
+
+serfdom_modifier = {
+	icon = 4
+	rgo_output = -0.05
+	education_efficiency_modifier = -0.1
+}
+
+## UK - overextended empire (india balance) -- no longer used
 booted_from_india = {
 	icon = 4
 	prestige = -0.05
@@ -894,6 +905,18 @@ overextended_empire_5 = {
 britain_tgw = {
 	icon = 4
 	mobilisation_size = -0.08
+}
+
+great_rearmament_programme = {
+	icon = 4
+	army_tech_research_bonus = 0.1
+}
+outdated_army_russia = {
+	icon = 4
+	land_organisation = -0.1
+	land_unit_start_experience = -5
+	leadership_modifier = -0.25
+	mobilisation_size = -0.04
 }
 
 ### NATIONAL IDEAS ###
@@ -981,7 +1004,33 @@ province_attract_immigrants = {
 assim_focus = { 
 	assimilation_rate = 5
 }
+economic_aid_campaign = {
+	local_ruling_party_support = 0.15
+	pop_militancy_modifier = -0.25
+	local_RGO_output = 0.05
+	local_factory_throughput = 0.05
+	local_factory_input = -0.02
+	local_factory_output = 0.02
+}
 
+#doomsday modifiers - not used 
+
+national_recruitment_drive = {
+	mobilisation_size = 0.03
+	icon = 3
+}
+
+factory_incentivization = {
+	factory_output = 0.1
+	factory_input = -0.1
+	factory_throughput = 0.2
+	icon = 3
+}
+
+rgo_incentivization = {
+	rgo_output = 0.25
+	icon = 3
+}
 
 #backend modifiers, dont actually do anything just are for technical stuff, like delaying when you can take a decision again etc
 requesting_cease_fire = {
@@ -991,4 +1040,6 @@ tech_school_timer = {
 banker_timer = {
 }
 select_delay = {
+}
+demoting_bureaucrats = {
 }

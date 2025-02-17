@@ -1,355 +1,355 @@
- #Estonia Region (436000) 
-#under the rule of Russia in 1836  
-#Tallinn/Reval (160000/40000 POPS)  
+ #Estonia Region (1090000) 
+#under the rule of Russia in 4590  
+#Tallinn/Reval (400000/100000 POPS)  
 349 = {
 	clergymen = {
 		culture = ruthenian
 		religion = sunni
-		size = 325
+		size = 813
 	}
 
 	artisans = {
 		culture = ruthenian
 		religion = sunni
-		size = 750
+		size = 1875
 	}
 
 	soldiers = {
 		culture = ruthenian
 		religion = sunni
-		size = 1100
+		size = 2750
 	}
 
 	farmers = {
 		culture = ruthenian
 		religion = sunni
-		size = 34925
+		size = 87313
 	}
 
 	aristocrats = {
 		culture = north_german
 		religion = sunni
-		size = 375
+		size = 938
 	}
 
 	bureaucrats = {
 		culture = north_german
 		religion = sunni
-		size = 75
+		size = 188
 	}
 
 	officers = {
+		culture = north_german
+		religion = sunni
+		size = 313
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = sunni
+		size = 125
+	}
+
+	artisans = {
+		culture = north_german
+		religion = sunni
+		size = 2063
+	}
+
+	soldiers = {
 		culture = north_german
 		religion = sunni
 		size = 125
 	}
 
 	clergymen = {
-		culture = north_german
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = north_german
-		religion = sunni
-		size = 825
-	}
-
-	soldiers = {
-		culture = north_german
-		religion = sunni
-		size = 50
-	}
-
-	clergymen = {
 		culture = scandinavian
 		religion = sunni
-		size = 25
+		size = 63
 	}
 
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 300
+		size = 750
 	}
 
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 25
+		size = 63
 	}
 
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 400
+		size = 1000
 	}
 
 	aristocrats = {
 		culture = russian
 		religion = sunni
-		size = 425
+		size = 1063
 	}
 
 	bureaucrats = {
 		culture = russian
 		religion = sunni
-		size = 25
+		size = 63
 	}
 
 	officers = {
 		culture = russian
 		religion = sunni
-		size = 50
+		size = 125
 	}
 
 	clergymen = {
 		culture = russian
 		religion = sunni
-		size = 25
+		size = 63
 	}
 
 	artisans = {
 		culture = russian
 		religion = sunni
-		size = 175
+		size = 438
 	}
 
 	soldiers = {
 		culture = russian
 		religion = sunni
-		size = 50
+		size = 125
 	}
 }
-#Narva (184000/46000 POPS)  
+#Narva (460000/115000 POPS)  
 350 = {
 	clergymen = {
 		culture = ruthenian
 		religion = sunni
-		size = 425
+		size = 1063
 	}
 
 	artisans = {
 		culture = ruthenian
 		religion = sunni
-		size = 2300
+		size = 5750
 	}
 
 	soldiers = {
 		culture = ruthenian
 		religion = sunni
-		size = 450
+		size = 1125
 	}
 
 	farmers = {
 		culture = ruthenian
 		religion = sunni
-		size = 40825
+		size = 102063
 	}
 
 	aristocrats = {
 		culture = russian
 		religion = sunni
-		size = 800
+		size = 2000
 	}
 
 	clergymen = {
 		culture = russian
 		religion = sunni
-		size = 50
+		size = 125
 	}
 
 	artisans = {
 		culture = russian
 		religion = sunni
-		size = 100
+		size = 250
 	}
 
 	soldiers = {
 		culture = russian
 		religion = sunni
-		size = 50
+		size = 125
 	}
 
 	farmers = {
 		culture = russian
 		religion = sunni
-		size = 1100
+		size = 2750
 	}
 }
-#Parnu (92000/23000 POPS)  
+#Parnu (230000/57500 POPS)  
 351 = {
 	aristocrats = {
 		culture = north_german
 		religion = sunni
-		size = 350
+		size = 875
 	}
 
 	clergymen = {
 		culture = north_german
 		religion = sunni
-		size = 50
+		size = 125
 	}
 
 	artisans = {
 		culture = north_german
 		religion = sunni
-		size = 550
+		size = 1375
 	}
 
 	soldiers = {
 		culture = north_german
 		religion = sunni
-		size = 50
+		size = 125
 	}
 
 	clergymen = {
 		culture = ruthenian
 		religion = sunni
-		size = 400
+		size = 1000
 	}
 
 	artisans = {
 		culture = ruthenian
 		religion = sunni
-		size = 600
+		size = 1500
 	}
 
 	soldiers = {
 		culture = ruthenian
 		religion = sunni
-		size = 200
+		size = 500
 	}
 
 	farmers = {
 		culture = ruthenian
 		religion = sunni
-		size = 20800
+		size = 52000
 	}
 }
-#Tartu/Dorpat (156000/39000 POPS)  
+#Tartu/Dorpat (390000/97500 POPS)  
 352 = {
 	aristocrats = {
 		culture = north_german
 		religion = sunni
-		size = 350
+		size = 875
 	}
 
 	clergymen = {
 		culture = north_german
 		religion = sunni
-		size = 50
+		size = 125
 	}
 
 	artisans = {
 		culture = north_german
 		religion = sunni
-		size = 550
+		size = 1375
 	}
 
 	soldiers = {
 		culture = north_german
 		religion = sunni
-		size = 50
+		size = 125
 	}
 
 	clergymen = {
 		culture = ruthenian
 		religion = sunni
-		size = 350
+		size = 875
 	}
 
 	artisans = {
 		culture = ruthenian
 		religion = sunni
-		size = 1300
+		size = 3250
 	}
 
 	soldiers = {
 		culture = ruthenian
 		religion = sunni
-		size = 350
+		size = 875
 	}
 
 	farmers = {
 		culture = ruthenian
 		religion = sunni
-		size = 34500
+		size = 86250
 	}
 
 	clergymen = {
 		culture = russian
 		religion = sunni
-		size = 25
+		size = 63
 	}
 
 	artisans = {
 		culture = russian
 		religion = sunni
-		size = 100
+		size = 250
 	}
 
 	soldiers = {
 		culture = russian
 		religion = sunni
-		size = 50
+		size = 125
 	}
 
 	farmers = {
 		culture = russian
 		religion = sunni
-		size = 1325
+		size = 3313
 	}
 }
-#Kuressaare (16000/4000 POPS)  
+#Kuressaare (40000/10000 POPS)  
 353 = {
 	aristocrats = {
 		culture = north_german
 		religion = sunni
-		size = 80
+		size = 200
 	}
 
 	clergymen = {
 		culture = north_german
-		religion = sunni
-		size = 10
-	}
-
-	artisans = {
-		culture = north_german
-		religion = sunni
-		size = 50
-	}
-
-	soldiers = {
-		culture = north_german
-		religion = sunni
-		size = 10
-	}
-
-	clergymen = {
-		culture = ruthenian
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = ruthenian
-		religion = sunni
-		size = 150
-	}
-
-	soldiers = {
-		culture = ruthenian
 		religion = sunni
 		size = 25
+	}
+
+	artisans = {
+		culture = north_german
+		religion = sunni
+		size = 125
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = sunni
+		size = 25
+	}
+
+	clergymen = {
+		culture = ruthenian
+		religion = sunni
+		size = 125
+	}
+
+	artisans = {
+		culture = ruthenian
+		religion = sunni
+		size = 375
+	}
+
+	soldiers = {
+		culture = ruthenian
+		religion = sunni
+		size = 63
 	}
 
 	farmers = {
 		culture = ruthenian
 		religion = sunni
-		size = 3625
+		size = 9063
 	}
 
 }

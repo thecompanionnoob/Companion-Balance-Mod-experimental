@@ -1,7 +1,8 @@
-owner = ENG
-controller = ENG
-colonial = 2
+owner = HND
 add_core = HND
+controller = HND
+
+
 trade_goods = grain
 life_rating = 32
 	

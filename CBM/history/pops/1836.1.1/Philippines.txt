@@ -747,7 +747,7 @@
 		size = 8525
 	}
 }
-#Jolo (44000/11000 POPS)
+#Sulu (105600/26400 POPS)
 1464 = {
 	aristocrats = {
 		culture = filipino

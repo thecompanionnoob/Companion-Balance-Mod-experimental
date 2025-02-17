@@ -545,6 +545,12 @@
 		size = 800
 	}
 
+	capitalists = {
+		culture = british
+		religion = sunni
+		size = 5000
+	}
+
 	bureaucrats = {
 		culture = british
 		religion = sunni
@@ -844,6 +850,12 @@
 		size = 1760
 	}
 
+	capitalists = {
+		culture = british
+		religion = sunni
+		size = 5000
+	}
+
 	clergymen = {
 		culture = british
 		religion = sunni
@@ -1014,6 +1026,12 @@
 		culture = british
 		religion = sunni
 		size = 800
+	}
+
+	capitalists = {
+		culture = british
+		religion = sunni
+		size = 5000
 	}
 
 	bureaucrats = {
@@ -1402,6 +1420,12 @@
 		size = 1760
 	}
 
+	capitalists = {
+		culture = british
+		religion = sunni
+		size = 5000
+	}
+
 	artisans = {
 		culture = british
 		religion = sunni
@@ -1417,7 +1441,12 @@
 	labourers = {
 		culture = british
 		religion = sunni
-		size = 250400
+		size = 125400
+	}
+	craftsmen = {
+		culture = british
+		religion = sunni
+		size = 125400
 	}
 }
 #Chelmsford (441600/110400 POPS)
@@ -1501,7 +1530,13 @@
 	labourers = {
 		culture = british
 		religion = sunni
-		size = 106600
+		size = 56600
+	}
+
+	craftsmen = {
+		culture = british
+		religion = sunni
+		size = 56600
 	}
 }
 #St. Albans (499200/124800 POPS)
@@ -1641,7 +1676,13 @@
 	labourers = {
 		culture = british
 		religion = sunni
-		size = 151000
+		size = 75000
+	}
+
+	craftsmen = {
+		culture = british
+		religion = sunni
+		size = 75000
 	}
 }
 #Bath (652800/163200 POPS)
@@ -1679,7 +1720,13 @@
 	labourers = {
 		culture = british
 		religion = sunni
-		size = 135400
+		size = 75400
+	}
+
+	craftsmen = {
+		culture = british
+		religion = sunni
+		size = 75400
 	}
 }
 #Plymouth (1299200/324800 POPS)
@@ -1694,6 +1741,12 @@
 		culture = british
 		religion = sunni
 		size = 2000
+	}
+
+	capitalists = {
+		culture = british
+		religion = sunni
+		size = 5000
 	}
 
 	artisans = {
@@ -1717,7 +1770,13 @@
 	labourers = {
 		culture = british
 		religion = sunni
-		size = 298000
+		size = 150000
+	}
+
+	craftsmen = {
+		culture = british
+		religion = sunni
+		size = 150000
 	}
 
 	farmers = {
@@ -1775,7 +1834,7 @@
 	craftsmen = {
 		culture = british
 		religion = sunni
-		size = 380400
+		size = 480400
 	}
 
 	artisans = {
@@ -1883,7 +1942,7 @@
 	labourers = {
 		culture = british
 		religion = sunni
-		size = 259600
+		size = 159600
 	}
 
 	artisans = {
@@ -1965,7 +2024,13 @@
 	labourers = {
 		culture = british
 		religion = sunni
-		size = 145000
+		size = 75000
+	}
+
+	craftsmen = {
+		culture = british
+		religion = sunni
+		size = 75000
 	}
 
 	artisans = {
@@ -2009,7 +2074,13 @@
 	labourers = {
 		culture = british
 		religion = sunni
-		size = 140000
+		size = 70000
+	}
+
+	craftsmen = {
+		culture = british
+		religion = sunni
+		size = 70000
 	}
 }
 #Southampton (531200/132800 POPS)
@@ -2053,7 +2124,13 @@
 	labourers = {
 		culture = british
 		religion = sunni
-		size = 116800
+		size = 60800
+	}
+
+	craftsmen = {
+		culture = british
+		religion = sunni
+		size = 60800
 	}
 
 }

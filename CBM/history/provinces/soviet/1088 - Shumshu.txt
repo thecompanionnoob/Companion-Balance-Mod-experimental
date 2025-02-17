@@ -1,6 +1,10 @@
-add_core = RUS
 trade_goods = coal
 life_rating = 20
+1910.1.1 = {
+    owner = JAP
+    controller = JAP
+    add_core = JAP 
+}
 
 
         

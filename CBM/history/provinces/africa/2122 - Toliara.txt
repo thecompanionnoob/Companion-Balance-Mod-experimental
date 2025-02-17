@@ -3,3 +3,13 @@ controller = SAF
 add_core = SAF
 trade_goods = fruit
 life_rating = 35
+
+1910.1.1 = {
+    owner = FRA
+    controller = FRA
+    colonial = 2
+}
+	
+	
+	
+    

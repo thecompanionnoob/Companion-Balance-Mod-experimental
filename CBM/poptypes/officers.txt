@@ -37,11 +37,11 @@ luxury_needs = {
 	opium = 1.0
 	luxury_clothes = 1
 	luxury_furniture = 1
-	telephones = 1.25
-	automobiles = 1.0
+	telephones = 12.25
+	automobiles = 5.0
 	wine = 10
 	aeroplanes = 0.4
-	radio = 1.0
+	radio = 12.0
 	fuel = 0.2
 	coffee = 2
 }
@@ -309,36 +309,24 @@ ideologies = {
 			not = { militancy = 6 }
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.05
 		 	revanchism = 0.01
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.05
 		 	revanchism = 0.02
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.05
 		 	revanchism = 0.03
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.05
 		 	revanchism = 0.04
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.05
 		 	revanchism = 0.05
-		}
-		modifier = {
-			factor = 2
-		 	revanchism = 0.10
-		}
-		modifier = {
-			factor = 4
-		 	revanchism = 0.15
-		}
-		modifier = {
-			factor = 8
-		 	revanchism = 0.20
 		}
 		modifier = {
 			factor = 1.1

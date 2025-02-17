@@ -1,5 +1,50 @@
 
+vassal = {
+	first = ENG
+	second = MGH
+	start_date = 1800.1.1
+	end_date = 1905.1.1
+}
 	
+
+vassal = {
+	first = ENG
+	second = HND
+	start_date = 1800.1.1
+	end_date = 1935.1.1
+}
+	
+
+vassal = {
+	first = ENG
+	second = BNG
+	start_date = 1800.1.1
+	end_date = 1905.1.1
+}
+	
+
+vassal = {
+	first = ENG
+	second = JAU
+	start_date = 1800.1.1
+	end_date = 1905.1.1
+}
+	
+
+vassal = {
+	first = ENG
+	second = HYD
+	start_date = 1800.1.1
+	end_date = 1905.1.1
+}
+	
+
+vassal = {
+	first = ENG
+	second = TML
+	start_date = 1800.1.1
+	end_date = 1905.1.1
+}
 	
 	
 

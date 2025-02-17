@@ -1,7 +1,18 @@
-owner = MEX
+owner = MEX
+
 controller = MEX
-add_core = MEX
-
+
+add_core = MEX
+
+
+
 
 trade_goods = grain
-life_rating = 401925.1.1 = {owner = USAcontroller = USAadd_core = USA}
+life_rating = 40
+1910.1.1 = {
+	owner = USA
+	controller = USA
+	add_core = USA 
+}
+
+		

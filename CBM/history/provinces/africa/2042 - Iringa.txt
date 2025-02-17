@@ -1,2 +1,12 @@
 trade_goods = tobacco
 life_rating = 15
+
+1910.1.1 = {
+    owner = GER
+    controller = GER
+    colonial = 2
+}
+	
+	
+	
+

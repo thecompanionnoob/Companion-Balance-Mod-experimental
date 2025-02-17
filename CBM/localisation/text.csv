@@ -6726,7 +6726,7 @@ MODIFIER_RICH_EVERYDAY_NEEDS;Everyday Needs for Rich Strata;Besoins quotidiens d
 MODIFIER_MIDDLE_EVERYDAY_NEEDS;Everyday Needs for Middle Strata;Besoins quotidiens des classes moyennes;Alltagsbedürfnisse für Mittelschicht;;Necesidades cotidianas para la clase media;;;;;;;;;x;;;;
 MODIFIER_POOR_EVERYDAY_NEEDS;Everyday Needs for Poor Strata;Besoins quotidiens des classes défavorisées;Alltagsbedürfnisse für Unterschicht;;Necesidades cotidianas para el estrato pobre;;;;;;;;;x;;;;
 MODIFIER_UNEMPLOYMENT_BENEFIT;Unemployment Benefit;Bénéfice du chômage;Arbeitslosengeld;;Prestación de desempleo;;;;;;;;;x;;;;
-MODIFIER_PENSION_LEVEL;Pension Level;Niveau de pension;Rentenniveau;;Nivel de pensiones;;;;;;;;;x;;;;
+MODIFIER_PENSION_LEVEL;Healthcare Spending;Healthcare Spending;Healthcare Spending;;Healthcare Spending;;;;;;;;;x;;;;
 MODIFIER_POPULATION_GROWTH;Population Growth;Croissance démographique;Bevölkerungswachstum;;Crecimiento de población;;;;;;;;;x;;;;
 MODIFIER_FACTORY_INPUT;Factory Input;Matières premières des usines;Fabrik-Input;;Recursos de fábrica;;;;;;;;;x;;;;
 MODIFIER_FACTORY_OUTPUT;Factory Output;Production des usines;Fabrikleistung;;Producción de fábrica;;;;;;;;;x;;;;

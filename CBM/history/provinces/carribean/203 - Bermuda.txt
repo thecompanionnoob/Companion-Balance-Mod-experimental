@@ -9,3 +9,10 @@ fort = 1
 	naval_base = 1
 	fort = 2
 }
+1910.1.1 = {
+	owner = ENG 
+	controller = ENG
+	add_core = ENG 
+}
+
+		

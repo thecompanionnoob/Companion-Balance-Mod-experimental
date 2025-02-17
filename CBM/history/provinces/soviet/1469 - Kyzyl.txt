@@ -1,8 +1,8 @@
 owner = MCK
 1910.1.1={
-owner = CHI
-conroller = CHI
-add_core = CHI
+owner = RUS
+conroller = RUS
+add_core = RUS
 }
 controller = MCK
 add_core = MCK

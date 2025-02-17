@@ -1,6 +1,12 @@
-owner = ENG
-controller = ENG
-colonial = 2
+owner = TML
+1910.1.1 = {
+owner = HND
+controller = HND
 add_core = HND
+}
+controller = TML
+add_core = TML
+
+
 trade_goods = silk
 life_rating = 32

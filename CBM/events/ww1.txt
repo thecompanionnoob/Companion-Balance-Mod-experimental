@@ -1,0 +1,1550 @@
+country_event = {
+    id = 69047
+    title = "EVTNAME69047"
+    desc = "EVTDESC69047"
+    
+    trigger = {
+        has_global_flag = great_war_decision
+        OR = {
+            tag = RUS
+            tag = ITA
+            tag = BEL
+            tag = SAF
+            tag = AST
+            tag = ROM
+            tag = SER
+            tag = ENG
+            tag = TUR
+            tag = KUK
+            tag = BUL
+            tag = GER
+            tag = FRA
+            tag = USA
+            tag = JAP
+            tag = CAN
+        }
+        peace = no
+        NOT = { has_country_flag = great_war_decision }
+    }
+    immediate = {
+        set_country_flag = great_war_decision
+        any_country = {
+            limit = {
+                war_with = THIS
+            }
+            casus_belli  = {
+                target = THIS
+                type = ww1_casus_belli
+                months = 1
+            }
+        }
+    }
+
+    
+    option = {
+        name = "EVTOPTA69047"
+        prestige = 1
+    }
+    
+}
+
+country_event = {
+    id = 69058
+    title = "EVTNAME69058"
+    desc = "EVTDESC69058"
+
+    trigger = {
+        has_global_flag = great_war
+        tag = RUS
+    }
+    fire_only_once = yes
+
+    immediate = {
+        add_country_modifier = { name = outdated_army_russia duration = -1 }
+    }
+
+    option = {
+        name = "EVTOPTA69058"
+        prestige = -1
+    }
+
+}
+
+country_event = {
+    id = 69059
+    title = "EVTNAME69059"
+    desc = "EVTDESC69059"
+
+    trigger = {
+        has_country_flag = started_rearmament
+        NOT = { has_country_modifier = great_rearmament_programme }
+    }
+    fire_only_once = yes
+
+    immediate = {
+        remove_country_modifier = outdated_army_russia
+    }
+
+    option = {
+        name = "EVTOPTA69059"
+        prestige = 5
+    }
+
+}
+
+
+country_event = { #uk capitulates
+    id = 69048
+    title = "EVTNAME69048"
+    desc = "EVTDESC69048"
+
+    trigger = {
+        has_global_flag = great_war_decision
+        tag = ENG
+        300 = { NOT = { controlled_by = ENG } } #london occupied
+        war_exhaustion = 20
+        NOT = { has_country_flag = ww1_capitulated }
+
+    }
+    immediate = {
+        prestige = -150
+        any_country = {
+            limit = {
+                war_with = ENG
+            }
+            end_war = ENG
+
+        }
+		diplomatic_influence = {
+			who = CAN
+			value = -200
+		}
+		diplomatic_influence = {
+			who = HND
+			value = -200
+		}
+		diplomatic_influence = {
+			who = BEL
+			value = -200
+		}
+		diplomatic_influence = {
+			who = AST
+			value = -200
+		}
+		diplomatic_influence = {
+			who = SAF
+			value = -200
+		}
+		diplomatic_influence = {
+			who = POR
+			value = -200
+		}
+        any_country = {
+            limit = {
+                alliance_with = THIS
+            }
+            leave_alliance = THIS
+        }
+        release_vassal = HND
+        HND = {
+            release = MGH
+            release = PAK
+            release = HYD
+            release = JAU
+            release = TML
+            release = BNG
+        }
+        war = {
+            target = MGH
+            attacker_goal = {
+                casus_belli = annex_core_country
+            }
+            defender_goal = {
+                casus_belli = status_quo
+            }
+            call_ally = yes
+        }
+        war = {
+            target = PAK
+            attacker_goal = {
+                casus_belli = annex_core_country
+            }
+            defender_goal = {
+                casus_belli = status_quo
+            }
+            call_ally = yes
+        }
+        war = {
+            target = HYD
+            attacker_goal = {
+                casus_belli = annex_core_country
+            }
+            defender_goal = {
+                casus_belli = status_quo
+            }
+            call_ally = yes
+        }
+        war = {
+            target = JAU
+            attacker_goal = {
+                casus_belli = annex_core_country
+            }
+            defender_goal = {
+                casus_belli = status_quo
+            }
+            call_ally = yes
+        }
+        war = {
+            target = TML
+            attacker_goal = {
+                casus_belli = annex_core_country
+            }
+            defender_goal = {
+                casus_belli = status_quo
+            }
+            call_ally = yes
+        }
+        war = {
+            target = BNG
+            attacker_goal = {
+                casus_belli = annex_core_country
+            }
+            defender_goal = {
+                casus_belli = status_quo
+            }
+            call_ally = yes
+        }
+        war = {
+            target = HND
+            attacker_goal = {
+                casus_belli = annex_core_country
+            }
+            defender_goal = {
+                casus_belli = status_quo
+            }
+            call_ally = yes
+        }
+        #neutrality = yes
+        any_owned = {
+            limit = {
+                OR = {
+                    is_core = EGY
+                    is_core = PER 
+                    is_core = GRE
+                }
+            }
+            secede_province = TUR
+        }
+        EGY_1758 = {
+            secede_province = TUR
+        }
+        ENG_2014 = {
+            secede_province = GER
+        }
+        ENG_2016 = {
+            secede_province = GER
+        }
+        ENG_2019 = {
+            secede_province = GER
+        }
+        ENG_2026 = {
+            secede_province = GER
+        }
+        ENG_2024 = {
+            secede_province = GER
+        }
+        ENG_2037 = {
+            secede_province = GER 
+        }
+        FRA_1931 = {
+            secede_province = GER
+        }
+        FRA_1930 = {
+            secede_province = GER
+        }
+        FRA_1923_two = {
+            secede_province = GER
+        }
+        FRA_1923 = {
+            secede_province = GER
+        }
+        FRA_1937 = {
+            secede_province = GER 
+        }
+        FRA_1927 = {
+            secede_province = GER
+        }
+        FRA_1939 = {
+            secede_province = GER
+        }
+        FRA_1816 = {
+            secede_province = GER
+        }
+        FRA_1908 = {
+            secede_province = GER
+        }
+        FRA_1892 = {
+            secede_province = GER
+        }
+        FRA_1907 = {
+            secede_province = GER
+        }
+        FRA_1884 = {
+            secede_province = GER
+        }
+        FRA_1879 = {
+            secede_province = GER
+        }
+        FRA_1788 = {
+            secede_province = GER
+        }
+
+        EGY_1834 = {
+            secede_province = TUR
+        }
+        EGY_1842 = {
+            secede_province = TUR 
+        }
+        EGY_1827 = {
+            secede_province = TUR 
+        }
+        EGY_1838 = {
+            secede_province = TUR 
+        }
+        ENG_1843 = {
+            secede_province = TUR 
+        }
+        1496 = {
+            secede_province = GER
+        }
+        
+        any_owned = {
+            limit = {
+                is_core = ETH
+            }
+            secede_province = ETH 
+        }
+        release = BUR
+        any_owned = {
+            limit = {
+                is_core = SIA
+            }
+            secede_province = SIA
+        }
+        any_owned = {
+            limit = {
+                OR = {
+                    is_core = JOH
+                    is_core = BRU
+                    province_id = 1397
+                }
+            }
+            secede_province = GER
+        }
+        set_country_flag = ww1_capitulated
+    }
+    option = {
+        name = "EVTOPTA69048"
+        prestige = -5
+    }
+}
+country_event = { #russia capitulates
+    id = 69049
+    title = "EVTNAME69049"
+    desc = "EVTDESC69049"
+
+    trigger = {
+        has_global_flag = great_war_decision
+        tag = RUS
+        war_exhaustion = 50
+        958 = { NOT = { controlled_by = THIS } }
+        718 = { NOT = { controlled_by = THIS } }
+        706 = { NOT = { controlled_by = THIS } }
+        354 = { NOT = { controlled_by = THIS } }
+        OR = {
+            994 = { NOT = { controlled_by = THIS } }
+            1008 = { NOT = { controlled_by = THIS } }
+        }
+
+        NOT = { has_country_flag = ww1_capitulated }
+
+    }
+    immediate = {
+        prestige = -150
+        any_country = {
+            limit = {
+                alliance_with = THIS
+            }
+            leave_alliance = THIS
+        }
+        any_country = {
+            limit = {
+                war_with = RUS
+            }
+            end_war = RUS
+
+        }
+        release = POL
+        release = BYE 
+        release = UKR
+        any_owned = {
+            limit = {
+                is_core = SCA
+            }
+            secede_province = SCA
+        }
+        RUS_360 = {
+            secede_province = GER
+        }
+        359 = {
+            secede_province = GER
+        }
+        358 = {
+            secede_province = GER
+        }
+        357 = {
+            secede_province = GER
+        }
+        release = LAT
+        RUS_676 = {
+            secede_province = UKR
+        }
+        GER = {
+            create_vassal = LAT
+            create_vassal = POL 
+            diplomatic_influence = {
+                who = POL
+                value = 200
+            }
+            diplomatic_influence = {
+                who = LAT
+                value = 200
+            }
+            diplomatic_influence = {
+                who = UKR
+                value = 200
+            }
+            diplomatic_influence = {
+                who = BYE
+                value = 200
+            }
+        }
+        release = BUK
+        RUS_1090 = {
+            secede_province = TUR
+        }
+        RUS_1098 = {
+            secede_province = TUR
+        }
+        RUS_1102 = {
+            secede_province = TUR
+        }
+        RUS_1008 = {
+            add_core = SOV
+            remove_core = RUS 
+        }
+        RUS_1009 = {
+            add_core = SOV
+            remove_core = RUS 
+        }
+        RUS_943 = {
+            add_core = SOV
+            remove_core = RUS 
+        }
+        RUS_998 = {
+            add_core = SOV
+            remove_core = RUS 
+        }
+        RUS_1003 = {
+            add_core = SOV
+            remove_core = RUS 
+        }
+        RUS_994 = {
+            add_core = SOV
+            remove_core = RUS 
+        }
+        RUS_977 = {
+            add_core = SOV
+            remove_core = RUS 
+        }
+        RUS_990 = {
+            add_core = SOV
+            remove_core = RUS 
+        }
+        RUS_1020 = {
+            add_core = SOV
+            remove_core = RUS 
+        }
+        RUS_1037 = {
+            add_core = SOV
+            remove_core = RUS 
+        }
+        any_owned = {
+            limit = {
+                is_core = SOV
+            }
+            secede_province = SOV
+        }
+        war = {
+            target = SOV
+            attacker_goal = {
+                casus_belli = civil_war
+            }
+            defender_goal = {
+                casus_belli = civil_war
+            }
+            call_ally = no
+        }
+        
+        set_country_flag = ww1_capitulated
+    }
+    option = {
+        name = "EVTOPTA69049"
+        prestige = -5
+        set_country_flag = soviet_civil_war
+    }
+    option = {
+        name = "EVTOPTB69049"
+        prestige = -5
+        end_war = SOV
+        SOV = {
+            annex_to = THIS 
+        }
+        set_country_flag = chose_soviets
+        change_tag = SOV
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = no_meeting
+		political_reform = state_press
+		political_reform = state_controlled
+		political_reform = underground_parties
+		
+		nationalize = yes
+        ruling_party_ideology = communist
+        government = proletarian_dictatorship
+    }
+}
+country_event = {
+    id = 69050
+    title = "EVTNAME69050"
+    desc = "EVTDESC69050"
+    
+    trigger = {
+        has_country_flag = chose_soviets 
+        NOT = { has_country_flag = soviet_civil_war }
+    }
+
+    immediate = {
+        any_owned = {
+            limit = {
+                is_core = RUS
+            }
+            secede_province = RUS 
+        }
+        RUS = {
+            political_reform = none_voting
+            political_reform = party_appointed
+            political_reform = no_meeting
+            political_reform = state_press
+            political_reform = no_trade_unions
+            political_reform = underground_parties
+            government = absolute_monarchy
+            ruling_party_ideology = reactionary
+
+        }
+        war = {
+            target = RUS
+            attacker_goal = {
+                casus_belli = civil_war
+            }
+            defender_goal = {
+                casus_belli = civil_war
+            }
+            call_ally = no
+        }
+        set_country_flag = soviet_civil_war
+    }
+    option = {
+        name = "EVTOPTA69050"
+
+    }
+    
+}
+country_event = {
+    id = 69051
+    title = "EVTNAME69051"
+    desc = "EVTDESC69051"
+    
+    
+    trigger = {
+            tag = SOV
+        has_country_flag = soviet_civil_war
+        OR = {
+            NOT = { exists = SOV }
+            NOT = { exists = RUS }
+        }
+        NOT = { has_global_flag = russia_civil_war_over }
+    }
+
+    option = {
+        name = "EVTOPTA69051"
+        set_global_flag = russia_civil_war_over
+        change_tag = RUS
+        SOV = {
+            all_core = {
+                remove_core = SOV
+                add_core = RUS 
+            }
+        }
+        prestige = 10
+    }
+    
+}
+country_event = {
+    id = 69052
+    title = "EVTNAME69052"
+    desc = "EVTDESC69052"
+    
+    
+    trigger = {
+        tag = RUS
+        has_country_flag = soviet_civil_war
+        OR = {
+            NOT = { exists = SOV }
+            NOT = { exists = RUS }
+        }
+        NOT = { has_global_flag = russia_civil_war_over }
+    }
+
+    option = {
+        name = "EVTOPTA69052"
+        set_global_flag = russia_civil_war_over
+        SOV = {
+            all_core = {
+                remove_core = SOV
+                add_core = RUS 
+            }
+        }
+        prestige = 10
+    }
+    
+}
+country_event = { #france capitulates
+    id = 69053
+    title = "EVTNAME69053"
+    desc = "EVTDESC69053"
+
+    trigger = {
+        has_global_flag = great_war_decision
+        tag = FRA
+
+		national_provinces_occupied = 0.3
+
+        425 = { NOT = { controlled_by = THIS } }
+
+        war_exhaustion = 30
+
+        NOT = { has_country_flag = ww1_capitulated }
+
+    }
+    immediate = {
+        prestige = -100
+        set_country_flag = ww1_capitulated
+        any_country = {
+            limit = {
+                war_with = FRA
+            }
+            end_war = FRA
+        }
+        any_country = {
+            limit = {
+                alliance_with = THIS
+            }
+            leave_alliance = THIS
+        }
+        411 = { secede_province = GER }
+        413 = { secede_province = GER }
+        414 = { secede_province = GER }
+        FRA_1923_two = {
+            secede_province = GER
+        }
+        FRA_1919 = {
+            secede_province = GER
+        }
+        FRA_1893 = {
+            secede_province = GER
+        }
+        FRA_1892 = {
+            secede_province = GER
+        }
+        1893 = {
+            secede_province = GER
+        }
+        1896 = {
+            secede_province = GER
+        }
+        FRA_1901 = {
+            secede_province = GER
+        }
+        FRA_1879 = {
+            secede_province = GER
+        }
+        FRA_1880 = {
+            secede_province = GER
+        }
+        FRA_1788 = {
+            secede_province = GER
+        }
+        1879 = {
+            secede_province = GER
+        }
+        FRA_1972 = {
+            secede_province = GER
+        }
+        FRA_1978 = {
+            secede_province = GER
+        }
+        FRA_1965 = {
+            secede_province = GER
+        }
+        ENG_1818     = {
+            secede_province = GER
+        }
+        2624 = {
+            secede_province = GER
+        }
+        1875 = {
+            secede_province = ETH
+        }
+        MOR_1693 = {
+            secede_province = MOR 
+        }
+        MOR_1695 = {
+            secede_province = MOR 
+        }
+        MOR_1686 = {
+            secede_province = MOR 
+        }
+        MOR_1683 = {
+            secede_province = MOR 
+        }
+        GER = {
+            create_vassal = MOR
+            diplomatic_influence = {
+                who = MOR
+                value = 200
+            }
+        }
+        any_owned = {
+            limit = {
+                OR = {
+                    is_core = SAF 
+                    is_core = DAI
+                    is_core = SIA
+                }
+            }
+            secede_province = GER 
+        }
+
+    }
+    option = {
+        name = "EVTOPTA69053"
+        prestige = -10
+    }
+}
+country_event = { #belgium capitulates
+    id = 69054
+    title = "EVTNAME69054"
+    desc = "EVTDESC69054"
+
+    trigger = {
+        has_global_flag = great_war_decision
+        tag = BEL
+
+        396 = { NOT = { controlled_by = THIS } }
+        397 = { NOT = { controlled_by = THIS } }
+        398 = { NOT = { controlled_by = THIS } }
+        392 = { NOT = { controlled_by = THIS } }
+        393 = { NOT = { controlled_by = THIS } }
+        394 = { NOT = { controlled_by = THIS } }
+        395 = { NOT = { controlled_by = THIS } }
+        387 = { NOT = { controlled_by = THIS } }
+        390 = { NOT = { controlled_by = THIS } }
+        391 = { NOT = { controlled_by = THIS } }
+        389 = { NOT = { controlled_by = THIS } }
+        388 = { NOT = { controlled_by = THIS } }
+
+        NOT = { has_country_flag = ww1_capitulated }
+
+    }
+    immediate = {
+        prestige = -10
+        set_country_flag = ww1_capitulated
+        any_country = {
+            limit = {
+                war_with = BEL
+            }
+            end_war = BEL
+        }
+        any_country = {
+            limit = {
+                alliance_with = THIS
+            }
+            leave_alliance = THIS
+        }
+        GER = {
+            create_vassal = BEL
+            diplomatic_influence = {
+                who = BEL
+                value = 200
+            }
+        }
+        396 = { secede_province = GER }
+        397 = { secede_province = GER }
+        398 = { secede_province = GER }
+        any_owned = {
+            limit = {
+                NOT = { is_core = BEL }
+            }
+            secede_province = GER 
+        }
+
+    }
+    option = {
+        name = "EVTOPTA69054"
+        prestige = -1
+    }
+}
+country_event = { #italy capitulates
+    id = 69055
+    title = "EVTNAME69055"
+    desc = "EVTDESC69055"
+
+    trigger = {
+        has_global_flag = great_war_decision
+        tag = ITA
+
+        war_exhaustion = 25
+        749 = { NOT = { controlled_by = THIS } }
+
+		national_provinces_occupied = 0.4
+
+        NOT = { has_country_flag = ww1_capitulated }
+
+    }
+    immediate = {
+        prestige = -75
+        set_country_flag = ww1_capitulated
+        any_country = {
+            limit = {
+                war_with = ITA
+            }
+            end_war = ITA
+        }
+        any_country = {
+            limit = {
+                alliance_with = THIS
+            }
+            leave_alliance = THIS
+        }
+        AUS_729 = {
+            secede_province = KUK 
+        }
+        AUS_726 = {
+            secede_province = KUK
+        }
+        EGY_1754 = {
+            secede_province = TUR
+        }
+        TRI_1743 = {
+            secede_province = TUR
+        }
+        TRI_1739 = {
+            secede_province = TUR
+        }
+        any_owned = {
+            limit = {
+                is_core = ETH
+            }
+            secede_province = ETH
+        }
+        government = fascist_dictatorship
+        ruling_party_ideology = fascist
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = no_meeting
+		political_reform = state_press
+		political_reform = no_trade_unions
+		political_reform = underground_parties
+
+    }
+    option = {
+        name = "EVTOPTA69055"
+        prestige = -5
+    }
+}
+country_event = { #usa capitulates
+    id = 69056
+    title = "EVTNAME69056"
+    desc = "EVTDESC69056"
+
+    trigger = {
+        has_global_flag = great_war_decision
+        tag = USA
+
+        220 = { NOT = { controlled_by = THIS } } #washington 
+
+        232 = { NOT = { controlled_by = THIS } } #nyc
+
+		
+
+        NOT = { has_country_flag = ww1_capitulated }
+
+    }
+    immediate = {
+        prestige = -75
+        set_country_flag = ww1_capitulated
+        any_country = {
+            limit = {
+                war_with = USA
+            }
+            end_war = USA
+        }
+        any_country = {
+            limit = {
+                alliance_with = THIS
+            }
+            leave_alliance = THIS
+        }
+        ENG_1887 = {
+            secede_province = GER
+        }
+        FRA_1889 = {
+            secede_province = GER
+        }
+		any_owned = {
+			limit = {
+				is_core = CSA
+				NOT = {
+					province_id = 219
+					province_id = 220
+					province_id = 221
+					province_id = 222
+				}
+			}
+			secede_province = CSA
+		}
+		CSA = {
+			capital = 211
+			leadership = 80
+		}
+		capital = 220
+		war = {
+			target = CSA
+			attacker_goal = {
+				casus_belli = annex_core_country
+			}
+			
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+		any_owned = {
+			limit = {
+				is_core = FSA
+				NOT = {
+					province_id = 219
+					province_id = 220
+					province_id = 221
+					province_id = 222
+				}
+			}
+			secede_province = FSA
+		}
+		any_owned = {
+			remove_core = CSA
+		}
+		FSA = {
+			capital = 232
+			leadership = 80
+		}
+		capital = 220
+		war = {
+			target = FSA
+			attacker_goal = {
+				casus_belli = annex_core_country
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+
+
+    }
+    option = {
+        name = "EVTOPTA69055"
+        prestige = -5
+    }
+}
+country_event = { #serbia capitulates
+    id = 69060
+    title = "EVTNAME69060"
+    desc = "EVTDESC69060"
+
+    trigger = {
+        has_global_flag = great_war_decision
+        tag = SER
+
+		national_provinces_occupied = 1
+
+        NOT = { has_country_flag = ww1_capitulated }
+
+    }
+    immediate = {
+        prestige = -10
+        set_country_flag = ww1_capitulated
+        any_country = {
+            limit = {
+                war_with = SER
+            }
+            end_war = SER
+        }
+        any_country = {
+            limit = {
+                alliance_with = THIS
+            }
+            leave_alliance = THIS
+        }
+
+        any_owned = {
+            limit = {
+                is_core = BUL
+            }
+            secede_province = BUL 
+        }
+        AUS = {
+            create_vassal = SER
+            diplomatic_influence = {
+                who = SER
+                value = 200
+            }
+        }
+
+    }
+    option = {
+        name = "EVTOPTA69060"
+        prestige = -1
+    }
+}
+country_event = { #romania capitulates
+    id = 69061
+    title = "EVTNAME69061"
+    desc = "EVTDESC69061"
+
+    trigger = {
+        has_global_flag = great_war_decision
+        tag = ROM
+
+		national_provinces_occupied = 1
+
+        NOT = { has_country_flag = ww1_capitulated }
+
+    }
+    immediate = {
+        prestige = -10
+        set_country_flag = ww1_capitulated
+        any_country = {
+            limit = {
+                war_with = ROM
+            }
+            end_war = ROM
+        }
+        any_country = {
+            limit = {
+                alliance_with = THIS
+            }
+            leave_alliance = THIS
+        }
+
+        any_owned = {
+            limit = {
+                is_core = BUL
+            }
+            secede_province = BUL 
+        }
+        AUS = {
+            create_vassal = ROM
+            diplomatic_influence = {
+                who = ROM
+                value = 200
+            }
+        }
+
+    }
+    option = {
+        name = "EVTOPTA69061"
+        prestige = -1
+    }
+
+}
+country_event = { #greece capitulates 
+    id = 69062
+    title = "EVTNAME69062"
+    desc = "EVTDESC69062"
+    
+    trigger = {
+        has_global_flag = great_war_decision
+        tag = GRE
+
+		national_provinces_occupied = 0.9
+
+        NOT = { has_country_flag = ww1_capitulated }
+
+        
+    }
+    immediate = {
+        prestige = -10
+        set_country_flag = ww1_capitulated
+        any_country = {
+            limit = {
+                war_with = GRE
+            }
+            end_war = GRE
+        }
+
+        any_country = {
+            limit = {
+                alliance_with = THIS
+            }
+            leave_alliance = THIS
+        }
+
+        TUR_805 = {
+            secede_province = BUL
+            add_core = BUL
+        }
+        TUR_819 = {
+            secede_province = BUL
+            add_core = BUL
+        }
+        EGY_843 = {
+            secede_province = TUR
+            add_core = TUR
+        }
+
+    }
+    option = {
+        name = "EVTOPTA69062"
+        prestige = -1
+    }
+    
+}
+#central powers
+country_event = { #ottomans capitulates 
+    id = 69063
+    title = "EVTNAME69063"
+    desc = "EVTDESC69063"
+    
+    trigger = {
+        has_global_flag = great_war_decision
+        tag = TUR
+
+		national_provinces_occupied = 0.5
+        860 = { NOT = { controlled_by = THIS } }
+        war_exhaustion = 40
+
+        NOT = { has_country_flag = ww1_capitulated }
+
+        
+    }
+    immediate = {
+        prestige = -100
+        set_country_flag = ww1_capitulated
+        any_country = {
+            limit = {
+                war_with = TUR
+            }
+            end_war = TUR
+        }
+
+        any_country = {
+            limit = {
+                alliance_with = THIS
+            }
+            leave_alliance = THIS
+        }
+
+        860 = { secede_province = ENG }
+        861 = { secede_province = ENG }
+        864 = { secede_province = ENG }
+        865 = { secede_province = ENG }
+        862 = { secede_province = ENG }
+        863 = { secede_province = ENG }
+        PER = {
+            all_core = {
+                limit = { owned_by = THIS }
+                secede_province = ENG
+            }
+        }
+        EGY_910 = {
+            secede_province = ENG
+        }
+
+        capital = 876
+
+        828 = { secede_province = GRE }
+        858 = { secede_province = GRE }
+        859 = { secede_province = GRE }
+        869 = { secede_province = GRE }
+        870 = { secede_province = GRE }
+
+
+        872 = { secede_province = ITA }
+        871 = { secede_province = ITA }
+        TUR_873 = {
+            secede_province = ITA
+        }
+        867 = { secede_province = ITA }
+        866 = { secede_province = ITA }
+
+
+        EGY_903 = {
+            secede_province = FRA
+        }
+        EGY_897 = {
+            secede_province = FRA
+        }
+        894 = { secede_province = FRA }
+        896 = { secede_province = FRA }
+        898 = { secede_province = FRA }
+        899 = { secede_province = FRA }
+        893 = { secede_province = FRA }
+        889 = { secede_province = FRA }
+
+        government = democracy
+        define_general = {
+            name = "Mustafa Kemal Ataturk"
+            personality = defence_5.1
+            background = attack_5.1
+        }
+        war = {
+            target = ENG
+            attacker_goal = {
+                casus_belli = acquire_core_state
+                state_province_id = 860
+            }
+            defender_goal = {
+                casus_belli = status_quo
+            }
+            call_ally = yes
+        }
+        war = {
+            target = GRE
+            attacker_goal = {
+                casus_belli = acquire_core_state
+                state_province_id = 858
+            }
+            defender_goal = {
+                casus_belli = status_quo
+            }
+            call_ally = yes
+        }
+        war = {
+            target = ITA
+            attacker_goal = {
+                casus_belli = acquire_core_state
+                state_province_id = 873
+            }
+            defender_goal = {
+                casus_belli = status_quo
+            }
+            call_ally = yes
+        }
+        war = {
+            target = FRA
+            attacker_goal = {
+                casus_belli = acquire_core_state
+                state_province_id = 893
+            }
+            defender_goal = {
+                casus_belli = status_quo
+            }
+            call_ally = yes
+        }
+
+    }
+    option = {
+        name = "EVTOPTA69063"
+        prestige = -1
+    }
+    
+}
+country_event = { #bulgaria capitulates 
+    id = 69064
+    title = "EVTNAME69064"
+    desc = "EVTDESC69064"
+    
+    trigger = {
+        has_global_flag = great_war_decision
+        tag = BUL
+
+		national_provinces_occupied = 1
+
+        NOT = { has_country_flag = ww1_capitulated }
+
+        
+    }
+    immediate = {
+        prestige = -10
+        set_country_flag = ww1_capitulated
+        any_country = {
+            limit = {
+                war_with = BUL
+            }
+            end_war = BUL
+        }
+
+        any_country = {
+            limit = {
+                alliance_with = THIS
+            }
+            leave_alliance = THIS
+        }
+
+        GRE = {
+            all_core = {
+                limit = { owned_by = THIS }
+                secede_province = GRE
+            }
+        }
+        ROM = {
+            all_core = {
+                limit = { owned_by = THIS }
+                secede_province = ROM
+            }
+        }
+        SER = {
+            all_core = {
+                limit = { owned_by = THIS }
+                secede_province = SER
+            }
+        }
+        RUS = {
+            create_vassal = BUL
+            diplomatic_influence = {
+                who = BUL
+                value = 200
+            }
+        }
+
+    }
+    option = {
+        name = "EVTOPTA69064"
+        prestige = -1
+    }
+    
+}
+country_event = { #austria-hungary capitulates 
+    id = 69065
+    title = "EVTNAME69065"
+    desc = "EVTDESC69065"
+    
+    trigger = {
+        has_global_flag = great_war_decision
+        tag = KUK
+
+		national_provinces_occupied = 0.5
+        war_exhaustion = 45
+        619 = { NOT = { controlled_by = THIS } }
+        641 = { NOT = { controlled_by = THIS } }
+
+
+        NOT = { has_country_flag = ww1_capitulated }
+
+        
+    }
+    immediate = {
+        prestige = -150
+        set_country_flag = ww1_capitulated
+        any_country = {
+            limit = {
+                war_with = KUK
+            }
+            end_war = KUK
+        }
+
+        any_country = {
+            limit = {
+                alliance_with = THIS
+            }
+            leave_alliance = THIS
+        }
+
+        781 = {
+            secede_province = ITA
+        }
+        780 = {
+            secede_province = ITA
+        }
+
+        YUG = {
+            all_core = {
+                limit = { owned_by = THIS }
+                secede_province = SER
+            }
+        }
+        ROM = {
+            all_core = {
+                limit = { owned_by = THIS }
+                secede_province = ROM
+            }
+        }
+        AUS_702 = {
+            secede_province = RUS
+        }
+        AUS_662 = {
+            secede_province = RUS
+        }
+        SLV = {
+            all_core = {
+                add_core = CZH
+            }
+        }
+        release = CZH
+        release = HUN
+        ITA = {
+            all_core = {
+                limit = { owned_by = THIS }
+                secede_province = ITA
+            }
+        }
+        SER = {
+            change_tag = YUG
+        }
+        government = democracy
+        change_tag = AUS
+
+    }
+    option = {
+        name = "EVTOPTA69065"
+        prestige = -1
+    }
+    
+}
+country_event = { #germany capitulates 
+    id = 69066
+    title = "EVTNAME69066"
+    desc = "EVTDESC69066"
+    
+    trigger = {
+        has_global_flag = great_war_decision
+        tag = GER
+
+		national_provinces_occupied = 0.5
+        war_exhaustion = 65
+        599 = { NOT = { controlled_by = THIS } } #munich
+        549 = { NOT = { controlled_by = THIS } } #berlin
+        575 = { NOT = { controlled_by = THIS } } #cologne
+
+
+        NOT = { has_country_flag = ww1_capitulated }
+
+        
+    }
+    immediate = {
+        prestige = -300
+        set_country_flag = ww1_capitulated
+        any_country = {
+            limit = {
+                war_with = GER
+            }
+            end_war = GER
+        }
+
+        any_country = {
+            limit = {
+                alliance_with = THIS
+            }
+            leave_alliance = THIS
+        }
+
+
+        371 = {
+            secede_province = SCA
+        }
+        694 = {
+            secede_province = RUS
+        }
+        690 = {
+            secede_province = RUS
+        }
+        698 = {
+            secede_province = RUS
+        }
+        1566 = {
+            secede_province = JAP
+        }
+
+        FRA = {
+            all_core = {
+                limit = { owned_by = THIS }
+                secede_province = FRA
+            }
+        }
+        PRU_701 = {
+            secede_province = RUS
+        }
+
+        ENG_1960 = {
+            secede_province = FRA
+        }
+        ENG_1956 = {
+            secede_province = FRA
+        }
+        1916 = {
+            secede_province = ENG
+        }
+        1915 = {
+            secede_province = ENG
+        }
+        1918 = {
+            secede_province = FRA
+        }
+        1917 = {
+            secede_province = FRA
+        }
+        1914 = {
+            secede_province = FRA
+        }
+        2035 = {
+            secede_province = BEL
+        }
+        2034 = {
+            secede_province = BEL
+        }
+
+        ENG_2034 = {
+            secede_province = ENG
+        }
+        ENG_2039 = {
+            secede_province = ENG
+        }
+        ENG_2029 = {
+            secede_province = ENG
+        }
+        ENG_2037 = {
+            secede_province = ENG
+        }
+        2048 = {
+            secede_province = ENG
+        }
+
+        government = democracy
+
+    }
+    option = {
+        name = "EVTOPTA69065"
+        prestige = -1
+    }
+    
+}

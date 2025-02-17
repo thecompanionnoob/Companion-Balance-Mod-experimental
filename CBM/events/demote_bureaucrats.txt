@@ -1,0 +1,25 @@
+#credit to igor_puir by nurse_reno
+
+country_event = {
+    id = 69057
+    title = "EVTNAME69057"
+    desc = "EVTDESC69057"
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = "EVTOPTA69057"
+		any_owned = {
+			any_pop = {
+				limit = { 
+					is_primary_culture = no
+					is_accepted_culture = no
+					type = bureaucrats
+				}
+				pop_type = farmers
+			}
+				
+		}
+    }
+}

@@ -96,12 +96,16 @@ political_decisions = {
             tag = JAP
             NOT = { has_country_flag = req_sphere }
             FRA = { is_greater_power = yes }
+            NOT = { war_with = FRA }
         }
         allow = { }
         effect = {
             set_country_flag = req_sphere 
             prestige = -3
-            FRA = { country_event = { id = 69036 days = 0 } }
+            FRA = { country_event = { id = 69036 days = 1 } }
+        }
+        ai_will_do = {
+            factor = 0
         }
     }
     req_rus_sphere = {
@@ -109,12 +113,16 @@ political_decisions = {
             tag = JAP
             NOT = { has_country_flag = req_sphere }
             RUS = { is_greater_power = yes }
+            NOT = { war_with = RUS }
         }
         allow = { }
         effect = {
             set_country_flag = req_sphere 
             prestige = -3
-            RUS = { country_event = { id = 69036 days = 0 } }
+            RUS = { country_event = { id = 69036 days = 1 } }
+        }
+        ai_will_do = {
+            factor = 0
         }
     }
     req_net_sphere = {
@@ -122,12 +130,16 @@ political_decisions = {
             tag = JAP
             NOT = { has_country_flag = req_sphere }
             NET = { is_greater_power = yes }
+            NOT = { war_with = NET }
         }
         allow = { }
         effect = {
             set_country_flag = req_sphere 
             prestige = -3
-            NET = { country_event = { id = 69036 days = 0 } }
+            NET = { country_event = { id = 69036 days = 1 } }
+        }
+        ai_will_do = {
+            factor = 0
         }
     }
     req_usa_sphere = {
@@ -135,12 +147,16 @@ political_decisions = {
             tag = JAP
             NOT = { has_country_flag = req_sphere }
             USA = { is_greater_power = yes }
+            NOT = { war_with = USA }
         }
         allow = { }
         effect = {
             set_country_flag = req_sphere 
             prestige = -3
-            USA = { country_event = { id = 69036 days = 0 } }
+            USA = { country_event = { id = 69036 days = 1 } }
+        }
+        ai_will_do = {
+            factor = 0
         }
     }
     req_eng_sphere = {
@@ -148,12 +164,51 @@ political_decisions = {
             tag = JAP
             NOT = { has_country_flag = req_sphere }
             ENG = { is_greater_power = yes }
+            NOT = { war_with = ENG }
         }
         allow = { }
         effect = {
             set_country_flag = req_sphere 
             prestige = -3
-            ENG = { country_event = { id = 69036 days = 0 } }
+            ENG = { country_event = { id = 69036 days = 1 } }
         }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    req_sca_sphere = {
+        potential = {
+            tag = JAP
+            NOT = { has_country_flag = req_sphere }
+            SCA = { is_greater_power = yes }
+            NOT = { war_with = SCA }
+        }
+        allow = { }
+        effect = {
+            set_country_flag = req_sphere 
+            prestige = -3
+            SCA = { country_event = { id = 69036 days = 1 } }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    req_spa_sphere = {
+        potential = {
+            tag = JAP
+            NOT = { has_country_flag = req_sphere }
+            SPA = { is_greater_power = yes }
+            NOT = { war_with = SPA }
+        }
+        allow = { }
+        effect = {
+            set_country_flag = req_sphere 
+            prestige = -3
+            SPA = { country_event = { id = 69036 days = 1 } }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+
     }
 }

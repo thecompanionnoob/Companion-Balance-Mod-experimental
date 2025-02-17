@@ -18,6 +18,8 @@ public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
 administrative_reform = incompetent_administrative_state
+education_system = private_edu_system
+health_system = private_health_system
 political_parties = non_secret_ballots
 
 # Social Reforms

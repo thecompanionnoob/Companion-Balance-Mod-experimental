@@ -19,6 +19,8 @@ public_meetings = yes_meeting
 press_rights = censored_press
 trade_unions = non_socialist
 administrative_reform = incompetent_administrative_state
+education_system = private_edu_system
+health_system = private_health_system
 political_parties = non_secret_ballots
 
 # Social Reforms
@@ -62,8 +64,6 @@ mechanical_production = 1
 clean_coal = 1
 battleship_column_doctrine = 1
 naval_professionalism = 1
-stock_exchange = 1
-ad_hoc_money_bill_printing = 1
 late_classical_theory = 1
 market_structure = 1
 

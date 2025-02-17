@@ -9,7 +9,25 @@ state_building = {
 	building = liquor_distillery
 	upgrade = yes
 }
-	
+
+1910.1.1 = {
+	state_building = {
+		level = 1
+		building = artillery_factory
+	}
+	state_building = {
+		level = 1
+		building = small_arms_factory
+	}
+	state_building = {
+		level = 1
+		building = ammunition_factory
+	}
+	state_building = {
+		level = 1
+		building = canned_food_factory
+	}
+}
 
 	
 		

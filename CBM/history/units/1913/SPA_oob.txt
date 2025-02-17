@@ -1,0 +1,224 @@
+army = {
+    name = "Army of Spain"
+    location = 487
+    
+    regiment = {
+        name = "Infantry"
+        type = infantry
+        home = 487
+    }    
+    regiment = {
+        name = "Infantry"
+        type = infantry
+        home = 487
+    }    
+    regiment = {
+        name = "Infantry"
+        type = infantry
+        home = 487
+    }    
+    regiment = {
+        name = "Infantry"
+        type = infantry
+        home = 498
+    }    
+    regiment = {
+        name = "Cavalry"
+        type = hussar
+        home = 498
+    }
+    regiment = {
+        name = "Artillery"
+        type = artillery
+        home = 489
+    }
+    regiment = {
+        name = "Artillery"
+        type = artillery
+        home = 489
+    }
+    regiment = {
+        name = "Artillery"
+        type = artillery
+        home = 489
+    }
+    regiment = {
+        name = "Artillery"
+        type = artillery
+        home = 488  
+    }
+    regiment = {
+        name = "Artillery"
+        type = artillery
+        home = 483
+    }
+}
+navy = {
+    name = "Spanish Armada"
+    location = 512
+    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }    
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }    
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }    
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }    
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+}
+navy = {
+    name = "Transport Navy"
+    location = 513
+    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+}

@@ -72,10 +72,6 @@ political_decisions = {
 		}
 		allow = { }
 		effect = {
-			any_pop = {
-				militancy = 2
-				consciousness = 2
-			}
 			social_reform = no_health_care
 		}
 		ai_will_do = {
@@ -93,17 +89,127 @@ political_decisions = {
 		}
 		allow = { }
 		effect = {
-			any_pop = {
-				militancy = 2
-				consciousness = 2
-			}
 			social_reform = no_schools
 		}
 		ai_will_do = {
 			factor = 0
 		}
 	}
-				
-			
+
+
+	adv_healthcare_0 = {
+		potential = {
+			health_care = no_health_care
+		}
+		allow = {
+			OR = {
+				health_system = mixed_health_system
+				health_system = public_health_system
+			}
+
+		}
+		effect = {
+			social_reform = trinket_health_care
+		}
+	}
+
+	adv_healthcare_1 = {
+		potential = {
+			health_care = trinket_health_care
+		}
+		allow = {
+			OR = {
+				health_system = mixed_health_system
+				health_system = public_health_system
+			}
+			medicine = 1
+		}
+		effect = {
+			social_reform = low_health_care
+		}
+	}
+
+	adv_healthcare_2 = {
+		potential = {
+			health_care = low_health_care
+		}
+		allow = {
+			health_system = public_health_system
+			organic_chemistry = 1
+		}
+		effect = {
+			social_reform = acceptable_health_care
+		}
+	}
+
+	adv_healthcare_3 = {
+		potential = {
+			health_care = acceptable_health_care
+		}
+		allow = {
+			health_system = public_health_system
+			electricity = 1
+		}
+		effect = {
+			social_reform = good_health_care
+		}
+	}
+
+	adv_edu_0 = {
+		potential = {
+			school_reforms = no_schools
+		}
+		allow = {
+			OR = {
+				education_system = mixed_edu_system
+				education_system = public_edu_system
+			}
+		}
+		effect = {
+			social_reform = low_schools
+		}
+	}	
+
+	adv_edu_1 = {
+		potential = {
+			school_reforms = low_schools
+		}
+		allow = {
+			OR = {
+				education_system = mixed_edu_system
+				education_system = public_edu_system
+			}
+			positivism = 1
+		}
+		effect = {
+			social_reform = middling_schools
+		}
+	}
+
+	adv_edu_2 = {
+		potential = {
+			school_reforms = middling_schools
+		}
+		allow = {
+			education_system = public_edu_system
+			functionalism = 1
+		}
+		effect = {
+			social_reform = acceptable_schools
+		}
+	}
+
+	adv_edu_3 = {
+		potential = {
+			school_reforms = acceptable_schools
+		}
+		allow = {
+			education_system = public_edu_system
+			biologism = 1
+		}
+		effect = {
+			social_reform = good_schools
+		}
+	}
 			
 }

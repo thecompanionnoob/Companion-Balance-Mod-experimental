@@ -1,8 +1,11 @@
 trade_goods = grain
 life_rating = 15
-1925.1.1 = {
-	owner = ZAN
-	controller = ZAN
-	life_rating = 30
-	
+
+1910.1.1 = {
+    owner = ENG
+    controller = ENG
+    colonial = 2
 }
+	
+	
+	

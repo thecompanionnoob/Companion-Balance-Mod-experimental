@@ -261,6 +261,9 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
         effect = {
             set_country_flag = colonial_migration_idea
         }
+		ai_will_do = { #without this the ai was spamming the decision
+			factor = 0
+		}
     }
     colonial_migration_disable = {
         potential = {

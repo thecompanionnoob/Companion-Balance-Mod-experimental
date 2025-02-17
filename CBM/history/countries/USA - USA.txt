@@ -20,6 +20,8 @@ public_meetings = yes_meeting
 press_rights = free_press
 trade_unions = all_trade_unions
 administrative_reform = incompetent_administrative_state
+education_system = private_edu_system
+health_system = private_health_system
 political_parties = gerrymandering
 
 # Social Reforms

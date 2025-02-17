@@ -17,7 +17,9 @@ vote_franschise = universal_weighted_voting
 public_meetings = yes_meeting
 press_rights = free_press
 trade_unions = all_trade_unions
-administrative_reform = corrupt_administrative_state 
+administrative_reform = corrupt_administrative_state
+education_system = private_edu_system
+health_system = private_health_system 
 political_parties = non_secret_ballots
 
 # Social Reforms
@@ -29,11 +31,7 @@ unemployment_subsidies = low_subsidies
 pensions = good_pensions 
 school_reforms = no_schools
 
-govt_flag = 
-{
-	government = hms_government
-	flag = presidential_dictatorship
-}
+
 
 ruling_party = GNR_conservative
 upper_house = {
@@ -73,6 +71,7 @@ schools = traditional_academic
 	decision = order_decision
 	decision = switch_to_army_tech
 	decision = build_kiel_canal
+	prestige = 200
 
 	government = hms_government
 

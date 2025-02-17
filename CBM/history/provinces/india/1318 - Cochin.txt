@@ -1,6 +1,12 @@
-owner = ENG
-controller = ENG
+owner = TML
+1910.1.1 = {
+owner = HND
+controller = HND
 add_core = HND
-colonial = 2
+}
+controller = TML
+add_core = TML
+
+
 trade_goods = grain
 life_rating = 32

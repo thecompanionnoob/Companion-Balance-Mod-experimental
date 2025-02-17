@@ -1,0 +1,182 @@
+#sphere
+
+BUL = {
+	value = 200
+	level = 5
+	influence_value = 75
+}
+
+army = {
+	name = "Army"
+	location = 410
+	
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 571
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 577
+	}
+	
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 578
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 578
+	}
+	regiment = {
+		name = "Brigade"
+		type = hussar
+		home = 587
+	}
+	
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 586
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 586
+	}
+	
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 588
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 591
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 570
+	}
+}
+army = {
+	name = "Army"
+	location = 409
+	
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 574
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 572
+	}
+	
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 575
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 575
+	}
+	regiment = {
+		name = "Brigade"
+		type = hussar
+		home = 575
+	}
+	
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 576
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 576
+	}
+	
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 577
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 577
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 570
+	}
+}
+army = {
+	name = "Army"
+	location = 412
+	
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 589
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 589
+	}
+	
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 589
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 589
+	}
+	regiment = {
+		name = "Brigade"
+		type = hussar
+		home = 589
+	}
+	
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 589
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 589
+	}
+	
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 593
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 593
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 593
+	}
+}

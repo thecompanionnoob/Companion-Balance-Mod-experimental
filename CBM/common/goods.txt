@@ -183,12 +183,12 @@ consumer_goods = {
 		color = { 114 162 47 }
 	}
 	automobiles = {	
-		cost = 70.00 
+		cost = 90.00 
 		available_from_start = no
 		color = { 61 67 64 }
 	}
 	telephones = { 
-		cost = 16.00
+		cost = 20.00
 		available_from_start = no
 		color = { 123 112 54 }
 	}
@@ -217,7 +217,7 @@ consumer_goods = {
 		color = { 255 140 184 }
 	}
 	radio = { 
-		cost = 16.00 
+		cost = 20.00 
 		available_from_start = no
 		color = { 129 63 6 }
 	}

@@ -33,6 +33,7 @@ guild_based_production = 1
 water_wheel_power = 1
 publishing_industry = 1
 basic_chemistry = 1
+classicism_n_early_romanticism = 1
 
 # Starting Consciousness
 consciousness = 0
@@ -46,7 +47,9 @@ vote_franschise = none_voting
 public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
-administrative_reform = corrupt_administrative_state 
+administrative_reform = corrupt_administrative_state
+education_system = private_edu_system
+health_system = private_health_system 
 political_parties = underground_parties
 
 wage_reform = no_minimum_wage

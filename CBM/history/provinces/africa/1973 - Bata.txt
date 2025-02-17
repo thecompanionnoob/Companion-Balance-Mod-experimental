@@ -1,2 +1,17 @@
 trade_goods = timber
 life_rating = 20
+
+1910.1.1 = {
+    owner = SPA
+    controller = SPA
+    colonial = 2
+}
+	
+	
+	
+
+	
+	
+	
+
+

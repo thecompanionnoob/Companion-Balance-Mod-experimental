@@ -3,8 +3,10 @@ controller = MEX
 add_core = MEX
 trade_goods = cattle
 life_rating = 35
-1925.1.1 = {
-	controller = USA
+1910.1.1 = {
 	owner = USA
-	add_core = USA
+	controller = USA
+	add_core = USA 
 }
+
+		

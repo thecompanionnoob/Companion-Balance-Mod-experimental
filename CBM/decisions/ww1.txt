@@ -1,0 +1,326 @@
+political_decisions = {
+    great_war_historical = {
+        potential = { 
+            tag = GER
+            has_global_flag = great_war
+            NOT = { has_global_flag = great_war_decision }
+            NOT = {
+                OR = {
+                    war_with = FRA
+                    war_with = RUS
+                    war_with = KUK
+                    war_with = TUR
+                    war_with = ITA
+                    war_with = JAP
+                    war_with = BEL
+                    war_with = CAN
+                    war_with = SAF
+                    war_with = AST
+                    war_with = USA
+                    war_with = BUL
+                    war_with = ROM
+                    war_with = SER
+                    war_with = ENG
+                    war_with = GRE
+                }
+            }
+        }
+    
+        allow = {
+            always = yes
+        }
+    
+        effect = {
+            set_global_flag = great_war_decision 
+            any_country = {
+                leave_alliance = THIS
+            }
+            FRA = {
+                any_country = {
+                    leave_alliance = FRA
+                }
+            }
+            any_country = {
+                limit = {
+                    OR = {
+                        tag = TUR
+                        tag = KUK
+                        tag = BUL
+                    }
+                }
+                create_alliance = THIS
+            }
+            FRA = {
+                any_country = {
+                    limit = {
+                        OR = {
+                            tag = RUS
+                            tag = ITA
+                            tag = JAP
+                            tag = BEL
+                            tag = CAN
+                            tag = SAF
+                            tag = AST
+                            tag = USA
+                            tag = ROM
+                            tag = SER
+                            tag = ENG
+                            tag = GRE
+                        }
+                    }
+                    create_alliance = FRA
+                }
+            }
+            war = {
+                target = FRA
+                attacker_goal = {
+                    casus_belli = ww1_casus_belli
+                }
+                defender_goal = {
+                    casus_belli = ww1_casus_belli
+                }
+                call_ally = yes
+            }
+        }
+    
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    great_war_no_minors = {
+        potential = { 
+            tag = GER
+            has_global_flag = great_war
+            NOT = { has_global_flag = great_war_decision }
+            NOT = {
+                OR = {
+                    war_with = FRA
+                    war_with = RUS
+                    war_with = KUK
+                    war_with = TUR
+                    war_with = ITA
+                    war_with = JAP
+                    war_with = USA
+                    war_with = ENG
+                }
+            }
+        }
+    
+        allow = {
+            always = yes
+        }
+    
+        effect = {
+            set_global_flag = great_war_decision 
+            any_country = {
+                leave_alliance = THIS
+            }
+            FRA = {
+                any_country = {
+                    leave_alliance = FRA
+                }
+            }
+            any_country = {
+                limit = {
+                    OR = {
+                        tag = TUR
+                        tag = KUK
+                    }
+                }
+                create_alliance = THIS
+            }
+            FRA = {
+                any_country = {
+                    limit = {
+                        OR = {
+                            tag = RUS
+                            tag = ITA
+                            tag = JAP
+                            tag = USA
+                            tag = ENG
+                        }
+                    }
+                    create_alliance = FRA
+                }
+            }
+            war = {
+                target = FRA
+                attacker_goal = {
+                    casus_belli = ww1_casus_belli
+                }
+                defender_goal = {
+                    casus_belli = ww1_casus_belli
+                }
+                call_ally = yes
+            }
+        }
+    
+        ai_will_do = {
+            factor = 0
+        }
+
+    }
+    great_war_no_overseas = {
+        potential = { 
+            tag = GER
+            has_global_flag = great_war
+            NOT = { has_global_flag = great_war_decision }
+            NOT = {
+                OR = {
+                    war_with = FRA
+                    war_with = RUS
+                    war_with = KUK
+                    war_with = TUR
+                    war_with = ITA
+                    war_with = BEL
+                    war_with = BUL
+                    war_with = ROM
+                    war_with = SER
+                    war_with = ENG
+                    war_with = GRE 
+                }
+            }
+        }
+    
+        allow = {
+            always = yes
+        }
+    
+        effect = {
+            set_global_flag = great_war_decision 
+            any_country = {
+                leave_alliance = THIS
+            }
+            FRA = {
+                any_country = {
+                    leave_alliance = FRA
+                }
+            }
+            any_country = {
+                limit = {
+                    OR = {
+                        tag = TUR
+                        tag = KUK
+                        tag = BUL
+                    }
+                }
+                create_alliance = THIS
+            }
+            FRA = {
+                any_country = {
+                    limit = {
+                        OR = {
+                            tag = RUS
+                            tag = ITA
+                            tag = BEL
+                            tag = ROM
+                            tag = SER
+                            tag = ENG
+                            tag = GRE
+                        }
+                    }
+                    create_alliance = FRA
+                }
+            }
+            war = {
+                target = FRA
+                attacker_goal = {
+                    casus_belli = ww1_casus_belli
+                }
+                defender_goal = {
+                    casus_belli = ww1_casus_belli
+                }
+                call_ally = yes
+            }
+        }
+    
+        ai_will_do = {
+            factor = 0
+        }
+
+    }
+    great_war_no_overseas_no_minors = {
+        potential = { 
+            tag = GER
+            has_global_flag = great_war
+            NOT = { has_global_flag = great_war_decision }
+            NOT = {
+                OR = {
+                    war_with = FRA
+                    war_with = RUS
+                    war_with = KUK
+                    war_with = TUR
+                    war_with = ITA
+                    war_with = ENG
+                }
+            }
+        }
+    
+        allow = {
+            always = yes
+        }
+    
+        effect = {
+            set_global_flag = great_war_decision 
+            any_country = {
+                leave_alliance = THIS
+            }
+            FRA = {
+                any_country = {
+                    leave_alliance = FRA
+                }
+            }
+            any_country = {
+                limit = {
+                    OR = {
+                        tag = TUR
+                        tag = KUK
+                    }
+                }
+                create_alliance = THIS
+            }
+            FRA = {
+                any_country = {
+                    limit = {
+                        OR = {
+                            tag = RUS
+                            tag = ITA
+                            tag = ENG
+                        }
+                    }
+                    create_alliance = FRA
+                }
+            }
+            war = {
+                target = FRA
+                attacker_goal = {
+                    casus_belli = ww1_casus_belli
+                }
+                defender_goal = {
+                    casus_belli = ww1_casus_belli
+                }
+                call_ally = yes
+            }
+        }
+    
+        ai_will_do = {
+            factor = 0
+        }
+
+    }
+    russian_great_rearmament_programme = {
+        potential = {
+            tag = RUS
+            has_global_flag = great_war
+            NOT = { has_country_flag = started_rearmament }
+        }
+        allow = {
+
+        }
+        effect = {
+            badboy = 10
+            add_country_modifier = { name = great_rearmament_programme duration = 1460 }
+            set_country_flag = started_rearmament
+        }
+    }
+}

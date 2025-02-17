@@ -1,4 +1,33 @@
 political_decisions = {
+	serfdom_setup = {
+		potential = {
+			tag = RUS
+			NOT = { has_country_flag = serfdom_setup }
+		}
+		allow = {
+
+		}
+		effect = {
+			set_country_flag = serfdom_setup
+			set_country_flag = has_serfdom
+			add_country_modifier = { name = serfdom_modifier duration = -1 }
+		}
+	}
+	abolish_serfdom = {
+		potential = {
+			tag = RUS
+			has_country_modifier = serfdom_modifier
+		}
+		allow = {
+			state_n_government = 1
+			money = 500000
+		}
+		effect = {
+			money = -500000
+			remove_country_modifier = serfdom_modifier
+			clr_country_flag = has_serfdom
+		}
+	}
 	accept_ruthenian = {
 		potential = {
 			tag = RUS
@@ -74,6 +103,7 @@ political_decisions = {
 		potential = {
 			tag = RUS
 			NOT = { has_country_flag = outer_manchu_claim }
+			NOT = { has_global_flag = great_war }
 		}
 		allow = {
 			ideological_thought = 1
@@ -90,6 +120,7 @@ political_decisions = {
 		potential = {
 			tag = RUS
 			NOT = { has_country_flag = outer_manchu_russification }
+			NOT = { has_global_flag = great_war }
 		}
 		allow = {
 			CHI_1082 = {

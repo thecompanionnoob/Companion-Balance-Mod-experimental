@@ -1,6 +1,13 @@
-owner = ENG
-controller = ENG
-add_core = BUR
+owner = BNG
+1910.1.1 = {
+owner = HND
+controller = HND
+add_core = HND
+}
+controller = BNG
+add_core = BNG
+
 trade_goods = grain
 life_rating = 35
-colonial = 2
+
+    

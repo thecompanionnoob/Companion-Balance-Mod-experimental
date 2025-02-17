@@ -3,3 +3,12 @@ controller = PER
 add_core = PER
 trade_goods = fruit
 life_rating = 35
+
+1910.1.1 = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+}
+
+
+        

@@ -8,3 +8,10 @@ colonial = 2
 	controller = RUS
 	colonial = 2
 }
+1910.1.1 = {
+	owner = USA
+	controller = USA
+	add_core = USA 
+}
+
+		

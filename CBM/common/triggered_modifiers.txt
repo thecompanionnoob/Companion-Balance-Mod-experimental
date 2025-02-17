@@ -70,9 +70,7 @@ late_game_reform_desire_militancy = {
 
 rgo_early = {
 	trigger = {
-		NOT = {
-			year = 1880
-		}
+		always = yes
 	}
 	rgo_output = 0.3
 }

@@ -26,32 +26,10 @@ POR = {
 	level = 5
 	influence_value = 75
 }
-
-#generals 
-
-leader = {
-    name = "Edmund Allenby"
-    date = 1912.12.31
-    type = land
-    personality = defence_3.1
-    background = attack_2.1
-    prestige = 0.5
-}
-leader = {
-    name = "Herbert Kitchener"
-    date = 1912.12.31
-    type = land
-    personality = defence_3.1
-    background = attack_2.1
-    prestige = 0.5
-}
-leader = {
-    name = "Herbet Plumer"
-    date = 1912.12.31
-    type = land
-    personality = defence_2.1
-    background = attack_3.1
-    prestige = 0.5
+HND = {
+	value = 200
+	level = 5
+	influence_value = 75
 }
 
 #army
