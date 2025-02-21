@@ -916,7 +916,7 @@ outdated_army_russia = {
 	land_organisation = -0.1
 	land_unit_start_experience = -5
 	leadership_modifier = -0.25
-	mobilisation_size = -0.04
+	#mobilisation_size = -0.04
 }
 
 ### NATIONAL IDEAS ###

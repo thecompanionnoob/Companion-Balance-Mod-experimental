@@ -19,12 +19,7 @@ factory_template = {
 			poptype = craftsmen
 			effect = throughput
 			amount = 0.8
-		}		
-		{ 
-			poptype = farmers
-			effect = throughput
-			amount = 0.8
-		}		
+		}			
 		{ 
 			poptype = clerks 
 			effect = output

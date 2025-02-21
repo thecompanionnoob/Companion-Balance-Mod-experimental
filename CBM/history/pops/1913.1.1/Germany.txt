@@ -38,7 +38,7 @@
 		size = 10400 
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = north_german
 		religion = sunni
 		size = 126490
@@ -188,7 +188,7 @@
 		size = 2860
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = north_german
 		religion = sunni
 		size = 16250
@@ -277,7 +277,7 @@
 		size = 2860
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = north_german
 		religion = sunni
 		size = 119340
@@ -390,7 +390,7 @@
 		size = 3250 
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = north_german
 		religion = sunni
 		size = 285480 
@@ -480,7 +480,7 @@
 		size = 7800 
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = north_german
 		religion = sunni
 		size = 232245 
@@ -1236,7 +1236,7 @@
 		size = 13000 
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = north_german
 		religion = sunni
 		size = 278070
@@ -1486,7 +1486,7 @@
 		size = 5980 
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = north_german
 		religion = sunni
 		size = 267085
@@ -1927,7 +1927,7 @@
 		size = 2860 
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = north_german
 		religion = sunni
 		size = 236080 
@@ -2288,7 +2288,7 @@
 		size = 3380        
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = north_german
 		religion = sunni
 		size = 120965         
@@ -2345,7 +2345,7 @@
 		size = 10920 
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = north_german
 		religion = sunni
 		size = 202865
@@ -2733,7 +2733,7 @@
 		size = 1950 
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = south_german
 		religion = sunni
 		size = 183950
@@ -3032,7 +3032,7 @@
 		size = 8320 
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = north_german
 		religion = sunni
 		size = 252226
@@ -3501,7 +3501,7 @@
 		size = 8450  
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = north_german
 		religion = sunni
 		size = 226200   
@@ -3790,7 +3790,7 @@
 		size = 4030 
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = south_german
 		religion = sunni
 		size = 363090 
@@ -3984,7 +3984,7 @@
 		size = 18200 
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = south_german
 		religion = sunni
 		size = 341120 
@@ -4281,7 +4281,7 @@
 	farmers = {
 		culture = south_german
 		religion = sunni
-		size = 242775 
+		size = 92775 
 	}
 
 	aristocrats = {
@@ -4308,10 +4308,10 @@
 		size = 3900 
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = south_german
 		religion = sunni
-		size = 289315
+		size = 439315
 	}
 
 	clergymen = {
@@ -4498,7 +4498,7 @@
 		size = 7800
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = south_german
 		religion = sunni
 		size = 456690
@@ -4741,10 +4741,10 @@
 		size = 8580   
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = north_german
 		religion = sunni
-		size = 178295
+		size = 148295
 	}
 
 	clergymen = {
@@ -4768,7 +4768,7 @@
 	farmers = {
 		culture = north_german
 		religion = sunni
-		size = 46085
+		size = 76085
 	}
 
 	clergymen = {

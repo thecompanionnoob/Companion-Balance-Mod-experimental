@@ -1,6 +1,7 @@
 owner = BAV
 1910.1.1 = {
 owner = GER
+railroad = 4
 controller = GER
 add_core = GER
  }
@@ -11,14 +12,42 @@ add_core = GER
 trade_goods = grain
 life_rating = 40
 railroad = 1
-#state_building = {
-#	level = 1
-#	building = lumber_mill
-#	upgrade = yes
-#}
-#state_building = {
-#	level = 1
-#	building = paper_mill
-#	upgrade = yes
-#}
-1925.1.1 = { railroad = 3 }
+1910.1.1 = {
+	state_building = {
+		level = 6
+		building = steel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 12
+		building = artillery_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 8
+		building = canned_food_factory
+		upgrade = yes
+	}   
+	state_building = {
+		level = 4
+		building = automobile_factory
+		upgrade = yes
+	}  
+	state_building = {
+		level = 6
+		building = electric_gear_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 4
+		building = radio_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 4
+		building = telephone_factory
+		upgrade = yes
+	}
+
+}
+

@@ -180,3 +180,643 @@ army = {
 		home = 593
 	}
 }
+navy = {
+    name = "Transport Fleet"
+    location = 528
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+}
+navy = {
+    name = "Imperial Fleet"
+    location = 543
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+}

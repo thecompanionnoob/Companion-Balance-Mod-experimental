@@ -1,28 +1,33 @@
 owner = USA
+1910.1.1={
+railroad = 5
+}
 controller = USA
 add_core = USA
 add_core = CSA
 trade_goods = tobacco
-life_rating = 35railroad = 1
+life_rating = 35
+railroad = 1
 #state_building = {
 #	level = 1
 #	building = small_arms_factory
 #	upgrade = yes
 #}
-1925.1.1 = {	owner = CSA	controller = CSA	add_core = CSA
-}
-1925.1.1 = { 
-	railroad = 3 
-}
-1925.1.1 = {
+1910.1.1 = {
 	state_building = {
-		level = 1
-		building = steel_factory
+		level = 2
+		building = fabric_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 1
-		building = steamer_shipyard
+		level = 4
+		building = regular_clothes_factory
 		upgrade = yes
 	}
+	state_building = {
+		level = 2
+		building = luxury_clothes_factory
+		upgrade = yes
+	}
+
 }

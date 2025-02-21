@@ -28,8 +28,9 @@ GLOBAL CHANGES:
 *Massively nerfed pop attraction to fascism based on revanchism (no more 90+% fascist countries due to two lost core states).
 *Buffed commerce input and output techs.
 *Added the decision to remove unaccepted bureaucrats.
-*Made the grants decision check if you have the money to give people, preventing exploits.
+*Made the grants decision check if you have the money to give people, preventing exploits. Because of a bug relating to this, grants of over 2 million are disabled for now.
 *Increased the value of telephones, automobiles, and radios, as well as increasing the factory production of these goods. Demand has also been increased, making these extremely profitable goods to produce.   
+*Made it so you can fully fund soldier pop pay under anti-military and pacifism
 
 COUNTRY CHANGES:
 *JAPAN:

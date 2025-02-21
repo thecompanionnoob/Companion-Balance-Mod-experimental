@@ -1,6 +1,8 @@
 owner = HOL
 1910.1.1 = {
 owner = GER
+naval_base = 3
+railroad = 4
 controller = GER
 add_core = GER
  }
@@ -11,3 +13,16 @@ trade_goods = fruit
 life_rating = 40
 naval_base = 1
 1925.1.1 = { railroad = 3 }
+1910.1.1 = {
+	state_building = {
+		level = 10
+		building = steamer_shipyard
+		upgrade = yes
+	}
+	state_building = {
+		level = 3
+		building = steel_factory
+		upgrade = yes
+	}
+
+}

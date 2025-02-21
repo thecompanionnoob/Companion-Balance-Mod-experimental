@@ -1,7 +1,7 @@
-owner = HND
-add_core = HND
-controller = HND
-
+owner = ENG
+controller = ENG
+colonial = 2
 trade_goods = tea
 life_rating = 32
 
+    

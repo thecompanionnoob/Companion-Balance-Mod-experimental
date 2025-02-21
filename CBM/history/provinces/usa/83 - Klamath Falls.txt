@@ -2,6 +2,9 @@
 trade_goods = fish
 life_rating = 35
 owner = USA
+1910.1.1={
+railroad = 5
+}
 controller = USA
 add_core = USA
     

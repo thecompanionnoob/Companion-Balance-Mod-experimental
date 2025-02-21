@@ -1,4 +1,8 @@
 owner = USA
+1910.1.1={
+	naval_base = 3
+railroad = 5
+}
 controller = USA
 add_core = FSA
 add_core = USA
@@ -6,7 +10,10 @@ add_core = USA
 trade_goods = timber
 life_rating = 35
 naval_base = 1
-1925.1.1 = { 
-	railroad = 3 
-	naval_base = 1
+1910.1.1 = {
+	state_building = {
+		level = 1
+		building = lumber_mill
+		upgrade = yes
+	}
 }

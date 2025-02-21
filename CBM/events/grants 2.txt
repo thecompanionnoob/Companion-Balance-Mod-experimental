@@ -14,6 +14,7 @@ country_event = {
 	option = {
 	name = "Our money is better spent at home."
 		FROM = { country_event = {id = 100010 days = 0} }
+		ai_chance = {factor = 100} 
 	
 	}
 	option = {
@@ -23,7 +24,6 @@ country_event = {
 			country_event = {id = 100002 days = 0}
 		
 		}
-		ai_chance = {factor = 100} 
 	}
 	
 	option = {
@@ -58,10 +58,10 @@ country_event = {
 	allow_multiple_instances = yes	
 	option = {
 	name = "0 pounds"
+		ai_chance = {factor = 100}
 	}
 	option = {
 		name = "1000 pounds"
-		ai_chance = {factor = 100}
 		random_owned = {
 			limit = {
 				owner = {
@@ -196,10 +196,10 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 	name = "0 pounds"
+	ai_chance = {factor = 100}
 	}
 	option = {
 	name = "10000 pounds"
-	ai_chance = {factor = 100}
 		random_owned = {
 			limit = {
 				owner = {
@@ -334,10 +334,10 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 	name = "0 pounds"
+	ai_chance = {factor = 100}
 	}
 	option = {
 	name = "100000 pounds"
-	ai_chance = {factor = 100}
 		random_owned = {
 			limit = {
 				owner = {
@@ -471,11 +471,11 @@ country_event = {
 	allow_multiple_instances = yes	
 	is_triggered_only = yes
 	option = {
-	name = "0 pounds"
+		name = "0 pounds"
+		ai_chance = {factor = 100}
 	}
 	option = {
-	name = "1000000 pounds"
-	ai_chance = {factor = 100}
+		name = "1000000 pounds"
 		random_owned = {
 			limit = {
 				owner = {
@@ -489,7 +489,7 @@ country_event = {
 		}
 	}
 	option = {
-	name = "2000000 pounds"
+		name = "2000000 pounds"
 		random_owned = {
 			limit = {
 				owner = {
@@ -502,136 +502,6 @@ country_event = {
 			}
 		}
 	}
-	option = {
-	name = "3000000 pounds"
-		random_owned = {
-			limit = {
-				owner = {
-					money = 3000000
-				}
-			}
-			owner = {
-				treasury = -2000000
-				FROM = {treasury = 2000000}
-				treasury = -1000000
-				FROM = {treasury = 1000000}
-			}
-		}
-	}  
-	option = {
-	name = "4000000 pounds"
-		random_owned = {
-			limit = {
-				owner = {
-					money = 4000000
-				}
-			}
-			owner = {
-				treasury = -2000000
-				FROM = {treasury = 2000000}
-				treasury = -2000000
-				FROM = {treasury = 2000000}
-			}
-		}
-	}  
-	option = {
-	name = "5000000 pounds"
-		random_owned = {
-			limit = {
-				owner = {
-					money = 5000000
-				}
-			}
-			owner = {
-				treasury = -2000000
-				FROM = {treasury = 2000000}
-				treasury = -2000000
-				FROM = {treasury = 2000000}
-				treasury = -1000000
-				FROM = {treasury = 1000000}
-			}
-		}
-	}  
-	option = {
-	name = "6000000 pounds"
-		random_owned = {
-			limit = {
-				owner = {
-					money = 6000000
-				}
-			}
-			owner = {
-				treasury = -2000000
-				FROM = {treasury = 2000000}
-				treasury = -2000000
-				FROM = {treasury = 2000000}
-				treasury = -2000000
-				FROM = {treasury = 2000000}
-			}
-		}
-	}  
-	option = {
-	name = "7000000 pounds"
-		random_owned = {
-			limit = {
-				owner = {
-					money = 7000000
-				}
-			}
-			owner = {
-				treasury = -2000000
-				FROM = {treasury = 2000000}
-				treasury = -2000000
-				FROM = {treasury = 2000000}
-				treasury = -2000000
-				FROM = {treasury = 2000000}
-				treasury = -1000000
-				FROM = {treasury = 1000000}
-			}
-		}
-	}  
-	option = {
-	name = "8000000 pounds"
-		random_owned = {
-			limit = {
-				owner = {
-					money = 8000000
-				}
-			}
-			owner = {
-				treasury = -2000000
-				FROM = {treasury = 2000000}
-				treasury = -2000000
-				FROM = {treasury = 2000000}
-				treasury = -2000000
-				FROM = {treasury = 2000000}
-				treasury = -2000000
-				FROM = {treasury = 2000000}
-			}
-		}
-	}  
-	option = {
-	name = "9000000 pounds"
-		random_owned = {
-			limit = {
-				owner = {
-					money = 9000000
-				}
-			}
-			owner = {
-				treasury = -2000000
-				FROM = {treasury = 2000000}
-				treasury = -2000000
-				FROM = {treasury = 2000000}
-				treasury = -2000000
-				FROM = {treasury = 2000000}
-				treasury = -2000000
-				FROM = {treasury = 2000000}
-				treasury = -1000000
-				FROM = {treasury = 1000000}
-			}
-		}
-	}  
 }
 
 country_event = {

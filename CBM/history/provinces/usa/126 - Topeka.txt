@@ -1,4 +1,7 @@
 owner = USA
+1910.1.1={
+railroad = 5
+}
 
 controller = USA
 
@@ -6,9 +9,49 @@ add_core = USA
 
 trade_goods = grain
 life_rating = 35
-1925.1.1 = {
-	colony = 0
+1910.1.1 = {
+	state_building = {
+		level = 3
+		building = luxury_furniture_factory
+		upgrade = yes
 	}
+	state_building = {
+		level = 5
+		building = furniture_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = cement_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 20
+		building = fuel_refinery
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = canned_food_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
+		building = steel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = artillery_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = small_arms_factory
+		upgrade = yes
+	}
+
+}
     
     
     

@@ -2,6 +2,25 @@
 trade_goods = timber
 life_rating = 35
 owner = USA
+1910.1.1={
+	naval_base = 3
+railroad = 5
+	state_building = {
+		level = 9
+		building = glass_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = liquor_distillery
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = winery
+		upgrade = yes
+	}
+}
 controller = USA
 add_core = USA
     

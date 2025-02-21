@@ -151,8 +151,28 @@ political_decisions = {
 				treasury = 2000000
 			}
 			any_country = {
+				limit = { is_greater_power = yes }
+				treasury = 2000000
+			}
+			any_country = {
+				limit = { is_greater_power = yes }
+				treasury = 2000000
+			}
+			any_country = {
+				limit = { is_greater_power = yes }
+				treasury = 2000000
+			}
+			any_country = {
+				limit = { is_greater_power = yes }
+				treasury = 2000000
+			}
+			any_country = {
 				limit = { is_greater_power = no }
-				treasury = 600000
+				treasury = 2000000
+			}
+			any_country = {
+				limit = { is_greater_power = no }
+				treasury = 2000000
 			}
 			set_global_flag = setup #failsafe so that it doesnt do it twice for sure
 			JAN = {

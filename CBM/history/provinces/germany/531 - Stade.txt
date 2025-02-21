@@ -1,6 +1,7 @@
 owner = HAN
 1910.1.1 = {
 owner = GER
+railroad = 4
 controller = GER
 add_core = GER
  }

@@ -47,7 +47,13 @@
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 140600
+		size = 70600
+	}
+	craftsmen = {
+		culture = british
+		religion = sunni
+		size = 70600
+
 	}
 
 	clergymen = {
@@ -371,7 +377,13 @@
 	farmers = {
 		culture = irish
 		religion = sunni
-		size = 301360
+		size = 151360
+	}
+
+	craftsmen = {
+		culture = irish
+		religion = sunni
+		size = 151360
 	}
 
 	aristocrats = {

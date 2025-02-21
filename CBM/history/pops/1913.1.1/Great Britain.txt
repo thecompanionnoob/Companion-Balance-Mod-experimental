@@ -98,7 +98,13 @@
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 125120
+		size = 62120
+	}
+
+	craftsmen = {
+		culture = british
+		religion = sunni
+		size = 62120
 	}
 
 }

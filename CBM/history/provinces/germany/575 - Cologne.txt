@@ -1,6 +1,7 @@
 owner = PRU
 1910.1.1 = {
 owner = GER
+railroad = 4
 controller = GER
 add_core = GER
  }
@@ -13,6 +14,24 @@ state_building = {
 	level = 1
 	building = machine_parts_factory
 	upgrade = yes
+}
+1910.1.1 = {
+	state_building = {
+		level = 1
+		building = steel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 14
+		building = artillery_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 14
+		building = canned_food_factory
+		upgrade = yes
+	}
+
 }
 	
 	

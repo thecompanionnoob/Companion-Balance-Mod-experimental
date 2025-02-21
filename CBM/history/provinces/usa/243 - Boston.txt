@@ -1,6 +1,12 @@
 owner = USA
-controller = USA
-add_core = FSAadd_core = USA
+1910.1.1={
+	naval_base = 3
+railroad = 5
+}
+
+controller = USA
+add_core = FSA
+add_core = USA
 
 trade_goods = grain
 life_rating = 40
@@ -16,7 +22,30 @@ state_building = {
 	building = glass_factory
 	upgrade = yes
 }
-1925.1.1 = { 
-	railroad = 3 
-	naval_base = 1
+1910.1.1 = {
+	state_building = {
+		level = 5
+		building = steel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 20
+		building = steamer_shipyard
+		upgrade = yes
+	}
+	state_building = {
+		level = 4
+		building = canned_food_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = furniture_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = luxury_furniture_factory
+		upgrade = yes
+	}
 }

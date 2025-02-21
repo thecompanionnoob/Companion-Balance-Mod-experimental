@@ -1,7 +1,6 @@
-owner = HND
-add_core = HND
-controller = HND
-add_core = ENG
+owner = ENG
+controller = ENG
+colonial = 2
 naval_base = 1
 trade_goods = fish
 life_rating = 32

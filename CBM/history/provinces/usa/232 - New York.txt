@@ -1,9 +1,20 @@
 owner = USA
+1910.1.1={
+railroad = 5
+}
 controller = USA
-add_core = FSAadd_core = USA
+add_core = FSA
+add_core = USA
 
 trade_goods = grain
-life_rating = 50railroad = 1fort = 1party_loyalty = {	ideology = liberal	loyalty_value = 25}
+life_rating = 50
+railroad = 1
+fort = 1
+
+party_loyalty = {
+	ideology = liberal
+	loyalty_value = 25
+}
 state_building = {
 	level = 1
 	building = cement_factory
@@ -13,5 +24,37 @@ state_building = {
 	level = 1
 	building = lumber_mill
 	upgrade = yes
-}1925.1.1 = {	party_loyalty = {	ideology = liberal	loyalty_value = 35	}	state_building = {		level = 1		building = ammunition_factory		upgrade = yes	}	state_building = {		level = 1		building = steamer_shipyard		upgrade = yes	}}
-1925.1.1 = { railroad = 3 }
+}
+
+1910.1.1 = {
+	state_building = {
+		level = 25
+		building = steel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 30	
+		building = steamer_shipyard
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = artillery_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 8
+		building = automobile_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 8
+		building = radio_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = electric_gear_factory
+		upgrade = yes
+	}
+}

@@ -2,6 +2,7 @@ owner = FRA
 1910.1.1 = {
 railroad = 4
 owner = GER
+railroad = 4
 controller = GER 
 }
 controller = FRA

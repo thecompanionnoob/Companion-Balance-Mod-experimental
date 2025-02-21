@@ -1,8 +1,40 @@
 owner = MEC
 1910.1.1 = {
 owner = GER
+naval_base = 3
+railroad = 4
 controller = GER
 add_core = GER
+	state_building = {
+		level = 10
+		building = steamer_shipyard
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = steel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 4
+		building = artillery_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = canned_food_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = explosives_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 3
+		building = small_arms_factory
+		upgrade = yes
+	}
  }
 controller = MEC
 add_core = MEC

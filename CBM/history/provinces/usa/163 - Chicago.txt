@@ -1,6 +1,36 @@
 owner = USA
+1910.1.1={
+railroad = 5
+}
 controller = USA
 add_core = USA
 trade_goods = coal
 life_rating = 35
-1925.1.1 = { railroad = 3 }
+1910.1.1 = {
+	state_building = {
+		level = 15 
+		building = steel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 9  
+		building = electric_gear_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 9 
+		building = machine_parts_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 9  
+		building = artillery_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 9  
+		building = automobile_factory
+		upgrade = yes
+	}
+
+}

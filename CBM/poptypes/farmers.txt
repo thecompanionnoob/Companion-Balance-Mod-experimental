@@ -1,7 +1,7 @@
 sprite = 8
 color = { 75 193 237 }
 strata = poor
-can_work_factory = yes
+#can_work_factory = yes
 unemployment = yes
 equivalent = labourers
 

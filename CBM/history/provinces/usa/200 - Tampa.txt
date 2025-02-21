@@ -1,1 +1,16 @@
-owner = USAcontroller = USAadd_core = USAadd_core = CSAtrade_goods = fruitlife_rating = 25is_slave = yesnaval_base = 1                
+owner = USA
+1910.1.1={
+	naval_base = 3
+railroad = 5
+}
+controller = USA
+add_core = USA
+add_core = CSA
+trade_goods = fruit
+life_rating = 25
+is_slave = yes
+naval_base = 1
+    
+    
+    
+    

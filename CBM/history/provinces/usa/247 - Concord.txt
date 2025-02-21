@@ -1,4 +1,7 @@
 owner = USA
+1910.1.1={
+railroad = 5
+}
 controller = USA
 add_core = FSAadd_core = USA
 

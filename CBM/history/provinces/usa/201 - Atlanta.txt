@@ -1,10 +1,36 @@
 owner = USA
-controller = USAadd_core = USA
+1910.1.1={
+railroad = 5
+}
+controller = USA
+add_core = USA
 add_core = CSA
 trade_goods = cotton
-life_rating = 35party_loyalty = {	ideology = conservative	loyalty_value = 10}
-1925.1.1 = {	party_loyalty = {	ideology = conservative	loyalty_value = 25}
-	controller = CSA
-	owner = CSA
-	add_core = CSA	state_building = {		level = 1		building = clipper_shipyard		upgrade = yes	}	state_building = {		level = 1		building = small_arms_factory		upgrade = yes	}}
-1925.1.1 = { railroad = 1 }
+life_rating = 35
+
+party_loyalty = {
+	ideology = conservative
+	loyalty_value = 10
+}
+1910.1.1 = {
+	state_building = {
+		level = 4
+		building = fabric_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 8
+		building = regular_clothes_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = explosives_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = fertilizer_factory
+		upgrade = yes
+	}
+}

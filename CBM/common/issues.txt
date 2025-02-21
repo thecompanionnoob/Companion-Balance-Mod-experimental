@@ -158,7 +158,7 @@ party_issues = {
 			reinforce_speed = 0.15
 		}
 		anti_military = {
-			max_military_spending = 0.75
+			max_military_spending = 1.0
 			supply_consumption = -0.25
 			war_exhaustion_effect = 1.2
 			cb_generation_speed_modifier = -0.2
@@ -167,7 +167,7 @@ party_issues = {
 			reinforce_speed = -0.15
 		}
 		pacifism = {
-			max_military_spending = 0.5
+			max_military_spending = 1.0
 			supply_consumption = -0.5
 			war_exhaustion_effect = 1.5
 			cb_generation_speed_modifier = -0.4
