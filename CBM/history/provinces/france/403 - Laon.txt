@@ -7,3 +7,21 @@ add_core = FRA
 trade_goods = grain
 life_rating = 32
 #1925.1.1 = { railroad = 3 }
+
+1910.1.1 = {
+	state_building = {
+		level = 5
+		building = steel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = artillery_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = canned_food_factory
+		upgrade = yes
+	}
+}

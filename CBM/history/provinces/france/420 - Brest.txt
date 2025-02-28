@@ -1,24 +1,23 @@
 owner = FRA
 1910.1.1 = {
 railroad = 4
+naval_base = 3
 }
 controller = FRA
 add_core = FRA
 trade_goods = grain
 life_rating = 32
 naval_base = 1
-#state_building = {
-#	level = 1
-#	building = lumber_mill
-#	upgrade = yes
-#}
-1925.1.1 = {
+
+1910.1.1 = {
 	state_building = {
-		level = 1
+		level = 2
+		building = steel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 6
 		building = steamer_shipyard
 		upgrade = yes
 	}
-}
-1925.1.1 = { 
-	naval_base = 1
 }

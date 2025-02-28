@@ -358,3 +358,131 @@ army = {
 		home = 437
     }
 }
+#navy
+navy = {
+    name = "Main Fleet"
+    location = 418
+    
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }    
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }    
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }    
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }    
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    } 
+    
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }    
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }    
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }    
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }    
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    } 
+    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }       
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }    
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }    
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }    
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }    
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }
+}

@@ -6,26 +6,27 @@ controller = FRA
 add_core = FRA
 trade_goods = fruit
 life_rating = 35
-#state_building = {
-#	level = 1
-#	building = furniture_factory
-#	upgrade = yes
-#}
-#state_building = {
-#	level = 1
-#	building = fertilizer_factory
-#	upgrade = yes
-#}
-#state_building = {
-#	level = 1
-#	building = small_arms_factory
-#	upgrade = yes
-#}
-1925.1.1 = {
+
+1910.1.1 = {
 	state_building = {
-		level = 1
-		building = winery
+		level = 5
+		building = steel_factory
 		upgrade = yes
 	}
+	state_building = {
+		level = 2
+		building = radio_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = telephone_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 4
+		building = artillery_factory
+		upgrade = yes
+	}
+	
 }
-1925.1.1 = { railroad = 3 }

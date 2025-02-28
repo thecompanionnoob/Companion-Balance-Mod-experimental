@@ -12,253 +12,388 @@ country_event = {
 		
 		#tiny state assignment
 		any_country = {
-			any_owned = {
+			random_owned = {
 				limit = {
-					NOT = { year = 1866 }
-					state_scope = {
-						NOT = { total_pops = 187500 }
+					owner = {
+						war = no
 					}
 				}
-				add_core = TNY
-				remove_core = SML
-				remove_core = MED
-				remove_core = LRG
-				remove_core = HUG
+				owner = {
+					any_owned = {
+						limit = {
+							NOT = { year = 1866 }
+							state_scope = {
+								NOT = { total_pops = 187500 }
+							}
+						}
+						add_core = TNY
+						remove_core = SML
+						remove_core = MED
+						remove_core = LRG
+						remove_core = HUG
+					}
+				}
 			}
 		}
 		any_country = {
-			any_owned = {
+			random_owned = {
 				limit = {
-					year = 1866
-					NOT = { year = 1896 }
-					state_scope = {
-						NOT = { total_pops = 300000 }
+					owner = {
+						war = no
 					}
 				}
-				add_core = TNY
-				remove_core = SML
-				remove_core = MED
-				remove_core = LRG
-				remove_core = HUG
+				owner = {
+					any_owned = {
+						limit = {
+							year = 1866
+							NOT = { year = 1896 }
+							state_scope = {
+								NOT = { total_pops = 300000 }
+							}
+						}
+						add_core = TNY
+						remove_core = SML
+						remove_core = MED
+						remove_core = LRG
+						remove_core = HUG
+					}
+				}
 			}
 		}
 		any_country = {
-			any_owned = {
+			random_owned = {
 				limit = {
-					year = 1896
-					state_scope = {
-						NOT = { total_pops = 450000 }
+					owner = {
+						war = no
 					}
 				}
-				add_core = TNY
-				remove_core = SML
-				remove_core = MED
-				remove_core = LRG
-				remove_core = HUG
+				owner = {
+					any_owned = {
+						limit = {
+							year = 1896
+							state_scope = {
+								NOT = { total_pops = 450000 }
+							}
+						}
+						add_core = TNY
+						remove_core = SML
+						remove_core = MED
+						remove_core = LRG
+						remove_core = HUG
+					}
+				}
 			}
 		}
 		
 		#small state assignment
 		
 		any_country = {
-			any_owned = {
+			random_owned = {
 				limit = {
-					NOT = { year = 1866 }
-					state_scope = {
-						total_pops = 187500
-						NOT = { total_pops = 375000 }
+					owner = {
+						war = no
 					}
 				}
-				remove_core = TNY
-				add_core = SML
-				remove_core = MED
-				remove_core = LRG
-				remove_core = HUG
+				owner = {
+					any_owned = {
+						limit = {
+							NOT = { year = 1866 }
+							state_scope = {
+								total_pops = 187500
+								NOT = { total_pops = 375000 }
+							}
+						}
+						remove_core = TNY
+						add_core = SML
+						remove_core = MED
+						remove_core = LRG
+						remove_core = HUG
+					}
+
+				}
 			}
 		}
 		any_country = {
-			any_owned = {
+			random_owned = {
 				limit = {
-					year = 1866
-					NOT = { year = 1896 }
-					state_scope = {
-						total_pops = 300000
-						NOT = { total_pops = 565000 }
+					owner = {
+						war = no
 					}
 				}
-				remove_core = TNY
-				add_core = SML
-				remove_core = MED
-				remove_core = LRG
-				remove_core = HUG
+				owner = {
+					any_owned = {
+						limit = {
+							year = 1866
+							NOT = { year = 1896 }
+							state_scope = {
+								total_pops = 300000
+								NOT = { total_pops = 565000 }
+							}
+						}
+						remove_core = TNY
+						add_core = SML
+						remove_core = MED
+						remove_core = LRG
+						remove_core = HUG
+					}
+
+				}
 			}
 		}
 		any_country = {
-			any_owned = {
+			random_owned = {
 				limit = {
-					year = 1896
-					state_scope = {
-						total_pops = 450000
-						NOT = { total_pops = 825000 }
+					owner = {
+						war = no
 					}
 				}
-				remove_core = TNY
-				add_core = SML
-				remove_core = MED
-				remove_core = LRG
-				remove_core = HUG
+				owner = {
+					any_owned = {
+						limit = {
+							year = 1896
+							state_scope = {
+								total_pops = 450000
+								NOT = { total_pops = 825000 }
+							}
+						}
+						remove_core = TNY
+						add_core = SML
+						remove_core = MED
+						remove_core = LRG
+						remove_core = HUG
+					}
+				}
 			}
 		}
 		
 		#medium state assignment
 		any_country = {
-			any_owned = {
+			random_owned = {
 				limit = {
-					NOT = { year = 1866 }
-					state_scope = {
-						total_pops = 375000
-						NOT = { total_pops = 525000 }
+					owner = {
+						war = no
 					}
 				}
-				remove_core = TNY
-				remove_core = SML
-				add_core = MED
-				remove_core = LRG
-				remove_core = HUG
+				owner = {
+					any_owned = {
+						limit = {
+							NOT = { year = 1866 }
+							state_scope = {
+								total_pops = 375000
+								NOT = { total_pops = 525000 }
+							}
+						}
+						remove_core = TNY
+						remove_core = SML
+						add_core = MED
+						remove_core = LRG
+						remove_core = HUG
+					}
+
+				}
 			}
 		}
 		any_country = {
-			any_owned = {
+			random_owned = {
 				limit = {
-					year = 1866
-					NOT = { year = 1896 }
-					state_scope = {
-						total_pops = 565000
-						NOT = { total_pops = 900000 }
+					owner = {
+						war = no
 					}
 				}
-				remove_core = TNY
-				remove_core = SML
-				add_core = MED
-				remove_core = LRG
-				remove_core = HUG
+				owner = {
+					any_owned = {
+						limit = {
+							year = 1866
+							NOT = { year = 1896 }
+							state_scope = {
+								total_pops = 565000
+								NOT = { total_pops = 900000 }
+							}
+						}
+						remove_core = TNY
+						remove_core = SML
+						add_core = MED
+						remove_core = LRG
+						remove_core = HUG
+					}
+				}
 			}
 		}
+
 		any_country = {
-			any_owned = {
+			random_owned = {
 				limit = {
-					year = 1896
-					state_scope = {
-						total_pops = 825000
-						NOT = { total_pops = 1200000 }
+					owner = {
+						war = no
 					}
 				}
-				remove_core = TNY
-				remove_core = SML
-				add_core = MED
-				remove_core = LRG
-				remove_core = HUG
+				any_owned = {
+					limit = {
+						year = 1896
+						state_scope = {
+							total_pops = 825000
+							NOT = { total_pops = 1200000 }
+						}
+					}
+					remove_core = TNY
+					remove_core = SML
+					add_core = MED
+					remove_core = LRG
+					remove_core = HUG
+				}
 			}
 		}
 		
 		#large state assignment 
 		
 		any_country = {
-			any_owned = {
+			random_owned = {
 				limit = {
-					NOT = { year = 1866 }
-					state_scope = {
-						total_pops = 525000
-						NOT = { total_pops = 825000 }
+					owner = {
+						war = no
 					}
 				}
-				remove_core = TNY
-				remove_core = SML
-				remove_core = MED
-				add_core = LRG
-				remove_core = HUG
+				owner = {
+					any_owned = {
+						limit = {
+							NOT = { year = 1866 }
+							state_scope = {
+								total_pops = 525000
+								NOT = { total_pops = 825000 }
+							}
+						}
+						remove_core = TNY
+						remove_core = SML
+						remove_core = MED
+						add_core = LRG
+						remove_core = HUG
+					}
+				}
+			}
+		}
+
+		any_country = {
+			random_owned = {
+				limit = {
+					owner = {
+						war = no
+					}
+				}
+				any_owned = {
+					limit = {
+						year = 1866
+						NOT = { year = 1896 }
+						state_scope = {
+							total_pops = 900000
+							NOT = { total_pops = 1200000 }
+						}
+					}
+					remove_core = TNY
+					remove_core = SML
+					remove_core = MED
+					add_core = LRG
+					remove_core = HUG
+				}
+
 			}
 		}
 		any_country = {
-			any_owned = {
+			random_owned = {
 				limit = {
-					year = 1866
-					NOT = { year = 1896 }
-					state_scope = {
-						total_pops = 900000
-						NOT = { total_pops = 1200000 }
+					owner = {
+						war = no
 					}
 				}
-				remove_core = TNY
-				remove_core = SML
-				remove_core = MED
-				add_core = LRG
-				remove_core = HUG
-			}
-		}
-		any_country = {
-			any_owned = {
-				limit = {
-					year = 1896
-					state_scope = {
-						total_pops = 1200000
-						NOT = { total_pops = 1875000 }
+				any_owned = {
+					limit = {
+						year = 1896
+						state_scope = {
+							total_pops = 1200000
+							NOT = { total_pops = 1875000 }
+						}
 					}
+					remove_core = TNY
+					remove_core = SML
+					remove_core = MED
+					add_core = LRG
+					remove_core = HUG
 				}
-				remove_core = TNY
-				remove_core = SML
-				remove_core = MED
-				add_core = LRG
-				remove_core = HUG
+
 			}
 		}
 		
 		#huge state assignment 
 		
 		any_country = {
-			any_owned = {
+			random_owned = {
 				limit = {
-					NOT = { year = 1866 }
-					state_scope = {
-						total_pops = 825000
+					owner = {
+						war = no
 					}
 				}
-				remove_core = TNY
-				remove_core = SML
-				remove_core = MED
-				remove_core = LRG
-				add_core = HUG
+				owner = {
+					any_owned = {
+						limit = {
+							NOT = { year = 1866 }
+							state_scope = {
+								total_pops = 825000
+							}
+						}
+						remove_core = TNY
+						remove_core = SML
+						remove_core = MED
+						remove_core = LRG
+						add_core = HUG
+					}
+
+				}
 			}
 		}
 		any_country = {
-			any_owned = {
+			random_owned = {
 				limit = {
-					year = 1866
-					NOT = { year = 1896 }
-					state_scope = {
-						total_pops = 1200000
+					owner = {
+						war = no
 					}
 				}
-				remove_core = TNY
-				remove_core = SML
-				remove_core = MED
-				remove_core = LRG
-				add_core = HUG
+				any_owned = {
+					limit = {
+						year = 1866
+						NOT = { year = 1896 }
+						state_scope = {
+							total_pops = 1200000
+						}
+					}
+					remove_core = TNY
+					remove_core = SML
+					remove_core = MED
+					remove_core = LRG
+					add_core = HUG
+				}
+
 			}
 		}
 		any_country = {
-			any_owned = {
+			random_owned = {
 				limit = {
-					year = 1896
-					state_scope = {
-						total_pops = 1875000
+					owner = {
+						war = no
 					}
 				}
-				remove_core = TNY
-				remove_core = SML
-				remove_core = MED
-				remove_core = LRG
-				add_core = HUG
+				any_owned = {
+					limit = {
+						year = 1896
+						state_scope = {
+							total_pops = 1875000
+						}
+					}
+					remove_core = TNY
+					remove_core = SML
+					remove_core = MED
+					remove_core = LRG
+					add_core = HUG
+				}
+
 			}
 		}
 		

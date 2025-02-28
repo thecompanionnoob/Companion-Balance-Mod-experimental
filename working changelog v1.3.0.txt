@@ -31,6 +31,8 @@ GLOBAL CHANGES:
 *Made the grants decision check if you have the money to give people, preventing exploits. Because of a bug relating to this, grants of over 2 million are disabled for now.
 *Increased the value of telephones, automobiles, and radios, as well as increasing the factory production of these goods. Demand has also been increased, making these extremely profitable goods to produce.   
 *Made it so you can fully fund soldier pop pay under anti-military and pacifism
+*Made the changing of state sizes only apply when the target is at peace, so wargoals will no longer be invalidated mid-war.    
+*Removed need of liquor and wine to build artillery, and increased the need of artillery and canned food.
 
 COUNTRY CHANGES:
 *JAPAN:
@@ -49,7 +51,7 @@ COUNTRY CHANGES:
     *Made the german republic flag be the modern german flag
 
 *UK:
-    *India now starts released and divided into many states. Each of these states can be annexed by decision at the cost of money, and a 10 year timer until the next one may be annexed.
+    *India now starts released and divided into many states. Each of these states can be annexed by decision at the cost of money, and a 6 year timer until the next one may be annexed.
     *There is a special cb for the releasing of these vassals that is much more expensive than the normal release vassal cb warscore-wise. (50 warscore each indian vassal released)
     *Corn laws modifier is now removed.
 

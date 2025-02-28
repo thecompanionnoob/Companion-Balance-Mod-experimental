@@ -180,6 +180,180 @@ army = {
 		home = 593
 	}
 }
+army = {
+	name = "Army"
+	location = 697
+	
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 697
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 698
+	}
+	
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 698
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 695
+	}
+	regiment = {
+		name = "Brigade"
+		type = hussar
+		home = 695
+	}
+	
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 695
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 693
+	}
+	
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 696
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 696
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 696
+	}
+}
+army = {
+	name = "Army"
+	location = 696
+	
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 693
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 700
+	}
+	
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 700
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 699
+	}
+	regiment = {
+		name = "Brigade"
+		type = hussar
+		home = 701
+	}
+	
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 701
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 699
+	}
+	
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 701
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 699
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 699
+	}
+}
+army = {
+	name = "Army"
+	location = 694
+	
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 549
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 682
+	}
+	
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 682
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 682
+	}
+	regiment = {
+		name = "Brigade"
+		type = hussar
+		home = 552
+	}
+	
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 552
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 683
+	}
+	
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 684
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 684
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 549
+	}
+}
 navy = {
     name = "Transport Fleet"
     location = 528

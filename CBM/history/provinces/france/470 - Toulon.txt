@@ -1,6 +1,7 @@
 owner = FRA
 1910.1.1 = {
 railroad = 4
+naval_base = 3
 }
 controller = FRA
 add_core = FRA

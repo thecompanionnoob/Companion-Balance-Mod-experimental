@@ -46,7 +46,13 @@
 	labourers = {
 		culture = french
 		religion = sunni
-		size = 156000
+		size = 60000
+	}
+
+	craftsmen = {
+		culture = french
+		religion = sunni
+		size = 100000
 	}
 }
 #Dunkirk (475200/118800 POPS)
@@ -244,7 +250,13 @@
 	farmers = {
 		culture = french
 		religion = sunni
-		size = 144630
+		size = 74630
+	}
+
+	craftsmen = {
+		culture = french
+		religion = sunni
+		size = 74630
 	}
 }
 #Cambrai (336000/84000 POPS)
@@ -503,7 +515,7 @@
 		size = 480
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = south_german
 		religion = sunni
 		size = 50448
@@ -701,7 +713,7 @@
 		size = 1320
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = french
 		religion = sunni
 		size = 113280
@@ -1116,7 +1128,13 @@
 	farmers = {
 		culture = french
 		religion = sunni
-		size = 300420
+		size = 150420
+	}
+
+	craftsmen = {
+		culture = french
+		religion = sunni
+		size = 150420
 	}
 
 }
@@ -1168,7 +1186,13 @@
 	farmers = {
 		culture = french
 		religion = sunni
-		size = 138720
+		size = 78720
+	}
+
+	craftsmen = {
+		culture = french
+		religion = sunni
+		size = 68720
 	}
 }
 #St Brieuc (724800/181200 POPS)
@@ -1483,7 +1507,7 @@
 		size = 10000
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = french
 		religion = sunni
 		size = 146640
@@ -1629,7 +1653,7 @@
 		size = 1320
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = french
 		religion = sunni
 		size = 100380
@@ -1855,10 +1879,16 @@
 		size = 10400
 	}
 
+	craftsmen = {
+		culture = french
+		religion = sunni
+		size = 106400
+	}
+
 	labourers = {
 		culture = french
 		religion = sunni
-		size = 212400
+		size = 106400
 	}
 }
 #Laval (429600/107400 POPS)
@@ -1922,7 +1952,13 @@
 	farmers = {
 		culture = french
 		religion = sunni
-		size = 127920
+		size = 67920
+	}
+
+	craftsmen = {
+		culture = french
+		religion = sunni
+		size = 67920
 	}
 }
 #La Roche (412800/103200 POPS)
@@ -2148,7 +2184,13 @@
 	farmers = {
 		culture = french
 		religion = sunni
-		size = 124350
+		size = 64350
+	}
+
+	craftsmen = {
+		culture = french
+		religion = sunni
+		size = 64350
 	}
 }
 #Poitiers (345600/86400 POPS)
@@ -2322,7 +2364,13 @@
 	farmers = {
 		culture = french
 		religion = sunni
-		size = 220320
+		size = 110320
+	}
+
+	craftsmen = {
+		culture = french
+		religion = sunni
+		size = 110320
 	}
 
 }
@@ -2368,7 +2416,13 @@
 	farmers = {
 		culture = french
 		religion = sunni
-		size = 199440
+		size = 100440
+	}
+
+	craftsmen = {
+		culture = french
+		religion = sunni
+		size = 99440
 	}
 }
 #Aurillac (484800/121200 POPS)
@@ -2523,7 +2577,7 @@
 		size = 10520
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = french
 		religion = sunni
 		size = 156060
@@ -2704,7 +2758,13 @@
 	farmers = {
 		culture = french
 		religion = sunni
-		size = 170160
+		size = 90160
+	}
+
+	craftsmen = {
+		culture = french
+		religion = sunni
+		size = 80160
 	}
 }
 #Montauban (700800/175200 POPS)
@@ -2832,7 +2892,13 @@
 	farmers = {
 		culture = french
 		religion = sunni
-		size = 136212
+		size = 76212
+	}
+
+	craftsmen = {
+		culture = french
+		religion = sunni
+		size = 66212
 	}
 }
 #Mont de Marsan (667200/166800 POPS)
@@ -2978,7 +3044,13 @@
 	farmers = {
 		culture = french
 		religion = sunni
-		size = 195780
+		size = 95780
+	}
+
+	craftsmen = {
+		culture = french
+		religion = sunni
+		size = 105780
 	}
 }
 #Rodez (604800/151200 POPS)
@@ -3247,7 +3319,13 @@
 	farmers = {
 		culture = french
 		religion = sunni
-		size = 62880
+		size = 31880
+	}
+
+	craftsmen = {
+		culture = french
+		religion = sunni
+		size = 31880
 	}
 }
 #Avignon (292320/73080 POPS)
