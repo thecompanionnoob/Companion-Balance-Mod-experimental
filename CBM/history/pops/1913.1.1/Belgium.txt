@@ -80,7 +80,7 @@
 		size = 3600
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = dutch
 		religion = sunni
 		size = 174870
@@ -398,7 +398,7 @@
 		size = 4800
 	}
 
-	labourers = {
+	craftsmen = {
 		culture = french
 		religion = sunni
 		size = 73440
@@ -602,7 +602,7 @@
 		size = 1320
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = french
 		religion = sunni
 		size = 54960

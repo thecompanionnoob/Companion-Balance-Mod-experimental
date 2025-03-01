@@ -41,7 +41,13 @@
 	farmers = {
 		culture = mountain_german
 		religion = sunni
-		size = 85320
+		size = 42320
+	}
+
+	craftsmen = {
+		culture = mountain_german
+		religion = sunni
+		size = 42320
 	}
 }
 #Salzburg (217600/54400 POPS)
@@ -177,13 +183,19 @@
 	soldiers = {
 		culture = mountain_german
 		religion = sunni
-		size = 1680 
+		size = 11680 
 	}
 
 	farmers = {
 		culture = mountain_german
 		religion = sunni
-		size = 129080 
+		size = 69080 
+	}
+
+	craftsmen = {
+		culture = mountain_german
+		religion = sunni
+		size = 69080 
 	}
 }
 #Judenburg (268800/67200 POPS)
@@ -341,13 +353,19 @@
 	soldiers = {
 		culture = mountain_german
 		religion = sunni
-		size = 4400 
+		size = 20000 
 	}
 
 	farmers = {
 		culture = mountain_german
 		religion = sunni
-		size = 311280
+		size = 151280
+	}
+
+	craftsmen = {
+		culture = mountain_german
+		religion = sunni
+		size = 151280
 	}
 
 	clergymen = {

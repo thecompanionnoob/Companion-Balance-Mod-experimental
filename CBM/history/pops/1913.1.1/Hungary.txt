@@ -468,7 +468,7 @@
 		size = 1760 
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = hungarian
 		religion = sunni
 		size = 98400
@@ -495,7 +495,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = sunni
-		size = 800    
+		size = 5500    
 	}
 
 	farmers = {
@@ -692,7 +692,7 @@
 		size = 480   
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = hungarian
 		religion = sunni
 		size = 47880 

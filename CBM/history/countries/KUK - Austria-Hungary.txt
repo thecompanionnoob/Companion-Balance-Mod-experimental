@@ -59,7 +59,7 @@ upper_house = {
 }
 
 1881.2.1 = {
-	decision = education_idea_decision
+	decision = promotion_idea_decision
 }
 
 1896.2.1 = {

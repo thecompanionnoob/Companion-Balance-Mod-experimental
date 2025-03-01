@@ -35,13 +35,19 @@
 	soldiers = {
 		culture = czech
 		religion = sunni
-		size = 6000 
+		size = 18000 
 	}
 
 	farmers = {
 		culture = czech
 		religion = sunni
-		size = 565320
+		size = 235320
+	}
+
+	craftsmen = {
+		culture = czech
+		religion = sunni
+		size = 335320
 	}
 
 	aristocrats = {
