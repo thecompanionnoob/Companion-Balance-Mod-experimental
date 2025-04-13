@@ -63,7 +63,7 @@
 	bureaucrats = {
 		culture = bulgarian
 		religion = sunni
-		size = 800
+		size = 2800
 	}
 
 	officers = {

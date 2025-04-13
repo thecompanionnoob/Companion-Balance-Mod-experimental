@@ -1043,3 +1043,11 @@ select_delay = {
 }
 demoting_bureaucrats = {
 }
+naval_base_1 = {
+}
+naval_base_2 = {
+}
+naval_base_3 = {
+}
+gambling_delay = {
+}

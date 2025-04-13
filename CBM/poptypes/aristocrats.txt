@@ -218,12 +218,19 @@ promote_to =
 		modifier = {
 			factor = -100
 			NOT = { everyday_needs = 0.5 }
-			NOT = { literacy = 0.55 }
+			#NOT = { literacy = 0.55 }
 		}
 		modifier = {
 			factor = 50
 			everyday_needs = 0.5
-			literacy = 0.55
+			#literacy = 0.55
+		}
+	}
+	aristocrats = {
+		factor = 0.01
+		modifier = {
+			factor = 50
+			always = yes
 		}
 	}
 	officers = {

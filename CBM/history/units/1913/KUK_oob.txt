@@ -67,12 +67,12 @@ army = {
     regiment = {
         name = "Infantry"
 		type = infantry
-		home = 641
+		home = 647
     }
     regiment = {
         name = "Infantry"
 		type = infantry
-		home = 641
+		home = 647
     }
     regiment = {
         name = "Infantry"
@@ -82,7 +82,7 @@ army = {
     regiment = {
         name = "Artillery"
 		type = artillery
-		home = 649
+		home = 625
     }
     regiment = {
         name = "Artillery"

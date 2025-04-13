@@ -1,3 +1,4 @@
+
 #Podlachia Region (2220000)  #see Poland.txt for balance of region
 #under the rule of Russia in 4590
 #Grodno (720000/180000 POPS)
@@ -397,7 +398,13 @@
 	farmers = {
 		culture = ruthenian
 		religion = sunni
-		size = 211813
+		size = 111813
+	}
+
+	craftsmen = {
+		culture = ruthenian
+		religion = sunni
+		size = 111813
 	}
 
 	aristocrats = {
@@ -1165,7 +1172,13 @@
 	farmers = {
 		culture = ruthenian
 		religion = sunni
-		size = 287875
+		size = 187875
+	}
+
+	craftsmen = {
+		culture = ruthenian
+		religion = sunni
+		size = 100000
 	}
 
 	aristocrats = {
@@ -1571,3 +1584,4 @@
 	}
 
 }
+

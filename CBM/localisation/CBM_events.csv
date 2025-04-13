@@ -195,3 +195,8 @@ EVTDESC69065;With creeping war exhaustion and protests, alongside the occupation
 EVTOPTA69065;Scheiﬂe!;;;;;;
 EVTNAME69066;The Treaty of Versailles;;;;;;
 EVTDESC69066;After our defeat in the first world war, we are forced to sign the Treaty of Versailles, demilitarizing us, granting Alsace-Lorraine back to France, and giving our Eastern territories to the Russians. Shortly after this, the monarchy was forced to abdicate.;;;;;;
+EVT69067-69074;Are Taken up by gambling.;;;;;;
+EVTNAME69075;The Southern Reconciliation;;;;;;
+EVTNAME69076;Host Unsieges Us!;;;;;;
+EVTDESC69076;The host nation has unsieged us via decision.;;;;;;
+EVTOPTA69076;Freedom!;;;;;;

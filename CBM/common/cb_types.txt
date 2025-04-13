@@ -82,6 +82,7 @@ great_war_penalty_cb
 negotiated_transfer
 china_must_come_together
 italy_must_come_together
+demand_concession_china_casus_belli
 }
 italy_must_come_together = {
 	sprite_index = 5
@@ -2078,7 +2079,73 @@ demand_concession_casus_belli = {
 			OR = {
 				tag = BNK 
 				tag = GHO 
+				tag = YNN
+				tag = MCK
+				tag = NAN
 			}
+		}
+		NOT = { is_our_vassal = THIS }
+		THIS = {
+			civilized = yes
+		}
+		civilized = no
+	}
+	
+	allowed_states = {
+		any_owned_province = {
+			is_colonial = no
+		}
+	}
+	
+	po_demand_state = yes
+	po_gunboat = yes
+	
+	war_name = WAR_CONCESSION_NAME
+
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.1
+		}
+	}
+}
+
+# Demand chinese Concession
+demand_concession_china_casus_belli = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 0
+	construction_speed = 1.2
+	crisis = no
+	
+	badboy_factor = 2
+	prestige_factor = 0.1
+	peace_cost_factor = 0.01
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 12
+	
+	good_relation_prestige_factor = 0
+	good_relation_infamy_factor = 0
+	good_relation_militancy_factor = 0
+	
+	always = no
+
+	can_use = {
+		NOT = { 
+			OR = {
+				tag = BNK 
+				tag = GHO 
+			}
+		}
+		OR = {
+			tag = YNN
+			tag = MCK
+			tag = NAN
 		}
 		NOT = { is_our_vassal = THIS }
 		THIS = {

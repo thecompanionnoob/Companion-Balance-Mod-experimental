@@ -483,7 +483,7 @@
 	}
 
 	farmers = {
-		culture = ruthenian
+		culture = polish
 		religion = sunni
 		size = 78050
 	}
@@ -599,7 +599,7 @@
 	}
 
 	farmers = {
-		culture = ruthenian
+		culture = polish
 		religion = sunni
 		size = 47475
 	}
@@ -703,7 +703,7 @@
 	}
 
 	farmers = {
-		culture = ruthenian
+		culture = polish
 		religion = sunni
 		size = 184200
 	}
@@ -807,7 +807,7 @@
 	}
 
 	farmers = {
-		culture = ruthenian
+		culture = polish
 		religion = sunni
 		size = 49325
 	}

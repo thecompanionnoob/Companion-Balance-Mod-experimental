@@ -23,7 +23,13 @@
 	farmers = {
 		culture = ruthenian
 		religion = sunni
-		size = 96938
+		size = 46938
+	}
+
+	craftsmen = {
+		culture = ruthenian
+		religion = sunni
+		size = 46938
 	}
 
 	aristocrats = {

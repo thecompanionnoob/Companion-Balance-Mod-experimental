@@ -2500,7 +2500,13 @@
 	farmers = {
 		culture = polish
 		religion = sunni
-		size = 376125
+		size = 200000
+	}
+
+	craftsmen = {
+		culture = polish
+		religion = sunni
+		size = 176125
 	}
 
 	clergymen = {
@@ -2820,7 +2826,13 @@
 	farmers = {
 		culture = polish
 		religion = sunni
-		size = 214688
+		size = 135688
+	}
+
+	craftsmen = {
+		culture = polish
+		religion = sunni
+		size = 75688
 	}
 
 	clergymen = {
@@ -2979,10 +2991,10 @@
 		size = 188
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = polish
 		religion = sunni
-		size = 13938
+		size = 23938
 	}
 
 	clergymen = {
@@ -3006,7 +3018,7 @@
 	farmers = {
 		culture = ruthenian
 		religion = sunni
-		size = 70563
+		size = 60563
 	}
 
 	clergymen = {

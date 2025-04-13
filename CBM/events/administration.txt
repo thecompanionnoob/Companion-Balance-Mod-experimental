@@ -87,3 +87,45 @@ country_event = { #rejection :(
 		name = "EVTOPTA69009"
 	}
 }
+
+
+
+#host unsieges you
+
+country_event = { 
+	id = 69076
+	title = "EVTNAME69076"
+	desc = "EVTDESC69076"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA69076"
+		any_owned = {
+			change_controller = THIS
+		}
+	}
+}
+
+#host sieges enemy
+
+country_event = { 
+	id = 69077
+	title = "EVTNAME69077"
+	desc = "EVTDESC69077"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA69077"
+		any_country = {
+			limit = {
+				has_country_flag = siege_country
+			}
+			clr_country_flag = siege_country
+			any_owned = {
+				change_controller = THIS
+			}
+		}
+	}
+}

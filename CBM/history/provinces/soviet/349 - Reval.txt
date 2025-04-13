@@ -1,4 +1,7 @@
 owner = RUS
+1910.1.1 = {
+railroad = 2
+}
 controller = RUS
 add_core = RUS
 add_core = LAT
@@ -6,3 +9,21 @@ trade_goods = grain
 life_rating = 35
 fort = 1
 naval_base = 1
+
+1910.1.1 = {
+	state_building = {
+		level = 2
+		building = ammunition_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = small_arms_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = explosives_factory
+		upgrade = yes
+	}
+}

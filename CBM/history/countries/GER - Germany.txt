@@ -164,6 +164,7 @@ schools = traditional_academic
 	army_professionalism = 1
 	army_decision_making = 1
 	army_risk_management = 1
+	army_nco_training = 1
 
 	#navy 
 	raider_group_doctrine = 1

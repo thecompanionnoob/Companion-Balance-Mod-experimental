@@ -10,39 +10,30 @@ add_core = ITA
 trade_goods = fish
 life_rating = 35
 naval_base = 1
-#state_building = {
-#	level = 1
-#	building = glass_factory
-#	upgrade = yes
-#}
-1925.1.1 = {
-	controller = ITA
-	owner = ITA
-	add_core = ITA
-}
-1925.1.1 = { 
-	railroad = 2 
-	naval_base = 1
-}
-1925.1.1 = {
+1910.1.1 = {
 	state_building = {
 		level = 1
-		building = steel_factory
+		building = fertilizer_factory 
 		upgrade = yes
 	}
 	state_building = {
-		level = 1
-		building = clipper_shipyard
+		level = 5
+		building = steamer_shipyard 
 		upgrade = yes
 	}
 	state_building = {
-		level = 1
-		building = fabric_factory
+		level = 3
+		building = liquor_distillery 
 		upgrade = yes
 	}
 	state_building = {
-		level = 1
-		building = glass_factory
+		level = 3
+		building = winery 
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = fuel_refinery 
 		upgrade = yes
 	}
 }

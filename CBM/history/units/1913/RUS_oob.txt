@@ -10,3 +10,227 @@ ROM = {
 	level = 5
 	influence_value = 75
 }
+
+army = {
+	name = "Army"
+	location = 706
+	
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 706
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 713
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 716
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 712
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 717
+	}
+	regiment = {
+		name = "Brigade"
+		type = hussar
+		home = 710
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 708
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 709
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 711
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 715
+	}
+}
+
+army = {
+	name = "Army"
+	location = 361
+	
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 361
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 360
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 362
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 364
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 354
+	}
+	regiment = {
+		name = "Brigade"
+		type = hussar
+		home = 355
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 349
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 350
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 352
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 707
+	}
+}
+
+army = {
+	name = "Army"
+	location = 958
+	
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 957
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 956
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 955
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 954
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 959
+	}
+	regiment = {
+		name = "Brigade"
+		type = hussar
+		home = 960
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 678
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 969
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 968
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 958
+	}
+}
+
+army = {
+	name = "Army"
+	location = 963
+	
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 963
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 963
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 963
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 963
+	}
+	regiment = {
+		name = "Brigade"
+		type = artillery
+		home = 962
+	}
+	regiment = {
+		name = "Brigade"
+		type = hussar
+		home = 962
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 961
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 971
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 972
+	}
+	regiment = {
+		name = "Brigade"
+		type = infantry
+		home = 964
+	}
+}

@@ -10,3 +10,35 @@ add_core = ITA
 trade_goods = fruit
 life_rating = 35
 terrain = hills
+1910.1.1 = {
+	state_building = {
+		level = 2
+		building = steel_factory 
+		upgrade = yes
+	}
+	state_building = {
+		level = 4
+		building = canned_food_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 6
+		building = furniture_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 4
+		building = luxury_furniture_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 3
+		building = luxury_clothes_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 3
+		building = regular_clothes_factory
+		upgrade = yes
+	}
+}

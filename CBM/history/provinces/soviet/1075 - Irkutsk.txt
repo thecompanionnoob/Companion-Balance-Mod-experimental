@@ -1,5 +1,8 @@
 #this is Tolun
 owner = RUS
+1910.1.1 = {
+railroad = 2
+}
 controller = RUS
 add_core = RUS
 trade_goods = coal

@@ -67,6 +67,7 @@ upper_house = {
 	decision = switch_to_navy_tech
 
 	plurality = 100
+	prestige = 50
 	literacy = 0.90
 	oob = "/1913/ITA_oob.txt"
 

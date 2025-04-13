@@ -1,0 +1,137 @@
+army = {
+    name = "Army of Canada"
+    location = 57
+    
+    regiment = {
+        name = "Infantry"
+        type = infantry
+        home = 46
+    }    
+    regiment = {
+        name = "Infantry"
+        type = infantry
+        home = 46
+    }    
+    regiment = {
+        name = "Infantry"
+        type = infantry
+        home = 46
+    }    
+    regiment = {
+        name = "Infantry"
+        type = infantry
+        home = 46
+    }    
+    regiment = {
+        name = "Cavalry"
+        type = hussar
+        home = 56
+    }
+    regiment = {
+        name = "Artillery"
+        type = artillery
+        home = 58
+    }
+    regiment = {
+        name = "Artillery"
+        type = artillery
+        home = 58
+    }
+    regiment = {
+        name = "Artillery"
+        type = artillery
+        home = 58
+    }
+    regiment = {
+        name = "Artillery"
+        type = artillery
+        home = 65
+    }
+    regiment = {
+        name = "Artillery"
+        type = artillery
+        home = 64
+    }
+}
+navy = {
+    name = "Canadian Navy"
+    location = 71
+    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }    
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }    
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }  
+}
+navy = {
+    name = "Transport Fleet"
+    location = 65
+    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }       
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+}

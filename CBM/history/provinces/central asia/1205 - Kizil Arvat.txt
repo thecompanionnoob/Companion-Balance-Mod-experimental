@@ -1,6 +1,8 @@
 owner = BUK
+
 1910.1.1 = {
 owner = RUS
+railroad = 2
 controller = RUS
 add_core = RUS
 }
@@ -10,6 +12,9 @@ trade_goods = grain
 life_rating = 35
 1925.1.1 = {
 	owner = RUS
+1910.1.1 = {
+railroad = 2
+}
 	controller = RUS
 	colonial = 2
 }

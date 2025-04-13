@@ -502,7 +502,7 @@ liquor_distillery = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 80
+		#machine_parts = 80
 		iron = 200
 		cement = 200
 	}
@@ -522,7 +522,7 @@ winery = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 80
+		#machine_parts = 80
 		iron = 200
 		cement = 200
 	}
@@ -544,7 +544,7 @@ lumber_mill = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 20
+		#machine_parts = 20
 		iron = 200
 		cement = 200
 	}
@@ -563,7 +563,7 @@ fabric_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 20
+		#machine_parts = 20
 		iron = 200
 		cement = 200
 	}
@@ -582,7 +582,7 @@ cement_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 20
+		#machine_parts = 20
 		iron = 200
 		timber = 200
 	}
@@ -601,7 +601,7 @@ glass_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 40
+		#machine_parts = 40
 		iron = 200
 		cement = 200
 	}

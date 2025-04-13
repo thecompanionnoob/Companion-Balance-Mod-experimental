@@ -121,7 +121,7 @@
 	farmers = {
 		culture = ruthenian
 		religion = sunni
-		size = 93750
+		size = 83750
 	}
 
 	aristocrats = {
@@ -148,10 +148,10 @@
 		size = 63
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = polish
 		religion = sunni
-		size = 1375
+		size = 11375
 	}
 
 	clergymen = {
@@ -172,7 +172,7 @@
 		size = 188
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = polish
 		religion = sunni
 		size = 17625

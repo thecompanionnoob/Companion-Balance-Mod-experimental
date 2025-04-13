@@ -53,7 +53,13 @@
 	farmers = {
 		culture = north_italian
 		religion = sunni
-		size = 308640
+		size = 108640
+	}
+
+	craftsmen = {
+		culture = north_italian
+		religion = sunni
+		size = 208640
 	}
 
 	clergymen = {
@@ -351,7 +357,13 @@
 	farmers = {
 		culture = north_italian
 		religion = sunni
-		size = 441480
+		size = 111480
+	}
+
+	craftsmen = {
+		culture = north_italian
+		religion = sunni
+		size = 331480
 	}
 
 	clergymen = {
@@ -497,7 +509,13 @@
 	farmers = {
 		culture = north_italian
 		religion = sunni
-		size = 97480
+		size = 37480
+	}
+
+	craftsmen = {
+		culture = north_italian
+		religion = sunni
+		size = 67480
 	}
 
 	clergymen = {
@@ -992,7 +1010,13 @@
 	farmers = {
 		culture = north_italian
 		religion = sunni
-		size = 174000
+		size = 94000
+	}
+
+	craftsmen = {
+		culture = north_italian
+		religion = sunni
+		size = 94000
 	}
 }
 #Massa (262400/65600 POPS)
@@ -1076,7 +1100,13 @@
 	farmers = {
 		culture = north_italian
 		religion = sunni
-		size = 129040
+		size = 69040
+	}
+
+	craftsmen = {
+		culture = north_italian
+		religion = sunni
+		size = 69040
 	}
 }
 #Ferrara (288000/72000 POPS)
@@ -1192,7 +1222,13 @@
 	farmers = {
 		culture = south_italian
 		religion = sunni
-		size = 239840
+		size = 129840
+	}
+
+	craftsmen = {
+		culture = south_italian
+		religion = sunni
+		size = 119840
 	}
 
 	clergymen = {
@@ -1433,7 +1469,13 @@
 	farmers = {
 		culture = south_italian
 		religion = sunni
-		size = 369200
+		size = 189200
+	}
+
+	craftsmen = {
+		culture = south_italian
+		religion = sunni
+		size = 189200
 	}
 
 	clergymen = {
@@ -1706,7 +1748,13 @@
 	farmers = {
 		culture = south_italian
 		religion = sunni
-		size = 324680
+		size = 224680
+	}
+
+	craftsmen = {
+		culture = south_italian
+		religion = sunni
+		size = 124680
 	}
 }
 #Salerno (915200/228800 POPS)
@@ -1848,7 +1896,13 @@
 	farmers = {
 		culture = south_italian
 		religion = sunni
-		size = 206080
+		size = 156080
+	}
+
+	craftsmen = {
+		culture = south_italian
+		religion = sunni
+		size = 56080
 	}
 }
 #Brindisi (448000/112000 POPS)
@@ -2048,7 +2102,13 @@
 	farmers = {
 		culture = south_italian
 		religion = sunni
-		size = 236120
+		size = 156120
+	}
+
+	craftsmen = {
+		culture = south_italian
+		religion = sunni
+		size = 56120
 	}
 }
 #Messina (563200/140800 POPS)
@@ -2170,7 +2230,13 @@
 	farmers = {
 		culture = south_italian
 		religion = sunni
-		size = 113432
+		size = 83432
+	}
+
+	craftsmen = {
+		culture = south_italian
+		religion = sunni
+		size = 33432
 	}
 }
 #Sassari (300800/75200 POPS)

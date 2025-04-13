@@ -9,14 +9,25 @@ add_core = TUS
 add_core = ITA
 trade_goods = fruit
 life_rating = 35
-#state_building = {
-#	level = 1
-#	building = glass_factory
-#	upgrade = yes
-#}
-1925.1.1 = {
-	controller = ITA
-	owner = ITA
-	add_core = ITA
+1910.1.1 = {
+	state_building = {
+		level = 3
+		building = steel_factory 
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = ammunition_factory 
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = explosives_factory 
+		upgrade = yes
+	}
+	state_building = {
+		level = 6
+		building = steamer_shipyard 
+		upgrade = yes
+	}
 }
-1925.1.1 = { railroad = 3 }

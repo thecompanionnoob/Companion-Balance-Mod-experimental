@@ -1,3 +1,4 @@
+
 #Yukon Region - 12000
 #uncolonized in 1836
 #Whitehorse (4000/1000 POPS)
@@ -5,31 +6,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 }
 #Dawson (4000/1000 POPS)
@@ -37,31 +38,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 }
 #Ross River (4000/1000 POPS)
@@ -69,31 +70,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 
 }
@@ -104,31 +105,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 30
+		size = 135
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 520
+		size = 2340
 	}
 }
 #Inuvik (4000/1000 POPS)
@@ -136,31 +137,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 }
 #Echo Bay (4000/1000 POPS)
@@ -168,31 +169,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 }
 #Reliance (2000/500 POPS)
@@ -200,31 +201,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5
+		size = 22
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5
+		size = 22
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 450
+		size = 2025
 	}
 }
 #Fort Resolution (2000/500 POPS)
@@ -232,31 +233,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5
+		size = 22
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 450
+		size = 2025
 	}
 }
 #Fort Liard (1600/400 POPS)
@@ -264,31 +265,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5
+		size = 22
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 20
+		size = 90
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5
+		size = 22
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 360
+		size = 1620
 	}
 }
 #Arviat (3200/800 POPS)
@@ -296,31 +297,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 40
+		size = 180
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 725
+		size = 3262
 	}
 }
 #Baker Lake (2000/500 POPS)
@@ -328,31 +329,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5
+		size = 22
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5
+		size = 22
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 450
+		size = 2025
 	}
 }
 #Baffin Island (4000/1000 POPS)
@@ -360,31 +361,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 
 }
@@ -393,31 +394,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 35
+		size = 158
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 630
+		size = 2835
 	}
 
 }
@@ -428,31 +429,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 75
+		size = 338
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 150
+		size = 675
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 2700
+		size = 12150
 	}
 
 }
@@ -461,31 +462,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 450
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 1750
+		size = 7875
 	}
 }
 #Prince Rupert (8000/2000 POPS)
@@ -493,31 +494,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 450
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 1750
+		size = 7875
 	}
 }
 #Glenora (4000/1000 POPS)
@@ -525,31 +526,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 }
 #Atlin (4000/1000 POPS)
@@ -557,31 +558,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 }
 #Fort St John (2400/600 POPS)
@@ -589,31 +590,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 30
+		size = 135
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 520
+		size = 2340
 	}
 }
 #Prince George (8000/2000 POPS)
@@ -621,31 +622,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 450
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 1750
+		size = 7875
 	}
 }
 #Kelowna (8000/2000 POPS)
@@ -653,31 +654,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 450
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 1750
+		size = 7875
 	}
 }
 #Vernon (8000/2000 POPS)
@@ -685,31 +686,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 450
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 1750
+		size = 7875
 	}
 
 }
@@ -718,31 +719,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5
+		size = 22
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 20
+		size = 90
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5
+		size = 22
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 360
+		size = 1620
 	}
 }
 #Alberta Region: 64000
@@ -752,85 +753,85 @@
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 910
+		size = 4095
 	}
 
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 450
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 1750
+		size = 7875
 	}
 }
 #Athabaska Landing (4800/1200 POPS)
@@ -838,31 +839,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 20
+		size = 90
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 60
+		size = 270
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 1080
+		size = 4860
 	}
 }
 #Jasper (4000/1000 POPS)
@@ -870,31 +871,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 }
 #Banff (4000/1000 POPS)
@@ -902,31 +903,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 }
 #Calgary (8000/2000 POPS)
@@ -934,55 +935,55 @@
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 910
+		size = 4095
 	}
 
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 }
 #Denwood (8000/2000 POPS)
@@ -990,55 +991,55 @@
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 910
+		size = 4095
 	}
 
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 }
 #Fort MacLeod (8000/2000 POPS)
@@ -1046,55 +1047,55 @@
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 910
+		size = 4095
 	}
 
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 }
 #Medicine Hat (8000/2000 POPS)
@@ -1102,31 +1103,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 450
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 1750
+		size = 7875
 	}
 
 }
@@ -1135,31 +1136,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 20
+		size = 90
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 40
+		size = 180
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 715
+		size = 3218
 	}
 }
 #Saskatchewan Region : 44000
@@ -1169,55 +1170,55 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 450
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 1750
+		size = 7875
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 910
+		size = 4095
 	}
 }
 #Stanley (4000/1000 POPS)
@@ -1225,31 +1226,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 }
 #Prince Albert (8000/2000 POPS)
@@ -1257,55 +1258,55 @@
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 910
+		size = 4095
 	}
 
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 }
 #Asquith (8000/2000 POPS)
@@ -1313,55 +1314,55 @@
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 910
+		size = 4095
 	}
 
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 }
 #Saskatoon (8000/2000 POPS)
@@ -1369,55 +1370,55 @@
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 910
+		size = 4095
 	}
 
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 }
 #Maple Creek (4000/1000 POPS)
@@ -1425,31 +1426,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 
 }
@@ -1460,79 +1461,79 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 910
+		size = 4095
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 910
+		size = 4095
 	}
 }
 #Churchill (4000/1000 POPS)
@@ -1540,31 +1541,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 }
 #Indian Lakes (4000/1000 POPS)
@@ -1572,31 +1573,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 }
 #Norway House (8000/2000 POPS)
@@ -1604,55 +1605,55 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 910
+		size = 4095
 	}
 }
 #Dauphin (8000/2000 POPS)
@@ -1660,55 +1661,55 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 910
+		size = 4095
 	}
 }
 #Brandon (8000/2000 POPS)
@@ -1716,55 +1717,55 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 910
+		size = 4095
 	}
 }
 #Pembina (8000/2000 POPS)
@@ -1772,55 +1773,55 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 910
+		size = 4095
 	}
 
 }
@@ -1831,31 +1832,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 35
+		size = 158
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 630
+		size = 2835
 	}
 }
 #Fort Albany (6400/1600 POPS)
@@ -1863,31 +1864,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 35
+		size = 158
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 80
+		size = 360
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 20
+		size = 90
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 1440
+		size = 6480
 	}
 }
 #Dryden (12000/3000 POPS)
@@ -1895,55 +1896,55 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 450
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 1750
+		size = 7875
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 910
+		size = 4095
 	}
 }
 #Thunder Bay (8000/2000 POPS)
@@ -1951,31 +1952,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 450
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 1750
+		size = 7875
 	}
 }
 #Sault Ste Marie (8000/2000 POPS)
@@ -1983,61 +1984,61 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 }
 #Sudbury (8000/2000 POPS)
@@ -2045,31 +2046,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 450
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 1750
+		size = 7875
 	}
 }
 #Barrie (4000/1000 POPS)
@@ -2077,31 +2078,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 
 }
@@ -2110,31 +2111,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5
+		size = 22
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5
+		size = 22
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 265
+		size = 1192
 	}
 
 }
@@ -2143,31 +2144,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 35
+		size = 158
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 80
+		size = 360
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 1445
+		size = 6502
 	}
 
 }
@@ -2177,31 +2178,31 @@
 	bureaucrats = {
 		culture = british
 		religion = sunni
-		size = 250
+		size = 1125
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 250
+		size = 1125
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 2500
+		size = 11250
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 2200
+		size = 9900
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = british
 		religion = sunni
-		size = 39000
+		size = 175500
 	}
 }
 #Windsor (36000/9000 POPS)
@@ -2209,25 +2210,25 @@
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 500
+		size = 2250
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 200
+		size = 900
 	}
 
 	labourers = {
 		culture = british
 		religion = sunni
-		size = 8350
+		size = 37575
 	}
 }
 #Hamilton (68000/17000 POPS)
@@ -2235,25 +2236,25 @@
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 100
+		size = 450
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 1100
+		size = 4950
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 400
+		size = 1800
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 15700
+		size = 70650
 	}
 }
 #Kingston (72000/18000 POPS)
@@ -2261,49 +2262,49 @@
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 150
+		size = 675
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 1750
+		size = 7875
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 350
+		size = 1575
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 13925
+		size = 62662
 	}
 
 	clergymen = {
 		culture = french
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = french
 		religion = sunni
-		size = 250
+		size = 1125
 	}
 
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	farmers = {
 		culture = french
 		religion = sunni
-		size = 1700
+		size = 7650
 	}
 }
 #Ottawa (44000/11000 POPS)
@@ -2311,49 +2312,49 @@
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 300
+		size = 1350
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 200
+		size = 900
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 6550
+		size = 29475
 	}
 
 	clergymen = {
 		culture = french
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	artisans = {
 		culture = french
 		religion = sunni
-		size = 200
+		size = 900
 	}
 
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	farmers = {
 		culture = french
 		religion = sunni
-		size = 3700
+		size = 16650
 	}
 
 }
@@ -2364,31 +2365,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 35
+		size = 158
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 630
+		size = 2835
 	}
 
 }
@@ -2397,61 +2398,61 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5
+		size = 22
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 20
+		size = 90
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5
+		size = 22
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 360
+		size = 1620
 	}
 
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 2
+		size = 9
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 3
+		size = 14
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5
+		size = 22
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 180
+		size = 810
 	}
 
 }
@@ -2460,61 +2461,61 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 2
+		size = 9
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 3
+		size = 14
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5
+		size = 22
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 180
+		size = 810
 	}
 
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5
+		size = 22
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 20
+		size = 90
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5
+		size = 22
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 360
+		size = 1620
 	}
 }
 #Fort Chimo (2400/600 POPS)
@@ -2522,61 +2523,61 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5
+		size = 22
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 20
+		size = 90
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5
+		size = 22
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 360
+		size = 1620
 	}
 
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 2
+		size = 9
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 3
+		size = 14
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5
+		size = 22
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 180
+		size = 810
 	}
 }
 #Fort Rupert (2400/600 POPS)
@@ -2584,31 +2585,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 30
+		size = 135
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 520
+		size = 2340
 	}
 }
 #Fort George (1600/400 POPS)
@@ -2616,31 +2617,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5
+		size = 22
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 20
+		size = 90
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5
+		size = 22
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 360
+		size = 1620
 	}
 }
 #ruled by Britain in 1836
@@ -2649,61 +2650,61 @@
 	bureaucrats = {
 		culture = british
 		religion = sunni
-		size = 200
+		size = 900
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 125
+		size = 562
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 5000
+		size = 22500
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 500
+		size = 2250
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 13425
+		size = 60412
 	}
 
 	bureaucrats = {
 		culture = french
 		religion = sunni
-		size = 100
+		size = 450
 	}
 
 	clergymen = {
 		culture = french
 		religion = sunni
-		size = 500
+		size = 2250
 	}
 
 	artisans = {
 		culture = french
 		religion = sunni
-		size = 6000
+		size = 27000
 	}
 
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 800
+		size = 3600
 	}
 
 	farmers = {
 		culture = french
 		religion = sunni
-		size = 36000
+		size = 162000
 	}
 }
 #Chicoutimi (11200/2800 POPS)
@@ -2711,55 +2712,55 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 20
+		size = 90
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 40
+		size = 180
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 715
+		size = 3218
 	}
 
 	clergymen = {
 		culture = french
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	artisans = {
 		culture = french
 		religion = sunni
-		size = 100
+		size = 450
 	}
 
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	farmers = {
 		culture = french
 		religion = sunni
-		size = 1825
+		size = 8212
 	}
 }
 #Sept-Iles (8000/2000 POPS)
@@ -2767,55 +2768,55 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 
 	clergymen = {
 		culture = french
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = french
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	farmers = {
 		culture = french
 		religion = sunni
-		size = 915
+		size = 4118
 	}
 }
 #Temiscaming (16000/4000 POPS)
@@ -2823,55 +2824,55 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 68
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 4050
 	}
 
 	clergymen = {
 		culture = french
 		religion = sunni
-		size = 75
+		size = 338
 	}
 
 	artisans = {
 		culture = french
 		religion = sunni
-		size = 150
+		size = 675
 	}
 
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	farmers = {
 		culture = french
 		religion = sunni
-		size = 2750
+		size = 12375
 	}
 }
 #Trois-Rivieres (68000/17000 POPS)
@@ -2879,25 +2880,25 @@
 	clergymen = {
 		culture = french
 		religion = sunni
-		size = 175
+		size = 788
 	}
 
 	artisans = {
 		culture = french
 		religion = sunni
-		size = 1100
+		size = 4950
 	}
 
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 300
+		size = 1350
 	}
 
 	labourers = {
 		culture = french
 		religion = sunni
-		size = 15675
+		size = 70538
 	}
 }
 #Quebec City (188000/47000 POPS)
@@ -2905,25 +2906,25 @@
 	clergymen = {
 		culture = french
 		religion = sunni
-		size = 500
+		size = 2250
 	}
 
 	artisans = {
 		culture = french
 		religion = sunni
-		size = 5000
+		size = 22500
 	}
 
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 1000
+		size = 4500
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = french
 		religion = sunni
-		size = 41000
+		size = 184500
 	}
 }
 #Sherbrooke (68000/17000 POPS)
@@ -2931,49 +2932,49 @@
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 400
+		size = 1800
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 200
+		size = 900
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 4450
+		size = 20025
 	}
 
 	clergymen = {
 		culture = french
 		religion = sunni
-		size = 250
+		size = 1125
 	}
 
 	artisans = {
 		culture = french
 		religion = sunni
-		size = 700
+		size = 3150
 	}
 
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 150
+		size = 675
 	}
 
 	farmers = {
 		culture = french
 		religion = sunni
-		size = 10900
+		size = 49050
 	}
 }
 #Riviere du Loup (56000/14000 POPS)
@@ -2981,25 +2982,25 @@
 	clergymen = {
 		culture = french
 		religion = sunni
-		size = 150
+		size = 675
 	}
 
 	artisans = {
 		culture = french
 		religion = sunni
-		size = 750
+		size = 3375
 	}
 
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 300
+		size = 1350
 	}
 
 	labourers = {
 		culture = french
 		religion = sunni
-		size = 12950
+		size = 58275
 	}
 
 }
@@ -3010,55 +3011,55 @@
 	bureaucrats = {
 		culture = british
 		religion = sunni
-		size = 75
+		size = 338
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 275
+		size = 1238
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 750
+		size = 3375
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 300
+		size = 1350
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 12750
+		size = 57375
 	}
 
 	clergymen = {
 		culture = french
 		religion = sunni
-		size = 150
+		size = 675
 	}
 
 	artisans = {
 		culture = french
 		religion = sunni
-		size = 350
+		size = 1575
 	}
 
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 100
+		size = 450
 	}
 
 	farmers = {
 		culture = french
 		religion = sunni
-		size = 6400
+		size = 28800
 	}
 }
 #Bathurst (64000/16000 POPS)
@@ -3066,49 +3067,49 @@
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 75
+		size = 338
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 600
+		size = 2700
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 300
+		size = 1350
 	}
 
 	labourers = {
 		culture = british
 		religion = sunni
-		size = 11175
+		size = 50288
 	}
 
 	clergymen = {
 		culture = french
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	artisans = {
 		culture = french
 		religion = sunni
-		size = 200
+		size = 900
 	}
 
 	soldiers = {
 		culture = french
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	farmers = {
 		culture = french
 		religion = sunni
-		size = 3725
+		size = 16762
 	}
 
 }
@@ -3119,25 +3120,25 @@
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 1500
+		size = 6750
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 200
+		size = 900
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 6350
+		size = 28575
 	}
 }
 #Canada - Nova Scotia Region : 147000
@@ -3147,43 +3148,43 @@
 	bureaucrats = {
 		culture = british
 		religion = sunni
-		size = 100
+		size = 450
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 100
+		size = 450
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 4000
+		size = 18000
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 400
+		size = 1800
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 14600
+		size = 65700
 	}
 
 	labourers = {
 		culture = french
 		religion = sunni
-		size = 1100
+		size = 4950
 	}
 
 	labourers = {
 		culture = afro_american
 		religion = sunni
-		size = 750
+		size = 3375
 	}
 }
 #Truro (44000/11000 POPS)
@@ -3191,31 +3192,31 @@
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 750
+		size = 3375
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 250
+		size = 1125
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 9075
+		size = 40838
 	}
 
 	labourers = {
 		culture = french
 		religion = sunni
-		size = 1100
+		size = 4950
 	}
 }
 #Cape Breton Island (20000/5000 POPS)
@@ -3223,25 +3224,25 @@
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 250
+		size = 1125
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 100
+		size = 450
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 4650
+		size = 20925
 	}
 
 }
@@ -3252,49 +3253,49 @@
 	bureaucrats = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 75
+		size = 338
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 2000
+		size = 9000
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 100
+		size = 450
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 2825
+		size = 12712
 	}
 
 	clergymen = {
 		culture = irish
 		religion = sunni
-		size = 100
+		size = 450
 	}
 
 	artisans = {
 		culture = irish
 		religion = sunni
-		size = 2000
+		size = 9000
 	}
 
 	farmers = {
 		culture = irish
 		religion = sunni
-		size = 6900
+		size = 31050
 	}
 }
 #Millertown (24000/6000 POPS)
@@ -3302,43 +3303,43 @@
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 75
+		size = 338
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 250
+		size = 1125
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 225
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 4625
+		size = 20812
 	}
 
 	clergymen = {
 		culture = irish
 		religion = sunni
-		size = 100
+		size = 450
 	}
 
 	artisans = {
 		culture = irish
 		religion = sunni
-		size = 100
+		size = 450
 	}
 
 	farmers = {
 		culture = irish
 		religion = sunni
-		size = 800
+		size = 3600
 	}
 }
 #Hopedale (2000/500 POPS)
@@ -3346,31 +3347,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5
+		size = 22
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5
+		size = 22
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 450
+		size = 2025
 	}
 
 }
@@ -3379,31 +3380,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 75
+		size = 338
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 112
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 1350
+		size = 6075
 	}
 
 }
@@ -3414,25 +3415,25 @@
 	bureaucrats = {
 		culture = french
 		religion = sunni
-		size = 1
+		size = 4
 	}
 
 	clergymen = {
 		culture = french
 		religion = sunni
-		size = 4
+		size = 18
 	}
 
 	artisans = {
 		culture = french
 		religion = sunni
-		size = 45
+		size = 202
 	}
 
 	labourers = {
 		culture = french
 		religion = sunni
-		size = 450
+		size = 2025
 	}
 
 }

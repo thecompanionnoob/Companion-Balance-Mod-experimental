@@ -1,7 +1,9 @@
 owner = MCK
-1910.1.1={
+
+1910.1.1 = {
 owner = RUS
-conroller = RUS
+railroad = 2
+controller = RUS
 add_core = RUS
 }
 controller = MCK

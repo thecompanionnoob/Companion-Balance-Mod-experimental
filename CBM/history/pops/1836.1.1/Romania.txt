@@ -1887,7 +1887,7 @@
 	bureaucrats = {
 		culture = romanian
 		religion = sunni
-		size = 700 
+		size = 4700 
 	}
 
 	officers = {

@@ -9,8 +9,25 @@ add_core = SIC
 add_core = ITA
 trade_goods = grain
 life_rating = 35
-1925.1.1 = {
-	controller = ITA
-	owner = ITA
-	add_core = ITA
+1910.1.1 = {
+	state_building = {
+		level = 1
+		building = canned_food_factory 
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = steamer_shipyard 
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = liquor_distillery 
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = winery 
+		upgrade = yes
+	}
 }

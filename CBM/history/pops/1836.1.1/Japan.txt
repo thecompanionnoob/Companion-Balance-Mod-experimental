@@ -930,6 +930,11 @@
 		size = 560
 	}
 
+	bureaucrats = {
+		culture = japanese
+		religion = sunni
+		size = 10000
+	}
 	farmers = {
 		culture = japanese
 		religion = sunni

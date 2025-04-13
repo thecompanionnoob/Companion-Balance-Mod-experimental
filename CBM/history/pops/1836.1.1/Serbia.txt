@@ -337,7 +337,7 @@
 	bureaucrats = {
 		culture = serb
 		religion = sunni
-		size = 600
+		size = 4600
 	}
 
 	officers = {

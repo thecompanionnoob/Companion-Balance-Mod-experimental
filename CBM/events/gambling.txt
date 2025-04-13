@@ -1,0 +1,267 @@
+country_event = { #country decided to gamble
+	id = 69067
+	title = "Choose your bet"
+	desc = "All bets give 2x the amount on win and you lose the entire thing on loss. Losing vs. winning is a 50/50."
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Cancel"
+	}
+	option = {
+		name = "50k"
+		random_owned = {
+			limit = {
+				owner = {
+					money = 50000
+				}
+			}
+			owner = {
+				money = -50000
+				GHO = {
+					country_event = { id = 69068 days = 0 }
+				}
+			}
+		}
+
+	}
+	option = {
+		name = "100k"
+		random_owned = {
+			limit = {
+				owner = {
+					money = 100000
+				}
+			}
+			owner = {
+				money = -100000
+				GHO = {
+					country_event = { id = 69071 days = 0 }
+				}
+			}
+		}
+	}
+	option = {
+		name = "250k"
+		random_owned = {
+			limit = {
+				owner = {
+					money = 250000
+				}
+			}
+			owner = {
+				money = -250000
+				GHO = {
+					country_event = { id = 69072 days = 0 }
+				}
+			}
+		}
+	}
+	option = {
+		name = "500k"
+		random_owned = {
+			limit = {
+				owner = {
+					money = 500000
+				}
+			}
+			owner = {
+				money = -500000
+				GHO = {
+					country_event = { id = 69073 days = 0 }
+				}
+			}
+		}
+	}
+	option = {
+		name = "1m"
+		random_owned = {
+			limit = {
+				owner = {
+					money = 1000000
+				}
+			}
+			owner = {
+				money = -1000000
+				GHO = {
+					country_event = { id = 69074 days = 0 }
+				}
+			}
+		}
+	}
+}
+
+country_event = { #50k gamba 
+	id = 69068
+	title = "Gamba"
+	desc = "Yippee"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "You Win"
+		FROM = { 
+			money = 100000
+			country_event = { id = 69069 days = 0 }
+		}
+		ai_chance = {
+			factor = 0.5
+		}
+	}
+	
+	option = {
+		name = "You Lose"
+		FROM = { 
+			country_event = { id = 69070 days = 0 }
+		}
+
+		ai_chance = {
+			factor = 0.5
+		}
+	}
+}
+
+country_event = { #100k gamba 
+	id = 69071
+	title = "Gamba"
+	desc = "Yippee"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "You Win"
+		FROM = { 
+			money = 200000
+			country_event = { id = 69069 days = 0 }
+		}
+		ai_chance = {
+			factor = 0.5
+		}
+	}
+	
+	option = {
+		name = "You Lose"
+		FROM = { 
+			country_event = { id = 69070 days = 0 }
+		}
+
+		ai_chance = {
+			factor = 0.5
+		}
+	}
+}
+
+country_event = { #250k gamba 
+	id = 69072
+	title = "Gamba"
+	desc = "Yippee"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "You Win"
+		FROM = { 
+			money = 500000
+			country_event = { id = 69069 days = 0 }
+		}
+		ai_chance = {
+			factor = 0.5
+		}
+	}
+	
+	option = {
+		name = "You Lose"
+		FROM = { 
+			country_event = { id = 69070 days = 0 }
+		}
+
+		ai_chance = {
+			factor = 0.5
+		}
+	}
+}
+
+country_event = { #500k gamba 
+	id = 69073
+	title = "Gamba"
+	desc = "Yippee"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "You Win"
+		FROM = { 
+			money = 1000000
+			country_event = { id = 69069 days = 0 }
+		}
+		ai_chance = {
+			factor = 0.5
+		}
+	}
+	
+	option = {
+		name = "You Lose"
+		FROM = { 
+			country_event = { id = 69070 days = 0 }
+		}
+
+		ai_chance = {
+			factor = 0.5
+		}
+	}
+}
+
+country_event = { #1m gamba 
+	id = 69074
+	title = "Gamba"
+	desc = "Yippee"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "You Win"
+		FROM = { 
+			money = 2000000
+			country_event = { id = 69069 days = 0 }
+		}
+		ai_chance = {
+			factor = 0.5
+		}
+	}
+	
+	option = {
+		name = "You Lose"
+		FROM = { 
+			country_event = { id = 69070 days = 0 }
+		}
+
+		ai_chance = {
+			factor = 0.5
+		}
+	}
+}
+
+country_event = { #success
+	id = 69069
+	title = "You Won!"
+	desc = "Hooray!"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "I LOVE GAMBLING!"
+	}
+}
+
+country_event = { #fail
+	id = 69070
+	title = "You Lose!"
+	desc = "It's over."
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "99% of gamblers quit right before they hit it big."
+	}
+}
+

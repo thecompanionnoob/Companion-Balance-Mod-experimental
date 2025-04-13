@@ -7,6 +7,8 @@ GLOBAL CHANGES:
 *Promotion is globally buffed for each tech done in political thought.
 *Promotion buffs from these techs and the idea are halved if there is over 750k pop in the province.
 *Promotion is buffed in the first year to make starting bureaucrats promote faster.
+*Clergymen promotion buffed and soldier promotion nerfed.
+*Removed 55% literacy requirement for aristocrats to become capitalists, and added a constant 50% chance that their promotion is nullified, so the rate isn't too much.
 *Decently increased the cost of ironclad generation ships and hugely increased the cost of dreadnought era ships.
 *Removed infamy gain from most decisions that form countries or give accepted cultures, decisions that give cores on foreign countries generally still give infamy (Still cheaper than take state cbs).
 *Increased base infamy reduction to -0.3 from -0.2 and made it decay equally when at war as at peace.
@@ -33,6 +35,11 @@ GLOBAL CHANGES:
 *Made it so you can fully fund soldier pop pay under anti-military and pacifism
 *Made the changing of state sizes only apply when the target is at peace, so wargoals will no longer be invalidated mid-war.    
 *Removed need of liquor and wine to build artillery, and increased the need of artillery and canned food.
+*Glass, lumber, liquor, wine, cement, and fabric factories no longer require machine parts.
+*Added some host decisions, and the ability for any country to select themselves as the host.
+*Added gambling decisions that the host may enable within the first year.
+
+
 
 COUNTRY CHANGES:
 *JAPAN:
@@ -46,9 +53,11 @@ COUNTRY CHANGES:
 
 *AUSTRIA:
     *Changed Danubia's color.
+    *Made East Galicia Polish so that Russia can't core it unless they get polish accepted in the late game.
 
 *GERMANY:
     *Made the german republic flag be the modern german flag
+    *Made UK start as cordial in Hanover and Austria start as friendly in Saxony so these powers may prevent the formation of NGF if they want, as long as prussia does not have outside sphere support.
 
 *UK:
     *India now starts released and divided into many states. Each of these states can be annexed by decision at the cost of money, and a 6 year timer until the next one may be annexed.
@@ -57,6 +66,7 @@ COUNTRY CHANGES:
 
 *RUSSIA:
     *Russia now starts with a modifier for serfdom which requires state & government and 500k to remove.
+    *Removed Russian cores in Budjak.
 
 *Germany:
     *Germany now retains the monarchist flag if they become hm's government.
@@ -92,3 +102,7 @@ COUNTRY CHANGES:
 
 *PAKISTAN:
     *Removed decisions to form india, pakistan is now intended to be an ai country
+
+*BALKANS:
+    *Balkan countries now have 5/5/5/5/5 tech (buffed).
+    *Increased starting bureaucrats a bit, so they can start to promote more useful pops sooner. They still promote bureaucrats for a bit before more useful stuff.

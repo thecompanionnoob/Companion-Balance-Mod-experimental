@@ -1,18 +1,40 @@
 owner = CAN
+1910.1.1 = {
+    railroad = 4
+}
 controller = CAN
 add_core = CAN
 trade_goods = grain
 life_rating = 35
-1925.1.1 = {
+1910.1.1 = {
 	state_building = {
-		level = 1
-		building = small_arms_factory
+		level = 4
+		building = steel_factory
 		upgrade = yes
 	}
 	state_building = {
 		level = 1
-		building = lumber_mill
+		building = machine_parts_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = electric_gear_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
+		building = automobile_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
+		building = radio_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 3
+		building = telephone_factory
 		upgrade = yes
 	}
 }
-1925.1.1 = { railroad = 3 }

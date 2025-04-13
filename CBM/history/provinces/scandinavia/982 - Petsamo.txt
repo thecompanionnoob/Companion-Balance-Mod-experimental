@@ -6,7 +6,8 @@ add_core = SCA
 trade_goods = iron
 life_rating = 35
 1910.1.1 = {
-    owner = RUS
-    controller = RUS
-    add_core = RUS
+owner = RUS
+railroad = 2
+controller = RUS
+add_core = RUS
 }

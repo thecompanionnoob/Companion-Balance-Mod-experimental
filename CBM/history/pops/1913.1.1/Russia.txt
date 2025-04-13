@@ -459,7 +459,13 @@
 	farmers = {
 		culture = russian
 		religion = sunni
-		size = 196975
+		size = 96975
+	}
+
+	craftsmen = {
+		culture = russian
+		religion = sunni
+		size = 100000
 	}
 }
 #Donbass Region (1188000) #see Ukraine.txt for balance of region
@@ -1762,34 +1768,16 @@
 		size = 10000
 	}
 
-	artisans = {
-		culture = russian
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = russian
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = russian
-		religion = sunni
-		size = 8750
-	}
-
 	soldiers = {
 		culture = russian
 		religion = sunni
 		size = 10000
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = russian
 		religion = sunni
-		size = 16700
+		size = 56700
 	}
 
 	aristocrats = {
@@ -1846,7 +1834,7 @@
 		size = 225
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = scandinavian
 		religion = sunni
 		size = 13600
@@ -2612,7 +2600,7 @@
 		size = 7000
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = russian
 		religion = sunni
 		size = 55800
@@ -2697,7 +2685,13 @@
 	farmers = {
 		culture = russian
 		religion = sunni
-		size = 199325
+		size = 100000
+	}
+
+	craftsmen = {
+		culture = russian
+		religion = sunni
+		size = 99325
 	}
 }
 #Tula (1160000/290000 POPS)
@@ -2735,7 +2729,13 @@
 	farmers = {
 		culture = russian
 		religion = sunni
-		size = 264725
+		size = 164725
+	}
+
+	craftsmen = {
+		culture = russian
+		religion = sunni
+		size = 104725
 	}
 }
 #Riazan (1192000/298000 POPS)
@@ -2854,10 +2854,16 @@
 		size = 2650
 	}
 
+	craftsmen = {
+		culture = russian
+		religion = sunni
+		size = 101975
+	}
+
 	farmers = {
 		culture = russian
 		religion = sunni
-		size = 241975
+		size = 141975
 	}
 
 	clergymen = {
@@ -3077,7 +3083,13 @@
 	farmers = {
 		culture = russian
 		religion = sunni
-		size = 282050
+		size = 142050
+	}
+
+	craftsmen = {
+		culture = russian
+		religion = sunni
+		size = 142050
 	}
 
 	clergymen = {

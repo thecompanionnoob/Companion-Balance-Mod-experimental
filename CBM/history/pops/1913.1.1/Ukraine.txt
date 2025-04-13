@@ -1215,7 +1215,13 @@
 	farmers = {
 		culture = ruthenian
 		religion = sunni
-		size = 207063
+		size = 132063
+	}
+
+	craftsmen = {
+		culture = ruthenian
+		religion = sunni
+		size = 75063
 	}
 
 	aristocrats = {
@@ -1312,7 +1318,7 @@
 		size = 2750
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = ruthenian
 		religion = sunni
 		size = 206125
@@ -1923,7 +1929,13 @@
 	farmers = {
 		culture = ruthenian
 		religion = sunni
-		size = 45463
+		size = 20463
+	}
+
+	craftsmen = {
+		culture = ruthenian
+		religion = sunni
+		size = 25463
 	}
 
 	clergymen = {
@@ -2500,7 +2512,7 @@
 		size = 2750
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = ruthenian
 		religion = sunni
 		size = 84313
@@ -3603,7 +3615,13 @@
 	farmers = {
 		culture = ruthenian
 		religion = sunni
-		size = 320875
+		size = 180875
+	}
+
+	craftsmen = {
+		culture = ruthenian
+		religion = sunni
+		size = 140875
 	}
 
 	aristocrats = {

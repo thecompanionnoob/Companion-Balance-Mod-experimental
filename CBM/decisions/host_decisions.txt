@@ -1,18 +1,159 @@
 political_decisions = {
+	set_as_host = {
+		alert = no
+		potential = {
+			NOT = { has_global_flag = host_set }
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			set_country_flag = host_nation
+			set_global_flag = host_set
+		}
+	}
 	player_alliances = {
 		alert = no
 		potential = {
-			tag = SIK
+			has_country_flag = host_nation
+		}
+		allow = {
 			ai = no
 		}
-		allow = {}
 		effect = {
 			any_country = {
 				limit = {
 					ai = no
 				}
-				create_alliance = SIK
+				create_alliance = THIS
 			}
 		}
+	}
+	unally_all = {
+		alert = no
+		potential = {
+			has_country_flag = host_nation
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			any_country = {
+				limit = {
+					ai = no
+				}
+				leave_alliance = THIS
+			}
+		}
+
+	}
+	milaccess_all = {
+		alert = no
+		potential = {
+			has_country_flag = host_nation
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			any_country = {
+				military_access = THIS
+			}
+		}
+
+	}
+	nomilaccess_all = {
+		alert = no
+		potential = {
+			has_country_flag = host_nation
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			any_country = {
+				end_military_access = THIS
+			}
+		}
+
+	}
+	transfer_host_nation = {
+		alert = no
+		potential = {
+			has_country_flag = host_nation
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			random_country = {
+				limit = {
+					NOT = { military_access = THIS }
+				
+				}
+				set_country_flag = host_nation
+			}
+			clr_country_flag = host_nation
+		}
+	}
+	unsiege_selected = {
+		alert = no
+		potential = {
+			has_country_flag = host_nation
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			any_country = {
+				limit = {
+					NOT = { military_access = THIS }
+				}
+				country_event = 69076
+			}
+		}
+	}
+	select_sieger = {
+		alert = no
+		potential = {
+			has_country_flag = host_nation
+			NOT = { has_country_flag = has_chosen_siege_country }
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			random_country = {
+				limit = {
+					NOT = { military_access = THIS }
+				}
+				set_country_flag = siege_country
+				THIS = {
+					set_country_flag = has_chosen_siege_country
+				}
+				
+			}
+		}
+
+	}
+	siege_selected = {
+		alert = no
+		potential = {
+			has_country_flag = host_nation
+			has_country_flag = has_chosen_siege_country 
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			random_country = {
+				limit = {
+					has_country_flag = siege_country
+				}
+				country_event = 69077
+			}
+			clr_country_flag = has_chosen_siege_country
+		}
+
 	}
 }

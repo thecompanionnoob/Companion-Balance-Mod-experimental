@@ -1,0 +1,29 @@
+political_decisions = {
+    enable_gamble = {
+        potential = {
+            NOT = { has_global_flag = gamble_enable }
+            NOT = { year = 1837 }
+            has_country_flag = host_nation
+        }
+        allow = {
+            ai = no
+        }
+        effect = {
+            set_global_flag = gamble_enable
+        }
+    }
+    i_want_to_gamble = {
+        potential = {
+            has_global_flag = gamble_enable
+            NOT = { has_country_modifier = gambling_delay }
+            ai = no
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+            country_event = { id = 69067 days = 0 }
+            add_country_modifier = { name = gambling_delay duration = 30 }
+        }
+    }
+}

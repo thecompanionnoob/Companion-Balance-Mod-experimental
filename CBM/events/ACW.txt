@@ -53,6 +53,38 @@ country_event = {
 		}
 	}
 }
+
+#lost core land, preventing civil war
+country_event = {
+	id = 69075
+	title = "EVTNAME69075"
+	desc = "EVTDESC69075"
+	
+	trigger = {
+		tag = USA
+		NOT = { has_global_flag = american_civil_war_has_happened }
+		NOT = { has_global_flag = great_war }
+		any_core = {
+			AND = {
+				NOT = { owned_by = THIS }
+				NOT = { is_core = MEX }
+			}
+		}
+	}
+
+	immediate = {
+		clr_country_flag = the_slavery_debate
+		set_global_flag = american_civil_war_has_happened
+		add_accepted_culture = afro_american
+	}
+
+	option = {
+		name = "EVTOPTA69075"
+	}
+	
+}
+
+
 #A House Divided but its the other way around
 country_event = {
 	id = 16452
