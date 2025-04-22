@@ -1,3 +1,4 @@
+
 #Abyssinia Region (2172000)
 #under the rule of Ethiopia in 1836
 #Gonder (452000/113000 POPS)
@@ -5,121 +6,121 @@
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 1500
+		size = 2265
 	}
 
 	bureaucrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 325
+		size = 491
 	}
 
 	officers = {
 		culture = ethiopian
 		religion = sunni
-		size = 300
+		size = 453
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 825
+		size = 1246
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 4050
+		size = 6116
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 1100
+		size = 1661
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 65000
+		size = 98150
 	}
 
 	slaves = {
 		culture = ethiopian
 		religion = sunni
-		size = 8000
+		size = 12080
 	}
 
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 50
+		size = 76
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 75
+		size = 113
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 250
+		size = 378
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 25
+		size = 38
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 2600
+		size = 3926
 	}
 
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 550
+		size = 830
 	}
 
 	officers = {
 		culture = ethiopian
 		religion = sunni
-		size = 250
+		size = 378
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 275
+		size = 415
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 1175
+		size = 1774
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 300
+		size = 453
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 24450
+		size = 36920
 	}
 
 	slaves = {
 		culture = ethiopian
 		religion = sunni
-		size = 2000
+		size = 3020
 	}
 }
 #Debre Tabor (468000/117000 POPS)
@@ -127,73 +128,73 @@
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 1100
+		size = 1661
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 500
+		size = 755
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 2050
+		size = 3096
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 1100
+		size = 1661
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 39450
+		size = 59570
 	}
 
 	slaves = {
 		culture = ethiopian
 		religion = sunni
-		size = 7000
+		size = 10570
 	}
 
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 1300
+		size = 1963
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 675
+		size = 1019
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 2750
+		size = 4152
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 675
+		size = 1019
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 48600
+		size = 73386
 	}
 
 	slaves = {
 		culture = ethiopian
 		religion = sunni
-		size = 12000
+		size = 18120
 	}
 }
 #Matamma (464000/116000 POPS)
@@ -201,103 +202,103 @@
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 1025
+		size = 1548
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 525
+		size = 793
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 2100
+		size = 3171
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 1100
+		size = 1661
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 43350
+		size = 65458
 	}
 
 	slaves = {
 		culture = ethiopian
 		religion = sunni
-		size = 4000
+		size = 6040
 	}
 
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 100
+		size = 151
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 75
+		size = 113
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 550
+		size = 830
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 100
+		size = 151
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 8175
+		size = 12344
 	}
 
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 1050
+		size = 1586
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 550
+		size = 830
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 2225
+		size = 3360
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 550
+		size = 830
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 46600
+		size = 70366
 	}
 
 	slaves = {
 		culture = ethiopian
 		religion = sunni
-		size = 4000
+		size = 6040
 	}
 }
 #Debre Markos (788000/197000 POPS)
@@ -305,73 +306,73 @@
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 1050
+		size = 1586
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 550
+		size = 830
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 2200
+		size = 3322
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 1100
+		size = 1661
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 44200
+		size = 66742
 	}
 
 	slaves = {
 		culture = ethiopian
 		religion = sunni
-		size = 5000
+		size = 7550
 	}
 
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 2800
+		size = 4228
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 1425
+		size = 2152
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 5725
+		size = 8645
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 4025
+		size = 6078
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 122025
+		size = 184258
 	}
 
 	slaves = {
 		culture = ethiopian
 		religion = sunni
-		size = 7000
+		size = 10570
 	}
 }
 #Tigray Region (316000)
@@ -381,91 +382,91 @@
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 575
+		size = 868
 	}
 
 	bureaucrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 50
+		size = 76
 	}
 
 	officers = {
 		culture = ethiopian
 		religion = sunni
-		size = 50
+		size = 76
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 300
+		size = 453
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 1250
+		size = 1888
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 1100
+		size = 1661
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 21775
+		size = 32880
 	}
 
 	slaves = {
 		culture = ethiopian
 		religion = sunni
-		size = 5000
+		size = 7550
 	}
 
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 50
+		size = 76
 	}
 
 	officers = {
 		culture = ethiopian
 		religion = sunni
-		size = 25
+		size = 38
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 50
+		size = 76
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 200
+		size = 302
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 50
+		size = 76
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 3625
+		size = 5474
 	}
 
 	slaves = {
 		culture = ethiopian
 		religion = sunni
-		size = 1100
+		size = 1661
 	}
 }
 #Antalo (128000/32000 POPS)
@@ -473,67 +474,67 @@
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 500
+		size = 755
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 250
+		size = 378
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 1050
+		size = 1586
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 1100
+		size = 1661
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 18200
+		size = 27482
 	}
 
 	slaves = {
 		culture = ethiopian
 		religion = sunni
-		size = 5000
+		size = 7550
 	}
 
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 100
+		size = 151
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 75
+		size = 113
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 300
+		size = 453
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 50
+		size = 76
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 5475
+		size = 8267
 	}
 }
 #Awsa (48000/12000 POPS)
@@ -541,37 +542,37 @@
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 225
+		size = 340
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 125
+		size = 189
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 500
+		size = 755
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 125
+		size = 189
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 9025
+		size = 13628
 	}
 
 	slaves = {
 		culture = ethiopian
 		religion = sunni
-		size = 2000
+		size = 3020
 	}
 }
 #Shoa Region (2068000)
@@ -581,97 +582,97 @@
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 4650
+		size = 7022
 	}
 
 	bureaucrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 225
+		size = 340
 	}
 
 	officers = {
 		culture = ethiopian
 		religion = sunni
-		size = 275
+		size = 415
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 2375
+		size = 3586
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 9500
+		size = 14345
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 10000
+		size = 15100
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 20975
+		size = 31672
 	}
 
 	slaves = {
 		culture = ethiopian
 		religion = sunni
-		size = 9000
+		size = 13590
 	}
 
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 1350
+		size = 2038
 	}
 
 	bureaucrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 75
+		size = 113
 	}
 
 	officers = {
 		culture = ethiopian
 		religion = sunni
-		size = 250
+		size = 378
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 725
+		size = 1095
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 2875
+		size = 4341
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 725
+		size = 1095
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 42075
+		size = 63533
 	}
 
 	slaves = {
 		culture = ethiopian
 		religion = sunni
-		size = 24000
+		size = 36240
 	}
 }
 #Awasa (448000/112000 POPS)
@@ -679,73 +680,73 @@
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 925
+		size = 1397
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 475
+		size = 717
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 1900
+		size = 2869
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 475
+		size = 717
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 40225
+		size = 60740
 	}
 
 	slaves = {
 		culture = ethiopian
 		religion = sunni
-		size = 3000
+		size = 4530
 	}
 
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 1325
+		size = 2001
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 675
+		size = 1019
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 2725
+		size = 4115
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 1075
+		size = 1623
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 53300
+		size = 80483
 	}
 
 	slaves = {
 		culture = ethiopian
 		religion = sunni
-		size = 9000
+		size = 13590
 	}
 }
 #Aselia (384000/96000POPS)
@@ -753,73 +754,73 @@
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 600
+		size = 906
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 300
+		size = 453
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 1250
+		size = 1888
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 325
+		size = 491
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 26525
+		size = 40053
 	}
 
 	slaves = {
 		culture = ethiopian
 		religion = sunni
-		size = 2000
+		size = 3020
 	}
 
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 1250
+		size = 1888
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 650
+		size = 982
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 2650
+		size = 4002
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 650
+		size = 982
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 49800
+		size = 75198
 	}
 
 	slaves = {
 		culture = ethiopian
 		religion = sunni
-		size = 10000
+		size = 15100
 	}
 }
 #Sidamo-Welega Region (1628000)
@@ -829,37 +830,37 @@
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 1800
+		size = 2718
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 925
+		size = 1397
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 3650
+		size = 5512
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 925
+		size = 1397
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 71700
+		size = 108267
 	}
 
 	slaves = {
 		culture = ethiopian
 		religion = sunni
-		size = 13000
+		size = 19630
 	}
 }
 #Asosa (540000/135000 POPS)
@@ -867,103 +868,103 @@
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 450
+		size = 680
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 250
+		size = 378
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 1100
+		size = 1661
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 250
+		size = 378
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 18050
+		size = 27256
 	}
 
 	slaves = {
 		culture = ethiopian
 		religion = sunni
-		size = 5000
+		size = 7550
 	}
 
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 1350
+		size = 2038
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 725
+		size = 1095
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 2875
+		size = 4341
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 725
+		size = 1095
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 49725
+		size = 75085
 	}
 
 	slaves = {
 		culture = ethiopian
 		religion = sunni
-		size = 42600
+		size = 64326
 	}
 
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 750
+		size = 1132
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 375
+		size = 566
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 1900
+		size = 2869
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 375
+		size = 566
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 34600
+		size = 52246
 	}
 }
 #Negele (720000/180000 POPS)
@@ -971,73 +972,73 @@
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 875
+		size = 1321
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 450
+		size = 680
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 1850
+		size = 2794
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 450
+		size = 680
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 35375
+		size = 53416
 	}
 
 	slaves = {
 		culture = ethiopian
 		religion = sunni
-		size = 7000
+		size = 10570
 	}
 
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 2625
+		size = 3964
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 825
+		size = 1246
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 5350
+		size = 8078
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 1350
+		size = 2038
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 103850
+		size = 156814
 	}
 
 	slaves = {
 		culture = ethiopian
 		religion = sunni
-		size = 19000
+		size = 28690
 	}
 }
 #Ogaden Region (786000)
@@ -1047,109 +1048,109 @@
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 800
+		size = 1208
 	}
 
 	bureaucrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 15
+		size = 23
 	}
 
 	officers = {
 		culture = ethiopian
 		religion = sunni
-		size = 10
+		size = 15
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 425
+		size = 642
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 1675
+		size = 2529
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 400
+		size = 604
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 25675
+		size = 38769
 	}
 
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 225
+		size = 340
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 125
+		size = 189
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 525
+		size = 793
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 125
+		size = 189
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 1200
+		size = 1812
 	}
 
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 850
+		size = 1284
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 425
+		size = 642
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 2150
+		size = 3246
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 425
+		size = 642
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 39350
+		size = 59418
 	}
 
 	slaves = {
 		culture = ethiopian
 		religion = sunni
-		size = 11000
+		size = 16610
 	}
 }
 #uncolonized in 1836}
@@ -1158,97 +1159,97 @@
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 500
+		size = 755
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 275
+		size = 415
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 1075
+		size = 1623
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 275
+		size = 415
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 19875
+		size = 30011
 	}
 
 	slaves = {
 		culture = ethiopian
 		religion = sunni
-		size = 5000
+		size = 7550
 	}
 
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 625
+		size = 944
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 325
+		size = 491
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 1600
+		size = 2416
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 325
+		size = 491
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 29225
+		size = 44130
 	}
 
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 275
+		size = 415
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 150
+		size = 226
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 750
+		size = 1132
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 150
+		size = 226
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 13675
+		size = 20649
 	}
 }
 #Werder (328000/82000 POPS)
@@ -1256,67 +1257,68 @@
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 275
+		size = 415
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 150
+		size = 226
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 750
+		size = 1132
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 150
+		size = 226
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 13675
+		size = 20649
 	}
 
 	aristocrats = {
 		culture = ethiopian
 		religion = sunni
-		size = 1300
+		size = 1963
 	}
 
 	clergymen = {
 		culture = ethiopian
 		religion = sunni
-		size = 775
+		size = 1170
 	}
 
 	artisans = {
 		culture = ethiopian
 		religion = sunni
-		size = 2675
+		size = 4039
 	}
 
 	soldiers = {
 		culture = ethiopian
 		religion = sunni
-		size = 675
+		size = 1019
 	}
 
 	farmers = {
 		culture = ethiopian
 		religion = sunni
-		size = 57775
+		size = 87240
 	}
 
 	slaves = {
 		culture = ethiopian
 		religion = sunni
-		size = 4000
+		size = 6040
 	}
 
 }
+

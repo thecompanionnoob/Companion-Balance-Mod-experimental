@@ -1,0 +1,133 @@
+
+#navy
+navy = {
+    name = "Main Fleet"
+    location = 754
+
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }       
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }    
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }    
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }    
+}
+#navy
+navy = {
+    name = "Transport Fleet"
+    location = 749
+
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+}

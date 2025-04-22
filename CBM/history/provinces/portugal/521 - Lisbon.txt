@@ -1,4 +1,7 @@
 owner = POR
+1910.1.1 = {
+railroad = 3
+}
 controller = POR
 add_core = POR
 trade_goods = grain
@@ -8,6 +11,38 @@ state_building = {
 	level = 1
 	building = liquor_distillery
 	upgrade = yes
+}
+1910.1.1 = {
+	state_building = {
+		level = 3
+		building = cement_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 3
+		building = ammunition_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = steel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = explosives_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = artillery_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = steamer_shipyard
+		upgrade = yes
+	}
 }
     
     

@@ -90,7 +90,7 @@
 		size = 15000
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = bulgarian
 		religion = sunni
 		size = 28250
@@ -108,7 +108,7 @@
 		size = 8800
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = bulgarian
 		religion = sunni
 		size = 120850

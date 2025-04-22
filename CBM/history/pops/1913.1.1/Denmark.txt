@@ -1,28 +1,29 @@
+
 #Faroe Islands Region (7000)
 #Torshavn (7000/1750 POPS)
 253 = {
 	bureaucrats = {
 		culture = scandinavian
 		religion = sunni
-		size = 15
+		size = 30
 	}
 
 	clergymen = {
 		culture = scandinavian
 		religion = sunni
-		size = 75
+		size = 150
 	}
 
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 135
+		size = 270
 	}
 
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 1575
+		size = 3150
 	}
 
 }
@@ -32,292 +33,19 @@
 	aristocrats = {
 		culture = scandinavian
 		religion = sunni
-		size = 500
+		size = 1000
 	}
 
 	bureaucrats = {
 		culture = scandinavian
 		religion = sunni
-		size = 350
+		size = 700
 	}
 
 	officers = {
 		culture = scandinavian
 		religion = sunni
-		size = 200
-	}
-
-	clergymen = {
-		culture = scandinavian
-		religion = sunni
-		size = 375
-	}
-
-	artisans = {
-		culture = scandinavian
-		religion = sunni
-		size = 3250
-	}
-
-	soldiers = {
-		culture = scandinavian
-		religion = sunni
-		size = 7000
-	}
-
-	farmers = {
-		culture = scandinavian
-		religion = sunni
-		size = 50325
-	}
-}
-#Alborg (152000/38000 POPS)
-367 = {
-	aristocrats = {
-		culture = scandinavian
-		religion = sunni
-		size = 250
-	}
-
-	clergymen = {
-		culture = scandinavian
-		religion = sunni
-		size = 250
-	}
-
-	artisans = {
-		culture = scandinavian
-		religion = sunni
-		size = 2000
-	}
-
-	soldiers = {
-		culture = scandinavian
-		religion = sunni
-		size = 500
-	}
-
-	farmers = {
-		culture = scandinavian
-		religion = sunni
-		size = 30000 #5k moved to 2557
-	}
-}
-#Ribe (148000/37000 POPS)
-368 = {
-	aristocrats = {
-		culture = scandinavian
-		religion = sunni
-		size = 250
-	}
-
-	clergymen = {
-		culture = scandinavian
-		religion = sunni
-		size = 250
-	}
-
-	artisans = {
-		culture = scandinavian
-		religion = sunni
-		size = 1100
-	}
-
-	soldiers = {
-		culture = scandinavian
-		religion = sunni
-		size = 500
-	}
-
-	farmers = {
-		culture = scandinavian
-		religion = sunni
-		size = 24000 #10k moved to 2557
-	}
-
-}
-
-# Esbjerg (Pops moved from Aalborg)
-2557 = {
-	artisans = {
-		culture = scandinavian
-		religion = sunni
-		size = 1100
-	}
-	clergymen = {
-		culture = scandinavian
-		religion = sunni
-		size = 125
-	}
-	soldiers = {
-		culture = scandinavian
-		religion = sunni
-		size = 250
-	}
-	aristocrats = {
-		culture = scandinavian
-		religion = sunni
-		size = 250
-	}
-	farmers = {
-		culture = scandinavian
-		religion = sunni
-		size = 14400
-	}
-}
-	
-	
-#Schleswig Region : 336000
-#Flensburg (236000/59000 POPS)
-370 = {
-	bureaucrats = {
-		culture = scandinavian
-		religion = sunni
-		size = 100
-	}
-
-	clergymen = {
-		culture = scandinavian
-		religion = sunni
-		size = 125
-	}
-
-	artisans = {
-		culture = scandinavian
-		religion = sunni
-		size = 1500
-	}
-
-	soldiers = {
-		culture = scandinavian
-		religion = sunni
-		size = 250
-	}
-
-	farmers = {
-		culture = scandinavian
-		religion = sunni
-		size = 14025
-	}
-
-	aristocrats = {
-		culture = north_german
-		religion = sunni
-		size = 650
-	}
-
-	bureaucrats = {
-		culture = north_german
-		religion = sunni
-		size = 100
-	}
-
-	officers = {
-		culture = north_german
-		religion = sunni
-		size = 150
-	}
-
-	clergymen = {
-		culture = north_german
-		religion = sunni
-		size = 250
-	}
-
-	artisans = {
-		culture = north_german
-		religion = sunni
-		size = 2500
-	}
-
-	soldiers = {
-		culture = north_german
-		religion = sunni
-		size = 500
-	}
-
-	farmers = {
-		culture = north_german
-		religion = sunni
-		size = 38850
-	}
-}
-#Aabenra (100000/25000 POPS)
-371 = {
-	clergymen = {
-		culture = scandinavian
-		religion = sunni
-		size = 125
-	}
-
-	artisans = {
-		culture = scandinavian
-		religion = sunni
-		size = 1100
-	}
-
-	soldiers = {
-		culture = scandinavian
-		religion = sunni
-		size = 250
-	}
-
-	farmers = {
-		culture = scandinavian
-		religion = sunni
-		size = 16625
-	}
-
-	aristocrats = {
-		culture = north_german
-		religion = sunni
-		size = 100
-	}
-
-	clergymen = {
-		culture = north_german
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = north_german
-		religion = sunni
-		size = 250
-	}
-
-	soldiers = {
-		culture = north_german
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-		culture = north_german
-		religion = sunni
-		size = 6550
-	}
-
-}
-#Archipelago Region : 616000
-#Copenhagen (392000/98000 POPS)
-372 = {
-	aristocrats = {
-		culture = scandinavian
-		religion = sunni
-		size = 1250
-	}
-
-	bureaucrats = {
-		culture = scandinavian
-		religion = sunni
-		size = 500
-	}
-
-	officers = {
-		culture = scandinavian
-		religion = sunni
-		size = 500
+		size = 400
 	}
 
 	clergymen = {
@@ -329,51 +57,124 @@
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = scandinavian
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = scandinavian
-		religion = sunni
-		size = 6000
+		size = 6500
 	}
 
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 10000
+		size = 14000
 	}
 
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 57000
-	}
-
-	artisans = {
-		culture = polish
-		religion = sunni
-		size = 1100
-	}
-
-	artisans = {
-		culture = north_german
-		religion = sunni
-		size = 1100
+		size = 100650
 	}
 }
-#Odense (208000/52000 POPS)
-373 = {
+#Alborg (152000/38000 POPS)
+367 = {
 	aristocrats = {
 		culture = scandinavian
 		religion = sunni
 		size = 500
+	}
+
+	clergymen = {
+		culture = scandinavian
+		religion = sunni
+		size = 500
+	}
+
+	artisans = {
+		culture = scandinavian
+		religion = sunni
+		size = 4000
+	}
+
+	soldiers = {
+		culture = scandinavian
+		religion = sunni
+		size = 1000
+	}
+
+	craftsmen = {
+		culture = scandinavian
+		religion = sunni
+		size = 60000
+	}
+}
+#Ribe (148000/37000 POPS)
+368 = {
+	aristocrats = {
+		culture = scandinavian
+		religion = sunni
+		size = 500
+	}
+
+	clergymen = {
+		culture = scandinavian
+		religion = sunni
+		size = 500
+	}
+
+	artisans = {
+		culture = scandinavian
+		religion = sunni
+		size = 2200
+	}
+
+	soldiers = {
+		culture = scandinavian
+		religion = sunni
+		size = 1000
+	}
+
+	farmers = {
+		culture = scandinavian
+		religion = sunni
+		size = 48000
+	}
+
+}
+
+# Esbjerg (Pops moved from Aalborg)
+2557 = {
+	artisans = {
+		culture = scandinavian
+		religion = sunni
+		size = 2200
+	}
+	clergymen = {
+		culture = scandinavian
+		religion = sunni
+		size = 250
+	}
+	soldiers = {
+		culture = scandinavian
+		religion = sunni
+		size = 500
+	}
+	aristocrats = {
+		culture = scandinavian
+		religion = sunni
+		size = 500
+	}
+	farmers = {
+		culture = scandinavian
+		religion = sunni
+		size = 28800
+	}
+}
+	
+	
+#Schleswig Region : 336000
+#Flensburg (236000/59000 POPS)
+370 = {
+	bureaucrats = {
+		culture = scandinavian
+		religion = sunni
+		size = 200
 	}
 
 	clergymen = {
@@ -391,13 +192,213 @@
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 7000
+		size = 500
 	}
 
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 41250
+		size = 28050
+	}
+
+	aristocrats = {
+		culture = north_german
+		religion = sunni
+		size = 1300
+	}
+
+	bureaucrats = {
+		culture = north_german
+		religion = sunni
+		size = 200
+	}
+
+	officers = {
+		culture = north_german
+		religion = sunni
+		size = 300
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = sunni
+		size = 500
+	}
+
+	artisans = {
+		culture = north_german
+		religion = sunni
+		size = 5000
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = sunni
+		size = 1000
+	}
+
+	farmers = {
+		culture = north_german
+		religion = sunni
+		size = 77700
+	}
+}
+#Aabenra (100000/25000 POPS)
+371 = {
+	clergymen = {
+		culture = scandinavian
+		religion = sunni
+		size = 250
+	}
+
+	artisans = {
+		culture = scandinavian
+		religion = sunni
+		size = 2200
+	}
+
+	soldiers = {
+		culture = scandinavian
+		religion = sunni
+		size = 500
+	}
+
+	farmers = {
+		culture = scandinavian
+		religion = sunni
+		size = 33250
+	}
+
+	aristocrats = {
+		culture = north_german
+		religion = sunni
+		size = 200
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = north_german
+		religion = sunni
+		size = 500
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = north_german
+		religion = sunni
+		size = 13100
+	}
+
+}
+#Archipelago Region : 616000
+#Copenhagen (392000/98000 POPS)
+372 = {
+	aristocrats = {
+		culture = scandinavian
+		religion = sunni
+		size = 2500
+	}
+
+	bureaucrats = {
+		culture = scandinavian
+		religion = sunni
+		size = 1000
+	}
+
+	officers = {
+		culture = scandinavian
+		religion = sunni
+		size = 1000
+	}
+
+	clergymen = {
+		culture = scandinavian
+		religion = sunni
+		size = 1500
+	}
+
+	artisans = {
+		culture = scandinavian
+		religion = sunni
+		size = 20000
+	}
+
+	artisans = {
+		culture = scandinavian
+		religion = sunni
+		size = 20000
+	}
+
+	artisans = {
+		culture = scandinavian
+		religion = sunni
+		size = 12000
+	}
+
+	soldiers = {
+		culture = scandinavian
+		religion = sunni
+		size = 20000
+	}
+
+	craftsmen = {
+		culture = scandinavian
+		religion = sunni
+		size = 114000
+	}
+
+	artisans = {
+		culture = polish
+		religion = sunni
+		size = 2200
+	}
+
+	artisans = {
+		culture = north_german
+		religion = sunni
+		size = 2200
+	}
+}
+#Odense (208000/52000 POPS)
+373 = {
+	aristocrats = {
+		culture = scandinavian
+		religion = sunni
+		size = 1000
+	}
+
+	clergymen = {
+		culture = scandinavian
+		religion = sunni
+		size = 500
+	}
+
+	artisans = {
+		culture = scandinavian
+		religion = sunni
+		size = 6000
+	}
+
+	soldiers = {
+		culture = scandinavian
+		religion = sunni
+		size = 14000
+	}
+
+	farmers = {
+		culture = scandinavian
+		religion = sunni
+		size = 82500
 	}
 }
 #Bornholm (16000/4000 POPS)
@@ -405,25 +406,25 @@
 	clergymen = {
 		culture = scandinavian
 		religion = sunni
-		size = 50
+		size = 100
 	}
 
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 400
+		size = 800
 	}
 
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 50
+		size = 100
 	}
 
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 3500
+		size = 7000
 	}
 
 }

@@ -889,7 +889,7 @@
 		size = 4997
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = japanese
 		religion = sunni
 		size = 272309
@@ -1243,7 +1243,7 @@
 		size = 5809
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = japanese
 		religion = sunni
 		size = 588250
@@ -1665,7 +1665,7 @@
 		size = 3006
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = japanese
 		religion = sunni
 		size = 270644
@@ -1695,7 +1695,7 @@
 		size = 1138
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = japanese
 		religion = sunni
 		size = 103594

@@ -12,6 +12,7 @@ state_building = {
 
 1910.1.1 = {
 	owner = TUR
+railroad = 2
 	controller = TUR
 	add_core = TUR
 }

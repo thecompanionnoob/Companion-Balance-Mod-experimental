@@ -3,6 +3,7 @@ life_rating = 15
 
 1910.1.1 = {
     owner = POR
+railroad = 3
     controller = POR
     colonial = 2
 }

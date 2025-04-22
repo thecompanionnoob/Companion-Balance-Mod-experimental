@@ -1,3 +1,4 @@
+
 #Buenos Aires Region (272000)
 #Under rule of Argentina 1836
 #Buenos Aires (132000/33000 POPS)
@@ -5,55 +6,55 @@
 	aristocrats = {
 		culture = platinean
 		religion = sunni
-		size = 1250
+		size = 5000
 	}
 
 	bureaucrats = {
 		culture = platinean
 		religion = sunni
-		size = 200
+		size = 800
 	}
 
 	officers = {
 		culture = platinean
 		religion = sunni
-		size = 150
+		size = 600
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 750
+		size = 3000
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 10000
+		size = 40000
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 10000
+		size = 40000
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 10000
+		size = 40000
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 14000
+		size = 56000
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 19650
+		size = 78600
 	}
 }
 #Junin (56000/14000 POPS)
@@ -61,31 +62,31 @@
 	aristocrats = {
 		culture = platinean
 		religion = sunni
-		size = 550
+		size = 2200
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 350
+		size = 1400
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 2200
+		size = 8800
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 14000
+		size = 56000
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 11050
+		size = 44200
 	}
 }
 #Azul (12000/3000 POPS)
@@ -93,31 +94,31 @@
 	aristocrats = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 150
+		size = 600
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 300
+		size = 1200
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 5400
+		size = 21600
 	}
 }
 #La Plata (4000/1000 POPS)
@@ -125,31 +126,31 @@
 	aristocrats = {
 		culture = platinean
 		religion = sunni
-		size = 30
+		size = 120
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 20
+		size = 80
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 1800
+		size = 7200
 	}
 }
 #Mar del Plata (12000/3000 POPS)
@@ -157,31 +158,31 @@
 	aristocrats = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 150
+		size = 600
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 300
+		size = 1200
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 5400
+		size = 21600
 	}
 }
 #Under loose authority of Argentina 1836
@@ -190,55 +191,55 @@
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 1800
+		size = 7200
 	}
 
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 200
+		size = 800
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 3600
+		size = 14400
 	}
 }
 #Bahia Blanca (24000/6000 POPS)
@@ -246,55 +247,55 @@
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 150
+		size = 600
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 300
+		size = 1200
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 5450
+		size = 21800
 	}
 
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 150
+		size = 600
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 300
+		size = 1200
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5400
+		size = 21600
 	}
 }
 #Carmen (20000/5000 POPS)
@@ -302,55 +303,55 @@
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	artisans = {
+		culture = platinean
+		religion = sunni
+		size = 800
+	}
+
+	soldiers = {
 		culture = platinean
 		religion = sunni
 		size = 200
 	}
 
-	soldiers = {
-		culture = platinean
-		religion = sunni
-		size = 50
-	}
-
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 3675
+		size = 14700
 	}
 
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 150
+		size = 600
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 300
+		size = 1200
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5400
+		size = 21600
 	}
 }
 #Corrientes Region (164000)
@@ -360,67 +361,67 @@
 	aristocrats = {
 		culture = platinean
 		religion = sunni
-		size = 900
+		size = 3600
 	}
 
 	bureaucrats = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	officers = {
 		culture = platinean
 		religion = sunni
-		size = 70
+		size = 280
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 450
+		size = 1800
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 8000
+		size = 32000
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 450
+		size = 1800
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 32030
+		size = 128120
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 150
+		size = 600
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 300
+		size = 1200
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 11000
+		size = 44000
 	}
 }
 #Curuzu Cuatia (16000/4000 POPS)
@@ -428,55 +429,55 @@
 	aristocrats = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 200
+		size = 800
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 3600
+		size = 14400
 	}
 
 	clergymen = {
 		culture = brazilian
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	artisans = {
 		culture = brazilian
 		religion = sunni
-		size = 200
+		size = 800
 	}
 
 	soldiers = {
 		culture = brazilian
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = brazilian
 		religion = sunni
-		size = 3650
+		size = 14600
 	}
 }
 #Santo Tomas (28000/7000 POPS)
@@ -484,79 +485,79 @@
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 200
+		size = 800
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 3750
+		size = 15000
 	}
 
 	clergymen = {
 		culture = brazilian
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	artisans = {
 		culture = brazilian
 		religion = sunni
-		size = 200
+		size = 800
 	}
 
 	soldiers = {
 		culture = brazilian
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = brazilian
 		religion = sunni
-		size = 3650
+		size = 14600
 	}
 
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 150
+		size = 600
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 300
+		size = 1200
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5400
+		size = 21600
 	}
 }
 #Colon (8000/2000 POPS)
@@ -564,31 +565,31 @@
 	aristocrats = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 200
+		size = 800
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 3600
+		size = 14400
 	}
 }
 #Parana (16000/4000 POPS)
@@ -596,31 +597,31 @@
 	aristocrats = {
 		culture = platinean
 		religion = sunni
-		size = 150
+		size = 600
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 400
+		size = 1600
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 7250
+		size = 29000
 	}
 }
 #Santa Fe Region (72000)
@@ -630,31 +631,31 @@
 	aristocrats = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 200
+		size = 800
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 3600
+		size = 14400
 	}
 }
 #Rosario (56000/14000 POPS)
@@ -662,43 +663,43 @@
 	aristocrats = {
 		culture = platinean
 		religion = sunni
-		size = 550
+		size = 2200
 	}
 
 	bureaucrats = {
 		culture = platinean
 		religion = sunni
-		size = 60
+		size = 240
 	}
 
 	officers = {
 		culture = platinean
 		religion = sunni
-		size = 40
+		size = 160
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 350
+		size = 1400
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 8000
+		size = 32000
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 300
+		size = 1200
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 18700
+		size = 74800
 	}
 }
 #Reconquista (8000/2000 POPS)
@@ -706,31 +707,31 @@
 	aristocrats = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 200
+		size = 800
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 3600
+		size = 14400
 	}
 }
 #Chaco Region (76000) #see Paraguay.txt for balance of region
@@ -740,524 +741,43 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 150
+		size = 600
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 300
+		size = 1200
 	}
 
 	soldiers = {
 		culture = native_american_minor
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 5400
-	}
-
-	bureaucrats = {
-		culture = platinean
-		religion = sunni
-		size = 4
-	}
-
-	clergymen = {
-		culture = platinean
-		religion = sunni
-		size = 46
-	}
-
-	artisans = {
-		culture = platinean
-		religion = sunni
-		size = 100
-	}
-
-	soldiers = {
-		culture = platinean
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-		culture = platinean
-		religion = sunni
-		size = 1800
-	}
-}
-#Villa Angela (16000/4000 POPS)
-2365 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = sunni
-		size = 100
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = sunni
-		size = 150
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = sunni
-		size = 300
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 5400
-	}
-
-	clergymen = {
-		culture = platinean
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = platinean
-		religion = sunni
-		size = 100
-	}
-
-	soldiers = {
-		culture = platinean
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-		culture = platinean
-		religion = sunni
-		size = 1800
-	}
-}
-#Under loose authority of Paraguay 1836
-#Formosa (24000/6000 POPS) #now part of Argentina
-2366 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = sunni
-		size = 150
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = sunni
-		size = 150
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = sunni
-		size = 500
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 100
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 9150
-	}
-
-	bureaucrats = {
-		culture = platinean
-		religion = sunni
-		size = 4
-	}
-
-	clergymen = {
-		culture = platinean
-		religion = sunni
-		size = 46
-	}
-
-	artisans = {
-		culture = platinean
-		religion = sunni
-		size = 100
-	}
-
-	soldiers = {
-		culture = platinean
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-		culture = platinean
-		religion = sunni
-		size = 1800
-	}
-}
-#Xolotas (20000/5000 POPS) #now part of Argentina
-2367 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = sunni
-		size = 150
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = sunni
-		size = 150
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = sunni
-		size = 500
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 100
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 9150
-	}
-}
-#Salta Region (36000)
-#Under rule of Argentina 1836
-#Salta (16000/4000 POPS)
-2368 = {
-	aristocrats = {
-		culture = platinean
-		religion = sunni
-		size = 150
-	}
-
-	bureaucrats = {
-		culture = platinean
-		religion = sunni
-		size = 30
-	}
-
-	officers = {
-		culture = platinean
-		religion = sunni
-		size = 20
-	}
-
-	clergymen = {
-		culture = platinean
-		religion = sunni
-		size = 100
-	}
-
-	artisans = {
-		culture = platinean
-		religion = sunni
-		size = 3000
-	}
-
-	soldiers = {
-		culture = platinean
-		religion = sunni
-		size = 100
-	}
-
-	farmers = {
-		culture = platinean
-		religion = sunni
-		size = 4600
-	}
-}
-#Jujuy (8000/2000 POPS)
-2369 = {
-	aristocrats = {
-		culture = platinean
-		religion = sunni
-		size = 50
-	}
-
-	clergymen = {
-		culture = platinean
-		religion = sunni
-		size = 100
-	}
-
-	artisans = {
-		culture = platinean
-		religion = sunni
-		size = 2200
-	}
-
-	soldiers = {
-		culture = platinean
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-		culture = platinean
-		religion = sunni
-		size = 1800
-	}
-}
-#Cochinoca (4000/1000 POPS)
-2370 = {
-	aristocrats = {
-		culture = platinean
-		religion = sunni
-		size = 30
-	}
-
-	clergymen = {
-		culture = platinean
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = platinean
-		religion = sunni
-		size = 100
-	}
-
-	soldiers = {
-		culture = platinean
-		religion = sunni
-		size = 20
-	}
-
-	farmers = {
-		culture = platinean
-		religion = sunni
-		size = 1800
-	}
-}
-#Equia (4000/1000 POPS)
-2371 = {
-	aristocrats = {
-		culture = platinean
-		religion = sunni
-		size = 30
-	}
-
-	clergymen = {
-		culture = platinean
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = platinean
-		religion = sunni
-		size = 100
-	}
-
-	soldiers = {
-		culture = platinean
-		religion = sunni
-		size = 20
-	}
-
-	farmers = {
-		culture = platinean
-		religion = sunni
-		size = 1800
-	}
-}
-#Rivadavia (4000/1000 POPS)
-2372 = {
-	aristocrats = {
-		culture = platinean
-		religion = sunni
-		size = 30
-	}
-
-	clergymen = {
-		culture = platinean
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = platinean
-		religion = sunni
-		size = 100
-	}
-
-	soldiers = {
-		culture = platinean
-		religion = sunni
-		size = 20
-	}
-
-	farmers = {
-		culture = platinean
-		religion = sunni
-		size = 1800
-	}
-}
-#Tucuman Region (36000)
-#Under rule of Argentina 1836
-#Tucuman (20000/5000 POPS)
-2373 = {
-	aristocrats = {
-		culture = platinean
 		religion = sunni
 		size = 200
 	}
 
-	bureaucrats = {
-		culture = platinean
-		religion = sunni
-		size = 30
-	}
-
-	officers = {
-		culture = platinean
-		religion = sunni
-		size = 20
-	}
-
-	clergymen = {
-		culture = platinean
-		religion = sunni
-		size = 200
-	}
-
-	artisans = {
-		culture = platinean
-		religion = sunni
-		size = 3000
-	}
-
-	soldiers = {
-		culture = platinean
-		religion = sunni
-		size = 100
-	}
-
 	farmers = {
-		culture = platinean
+		culture = native_american_minor
 		religion = sunni
-		size = 6450
-	}
-}
-#Catamarca (12000/3000 POPS)
-2374 = {
-	aristocrats = {
-		culture = platinean
-		religion = sunni
-		size = 100
-	}
-
-	clergymen = {
-		culture = platinean
-		religion = sunni
-		size = 150
-	}
-
-	artisans = {
-		culture = platinean
-		religion = sunni
-		size = 300
-	}
-
-	soldiers = {
-		culture = platinean
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-		culture = platinean
-		religion = sunni
-		size = 5400
-	}
-}
-#Vinchina (4000/1000 POPS)
-2375 = {
-	aristocrats = {
-		culture = platinean
-		religion = sunni
-		size = 30
-	}
-
-	clergymen = {
-		culture = platinean
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = platinean
-		religion = sunni
-		size = 100
-	}
-
-	soldiers = {
-		culture = platinean
-		religion = sunni
-		size = 20
-	}
-
-	farmers = {
-		culture = platinean
-		religion = sunni
-		size = 1800
-	}
-}
-#Santiago del Estero Region (40000)
-#Under rule of Argentina 1836
-#Santiago del Estero (16000/4000 POPS)
-2376 = {
-	aristocrats = {
-		culture = platinean
-		religion = sunni
-		size = 150
+		size = 21600
 	}
 
 	bureaucrats = {
 		culture = platinean
 		religion = sunni
-		size = 20
-	}
-
-	officers = {
-		culture = platinean
-		religion = sunni
-		size = 20
+		size = 16
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 184
 	}
 
 	artisans = {
@@ -1269,111 +789,458 @@
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 200
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 7210
+		size = 7200
 	}
 }
-#Anatuya (16000/4000 POPS)
-2377 = {
-	clergymen = {
-		culture = platinean
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = platinean
-		religion = sunni
-		size = 100
-	}
-
-	soldiers = {
-		culture = platinean
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-		culture = platinean
-		religion = sunni
-		size = 1800
-	}
-
+#Villa Angela (16000/4000 POPS)
+2365 = {
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 150
+		size = 600
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 300
+		size = 1200
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5400
-	}
-}
-#Mailin (8000/2000 POPS)
-2378 = {
-	aristocrats = {
-		culture = platinean
-		religion = sunni
-		size = 50
+		size = 21600
 	}
 
 	clergymen = {
-		culture = platinean
-		religion = sunni
-		size = 100
-	}
-
-	artisans = {
 		culture = platinean
 		religion = sunni
 		size = 200
 	}
 
+	artisans = {
+		culture = platinean
+		religion = sunni
+		size = 400
+	}
+
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 3600
+		size = 7200
 	}
 }
-#Cordoba Region (136000)
+#Under loose authority of Paraguay 1836
+#Formosa (24000/6000 POPS) #now part of Argentina
+2366 = {
+	aristocrats = {
+		culture = native_american_minor
+		religion = sunni
+		size = 600
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = sunni
+		size = 600
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = sunni
+		size = 2000
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 400
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 36600
+	}
+
+	bureaucrats = {
+		culture = platinean
+		religion = sunni
+		size = 16
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = sunni
+		size = 184
+	}
+
+	artisans = {
+		culture = platinean
+		religion = sunni
+		size = 400
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = sunni
+		size = 200
+	}
+
+	farmers = {
+		culture = platinean
+		religion = sunni
+		size = 7200
+	}
+}
+#Xolotas (20000/5000 POPS) #now part of Argentina
+2367 = {
+	aristocrats = {
+		culture = native_american_minor
+		religion = sunni
+		size = 600
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = sunni
+		size = 600
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = sunni
+		size = 2000
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 400
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 36600
+	}
+}
+#Salta Region (36000)
 #Under rule of Argentina 1836
-#Cordoba de Argentina (84000/21000 POPS)
-2379 = {
+#Salta (16000/4000 POPS)
+2368 = {
 	aristocrats = {
 		culture = platinean
 		religion = sunni
-		size = 850
+		size = 600
+	}
+
+	bureaucrats = {
+		culture = platinean
+		religion = sunni
+		size = 120
+	}
+
+	officers = {
+		culture = platinean
+		religion = sunni
+		size = 80
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = sunni
+		size = 400
+	}
+
+	artisans = {
+		culture = platinean
+		religion = sunni
+		size = 12000
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = sunni
+		size = 400
+	}
+
+	farmers = {
+		culture = platinean
+		religion = sunni
+		size = 18400
+	}
+}
+#Jujuy (8000/2000 POPS)
+2369 = {
+	aristocrats = {
+		culture = platinean
+		religion = sunni
+		size = 200
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = sunni
+		size = 400
+	}
+
+	artisans = {
+		culture = platinean
+		religion = sunni
+		size = 8800
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = sunni
+		size = 200
+	}
+
+	farmers = {
+		culture = platinean
+		religion = sunni
+		size = 7200
+	}
+}
+#Cochinoca (4000/1000 POPS)
+2370 = {
+	aristocrats = {
+		culture = platinean
+		religion = sunni
+		size = 120
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = sunni
+		size = 200
+	}
+
+	artisans = {
+		culture = platinean
+		religion = sunni
+		size = 400
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = sunni
+		size = 80
+	}
+
+	farmers = {
+		culture = platinean
+		religion = sunni
+		size = 7200
+	}
+}
+#Equia (4000/1000 POPS)
+2371 = {
+	aristocrats = {
+		culture = platinean
+		religion = sunni
+		size = 120
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = sunni
+		size = 200
+	}
+
+	artisans = {
+		culture = platinean
+		religion = sunni
+		size = 400
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = sunni
+		size = 80
+	}
+
+	farmers = {
+		culture = platinean
+		religion = sunni
+		size = 7200
+	}
+}
+#Rivadavia (4000/1000 POPS)
+2372 = {
+	aristocrats = {
+		culture = platinean
+		religion = sunni
+		size = 120
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = sunni
+		size = 200
+	}
+
+	artisans = {
+		culture = platinean
+		religion = sunni
+		size = 400
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = sunni
+		size = 80
+	}
+
+	farmers = {
+		culture = platinean
+		religion = sunni
+		size = 7200
+	}
+}
+#Tucuman Region (36000)
+#Under rule of Argentina 1836
+#Tucuman (20000/5000 POPS)
+2373 = {
+	aristocrats = {
+		culture = platinean
+		religion = sunni
+		size = 800
+	}
+
+	bureaucrats = {
+		culture = platinean
+		religion = sunni
+		size = 120
+	}
+
+	officers = {
+		culture = platinean
+		religion = sunni
+		size = 80
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = sunni
+		size = 800
+	}
+
+	artisans = {
+		culture = platinean
+		religion = sunni
+		size = 12000
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = sunni
+		size = 400
+	}
+
+	farmers = {
+		culture = platinean
+		religion = sunni
+		size = 25800
+	}
+}
+#Catamarca (12000/3000 POPS)
+2374 = {
+	aristocrats = {
+		culture = platinean
+		religion = sunni
+		size = 400
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = sunni
+		size = 600
+	}
+
+	artisans = {
+		culture = platinean
+		religion = sunni
+		size = 1200
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = sunni
+		size = 200
+	}
+
+	farmers = {
+		culture = platinean
+		religion = sunni
+		size = 21600
+	}
+}
+#Vinchina (4000/1000 POPS)
+2375 = {
+	aristocrats = {
+		culture = platinean
+		religion = sunni
+		size = 120
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = sunni
+		size = 200
+	}
+
+	artisans = {
+		culture = platinean
+		religion = sunni
+		size = 400
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = sunni
+		size = 80
+	}
+
+	farmers = {
+		culture = platinean
+		religion = sunni
+		size = 7200
+	}
+}
+#Santiago del Estero Region (40000)
+#Under rule of Argentina 1836
+#Santiago del Estero (16000/4000 POPS)
+2376 = {
+	aristocrats = {
+		culture = platinean
+		religion = sunni
+		size = 600
 	}
 
 	bureaucrats = {
@@ -1385,7 +1252,7 @@
 	officers = {
 		culture = platinean
 		religion = sunni
-		size = 70
+		size = 80
 	}
 
 	clergymen = {
@@ -1397,19 +1264,153 @@
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 6000
+		size = 1600
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 10000
+		size = 400
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 20600
+		size = 28840
+	}
+}
+#Anatuya (16000/4000 POPS)
+2377 = {
+	clergymen = {
+		culture = platinean
+		religion = sunni
+		size = 200
+	}
+
+	artisans = {
+		culture = platinean
+		religion = sunni
+		size = 400
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = sunni
+		size = 200
+	}
+
+	farmers = {
+		culture = platinean
+		religion = sunni
+		size = 7200
+	}
+
+	aristocrats = {
+		culture = native_american_minor
+		religion = sunni
+		size = 400
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = sunni
+		size = 600
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = sunni
+		size = 1200
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 200
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 21600
+	}
+}
+#Mailin (8000/2000 POPS)
+2378 = {
+	aristocrats = {
+		culture = platinean
+		religion = sunni
+		size = 200
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = sunni
+		size = 400
+	}
+
+	artisans = {
+		culture = platinean
+		religion = sunni
+		size = 800
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = sunni
+		size = 200
+	}
+
+	farmers = {
+		culture = platinean
+		religion = sunni
+		size = 14400
+	}
+}
+#Cordoba Region (136000)
+#Under rule of Argentina 1836
+#Cordoba de Argentina (84000/21000 POPS)
+2379 = {
+	aristocrats = {
+		culture = platinean
+		religion = sunni
+		size = 3400
+	}
+
+	bureaucrats = {
+		culture = platinean
+		religion = sunni
+		size = 320
+	}
+
+	officers = {
+		culture = platinean
+		religion = sunni
+		size = 280
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = sunni
+		size = 1600
+	}
+
+	artisans = {
+		culture = platinean
+		religion = sunni
+		size = 24000
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = sunni
+		size = 40000
+	}
+
+	farmers = {
+		culture = platinean
+		religion = sunni
+		size = 82400
 	}
 }
 #Villa Nueva (8000/2000 POPS)
@@ -1417,31 +1418,31 @@
 	aristocrats = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 200
+		size = 800
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 150
+		size = 600
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 3600
+		size = 14400
 	}
 }
 #Rio Cuarto (8000/2000 POPS)
@@ -1449,31 +1450,31 @@
 	aristocrats = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 200
+		size = 800
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 3600
+		size = 14400
 	}
 }
 #San Luis (8000/2000 POPS)
@@ -1481,31 +1482,31 @@
 	aristocrats = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 200
+		size = 800
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 3600
+		size = 14400
 	}
 }
 #Under the loose rule of Argentina 1836
@@ -1514,55 +1515,55 @@
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	artisans = {
+		culture = platinean
+		religion = sunni
+		size = 800
+	}
+
+	soldiers = {
 		culture = platinean
 		religion = sunni
 		size = 200
 	}
 
-	soldiers = {
-		culture = platinean
-		religion = sunni
-		size = 50
-	}
-
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 3650
+		size = 14600
 	}
 
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 150
+		size = 600
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 300
+		size = 1200
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5400
+		size = 21600
 	}
 }
 #Mercedes (8000/2000 POPS)
@@ -1570,55 +1571,55 @@
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 1800
+		size = 7200
 	}
 
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 20
+		size = 80
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 30
+		size = 120
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 1800
+		size = 7200
 	}
 }
 #La Rioja Region (40000)
@@ -1628,25 +1629,121 @@
 	aristocrats = {
 		culture = platinean
 		religion = sunni
-		size = 150
+		size = 600
 	}
 
 	bureaucrats = {
 		culture = platinean
 		religion = sunni
-		size = 30
+		size = 120
 	}
 
 	officers = {
 		culture = platinean
 		religion = sunni
-		size = 20
+		size = 80
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 400
+	}
+
+	artisans = {
+		culture = platinean
+		religion = sunni
+		size = 1600
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = sunni
+		size = 400
+	}
+
+	farmers = {
+		culture = platinean
+		religion = sunni
+		size = 29600
+	}
+}
+#Santa Rita (8000/2000 POPS)
+2386 = {
+	aristocrats = {
+		culture = platinean
+		religion = sunni
+		size = 200
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = sunni
+		size = 400
+	}
+
+	artisans = {
+		culture = platinean
+		religion = sunni
+		size = 800
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = sunni
+		size = 200
+	}
+
+	farmers = {
+		culture = platinean
+		religion = sunni
+		size = 14400
+	}
+}
+#San Juan de la Frontera (12000/3000 POPS)
+2387 = {
+	aristocrats = {
+		culture = platinean
+		religion = sunni
+		size = 400
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = sunni
+		size = 600
+	}
+
+	artisans = {
+		culture = platinean
+		religion = sunni
+		size = 1200
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = sunni
+		size = 200
+	}
+
+	farmers = {
+		culture = platinean
+		religion = sunni
+		size = 21600
+	}
+}
+#Calingasta (4000/1000 POPS)
+2388 = {
+	aristocrats = {
+		culture = platinean
+		religion = sunni
+		size = 120
+	}
+
+	clergymen = {
+		culture = platinean
+		religion = sunni
+		size = 200
 	}
 
 	artisans = {
@@ -1658,109 +1755,13 @@
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 80
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 7400
-	}
-}
-#Santa Rita (8000/2000 POPS)
-2386 = {
-	aristocrats = {
-		culture = platinean
-		religion = sunni
-		size = 50
-	}
-
-	clergymen = {
-		culture = platinean
-		religion = sunni
-		size = 100
-	}
-
-	artisans = {
-		culture = platinean
-		religion = sunni
-		size = 200
-	}
-
-	soldiers = {
-		culture = platinean
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-		culture = platinean
-		religion = sunni
-		size = 3600
-	}
-}
-#San Juan de la Frontera (12000/3000 POPS)
-2387 = {
-	aristocrats = {
-		culture = platinean
-		religion = sunni
-		size = 100
-	}
-
-	clergymen = {
-		culture = platinean
-		religion = sunni
-		size = 150
-	}
-
-	artisans = {
-		culture = platinean
-		religion = sunni
-		size = 300
-	}
-
-	soldiers = {
-		culture = platinean
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-		culture = platinean
-		religion = sunni
-		size = 5400
-	}
-}
-#Calingasta (4000/1000 POPS)
-2388 = {
-	aristocrats = {
-		culture = platinean
-		religion = sunni
-		size = 30
-	}
-
-	clergymen = {
-		culture = platinean
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = platinean
-		religion = sunni
-		size = 100
-	}
-
-	soldiers = {
-		culture = platinean
-		religion = sunni
-		size = 20
-	}
-
-	farmers = {
-		culture = platinean
-		religion = sunni
-		size = 1800
+		size = 7200
 	}
 }
 #Mendoza Region (32000)
@@ -1770,43 +1771,43 @@
 	aristocrats = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	bureaucrats = {
 		culture = platinean
 		religion = sunni
-		size = 10
+		size = 40
 	}
 
 	officers = {
 		culture = platinean
 		religion = sunni
-		size = 20
+		size = 80
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 150
+		size = 600
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 300
+		size = 1200
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 5320
+		size = 21280
 	}
 }
 #San Rafael (8000/2000 POPS)
@@ -1814,31 +1815,31 @@
 	aristocrats = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 200
+		size = 800
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 3600
+		size = 14400
 	}
 }
 #Under the loose rule of Argentina 1836
@@ -1847,55 +1848,55 @@
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 1800
+		size = 7200
 	}
 
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 200
+		size = 800
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 3600
+		size = 14400
 	}
 }
 #Rio Negro-La Pampa Region (52000)
@@ -1905,31 +1906,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 150
+		size = 600
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 300
+		size = 1200
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5400
+		size = 21600
 	}
 }
 #Telen (12000/3000 POPS)
@@ -1937,31 +1938,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 150
+		size = 600
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 300
+		size = 1200
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5400
+		size = 21600
 	}
 }
 #Bariloche (16000/4000 POPS)
@@ -1969,37 +1970,103 @@
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 1800
+		size = 7200
 	}
 
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 150
+		size = 600
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 400
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = sunni
+		size = 1600
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 400
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 29400
+	}
+}
+#Curaco (12000/3000 POPS)
+2395 = {
+	aristocrats = {
+		culture = native_american_minor
+		religion = sunni
+		size = 400
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = sunni
+		size = 600
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = sunni
+		size = 1200
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 200
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 21600
+	}
+}
+#Patagonia Region (20000)
+#Under the loose rule of Argentina 1836
+#Rawson (4000/1000 POPS)
+2396 = {
+	aristocrats = {
+		culture = native_american_minor
+		religion = sunni
+		size = 80
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = sunni
+		size = 200
 	}
 
 	artisans = {
@@ -2011,79 +2078,13 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 120
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 7350
-	}
-}
-#Curaco (12000/3000 POPS)
-2395 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = sunni
-		size = 100
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = sunni
-		size = 150
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = sunni
-		size = 300
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 5400
-	}
-}
-#Patagonia Region (20000)
-#Under the loose rule of Argentina 1836
-#Rawson (4000/1000 POPS)
-2396 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = sunni
-		size = 20
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = sunni
-		size = 100
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 30
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 1800
+		size = 7200
 	}
 }
 #Esquel (4000/1000 POPS)
@@ -2091,31 +2092,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 20
+		size = 80
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 30
+		size = 120
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 1800
+		size = 7200
 	}
 }
 #Puerto Deseado (4000/1000 POPS)
@@ -2123,31 +2124,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 20
+		size = 80
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 30
+		size = 120
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 1800
+		size = 7200
 	}
 }
 #Rio Gallegos (4000/1000 POPS)
@@ -2155,31 +2156,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 20
+		size = 80
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 30
+		size = 120
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 1800
+		size = 7200
 	}
 }
 #Rio Grande (4000/1000 POPS)
@@ -2187,31 +2188,31 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 20
+		size = 80
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 30
+		size = 120
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 1800
+		size = 7200
 	}
 }
 #Paraguay Region (16000) #see Paraguay.txt & Brazil.txt for balance of region
@@ -2221,55 +2222,56 @@
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 1800
+		size = 7200
 	}
 
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 150
+		size = 600
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 300
+		size = 1200
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 5400
+		size = 21600
 	}
 
 }
+

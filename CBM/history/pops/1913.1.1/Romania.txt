@@ -1926,7 +1926,7 @@
 		size = 3520
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = romanian
 		religion = sunni
 		size = 123680

@@ -1,3 +1,4 @@
+
 #Quito Region (512000)
 #Ruled by Ecuador 1836
 #Quito (304000/76000 POPS)
@@ -5,67 +6,67 @@
 	aristocrats = {
 		culture = north_andean
 		religion = sunni
-		size = 1550
+		size = 2790
 	}
 
 	bureaucrats = {
 		culture = north_andean
 		religion = sunni
-		size = 200
+		size = 360
 	}
 
 	officers = {
 		culture = north_andean
 		religion = sunni
-		size = 150
+		size = 270
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = sunni
-		size = 600
+		size = 1080
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = sunni
-		size = 5900
+		size = 10620
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = sunni
-		size = 1100
+		size = 1980
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = sunni
-		size = 21600
+		size = 38880
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 175
+		size = 315
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 4100
+		size = 7380
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 1100
+		size = 1980
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 39725
+		size = 71505
 	}
 }
 #Zamora (176000/44000 POPS)
@@ -73,55 +74,55 @@
 	aristocrats = {
 		culture = north_andean
 		religion = sunni
-		size = 900
+		size = 1620
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = sunni
-		size = 275
+		size = 495
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = sunni
-		size = 450
+		size = 810
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = sunni
-		size = 100
+		size = 180
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = sunni
-		size = 7275
+		size = 13095
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 175
+		size = 315
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 1750
+		size = 3150
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 1100
+		size = 1980
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 31775
+		size = 57195
 	}
 }
 #Tena (32000/8000 POPS)
@@ -129,85 +130,85 @@
 	aristocrats = {
 		culture = north_andean
 		religion = sunni
-		size = 100
+		size = 180
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = sunni
-		size = 75
+		size = 135
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = sunni
-		size = 150
+		size = 270
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = sunni
-		size = 50
+		size = 90
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = sunni
-		size = 2625
+		size = 4725
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 45
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 100
+		size = 180
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 45
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 1850
+		size = 3330
 	}
 
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 90
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 75
+		size = 135
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 150
+		size = 270
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 45
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 2700
+		size = 4860
 	}
 }
 #Guayaquil Region (328000)
@@ -217,73 +218,73 @@
 	aristocrats = {
 		culture = north_andean
 		religion = sunni
-		size = 450
+		size = 810
 	}
 
 	bureaucrats = {
 		culture = north_andean
 		religion = sunni
-		size = 100
+		size = 180
 	}
 
 	officers = {
 		culture = north_andean
 		religion = sunni
-		size = 100
+		size = 180
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = sunni
-		size = 175
+		size = 315
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = sunni
-		size = 850
+		size = 1530
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = sunni
-		size = 175
+		size = 315
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = sunni
-		size = 15150
+		size = 27270
 	}
 
 	clergymen = {
 		culture = caribeno
 		religion = sunni
-		size = 50
+		size = 90
 	}
 
 	artisans = {
 		culture = caribeno
 		religion = sunni
-		size = 150
+		size = 270
 	}
 
 	soldiers = {
 		culture = caribeno
 		religion = sunni
-		size = 50
+		size = 90
 	}
 
 	farmers = {
 		culture = caribeno
 		religion = sunni
-		size = 1800
+		size = 3240
 	}
 
 	slaves = {
 		culture = caribeno
 		religion = sunni
-		size = 1100
+		size = 1980
 	}
 }
 #Esmereldas (88000/22000 POPS)
@@ -291,61 +292,61 @@
 	aristocrats = {
 		culture = north_andean
 		religion = sunni
-		size = 450
+		size = 810
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = sunni
-		size = 175
+		size = 315
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = sunni
-		size = 350
+		size = 630
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = sunni
-		size = 75
+		size = 135
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = sunni
-		size = 6800
+		size = 12240
 	}
 
 	clergymen = {
 		culture = caribeno
 		religion = sunni
-		size = 75
+		size = 135
 	}
 
 	artisans = {
 		culture = caribeno
 		religion = sunni
-		size = 750
+		size = 1350
 	}
 
 	soldiers = {
 		culture = caribeno
 		religion = sunni
-		size = 150
+		size = 270
 	}
 
 	farmers = {
 		culture = caribeno
 		religion = sunni
-		size = 6025
+		size = 10845
 	}
 
 	slaves = {
 		culture = caribeno
 		religion = sunni
-		size = 8000
+		size = 14400
 	}
 }
 #Loja (160000/40000 POPS)
@@ -353,55 +354,55 @@
 	aristocrats = {
 		culture = north_andean
 		religion = sunni
-		size = 825
+		size = 1485
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = sunni
-		size = 275
+		size = 495
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = sunni
-		size = 750
+		size = 1350
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = sunni
-		size = 150
+		size = 270
 	}
 
 	farmers = {
 		culture = north_andean
-		religion = sunni
-		size = 13000
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = sunni
-		size = 100
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = sunni
-		size = 1250
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 250
-	}
-
-	farmers = {
-		culture = native_american_minor
 		religion = sunni
 		size = 23400
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = sunni
+		size = 180
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = sunni
+		size = 2250
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 450
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 42120
 	}
 }
 #Galapagos Region (300)
@@ -411,31 +412,32 @@
 	bureaucrats = {
 		culture = north_andean
 		religion = sunni
-		size = 1
+		size = 2
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = sunni
-		size = 1
+		size = 2
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = sunni
-		size = 3
+		size = 5
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = sunni
-		size = 25
+		size = 45
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = sunni
-		size = 45
+		size = 81
 	}
 
 }
+

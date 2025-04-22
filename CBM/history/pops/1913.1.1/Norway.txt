@@ -1,18 +1,115 @@
+
 #Trondelag-Nordland Region - 304000
 #Trondheim (140000/35000 POPS)
 305 = {
 	bureaucrats = {
 		culture = scandinavian
 		religion = sunni
-		size = 300
+		size = 600
 	}
 
 	officers = {
 		culture = scandinavian
 		religion = sunni
-		size = 50
+		size = 100
 	}
 
+	clergymen = {
+		culture = scandinavian
+		religion = sunni
+		size = 300
+	}
+
+	artisans = {
+		culture = scandinavian
+		religion = sunni
+		size = 6500
+	}
+
+	soldiers = {
+		culture = scandinavian
+		religion = sunni
+		size = 2200
+	}
+
+	farmers = {
+		culture = scandinavian
+		religion = sunni
+		size = 60500
+	}
+}
+#Bodo (56000/14000 POPS)
+306 = {
+	clergymen = {
+		culture = scandinavian
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = scandinavian
+		religion = sunni
+		size = 1500
+	}
+
+	soldiers = {
+		culture = scandinavian
+		religion = sunni
+		size = 200
+	}
+
+	farmers = {
+		culture = scandinavian
+		religion = sunni
+		size = 24200
+	}
+
+	farmers = {
+		culture = scandinavian
+		religion = sunni
+		size = 2200
+	}
+}
+#Hammerfest (36000/9000 POPS)
+307 = {
+	clergymen = {
+		culture = scandinavian
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = scandinavian
+		religion = sunni
+		size = 1000
+	}
+
+	soldiers = {
+		culture = scandinavian
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = scandinavian
+		religion = sunni
+		size = 8800
+	}
+
+	farmers = {
+		culture = scandinavian
+		religion = sunni
+		size = 4000
+	}
+
+	farmers = {
+		culture = scandinavian
+		religion = sunni
+		size = 4000
+	}
+}
+#Alesund (72000/18000 POPS)
+308 = {
 	clergymen = {
 		culture = scandinavian
 		religion = sunni
@@ -22,115 +119,19 @@
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 3250
+		size = 2200
 	}
 
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 1100
+		size = 200
 	}
 
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 30250
-	}
-}
-#Bodo (56000/14000 POPS)
-306 = {
-	clergymen = {
-		culture = scandinavian
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = scandinavian
-		religion = sunni
-		size = 750
-	}
-
-	soldiers = {
-		culture = scandinavian
-		religion = sunni
-		size = 100
-	}
-
-	farmers = {
-		culture = scandinavian
-		religion = sunni
-		size = 12100
-	}
-
-	farmers = {
-		culture = scandinavian
-		religion = sunni
-		size = 1100
-	}
-}
-#Hammerfest (36000/9000 POPS)
-307 = {
-	clergymen = {
-		culture = scandinavian
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = scandinavian
-		religion = sunni
-		size = 500
-	}
-
-	soldiers = {
-		culture = scandinavian
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-		culture = scandinavian
-		religion = sunni
-		size = 4400
-	}
-
-	farmers = {
-		culture = scandinavian
-		religion = sunni
-		size = 2000
-	}
-
-	farmers = {
-		culture = scandinavian
-		religion = sunni
-		size = 2000
-	}
-}
-#Alesund (72000/18000 POPS)
-308 = {
-	clergymen = {
-		culture = scandinavian
-		religion = sunni
-		size = 75
-	}
-
-	artisans = {
-		culture = scandinavian
-		religion = sunni
-		size = 1100
-	}
-
-	soldiers = {
-		culture = scandinavian
-		religion = sunni
-		size = 100
-	}
-
-	farmers = {
-		culture = scandinavian
-		religion = sunni
-		size = 16825
+		size = 33650
 	}
 
 }
@@ -139,7 +140,7 @@
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 15
+		size = 30
 	}
 }
 
@@ -149,37 +150,37 @@
 	bureaucrats = {
 		culture = scandinavian
 		religion = sunni
-		size = 500
+		size = 1000
 	}
 
 	officers = {
 		culture = scandinavian
 		religion = sunni
-		size = 100
+		size = 200
 	}
 
 	clergymen = {
 		culture = scandinavian
 		religion = sunni
-		size = 200
+		size = 400
 	}
 
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 5000
+		size = 10000
 	}
 
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 1100
+		size = 2200
 	}
 
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 38200
+		size = 76400
 	}
 }
 #Christiansand (164000/41000 POPS)
@@ -187,25 +188,25 @@
 	clergymen = {
 		culture = scandinavian
 		religion = sunni
-		size = 175
+		size = 350
 	}
 
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 2000
+		size = 4000
 	}
 
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 1100
+		size = 2200
 	}
 
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 37825
+		size = 75650
 	}
 }
 #Skien (68000/17000 POPS)
@@ -213,25 +214,25 @@
 	clergymen = {
 		culture = scandinavian
 		religion = sunni
-		size = 75
+		size = 150
 	}
 
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 750
+		size = 1500
 	}
 
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 100
+		size = 200
 	}
 
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 16075
+		size = 32150
 	}
 }
 #Drammen (132000/33000 POPS)
@@ -239,25 +240,25 @@
 	clergymen = {
 		culture = scandinavian
 		religion = sunni
-		size = 125
+		size = 250
 	}
 
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 2000
+		size = 4000
 	}
 
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 250
+		size = 500
 	}
 
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 31125
+		size = 62250
 	}
 
 }
@@ -267,37 +268,37 @@
 	bureaucrats = {
 		culture = scandinavian
 		religion = sunni
-		size = 500
+		size = 1000
 	}
 
 	officers = {
 		culture = scandinavian
 		religion = sunni
-		size = 100
+		size = 200
 	}
 
 	clergymen = {
 		culture = scandinavian
 		religion = sunni
-		size = 125
+		size = 250
 	}
 
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 7000
+		size = 14000
 	}
 
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 1100
+		size = 2200
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = scandinavian
 		religion = sunni
-		size = 18275
+		size = 36550
 	}
 }
 #Hamar (80000/20000 POPS)
@@ -305,25 +306,25 @@
 	clergymen = {
 		culture = scandinavian
 		religion = sunni
-		size = 100
+		size = 200
 	}
 
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 1100
+		size = 2200
 	}
 
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 150
+		size = 300
 	}
 
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 18750
+		size = 37500
 	}
 }
 #Lillehammer (96000/24000 POPS)
@@ -331,25 +332,25 @@
 	clergymen = {
 		culture = scandinavian
 		religion = sunni
-		size = 125
+		size = 250
 	}
 
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 1250
+		size = 2500
 	}
 
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 200
+		size = 400
 	}
 
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 22425
+		size = 44850
 	}
 }
 #Frederiksstad (68000/17000 POPS)
@@ -357,25 +358,25 @@
 	clergymen = {
 		culture = scandinavian
 		religion = sunni
-		size = 75
+		size = 150
 	}
 
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 750
+		size = 1500
 	}
 
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 150
+		size = 300
 	}
 
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 16025
+		size = 32050
 	}
 
 }

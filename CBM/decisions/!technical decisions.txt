@@ -210,7 +210,10 @@ political_decisions = {
 	}
 	banker_pay = {
 		potential = {
-			tag = BNK
+			OR = {
+				tag = BNK
+				tag = BKL
+			}
 		}
 		allow = {
 			NOT = {
@@ -232,7 +235,10 @@ political_decisions = {
 	}
 	banker_pay_timer = {
 		potential = {
-			tag = BNK
+			OR = {
+				tag = BNK
+				tag = BKL
+			}
 		}
 		allow = {
 			has_country_flag = banker_timer

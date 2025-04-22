@@ -8,6 +8,7 @@ life_rating = 35
 
 1910.1.1 = {
     owner = SER
+railroad = 2
     controller = SER
 }
 

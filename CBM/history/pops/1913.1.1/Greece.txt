@@ -1034,7 +1034,7 @@
 		size = 6000
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = greek
 		religion = sunni
 		size = 131350

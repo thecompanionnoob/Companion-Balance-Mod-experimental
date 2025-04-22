@@ -23,9 +23,12 @@ political_decisions = {
 					OR = {
 						owned_by = THIS
 						owner = {
-							AND = {
-								in_sphere = THIS
-								ai = yes
+							OR = {
+								AND = {
+									in_sphere = THIS
+									ai = yes
+								}
+								vassal_of = THIS
 							}
 						}
 					}
@@ -36,9 +39,12 @@ political_decisions = {
 					OR = {
 						owned_by = THIS
 						owner = {
-							AND = {
-								in_sphere = THIS
-								ai = yes
+							OR = {
+								AND = {
+									in_sphere = THIS
+									ai = yes
+								}
+								vassal_of = THIS
 							}
 						}
 					}
@@ -57,6 +63,20 @@ political_decisions = {
 					}
 					ai = yes
 					in_sphere = THIS
+				}
+				annex_to = THIS
+			}
+			any_country = {
+				limit = {
+					OR = {
+						primary_culture = brazilian
+						primary_culture = portuguese
+					}
+					NOT = {
+						tag = THIS
+					}
+					vassal_of = THIS
+
 				}
 				annex_to = THIS
 			}

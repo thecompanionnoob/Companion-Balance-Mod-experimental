@@ -1,3 +1,4 @@
+
 #Caracas Region (332000)
 #Ruled by Venezuela 1836
 #Caracas (224000/56000 POPS)
@@ -5,202 +6,16 @@
 	aristocrats = {
 		culture = north_andean
 		religion = sunni
-		size = 1125
+		size = 2250
 	}
 
 	bureaucrats = {
 		culture = north_andean
 		religion = sunni
-		size = 125
-	}
-
-	officers = {
-		culture = north_andean
-		religion = sunni
-		size = 100
-	}
-
-	clergymen = {
-		culture = north_andean
-		religion = sunni
-		size = 400
-	}
-
-	artisans = {
-		culture = north_andean
-		religion = sunni
-		size = 2050
-	}
-
-	soldiers = {
-		culture = north_andean
-		religion = sunni
-		size = 1100
-	}
-
-	farmers = {
-		culture = north_andean
-		religion = sunni
-		size = 40725
-	}
-
-	clergymen = {
-		culture = caribeno
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = caribeno
-		religion = sunni
-		size = 550
-	}
-
-	soldiers = {
-		culture = caribeno
-		religion = sunni
-		size = 1100
-	}
-
-	farmers = {
-		culture = caribeno
-		religion = sunni
-		size = 9400
-	}
-
-	slaves = {
-		culture = caribeno
-		religion = sunni
-		size = 4000
-	}
-}
-#Cumana (24000/6000 POPS)
-2267 = {
-	aristocrats = {
-		culture = north_andean
-		religion = sunni
-		size = 125
-	}
-
-	clergymen = {
-		culture = north_andean
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = north_andean
-		religion = sunni
 		size = 250
 	}
 
-	soldiers = {
-		culture = north_andean
-		religion = sunni
-		size = 1100
-	}
-
-	farmers = {
-		culture = north_andean
-		religion = sunni
-		size = 3575
-	}
-
-	clergymen = {
-		culture = caribeno
-		religion = sunni
-		size = 25
-	}
-
-	artisans = {
-		culture = caribeno
-		religion = sunni
-		size = 50
-	}
-
-	soldiers = {
-		culture = caribeno
-		religion = sunni
-		size = 25
-	}
-
-	farmers = {
-		culture = caribeno
-		religion = sunni
-		size = 600
-	}
-
-	slaves = {
-		culture = caribeno
-		religion = sunni
-		size = 300
-	}
-}
-#San Felipe (44000/11000 POPS)
-2268 = {
-	aristocrats = {
-		culture = north_andean
-		religion = sunni
-		size = 225
-	}
-
-	clergymen = {
-		culture = north_andean
-		religion = sunni
-		size = 75
-	}
-
-	artisans = {
-		culture = north_andean
-		religion = sunni
-		size = 450
-	}
-
-	soldiers = {
-		culture = north_andean
-		religion = sunni
-		size = 1100
-	}
-
-	farmers = {
-		culture = north_andean
-		religion = sunni
-		size = 8200
-	}
-
-	clergymen = {
-		culture = caribeno
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = caribeno
-		religion = sunni
-		size = 100
-	}
-
-	soldiers = {
-		culture = caribeno
-		religion = sunni
-		size = 25
-	}
-
-	farmers = {
-		culture = caribeno
-		religion = sunni
-		size = 1425
-	}
-
-	slaves = {
-		culture = caribeno
-		religion = sunni
-		size = 400
-	}
-}
-#Guiria (40000/10000 POPS)
-2269 = {
-	aristocrats = {
+	officers = {
 		culture = north_andean
 		religion = sunni
 		size = 200
@@ -209,49 +24,235 @@
 	clergymen = {
 		culture = north_andean
 		religion = sunni
-		size = 75
+		size = 800
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = sunni
-		size = 450
+		size = 4100
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = sunni
-		size = 1100
+		size = 2200
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = sunni
-		size = 7275
+		size = 81450
 	}
 
 	clergymen = {
 		culture = caribeno
 		religion = sunni
-		size = 25
+		size = 100
 	}
 
 	artisans = {
 		culture = caribeno
 		religion = sunni
-		size = 50
+		size = 1100
 	}
 
 	soldiers = {
 		culture = caribeno
 		religion = sunni
-		size = 10
+		size = 2200
 	}
 
 	farmers = {
 		culture = caribeno
 		religion = sunni
-		size = 1100
+		size = 18800
+	}
+
+	slaves = {
+		culture = caribeno
+		religion = sunni
+		size = 8000
+	}
+}
+#Cumana (24000/6000 POPS)
+2267 = {
+	aristocrats = {
+		culture = north_andean
+		religion = sunni
+		size = 250
+	}
+
+	clergymen = {
+		culture = north_andean
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = north_andean
+		religion = sunni
+		size = 500
+	}
+
+	soldiers = {
+		culture = north_andean
+		religion = sunni
+		size = 2200
+	}
+
+	farmers = {
+		culture = north_andean
+		religion = sunni
+		size = 7150
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = sunni
+		size = 100
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = sunni
+		size = 50
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = sunni
+		size = 1200
+	}
+
+	slaves = {
+		culture = caribeno
+		religion = sunni
+		size = 600
+	}
+}
+#San Felipe (44000/11000 POPS)
+2268 = {
+	aristocrats = {
+		culture = north_andean
+		religion = sunni
+		size = 450
+	}
+
+	clergymen = {
+		culture = north_andean
+		religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = north_andean
+		religion = sunni
+		size = 900
+	}
+
+	soldiers = {
+		culture = north_andean
+		religion = sunni
+		size = 2200
+	}
+
+	farmers = {
+		culture = north_andean
+		religion = sunni
+		size = 16400
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = sunni
+		size = 200
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = sunni
+		size = 50
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = sunni
+		size = 2850
+	}
+
+	slaves = {
+		culture = caribeno
+		religion = sunni
+		size = 800
+	}
+}
+#Guiria (40000/10000 POPS)
+2269 = {
+	aristocrats = {
+		culture = north_andean
+		religion = sunni
+		size = 400
+	}
+
+	clergymen = {
+		culture = north_andean
+		religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = north_andean
+		religion = sunni
+		size = 900
+	}
+
+	soldiers = {
+		culture = north_andean
+		religion = sunni
+		size = 2200
+	}
+
+	farmers = {
+		culture = north_andean
+		religion = sunni
+		size = 14550
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = sunni
+		size = 100
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = sunni
+		size = 20
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = sunni
+		size = 2200
 	}
 }
 #Llanos Region (88000)
@@ -261,73 +262,73 @@
 	aristocrats = {
 		culture = north_andean
 		religion = sunni
-		size = 100
+		size = 200
 	}
 
 	bureaucrats = {
 		culture = north_andean
 		religion = sunni
-		size = 25
+		size = 50
 	}
 
 	officers = {
 		culture = north_andean
 		religion = sunni
-		size = 25
+		size = 50
 	}
 
 	clergymen = {
-		culture = north_andean
-		religion = sunni
-		size = 75
-	}
-
-	artisans = {
 		culture = north_andean
 		religion = sunni
 		size = 150
 	}
 
+	artisans = {
+		culture = north_andean
+		religion = sunni
+		size = 300
+	}
+
 	soldiers = {
 		culture = north_andean
 		religion = sunni
-		size = 50
+		size = 100
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = sunni
-		size = 2575
+		size = 5150
 	}
 
 	clergymen = {
 		culture = caribeno
 		religion = sunni
-		size = 20
+		size = 40
 	}
 
 	artisans = {
 		culture = caribeno
 		religion = sunni
-		size = 50
+		size = 100
 	}
 
 	soldiers = {
 		culture = caribeno
 		religion = sunni
-		size = 10
+		size = 20
 	}
 
 	farmers = {
 		culture = caribeno
 		religion = sunni
-		size = 520
+		size = 1040
 	}
 
 	slaves = {
 		culture = caribeno
 		religion = sunni
-		size = 400
+		size = 800
 	}
 }
 #Calabozo (40000/10000 POPS)
@@ -335,181 +336,19 @@
 	aristocrats = {
 		culture = north_andean
 		religion = sunni
-		size = 225
+		size = 450
 	}
 
 	clergymen = {
-		culture = north_andean
-		religion = sunni
-		size = 75
-	}
-
-	artisans = {
-		culture = north_andean
-		religion = sunni
-		size = 400
-	}
-
-	soldiers = {
-		culture = north_andean
-		religion = sunni
-		size = 75
-	}
-
-	farmers = {
-		culture = north_andean
-		religion = sunni
-		size = 7225
-	}
-
-	clergymen = {
-		culture = caribeno
-		religion = sunni
-		size = 25
-	}
-
-	artisans = {
-		culture = caribeno
-		religion = sunni
-		size = 100
-	}
-
-	soldiers = {
-		culture = caribeno
-		religion = sunni
-		size = 25
-	}
-
-	farmers = {
-		culture = caribeno
-		religion = sunni
-		size = 1350
-	}
-
-	slaves = {
-		culture = caribeno
-		religion = sunni
-		size = 500
-	}
-}
-#Barinas (32000/8000 POPS)
-2274 = {
-	aristocrats = {
-		culture = north_andean
-		religion = sunni
-		size = 175
-	}
-
-	clergymen = {
-		culture = north_andean
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = north_andean
-		religion = sunni
-		size = 250
-	}
-
-	soldiers = {
-		culture = north_andean
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-		culture = north_andean
-		religion = sunni
-		size = 4475
-	}
-
-	clergymen = {
-		culture = caribeno
-		religion = sunni
-		size = 25
-	}
-
-	artisans = {
-		culture = caribeno
-		religion = sunni
-		size = 50
-	}
-
-	soldiers = {
-		culture = caribeno
-		religion = sunni
-		size = 10
-	}
-
-	farmers = {
-		culture = caribeno
-		religion = sunni
-		size = 515
-	}
-
-	slaves = {
-		culture = caribeno
-		religion = sunni
-		size = 400
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = sunni
-		size = 25
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = sunni
-		size = 100
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 25
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 1850
-	}
-}
-#Zulia Region (378000)
-#Ruled by Venezuela 1836
-#Maracaibo (100000/25000 POPS)
-2270 = {
-	aristocrats = {
-		culture = north_andean
-		religion = sunni
-		size = 550
-	}
-
-	bureaucrats = {
 		culture = north_andean
 		religion = sunni
 		size = 150
 	}
 
-	officers = {
-		culture = north_andean
-		religion = sunni
-		size = 125
-	}
-
-	clergymen = {
-		culture = north_andean
-		religion = sunni
-		size = 200
-	}
-
 	artisans = {
 		culture = north_andean
 		religion = sunni
-		size = 700
+		size = 800
 	}
 
 	soldiers = {
@@ -521,93 +360,7 @@
 	farmers = {
 		culture = north_andean
 		religion = sunni
-		size = 12275
-	}
-
-	clergymen = {
-		culture = caribeno
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = caribeno
-		religion = sunni
-		size = 500
-	}
-
-	soldiers = {
-		culture = caribeno
-		religion = sunni
-		size = 100
-	}
-
-	farmers = {
-		culture = caribeno
-		religion = sunni
-		size = 7350
-	}
-
-	slaves = {
-		culture = caribeno
-		religion = sunni
-		size = 2000
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = sunni
-		size = 10
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = sunni
-		size = 50
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 10
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 930
-	}
-}
-#Valera (128000/32000 POPS)
-2271 = {
-	aristocrats = {
-		culture = north_andean
-		religion = sunni
-		size = 650
-	}
-
-	clergymen = {
-		culture = north_andean
-		religion = sunni
-		size = 275
-	}
-
-	artisans = {
-		culture = north_andean
-		religion = sunni
-		size = 1350
-	}
-
-	soldiers = {
-		culture = north_andean
-		religion = sunni
-		size = 1100
-	}
-
-	farmers = {
-		culture = north_andean
-		religion = sunni
-		size = 23725
+		size = 14450
 	}
 
 	clergymen = {
@@ -637,45 +390,21 @@
 	slaves = {
 		culture = caribeno
 		religion = sunni
-		size = 1100
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = sunni
-		size = 10
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = sunni
-		size = 50
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 10
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = sunni
-		size = 930
+		size = 1000
 	}
 }
-#Coro (56000/14000 POPS)
-2272 = {
+#Barinas (32000/8000 POPS)
+2274 = {
 	aristocrats = {
 		culture = north_andean
 		religion = sunni
-		size = 325
+		size = 350
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = sunni
-		size = 125
+		size = 100
 	}
 
 	artisans = {
@@ -705,25 +434,297 @@
 	artisans = {
 		culture = caribeno
 		religion = sunni
-		size = 200
+		size = 100
 	}
 
 	soldiers = {
 		culture = caribeno
 		religion = sunni
-		size = 50
+		size = 20
 	}
 
 	farmers = {
 		culture = caribeno
 		religion = sunni
-		size = 2700
+		size = 1030
 	}
 
 	slaves = {
 		culture = caribeno
 		religion = sunni
+		size = 800
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = sunni
+		size = 200
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 50
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 3700
+	}
+}
+#Zulia Region (378000)
+#Ruled by Venezuela 1836
+#Maracaibo (100000/25000 POPS)
+2270 = {
+	aristocrats = {
+		culture = north_andean
+		religion = sunni
 		size = 1100
+	}
+
+	bureaucrats = {
+		culture = north_andean
+		religion = sunni
+		size = 300
+	}
+
+	officers = {
+		culture = north_andean
+		religion = sunni
+		size = 250
+	}
+
+	clergymen = {
+		culture = north_andean
+		religion = sunni
+		size = 400
+	}
+
+	artisans = {
+		culture = north_andean
+		religion = sunni
+		size = 1400
+	}
+
+	soldiers = {
+		culture = north_andean
+		religion = sunni
+		size = 300
+	}
+
+	farmers = {
+		culture = north_andean
+		religion = sunni
+		size = 24550
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = sunni
+		size = 1000
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = sunni
+		size = 200
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = sunni
+		size = 14700
+	}
+
+	slaves = {
+		culture = caribeno
+		religion = sunni
+		size = 4000
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = sunni
+		size = 20
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = sunni
+		size = 100
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 20
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 1860
+	}
+}
+#Valera (128000/32000 POPS)
+2271 = {
+	aristocrats = {
+		culture = north_andean
+		religion = sunni
+		size = 1300
+	}
+
+	clergymen = {
+		culture = north_andean
+		religion = sunni
+		size = 550
+	}
+
+	artisans = {
+		culture = north_andean
+		religion = sunni
+		size = 2700
+	}
+
+	soldiers = {
+		culture = north_andean
+		religion = sunni
+		size = 2200
+	}
+
+	farmers = {
+		culture = north_andean
+		religion = sunni
+		size = 47450
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = sunni
+		size = 400
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = sunni
+		size = 5400
+	}
+
+	slaves = {
+		culture = caribeno
+		religion = sunni
+		size = 2200
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = sunni
+		size = 20
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = sunni
+		size = 100
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 20
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = sunni
+		size = 1860
+	}
+}
+#Coro (56000/14000 POPS)
+2272 = {
+	aristocrats = {
+		culture = north_andean
+		religion = sunni
+		size = 650
+	}
+
+	clergymen = {
+		culture = north_andean
+		religion = sunni
+		size = 250
+	}
+
+	artisans = {
+		culture = north_andean
+		religion = sunni
+		size = 1000
+	}
+
+	soldiers = {
+		culture = north_andean
+		religion = sunni
+		size = 200
+	}
+
+	farmers = {
+		culture = north_andean
+		religion = sunni
+		size = 17900
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = sunni
+		size = 400
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = sunni
+		size = 5400
+	}
+
+	slaves = {
+		culture = caribeno
+		religion = sunni
+		size = 2200
 	}
 }
 #Barquisimento (96000/24000 POPS)
@@ -731,61 +732,61 @@
 	aristocrats = {
 		culture = north_andean
 		religion = sunni
-		size = 525
+		size = 1050
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = sunni
-		size = 200
+		size = 400
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = sunni
-		size = 1100
+		size = 2200
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = sunni
-		size = 200
+		size = 400
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = sunni
-		size = 18075
+		size = 36150
 	}
 
 	clergymen = {
 		culture = caribeno
 		religion = sunni
-		size = 50
+		size = 100
 	}
 
 	artisans = {
 		culture = caribeno
 		religion = sunni
-		size = 200
+		size = 400
 	}
 
 	soldiers = {
 		culture = caribeno
 		religion = sunni
-		size = 50
+		size = 100
 	}
 
 	farmers = {
 		culture = caribeno
 		religion = sunni
-		size = 2700
+		size = 5400
 	}
 
 	slaves = {
 		culture = caribeno
 		religion = sunni
-		size = 1100
+		size = 2200
 	}
 }
 #Orinoco Region (152000)
@@ -795,61 +796,61 @@
 	aristocrats = {
 		culture = north_andean
 		religion = sunni
-		size = 175
+		size = 350
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = sunni
-		size = 50
+		size = 100
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = sunni
-		size = 250
+		size = 500
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = sunni
-		size = 50
+		size = 100
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = sunni
-		size = 4475
+		size = 8950
 	}
 
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 100
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 75
+		size = 150
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 150
+		size = 300
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 50
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 2700
+		size = 5400
 	}
 }
 #Curiapo (104000/26000 POPS)
@@ -857,73 +858,73 @@
 	aristocrats = {
 		culture = north_andean
 		religion = sunni
-		size = 550
+		size = 1100
 	}
 
 	bureaucrats = {
 		culture = north_andean
 		religion = sunni
-		size = 25
+		size = 50
 	}
 
 	officers = {
 		culture = north_andean
 		religion = sunni
-		size = 25
-	}
-
-	clergymen = {
-		culture = north_andean
-		religion = sunni
-		size = 225
-	}
-
-	artisans = {
-		culture = north_andean
-		religion = sunni
-		size = 1050
-	}
-
-	soldiers = {
-		culture = north_andean
-		religion = sunni
-		size = 225
-	}
-
-	farmers = {
-		culture = north_andean
-		religion = sunni
-		size = 18900
-	}
-
-	clergymen = {
-		culture = caribeno
-		religion = sunni
-		size = 75
-	}
-
-	artisans = {
-		culture = caribeno
-		religion = sunni
-		size = 250
-	}
-
-	soldiers = {
-		culture = caribeno
-		religion = sunni
 		size = 50
 	}
 
+	clergymen = {
+		culture = north_andean
+		religion = sunni
+		size = 450
+	}
+
+	artisans = {
+		culture = north_andean
+		religion = sunni
+		size = 2100
+	}
+
+	soldiers = {
+		culture = north_andean
+		religion = sunni
+		size = 450
+	}
+
+	farmers = {
+		culture = north_andean
+		religion = sunni
+		size = 37800
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = sunni
+		size = 500
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = sunni
+		size = 100
+	}
+
 	farmers = {
 		culture = caribeno
 		religion = sunni
-		size = 3625
+		size = 7250
 	}
 
 	slaves = {
 		culture = caribeno
 		religion = sunni
-		size = 1100
+		size = 2200
 	}
 }
 #under "rule" of Venezuela 1836
@@ -932,61 +933,61 @@
 	aristocrats = {
 		culture = north_andean
 		religion = sunni
-		size = 15
+		size = 30
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = sunni
-		size = 25
+		size = 50
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = sunni
-		size = 50
+		size = 100
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = sunni
-		size = 10
+		size = 20
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = sunni
-		size = 900
+		size = 1800
 	}
 
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 100
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 75
+		size = 150
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 150
+		size = 300
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 50
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 2700
+		size = 5400
 	}
 }
 #San Fernando de Atabapo (4000/1000 POPS)
@@ -994,31 +995,32 @@
 	aristocrats = {
 		culture = native_american_minor
 		religion = sunni
-		size = 10
+		size = 20
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = sunni
-		size = 25
+		size = 50
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = sunni
-		size = 50
+		size = 100
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 15
+		size = 30
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 900
+		size = 1800
 	}
 
 }
+

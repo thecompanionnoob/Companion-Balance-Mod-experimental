@@ -1,4 +1,7 @@
 owner = JAP
+1910.1.1 = {
+railroad = 3
+}
 controller = JAP
 add_core = JAP
 trade_goods = silk

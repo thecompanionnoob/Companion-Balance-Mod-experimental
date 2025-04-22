@@ -1,4 +1,7 @@
 owner = POR
+1910.1.1 = {
+railroad = 3
+}
 controller = POR
 add_core = POR
 trade_goods = wool

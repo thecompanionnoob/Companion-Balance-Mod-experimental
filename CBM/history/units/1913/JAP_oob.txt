@@ -1,0 +1,292 @@
+
+
+navy = {
+    name = "IJN Transport Fleet"
+    location = 1661
+    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }    
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }
+}
+
+navy = {
+    name = "Imperial Japanese Navy"
+    location = 1655
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }
+}

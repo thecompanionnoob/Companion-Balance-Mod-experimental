@@ -1,3 +1,4 @@
+
 #Uruguay Region (200000)  
 #Under rule of Uruguay 1836
 #Montevideo (112000/28000 POPS)
@@ -5,73 +6,73 @@
 	aristocrats = {
 		culture = platinean
 		religion = sunni
-		size = 575
+		size = 2875
 	}
 
 	bureaucrats = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 250
 	}
 
 	officers = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 250
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 250
+		size = 1250
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 980
+		size = 4900
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 1100
+		size = 5500
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 20095
+		size = 100475
 	}
 
 	clergymen = {
 		culture = caribeno
 		religion = sunni
-		size = 50
+		size = 250
 	}
 
 	artisans = {
 		culture = caribeno
 		religion = sunni
-		size = 250
+		size = 1250
 	}
 
 	soldiers = {
 		culture = caribeno
 		religion = sunni
-		size = 50
+		size = 250
 	}
 
 	farmers = {
 		culture = caribeno
 		religion = sunni
-		size = 3150
+		size = 15750
 	}
 
 	slaves = {
 		culture = caribeno
 		religion = sunni
-		size = 1500
+		size = 7500
 	}
 }
 #Paysandu (36000/9000 POPS)
@@ -79,31 +80,31 @@
 	aristocrats = {
 		culture = platinean
 		religion = sunni
-		size = 200
+		size = 1000
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 75
+		size = 375
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 450
+		size = 2250
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 1100
+		size = 5500
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 7275
+		size = 36375
 	}
 }
 #Tacumba (12000/3000 POPS)
@@ -111,55 +112,55 @@
 	aristocrats = {
 		culture = platinean
 		religion = sunni
-		size = 25
+		size = 125
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 250
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 100
+		size = 500
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 25
+		size = 125
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 1800
+		size = 9000
 	}
 
 	clergymen = {
 		culture = brazilian
 		religion = sunni
-		size = 15
+		size = 75
 	}
 
 	artisans = {
 		culture = brazilian
 		religion = sunni
-		size = 50
+		size = 250
 	}
 
 	soldiers = {
 		culture = brazilian
 		religion = sunni
-		size = 10
+		size = 50
 	}
 
 	farmers = {
 		culture = brazilian
 		religion = sunni
-		size = 925
+		size = 4625
 	}
 }
 #Melo (40000/10000 POPS)
@@ -167,55 +168,56 @@
 	aristocrats = {
 		culture = platinean
 		religion = sunni
-		size = 150
+		size = 750
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = sunni
-		size = 50
+		size = 250
 	}
 
 	artisans = {
 		culture = platinean
 		religion = sunni
-		size = 350
+		size = 1750
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = sunni
-		size = 1100
+		size = 5500
 	}
 
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 5450
+		size = 27250
 	}
 
 	clergymen = {
 		culture = brazilian
 		religion = sunni
-		size = 50
+		size = 250
 	}
 
 	artisans = {
 		culture = brazilian
 		religion = sunni
-		size = 150
+		size = 750
 	}
 
 	soldiers = {
 		culture = brazilian
 		religion = sunni
-		size = 25
+		size = 125
 	}
 
 	farmers = {
 		culture = brazilian
 		religion = sunni
-		size = 2775
+		size = 13875
 	}
 
 }
+

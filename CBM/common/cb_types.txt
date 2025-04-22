@@ -109,7 +109,7 @@ italy_must_come_together = {
 	can_use = {
 		NOT = { 
 			OR = {
-				tag = BNK 
+				tag = BNK
 				tag = GHO 
 			}
 		}
@@ -174,6 +174,7 @@ china_must_come_together = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -231,6 +232,7 @@ minor_conquest = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -290,6 +292,7 @@ negotiated_transfer = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -358,6 +361,7 @@ gunboat = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -439,6 +443,7 @@ conquest = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -495,6 +500,7 @@ civil_war = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -555,6 +561,7 @@ add_to_sphere = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -606,6 +613,7 @@ take_from_sphere = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -822,6 +830,7 @@ acquire_state_tiny = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -911,6 +920,7 @@ acquire_state_small = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -999,6 +1009,7 @@ acquire_state_medium = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -1087,6 +1098,7 @@ acquire_state_large = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -1175,6 +1187,7 @@ acquire_state_huge = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -1265,6 +1278,7 @@ place_in_the_sun_small = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -1336,6 +1350,7 @@ place_in_the_sun_large = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -1446,6 +1461,7 @@ cut_down_to_size = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -1474,6 +1490,7 @@ cut_down_to_size_boxer = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -1534,6 +1551,7 @@ free_peoples = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -1622,6 +1640,7 @@ liberate_country = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -1711,6 +1730,7 @@ dismantle_forts = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -1888,6 +1908,7 @@ make_puppet = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -2005,6 +2026,7 @@ humiliate = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -2078,6 +2100,7 @@ demand_concession_casus_belli = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 				tag = YNN
 				tag = MCK
@@ -2139,6 +2162,7 @@ demand_concession_china_casus_belli = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -2202,6 +2226,7 @@ establish_protectorate_casus_belli = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -2259,6 +2284,7 @@ unification_humiliate_cb = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -2316,6 +2342,7 @@ unification_release_puppet_cb = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -2382,6 +2409,7 @@ unification_casus_belli = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -2456,6 +2484,7 @@ unification_annex_casus_belli = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -2521,6 +2550,7 @@ rude_boy = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -2568,6 +2598,7 @@ install_communist_gov_cb = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}
@@ -2652,6 +2683,7 @@ uninstall_communist_gov_cb = {
 		NOT = { 
 			OR = {
 				tag = BNK 
+				tag = BKL
 				tag = GHO 
 			}
 		}

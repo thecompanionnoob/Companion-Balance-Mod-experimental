@@ -3,3 +3,35 @@ controller = TUR
 add_core = TUR
 trade_goods = fruit
 life_rating = 35
+
+1910.1.1 = {
+    railroad = 2
+	state_building = {
+		level = 2
+		building = cement_factory
+	}
+	state_building = {
+		level = 1
+		building = small_arms_factory
+	}
+	state_building = {
+		level = 3
+		building = ammunition_factory
+	}
+	state_building = {
+		level = 1
+		building = canned_food_factory
+	}
+	state_building = {
+		level = 1
+		building = explosives_factory
+	}
+	state_building = {
+		level = 1
+		building = steel_factory
+	}
+	state_building = {
+		level = 3
+		building = artillery_factory
+	}
+}

@@ -364,16 +364,10 @@
 		size = 2200
 	}
 
-	farmers = {
-		culture = serb
-		religion = sunni
-		size = 101250
-	}
-
 	craftsmen = {
 		culture = serb
 		religion = sunni
-		size = 51250
+		size = 152250
 	}
 }
 #Bor (220000/55000 POPS)

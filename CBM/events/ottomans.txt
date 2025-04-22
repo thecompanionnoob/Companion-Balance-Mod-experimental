@@ -3,6 +3,12 @@ country_event = {
 
 	trigger = {
 		tag = TUR
+		NOT = {
+			OR = {
+				has_country_flag = reclaim_west
+				has_country_flag = reclaim_south
+			}
+		}
 	}
 
 	fire_only_once = yes

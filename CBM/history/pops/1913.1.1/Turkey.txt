@@ -265,18 +265,6 @@
 	artisans = {
 		culture = turkish
 		religion = sunni
-		size = 20000
-	}
-
-	artisans = {
-		culture = turkish
-		religion = sunni
-		size = 20000
-	}
-
-	artisans = {
-		culture = turkish
-		religion = sunni
 		size = 10000
 	}
 	
@@ -308,18 +296,6 @@
 		culture = turkish
 		religion = sunni
 		size = 1100
-	}
-
-	artisans = {
-		culture = turkish
-		religion = sunni
-		size = 20000
-	}
-
-	artisans = {
-		culture = turkish
-		religion = sunni
-		size = 20000
 	}
 
 	artisans = {
@@ -370,22 +346,10 @@
 		size = 450
 	}
 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion = sunni
-		size = 20000
-	}
-
-	artisans = {
-		culture = turkish
-		religion = sunni
-		size = 20000
-	}
-
-	artisans = {
-		culture = turkish
-		religion = sunni
-		size = 12000
+		size = 132000
 	}
 
 	farmers = {
@@ -994,7 +958,7 @@
 		size = 4000
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = turkish
 		religion = sunni
 		size = 76700
@@ -1024,7 +988,7 @@
 		size = 2200
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = turkish
 		religion = sunni
 		size = 9500
@@ -1444,7 +1408,7 @@
 		size = 4000
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = turkish
 		religion = sunni
 		size = 96250
@@ -1462,7 +1426,7 @@
 		size = 100
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = turkish
 		religion = sunni
 		size = 1850
@@ -1480,7 +1444,7 @@
 		size = 500
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = turkish
 		religion = sunni
 		size = 9400

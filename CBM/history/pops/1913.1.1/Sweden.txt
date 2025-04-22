@@ -1,46 +1,47 @@
+
 #Norrland Region 328000
 #Gavle (104000/26000 POPS)
 317 = {
 	aristocrats = {
 		culture = scandinavian
 		religion = sunni
-		size = 150
+		size = 300
 	}
 
 	bureaucrats = {
 		culture = scandinavian
 		religion = sunni
-		size = 300
+		size = 600
 	}
 
 	officers = {
 		culture = scandinavian
 		religion = sunni
-		size = 100
+		size = 200
 	}
 
 	clergymen = {
 		culture = scandinavian
 		religion = sunni
-		size = 175
+		size = 350
 	}
 
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 2000
+		size = 4000
 	}
 
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 1100
+		size = 2200
 	}
 
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 22125
+		size = 44250
 	}
 }
 #Sundsvall (80000/20000 POPS)
@@ -48,31 +49,31 @@
 	aristocrats = {
 		culture = scandinavian
 		religion = sunni
-		size = 50
+		size = 100
 	}
 
 	clergymen = {
 		culture = scandinavian
 		religion = sunni
-		size = 100
+		size = 200
 	}
 
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 1100
+		size = 2200
 	}
 
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 250
+		size = 500
 	}
 
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 19100
+		size = 38200
 	}
 }
 #Ostersund (44000/11000 POPS)
@@ -80,31 +81,31 @@
 	clergymen = {
 		culture = scandinavian
 		religion = sunni
-		size = 50
+		size = 100
 	}
 
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 500
+		size = 1000
 	}
 
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 100
+		size = 200
 	}
 
 	labourers = {
 		culture = scandinavian
 		religion = sunni
-		size = 9350
+		size = 18700
 	}
 
 	labourers = {
 		culture = scandinavian
 		religion = sunni
-		size = 1100
+		size = 2200
 	}
 }
 #Umea (56000/14000 POPS)
@@ -112,31 +113,31 @@
 	clergymen = {
 		culture = scandinavian
 		religion = sunni
-		size = 75
+		size = 150
 	}
 
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 750
+		size = 1500
 	}
 
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 250
+		size = 500
 	}
 
 	labourers = {
 		culture = scandinavian
 		religion = sunni
-		size = 11925
+		size = 23850
 	}
 
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 1100
+		size = 2200
 	}
 }
 #Lulea (44000/11000 POPS)
@@ -144,43 +145,43 @@
 	clergymen = {
 		culture = scandinavian
 		religion = sunni
-		size = 50
+		size = 100
 	}
 
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 400
+		size = 800
 	}
 
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 1100
+		size = 2200
 	}
 
 	labourers = {
 		culture = scandinavian
 		religion = sunni
-		size = 6250
+		size = 12500
 	}
 
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 100
+		size = 200
 	}
 
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 2000
+		size = 4000
 	}
 
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 1100
+		size = 2200
 	}
 
 }
@@ -190,16 +191,60 @@
 	aristocrats = {
 		culture = scandinavian
 		religion = sunni
-		size = 250
+		size = 500
 	}
 
 	bureaucrats = {
 		culture = scandinavian
 		religion = sunni
-		size = 750
+		size = 1500
 	}
 
 	officers = {
+		culture = scandinavian
+		religion = sunni
+		size = 1000
+	}
+
+	clergymen = {
+		culture = scandinavian
+		religion = sunni
+		size = 500
+	}
+
+	artisans = {
+		culture = scandinavian
+		religion = sunni
+		size = 20000
+	}
+
+	artisans = {
+		culture = scandinavian
+		religion = sunni
+		size = 14200
+	}
+
+	craftsmen = {
+		culture = scandinavian
+		religion = sunni
+		size = 8000
+	}
+
+	soldiers = {
+		culture = scandinavian
+		religion = sunni
+		size = 8000
+	}
+
+	craftsmen = {
+		culture = scandinavian
+		religion = sunni
+		size = 50500
+	}
+}
+#Falun (144000/36000 POPS)
+323 = {
+	aristocrats = {
 		culture = scandinavian
 		religion = sunni
 		size = 500
@@ -208,69 +253,25 @@
 	clergymen = {
 		culture = scandinavian
 		religion = sunni
-		size = 250
+		size = 500
 	}
 
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = scandinavian
-		religion = sunni
-		size = 7100
-	}
-
-	craftsmen = {
-		culture = scandinavian
-		religion = sunni
-		size = 4000
+		size = 3500
 	}
 
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 4000
+		size = 2200
 	}
 
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 25250
-	}
-}
-#Falun (144000/36000 POPS)
-323 = {
-	aristocrats = {
-		culture = scandinavian
-		religion = sunni
-		size = 250
-	}
-
-	clergymen = {
-		culture = scandinavian
-		religion = sunni
-		size = 250
-	}
-
-	artisans = {
-		culture = scandinavian
-		religion = sunni
-		size = 1750
-	}
-
-	soldiers = {
-		culture = scandinavian
-		religion = sunni
-		size = 1100
-	}
-
-	farmers = {
-		culture = scandinavian
-		religion = sunni
-		size = 32750
+		size = 65500
 	}
 }
 #Uppsala (88000/22000 POPS)
@@ -278,31 +279,31 @@
 	aristocrats = {
 		culture = scandinavian
 		religion = sunni
-		size = 100
+		size = 200
 	}
 
 	clergymen = {
 		culture = scandinavian
 		religion = sunni
-		size = 125
+		size = 250
 	}
 
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 1250
+		size = 2500
 	}
 
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 1100
+		size = 2200
 	}
 
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 19525
+		size = 39050
 	}
 }
 #Norrkoping (221000/55250 POPS)
@@ -310,7 +311,71 @@
 	aristocrats = {
 		culture = scandinavian
 		religion = sunni
-		size = 250
+		size = 500
+	}
+
+	clergymen = {
+		culture = scandinavian
+		religion = sunni
+		size = 500
+	}
+
+	artisans = {
+		culture = scandinavian
+		religion = sunni
+		size = 6000
+	}
+
+	soldiers = {
+		culture = scandinavian
+		religion = sunni
+		size = 2200
+	}
+
+	farmers = {
+		culture = scandinavian
+		religion = sunni
+		size = 101500
+	}
+}
+#Vasteras (212000/53000 POPS)
+326 = {
+	aristocrats = {
+		culture = scandinavian
+		religion = sunni
+		size = 500
+	}
+
+	clergymen = {
+		culture = scandinavian
+		religion = sunni
+		size = 500
+	}
+
+	artisans = {
+		culture = scandinavian
+		religion = sunni
+		size = 5500
+	}
+
+	soldiers = {
+		culture = scandinavian
+		religion = sunni
+		size = 2200
+	}
+
+	farmers = {
+		culture = scandinavian
+		religion = sunni
+		size = 97500
+	}
+}
+#Orebro (127000/31750 POPS)
+327 = {
+	aristocrats = {
+		culture = scandinavian
+		religion = sunni
+		size = 500
 	}
 
 	clergymen = {
@@ -328,77 +393,13 @@
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 1100
+		size = 2200
 	}
 
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 50750
-	}
-}
-#Vasteras (212000/53000 POPS)
-326 = {
-	aristocrats = {
-		culture = scandinavian
-		religion = sunni
-		size = 250
-	}
-
-	clergymen = {
-		culture = scandinavian
-		religion = sunni
-		size = 250
-	}
-
-	artisans = {
-		culture = scandinavian
-		religion = sunni
-		size = 2750
-	}
-
-	soldiers = {
-		culture = scandinavian
-		religion = sunni
-		size = 1100
-	}
-
-	farmers = {
-		culture = scandinavian
-		religion = sunni
-		size = 48750
-	}
-}
-#Orebro (127000/31750 POPS)
-327 = {
-	aristocrats = {
-		culture = scandinavian
-		religion = sunni
-		size = 250
-	}
-
-	clergymen = {
-		culture = scandinavian
-		religion = sunni
-		size = 125
-	}
-
-	artisans = {
-		culture = scandinavian
-		religion = sunni
-		size = 1500
-	}
-
-	soldiers = {
-		culture = scandinavian
-		religion = sunni
-		size = 1100
-	}
-
-	farmers = {
-		culture = scandinavian
-		religion = sunni
-		size = 28975
+		size = 57950
 	}
 }
 #Karlstad (190000/47500 POPS)
@@ -406,59 +407,13 @@
 	aristocrats = {
 		culture = scandinavian
 		religion = sunni
-		size = 400
+		size = 800
 	}
 
 	clergymen = {
 		culture = scandinavian
 		religion = sunni
-		size = 300
-	}
-
-	artisans = {
-		culture = scandinavian
-		religion = sunni
-		size = 2500
-	}
-
-	soldiers = {
-		culture = scandinavian
-		religion = sunni
-		size = 1100
-	}
-
-	farmers = {
-		culture = scandinavian
-		religion = sunni
-		size = 43300
-	}
-
-}
-#Gotaland Region : 1457000
-#Goteborg (168000/42000 POPS)
-329 = {
-	aristocrats = {
-		culture = scandinavian
-		religion = sunni
-		size = 250
-	}
-
-	bureaucrats = {
-		culture = scandinavian
-		religion = sunni
-		size = 150
-	}
-
-	officers = {
-		culture = scandinavian
-		religion = sunni
-		size = 250
-	}
-
-	clergymen = {
-		culture = scandinavian
-		religion = sunni
-		size = 250
+		size = 600
 	}
 
 	artisans = {
@@ -470,13 +425,59 @@
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 1100
+		size = 2200
 	}
 
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 33750
+		size = 86600
+	}
+
+}
+#Gotaland Region : 1457000
+#Goteborg (168000/42000 POPS)
+329 = {
+	aristocrats = {
+		culture = scandinavian
+		religion = sunni
+		size = 500
+	}
+
+	bureaucrats = {
+		culture = scandinavian
+		religion = sunni
+		size = 300
+	}
+
+	officers = {
+		culture = scandinavian
+		religion = sunni
+		size = 500
+	}
+
+	clergymen = {
+		culture = scandinavian
+		religion = sunni
+		size = 500
+	}
+
+	artisans = {
+		culture = scandinavian
+		religion = sunni
+		size = 10000
+	}
+
+	soldiers = {
+		culture = scandinavian
+		religion = sunni
+		size = 2200
+	}
+
+	farmers = {
+		culture = scandinavian
+		religion = sunni
+		size = 67500
 	}
 }
 #Boras (220000/55000 POPS)
@@ -484,31 +485,31 @@
 	aristocrats = {
 		culture = scandinavian
 		religion = sunni
-		size = 500
+		size = 1000
 	}
 
 	clergymen = {
 		culture = scandinavian
 		religion = sunni
-		size = 250
+		size = 500
 	}
 
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 2500
+		size = 5000
 	}
 
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 1100
+		size = 2200
 	}
 
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 50750
+		size = 101500
 	}
 }
 #Visby (40000/10000 POPS)
@@ -516,31 +517,31 @@
 	aristocrats = {
 		culture = scandinavian
 		religion = sunni
-		size = 100
+		size = 200
 	}
 
 	clergymen = {
 		culture = scandinavian
 		religion = sunni
-		size = 50
+		size = 100
 	}
 
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 700
+		size = 1400
 	}
 
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 100
+		size = 200
 	}
 
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 9050
+		size = 18100
 	}
 }
 #Kalmar (182000/45500 POPS)
@@ -548,31 +549,31 @@
 	aristocrats = {
 		culture = scandinavian
 		religion = sunni
-		size = 300
+		size = 600
 	}
 
 	clergymen = {
 		culture = scandinavian
 		religion = sunni
-		size = 225
+		size = 450
 	}
 
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 2500
+		size = 5000
 	}
 
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 1100
+		size = 2200
 	}
 
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 41475
+		size = 82950
 	}
 }
 #Vaxjo (276000/69000 POPS)
@@ -580,31 +581,31 @@
 	aristocrats = {
 		culture = scandinavian
 		religion = sunni
-		size = 500
+		size = 1000
 	}
 
 	clergymen = {
 		culture = scandinavian
 		religion = sunni
-		size = 375
+		size = 750
 	}
 
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 3500
+		size = 7000
 	}
 
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 1100
+		size = 2200
 	}
 
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 63625
+		size = 127250
 	}
 }
 #Malmo (312000/77000 POPS)
@@ -612,31 +613,31 @@
 	aristocrats = {
 		culture = scandinavian
 		religion = sunni
-		size = 750
+		size = 1500
 	}
 
 	clergymen = {
 		culture = scandinavian
 		religion = sunni
-		size = 375
+		size = 750
 	}
 
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 3750
+		size = 7500
 	}
 
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 1100
+		size = 2200
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = scandinavian
 		religion = sunni
-		size = 69125
+		size = 138250
 	}
 }
 #Karlskrona (259000/64750 POPS)
@@ -644,31 +645,31 @@
 	aristocrats = {
 		culture = scandinavian
 		religion = sunni
-		size = 625
+		size = 1250
 	}
 
 	clergymen = {
 		culture = scandinavian
 		religion = sunni
-		size = 375
+		size = 750
 	}
 
 	artisans = {
 		culture = scandinavian
 		religion = sunni
-		size = 3125
+		size = 6250
 	}
 
 	soldiers = {
 		culture = scandinavian
 		religion = sunni
-		size = 1100
+		size = 2200
 	}
 
 	farmers = {
 		culture = scandinavian
 		religion = sunni
-		size = 60625
+		size = 121250
 	}
 
 }

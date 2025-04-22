@@ -2676,31 +2676,31 @@
 #Houston (16000/4000 POPS)
 132 = {
 	aristocrats = {
-		culture = dixie
+		culture = native_american_minor
 		religion = sunni
 		size = 50
 	}
 
 	clergymen = {
-		culture = dixie
+		culture = native_american_minor
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = dixie
+		culture = native_american_minor
 		religion = sunni
 		size = 150
 	}
 
 	soldiers = {
-		culture = dixie
+		culture = native_american_minor
 		religion = sunni
 		size = 1100
 	}
 
 	farmers = {
-		culture = dixie
+		culture = native_american_minor
 		religion = sunni
 		size = 2675
 	}
@@ -2744,43 +2744,43 @@
 133 = {
 #Austin (14000/3500 POPS)
 	aristocrats = {
-		culture = dixie
+		culture = native_american_minor
 		religion = sunni
 		size = 25
 	}
 
 	bureaucrats = {
-		culture = dixie
+		culture = native_american_minor
 		religion = sunni
 		size = 75
 	}
 
 	officers = {
-		culture = dixie
+		culture = native_american_minor
 		religion = sunni
 		size = 20
 	}
 
 	clergymen = {
-		culture = dixie
+		culture = native_american_minor
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = dixie
+		culture = native_american_minor
 		religion = sunni
 		size = 125
 	}
 
 	soldiers = {
-		culture = dixie
+		culture = native_american_minor
 		religion = sunni
 		size = 1100
 	}
 
 	farmers = {
-		culture = dixie
+		culture = native_american_minor
 		religion = sunni
 		size = 2220
 	}
@@ -2855,31 +2855,31 @@
 #San Antonio (10000/2500 POPS)
 137 = {
 	aristocrats = {
-		culture = dixie
+		culture = native_american_minor
 		religion = sunni
 		size = 25
 	}
 
 	clergymen = {
-		culture = dixie
+		culture = native_american_minor
 		religion = sunni
 		size = 25
 	}
 
 	artisans = {
-		culture = dixie
+		culture = native_american_minor
 		religion = sunni
 		size = 100
 	}
 
 	soldiers = {
-		culture = dixie
+		culture = native_american_minor
 		religion = sunni
 		size = 1100
 	}
 
 	farmers = {
-		culture = dixie
+		culture = native_american_minor
 		religion = sunni
 		size = 1575
 	}

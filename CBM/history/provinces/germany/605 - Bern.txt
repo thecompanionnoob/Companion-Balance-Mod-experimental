@@ -5,3 +5,20 @@ trade_goods = iron
 life_rating = 40
 fort = 1
 1925.1.1 = { railroad = 1 }
+1910.1.1 = {
+	state_building = {
+		level = 1
+		building = steel_factory 
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = ammunition_factory 
+		upgrade = yes
+	}
+	state_building = {
+		level = 4
+		building = cement_factory 
+		upgrade = yes
+	}
+}

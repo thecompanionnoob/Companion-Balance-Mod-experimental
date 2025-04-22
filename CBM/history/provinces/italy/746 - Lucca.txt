@@ -1,8 +1,10 @@
 owner = LUC
 1910.1.1 = {
 owner = ITA
+railroad = 3
 controller = ITA
 add_core = ITA
+naval_base = 3
  }
 controller = LUC
 add_core = LUC
@@ -12,6 +14,7 @@ life_rating = 35
 1925.1.1 = {
 	controller = ITA
 	owner = ITA
+railroad = 3
 	add_core = ITA
 }
 1925.1.1 = { 

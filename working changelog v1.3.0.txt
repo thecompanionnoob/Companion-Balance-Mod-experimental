@@ -1,43 +1,64 @@
 v1.3.0: The Rising Sun & The Great War
 
 GLOBAL CHANGES:
+
+MISC:
 *New start date, January 1st 1913 to be used as an alternative multiplayer gamemode, with tons of undocumented related changes for the start date.
-*Promotion idea nerfed, the effect is now halved.
+
+PROMOTION:
 *National focuses now do not affect promotion, they are used for special effects such as increased throughput or rgo output. They are gained every other political thought tech.
 *Promotion is globally buffed for each tech done in political thought.
 *Promotion buffs from these techs and the idea are halved if there is over 750k pop in the province.
 *Promotion is buffed in the first year to make starting bureaucrats promote faster.
 *Clergymen promotion buffed and soldier promotion nerfed.
 *Removed 55% literacy requirement for aristocrats to become capitalists, and added a constant 50% chance that their promotion is nullified, so the rate isn't too much.
-*Decently increased the cost of ironclad generation ships and hugely increased the cost of dreadnought era ships.
-*Removed infamy gain from most decisions that form countries or give accepted cultures, decisions that give cores on foreign countries generally still give infamy (Still cheaper than take state cbs).
-*Increased base infamy reduction to -0.3 from -0.2 and made it decay equally when at war as at peace.
-*Made it so you can always use the minor conquest wargoal if the target has only 1 state.
-*Made it so that you can use a humilate wargoal on a target that has recently lost a war.
-*Social reforms no longer increase the number of bureaucrats required for administrative efficiency.
-*Reforms are now super super easy to pass.
-*Healthcare and Education reforms are changed; they start as private and cannot be invested in but have passive positive impacts, if you go to mixed system investment is capped and positive impact is lessened, if you go to public you can invest fully but there are no more passive benefits.
-*Healthcare and Education investment is also capped by technology, for healthcare chemistry tech and for education social thought tech. 
-*Laissez faire no longer caps tax to 90%.
-*Reduced iron consumption of steel factories greatly.
-*Removed pop growth inventions from chemistry tech line.
-*Reduced education efficiency from social thought tech line. 
-*Reduced RGO input consumption of a couple factories.
-*Made it so early game rgo output bonus never disappears.
-*Modified demand and factory efficiency for some consumer goods to make those the most profitable factories.
 *Allowed bureaucrats to promote beyond 1% in colonial states so you aren't prevented from stating them because of unaccepted bureaucrats.
-*Increased state size thresholds by 50%.
+
+IDEAS:
+*Promotion idea nerfed, the effect is now halved.
+
+QoL/BUGFIX:
 *Massively nerfed pop attraction to fascism based on revanchism (no more 90+% fascist countries due to two lost core states).
-*Buffed commerce input and output techs.
 *Added the decision to remove unaccepted bureaucrats.
-*Made the grants decision check if you have the money to give people, preventing exploits. Because of a bug relating to this, grants of over 2 million are disabled for now.
-*Increased the value of telephones, automobiles, and radios, as well as increasing the factory production of these goods. Demand has also been increased, making these extremely profitable goods to produce.   
-*Made it so you can fully fund soldier pop pay under anti-military and pacifism
-*Made the changing of state sizes only apply when the target is at peace, so wargoals will no longer be invalidated mid-war.    
-*Removed need of liquor and wine to build artillery, and increased the need of artillery and canned food.
-*Glass, lumber, liquor, wine, cement, and fabric factories no longer require machine parts.
 *Added some host decisions, and the ability for any country to select themselves as the host.
 *Added gambling decisions that the host may enable within the first year.
+*Added a second worldbank to better keep up with demand in situations of very high production.
+*Made the changing of state sizes only apply when the target is at peace, so wargoals will no longer be invalidated mid-war.
+*Made it so you can always use the minor conquest wargoal if the target has only 1 state.
+*Made it so that you can use a humilate wargoal on a target that has recently lost a war.
+*Removed infamy gain from most decisions that form countries or give accepted cultures, decisions that give cores on foreign countries generally still give infamy (Still cheaper than take state cbs).
+*Made the grants decision check if you have the money to give people, preventing exploits. Because of a bug relating to this, grants of over 2 million are disabled for now.
+*Changed the default music volume to 40% from 70%.
+
+REFORMS & POLITICS:
+*Social reforms no longer increase the number of bureaucrats required for administrative efficiency.
+*Reforms are now super super easy to pass.
+*Laissez faire no longer caps tax to 90%.
+*Made it so you can fully fund soldier pop pay under anti-military and pacifism.
+*Healthcare and Education reforms are changed; they start as private and cannot be invested in but have passive positive impacts, if you go to mixed system investment is capped and positive impact is lessened, if you go to public you can invest fully but there are no more passive benefits.
+*Healthcare and Education investment is also capped by technology, for healthcare chemistry tech and for education social thought tech. 
+In accordance with this:
+*Removed pop growth inventions from chemistry tech line.
+*Reduced education efficiency from social thought tech line. 
+
+NAVY:
+*Decently increased the cost of ironclad era ships and hugely increased the cost of dreadnought era ships.
+
+ECONOMY:
+*Reduced iron consumption of steel factories greatly.
+*Reduced RGO input consumption of a couple factories.
+*Made it so early game rgo output bonus never disappears.
+*Buffed commerce input and output techs.
+*Increased the value of telephones, automobiles, and radios, as well as increasing the factory production of these goods. Demand has also been increased, making these extremely profitable goods to produce.  
+*Removed need of liquor and wine to build artillery, and increased the need of artillery and canned food. 
+*Glass, lumber, liquor, wine, cement, and fabric factories no longer require machine parts.
+
+WARGOALS/INFAMY:
+*Increased state size thresholds by 50%.
+*Increased base infamy reduction to -0.3 from -0.2 and made it decay equally when at war as at peace.
+
+
+
 
 
 
@@ -87,12 +108,13 @@ COUNTRY CHANGES:
     *Chinese unciv modifier now gives +10% research points.
     *Promotion changes make China much more balanced (buffed early and nerfed late) now.
     *Gave Chinese nations the first prestige tech so they can use the province selector.
+    *Added a special CB for foreign nations taking chinese states, it takes 50ws for every chinese state taken.
 
 *SERBIA:
     *Changed Serbia's color to contrast with Austria-Hungary
 
 *OTTOMANS:
-    *Changed Ottoman's Color.
+    *Changed Ottomans' color.
 
 *ARGENTINA:
     *Merged states
@@ -106,3 +128,6 @@ COUNTRY CHANGES:
 *BALKANS:
     *Balkan countries now have 5/5/5/5/5 tech (buffed).
     *Increased starting bureaucrats a bit, so they can start to promote more useful pops sooner. They still promote bureaucrats for a bit before more useful stuff.
+
+*USCA:
+    *Changed color.

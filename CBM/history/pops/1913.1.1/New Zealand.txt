@@ -1,3 +1,4 @@
+
 #New Zealand : 85000
 #uncolonized in 1836
 #North Island Region (61000)
@@ -6,37 +7,37 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 75
+		size = 675
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 200
+		size = 1800
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 100
+		size = 900
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 3575
+		size = 32175
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 250
+		size = 2250
 	}
 }
 #New Plymouth (8000/2000 POPS)
@@ -44,31 +45,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 100
+		size = 900
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 1775
+		size = 15975
 	}
 }
 #Napier (12000/3000 POPS)
@@ -76,31 +77,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 75
+		size = 675
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 150
+		size = 1350
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 75
+		size = 675
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 2675
+		size = 24075
 	}
 }
 #Wellington (12000/3000 POPS)
@@ -108,31 +109,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 75
+		size = 675
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 150
+		size = 1350
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 75
+		size = 675
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 2675
+		size = 24075
 	}
 }
 #Tauranga (12000/3000 POPS)
@@ -140,31 +141,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 75
+		size = 675
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 150
+		size = 1350
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 75
+		size = 675
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 2675
+		size = 24075
 	}
 
 }
@@ -174,31 +175,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 15
+		size = 135
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 900
+		size = 8100
 	}
 }
 #Hokitikia (4000/1000 POPS)
@@ -206,31 +207,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 15
+		size = 135
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 900
+		size = 8100
 	}
 }
 #Christchurch (4000/1000 POPS)
@@ -238,31 +239,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 100
+		size = 900
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 1775
+		size = 15975
 	}
 }
 #Nelson (12000/3000 POPS)
@@ -270,30 +271,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 75
+		size = 675
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 150
+		size = 1350
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 75
+		size = 675
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 2675
+		size = 24075
 	}
 }
+

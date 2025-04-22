@@ -7,6 +7,7 @@ life_rating = 35
 1910.1.1 = {
     owner = ITA
     controller = ITA 
+    railroad = 2
 }
 
 

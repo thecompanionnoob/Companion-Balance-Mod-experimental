@@ -1,52 +1,53 @@
+
 #Duoro e Minho Region (1660000)
 #Oporto (768000/192000 POPS)
 518 = {
 	aristocrats = {
 		culture = portuguese
 		religion = sunni
-		size = 1500
+		size = 2850
 	}
 
 	officers = {
 		culture = portuguese
 		religion = sunni
-		size = 500
+		size = 950
 	}
 
 	bureaucrats = {
 		culture = portuguese
 		religion = sunni
-		size = 800
+		size = 1520
 	}
 
 	clergymen = {
 		culture = portuguese
 		religion = sunni
-		size = 1100
+		size = 2090
 	}
 
 	artisans = {
 		culture = portuguese
 		religion = sunni
-		size = 10000
+		size = 19000
 	}
 
 	artisans = {
 		culture = portuguese
 		religion = sunni
-		size = 5500
+		size = 10450
 	}
 
 	soldiers = {
 		culture = portuguese
 		religion = sunni
-		size = 2500
+		size = 4750
 	}
 
 	farmers = {
 		culture = portuguese
 		religion = sunni
-		size = 170200
+		size = 323380
 	}
 }
 #Vila Real (324000/81000) POPS
@@ -54,31 +55,31 @@
 	aristocrats = {
 		culture = portuguese
 		religion = sunni
-		size = 850
+		size = 1615
 	}
 
 	clergymen = {
 		culture = portuguese
 		religion = sunni
-		size = 625
+		size = 1188
 	}
 
 	artisans = {
 		culture = portuguese
 		religion = sunni
-		size = 4250
+		size = 8075
 	}
 
 	soldiers = {
 		culture = portuguese
 		religion = sunni
-		size = 1100
+		size = 2090
 	}
 
 	farmers = {
 		culture = portuguese
 		religion = sunni
-		size = 74275
+		size = 141122
 	}
 }
 #Covilha (568000/142000 POPS)
@@ -86,31 +87,31 @@
 	aristocrats = {
 		culture = portuguese
 		religion = sunni
-		size = 1250
+		size = 2375
 	}
 
 	clergymen = {
 		culture = portuguese
 		religion = sunni
-		size = 1500
+		size = 2850
 	}
 
 	artisans = {
 		culture = portuguese
 		religion = sunni
-		size = 7250
+		size = 13775
 	}
 
 	soldiers = {
 		culture = portuguese
 		religion = sunni
-		size = 1500
+		size = 2850
 	}
 
 	farmers = {
 		culture = portuguese
 		religion = sunni
-		size = 130500
+		size = 247950
 	}
 
 }
@@ -120,73 +121,55 @@
 	aristocrats = {
 		culture = portuguese
 		religion = sunni
-		size = 1100
+		size = 2090
 	}
 
 	officers = {
 		culture = portuguese
 		religion = sunni
-		size = 350
+		size = 665
 	}
 
 	bureaucrats = {
 		culture = portuguese
 		religion = sunni
-		size = 650
+		size = 1235
 	}
 
 	clergymen = {
 		culture = portuguese
 		religion = sunni
-		size = 1100
+		size = 2090
 	}
 
 	artisans = {
 		culture = portuguese
 		religion = sunni
-		size = 10000
+		size = 19000
 	}
 
 	artisans = {
 		culture = portuguese
 		religion = sunni
-		size = 10000
+		size = 19000
 	}
 
 	artisans = {
 		culture = portuguese
 		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = portuguese
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = portuguese
-		religion = sunni
-		size = 10000
-	}
-
-	artisans = {
-		culture = portuguese
-		religion = sunni
-		size = 8500
+		size = 16150
 	}
 
 	soldiers = {
 		culture = portuguese
 		religion = sunni
-		size = 3000
+		size = 5700
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = portuguese
 		religion = sunni
-		size = 22500
+		size = 102750
 	}
 }
 #Coimbra (460000/115000 POPS)
@@ -194,31 +177,31 @@
 	aristocrats = {
 		culture = portuguese
 		religion = sunni
-		size = 1200
+		size = 2280
 	}
 
 	clergymen = {
 		culture = portuguese
 		religion = sunni
-		size = 1200
+		size = 2280
 	}
 
 	artisans = {
 		culture = portuguese
 		religion = sunni
-		size = 5800
+		size = 11020
 	}
 
 	soldiers = {
 		culture = portuguese
 		religion = sunni
-		size = 2000
+		size = 3800
 	}
 
 	farmers = {
 		culture = portuguese
 		religion = sunni
-		size = 104800
+		size = 199120
 	}
 }
 #Abrantes (140000/35000 POPS)
@@ -226,31 +209,31 @@
 	aristocrats = {
 		culture = portuguese
 		religion = sunni
-		size = 450
+		size = 855
 	}
 
 	clergymen = {
 		culture = portuguese
 		religion = sunni
-		size = 350
+		size = 665
 	}
 
 	artisans = {
 		culture = portuguese
 		religion = sunni
-		size = 2250
+		size = 4275
 	}
 
 	soldiers = {
 		culture = portuguese
 		religion = sunni
-		size = 400
+		size = 760
 	}
 
 	farmers = {
 		culture = portuguese
 		religion = sunni
-		size = 31550
+		size = 59945
 	}
 }
 #Setubal (112000/28000 POPS)
@@ -258,31 +241,31 @@
 	aristocrats = {
 		culture = portuguese
 		religion = sunni
-		size = 400
+		size = 760
 	}
 
 	clergymen = {
 		culture = portuguese
 		religion = sunni
-		size = 300
+		size = 570
 	}
 
 	artisans = {
 		culture = portuguese
 		religion = sunni
-		size = 3000
+		size = 5700
 	}
 
 	soldiers = {
 		culture = portuguese
 		religion = sunni
-		size = 1500
+		size = 2850
 	}
 
 	farmers = {
 		culture = portuguese
 		religion = sunni
-		size = 22800
+		size = 43320
 	}
 
 }
@@ -292,43 +275,43 @@
 	aristocrats = {
 		culture = portuguese
 		religion = sunni
-		size = 850
+		size = 1615
 	}
 
 	officers = {
 		culture = portuguese
 		religion = sunni
-		size = 100
+		size = 190
 	}
 
 	bureaucrats = {
 		culture = portuguese
 		religion = sunni
-		size = 150
+		size = 285
 	}
 
 	clergymen = {
 		culture = portuguese
 		religion = sunni
-		size = 425
+		size = 808
 	}
 
 	artisans = {
 		culture = portuguese
 		religion = sunni
-		size = 2250
+		size = 4275
 	}
 
 	soldiers = {
 		culture = portuguese
 		religion = sunni
-		size = 1100
+		size = 2090
 	}
 
 	farmers = {
 		culture = portuguese
 		religion = sunni
-		size = 34250
+		size = 65075
 	}
 }
 #Beja (96000/24000 POPS)
@@ -336,31 +319,31 @@
 	aristocrats = {
 		culture = portuguese
 		religion = sunni
-		size = 500
+		size = 950
 	}
 
 	clergymen = {
 		culture = portuguese
 		religion = sunni
-		size = 250
+		size = 475
 	}
 
 	artisans = {
 		culture = portuguese
 		religion = sunni
-		size = 1250
+		size = 2375
 	}
 
 	soldiers = {
 		culture = portuguese
 		religion = sunni
-		size = 250
+		size = 475
 	}
 
 	farmers = {
 		culture = portuguese
 		religion = sunni
-		size = 21750
+		size = 41325
 	}
 }
 #Faro (120000/30000 POPS)
@@ -368,31 +351,31 @@
 	aristocrats = {
 		culture = portuguese
 		religion = sunni
-		size = 550
+		size = 1045
 	}
 
 	clergymen = {
 		culture = portuguese
 		religion = sunni
-		size = 325
+		size = 618
 	}
 
 	artisans = {
 		culture = portuguese
 		religion = sunni
-		size = 1750
+		size = 3325
 	}
 
 	soldiers = {
 		culture = portuguese
 		religion = sunni
-		size = 350
+		size = 665
 	}
 
 	farmers = {
 		culture = portuguese
 		religion = sunni
-		size = 27025
+		size = 51348
 	}
 
 }
@@ -402,43 +385,43 @@
 	aristocrats = {
 		culture = portuguese
 		religion = sunni
-		size = 500
+		size = 950
 	}
 
 	officers = {
 		culture = portuguese
 		religion = sunni
-		size = 50
+		size = 95
 	}
 
 	bureaucrats = {
 		culture = portuguese
 		religion = sunni
-		size = 100
+		size = 190
 	}
 
 	clergymen = {
 		culture = portuguese
 		religion = sunni
-		size = 375
+		size = 712
 	}
 
 	artisans = {
 		culture = portuguese
 		religion = sunni
-		size = 3000
+		size = 5700
 	}
 
 	soldiers = {
 		culture = portuguese
 		religion = sunni
-		size = 1100
+		size = 2090
 	}
 
 	farmers = {
 		culture = portuguese
 		religion = sunni
-		size = 45975
+		size = 87352
 	}
 }
 #Madeira (104000/26000 POPS)
@@ -446,31 +429,31 @@
 	aristocrats = {
 		culture = portuguese
 		religion = sunni
-		size = 250
+		size = 475
 	}
 
 	clergymen = {
 		culture = portuguese
 		religion = sunni
-		size = 175
+		size = 332
 	}
 
 	artisans = {
 		culture = portuguese
 		religion = sunni
-		size = 1500
+		size = 2850
 	}
 
 	soldiers = {
 		culture = portuguese
 		religion = sunni
-		size = 250
+		size = 475
 	}
 
 	farmers = {
 		culture = portuguese
 		religion = sunni
-		size = 23825
+		size = 45268
 	}
 
 }

@@ -1,4 +1,7 @@
 owner = SCA
+1910.1.1 = {
+railroad = 4
+}
 controller = SCA
 
 add_core = SCA
@@ -6,29 +9,28 @@ trade_goods = grain
 life_rating = 35
 naval_base = 1
 fort = 1
-#state_building = {
-#	level = 1
-#	building = ammunition_factory
-#	upgrade = yes
-#}
-1925.1.1 = { 
-	railroad = 2 
-	naval_base = 1
-}
-1925.1.1 = {
+
+
+
+1910.1.1 = {
 	state_building = {
-		level = 1
-		building = fertilizer_factory
+		level = 5
+		building = cement_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 3
+		building = ammunition_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 3
+		building = steamer_shipyard
 		upgrade = yes
 	}
 	state_building = {
 		level = 1
-		building = clipper_shipyard
-		upgrade = yes
-	}
-	state_building = {
-		level = 1
-		building = liquor_distillery
+		building = small_arms_factory
 		upgrade = yes
 	}
 }

@@ -1,3 +1,4 @@
+
 #Afghanistan Region (3672000)
 #under the rule of Afghanistan in 1836
 #Kabul (996000/249000 POPS)
@@ -5,43 +6,43 @@
 	aristocrats = {
 		culture = panjabi
 		religion = sunni
-		size = 5000
+		size = 6750
 	}
 
 	bureaucrats = {
 		culture = panjabi
 		religion = sunni
-		size = 825
+		size = 1114
 	}
 
 	officers = {
 		culture = panjabi
 		religion = sunni
-		size = 975
+		size = 1316
 	}
 
 	clergymen = {
 		culture = panjabi
 		religion = sunni
-		size = 2488
+		size = 3359
 	}
 
 	artisans = {
 		culture = panjabi
 		religion = sunni
-		size = 11100
+		size = 14985
 	}
 
 	soldiers = {
 		culture = panjabi
 		religion = sunni
-		size = 12250
+		size = 16538
 	}
 
 	farmers = {
 		culture = panjabi
 		religion = sunni
-		size = 216462
+		size = 292224
 	}
 }
 #Balkh (516000/129000 POPS)
@@ -49,31 +50,31 @@
 	aristocrats = {
 		culture = panjabi
 		religion = sunni
-		size = 2500
+		size = 3375
 	}
 
 	clergymen = {
 		culture = panjabi
 		religion = sunni
-		size = 1288
+		size = 1739
 	}
 
 	artisans = {
 		culture = panjabi
 		religion = sunni
-		size = 4050
+		size = 5468
 	}
 
 	soldiers = {
 		culture = panjabi
 		religion = sunni
-		size = 1300
+		size = 1755
 	}
 
 	farmers = {
 		culture = panjabi
 		religion = sunni
-		size = 119799
+		size = 161729
 	}
 }
 #Herat (324000/81000 POPS)
@@ -81,31 +82,31 @@
 	aristocrats = {
 		culture = panjabi
 		religion = sunni
-		size = 1575
+		size = 2126
 	}
 
 	clergymen = {
 		culture = panjabi
 		religion = sunni
-		size = 810
+		size = 1094
 	}
 
 	artisans = {
 		culture = panjabi
 		religion = sunni
-		size = 4050
+		size = 5468
 	}
 
 	soldiers = {
 		culture = panjabi
 		religion = sunni
-		size = 5100
+		size = 6885
 	}
 
 	farmers = {
 		culture = panjabi
 		religion = sunni
-		size = 69650
+		size = 94028
 	}
 }
 #Bamyan (412000/103000 POPS)
@@ -113,31 +114,31 @@
 	aristocrats = {
 		culture = panjabi
 		religion = sunni
-		size = 1975
+		size = 2666
 	}
 
 	clergymen = {
 		culture = panjabi
 		religion = sunni
-		size = 1000
+		size = 1350
 	}
 
 	artisans = {
 		culture = panjabi
 		religion = sunni
-		size = 5550
+		size = 7492
 	}
 
 	soldiers = {
 		culture = panjabi
 		religion = sunni
-		size = 3825
+		size = 5164
 	}
 
 	farmers = {
 		culture = panjabi
 		religion = sunni
-		size = 92250
+		size = 124538
 	}
 }
 #Farrah (464000/116000 POPS)
@@ -145,31 +146,31 @@
 	aristocrats = {
 		culture = panjabi
 		religion = sunni
-		size = 2275
+		size = 3071
 	}
 
 	clergymen = {
 		culture = panjabi
 		religion = sunni
-		size = 1150
+		size = 1552
 	}
 
 	artisans = {
 		culture = panjabi
 		religion = sunni
-		size = 5800
+		size = 7830
 	}
 
 	soldiers = {
 		culture = panjabi
 		religion = sunni
-		size = 2200
+		size = 2970
 	}
 
 	farmers = {
 		culture = panjabi
 		religion = sunni
-		size = 104762
+		size = 141429
 	}
 }
 #Qandahar (368000/92000 POPS)
@@ -177,31 +178,31 @@
 	aristocrats = {
 		culture = panjabi
 		religion = sunni
-		size = 1775
+		size = 2396
 	}
 
 	clergymen = {
 		culture = panjabi
 		religion = sunni
-		size = 938
+		size = 1266
 	}
 
 	artisans = {
 		culture = panjabi
 		religion = sunni
-		size = 4575
+		size = 6176
 	}
 
 	soldiers = {
 		culture = panjabi
 		religion = sunni
-		size = 2300
+		size = 3105
 	}
 
 	farmers = {
 		culture = panjabi
 		religion = sunni
-		size = 82775
+		size = 111746
 	}
 }
 #Jalalabad (268000/67000 POPS)
@@ -209,31 +210,31 @@
 	aristocrats = {
 		culture = panjabi
 		religion = sunni
-		size = 1300
+		size = 1755
 	}
 
 	clergymen = {
 		culture = panjabi
 		religion = sunni
-		size = 675
+		size = 911
 	}
 
 	artisans = {
 		culture = panjabi
 		religion = sunni
-		size = 3350
+		size = 4522
 	}
 
 	soldiers = {
 		culture = panjabi
 		religion = sunni
-		size = 4000
+		size = 5400
 	}
 
 	farmers = {
 		culture = panjabi
 		religion = sunni
-		size = 57985
+		size = 78280
 	}
 }
 #Ghzani (324000/81000 POPS)
@@ -241,31 +242,31 @@
 	aristocrats = {
 		culture = panjabi
 		religion = sunni
-		size = 1550
+		size = 2092
 	}
 
 	clergymen = {
 		culture = panjabi
 		religion = sunni
-		size = 801
+		size = 1081
 	}
 
 	artisans = {
 		culture = panjabi
 		religion = sunni
-		size = 4050
+		size = 5468
 	}
 
 	soldiers = {
 		culture = panjabi
 		religion = sunni
-		size = 800
+		size = 1080
 	}
 
 	farmers = {
 		culture = panjabi
 		religion = sunni
-		size = 72887
+		size = 98397
 	}
 }
 #Badakhshan Region (340000)
@@ -275,30 +276,31 @@
 	aristocrats = {
 		culture = panjabi
 		religion = sunni
-		size = 1775
+		size = 2396
 	}
 
 	clergymen = {
 		culture = panjabi
 		religion = sunni
-		size = 825
+		size = 1114
 	}
 
 	artisans = {
 		culture = panjabi
 		religion = sunni
-		size = 4100
+		size = 5535
 	}
 
 	soldiers = {
 		culture = panjabi
 		religion = sunni
-		size = 5100
+		size = 6885
 	}
 
 	farmers = {
 		culture = panjabi
 		religion = sunni
-		size = 73337
+		size = 99005
 	}
 }
+

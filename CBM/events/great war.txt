@@ -37,7 +37,7 @@ country_event = {
     
     option = {
         name = "EVTOPTA69034"
-        leadership = 400
+        leadership = 600
     }
 }
 country_event = {
@@ -58,6 +58,6 @@ country_event = {
     
     option = {
         name = "EVTOPTA69034"
-        leadership = 200
+        leadership = 300
     }
 }

@@ -278,3 +278,10 @@ great_rearmament_programme;Great Rearmament Programme;;;;;;
 great_rearmament_programme_desc;Removes "Outdated Army" modifier when this ends.;;;;;;
 outdated_army_russia;Outdated Army;;;;;;
 outdated_army_russia_desc;Removed by Great Rearmament Programme decision;;;;;;
+BKL;Bankland;;;;;;
+BKL_ADJ;Banker;;;;;;
+demand_concession_china_casus_belli;Demand Chinese Concession;;;;;;;;;x
+demand_concession_china_casus_belli_short;Acquire Chinese state $STATE$;;;;;;;;;x
+demand_concession_china_casus_belli_setup;Acquire Chinese state $STATE$ from $RECIPIENT$;;;;;;;;;x
+advanced_forest_management;Advanced Forest Management;;;;;;
+advanced_forest_management_desc;Advanced Forest Management;;;;;;

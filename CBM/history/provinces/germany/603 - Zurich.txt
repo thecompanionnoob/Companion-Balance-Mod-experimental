@@ -14,11 +14,15 @@ state_building = {
 #	building = lumber_mill
 #	upgrade = yes
 #}
-1925.1.1 = { railroad = 1 }
-1925.1.1 = {
+1910.1.1 = {
+	state_building = {
+		level = 8
+		building = cement_factory 
+		upgrade = yes
+	}
 	state_building = {
 		level = 1
-		building = luxury_clothes_factory
+		building = ammunition_factory 
 		upgrade = yes
 	}
 }

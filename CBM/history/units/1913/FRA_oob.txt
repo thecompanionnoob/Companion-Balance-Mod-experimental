@@ -486,3 +486,88 @@ navy = {
         type = cruiser
     }
 }
+navy = {
+    name = "Transport Fleet"
+    location = 442
+
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+    ship = {
+        name = "Transport"
+        type = steam_transport
+    }      
+}

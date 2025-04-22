@@ -4,3 +4,9 @@ add_core = TUR
 add_core = GEO
 trade_goods = tea
 life_rating = 35
+
+1910.1.1 = {
+    owner = RUS
+    controller = RUS
+    railroad = 2
+}

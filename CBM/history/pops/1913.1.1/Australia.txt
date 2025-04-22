@@ -1,3 +1,4 @@
+
 #New South Wales Region 144000
 #Ruled by Britain 1836
 #Sydney (64000/16000 POPS)
@@ -5,31 +6,31 @@
 	bureaucrats = {
 		culture = british
 		religion = sunni
-		size = 35
+		size = 315
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 115
+		size = 1035
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 4150
+		size = 37350
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 1125
+		size = 10125
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 9675
+		size = 87075
 	}
 }
 #Newcastle (16000/4000 POPS)
@@ -37,67 +38,67 @@
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 250
+		size = 2250
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 1670
+		size = 15030
 	}
 
 	clergymen = {
 		culture = irish
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	artisans = {
 		culture = irish
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	farmers = {
 		culture = irish
 		religion = sunni
-		size = 960
+		size = 8640
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 15
+		size = 135
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 925
+		size = 8325
 	}
 }
 #Port Macquarie (12000/3000 POPS)
@@ -105,55 +106,55 @@
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 900
+		size = 8100
 	}
 
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 100
+		size = 900
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 1750
+		size = 15750
 	}
 }
 
@@ -162,55 +163,55 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 15
+		size = 135
 	}
 
 	farmers = {
+		culture = british
+		religion = sunni
+		size = 8100
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 225
+	}
+
+	artisans = {
 		culture = british
 		religion = sunni
 		size = 900
 	}
 
-	clergymen = {
-		culture = british
-		religion = sunni
-		size = 25
-	}
-
-	artisans = {
-		culture = british
-		religion = sunni
-		size = 100
-	}
-
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 1850
+		size = 16650
 	}
 }
 #Wagga Wagga (12000/3000 POPS)
@@ -218,55 +219,55 @@
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 900
+		size = 8100
 	}
 
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 100
+		size = 900
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 1750
+		size = 15750
 	}
 }
 #uncolonized in 1836
@@ -275,31 +276,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 100
+		size = 900
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 1750
+		size = 15750
 	}
 }
 #Moree (8000/2000 POPS)
@@ -307,31 +308,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 100
+		size = 900
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 1750
+		size = 15750
 	}
 }
 #Broken Hill (12000/3000 POPS)
@@ -339,31 +340,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 75
+		size = 675
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 150
+		size = 1350
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 2700
+		size = 24300
 	}
 }
 #Victoria Region - 44000
@@ -373,31 +374,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 75
+		size = 675
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 150
+		size = 1350
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 2700
+		size = 24300
 	}
 }
 #Warnambool (8000/2000 POPS)
@@ -405,31 +406,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 100
+		size = 900
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 1750
+		size = 15750
 	}
 }
 #Ballarat (8000/2000 POPS)
@@ -437,31 +438,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 100
+		size = 900
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 1750
+		size = 15750
 	}
 }
 #Sale (8000/2000 POPS)
@@ -469,31 +470,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 100
+		size = 900
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 1750
+		size = 15750
 	}
 }
 #Beechworth (4000/1000 POPS)
@@ -501,31 +502,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 15
+		size = 135
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 900
+		size = 8100
 	}
 }
 #Swan Hill (4000/1000 POPS)
@@ -533,31 +534,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 15
+		size = 135
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 900
+		size = 8100
 	}
 
 }
@@ -568,31 +569,31 @@
 	bureaucrats = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 100
+		size = 900
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 2000
+		size = 18000
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 100
+		size = 900
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 6775
+		size = 60975
 	}
 
 }
@@ -603,55 +604,55 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	artisans = {
-		culture = british
-		religion = sunni
-		size = 100
-	}
-
-	soldiers = {
-		culture = british
-		religion = sunni
-		size = 25
-	}
-
-	farmers = {
-		culture = british
-		religion = sunni
-		size = 1750
-	}
-
-	clergymen = {
-		culture = british
-		religion = sunni
-		size = 25
-	}
-
-	artisans = {
-		culture = british
-		religion = sunni
-		size = 50
-	}
-
-	soldiers = {
-		culture = british
-		religion = sunni
-		size = 25
-	}
-
-	farmers = {
 		culture = british
 		religion = sunni
 		size = 900
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 225
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 15750
+	}
+
+	clergymen = {
+		culture = british
+		religion = sunni
+		size = 225
+	}
+
+	artisans = {
+		culture = british
+		religion = sunni
+		size = 450
+	}
+
+	soldiers = {
+		culture = british
+		religion = sunni
+		size = 225
+	}
+
+	farmers = {
+		culture = british
+		religion = sunni
+		size = 8100
 	}
 }
 #uncolonized in 1836
@@ -660,31 +661,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 100
+		size = 900
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 1750
+		size = 15750
 	}
 }
 #Clermont (4000/1000 POPS)
@@ -692,31 +693,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 15
+		size = 135
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 900
+		size = 8100
 	}
 }
 #Toowoomba (8000/2000 POPS)
@@ -724,31 +725,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 100
+		size = 900
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 1750
+		size = 15750
 	}
 }
 #Townsville (8000/2000 POPS)
@@ -756,31 +757,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 100
+		size = 900
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 1750
+		size = 15750
 	}
 }
 #Cooktown (10000/2500 POPS)
@@ -788,31 +789,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 125
+		size = 1125
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 2275
+		size = 20475
 	}
 }
 #Longreach (4000/1000 POPS)
@@ -820,31 +821,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 15
+		size = 135
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 900
+		size = 8100
 	}
 }
 #Charleville (4000/1000 POPS)
@@ -852,31 +853,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 15
+		size = 135
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 900
+		size = 8100
 	}
 
 }
@@ -885,31 +886,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 15
+		size = 135
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 75
+		size = 675
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 15
+		size = 135
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 1370
+		size = 12330
 	}
 }
 #South Australia Region - 32000
@@ -919,31 +920,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 75
+		size = 675
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 150
+		size = 1350
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 2700
+		size = 24300
 	}
 }
 #Port Lincoln (4000/1000 POPS)
@@ -951,31 +952,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 15
+		size = 135
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 900
+		size = 8100
 	}
 }
 #Robe (4000/1000 POPS)
@@ -983,31 +984,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 15
+		size = 135
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 900
+		size = 8100
 	}
 }
 #Port Augusta (4000/1000 POPS)
@@ -1015,31 +1016,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 15
+		size = 135
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 900
+		size = 8100
 	}
 }
 #Oodnadatta (4000/1000 POPS)
@@ -1047,31 +1048,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 15
+		size = 135
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 900
+		size = 8100
 	}
 }
 #Tarcoola (4000/1000 POPS)
@@ -1079,31 +1080,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 15
+		size = 135
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 900
+		size = 8100
 	}
 
 }
@@ -1114,55 +1115,55 @@
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 15
+		size = 135
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 40
+		size = 360
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 685
+		size = 6165
 	}
 
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 75
+		size = 675
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 125
+		size = 1125
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 250
+		size = 2250
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 4500
+		size = 40500
 	}
 }
 #Kojonup (12000/3000 POPS)
@@ -1170,31 +1171,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 75
+		size = 675
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 150
+		size = 1350
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 2700
+		size = 24300
 	}
 
 }
@@ -1203,31 +1204,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 100
+		size = 900
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 1750
+		size = 15750
 	}
 }
 #Kalgoorlie (4000/1000 POPS)
@@ -1235,31 +1236,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 15
+		size = 135
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 900
+		size = 8100
 	}
 }
 #Broome (8000/2000 POPS)
@@ -1267,31 +1268,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 100
+		size = 900
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 1750
+		size = 15750
 	}
 }
 #Dampier (2000/500 POPS)
@@ -1299,31 +1300,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 5
+		size = 45
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 450
+		size = 4050
 	}
 }
 #Laverton (2800/700 POPS)
@@ -1331,31 +1332,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 15
+		size = 135
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 35
+		size = 315
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 630
+		size = 5670
 	}
 }
 #Esperance (4000/1000 POPS)
@@ -1363,31 +1364,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 15
+		size = 135
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 900
+		size = 8100
 	}
 
 }
@@ -1396,31 +1397,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 5
+		size = 45
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 5
+		size = 45
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 450
+		size = 4050
 	}
 }
 #Roebourne (2000/500 POPS)
@@ -1428,31 +1429,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 5
+		size = 45
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 15
+		size = 135
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 5
+		size = 45
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 450
+		size = 4050
 	}
 }
 #Wiluna (3200/800 POPS)
@@ -1460,31 +1461,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 15
+		size = 135
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 40
+		size = 360
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 725
+		size = 6525
 	}
 }
 #Northern Australia Region (32000)
@@ -1494,31 +1495,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 75
+		size = 675
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 125
+		size = 1125
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 250
+		size = 2250
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 4500
+		size = 40500
 	}
 }
 #Tennant Creek (8000/2000 POPS)
@@ -1526,31 +1527,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 50
+		size = 450
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 100
+		size = 900
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 25
+		size = 225
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 1750
+		size = 15750
 	}
 }
 #Alice Springs (2800/700 POPS)
@@ -1558,31 +1559,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 15
+		size = 135
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 35
+		size = 315
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 630
+		size = 5670
 	}
 
 }
@@ -1591,31 +1592,31 @@
 	aristocrats = {
 		culture = british
 		religion = sunni
-		size = 2
+		size = 18
 	}
 
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 3
+		size = 27
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 15
+		size = 135
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 5
+		size = 45
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 275
+		size = 2475
 	}
 
 }
@@ -1626,25 +1627,25 @@
 	clergymen = {
 		culture = british
 		religion = sunni
-		size = 3
+		size = 27
 	}
 
 	artisans = {
 		culture = british
 		religion = sunni
-		size = 10
+		size = 90
 	}
 
 	soldiers = {
 		culture = british
 		religion = sunni
-		size = 2
+		size = 18
 	}
 
 	farmers = {
 		culture = british
 		religion = sunni
-		size = 235
+		size = 2115
 	}
 
 }

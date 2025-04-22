@@ -227,19 +227,21 @@ country_event = {
 						war = no
 					}
 				}
-				any_owned = {
-					limit = {
-						year = 1896
-						state_scope = {
-							total_pops = 825000
-							NOT = { total_pops = 1200000 }
+				owner = {
+					any_owned = {
+						limit = {
+							year = 1896
+							state_scope = {
+								total_pops = 825000
+								NOT = { total_pops = 1200000 }
+							}
 						}
+						remove_core = TNY
+						remove_core = SML
+						add_core = MED
+						remove_core = LRG
+						remove_core = HUG
 					}
-					remove_core = TNY
-					remove_core = SML
-					add_core = MED
-					remove_core = LRG
-					remove_core = HUG
 				}
 			}
 		}
@@ -279,20 +281,22 @@ country_event = {
 						war = no
 					}
 				}
-				any_owned = {
-					limit = {
-						year = 1866
-						NOT = { year = 1896 }
-						state_scope = {
-							total_pops = 900000
-							NOT = { total_pops = 1200000 }
+				owner = {
+					any_owned = {
+						limit = {
+							year = 1866
+							NOT = { year = 1896 }
+							state_scope = {
+								total_pops = 900000
+								NOT = { total_pops = 1200000 }
+							}
 						}
+						remove_core = TNY
+						remove_core = SML
+						remove_core = MED
+						add_core = LRG
+						remove_core = HUG
 					}
-					remove_core = TNY
-					remove_core = SML
-					remove_core = MED
-					add_core = LRG
-					remove_core = HUG
 				}
 
 			}
@@ -304,19 +308,21 @@ country_event = {
 						war = no
 					}
 				}
-				any_owned = {
-					limit = {
-						year = 1896
-						state_scope = {
-							total_pops = 1200000
-							NOT = { total_pops = 1875000 }
+				owner = {
+					any_owned = {
+						limit = {
+							year = 1896
+							state_scope = {
+								total_pops = 1200000
+								NOT = { total_pops = 1875000 }
+							}
 						}
+						remove_core = TNY
+						remove_core = SML
+						remove_core = MED
+						add_core = LRG
+						remove_core = HUG
 					}
-					remove_core = TNY
-					remove_core = SML
-					remove_core = MED
-					add_core = LRG
-					remove_core = HUG
 				}
 
 			}
@@ -356,19 +362,21 @@ country_event = {
 						war = no
 					}
 				}
-				any_owned = {
-					limit = {
-						year = 1866
-						NOT = { year = 1896 }
-						state_scope = {
-							total_pops = 1200000
+				owner = {
+					any_owned = {
+						limit = {
+							year = 1866
+							NOT = { year = 1896 }
+							state_scope = {
+								total_pops = 1200000
+							}
 						}
+						remove_core = TNY
+						remove_core = SML
+						remove_core = MED
+						remove_core = LRG
+						add_core = HUG
 					}
-					remove_core = TNY
-					remove_core = SML
-					remove_core = MED
-					remove_core = LRG
-					add_core = HUG
 				}
 
 			}
@@ -380,18 +388,20 @@ country_event = {
 						war = no
 					}
 				}
-				any_owned = {
-					limit = {
-						year = 1896
-						state_scope = {
-							total_pops = 1875000
+				owner = {
+					any_owned = {
+						limit = {
+							year = 1896
+							state_scope = {
+								total_pops = 1875000
+							}
 						}
+						remove_core = TNY
+						remove_core = SML
+						remove_core = MED
+						remove_core = LRG
+						add_core = HUG
 					}
-					remove_core = TNY
-					remove_core = SML
-					remove_core = MED
-					remove_core = LRG
-					add_core = HUG
 				}
 
 			}
