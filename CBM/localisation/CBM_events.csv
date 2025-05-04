@@ -202,3 +202,6 @@ EVTOPTA69075;Great!;;;;;;
 EVTNAME69076;Host Unsieges Us!;;;;;;
 EVTDESC69076;The host nation has unsieged us via decision.;;;;;;
 EVTOPTA69076;Freedom!;;;;;;
+EVTNAME69077;Host Sieges Our Enemies;;;;;;
+EVTDESC69077;The Host has sieged one or multiple of our enemies for us.;;;;;;
+EVTOPTA69077;Hooray!;;;;;;

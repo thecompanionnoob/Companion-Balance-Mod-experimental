@@ -4,6 +4,8 @@ GLOBAL CHANGES:
 
 MISC:
 *New start date, January 1st 1913 to be used as an alternative multiplayer gamemode, with tons of undocumented related changes for the start date.
+*Improved the four checks visible on the lobby screen.
+*Darkened and added a slight outline to rivers.
 
 PROMOTION:
 *National focuses now do not affect promotion, they are used for special effects such as increased throughput or rgo output. They are gained every other political thought tech.
@@ -13,6 +15,7 @@ PROMOTION:
 *Clergymen promotion buffed and soldier promotion nerfed.
 *Removed 55% literacy requirement for aristocrats to become capitalists, and added a constant 50% chance that their promotion is nullified, so the rate isn't too much.
 *Allowed bureaucrats to promote beyond 1% in colonial states so you aren't prevented from stating them because of unaccepted bureaucrats.
+*Bureaucrats will now promote to 1.5% instead of 1% so if your empire contains a lot of land that is unaccepted, you won't have too low admin efficiency.
 
 IDEAS:
 *Promotion idea nerfed, the effect is now halved.
@@ -57,7 +60,14 @@ WARGOALS/INFAMY:
 *Increased state size thresholds by 50%.
 *Increased base infamy reduction to -0.3 from -0.2 and made it decay equally when at war as at peace.
 
+ARMY:
+*Buffed support gain from artillery tech.
+*Nerfed defense and buffed offense in the late game, machine gun era and prior is unaffected.
+*Buffed artillery defense gain.
 
+TECH:
+*Removed pluarality inventions and plurality's impact on research speed.
+*Buffed research points tech to vanilla levels.
 
 
 

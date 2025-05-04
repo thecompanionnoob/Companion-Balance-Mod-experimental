@@ -177,7 +177,7 @@ late_enlightenment_philosophy = {
 	cost = 3600
 
 
-	increase_research = 0.40
+	increase_research = 0.50
 	
 	ai_chance = {
 		factor = 51
@@ -212,7 +212,7 @@ idealism = {
 	year = 1840
 	cost = 7200
 
-	increase_research = 0.40
+	increase_research = 0.50
 	ai_chance = {
 		factor = 51
 		modifier = {
@@ -247,7 +247,7 @@ empiricism = {
 	year = 1860
 	cost = 10800
 	
-	increase_research = 0.40
+	increase_research = 0.50
 	ai_chance = {
 		factor = 51
 		modifier = {
@@ -273,7 +273,7 @@ analytic_philosophy = {
 	year = 1870
 	cost = 14400
 
-	increase_research = 0.8
+	increase_research = 1
 	ai_chance = {
 		factor = 51
 		modifier = {
@@ -295,7 +295,7 @@ phenomenology_n_hermeneutic = {
 	year = 1880
 	cost = 18000
 
-	increase_research = 0.8
+	increase_research = 1
 	ai_chance = {
 		factor = 51
 		modifier = {
@@ -317,7 +317,7 @@ anti__rationalism = {
 	year = 1900
 	cost = 21600
 
-	increase_research = 0.8
+	increase_research = 1
 	ai_chance = {
 		factor = 51
 		modifier = {
@@ -343,7 +343,7 @@ malthusian_thought = {
 	cost = 3600
 
 	colonial_migration = 0.05
-	education_efficiency = 0.1
+	education_efficiency = 0.05
 	
 	ai_chance = {
 		factor = 1.01
@@ -366,7 +366,7 @@ positivism = {
 	year = 1836
 	cost = 7200
 	colonial_migration = 0.05
-	education_efficiency = 0.1
+	education_efficiency = 0.05
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -386,7 +386,7 @@ functionalism = {
 	cost = 10800
 
 	colonial_migration = 0.05
-	education_efficiency = 0.1
+	education_efficiency = 0.05
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -406,7 +406,7 @@ biologism = {
 	cost = 14400
 
 	colonial_migration = 0.05
-	education_efficiency = 0.2
+	education_efficiency = 0.05
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -426,7 +426,7 @@ social_science = {
 	cost = 18000
 
 	colonial_migration = 0.05
-	education_efficiency = 0.1
+	education_efficiency = 0.05
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -446,7 +446,7 @@ social_alienation = {
 	cost = 21600
 	
 	colonial_migration = 0.05
-	education_efficiency = 0.1
+	education_efficiency = 0.05
 	ai_chance = {
 		factor = 1.01
 		modifier = {

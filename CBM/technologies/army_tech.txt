@@ -610,7 +610,7 @@ iron_muzzle_loaded_artillery = {
 	cost = 7200
 	unciv_military = yes
 	artillery = {
-		support = 0.10
+		support = 0.20
 		supply_consumption = 0.15
 		attack = 0.5
 		defence = 0.25
@@ -655,10 +655,10 @@ iron_breech_loaded_artillery = {
 	cost = 10800
 	unciv_military = yes
 	artillery = {
-		support = 0.20
+		support = 0.25
 		supply_consumption = 0.3
 		attack = 0.5
-		defence = 0.25
+		defence = 0.5
 	}
 	ai_chance = {
 		factor = 1.05
@@ -702,7 +702,7 @@ steel_breech_loaded_artillery = {
 		support = 0.25
 		supply_consumption = 0.3
 		attack = 0.5
-		defence = 0.25
+		defence = 0.5
 	}
 	
 	ai_chance = {
@@ -744,10 +744,10 @@ indirect_artillery_fire = {
 	cost = 18000
 	unciv_military = yes
 	artillery = {
-		support = 0.25
+		support = 0.35
 		supply_consumption = 0.3
 		attack = 0.5
-		defence = 0.25
+		defence = 0.5
 	}
 	
 	ai_chance = {
@@ -789,10 +789,10 @@ heavy_armament_dunno = {
 	cost = 21600
 	unciv_military = yes
 	artillery = {
-		support = 0.25
+		support = 0.35
 		supply_consumption = 0.3
 		attack = 0.5
-		defence = 0.25
+		defence = 0.5
 	}
 	
 	ai_chance = {

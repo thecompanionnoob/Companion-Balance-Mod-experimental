@@ -11,7 +11,7 @@ country_event = {
             limit = {
                 vassal_of = THIS
             }
-            country_event = { id = 69027 days = 0 }
+            country_event = { id = 69027 days = 1 }
         }
     }
     option = {
@@ -27,7 +27,7 @@ country_event = {
 
     option = {
         name = "EVTOPTA69027"
-        overlord = { country_event = { id = 69028 days = 0 } }
+        overlord = { country_event = { id = 69028 days = 1 } }
     }
 }
 country_event = {

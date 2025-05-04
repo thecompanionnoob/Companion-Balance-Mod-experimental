@@ -195,28 +195,28 @@ low_echelon_fire_support = {
 	}
 	effect = {
 		infantry = {
-			defence = 2
+			defence = 1
 		}
 		guard = {
-			defence = 2
+			defence = 1
 		}
 		tank = {
-			defence = 2
+			defence = 1
 		}
 		engineer = {
-			defence = 2
+			defence = 1
 		}
 		cuirassier = {
-			defence = 1
+			defence = 0.5
 		}
 		dragoon = {
-			defence = 1
+			defence = 0.5
 		}
 		hussar = {
-			defence = 1
+			defence = 0.5
 		}
 		plane = {
-			defence = 1
+			defence = 0.5
 		}
 		cavalry = {
 			defence = 0.5
@@ -276,16 +276,16 @@ modern_defense = {
 	}
 	effect = {
 		infantry = {
-			defence = 1
+			defence = 2
 		}
 		guard = {
-			defence = 1
+			defence = 2
 		}
 		engineer = {
-			defence = 1
+			defence = 2
 		}
 		tank = {
-			defence = 1
+			defence = 2
 		}
 		plane = {
 			defence = 1
@@ -614,43 +614,43 @@ bolt_action_rifle_armament = {
 	}
 	effect = {
 		infantry = {
-			attack = 2
+			attack = 3
 			supply_consumption = 0.20
 		}
 		guard = {
-			attack = 2
+			attack = 3
 			supply_consumption = 0.20
 		}
 		engineer = {
-			attack = 2
+			attack = 3
 			supply_consumption = 0.20
 		}
 		tank = {
-			attack = 2
+			attack = 3
 			supply_consumption = 0.20
 		}
 		dragoon = {
-			attack = 1
+			attack = 2
 			supply_consumption = 0.20
 		}
 		hussar = {
-			attack = 1
+			attack = 2
 			supply_consumption = 0.20
 		}
 		cuirassier = {
-			attack = 1
+			attack = 2
 			supply_consumption = 0.20
 		}
 		plane = {
-			attack = 1
+			attack = 2
 			supply_consumption = 0.20
 		}
 		cavalry = {
-			attack = 0.5
+			attack = 1
 			supply_consumption = 0.20
 		}
 		irregular = {
-			attack = 0.5
+			attack = 1
 			supply_consumption = 0.20
 		}
 	}

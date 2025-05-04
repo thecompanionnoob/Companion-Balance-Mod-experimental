@@ -285,3 +285,5 @@ demand_concession_china_casus_belli_short;Acquire Chinese state $STATE$;;;;;;;;;
 demand_concession_china_casus_belli_setup;Acquire Chinese state $STATE$ from $RECIPIENT$;;;;;;;;;x
 advanced_forest_management;Advanced Forest Management;;;;;;
 advanced_forest_management_desc;Advanced Forest Management;;;;;;
+advanced_iron_mining;Advanced Iron Mining;;;;;;
+advanced_iron_mining;Advanced Iron Mining;;;;;;

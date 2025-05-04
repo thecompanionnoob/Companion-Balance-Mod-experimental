@@ -61,6 +61,7 @@ political_decisions = {
 		}
 	}
 	roll_back_healthcare = {
+		picture = healthcare
 		alert = no
 		potential = {
 			OR = {
@@ -79,6 +80,7 @@ political_decisions = {
 		}
 	}
 	roll_back_education = {
+		picture = education_idea_decision
 		alert = no
 		potential = {
 			OR = {
@@ -99,6 +101,7 @@ political_decisions = {
 
 
 	adv_healthcare_0 = {
+		picture = healthcare
 		potential = {
 			health_care = no_health_care
 		}
@@ -115,6 +118,7 @@ political_decisions = {
 	}
 
 	adv_healthcare_1 = {
+		picture = healthcare
 		potential = {
 			health_care = trinket_health_care
 		}
@@ -131,6 +135,7 @@ political_decisions = {
 	}
 
 	adv_healthcare_2 = {
+		picture = healthcare
 		potential = {
 			health_care = low_health_care
 		}
@@ -144,6 +149,7 @@ political_decisions = {
 	}
 
 	adv_healthcare_3 = {
+		picture = healthcare
 		potential = {
 			health_care = acceptable_health_care
 		}
@@ -157,6 +163,7 @@ political_decisions = {
 	}
 
 	adv_edu_0 = {
+		picture = education_idea_decision
 		potential = {
 			school_reforms = no_schools
 		}
@@ -172,6 +179,7 @@ political_decisions = {
 	}	
 
 	adv_edu_1 = {
+		picture = education_idea_decision
 		potential = {
 			school_reforms = low_schools
 		}
@@ -188,6 +196,7 @@ political_decisions = {
 	}
 
 	adv_edu_2 = {
+		picture = education_idea_decision
 		potential = {
 			school_reforms = middling_schools
 		}
@@ -201,6 +210,7 @@ political_decisions = {
 	}
 
 	adv_edu_3 = {
+		picture = education_idea_decision
 		potential = {
 			school_reforms = acceptable_schools
 		}

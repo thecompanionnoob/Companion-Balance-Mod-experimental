@@ -92,7 +92,7 @@ egyptian_arabia_desc;Now that we have conquered the lands of Arabia, we can inte
 egypt_want_iraq_title;Claim Iraq;;;;;;;;x
 egypt_want_iraq_desc;Now that we have conquered and integrated Arabia, we can begin to take the mantle of those who live in that region, and take over their claim to the lands of Iraq.;;;;;;;;x
 national_idea_enable_title;§GMake National Idea Decisions Visible§!;;;;;;;;;x
-national_idea_enable_desc;These are permanent buffs to your nation that may be picked every 15 years.;;;;;;;;;x
+national_idea_enable_desc;These are permanent buffs to your nation that may be picked every 15 years. They do stack on top of one another and are not mutually exclusive.;;;;;;;;;x
 national_idea_disable_title;Hide National Idea Decisions;;;;;;;;;x
 national_idea_disable_desc; ;;;;;;;;;x
 naval_idea_decision_title;Naval Idea;;;;;;;;;x
@@ -285,3 +285,19 @@ milaccess_all_title;Gain military access with all nations;;;;;;
 milaccess_all_desc;Gives you military access with all nations. To be used with other host decisions;;;;;;
 nomilaccess_all_title;Remove military access with all nations;;;;;;
 nomilaccess_all_desc;Removes your military access with all nations. To be used with other host decisions;;;;;;
+transfer_host_nation_title;Transfer Host Nation;;;;;;
+transfer_host_nation_desc;Transfers the host nation to the country which you currently do NOT have military access with. If you have military access with multiple countries, it will pick a random one.;;;;;;
+unsiege_selected_title;Unsiege Selected Nation;;;;;;
+unsiege_selected_desc;Unsieges any nation which you currently do NOT have military access with.;;;;;;
+select_sieger_title;Select country to be sieged;;;;;;
+select_sieger_desc;Selects the countries which you currently do NOT have military access with to be sieged down.;;;;;;
+siege_selected_title;Siege selected countries;;;;;;
+siege_selected_desc;This will siege down the previously selected countries to a random country with which you currently do NOT have military access with.;;;;;;
+see_host_decisions_title;Open Host Decisions;;;;;;
+see_host_decisions_desc;Opens host decisions;;;;;;
+stop_see_host_decisions_title;Close Host Decisions;;;;;;
+stop_see_host_decisions_desc;Closes host decisions;;;;;;
+accept_native_americans_title;Integrate the Natives;;;;;;
+accept_native_americans_desc;§RThis is mutually exclusive with Peru-Bolivia§!\nWe are in a unique position to place ourselves as a savior of the Natives of the Americas, and forge a state with true equality between Natives and Colonizers.;;;;;;
+accept_afro_brazil_title;Become the Savior of the Afro Brazilians;;;;;;
+accept_afro_brazil_desc;The African populations in neighboring Brazil labor under awful conditions. With our acceptance of the natives, we could also serve as the savior of these people. It would also work as a backdoor into our Brazilian rivals.;;;;;;

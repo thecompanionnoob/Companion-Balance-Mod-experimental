@@ -1,5 +1,6 @@
 political_decisions = {
     enable_gamble = {
+        picture = gamba
         potential = {
             NOT = { has_global_flag = gamble_enable }
             NOT = { year = 1837 }
@@ -13,6 +14,7 @@ political_decisions = {
         }
     }
     i_want_to_gamble = {
+        picture = gamba
         potential = {
             has_global_flag = gamble_enable
             NOT = { has_country_modifier = gambling_delay }

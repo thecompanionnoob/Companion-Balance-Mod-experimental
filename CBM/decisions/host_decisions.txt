@@ -1,5 +1,29 @@
 political_decisions = {
+	see_host_decisions = {
+		alert = no
+		picture = host_decisions
+		potential = {
+			has_country_flag = host_nation
+			NOT = { has_country_flag = host_decision_visible }
+		}
+		allow = { always = yes }
+		effect = {
+			set_country_flag = host_decision_visible
+		}
+	}
+	stop_see_host_decisions = {
+		alert = no
+		picture = host_decisions
+		potential = {
+			has_country_flag = host_decision_visible 
+		}
+		allow = { always = yes }
+		effect = {
+			clr_country_flag = host_decision_visible
+		}
+	}
 	set_as_host = {
+		picture = host_decisions
 		alert = no
 		potential = {
 			NOT = { has_global_flag = host_set }
@@ -13,9 +37,11 @@ political_decisions = {
 		}
 	}
 	player_alliances = {
+		picture = host_decisions
 		alert = no
 		potential = {
 			has_country_flag = host_nation
+			has_country_flag = host_decision_visible 
 		}
 		allow = {
 			ai = no
@@ -30,9 +56,11 @@ political_decisions = {
 		}
 	}
 	unally_all = {
+		picture = host_decisions
 		alert = no
 		potential = {
 			has_country_flag = host_nation
+			has_country_flag = host_decision_visible 
 		}
 		allow = {
 			ai = no
@@ -48,9 +76,11 @@ political_decisions = {
 
 	}
 	milaccess_all = {
+		picture = host_decisions
 		alert = no
 		potential = {
 			has_country_flag = host_nation
+			has_country_flag = host_decision_visible 
 		}
 		allow = {
 			ai = no
@@ -63,9 +93,11 @@ political_decisions = {
 
 	}
 	nomilaccess_all = {
+		picture = host_decisions
 		alert = no
 		potential = {
 			has_country_flag = host_nation
+			has_country_flag = host_decision_visible 
 		}
 		allow = {
 			ai = no
@@ -78,9 +110,11 @@ political_decisions = {
 
 	}
 	transfer_host_nation = {
+		picture = host_decisions
 		alert = no
 		potential = {
 			has_country_flag = host_nation
+			has_country_flag = host_decision_visible 
 		}
 		allow = {
 			ai = no
@@ -97,9 +131,11 @@ political_decisions = {
 		}
 	}
 	unsiege_selected = {
+		picture = host_decisions
 		alert = no
 		potential = {
 			has_country_flag = host_nation
+			has_country_flag = host_decision_visible 
 		}
 		allow = {
 			ai = no
@@ -113,17 +149,19 @@ political_decisions = {
 			}
 		}
 	}
-	select_sieger = {
+	select_sieger = { #this actually selects the sieged im too lazy to change the name
+		picture = host_decisions
 		alert = no
 		potential = {
 			has_country_flag = host_nation
 			NOT = { has_country_flag = has_chosen_siege_country }
+			has_country_flag = host_decision_visible 
 		}
 		allow = {
 			ai = no
 		}
 		effect = {
-			random_country = {
+			any_country = {
 				limit = {
 					NOT = { military_access = THIS }
 				}
@@ -136,11 +174,13 @@ political_decisions = {
 		}
 
 	}
-	siege_selected = {
+	siege_selected = { #this actually sieges those previously selected to the countries selected by this decision.
+		picture = host_decisions
 		alert = no
 		potential = {
 			has_country_flag = host_nation
 			has_country_flag = has_chosen_siege_country 
+			has_country_flag = host_decision_visible 
 		}
 		allow = {
 			ai = no
@@ -148,7 +188,7 @@ political_decisions = {
 		effect = {
 			random_country = {
 				limit = {
-					has_country_flag = siege_country
+					NOT = { military_access = THIS }
 				}
 				country_event = 69077
 			}
