@@ -6,6 +6,7 @@ MISC:
 *New start date, January 1st 1913 to be used as an alternative multiplayer gamemode, with tons of undocumented related changes for the start date.
 *Improved the four checks visible on the lobby screen.
 *Darkened and added a slight outline to rivers.
+*Reworked nation flag gfx.
 
 PROMOTION:
 *National focuses now do not affect promotion, they are used for special effects such as increased throughput or rgo output. They are gained every other political thought tech.
@@ -14,7 +15,7 @@ PROMOTION:
 *Promotion is buffed in the first year to make starting bureaucrats promote faster.
 *Clergymen promotion buffed and soldier promotion nerfed.
 *Removed 55% literacy requirement for aristocrats to become capitalists, and added a constant 50% chance that their promotion is nullified, so the rate isn't too much.
-*Allowed bureaucrats to promote beyond 1% in colonial states so you aren't prevented from stating them because of unaccepted bureaucrats.
+*Allowed bureaucrats to promote well beyond 1% in colonial states so you aren't prevented from stating them because of unaccepted bureaucrats.
 *Bureaucrats will now promote to 1.5% instead of 1% so if your empire contains a lot of land that is unaccepted, you won't have too low admin efficiency.
 
 IDEAS:
@@ -32,6 +33,7 @@ QoL/BUGFIX:
 *Removed infamy gain from most decisions that form countries or give accepted cultures, decisions that give cores on foreign countries generally still give infamy (Still cheaper than take state cbs).
 *Made the grants decision check if you have the money to give people, preventing exploits. Because of a bug relating to this, grants of over 2 million are disabled for now.
 *Changed the default music volume to 40% from 70%.
+*Removed all factors for pops to decide on issues, this should be a major stability and performance uplift without costing much gameplay-wise.
 
 REFORMS & POLITICS:
 *Social reforms no longer increase the number of bureaucrats required for administrative efficiency.
@@ -59,6 +61,8 @@ ECONOMY:
 WARGOALS/INFAMY:
 *Increased state size thresholds by 50%.
 *Increased base infamy reduction to -0.3 from -0.2 and made it decay equally when at war as at peace.
+*Reduced sanctions threshold to 35 from 37.5.
+*Increased mob size debuff from sanctions to -2% from -1%.
 
 ARMY:
 *Buffed support gain from artillery tech.
@@ -66,7 +70,7 @@ ARMY:
 *Buffed artillery defense gain.
 
 TECH:
-*Removed pluarality inventions and plurality's impact on research speed.
+*Removed plurality inventions and plurality's impact on research speed.
 *Buffed research points tech to vanilla levels.
 
 
@@ -88,7 +92,8 @@ COUNTRY CHANGES:
 
 *GERMANY:
     *Made the german republic flag be the modern german flag
-    *Made UK start as cordial in Hanover and Austria start as friendly in Saxony so these powers may prevent the formation of NGF if they want, as long as prussia does not have outside sphere support.
+    *Made UK start as cordial in Hanover and Austria start as sphere lord in Saxony so these powers may prevent the formation of NGF if they want, as long as prussia does not have outside sphere support.
+    *Germany now retains the monarchist flag if they become hm's government.
 
 *UK:
     *India now starts released and divided into many states. Each of these states can be annexed by decision at the cost of money, and a 6 year timer until the next one may be annexed.
@@ -99,11 +104,9 @@ COUNTRY CHANGES:
     *Russia now starts with a modifier for serfdom which requires state & government and 500k to remove.
     *Removed Russian cores in Budjak.
 
-*Germany:
-    *Germany now retains the monarchist flag if they become hm's government.
-
 *France:
     *Desaturated France's color.
+    *Removed French starting armies in Senegal and Ivory Coast.
 
 *Greece: 
     *Darkened Greece's color.

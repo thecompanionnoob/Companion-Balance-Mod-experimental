@@ -166,7 +166,7 @@ go_south_desc;§RThis decision is mutually exclusive with the Caribbean & Mexican
 go_sea_title;Expand into the Caribbean;;;;;;;;;x
 go_sea_desc;§RThis decision is mutually exclusive with the Southern & Mexican paths.§!\nThe Caribbean islands are densly populated and should not be too difficult to conquer. We should move to invade this region immediately.;;;;;;;;;x
 form_peru_bolivia_title;Form Peru-Bolivia;;;;;;;;;x
-form_peru_bolivia_desc;§RIf you are playing as Peru, this decision disallows forming Inca.\nIf you are playing as Bolivia, this decision disallows accepting Native Americans and Brazilians.\n§!The Bolivian and Peruvian people are not all too different. In fact, we were once united under a confederation. We should restore this glorious union, and unite our peoples!;;;;;;;;;x
+form_peru_bolivia_desc;§RIf you are playing as Peru, this decision disallows forming Inca.\nIf you are playing as Bolivia, this decision disallows accepting Native Americans and Afro Brazilians.\n§!The Bolivian and Peruvian people are not all too different. In fact, we were once united under a confederation. We should restore this glorious union, and unite our peoples!;;;;;;;;;x
 reform_admin_1_money_title;Reform our Administration;;;;;;;;;x
 reform_admin_1_money_desc;§RIn 1865, a decision unlocks which has the same effect of this decision, without costing money.§!\nOur bureaucracy is extremely corrupt and woefully inadequate to deal with the challenges of a state such as ours. We should institute a wide-sweeping reform to rip out the corruption from the administration.;;;;;;;;;x
 reform_admin_1_time_title;Reform our Administration;;;;;;;;;x
