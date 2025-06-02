@@ -37,7 +37,7 @@ dragoon = {
 	
 
 	#Land Abilties
-	reconnaissance = 1
+	reconnaissance = 2
 	attack = 6
 	defence = 6
 	discipline = 1.0

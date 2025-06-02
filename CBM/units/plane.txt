@@ -35,7 +35,7 @@ plane = { #good expensive cav basically
 	
 
 	#Land Abilties
-	reconnaissance = 4
+	reconnaissance = 3
 	attack = 8
 	defence = 8
 	discipline = 1.0

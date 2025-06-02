@@ -33,7 +33,6 @@ cavalry = {
 	
 
 	#Land Abilties
-	reconnaissance = 1
 	attack = 5
 	defence = 4
 	discipline = 1.0

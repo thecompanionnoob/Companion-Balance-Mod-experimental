@@ -9,6 +9,7 @@ political_decisions = {
 		}
 		allow = {}
 		effect = {
+			enable_canal = 4
 			any_country = {
 				limit = { is_greater_power = yes }
 				treasury = 200000
@@ -38,6 +39,13 @@ political_decisions = {
 		}
 		allow = {}
 		effect = {
+			enable_canal = 4
+			
+			enable_canal = 2
+
+			1755 = { set_province_flag = suez_canal }
+            1755 = { change_province_name = "Suez Canal" }
+			set_global_flag = suez_canal_built
 
 			#shiny rgos -- determined to not be important enough to bother with
 

@@ -1,0 +1,5 @@
+*Changed the straits around Istanbul, you can blockade them but to go into the Sea of Marmara you need to control Gallipoli (to go from the west) and Istanbul (to go from the east).
+*Changed the province map around this area so it is possible to land in Thrace without entering the Sea of Marmara.
+*Fixed Suez Canal not being constructed from day 1 in www1 bookmark
+*Buffed cuirassier/hussar/dragoon reconaissance to 2 and nerfed plane reconaissance to 3. This is because starting dig-in is divided by the reconaissance of the highest recon unit in the army, so recon of 1 was useless and recon of 4 was overpowered.
+
