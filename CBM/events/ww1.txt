@@ -102,7 +102,6 @@ country_event = { #uk capitulates
         has_global_flag = great_war_decision
         tag = ENG
         300 = { NOT = { controlled_by = ENG } } #london occupied
-        war_exhaustion = 20
         NOT = { has_country_flag = ww1_capitulated }
 
     }
@@ -356,15 +355,11 @@ country_event = { #russia capitulates
     trigger = {
         has_global_flag = great_war_decision
         tag = RUS
-        war_exhaustion = 50
+        war_exhaustion = 35
         958 = { NOT = { controlled_by = THIS } }
         718 = { NOT = { controlled_by = THIS } }
         706 = { NOT = { controlled_by = THIS } }
         354 = { NOT = { controlled_by = THIS } }
-        OR = {
-            994 = { NOT = { controlled_by = THIS } }
-            1008 = { NOT = { controlled_by = THIS } }
-        }
 
         NOT = { has_country_flag = ww1_capitulated }
 
@@ -642,7 +637,7 @@ country_event = { #france capitulates
 
         425 = { NOT = { controlled_by = THIS } }
 
-        war_exhaustion = 30
+        war_exhaustion = 20
 
         NOT = { has_country_flag = ww1_capitulated }
 
@@ -823,8 +818,6 @@ country_event = { #italy capitulates
     trigger = {
         has_global_flag = great_war_decision
         tag = ITA
-
-        war_exhaustion = 25
         749 = { NOT = { controlled_by = THIS } }
 
 		national_provinces_occupied = 0.4
@@ -1151,7 +1144,7 @@ country_event = { #ottomans capitulates
 
 		national_provinces_occupied = 0.5
         860 = { NOT = { controlled_by = THIS } }
-        war_exhaustion = 40
+        war_exhaustion = 20
 
         NOT = { has_country_flag = ww1_capitulated }
 
@@ -1354,7 +1347,7 @@ country_event = { #austria-hungary capitulates
         tag = KUK
 
 		national_provinces_occupied = 0.5
-        war_exhaustion = 45
+        war_exhaustion = 20
         619 = { NOT = { controlled_by = THIS } }
         641 = { NOT = { controlled_by = THIS } }
 
@@ -1440,8 +1433,7 @@ country_event = { #germany capitulates
         has_global_flag = great_war_decision
         tag = GER
 
-		national_provinces_occupied = 0.5
-        war_exhaustion = 65
+        war_exhaustion = 30
         599 = { NOT = { controlled_by = THIS } } #munich
         549 = { NOT = { controlled_by = THIS } } #berlin
         575 = { NOT = { controlled_by = THIS } } #cologne
