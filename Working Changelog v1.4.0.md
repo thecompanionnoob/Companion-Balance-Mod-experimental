@@ -16,4 +16,5 @@
 - Added ports and ships for Ottomans
 - Added ports and ships for Russia
 - Added industry in South America. This should help alliviate the cement shortage.
+- Removed one infantry defense tech from Russia.
 ## Country-Specific Changes

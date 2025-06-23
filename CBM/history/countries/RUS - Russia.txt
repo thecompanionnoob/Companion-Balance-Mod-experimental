@@ -186,7 +186,6 @@ decision = serfdom_setup
 	#army 
 	strategic_mobility = 1
 	point_defense_system = 1
-	deep_defense_system = 1
 	muzzle_loaded_rifles = 1
 	breech_loaded_rifles = 1
 	iron_muzzle_loaded_artillery = 1
