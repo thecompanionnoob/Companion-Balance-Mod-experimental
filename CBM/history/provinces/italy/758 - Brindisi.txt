@@ -4,6 +4,7 @@ owner = ITA
 railroad = 3
 controller = ITA
 add_core = ITA
+naval_base = 3
  }
 controller = SIC
 add_core = SIC

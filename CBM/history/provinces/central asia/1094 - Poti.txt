@@ -4,6 +4,7 @@ owner = RUS
 railroad = 2
 controller = RUS
 add_core = RUS
+naval_base = 3
 }
 controller = GEO
 add_core = GEO

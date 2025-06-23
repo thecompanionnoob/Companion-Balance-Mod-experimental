@@ -1,0 +1,213 @@
+
+army = {
+	name = "Army of the West"
+	location = 860
+	regiment = {
+		name = "1. Infantry"
+		type = infantry
+		home = 860
+	}
+	regiment = {
+		name = "2. Infantry"
+		type = infantry
+		home = 860
+	}
+	regiment = {
+		name = "3. Infantry"
+		type = infantry
+		home = 859
+	}
+	regiment = {
+		name = "4. Infantry"
+		type = infantry
+		home = 828
+	}
+	regiment = {
+		name = "5. Infantry"
+		type = infantry
+		home = 861
+	}
+	regiment = {
+		name = "1. Artillery"
+		type = artillery
+		home = 862
+	}
+	regiment = {
+		name = "2. Artillery"
+		type = artillery
+		home = 863
+	}
+	regiment = {
+		name = "3. Artillery"
+		type = artillery
+		home = 864
+	}
+	regiment = {
+		name = "4. Artillery"
+		type = artillery
+		home = 870
+	}
+}
+army = {
+	name = "Army of the West"
+	location = 882
+	regiment = {
+		name = "6. Infantry"
+		type = infantry
+		home = 882
+	}
+	regiment = {
+		name = "7. Infantry"
+		type = infantry
+		home = 882
+	}
+	regiment = {
+		name = "8. Infantry"
+		type = infantry
+		home = 886
+	}
+	regiment = {
+		name = "9. Infantry"
+		type = infantry
+		home = 887
+	}
+	regiment = {
+		name = "10. Infantry"
+		type = infantry
+		home = 876
+	}
+	regiment = {
+		name = "5. Artillery"
+		type = artillery
+		home = 894
+	}
+	regiment = {
+		name = "6. Artillery"
+		type = artillery
+		home = 883
+	}
+	regiment = {
+		name = "7. Artillery"
+		type = artillery
+		home = 888
+	}
+	regiment = {
+		name = "8. Artillery"
+		type = artillery
+		home = 883
+	}
+}
+navy = {
+    name = "Ottoman Navy"
+    location = 869
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }    
+    ship = {
+        name = "Dreadnought"
+        type = dreadnought
+    }    
+    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Battleship"
+        type = battleship
+    }    
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }    
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }    
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }   
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }   
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }  
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }    
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }    
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }   
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }   
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }  
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }    
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }    
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }   
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }   
+    ship = {
+        name = "Cruiser"
+        type = cruiser
+    }  
+}

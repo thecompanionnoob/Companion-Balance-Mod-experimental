@@ -3,3 +3,10 @@ controller = CHL
 add_core = CHL
 trade_goods = grain
 life_rating = 35
+1910.1.1 = {
+	state_building = {
+		level = 12
+		building = cement_factory
+		upgrade = yes
+	}
+}

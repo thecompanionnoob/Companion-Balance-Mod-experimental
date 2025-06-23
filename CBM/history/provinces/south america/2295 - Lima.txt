@@ -4,7 +4,10 @@ add_core = PEU
 add_core = PBL
 trade_goods = cattle
 life_rating = 35
-1925.1.1 = { 
-	railroad = 1
-	naval_base = 1
+1910.1.1 = {
+	state_building = {
+		level = 9
+		building = cement_factory
+		upgrade = yes
+	}
 }

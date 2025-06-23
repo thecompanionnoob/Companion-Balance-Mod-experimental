@@ -4,6 +4,7 @@ owner = KUK
 railroad = 3
 controller = KUK
 add_core = KUK
+naval_base = 3
  }
 controller = AUS
 add_core = AUS

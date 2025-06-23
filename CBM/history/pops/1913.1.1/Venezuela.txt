@@ -42,7 +42,7 @@
 	farmers = {
 		culture = north_andean
 		religion = sunni
-		size = 81450
+		size = 41450
 	}
 
 	clergymen = {
@@ -63,10 +63,10 @@
 		size = 2200
 	}
 
-	farmers = {
-		culture = caribeno
+	craftsmen = {
+		culture = north_andean
 		religion = sunni
-		size = 18800
+		size = 58800
 	}
 
 	slaves = {

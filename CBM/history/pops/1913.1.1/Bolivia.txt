@@ -38,10 +38,10 @@
 		size = 6600
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = south_andean
 		religion = sunni
-		size = 36000
+		size = 76000
 	}
 
 	clergymen = {
@@ -65,7 +65,7 @@
 	farmers = {
 		culture = native_american_minor
 		religion = sunni
-		size = 126200
+		size = 86200
 	}
 
 	clergymen = {

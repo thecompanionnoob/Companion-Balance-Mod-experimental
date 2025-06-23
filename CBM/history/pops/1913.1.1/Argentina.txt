@@ -51,7 +51,7 @@
 		size = 56000
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = platinean
 		religion = sunni
 		size = 78600

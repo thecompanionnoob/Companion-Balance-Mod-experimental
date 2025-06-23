@@ -2866,7 +2866,13 @@
 	farmers = {
 		culture = brazilian
 		religion = sunni
-		size = 424710
+		size = 224710
+	}
+
+	craftsmen = {
+		culture = brazilian
+		religion = sunni
+		size = 200000
 	}
 
 	clergymen = {
@@ -3122,7 +3128,13 @@
 	farmers = {
 		culture = brazilian
 		religion = sunni
-		size = 167310
+		size = 117310
+	}
+
+	craftsmen = {
+		culture = brazilian
+		religion = sunni
+		size = 50000
 	}
 
 	clergymen = {

@@ -9,6 +9,7 @@ life_rating = 35
 railroad = 2
 	controller = TUR
 	add_core = TUR
+naval_base = 3
 }
 
 1925.1.1 = {

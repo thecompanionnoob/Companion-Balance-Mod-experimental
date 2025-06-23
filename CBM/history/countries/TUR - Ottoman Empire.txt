@@ -151,7 +151,7 @@ ruling_party = TUR_conservative
 	plurality = 100
 	prestige = 25
 	literacy = 0.40
-	#oob = "/1913/ITA_oob.txt"
+	oob = "/1913/TUR_oob.txt"
 
 	set_country_flag = reclaim_south
 	decision = TUR_reclaim_arabia

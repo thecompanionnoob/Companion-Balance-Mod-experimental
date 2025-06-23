@@ -2011,7 +2011,7 @@
 		size = 1840
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = mexican
 		religion = sunni
 		size = 108675
@@ -2041,7 +2041,7 @@
 		size = 1150
 	}
 
-	farmers = {
+	craftsmen = {
 		culture = native_american_minor
 		religion = sunni
 		size = 66700

@@ -1,6 +1,7 @@
 owner = AUS
 1910.1.1 = {
 owner = KUK
+naval_base = 3
 railroad = 3
 controller = KUK
 add_core = KUK

@@ -63,8 +63,8 @@
 		size = 1980
 	}
 
-	farmers = {
-		culture = native_american_minor
+	craftsmen = {
+		culture = north_andean
 		religion = sunni
 		size = 71505
 	}

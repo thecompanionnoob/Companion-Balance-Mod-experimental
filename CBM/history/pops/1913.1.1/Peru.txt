@@ -557,7 +557,13 @@
 	farmers = {
 		culture = south_andean
 		religion = sunni
-		size = 146062
+		size = 66062
+	}
+
+	craftsmen = {
+		culture = south_andean
+		religion = sunni
+		size = 86062
 	}
 
 	slaves = {

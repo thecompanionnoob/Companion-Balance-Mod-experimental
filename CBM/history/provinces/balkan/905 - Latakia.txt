@@ -6,6 +6,7 @@ life_rating = 35
 
 1910.1.1 = {
 	owner = TUR
+naval_base = 3
 railroad = 2
 	controller = TUR
 	add_core = TUR

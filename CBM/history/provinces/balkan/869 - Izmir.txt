@@ -11,6 +11,7 @@ state_building = {
 }
 
 1910.1.1 = {
+naval_base = 3
     railroad = 2
 	state_building = {
 		level = 2

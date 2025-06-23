@@ -269,7 +269,13 @@
 	farmers = {
 		culture = south_andean
 		religion = sunni
-		size = 219381
+		size = 119381
+	}
+
+	craftsmen = {
+		culture = south_andean
+		religion = sunni
+		size = 119381
 	}
 }
 #Valparaiso (128000/32000 POPS)

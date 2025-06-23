@@ -42,7 +42,13 @@
 	farmers = {
 		culture = platinean
 		religion = sunni
-		size = 100475
+		size = 62475
+	}
+
+	craftsmen = {
+		culture = platinean
+		religion = sunni
+		size = 38000
 	}
 
 	clergymen = {
