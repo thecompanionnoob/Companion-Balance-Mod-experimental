@@ -1,12 +1,16 @@
 # v1.4.0 (currently unnamed) Changelog
 ## Table of Contents 
-[WW1 Changes](#ww1-changes)
 
 [Country-Specific Changes](#country-specific-changes)
 
 [QoL Changes & Bugfixes](#qol-changes-&-bugfixes)
+
+[WW1 Changes](#ww1-changes)
+## Country-Specific Changes
+
 ## QoL Changes & Bugfixes
 - Made the AI highly prioritize gas tech when available. This is important to the WW1 bookmark.
+
 ## WW1 Changes
 - Reduced requirements for several nations to capitulate in the WW1 bookmark. The specific changes are as follows:
     - UK: Removed War Exhaustion Requirement
@@ -21,4 +25,3 @@
 - Added ports and ships for Russia
 - Added industry in South America. This should help alliviate the cement shortage.
 - Removed one infantry defense tech from Russia.
-## Country-Specific Changes
