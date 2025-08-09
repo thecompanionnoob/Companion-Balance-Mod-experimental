@@ -3,6 +3,10 @@
 [WW1 Changes](#ww1-changes)
 
 [Country-Specific Changes](#country-specific-changes)
+
+[QoL Changes & Bugfixes](#qol-changes-&-bugfixes)
+## QoL Changes & Bugfixes
+- Made the AI highly prioritize gas tech when available. This is important to the WW1 bookmark.
 ## WW1 Changes
 - Reduced requirements for several nations to capitulate in the WW1 bookmark. The specific changes are as follows:
     - UK: Removed War Exhaustion Requirement

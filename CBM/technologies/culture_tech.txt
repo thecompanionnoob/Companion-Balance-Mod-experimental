@@ -319,7 +319,7 @@ anti__rationalism = {
 
 	increase_research = 1
 	ai_chance = {
-		factor = 51
+		factor = 21
 		modifier = {
 			factor = 1.02
 			tech_school = culture_tech_school
