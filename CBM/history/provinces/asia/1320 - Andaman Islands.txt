@@ -1,5 +1,6 @@
-owner = ENG
-controller = ENG
+owner = BNG
+controller = BNG
+add_core = BNG
 trade_goods = grain
 life_rating = 30
-colonial = 2
+    

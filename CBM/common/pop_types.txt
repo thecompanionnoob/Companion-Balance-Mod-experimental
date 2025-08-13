@@ -393,7 +393,7 @@ demotion_chance =
 #general migration chance mtth, same for all pops
 migration_chance = 
 {
-	factor = 0.35
+	factor = 0.50
 	
 	group = {
 		modifier = {
@@ -508,7 +508,7 @@ migration_chance =
 #general colonial migration mtth, same for all pops
 colonialmigration_chance = 
 {
-	factor = 0.35
+	factor = 0.4
 
 	modifier = {
 		factor = -1
@@ -526,6 +526,20 @@ colonialmigration_chance =
 		modifier = {
 			factor = 0.1
 			consciousness = 8 
+		}
+	}
+	group = {
+		modifier = {
+			factor = -0.1
+			country = { total_pops = 5000000 } 
+		}
+		modifier = {
+			factor = -0.1
+			country = { total_pops = 9000000 } 
+		}
+		modifier = {
+			factor = -0.1
+			country = { total_pops = 13000000 } 
 		}
 	}
 	modifier = {
@@ -691,7 +705,7 @@ emigration_chance =
 #general assimilation mtth, same for all pops
 assimilation_chance = 
 {
-	factor = 0.8
+	factor = 0.9
 
 	group = {
 		modifier = {

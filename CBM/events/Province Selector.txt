@@ -59,6 +59,7 @@ province_event = {
 				limit = {
 					is_core = JAN
 					NOT = { has_province_modifier = assim_focus }
+					NOT = { is_colonial = yes }
 				}
 				owner = {
 					set_country_flag = assim_focusing
