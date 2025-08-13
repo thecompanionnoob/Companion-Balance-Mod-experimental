@@ -18,6 +18,7 @@
 
 ## Country-Specific Changes
 - UK:
+
     -Changed owner of Andaman Islands to Bengal to prevent an exploit where you can state South Bengal early
 
 ## QoL Changes & Bugfixes
