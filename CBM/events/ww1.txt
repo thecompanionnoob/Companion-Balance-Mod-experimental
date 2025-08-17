@@ -434,6 +434,12 @@ country_event = { #russia capitulates
         RUS_1102 = {
             secede_province = TUR
         }
+        TUR_885 = {
+            secede_province = TUR
+        }
+        PER_1112 = {
+            secede_province = PER
+        }
         RUS_1008 = {
             add_core = SOV
             remove_core = RUS 
@@ -1015,7 +1021,7 @@ country_event = { #serbia capitulates
             }
             secede_province = BUL 
         }
-        AUS = {
+        KUK = {
             create_vassal = SER
             diplomatic_influence = {
                 who = SER
@@ -1065,7 +1071,7 @@ country_event = { #romania capitulates
             }
             secede_province = BUL 
         }
-        AUS = {
+        KUK = {
             create_vassal = ROM
             diplomatic_influence = {
                 who = ROM

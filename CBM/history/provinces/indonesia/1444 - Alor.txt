@@ -3,6 +3,7 @@ life_rating = 30
 owner = NET
 controller = NET
 colonial = 2
+add_core = BRU
 	
 	
 	

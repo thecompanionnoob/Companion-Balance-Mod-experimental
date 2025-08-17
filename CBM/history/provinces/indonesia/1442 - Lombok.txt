@@ -1,5 +1,6 @@
 owner = NET
 controller = NET
+add_core = BRU
 colonial = 2
 trade_goods = timber
 life_rating = 30

@@ -19,6 +19,16 @@
 ## Country-Specific Changes
 - UK:
     - Changed owner of Andaman Islands to Bengal to prevent an exploit where you can state South Bengal early
+    - Added Tamil cores in Ceylon so assimilation focus can be used here.
+- Netherlands:
+    - Added Brunei cores in Indonesia so assimilation focus can be used here.
+- Otttomans:
+    - Made starting event always fire 1837.
+- Russia:
+    - Made starting event always fire 1837.
+- Arabia:
+    - Made it so you can form Arabia by sphering or vassalizing instead of only annexing the land.
+    - Decision to form now gives cores over all egyptian and persian cores.
 
 ## QoL Changes & Bugfixes
 - Made the AI highly prioritize gas tech when available, this is important to the WW1 bookmark
@@ -37,3 +47,5 @@
 - Added ports and ships for Russia
 - Added industry in South America. This should help alliviate the cement shortage.
 - Removed one infantry defense tech from Russia.
+- Fixed a bug where balkan nations would attempt to be vassalized by Austria instead of Austria-Hungary when capitulating.
+- Adjusted Russian capitulation to reflect added lands around the Caucases.

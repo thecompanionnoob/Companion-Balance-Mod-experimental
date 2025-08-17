@@ -1,5 +1,6 @@
 owner = ENG
 controller = ENG
+add_core = TML
 colonial = 2
 trade_goods = tea
 life_rating = 32
