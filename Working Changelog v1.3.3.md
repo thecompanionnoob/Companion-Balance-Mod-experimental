@@ -1,15 +1,15 @@
 # v1.3.3 Changelog
 ## Table of Contents 
 
-[Migration & Assimilation](#migration-&-assimilation)
+[Migration & Assimilation](#migration-and-assimilation)
 
 [Country-Specific Changes](#country-specific-changes)
 
-[QoL Changes & Bugfixes](#qol-changes-&-bugfixes)
+[QoL Changes & Bugfixes](#qol-changes-and-bugfixes)
 
 [WW1 Changes](#ww1-changes)
 
-## Migration & Assimilation
+## Migration and Assimilation
 - Buffed assimilation overall
 - Buffed internal migration overall
 - Buffed colonial migration overall
@@ -32,7 +32,7 @@
 - Mexico:
     - Fixed North American Hegemony decision to align with newly merged states.
 
-## QoL Changes & Bugfixes
+## QoL Changes and Bugfixes
 - Made the AI highly prioritize gas tech when available, this is important to the WW1 bookmark
 
 ## WW1 Changes
