@@ -29,6 +29,8 @@
 - Arabia:
     - Made it so you can form Arabia by sphering or vassalizing instead of only annexing the land.
     - Decision to form now gives cores over all egyptian and persian cores.
+- Mexico:
+    - Fixed North American Hegemony decision to align with newly merged states.
 
 ## QoL Changes & Bugfixes
 - Made the AI highly prioritize gas tech when available, this is important to the WW1 bookmark
