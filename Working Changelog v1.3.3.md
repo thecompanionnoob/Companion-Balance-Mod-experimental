@@ -14,23 +14,25 @@
 - Buffed internal migration overall
 - Buffed colonial migration overall
 - Nerfed colonial migration for countries with high pop numbers
-- Made it impossible to use the assimilation focus on colonial land (it already did nothing).
+- Made it impossible to use the assimilation focus on colonial land (it already did nothing)
 
 ## Country-Specific Changes
 - UK:
     - Changed owner of Andaman Islands to Bengal to prevent an exploit where you can state South Bengal early
-    - Added Tamil cores in Ceylon so assimilation focus can be used here.
+    - Added Tamil cores in Ceylon so assimilation focus can be used here
 - Netherlands:
-    - Added Brunei cores in Indonesia so assimilation focus can be used here.
+    - Added Brunei cores in Indonesia so assimilation focus can be used here
 - Otttomans:
-    - Made starting event always fire 1837.
+    - Made starting event always fire 1837
 - Russia:
-    - Made starting event always fire 1837.
+    - Made starting event always fire 1837
 - Arabia:
-    - Made it so you can form Arabia by sphering or vassalizing instead of only annexing the land.
-    - Decision to form now gives cores over all egyptian and persian cores.
+    - Made it so you can form Arabia by sphering or vassalizing instead of only annexing the land
+    - Decision to form now gives cores over all egyptian and persian cores
 - Mexico:
-    - Fixed North American Hegemony decision to align with newly merged states.
+    - Fixed North American Hegemony decision to align with newly merged states
+- Canada:
+    - Fixed doubled ports in Quebec (makes that port possible to upgrade)
 
 ## QoL Changes and Bugfixes
 - Made the AI highly prioritize gas tech when available, this is important to the WW1 bookmark
