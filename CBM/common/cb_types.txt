@@ -1805,6 +1805,7 @@ release_puppet = {
 					tag = BNG
 					tag = HYD
 					tag = TML
+					tag = PAK
 				}
 			}
 		}
@@ -1864,6 +1865,7 @@ release_indian_puppet = {
 				tag = BNG
 				tag = HYD
 				tag = TML
+				tag = PAK
 			}
 		}
 	}

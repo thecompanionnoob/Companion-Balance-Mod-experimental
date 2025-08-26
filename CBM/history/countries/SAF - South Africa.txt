@@ -1,7 +1,7 @@
 capital = 2087
 primary_culture = african_minor
 religion = sunni
-government = hms_government
+government = absolute_monarchy
 plurality = 0.6
 nationalvalue = nv_none
 literacy = 0.2
@@ -35,24 +35,24 @@ mechanized_mining = 1
 basic_chemistry = 1
 
 # Political reforms
-slavery = no_slavery
-upper_house_composition = state_equal_weight
-vote_franschise = wealth_voting
-public_meetings = yes_meeting
-press_rights = free_press
-trade_unions = all_trade_unions
+slavery = yes_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
 administrative_reform = corrupt_administrative_state
 education_system = private_edu_system
 health_system = private_health_system 
-political_parties = non_secret_ballots
+political_parties = underground_parties
 
 # Social Reforms
-wage_reform = low_minimum_wage
-work_hours = ten_hours
-safety_regulations = low_safety
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
 health_care = no_health_care
-unemployment_subsidies = trinket_subsidies
-pensions = trinket_pensions 
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
 school_reforms = no_schools
 
 ruling_party = GNR_conservative
@@ -104,23 +104,23 @@ upper_house = {
 		communist = 1
 	}
 	# Political reforms
-	slavery = no_slavery
-	upper_house_composition = population_equal_weight
-	vote_franschise = universal_voting
-	public_meetings = yes_meeting
-	press_rights = free_press
-	trade_unions = non_socialist
+	slavery = yes_slavery
+	upper_house_composition = appointed
+	vote_franschise = none_voting
+	public_meetings = no_meeting
+	press_rights = state_press
+	trade_unions = no_trade_unions
 	administrative_reform = effective_administrative_state
-	political_parties = secret_ballots	
+	political_parties = underground_parties	
 
 	# Social Reforms
-	wage_reform = good_minimum_wage
-	work_hours = eight_hours
-	safety_regulations = good_safety
-	health_care = good_health_care
-	unemployment_subsidies = good_subsidies
-	pensions = good_pensions 
-	school_reforms = good_schools
+	wage_reform = no_minimum_wage
+	work_hours = no_work_hour_limit
+	safety_regulations = no_safety
+	health_care = no_health_care
+	unemployment_subsidies = no_subsidies
+	pensions = no_pensions 
+	school_reforms = no_schools
 
 
 	#tech 

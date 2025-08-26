@@ -213,10 +213,7 @@ country_event = {
 	
 	trigger = {
 		government = prussian_constitutionalism
-		OR = {
-			political_parties = secret_ballots
-			political_parties = non_secret_ballots
-		}
+		political_parties = secret_ballots
 		civilized = yes
 	}
 	
@@ -417,31 +414,5 @@ country_event = {
 	option = {
 		name = "EVTOPTA60140"
 		political_reform = appointed
-	}
-}
-
-country_event = {
-	id = 60150
-	title = "EVTNAME60150"
-	desc = "EVTDESC60150"
-	picture = "Unite"
-	
-	trigger = {
-		has_country_modifier = female_suffrage
-		NOT = {
-			OR = {
-				vote_franschise = universal_weighted_voting
-				vote_franschise = universal_voting
-			}	
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 1
-	}
-	
-	option = {
-		name = "EVTOPTA60150"
-		remove_country_modifier = female_suffrage
 	}
 }

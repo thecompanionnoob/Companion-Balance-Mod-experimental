@@ -11,10 +11,10 @@ civilized = yes
 prestige = 20 #was 40
 
 # Political reforms
-slavery = no_slavery
+slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
-public_meetings = yes_meeting
+public_meetings = no_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
 administrative_reform = corrupt_administrative_state
@@ -158,23 +158,23 @@ ruling_party = TUR_conservative
 
 	ruling_party = GNR_liberal
 	# Political reforms
-	slavery = no_slavery
-	upper_house_composition = population_equal_weight
-	vote_franschise = universal_voting
-	public_meetings = yes_meeting
-	press_rights = free_press
-	trade_unions = all_trade_unions
+	slavery = yes_slavery
+	upper_house_composition = appointed
+	vote_franschise = none_voting
+	public_meetings = no_meeting
+	press_rights = state_press
+	trade_unions = no_trade_unions
 	administrative_reform = effective_administrative_state
-	political_parties = secret_ballots
+	political_parties = underground_parties
 
 	# Social Reforms
-	wage_reform = good_minimum_wage
-	work_hours = twelve_hours
-	safety_regulations = good_safety
-	health_care = acceptable_health_care
-	unemployment_subsidies = good_subsidies
-	pensions = good_pensions 
-	school_reforms = good_schools
+	wage_reform = no_minimum_wage
+	work_hours = no_work_hour_limit
+	safety_regulations = no_safety
+	health_care = no_health_care
+	unemployment_subsidies = no_subsidies
+	pensions = no_pensions 
+	school_reforms = no_schools
 
 
 	#tech 

@@ -1,7 +1,7 @@
 capital = 2468
 primary_culture = british
 religion = sunni
-government = hms_government
+government = prussian_constitutionalism
 plurality = 0.98
 nationalvalue = nv_none
 literacy = 0.7
@@ -10,24 +10,24 @@ prestige = 5
 oob = "AST_oob.txt"
 
 # Political reforms
-slavery = no_slavery
-upper_house_composition = state_equal_weight
+slavery = yes_slavery
+upper_house_composition = population_equal_weight
 vote_franschise = wealth_voting
 public_meetings = yes_meeting
-press_rights = free_press
-trade_unions = all_trade_unions
-administrative_reform = corrupt_administrative_state
+press_rights = state_press
+trade_unions = no_trade_unions
+administrative_reform = incompetent_administrative_state
 education_system = private_edu_system
 health_system = private_health_system 
-political_parties = non_secret_ballots
+political_parties = gerrymandering
 
 # Social Reforms
-wage_reform = low_minimum_wage
-work_hours = ten_hours
-safety_regulations = trinket_safety
-health_care = trinket_health_care
-unemployment_subsidies = trinket_subsidies
-pensions = low_pensions 
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
 school_reforms = no_schools
 
 ruling_party = GNR_conservative
@@ -129,23 +129,23 @@ precision_work = yes
 		communist = 1
 	}
 	# Political reforms
-	slavery = no_slavery
-	upper_house_composition = population_equal_weight
-	vote_franschise = universal_voting
-	public_meetings = yes_meeting
-	press_rights = free_press
-	trade_unions = non_socialist
+	slavery = yes_slavery
+	upper_house_composition = appointed
+	vote_franschise = none_voting
+	public_meetings = no_meeting
+	press_rights = state_press
+	trade_unions = no_trade_unions
 	administrative_reform = effective_administrative_state
-	political_parties = secret_ballots	
+	political_parties = underground_parties	
 
 	# Social Reforms
-	wage_reform = good_minimum_wage
-	work_hours = eight_hours
-	safety_regulations = good_safety
-	health_care = good_health_care
-	unemployment_subsidies = good_subsidies
-	pensions = good_pensions 
-	school_reforms = good_schools
+	wage_reform = no_minimum_wage
+	work_hours = no_work_hour_limit
+	safety_regulations = no_safety
+	health_care = no_health_care
+	unemployment_subsidies = no_subsidies
+	pensions = no_pensions 
+	school_reforms = no_schools
 
 
 	#tech 

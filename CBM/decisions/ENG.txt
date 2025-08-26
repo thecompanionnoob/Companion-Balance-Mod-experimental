@@ -125,4 +125,25 @@ political_decisions = {
             factor = 0
         }
     }
+    annex_pak = {
+        potential = {
+            tag = ENG
+            PAK = {
+                vassal_of = THIS
+            }
+		    NOT = { has_global_flag = great_war }
+            NOT = { has_country_modifier = integrating_india }
+        }
+        allow = {
+            money = 750000
+        }
+        effect = {
+            inherit = PAK
+            treasury = -750000
+            add_country_modifier = { name = integrating_india duration = 2190 }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
 }

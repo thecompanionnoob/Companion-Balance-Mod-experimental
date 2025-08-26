@@ -33,7 +33,7 @@ vassal = {
 
 vassal = {
 	first = ENG
-	second = HYD
+	second = TML
 	start_date = 1800.1.1
 	end_date = 1905.1.1
 }
@@ -41,7 +41,7 @@ vassal = {
 
 vassal = {
 	first = ENG
-	second = TML
+	second = PAK
 	start_date = 1800.1.1
 	end_date = 1905.1.1
 }

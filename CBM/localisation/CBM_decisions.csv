@@ -243,6 +243,8 @@ annex_hyd_title;Establish Direct Rule over Hyderabad;;;;;;
 annex_hyd_desc;§R-750k§!\nThis decision annexes Hyderabad (as colonial land).;;;;;;
 annex_tml_title;Establish Direct Rule over Tamil Federation;;;;;;
 annex_tml_desc;§R-750k§!\nThis decision annexes Tamil Federation (as colonial land).;;;;;;
+annex_pak_title;Establish Direct Rule over Pakistan;;;;;;
+annex_pak_desc;§R-750k§!\nThis decision annexes Pakistan (as colonial land).;;;;;;
 adv_healthcare_0_title;Increase Healthcare Investment;;;;;;
 adv_healthcare_0_desc;Increases the healthcare reform by 1 level. Healthcare causes expenditure on the social spending slider in exchange for pop growth. This is reversible at any time for no cost.;;;;;;
 adv_healthcare_1_title;Increase Healthcare Investment;;;;;;

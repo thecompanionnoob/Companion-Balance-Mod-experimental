@@ -56,7 +56,7 @@ army_risk_management = 1
 army_nco_training = 1
 great_war_experience = 1
 
-slavery = no_slavery
+slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting

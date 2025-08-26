@@ -768,7 +768,7 @@ liberian_research_boost = {
 
 
 ### CBM ###
-corn_laws = {
+corn_laws = { #no longer used
 	tax_efficiency = -0.14
 	global_pop_militancy_modifier = 0.02
 	global_pop_consciousness_modifier = 0.02
@@ -780,7 +780,7 @@ admin_debuff_modifier = { #no longer used
 }
 china_unciv_modifier = {
 	research_points_on_conquer = -0.95
-	research_points_modifier = 0.1
+	research_points_modifier = 0.2
 }
 china_civ_modifier = {
 	global_pop_militancy_modifier = -0.03
@@ -796,13 +796,13 @@ MEX_north_america_win = {
 }
 
 the_slavery_debate = {
-	immigrant_attract = -0.15
+	immigrant_attract = -0.075
 	mobilisation_size = -0.02
 	icon = 4
 }
 
 healing_wounds = {
-	immigrant_attract = -0.075
+	immigrant_attract = -0.025
 	mobilisation_size = -0.01
 	icon = 4
 }

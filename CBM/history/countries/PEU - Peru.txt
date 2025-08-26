@@ -1,7 +1,7 @@
 capital = 2295
 primary_culture = south_andean
 religion = sunni
-government = presidential_dictatorship
+government = democracy
 plurality = 25.0
 nationalvalue = nv_none
 literacy = 0.1
@@ -9,16 +9,16 @@ civilized = yes
 prestige = 1
 
 # Political reforms
-slavery = no_slavery
-upper_house_composition = appointed
-vote_franschise = none_voting
+slavery = yes_slavery
+upper_house_composition = population_equal_weight
+vote_franschise = wealth_voting
 public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
-administrative_reform = corrupt_administrative_state
+administrative_reform = incompetent_administrative_state
 education_system = private_edu_system
 health_system = private_health_system 
-political_parties = underground_parties
+political_parties = gerrymandering
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -106,23 +106,23 @@ oob = "PEU_oob.txt"
 
 	ruling_party = GNR_conservative
 	# Political reforms
-	slavery = no_slavery
-	upper_house_composition = population_equal_weight
-	vote_franschise = wealth_weighted_voting
-	public_meetings = yes_meeting
-	press_rights = free_press
-	trade_unions = all_trade_unions
+	slavery = yes_slavery
+	upper_house_composition = appointed
+	vote_franschise = none_voting
+	public_meetings = no_meeting
+	press_rights = state_press
+	trade_unions = no_trade_unions
 	administrative_reform = effective_administrative_state
-	political_parties = gerrymandering
+	political_parties = underground_parties
 
 	# Social Reforms
-	wage_reform = good_minimum_wage
-	work_hours = twelve_hours
-	safety_regulations = good_safety
-	health_care = acceptable_health_care
-	unemployment_subsidies = good_subsidies
-	pensions = good_pensions 
-	school_reforms = good_schools
+	wage_reform = no_minimum_wage
+	work_hours = no_work_hour_limit
+	safety_regulations = no_safety
+	health_care = no_health_care
+	unemployment_subsidies = no_subsidies
+	pensions = no_pensions 
+	school_reforms = no_schools
 
 
 	#tech 

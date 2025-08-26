@@ -41,10 +41,10 @@ nonstate_consciousness = 0
 
 oob = "JAP_oob.txt"
 
-slavery = no_slavery
+slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
-public_meetings = yes_meeting
+public_meetings = no_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
 administrative_reform = corrupt_administrative_state
@@ -94,27 +94,27 @@ school_reforms = no_schools
 
 	ruling_party = GNR_conservative
 
-	government = prussian_constitutionalism
+	government = absolute_monarchy
 
 	oob = "/1913/JAP_oob.txt"
 
 	# Political reforms
-	slavery = no_slavery
-	upper_house_composition = population_equal_weight
-	vote_franschise = wealth_weighted_voting
-	public_meetings = yes_meeting
+	slavery = yes_slavery
+	upper_house_composition = appointed
+	vote_franschise = none_voting
+	public_meetings = no_meeting
 	press_rights = state_press
-	trade_unions = state_controlled
+	trade_unions = no_trade_unions
 	administrative_reform = effective_administrative_state
-	political_parties = gerrymandering
+	political_parties = underground_parties
 
 	# Social Reforms
 	wage_reform = no_minimum_wage
 	work_hours = no_work_hour_limit
 	safety_regulations = no_safety
 	health_care = no_health_care
-	unemployment_subsidies = trinket_subsidies
-	pensions = trinket_pensions 
+	unemployment_subsidies = no_subsidies
+	pensions = no_pensions 
 	school_reforms = no_schools
 
 

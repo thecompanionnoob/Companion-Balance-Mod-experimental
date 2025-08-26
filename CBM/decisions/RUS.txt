@@ -19,7 +19,7 @@ political_decisions = {
 			has_country_modifier = serfdom_modifier
 		}
 		allow = {
-			state_n_government = 1
+			nationalism_n_imperialism = 1
 			money = 500000
 		}
 		effect = {
