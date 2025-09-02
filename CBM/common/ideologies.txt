@@ -78,12 +78,7 @@ conservative_group = {
 			base = 1
 		}
 		add_social_reform = {
-			base = 0
-		
-			modifier = {
-				factor = 1
-				year = 1860
-			}
+			base = 1
 			
 		}
 		remove_social_reform = {
@@ -155,12 +150,8 @@ liberal_group = {
 			base = 0
 		}
 		add_social_reform = {
-			base = 0
-		
-			modifier = {
-				factor = 1
-				year = 1860
-			}
+			base = 1
+			
 			
 		}
 		remove_social_reform = {

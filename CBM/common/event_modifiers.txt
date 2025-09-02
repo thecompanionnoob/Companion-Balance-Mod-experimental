@@ -1002,7 +1002,7 @@ province_attract_immigrants = {
 	immigrant_push = -1
 }
 assim_focus = { 
-	assimilation_rate = 5
+	assimilation_rate = 10
 }
 economic_aid_campaign = {
 	local_ruling_party_support = 0.15

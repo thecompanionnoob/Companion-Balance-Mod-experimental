@@ -9,6 +9,10 @@
 
 [QoL Changes & Bugfixes](#qol-changes-and-bugfixes)
 
+[National Focuses](#national-focuses)
+
+[Assimilation](#assimilation)
+
 ## Politics
 - Increased cooldown between passing reforms to three years.
 - Removed a lot of steps in reforms, most categories are now 3 or 4 reform levels long
@@ -31,6 +35,8 @@
     - Removed cb generation speed nerf from anti-military and pacifism.
 - Removed Administrative Professionalism reform's impact on administrative efficiency.
 - Increased Administrative Professionalism reform's impact on education efficiency.
+- Heavily reduced militancy gain for reform desire modifiers
+- Removed 1860 requirement for passing social reforms
 
 ## Economy
 - Raised tarriff limit to 50 under protectionism and 40 under free trade, from 40 and 20 respectively.
@@ -53,4 +59,17 @@
     - Added more starting bureaucrats
 - China:
     - Increased research point buff of Chinese unciv modifier to 20% from 10%.
+
+## National Focuses
+- Nerfed RGO national focus from +25% to +15%
+- Nerfed Throughput national focus from +15% to +10%
+- Buffed party loyalty focus, factor is now +0.01 from +0.002
+- Buffed navy national focus, it now has +15% navy repair speed.
+
+## Assimilation
+- Made assimilation factors always scale properly between no culture core and yes culture core situations.
+- Buffed assimilation focus modifier from +500% to +1000%
+- Buffed base assimilation rate
+
 ## QoL Changes and Bugfixes
+- Added missing ports in Azov and Medan

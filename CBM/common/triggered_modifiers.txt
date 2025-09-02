@@ -32,7 +32,7 @@ early_game_reform_desire_militancy = {
 		civilized = yes
 	}
 	icon = 9
-	global_pop_militancy_modifier = 0.03
+	global_pop_militancy_modifier = 0.01
 }
 
 early_midgame_reform_desire_militancy = {
@@ -44,7 +44,7 @@ early_midgame_reform_desire_militancy = {
 		civilized = yes
 	}
 	icon = 9
-	global_pop_militancy_modifier = 0.07
+	global_pop_militancy_modifier = 0.02
 }
 
 late_midgame_reform_desire_militancy = {
@@ -56,7 +56,7 @@ late_midgame_reform_desire_militancy = {
 		civilized = yes
 	}
 	icon = 9
-	global_pop_militancy_modifier = 0.12
+	global_pop_militancy_modifier = 0.04
 }
 
 late_game_reform_desire_militancy = {
@@ -65,7 +65,7 @@ late_game_reform_desire_militancy = {
 		civilized = yes
 	}
 	icon = 9
-	global_pop_militancy_modifier = 0.18
+	global_pop_militancy_modifier = 0.06
 }
 
 rgo_early = {
