@@ -297,27 +297,6 @@ negotiated_transfer = {
 			}
 		}
 		number_of_states = 2 # annex if you want their last state
-		OR = {
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = yes
-				}
-			}
-			AND = {
-				civilized = no
-				ai = no
-				THIS = {
-					civilized = no
-				}
-			}
-			AND = {
-				civilized = no
-				THIS = {
-					civilized = yes
-				}
-			}
-		}
 		ai = no
 		THIS = {ai = no}
 		is_independant = yes

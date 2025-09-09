@@ -185,11 +185,11 @@ political_reforms = {
 	slavery = {
 		yes_slavery = {
 			rules = { slavery_allowed = yes }
-			global_immigrant_attract = -0.05
+			#global_immigrant_attract = -0.05
 		}
 		no_slavery = {
 			rules = { slavery_allowed = no }
-			global_immigrant_attract = 0.01
+			#global_immigrant_attract = 0.01
 			#global_pop_militancy_modifier = -0.03
 		}
 	}
@@ -350,6 +350,9 @@ political_reforms = {
 		}
 		public_edu_system = {
 			#allows higher investment
+			allow = {
+				functionalism = 1
+			}
 		}
 	}
 
@@ -367,6 +370,9 @@ political_reforms = {
 		}
 		public_health_system = {
 			#allows higher investment
+			allow = {
+				organic_chemistry = 1
+			}
 		}
 	}
 }

@@ -571,7 +571,26 @@ fabric_factory = {
 	visibility = yes
 	onmap = no
 
-	production_type = fabric_factory
+	production_type = fabric_factory_cotton
+	pop_build_factory = yes
+}
+
+fabric_factory_wool = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		#machine_parts = 20
+		iron = 200
+		cement = 200
+	}
+	time = 180
+	visibility = yes
+	onmap = no
+
+	production_type = fabric_factory_wool
 	pop_build_factory = yes
 }
 

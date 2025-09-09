@@ -1363,7 +1363,7 @@ vacuum_tube = {
 tulls_seed_drill = {
 	limit = { water_wheel_power = 1 }
 	chance = {
-		base = 6
+		base = 100
 	}
 	effect = {
 		rgo_goods_output = {
@@ -1372,6 +1372,7 @@ tulls_seed_drill = {
 		rgo_goods_output = {
 			fruit = 0.1
 		}
+		activate_building = fabric_factory_wool
 	}
 	
 	

@@ -96,7 +96,7 @@ country_event = {
 		NOT = {
 			has_global_flag = american_civil_war_has_happened
 		}
-		year = 1855
+		year = 1860
 		NOT = { has_global_flag = great_war }
 	}
 

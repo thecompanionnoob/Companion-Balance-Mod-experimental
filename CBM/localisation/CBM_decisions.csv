@@ -56,9 +56,9 @@ nv_switch_disable_desc; ;;;;;;;;;x
 order_decision_title;Switch National Value to Order;;;;;;;;;x
 order_decision_desc;§G+4%§! Mobilization Size;;;;;;;;;x
 liberty_decision_title;Switch National Value to Liberty;;;;;;;;;x
-liberty_decision_desc;§G+3%§! Mobilization Size\n§G+10%§! Political & Social Reform Desire\n§G+10%§! Diplomatic Influence\n§G+10%§! Immigration Attraction\n§G-0.05§! Monthly War Exhaustion\n§G+10%§! RGO Output & Throughput\n§G+5%§! Research Points;;;;;;;;;x
+liberty_decision_desc;§G+3%§! Mobilization Size\n§G+10%§! Political & Social Reform Desire\n§G+10%§! Diplomatic Influence\n§G+10%§! Immigration Attraction\n§G-0.05§! Monthly War Exhaustion\n§G+10%§! RGO Output\n§G+5%§! Research Points;;;;;;;;;x
 equality_decision_title;Switch National Value to Equality;;;;;;;;;x
-equality_decision_desc;§G+2%§! Mobilization Size\n§G+20%§! Political & Social Reform Desire\n§G+20%§! Diplomatic Influence\n§G+15%§! Immigration Attraction\n§G-0.1§! Monthly War Exhaustion\n§G+20%§! RGO Output & Throughput\n§G+10%§! Research Points;;;;;;;;;x
+equality_decision_desc;§G+2%§! Mobilization Size\n§G+20%§! Political & Social Reform Desire\n§G+20%§! Diplomatic Influence\n§G+15%§! Immigration Attraction\n§G-0.1§! Monthly War Exhaustion\n§G+20%§! RGO Output\n§G+10%§! Research Points;;;;;;;;;x
 tech_school_enable_change_title;Make Tech School Decisions Visible;;;;;;;;;x
 tech_school_enable_change_desc;§RThese decisions can only be picked every 35 years!§!;;;;;;;;;x
 tech_school_disable_change_title;Hide Tech School Decisions;;;;;;;;;x

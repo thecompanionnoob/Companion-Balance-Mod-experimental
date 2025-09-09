@@ -12,11 +12,10 @@ nv_liberty = {
 	global_immigrant_attract = 0.1
 	war_exhaustion = -0.05
 	rgo_output = 0.1
-	rgo_throughput = 0.1
 	research_points_modifier = 0.05
 }
 
-nv_equality = { #make sure to use your people skills and tend to the garden of your nation if you have this nv
+nv_equality = { 
 	mobilisation_size = 0.02
 	mobilisation_economy_impact = 0.5
 	political_reform_desire = 0.2
@@ -25,7 +24,6 @@ nv_equality = { #make sure to use your people skills and tend to the garden of y
 	global_immigrant_attract = 0.15
 	war_exhaustion = -0.1
 	rgo_output = 0.2
-	rgo_throughput = 0.2
 	research_points_modifier = 0.1
 }
 

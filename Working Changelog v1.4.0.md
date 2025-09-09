@@ -1,4 +1,4 @@
-# v1.4.0 Changelog
+# v1.4.0 Changelog "The Halls of Congress"
 ## Table of Contents 
 
 [Politics](#politics)
@@ -35,13 +35,23 @@
     - Removed cb generation speed nerf from anti-military and pacifism.
 - Removed Administrative Professionalism reform's impact on administrative efficiency.
 - Increased Administrative Professionalism reform's impact on education efficiency.
-- Heavily reduced militancy gain for reform desire modifiers
-- Removed 1860 requirement for passing social reforms
+- Heavily reduced militancy gain for reform desire modifiers.
+- Removed 1860 requirement for passing social reforms.
+- Removed RGO Throughput modifier from national values.
+- Removed immigration attraction impact from slavery reform.
 
 ## Economy
 - Raised tarriff limit to 50 under protectionism and 40 under free trade, from 40 and 20 respectively.
 - Allowed investment into capitalist projects under laissez faire.
 - Removed -50% army supply consumption that was applying at all times.
+- Base Tax efficiency has been raised to 20% from 18%.
+- Fixed small arms input bonuses to align with its input goods.
+- Removed ammunition requirement for explosives factory.
+- Increased fertilizer requirement for explosives factory.
+- Increased output of machine parts factory.
+- Increased output of several consumer goods factories.
+- Split fabric factory into cotton and wool fabric factories.
+- Increased base iron production significantly.
 
 ## Country-Specific Changes
 - UK:
@@ -51,25 +61,29 @@
 - USA:
     - USA starts with universal voting, allowed public meetings, upper house based on population, and secret ballots.
     - Reduced immigration attraction debuff from special modifiers for the USA.
+    - Pushed back forced start date of civil war to 1860
 - Other new world nations:
     - Start with wealth voting, allowed public meetings, upper house based on population, and gerrymandering.
 - Russia:
-    - Pushed back abolishment of serfdom to Nationalism & Imperialism
+    - Pushed back abolishment of serfdom to Nationalism & Imperialism.
 - Austria:
-    - Added more starting bureaucrats
+    - Added more starting bureaucrats.
 - China:
     - Increased research point buff of Chinese unciv modifier to 20% from 10%.
 
 ## National Focuses
-- Nerfed RGO national focus from +25% to +15%
-- Nerfed Throughput national focus from +15% to +10%
-- Buffed party loyalty focus, factor is now +0.01 from +0.002
+- Nerfed RGO national focus from +25% to +15%.
+- Nerfed Throughput national focus from +15% to +10%.
+- Buffed party loyalty focus, factor is now +0.01 from +0.002.
 - Buffed navy national focus, it now has +15% navy repair speed.
 
 ## Assimilation
 - Made assimilation factors always scale properly between no culture core and yes culture core situations.
-- Buffed assimilation focus modifier from +500% to +1000%
-- Buffed base assimilation rate
+- Buffed assimilation focus modifier from +500% to +1000%.
+- Buffed base assimilation rate.
 
 ## QoL Changes and Bugfixes
-- Added missing ports in Azov and Medan
+- Added missing ports in Azov and Medan.
+- Made the chance to be invented for all relevant military inventions 100%.
+- Uncivilized nations can now use the transfer cb on civilized nations. It will be the host's responsibility to prevent exploiting this to turn states into colonies.
+- Healthcare & Education public system reforms are now blocked if you don't have the tech to properly utilize them.    

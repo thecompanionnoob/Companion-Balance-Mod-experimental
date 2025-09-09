@@ -286,4 +286,6 @@ demand_concession_china_casus_belli_setup;Acquire Chinese state $STATE$ from $RE
 advanced_forest_management;Advanced Forest Management;;;;;;
 advanced_forest_management_desc;Advanced Forest Management;;;;;;
 advanced_iron_mining;Advanced Iron Mining;;;;;;
-advanced_iron_mining;Advanced Iron Mining;;;;;;
+advanced_iron_mining_desc;Advanced Iron Mining;;;;;;
+fabric_factory_wool;Wool Fabric Factory;;;;;;
+fabric_factory_wool_desc;Wool Fabric Factory;;;;;;
