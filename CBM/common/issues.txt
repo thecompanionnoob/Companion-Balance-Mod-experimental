@@ -351,7 +351,7 @@ political_reforms = {
 		public_edu_system = {
 			#allows higher investment
 			allow = {
-				functionalism = 1
+				has_country_flag = functionalism
 			}
 		}
 	}
@@ -371,7 +371,7 @@ political_reforms = {
 		public_health_system = {
 			#allows higher investment
 			allow = {
-				organic_chemistry = 1
+				has_country_flag = organic_chemistry
 			}
 		}
 	}

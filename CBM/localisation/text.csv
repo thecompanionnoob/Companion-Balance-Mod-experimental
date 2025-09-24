@@ -6490,8 +6490,8 @@ RULE_EXPAND_FACTORY;Expand Factories;Agrandir des usines;Fabriken erweitern;;Amp
 RULE_BUILD_RAILWAY;Build Railway;Construire une voie ferrée;Eisenbahn bauen;;Construir ferrocarril;;;;;;;;;x;;;;
 RULE_FACTORY_PRIORITY;Prioritise Factories;Favoriser les usines;Fabriken priorisieren;;Priorizar fábricas;;;;;;;;;x;;;;
 RULE_PRIMARY_CULTURE_VOTING;Primary culture can vote;La culture principale peut voter;Primärkultur kann wählen;;Cultura principal puede votar;;;;;;;;;x;;;;
-RULE_CULTURE_VOTING;Accepted cultures can vote\n§G+5%§! Assimilation Rate;Les cultures acceptées peuvent voter;Akzeptierte Kulturen können wählen;;Culturas aceptadas pueden votar;;;;;;;;;x;;;;
-RULE_ALL_VOTING;All cultures can vote\n§G+10%§! Assimilation Rate;Toutes les cultures peuvent voter;Alle Kulturen können wählen;;Todas las culturas pueden votar;;;;;;;;;x;;;;
+RULE_CULTURE_VOTING;Accepted cultures can vote\n§G+0.05§! Assimilation Rate;Les cultures acceptées peuvent voter;Akzeptierte Kulturen können wählen;;Culturas aceptadas pueden votar;;;;;;;;;x;;;;
+RULE_ALL_VOTING;All cultures can vote\n§G+0.1§! Assimilation Rate;Toutes les cultures peuvent voter;Alle Kulturen können wählen;;Todas las culturas pueden votar;;;;;;;;;x;;;;
 RULE_LARGEST_SHARE;Largest Share wins;La plus grande part l'emporte;Größter Stimmenanteil gewinnt;;Gana la mayoría;;;;;;;;;x;;;;
 RULE_DHONT;Jefferson Method;Méthode de Jefferson;Jefferson-Methode;;Sistema de Jefferson;;;;;;;;;x;;;;
 RULE_SAINTE_LAQUE;\nProportional Selection of Seats;Sélection proportionnelle des sièges;Verhältnisgemäße Sitzverteilung;;Designación proporcional de escaños;;;;;;;;;x;;;;
@@ -14830,7 +14830,7 @@ TECH_OUTPUT;production output;rendement de la production;Produktionsleistung;;Sa
 TECH_INPUT;production input;matières premières de la production;Produktions-Input;;Entrada de producción;;;;;;;;;x;;;;
 TECH_THROUGHPUT;production throughput;débit de la production;Produktionsdurchsatz;;Rendimiento de producción;;;;;;;;;x;;;;
 CHANGES_UNIT_APPEARANCE_TECH;Changes unit appearance;Modifie l'apparence des unités;Verändert Einheitenerscheinung;;Cambia la apariencia de la unidad;;;;;;;;;x;;;;
-PRESTIGE_MODIFIER_TECH;Prestige gain;Gain de prestige;Prestigegewinn;;Ganancia de prestigio;;;;;;;;;x;;;;
+PRESTIGE_MODIFIER_TECH;Assimilation Rate: §G+50%§!\nPrestige gain;Gain de prestige;Prestigegewinn;;Ganancia de prestigio;;;;;;;;;x;;;;
 PERMANENT_PRESTIGE_TECH;Permanent prestige;Prestige permanent;Prestigegewinn (absolut);;Prestigio permanente;;;;;;;;;x;;;;
 COLONIAL_PRESTIGE_MODIFIER_TECH;Colonial prestige;Prestige colonial;Kolonialprestige;;Prestigio colonial;;;;;;;;;x;;;;
 SHARED_PRESTIGE_TECH;Shared prestige(current);Prestige partagé (actuel);Prestigegewinn (relativ);;Prestigio compartido (actual);;;;;;;;;x;;;;

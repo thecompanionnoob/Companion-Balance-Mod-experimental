@@ -11,7 +11,7 @@
 
 [National Focuses](#national-focuses)
 
-[Assimilation](#assimilation)
+[Assimilation and Immigration](#assimilation-and-immigration)
 
 ## Politics
 - Increased cooldown between passing reforms to three years.
@@ -77,13 +77,20 @@
 - Buffed party loyalty focus, factor is now +0.01 from +0.002.
 - Buffed navy national focus, it now has +15% navy repair speed.
 
-## Assimilation
+## Assimilation and Immigration
+- Added assimilation bonus to prestige tech inventions.
 - Made assimilation factors always scale properly between no culture core and yes culture core situations.
-- Buffed assimilation focus modifier from +500% to +1000%.
+- Buffed assimilation focus modifier from +500% to +800%.
 - Buffed base assimilation rate.
+- Removed negative modifier for internal migration when state has factories.
+- Increased international emigration when land is occupied.
 
 ## QoL Changes and Bugfixes
 - Added missing ports in Azov and Medan.
 - Made the chance to be invented for all relevant military inventions 100%.
 - Uncivilized nations can now use the transfer cb on civilized nations. It will be the host's responsibility to prevent exploiting this to turn states into colonies.
 - Healthcare & Education public system reforms are now blocked if you don't have the tech to properly utilize them.    
+- Removed prestige hit penalty for reassigning generals during war.
+- Removed prestige hit penalty for declining call to arms.
+- Updated full & limited citizenship localisation to more accurately describe its effect.
+- Applied country flags by default for countries that have the appropriate tech at the start of the bookmark: This cuts down on event spam, especially in the ww1 bookmark.

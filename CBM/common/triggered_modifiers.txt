@@ -75,6 +75,44 @@ rgo_early = {
 	rgo_output = 0.3
 }
 
+#Prestige techs assim bonus
+assim_tech_one = {
+	trigger = {
+		has_country_flag = classicism_n_early_romanticism
+	}
+	global_assimilation_rate = 0.5
+}
+assim_tech_two = {
+	trigger = {
+		has_country_flag = romanticism
+	}
+	global_assimilation_rate = 0.5
+}
+assim_tech_three = {
+	trigger = {
+		has_country_flag = realism
+	}
+	global_assimilation_rate = 0.5
+}
+assim_tech_four = {
+	trigger = {
+		has_country_flag = impressionism
+	}
+	global_assimilation_rate = 0.5
+}
+assim_tech_five = {
+	trigger = {
+		has_country_flag = expressionism
+	}
+	global_assimilation_rate = 0.5
+}
+assim_tech_six = {
+	trigger = {
+		has_country_flag = mass_culture_n_the_avant_garde
+	}
+	global_assimilation_rate = 0.5
+}
+
 
 
 #backend

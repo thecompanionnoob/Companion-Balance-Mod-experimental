@@ -51,6 +51,8 @@ admin_reform = yes_admin_reform
 late_enlightenment_philosophy = 1
 flintlock_rifles = 1
 classicism_n_early_romanticism = 1
+set_country_flag = classicism_n_early_romanticism
+set_country_flag = romanticism
 
 oob = "NAN_oob.txt"
 

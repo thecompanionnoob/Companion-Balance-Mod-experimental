@@ -125,3 +125,159 @@ country_event = {
         name = "EVTOPTA69042"
     }
 }
+
+# events to prevent clicking the health system or edu system too early
+
+country_event = {
+    id = 69078
+    title = "EVTNAME69078"
+    desc = "EVTDESC69078"
+    
+    trigger = {
+        functionalism = 1
+        NOT = { has_country_flag = functionalism }
+    }
+
+    immediate = {
+        set_country_flag = functionalism
+    }
+
+    option = {
+        name = "EVTOPTA69042"
+    }
+}
+
+country_event = {
+    id = 69079
+    title = "EVTNAME69079"
+    desc = "EVTDESC69079"
+    
+    trigger = {
+        organic_chemistry = 1
+        NOT = { has_country_flag = organic_chemistry }
+    }
+
+    immediate = {
+        set_country_flag = organic_chemistry
+    }
+
+    option = {
+        name = "EVTOPTA69042"
+    }
+}
+
+# events to set flags for assim bonus of prestige techs
+
+country_event = {
+    id = 69080
+    title = "EVTNAME69080"
+    desc = "EVTDESC69080"
+    
+    trigger = {
+        classicism_n_early_romanticism = 1
+        NOT = { has_country_flag = classicism_n_early_romanticism }
+    }
+
+    immediate = {
+        set_country_flag = classicism_n_early_romanticism
+    }
+
+    option = {
+        name = "EVTOPTA69042"
+    }
+}
+
+country_event = {
+    id = 69081
+    title = "EVTNAME69081"
+    desc = "EVTDESC69081"
+    
+    trigger = {
+        romanticism = 1
+        NOT = { has_country_flag = romanticism }
+    }
+
+    immediate = {
+        set_country_flag = romanticism
+    }
+
+    option = {
+        name = "EVTOPTA69042"
+    }
+}
+
+country_event = {
+    id = 69082
+    title = "EVTNAME69082"
+    desc = "EVTDESC69082"
+    
+    trigger = {
+        realism = 1
+        NOT = { has_country_flag = realism }
+    }
+
+    immediate = {
+        set_country_flag = realism
+    }
+
+    option = {
+        name = "EVTOPTA69042"
+    }
+}
+
+country_event = {
+    id = 69083
+    title = "EVTNAME69083"
+    desc = "EVTDESC69083"
+    
+    trigger = {
+        impressionism = 1
+        NOT = { has_country_flag = impressionism }
+    }
+
+    immediate = {
+        set_country_flag = impressionism
+    }
+
+    option = {
+        name = "EVTOPTA69042"
+    }
+}
+
+country_event = {
+    id = 69084
+    title = "EVTNAME69084"
+    desc = "EVTDESC69084"
+    
+    trigger = {
+        expressionism = 1
+        NOT = { has_country_flag = expressionism }
+    }
+
+    immediate = {
+        set_country_flag = expressionism
+    }
+
+    option = {
+        name = "EVTOPTA69042"
+    }
+}
+
+country_event = {
+    id = 69085
+    title = "EVTNAME69085"
+    desc = "EVTDESC69085"
+    
+    trigger = {
+        mass_culture_n_the_avant_garde = 1
+        NOT = { has_country_flag = mass_culture_n_the_avant_garde }
+    }
+
+    immediate = {
+        set_country_flag = mass_culture_n_the_avant_garde
+    }
+
+    option = {
+        name = "EVTOPTA69042"
+    }
+}

@@ -53,6 +53,8 @@ oob = "MCK_oob.txt"
 flintlock_rifles = 1
 late_enlightenment_philosophy = 1
 classicism_n_early_romanticism = 1
+set_country_flag = classicism_n_early_romanticism
+set_country_flag = romanticism
 
 # Starting Consciousness
 consciousness = 2

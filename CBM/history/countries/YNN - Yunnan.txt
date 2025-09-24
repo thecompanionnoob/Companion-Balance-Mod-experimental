@@ -31,6 +31,8 @@ flintlock_rifles = 1
 post_nelsonian_thought = 1
 late_enlightenment_philosophy = 1
 classicism_n_early_romanticism = 1
+set_country_flag = classicism_n_early_romanticism
+set_country_flag = romanticism
 
 slavery = yes_slavery
 upper_house_composition = appointed

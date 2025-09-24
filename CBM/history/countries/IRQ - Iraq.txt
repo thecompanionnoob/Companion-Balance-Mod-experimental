@@ -48,6 +48,8 @@ bronze_muzzle_loaded_artillery = 1
 no_standard = 1
 guild_based_production = 1
 classicism_n_early_romanticism = 1
+set_country_flag = classicism_n_early_romanticism
+set_country_flag = romanticism
 late_enlightenment_philosophy = 1
 water_wheel_power = 1
 
@@ -67,6 +69,8 @@ nonstate_consciousness = 1
 	no_standard = 1
 	guild_based_production = 1
 	classicism_n_early_romanticism = 1
+set_country_flag = classicism_n_early_romanticism
+set_country_flag = romanticism
 	late_enlightenment_philosophy = 1
 	water_wheel_power = 1
 

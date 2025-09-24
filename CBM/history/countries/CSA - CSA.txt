@@ -33,14 +33,19 @@ the_command_principle = 1
 private_banks = 1
 no_standard = 1
 ideological_thought = 1
+set_country_flag = individualism
 state_n_government = 1
+set_country_flag = meritocracy
 early_classical_theory_and_critique = 1
 freedom_of_trade = 1
 guild_based_production = 1
 classicism_n_early_romanticism = 1
+set_country_flag = classicism_n_early_romanticism
+set_country_flag = romanticism
 late_enlightenment_philosophy = 1
 malthusian_thought = 1
 enlightenment_thought = 1
+set_country_flag = constitutionalism 
 introspectionism = 1
 water_wheel_power = 1
 publishing_industry = 1
@@ -202,14 +207,20 @@ non_state_culture_literacy = 0.10
 	organized_factories = 1
 	
 	classicism_n_early_romanticism = 1
+set_country_flag = classicism_n_early_romanticism
+set_country_flag = romanticism
 	romanticism = 1
+set_country_flag = romanticism
 	late_enlightenment_philosophy = 1
 	idealism = 1
 	malthusian_thought = 1
 	positivism = 1
 	enlightenment_thought = 1
+set_country_flag = constitutionalism 
 	ideological_thought = 1
+set_country_flag = individualism
 	state_n_government = 1
+set_country_flag = meritocracy
 	introspectionism = 1
 	associationism = 1
 	
@@ -229,6 +240,7 @@ non_state_culture_literacy = 0.10
 	basic_chemistry = 1
 	medicine = 1
 	inorganic_chemistry = 1
+set_country_flag = organic_chemistry
 	
 #Inventions
 
