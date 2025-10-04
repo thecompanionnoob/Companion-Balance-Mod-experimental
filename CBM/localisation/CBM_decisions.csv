@@ -194,7 +194,7 @@ colonial_migration_disable_desc;Disable the ability for your pops to migrate to 
 education_idea_decision_title;Education Idea;;;;;;
 education_idea_decision_desc;Idea to improve our country's education.;;;;;;
 promotion_idea_decision_title;Promotion Idea;;;;;;
-promotion_idea_decision_desc;Idea to improve promotion rates.;;;;;;
+promotion_idea_decision_desc;Idea to improve promotion rates. (§G+0.1§! promotion rate);;;;;;
 roll_back_education_title;Roll Back Education;;;;;;
 roll_back_education_desc;Though our education system is certantly helpful to our people, it has become too much for the treasury to bear and must be rolled back.  This is reversible at any time for no cost.;;;;;;
 roll_back_healthcare_title;Roll Back Healthcare;;;;;;

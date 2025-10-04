@@ -53,6 +53,11 @@
 - Split fabric factory into cotton and wool fabric factories.
 - Increased base iron production significantly.
 
+## Navy
+- Made it so each era's ships are 10x better than the previous era, so it's always worth it to upgrade.
+- Added an advanced transport unit with a higher hull for the final era so that transports do not get instantly destroyed in the last era.
+- Increased torpedo attack of submarine ships.
+
 ## Country-Specific Changes
 - UK:
     - Pakistan now starts as an uncivilized vassal of the UK and is added to the Indian annexation system.
@@ -61,7 +66,7 @@
 - USA:
     - USA starts with universal voting, allowed public meetings, upper house based on population, and secret ballots.
     - Reduced immigration attraction debuff from special modifiers for the USA.
-    - Pushed back forced start date of civil war to 1860
+    - Pushed back forced start date of civil war to 1860.
 - Other new world nations:
     - Start with wealth voting, allowed public meetings, upper house based on population, and gerrymandering.
 - Russia:
@@ -70,6 +75,16 @@
     - Added more starting bureaucrats.
 - China:
     - Increased research point buff of Chinese unciv modifier to 20% from 10%.
+- Prussia:
+    - Forming NGF now removes the cores of North German tags.
+    - Forming Germany now removes the cores of South German tags and NGF.
+- Yugoslavia:
+    - Starting Yugoslavia cores are removed.
+    - Yugoslavia formation decision is now based on owning the states themselves.
+    - Forming Yugoslavia removes cores of Slovenia & Croatia.
+    - Removed militancy effects from forming Yugoslavia/
+    - Removed infamy gain from forming Yugoslavia.
+    - Halved prestige gain from forming Yugoslavia.
 
 ## National Focuses
 - Nerfed RGO national focus from +25% to +15%.
@@ -94,3 +109,5 @@
 - Removed prestige hit penalty for declining call to arms.
 - Updated full & limited citizenship localisation to more accurately describe its effect.
 - Applied country flags by default for countries that have the appropriate tech at the start of the bookmark: This cuts down on event spam, especially in the ww1 bookmark.
+- Migrated national idea system so it uses the variable system to give you national idea points that you can spend at will. This is so if you forget to click a national idea, you do not delay taking the next one.
+- Added a tutorial event chain for new players.

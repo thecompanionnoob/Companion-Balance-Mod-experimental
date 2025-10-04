@@ -2,13 +2,12 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 	national_idea_enable = {
 		potential = {
 			NOT = {
-				has_country_modifier = national_idea_timer
-			}
-			NOT = {
 				has_country_flag = national_ideas_enabled
 			}
 		}
-		allow = {}
+		allow = {
+			check_variable = { which = national_idea_points value = 0.99 }
+		}
 		effect = {
 			set_country_flag = national_ideas_enabled
 		}
@@ -31,9 +30,6 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 		potential = {
 			has_country_flag = national_ideas_enabled
 			NOT = {
-				has_country_modifier = national_idea_timer
-			}
-			NOT = {
 				has_country_modifier = naval_idea
 			}
 		}
@@ -42,16 +38,13 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			clr_country_flag = national_ideas_enabled
 			clr_country_flag = national_idea_reminder
 			add_country_modifier = { name = naval_idea duration = -1 }
-			add_country_modifier = { name = national_idea_timer duration = 5475 }
+			change_variable = { which = national_idea_points value = -1 }
 		}
 	}
     colonial_migration_decision = { #allows colonial migration
         alert = no
         potential = {
             has_country_flag = national_ideas_enabled
-            NOT = {
-				has_country_modifier = national_idea_timer
-			}
 			NOT = {
 				has_country_modifier = colonial_migration_idea
 			}
@@ -61,7 +54,7 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			clr_country_flag = national_ideas_enabled
 			clr_country_flag = national_idea_reminder
 			add_country_modifier = { name = colonial_migration_idea duration = -1 }
-			add_country_modifier = { name = national_idea_timer duration = 5475 }
+			change_variable = { which = national_idea_points value = -1 }
              
 		}
     }
@@ -71,9 +64,6 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 		potential = {
 			has_country_flag = national_ideas_enabled
 			NOT = {
-				has_country_modifier = national_idea_timer
-			}
-			NOT = {
 				has_country_modifier = economic_idea
 			}
 		}
@@ -82,16 +72,13 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			clr_country_flag = national_ideas_enabled
 			clr_country_flag = national_idea_reminder
 			add_country_modifier = { name = economic_idea duration = -1 }
-			add_country_modifier = { name = national_idea_timer duration = 5475 }
+			change_variable = { which = national_idea_points value = -1 }
 		}
 	}
 	industry_idea_decision = { #more industry output, throughput, input
 		alert = no
 		potential = {
 			has_country_flag = national_ideas_enabled
-			NOT = {
-				has_country_modifier = national_idea_timer
-			}
 			NOT = {
 				has_country_modifier = industry_idea
 			}
@@ -101,16 +88,13 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			clr_country_flag = national_ideas_enabled
 			clr_country_flag = national_idea_reminder
 			add_country_modifier = { name = industry_idea duration = -1 }
-			add_country_modifier = { name = national_idea_timer duration = 5475 }
+			change_variable = { which = national_idea_points value = -1 }
 		}
 	}
 	political_idea_decision = { #less militancy, consciousness, more ruling party support
 		alert = no
 		potential = {
 			has_country_flag = national_ideas_enabled
-			NOT = {
-				has_country_modifier = national_idea_timer
-			}
 			NOT = {
 				has_country_modifier = political_idea
 			}
@@ -120,16 +104,13 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			clr_country_flag = national_ideas_enabled
 			clr_country_flag = national_idea_reminder
 			add_country_modifier = { name = political_idea duration = -1 }
-			add_country_modifier = { name = national_idea_timer duration = 5475 }
+			change_variable = { which = national_idea_points value = -1 }
 		}
 	}
 	diplomatic_idea_decision = { #less infamy, sphere quicker
 		alert = no
 		potential = {
 			has_country_flag = national_ideas_enabled
-			NOT = {
-				has_country_modifier = national_idea_timer
-			}
 			NOT = {
 				has_country_modifier = diplomatic_idea
 			}
@@ -139,16 +120,13 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			clr_country_flag = national_ideas_enabled
 			clr_country_flag = national_idea_reminder
 			add_country_modifier = { name = diplomatic_idea duration = -1 }
-			add_country_modifier = { name = national_idea_timer duration = 5475 }
+			change_variable = { which = national_idea_points value = -1 }
 		}
 	}
     promotion_idea_decision = { #buffs promotion
 		alert = no
 		potential = {
 			has_country_flag = national_ideas_enabled
-			NOT = {
-				has_country_modifier = national_idea_timer
-			}
 			NOT = {
 				has_country_modifier = promotion_idea
 			}
@@ -159,7 +137,7 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			clr_country_flag = national_idea_reminder
             set_country_flag = promotion_idea #unfortunately necessary, pop_types.txt is so buggy
 			add_country_modifier = { name = promotion_idea duration = -1 }
-			add_country_modifier = { name = national_idea_timer duration = 5475 }
+			change_variable = { which = national_idea_points value = -1 }
 		}
 	}
 
@@ -167,9 +145,6 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 		alert = no
 		potential = {
 			has_country_flag = national_ideas_enabled
-			NOT = {
-				has_country_modifier = national_idea_timer
-			}
 			NOT = {
 				has_country_modifier = assim_idea
 			}
@@ -179,7 +154,7 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			clr_country_flag = national_ideas_enabled
 			clr_country_flag = national_idea_reminder
 			add_country_modifier = { name = assim_idea duration = -1 }
-			add_country_modifier = { name = national_idea_timer duration = 5475 }
+			change_variable = { which = national_idea_points value = -1 }
 		}
 	}
         
@@ -187,9 +162,6 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 		alert = no
 		potential = {
 			has_country_flag = national_ideas_enabled
-			NOT = {
-				has_country_modifier = national_idea_timer
-			}
 			NOT = {
 				has_country_modifier = education_idea
 			}
@@ -199,16 +171,13 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			clr_country_flag = national_ideas_enabled
 			clr_country_flag = national_idea_reminder
 			add_country_modifier = { name = education_idea duration = -1 }
-			add_country_modifier = { name = national_idea_timer duration = 5475 }
+			change_variable = { which = national_idea_points value = -1 }
 		}
 	}
 	army_quantity_idea_decision = { #army quantity & logistics modifiers
 		alert = no
 		potential = {
 			has_country_flag = national_ideas_enabled
-			NOT = {
-				has_country_modifier = national_idea_timer
-			}
 			NOT = {
 				has_country_modifier = army_quantity_idea
 			}
@@ -230,16 +199,13 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			clr_country_flag = national_ideas_enabled
 			clr_country_flag = national_idea_reminder
 			add_country_modifier = { name = army_quantity_idea duration = -1 }
-			add_country_modifier = { name = national_idea_timer duration = 5475 }
+			change_variable = { which = national_idea_points value = -1 }
 		}
 	}
 	army_quality_idea_decision = { #army quality modifiers
 		alert = no
 		potential = {
 			has_country_flag = national_ideas_enabled
-			NOT = {
-				has_country_modifier = national_idea_timer
-			}
 			NOT = {
 				has_country_modifier = army_quality_idea
 			}
@@ -249,7 +215,7 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			clr_country_flag = national_ideas_enabled
 			clr_country_flag = national_idea_reminder
 			add_country_modifier = { name = army_quality_idea duration = -1 }
-			add_country_modifier = { name = national_idea_timer duration = 5475 }
+			change_variable = { which = national_idea_points value = -1 }
 		}
 	}
     colonial_migration_enable = {

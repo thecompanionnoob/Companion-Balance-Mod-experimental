@@ -40,10 +40,10 @@ commerce_raider = {
 	}
 	
 	#Naval Abilties
-	hull = 25
-	gun_power = 2.5
+	hull = 120
+	gun_power = 15
 	fire_range = 0.50
 	evasion = 0
-	torpedo_attack = 55
+	torpedo_attack = 380
 }
 

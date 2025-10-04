@@ -49,6 +49,60 @@ political_decisions = {
 				}
 			}		
 			change_tag = NGF
+
+			SAX = {
+				all_core = {
+					remove_core = SAX
+				}
+			}
+
+			HAN = {
+				all_core = {
+					remove_core = HAN
+				}
+			}
+
+			HES = {
+				all_core = {
+					remove_core = HES
+				}
+			}
+
+			BRA = {
+				all_core = {
+					remove_core = BRA
+				}
+			}
+
+			MEC = {
+				all_core = {
+					remove_core = MEC
+				}
+			}
+
+			HOL = {
+				all_core = {
+					remove_core = HOL
+				}
+			}
+
+			SCH = {
+				all_core = {
+					remove_core = SCH
+				}
+			}
+
+			OLD = {
+				all_core = {
+					remove_core = OLD
+				}
+			}
+
+			PRU = {
+				all_core = {
+					remove_core = PRU
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -121,6 +175,24 @@ political_decisions = {
 					in_sphere = THIS
 				}
 				annex_to = THIS
+			}
+
+			NGF = {
+				all_core = {
+					remove_core = NGF
+				}
+			}
+
+			BAV = {
+				all_core = {
+					remove_core = BAV
+				}
+			}
+
+			WUR = {
+				all_core = {
+					remove_core = WUR
+				}
 			}
 		}
 		ai_will_do = {

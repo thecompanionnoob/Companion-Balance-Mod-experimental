@@ -118,163 +118,163 @@ navy = {
     
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }
 }
 
@@ -284,163 +284,163 @@ navy = {
     
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }    
     ship = {
         name = "Transport"
-        type = steam_transport
+        type = advanced_transport
     }
 }
 

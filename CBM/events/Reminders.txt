@@ -10,7 +10,13 @@ country_event = {
 			tag = BNK
 			has_country_modifier = national_idea_timer
 		}
+		year = 1837
 	}
+	immediate = {
+		change_variable = { which = national_idea_points value = 1 }
+		add_country_modifier = { name = national_idea_timer duration = 5475 }
+	}
+	
 	
 	option = {
 		name = "EVTOPTA69015"

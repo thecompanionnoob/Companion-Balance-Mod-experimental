@@ -402,6 +402,15 @@ pre_dreadnought = {
 		activate_unit = battleship 
 	}
 }
+advanced_transport_activation = {
+	limit = { steam_turbine_ships = 1 }
+	chance = {
+		base = 100
+	}
+	effect = {
+		activate_unit = advanced_transport 
+	}
+}
 #steam_turbine_ships
 dreadnoughts = {
 	limit = { steam_turbine_ships = 1 }

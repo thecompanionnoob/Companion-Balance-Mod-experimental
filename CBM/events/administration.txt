@@ -1,22 +1,144 @@
-country_event = { #Province Selector explanation
+country_event = { #tutorial
 	id = 69001
 	title = "EVTNAME69001"
 	desc = "EVTDESC69001"
 
 	trigger = {
 		NOT = {
-			has_country_flag = prov_select_explain
+			has_country_flag = tutorial
 		}
 		ai = no
 	}
 
-    immediate = { set_country_flag = prov_select_explain }
+    immediate = { 
+		set_country_flag = tutorial 
+		set_variable = { which = national_idea_points value = 1 }
+		add_country_modifier = { name = national_idea_timer duration = 5475 }
+	}
 
 	option = {
 		name = "EVTOPTA69001"
 		prestige = 1
-		set_country_flag = prov_select_explain
 	}
+	option = {
+		name = "EVTOPTB69001"
+		country_event = { id = 69086 days = 0 }
+	}
+}
+country_event = {
+	id = 69086
+	title = "EVTNAME69086"
+	desc = "EVTDESC69086"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTB69086"
+		prestige = 1
+	}
+	option = {
+		name = "EVTOPTA69086"
+		country_event = { id = 69087 days = 0 }
+	}
+
+}
+country_event = {
+	id = 69087
+	title = "EVTNAME69087"
+	desc = "EVTDESC69087"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTB69086"
+		prestige = 1
+	}
+	option = {
+		name = "EVTOPTA69086"
+		country_event = { id = 69088 days = 0 }
+	}
+
+}
+country_event = {
+	id = 69088
+	title = "EVTNAME69088"
+	desc = "EVTDESC69088"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTB69086"
+		prestige = 1
+	}
+	option = {
+		name = "EVTOPTA69086"
+		country_event = { id = 69089 days = 0 }
+	}
+
+}
+country_event = {
+	id = 69089
+	title = "EVTNAME69089"
+	desc = "EVTDESC69089"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTB69086"
+		prestige = 1
+	}
+	option = {
+		name = "EVTOPTA69086"
+		country_event = { id = 69090 days = 0 }
+	}
+
+}
+country_event = {
+	id = 69090
+	title = "EVTNAME69090"
+	desc = "EVTDESC69090"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTB69086"
+		prestige = 1
+	}
+	option = {
+		name = "EVTOPTA69086"
+		country_event = { id = 69091 days = 0 }
+	}
+
+}
+country_event = {
+	id = 69091
+	title = "EVTNAME69091"
+	desc = "EVTDESC69091"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTB69086"
+		prestige = 1
+	}
+	option = {
+		name = "EVTOPTA69086"
+		country_event = { id = 69092 days = 0 }
+	}
+
+}
+country_event = {
+	id = 69092
+	title = "EVTNAME69092"
+	desc = "EVTDESC69092"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTB69086"
+		prestige = 1
+	}
+
 }
 country_event = { #unciv can mobilize explanation
 	id = 69011

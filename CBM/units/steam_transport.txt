@@ -34,7 +34,7 @@ steam_transport = {
 	}
 	
 	#Naval Abilties
-	hull = 5
+	hull = 15
 	gun_power = 1
 	fire_range = 0.4
 	evasion = 0

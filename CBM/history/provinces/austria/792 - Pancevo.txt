@@ -8,6 +8,6 @@ add_core = KUK
 controller = AUS
 add_core = AUS
 add_core = SER
-add_core = YUG
+
 trade_goods = grain
 life_rating = 35

@@ -169,6 +169,11 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 	spriteType = {
+		name = "GFX_unit_folder_navy_22_adv_transport"
+		texturefile = "gfx\\interface\\unit_folder_navy_22_adv_transport.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
 		name = "GFX_unit_folder_navy_8_dreadnought"
 		texturefile = "gfx\\interface\\unit_folder_navy_8_dreadnought.dds"
 		noOfFrames = 2

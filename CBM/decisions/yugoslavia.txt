@@ -17,57 +17,24 @@ political_decisions = {
 		allow = {
 			ideological_thought = 1
 			war = no
-			owns = 798 #nis
-			owns = 794 #belgrade
-			owns = 2538 #novi sad
-			owns = 783 #sarajevo
-			owns = 771 #zagreb
+			has_unclaimed_cores = no
+			AUS_771 = { owned_by = THIS }
+			AUS_780 = { owned_by = THIS }
+			AUS_768 = { owned_by = THIS }
 		}
 		effect = {
-			any_owned_province = {
-				limit = {
-					OR = {
-						is_core = SER
-						is_core = ALB
-						is_core = CRO
-						is_core = SLO
-					}
-				}
-				add_core = YUG
-			}
 			change_tag = YUG
 			set_global_flag = formed_yugoslavia
 			add_accepted_culture = serb
 			add_accepted_culture = croat
 			add_accepted_culture = albanian
-			prestige = 30
-			badboy = 5
-			any_pop = {
-				limit = {
-					OR = {
-						culture = serb
-						culture = croat
-						culture = albanian
-					}
-				}
-				militancy = -2
-			}
-			any_pop = {
-				limit = {
-					AND = {
-						NOT = {
-							culture = serb
-						}
-						NOT = {
-							culture = croat
-						}
-						NOT = {
-							culture = albanian
-						}
-					}
-				}
-				militancy = 2
-			}
+			prestige = 15
+			all_core = { add_core = YUG remove_core = SER }
+			SLO = { all_core = { remove_core = SLO } }
+			CRO = { all_core = { remove_core = CRO } }
+			AUS_771 = { add_core = THIS }
+			AUS_780 = { add_core = THIS }
+			AUS_768 = { add_core = THIS }
 		}
 		ai_will_do = {
 			factor = 1
