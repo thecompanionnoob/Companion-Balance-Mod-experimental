@@ -52,17 +52,24 @@
 - Increased output of several consumer goods factories.
 - Split fabric factory into cotton and wool fabric factories.
 - Increased base iron production significantly.
+- Added RGO throughput to the power tech line in industry tech.
 
 ## Navy
-- Made it so each era's ships are 10x better than the previous era, so it's always worth it to upgrade.
+- Made it so each era's ships are 15x better than the previous era, so it's always worth it to upgrade.
 - Added an advanced transport unit with a higher hull for the final era so that transports do not get instantly destroyed in the last era.
 - Increased torpedo attack of submarine ships.
+- Heavily buffed Naval Engineering tech in the two later eras.
+- Buffed Naval Doctrine tech line stat buffs in the two later eras.
+
+## Army
+- Changed tactics tech, it now scales better through the game
 
 ## Country-Specific Changes
 - UK:
     - Pakistan now starts as an uncivilized vassal of the UK and is added to the Indian annexation system.
     - Hyderabad now starts annexed as colonial land.
     - Start with non-socialist trade unions reform.
+    - Made it so you can only pass through the Gibraltar Straits by sea if you control Gibraltar province.
 - USA:
     - USA starts with universal voting, allowed public meetings, upper house based on population, and secret ballots.
     - Reduced immigration attraction debuff from special modifiers for the USA.
@@ -99,6 +106,10 @@
 - Buffed base assimilation rate.
 - Removed negative modifier for internal migration when state has factories.
 - Increased international emigration when land is occupied.
+
+## War Exhaustion
+- Reduced impact on militancy from war exhaustion by 50%
+- Increased war exhaustion reduction at peace to -2 from -1.
 
 ## QoL Changes and Bugfixes
 - Added missing ports in Azov and Medan.

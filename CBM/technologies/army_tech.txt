@@ -1110,7 +1110,7 @@ army_command_principle = {
 
 	morale = 0.25
 	unciv_military = yes
-	military_tactics = 0.25
+	military_tactics = 0.2
 
 	army_base = {
 		supply_consumption = 0.10
@@ -1144,7 +1144,7 @@ army_professionalism = {
 	unciv_military = yes
 	morale = 0.1
 
-	military_tactics = 0.25
+	military_tactics = 0.2
 	
 	army_base = {
 		supply_consumption = 0.10
@@ -1198,7 +1198,7 @@ army_decision_making = {
 	unciv_military = yes
 	morale = 0.2
 
-	military_tactics = 0.25
+	military_tactics = 0.2
 
 	army_base = {
 	supply_consumption = 0.20
@@ -1309,7 +1309,7 @@ army_nco_training = {
 	morale = 0.25
 	
 
-	military_tactics = 0.25
+	military_tactics = 0.3
 
 	army_base = {
 		supply_consumption = 0.20
@@ -1364,7 +1364,7 @@ great_war_experience = {
 	unciv_military = yes
 	morale = 0.5
 
-	military_tactics = 0.25
+	military_tactics = 0.35
 
 	army_base = {
 		supply_consumption = 0.20

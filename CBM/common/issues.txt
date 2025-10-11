@@ -209,7 +209,7 @@ political_reforms = {
 			poor_vote = 0
 			
 			global_immigrant_attract = 0.05
-			global_pop_militancy_modifier = -0.02
+			global_pop_militancy_modifier = -0.04
 		}
 		wealth_voting = {
 			rules = { sainte_laque = yes }
@@ -218,7 +218,7 @@ political_reforms = {
 			poor_vote = 0
 			
 			global_immigrant_attract = 0.1
-			global_pop_militancy_modifier = -0.04
+			global_pop_militancy_modifier = -0.08
 		}
 		universal_voting = {
 			rules = { sainte_laque = yes }
@@ -227,7 +227,7 @@ political_reforms = {
 			poor_vote = 1
 			
 			global_immigrant_attract = 0.15
-			global_pop_militancy_modifier = -0.06
+			global_pop_militancy_modifier = -0.12
 		}
 	}
 	administrative_reform = {
@@ -295,7 +295,7 @@ political_reforms = {
 		yes_meeting = {
 			issue_change_speed = 1
 			suppression_points_modifier = -0.25
-			global_pop_militancy_modifier = -0.02
+			global_pop_militancy_modifier = -0.04
 		}
 
 	}

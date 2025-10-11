@@ -42,5 +42,7 @@ upper_house = {
 }
 
 1910.1.1 = {
+set_country_flag = tutorial
+set_country_flag = unciv_mobilize_explain
 	decision = great_war_setup
 }

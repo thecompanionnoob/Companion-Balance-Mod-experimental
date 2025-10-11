@@ -101,6 +101,8 @@ oob = "CLM_oob.txt"
 	decision = education_idea_decision
 }
 1910.1.1 = {
+set_country_flag = tutorial
+set_country_flag = unciv_mobilize_explain
 	decision = order_decision
 	decision = switch_to_army_tech
 
@@ -111,22 +113,22 @@ oob = "CLM_oob.txt"
 
 	ruling_party = GNR_conservative
 	# Political reforms
-	slavery = yes_slavery
-	upper_house_composition = appointed
-	vote_franschise = none_voting
-	public_meetings = no_meeting
-	press_rights = state_press
-	trade_unions = no_trade_unions
+	slavery = no_slavery
+	upper_house_composition = population_equal_weight
+	vote_franschise = wealth_voting
+	public_meetings = yes_meeting
+	press_rights = censored_press
+	trade_unions = non_socialist
 	administrative_reform = effective_administrative_state
-	political_parties = underground_parties
+	political_parties = gerrymandering
 
 	# Social Reforms
-	wage_reform = no_minimum_wage
-	work_hours = no_work_hour_limit
-	safety_regulations = no_safety
+	wage_reform = acceptable_minimum_wage
+	work_hours = twelve_hours
+	safety_regulations = low_safety
 	health_care = no_health_care
-	unemployment_subsidies = no_subsidies
-	pensions = no_pensions 
+	unemployment_subsidies = acceptable_subsidies
+	pensions = low_pensions
 	school_reforms = no_schools
 
 

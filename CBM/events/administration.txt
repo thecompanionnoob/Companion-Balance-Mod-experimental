@@ -8,6 +8,9 @@ country_event = { #tutorial
 			has_country_flag = tutorial
 		}
 		ai = no
+		NOT = {
+			has_global_flag = great_war
+		}
 	}
 
     immediate = { 

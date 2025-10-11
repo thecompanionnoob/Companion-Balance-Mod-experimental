@@ -105,6 +105,8 @@ decision = serfdom_setup
 	decision = diplomatic_idea_decision
 }
 1910.1.1 = {
+set_country_flag = tutorial
+set_country_flag = unciv_mobilize_explain
 	decision = equality_decision
 	decision = switch_to_army_tech
 	decision = accept_ruthenian
@@ -129,10 +131,10 @@ decision = serfdom_setup
 		communist = 2
 	}
 	# Political reforms
-	slavery = yes_slavery
+	slavery = no_slavery
 	upper_house_composition = appointed
 	vote_franschise = none_voting
-	public_meetings = no_meeting
+	public_meetings = yes_meeting
 	press_rights = state_press
 	trade_unions = no_trade_unions
 	administrative_reform = effective_administrative_state

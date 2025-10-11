@@ -1121,19 +1121,19 @@ weapon_platforms = {
 	cost = 10800
 	unciv_military = yes
 	commerce_raider = {
-		hull = 3
-		gun_power = 3
-		default_organisation = 3
+		hull = 30
+		gun_power = 30
+		default_organisation = 10
 	}
 	ironclad = {
-		hull = 3
-		gun_power = 3
-		default_organisation = 3
+		hull = 30
+		gun_power = 30
+		default_organisation = 10
 	}
 	monitor = {
-		hull = 3
-		gun_power = 3
-		default_organisation = 3
+		hull = 30
+		gun_power = 30
+		default_organisation = 10
 	}
 	ai_chance = {
 		factor = 1
@@ -1221,19 +1221,19 @@ main_armament = {
 	cost = 14400
 	unciv_military = yes
 	commerce_raider = {
-		hull = 3
-		gun_power = 3
-		default_organisation = 3
+		hull = 30
+		gun_power = 30
+		default_organisation = 10
 	}
 	ironclad = {
-		hull = 3
-		gun_power = 3
-		default_organisation = 3
+		hull = 30
+		gun_power = 30
+		default_organisation = 10
 	}
 	monitor = {
-		hull = 3
-		gun_power = 3
-		default_organisation = 3
+		hull = 30
+		gun_power = 30
+		default_organisation = 10
 	}
 	ai_chance = {
 		factor = 1
@@ -1326,19 +1326,19 @@ advanced_naval_design = {
 	cost = 18000
 	unciv_military = yes
 	cruiser = {
-		hull = 5
-		gun_power = 5
-		default_organisation = 3
+		hull = 400
+		gun_power = 400
+		default_organisation = 15
 	}
 	battleship = {
-		hull = 5
-		gun_power = 5
-		default_organisation = 3
+		hull = 400
+		gun_power = 400
+		default_organisation = 15
 	}
 	dreadnought = {
-		hull = 5
-		gun_power = 5
-		default_organisation = 3
+		hull = 400
+		gun_power = 400
+		default_organisation = 15
 	}
 	ai_chance = {
 		factor = 1
@@ -1426,19 +1426,19 @@ modern_naval_design = {
 	cost = 21600
 	unciv_military = yes
 	cruiser = {
-		hull = 5
-		gun_power = 5
-		default_organisation = 3
+		hull = 400
+		gun_power = 400
+		default_organisation = 15
 	}
 	battleship = {
-		hull = 5
-		gun_power = 5
-		default_organisation = 3
+		hull = 400
+		gun_power = 400
+		default_organisation = 15
 	}
 	dreadnought = {
-		hull = 5
-		gun_power = 5
-		default_organisation = 3
+		hull = 400
+		gun_power = 400
+		default_organisation = 15
 	}
 	ai_chance = {
 		factor = 1

@@ -7,6 +7,7 @@ water_wheel_power = {
 	activate_building = fabric_factory
 	mine_rgo_eff = 0.05
 	farm_rgo_eff = 0.15
+	rgo_throughput = 0.0125
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -51,6 +52,7 @@ practical_steam_engine = {
 
 	mine_rgo_eff = 0.05
 	farm_rgo_eff = 0.15
+	rgo_throughput = 0.0125
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -95,6 +97,7 @@ high_n_low_pressure_steam_engines = {
 
 	mine_rgo_eff = 0.1
 	farm_rgo_eff = 0.15
+	rgo_throughput = 0.0125
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -139,6 +142,7 @@ steam_turbine = {
 
 	mine_rgo_eff = 0.15
 	farm_rgo_eff = 0.15
+	rgo_throughput = 0.0125
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -183,6 +187,7 @@ combustion_engine = {
 
 	mine_rgo_eff = 0.15
 	farm_rgo_eff = 0.15
+	rgo_throughput = 0.02
 	ai_chance = {
 		factor = 1.25
 		modifier = {
@@ -227,6 +232,7 @@ electrical_power_generation = {
 
 	mine_rgo_eff = 0.15
 	farm_rgo_eff = 0.15
+	rgo_throughput = 0.02
 	factory_throughput = 0.1
 	ai_chance = {
 		factor = 1.1

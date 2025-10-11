@@ -93,6 +93,8 @@ oob = "BUL_oob.txt"
 	decision = army_quantity_idea_decision
 }
 1910.1.1 = {
+set_country_flag = tutorial
+set_country_flag = unciv_mobilize_explain
 	decision = order_decision
 	decision = switch_to_army_tech
 

@@ -128,25 +128,17 @@ fast_ship_killer = {
 big_ship_competitor = {
 	limit = { blue_and_brown_water_schools = 1 }
 	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			iron_steamers = 1
-		}
-		modifier = {
-			factor = 2
-			naval_statistics = 1
-		}
+		base = 100
 	}
 	effect = {
 		commerce_raider = {
-			gun_power = 5
+			gun_power = 10
 		}
 		monitor = {
-			gun_power = 5
+			gun_power = 10
 		}
 		ironclad = {
-			gun_power = 5
+			gun_power = 10
 		}
 	}
 }
@@ -165,13 +157,13 @@ standard_raider_group_doctrine = {
 	}
 	effect = {
 		commerce_raider = {
-			hull = 5
+			hull = 10
 		}
 		monitor = {
-			hull = 5
+			hull = 10
 		}
 		ironclad = {
-			hull = 5
+			hull = 10
 		}
 	}
 }
@@ -218,29 +210,17 @@ brown_water_school = {
 offensive_attitude = {
 	limit = { modern_naval_doctrine = 1 }
 	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			colonial_nation = yes
-		}
-		modifier = {
-			factor = 2
-			is_greater_power = yes
-		}
-		modifier = {
-			factor = 1
-			naval_decision_making = 1
-		}
+		base = 100
 	}
 	effect = {
 		cruiser = {
-			gun_power = 10
+			gun_power = 100
 		}
 		battleship = {
-			gun_power = 10
+			gun_power = 100
 		}
 		dreadnought = {
-			gun_power = 10
+			gun_power = 100
 		}
 		
 	}
@@ -248,25 +228,17 @@ offensive_attitude = {
 defensive_attitude = {
 	limit = { modern_naval_doctrine = 1 }
 	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			invention = protected_cruisers
-		}
-		modifier = {
-			factor = 2
-			invention = armour_piercing_projectiles
-		}
+		base = 100
 	}
 	effect = {
 		cruiser = {
-			hull = 10
+			hull = 100
 		}
 		battleship = {
-			hull = 10
+			hull = 100
 		}
 		dreadnought = {
-			hull = 10
+			hull = 100
 		}
 	
 	}
@@ -341,15 +313,7 @@ steamer_automatic_construction_plants = {
 steamer_transports = {
 	limit = { steamers = 1 }
 	chance = {
-		base = 5
-		modifier = {
-			factor = 2
-			mechanical_production = 1
-		}
-		modifier = {
-			factor = 1
-			clean_coal = 1
-		}
+		base = 100
 	}
 	effect = {
 		activate_unit = steam_transport 

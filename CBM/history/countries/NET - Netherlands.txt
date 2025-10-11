@@ -99,6 +99,8 @@ oob = "NET_oob.txt"
 	decision = diplomatic_idea_decision
 }
 1910.1.1 = {
+set_country_flag = tutorial
+set_country_flag = unciv_mobilize_explain
 	decision = liberty_decision
 
 	government = absolute_monarchy
@@ -118,23 +120,24 @@ oob = "NET_oob.txt"
 		socialist = 30
 		communist = 2
 	}
+
 	# Political reforms
-	slavery = yes_slavery
-	upper_house_composition = appointed
-	vote_franschise = none_voting
-	public_meetings = no_meeting
-	press_rights = state_press
-	trade_unions = no_trade_unions
+	slavery = no_slavery
+	upper_house_composition = population_equal_weight
+	vote_franschise = universal_voting
+	public_meetings = yes_meeting
+	press_rights = free_press
+	trade_unions = all_trade_unions
 	administrative_reform = effective_administrative_state
-	political_parties = underground_parties
+	political_parties = secret_ballots
 
 	# Social Reforms
-	wage_reform = no_minimum_wage
-	work_hours = no_work_hour_limit
-	safety_regulations = no_safety
+	wage_reform = good_minimum_wage
+	work_hours = eight_hours
+	safety_regulations = good_safety
 	health_care = no_health_care
-	unemployment_subsidies = no_subsidies
-	pensions = no_pensions 
+	unemployment_subsidies = good_subsidies
+	pensions = good_pensions 
 	school_reforms = no_schools
 
 
