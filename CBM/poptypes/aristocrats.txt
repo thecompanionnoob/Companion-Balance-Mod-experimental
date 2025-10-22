@@ -78,6 +78,7 @@ country_migration_target =
 			continent = north_america
 			continent = south_america
 			continent = oceania
+			continent = africa
 		}
 	}
 		modifier = {

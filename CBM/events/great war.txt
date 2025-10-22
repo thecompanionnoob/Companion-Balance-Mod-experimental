@@ -2,7 +2,6 @@ country_event = {
     id = 69031
     title = "EVTNAME69031"
     desc = "EVTDESC69031"
-    picture = Picture
     
     trigger = {
         tag = ENG
@@ -23,7 +22,6 @@ country_event = {
     id = 69034
     title = "EVTNAME69034"
     desc = "EVTDESC69034"
-    picture = Picture
     
     trigger = {
         has_global_flag = great_war
@@ -44,7 +42,6 @@ country_event = {
     id = 69035
     title = "EVTNAME69034"
     desc = "EVTDESC69034"
-    picture = Picture
     
     trigger = {
         has_global_flag = great_war

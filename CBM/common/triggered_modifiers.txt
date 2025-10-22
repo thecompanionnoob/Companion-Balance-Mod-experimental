@@ -113,6 +113,44 @@ assim_tech_six = {
 	global_assimilation_rate = 0.5
 }
 
+#Commerce techs max tariff
+no_standard = {
+	trigger = {
+		has_country_flag = no_standard
+	}
+	max_tariff = 0.05
+}
+ad_hoc_money_bill_printing = {
+	trigger = {
+		has_country_flag = ad_hoc_money_bill_printing
+	}
+	max_tariff = 0.05
+}
+private_bank_money_bill_printing = {
+	trigger = {
+		has_country_flag = private_bank_money_bill_printing
+	}
+	max_tariff = 0.05
+}
+central_bank_money_bill_printing = {
+	trigger = {
+		has_country_flag = central_bank_money_bill_printing
+	}
+	max_tariff = 0.05
+}
+modern_central_bank_system = {
+	trigger = {
+		has_country_flag = modern_central_bank_system
+	}
+	max_tariff = 0.05
+}
+market_determined_exchange_rates = {
+	trigger = {
+		has_country_flag = market_determined_exchange_rates
+	}
+	max_tariff = 0.05
+}
+
 
 
 #backend

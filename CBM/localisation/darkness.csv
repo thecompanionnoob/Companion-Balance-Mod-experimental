@@ -145,7 +145,7 @@ CRISIS_TEMPERATURE;Crisis temperature: §R$VALUE$%§!;;Konflikttemperatur: §R$VALU
 HAS_CRISIS;There is a current crisis;;Es gibt momentan einen Konflikt;;;;;;;;x;;;;
 HAS_NO_CRISIS;There is no current crisis;;Es gibt momentan keinen Konflikt;;;;;;;;x;;;;
 CRISIS_TEMPERATURE_EFFECT;$DIRECTION$ $VALUE$ crisis temperature.\n;;$DIRECTION$ $VALUE$ Konflikttemperatur.\n;;;;;;;;x;;;;
-TRIGGER_STATE;Crisis state;;Konflikt-Zustand;;;;;;;;x;;;;
+TRIGGER_STATE;State;;State;;;;;;;;x;;;;
 BACKERS_LABEL;Backers:;;Unterstützer:;;;;;;;;x;;;;
 SUPPORT_SIDE;Support Side;;Seite unterstützen;;;;;;;;x;;;;
 ON_THE_FENCE_LABEL;Still on the fence:;;Noch unentschlossen:;;;;;;;;x;;;;

@@ -281,3 +281,120 @@ country_event = {
         name = "EVTOPTA69042"
     }
 }
+
+
+#commerce tech max tariff bonus
+
+country_event = {
+    id = 69093
+    title = "EVTNAME69093"
+    desc = "EVTDESC69093"
+    
+    trigger = {
+        no_standard = 1
+        NOT = { has_country_flag = no_standard }
+    }
+
+    immediate = {
+        set_country_flag = no_standard
+    }
+
+    option = {
+        name = "EVTOPTA69042"
+    }
+}
+
+country_event = {
+    id = 69094
+    title = "EVTNAME69094"
+    desc = "EVTDESC69094"
+    
+    trigger = {
+        ad_hoc_money_bill_printing = 1
+        NOT = { has_country_flag = ad_hoc_money_bill_printing }
+    }
+
+    immediate = {
+        set_country_flag = ad_hoc_money_bill_printing
+    }
+
+    option = {
+        name = "EVTOPTA69042"
+    }
+}
+
+country_event = {
+    id = 69095
+    title = "EVTNAME69095"
+    desc = "EVTDESC69095"
+    
+    trigger = {
+        private_bank_money_bill_printing = 1
+        NOT = { has_country_flag = private_bank_money_bill_printing }
+    }
+
+    immediate = {
+        set_country_flag = private_bank_money_bill_printing
+    }
+
+    option = {
+        name = "EVTOPTA69042"
+    }
+}
+
+country_event = {
+    id = 69096
+    title = "EVTNAME69096"
+    desc = "EVTDESC69096"
+    
+    trigger = {
+        central_bank_money_bill_printing = 1
+        NOT = { has_country_flag = central_bank_money_bill_printing }
+    }
+
+    immediate = {
+        set_country_flag = central_bank_money_bill_printing
+    }
+
+    option = {
+        name = "EVTOPTA69042"
+    }
+}
+
+country_event = {
+    id = 69097
+    title = "EVTNAME69097"
+    desc = "EVTDESC69097"
+    
+    trigger = {
+        modern_central_bank_system = 1
+        NOT = { has_country_flag = modern_central_bank_system }
+    }
+
+    immediate = {
+        set_country_flag = modern_central_bank_system
+    }
+
+    option = {
+        name = "EVTOPTA69042"
+    }
+}
+
+country_event = {
+    id = 69098
+    title = "EVTNAME69098"
+    desc = "EVTDESC69098"
+    
+    trigger = {
+        market_determined_exchange_rates = 1
+        NOT = { has_country_flag = market_determined_exchange_rates }
+    }
+
+    immediate = {
+        set_country_flag = market_determined_exchange_rates
+    }
+
+    option = {
+        name = "EVTOPTA69042"
+    }
+}

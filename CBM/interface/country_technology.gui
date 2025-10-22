@@ -231,10 +231,10 @@ guiTypes = {
 			instantTextBoxType = { 
 				name = "title"
 				position = { x = 20 y = 18 }
-				font = "vic_22"
+				font = "vic_18"
 				text = "NO_TECH_SELECTED"	
-				maxWidth = 450
-				maxHeight = 20
+				maxWidth = 5000
+				maxHeight = 5000
 			}	
 			instantTextBoxType = { 
 				name = "effect"

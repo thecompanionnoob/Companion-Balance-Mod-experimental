@@ -46,6 +46,7 @@ school_reforms = no_schools
 
 # Technologies
 no_standard = 1
+set_country_flag = no_standard
 guild_based_production = 1
 classicism_n_early_romanticism = 1
 set_country_flag = classicism_n_early_romanticism

@@ -53,6 +53,7 @@
 - Split fabric factory into cotton and wool fabric factories.
 - Increased base iron production significantly.
 - Added RGO throughput to the power tech line in industry tech.
+- Added 5% Maximum Tariff rate bonus to monetary system line in commerce tech.
 
 ## Navy
 - Made it so each era's ships are 15x better than the previous era, so it's always worth it to upgrade.
@@ -74,6 +75,7 @@
     - USA starts with universal voting, allowed public meetings, upper house based on population, and secret ballots.
     - Reduced immigration attraction debuff from special modifiers for the USA.
     - Pushed back forced start date of civil war to 1860.
+    - Made it so when you go over 5 revanchism, the civil war no longer fires.
 - Other new world nations:
     - Start with wealth voting, allowed public meetings, upper house based on population, and gerrymandering.
 - Russia:
@@ -89,9 +91,13 @@
     - Starting Yugoslavia cores are removed.
     - Yugoslavia formation decision is now based on owning the states themselves.
     - Forming Yugoslavia removes cores of Slovenia & Croatia.
-    - Removed militancy effects from forming Yugoslavia/
+    - Removed militancy effects from forming Yugoslavia.
     - Removed infamy gain from forming Yugoslavia.
     - Halved prestige gain from forming Yugoslavia.
+- Mexico:
+    - Made it so you must be at peace to click the North American hegemony decision.
+- African Countries:
+    - African countries may now recieve migrants
 
 ## National Focuses
 - Nerfed RGO national focus from +25% to +15%.
@@ -122,3 +128,4 @@
 - Applied country flags by default for countries that have the appropriate tech at the start of the bookmark: This cuts down on event spam, especially in the ww1 bookmark.
 - Migrated national idea system so it uses the variable system to give you national idea points that you can spend at will. This is so if you forget to click a national idea, you do not delay taking the next one.
 - Added a tutorial event chain for new players.
+- Fixed poptypes localisation so it no longer says "crisis state" when it should say "state"

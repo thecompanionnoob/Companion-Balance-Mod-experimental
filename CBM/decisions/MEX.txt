@@ -35,6 +35,7 @@ political_decisions = {
 					owned_by = USA
 				}
 			}
+			war = no 
 		}
 		effect = {
             set_country_flag = north_america

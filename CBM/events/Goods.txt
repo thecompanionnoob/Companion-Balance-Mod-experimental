@@ -75,7 +75,6 @@ province_event = {
 
 	title = "EVTNAME1100"
 	desc = "EVTDESC1100"
-	picture = ""
 
 	option = {
 		name = "EVTOPTA1100"
@@ -227,7 +226,6 @@ province_event = {
 
 	title = "EVTNAME1100"
 	desc = "EVTDESC1100"
-	picture = ""
 
 	option = {
 		name = "EVTOPTA1100"
@@ -264,7 +262,6 @@ province_event = {
 
 	title = "EVTNAME1105"
 	desc = "EVTDESC1105"
-	picture = ""
 
 	option = {
 		name = "EVTOPTA1105"
@@ -378,7 +375,6 @@ province_event = {
 
 	title = "EVTNAME1107"
 	desc = "EVTDESC1107"
-	picture = ""
 
 	option = {
 		name = "EVTOPTA1107"
@@ -447,7 +443,6 @@ province_event = {
 
 	title = "EVTNAME1107"
 	desc = "EVTDESC1107"
-	picture = ""
 
 	option = {
 		name = "EVTOPTA1107"
