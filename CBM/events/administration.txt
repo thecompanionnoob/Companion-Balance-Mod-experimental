@@ -7,7 +7,6 @@ country_event = { #tutorial
 		NOT = {
 			has_country_flag = tutorial
 		}
-		ai = no
 		NOT = {
 			has_global_flag = great_war
 		}
@@ -22,6 +21,9 @@ country_event = { #tutorial
 	option = {
 		name = "EVTOPTA69001"
 		prestige = 1
+		ai_chance = {
+			factor = 100
+		}
 	}
 	option = {
 		name = "EVTOPTB69001"

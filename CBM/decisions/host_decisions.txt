@@ -196,4 +196,19 @@ political_decisions = {
 		}
 
 	}
+	allow_smart_ai = {
+		picture = host_decisions
+		alert = no
+		potential = {
+			has_country_flag = host_nation
+			has_country_flag = host_decision_visible 
+			NOT = { has_global_flag = smart_ai }
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			set_global_flag = smart_ai
+		}
+	}
 }

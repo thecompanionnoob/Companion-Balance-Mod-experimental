@@ -12,7 +12,11 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			set_country_flag = national_ideas_enabled
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_global_flag = smart_ai }
+			}
 		}
 	}
 	national_idea_disable = {
@@ -23,6 +27,9 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 		allow = {}
 		effect = {
 			clr_country_flag = national_ideas_enabled
+		}
+		ai_will_do = {
+			factor = 0
 		}
 	}
 	naval_idea_decision = { #alll the naval modifiers
@@ -39,6 +46,42 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			clr_country_flag = national_idea_reminder
 			add_country_modifier = { name = naval_idea duration = -1 }
 			change_variable = { which = national_idea_points value = -1 }
+		}
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 0
+				NOT = { has_global_flag = smart_ai }
+			}
+			modifier = {
+				factor = 0
+				NOT = { total_num_of_ports = 1 }
+			}
+			modifier = {
+				factor = 0.1
+				has_global_flag = smart_ai
+				total_num_of_ports = 1
+			}
+			modifier = {
+				factor = 0.15
+				has_global_flag = smart_ai
+				total_num_of_ports = 5
+			}
+			modifier = {
+				factor = 0.25
+				has_global_flag = smart_ai
+				total_num_of_ports = 10
+			}
+			modifier = {
+				factor = 0.25
+				has_global_flag = smart_ai
+				total_num_of_ports = 50
+			}
+			modifier = {
+				factor = 0.25
+				has_global_flag = smart_ai
+				total_num_of_ports = 100
+			}
 		}
 	}
     colonial_migration_decision = { #allows colonial migration
@@ -57,6 +100,22 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			change_variable = { which = national_idea_points value = -1 }
              
 		}
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 0
+				NOT = { has_global_flag = smart_ai }
+			}
+			modifier = {
+				factor = 0
+				NOT = { colonial_nation = yes }
+			}
+			modifier = {
+				factor = 0.25
+				colonial_nation = yes 
+				has_global_flag = smart_ai 
+			}
+		}
     }
 
 	economic_idea_decision = { #tax efficiency, RGO effeciency, general economic modifiers
@@ -74,6 +133,13 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			add_country_modifier = { name = economic_idea duration = -1 }
 			change_variable = { which = national_idea_points value = -1 }
 		}
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 0
+				NOT = { has_global_flag = smart_ai }
+			}
+		}
 	}
 	industry_idea_decision = { #more industry output, throughput, input
 		alert = no
@@ -89,6 +155,13 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			clr_country_flag = national_idea_reminder
 			add_country_modifier = { name = industry_idea duration = -1 }
 			change_variable = { which = national_idea_points value = -1 }
+		}
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 0
+				NOT = { has_global_flag = smart_ai }
+			}
 		}
 	}
 	political_idea_decision = { #less militancy, consciousness, more ruling party support
@@ -106,6 +179,40 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			add_country_modifier = { name = political_idea duration = -1 }
 			change_variable = { which = national_idea_points value = -1 }
 		}
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 0
+				NOT = { has_global_flag = smart_ai }
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					capital_scope = { 
+						OR = {
+							continent = north_america
+							continent = south_america
+							continent = oceania
+							continent = africa
+						}
+					}
+
+				}
+				has_global_flag = smart_ai
+			}
+			modifier = {
+				factor = 0.5
+				capital_scope = { 
+					OR = {
+						continent = north_america
+						continent = south_america
+						continent = oceania
+						continent = africa
+					}
+				}
+				has_global_flag = smart_ai
+			}
+		}
 	}
 	diplomatic_idea_decision = { #less infamy, sphere quicker
 		alert = no
@@ -121,6 +228,30 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			clr_country_flag = national_idea_reminder
 			add_country_modifier = { name = diplomatic_idea duration = -1 }
 			change_variable = { which = national_idea_points value = -1 }
+		}
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 0
+				NOT = { has_global_flag = smart_ai }
+			}
+			modifier = {
+				factor = 0.25
+				badboy = 0.75
+				has_global_flag = smart_ai
+			}
+			modifier = {
+				factor = 0.25
+				capital_scope = { 
+					OR = {
+						continent = north_america
+						continent = south_america
+						continent = oceania
+						continent = africa
+					}
+				}
+				has_global_flag = smart_ai
+			}
 		}
 	}
     promotion_idea_decision = { #buffs promotion
@@ -139,6 +270,13 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			add_country_modifier = { name = promotion_idea duration = -1 }
 			change_variable = { which = national_idea_points value = -1 }
 		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_global_flag = smart_ai }
+			}
+		}
 	}
 
 	assimilation_idea_decision = { #buffs assim 
@@ -156,6 +294,18 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			add_country_modifier = { name = assim_idea duration = -1 }
 			change_variable = { which = national_idea_points value = -1 }
 		}
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 0
+				NOT = { has_global_flag = smart_ai }
+			}
+			modifier = {
+				factor = 0.25
+				has_global_flag = smart_ai
+				NOT = { lost_national = 10 }
+			}
+		}
 	}
         
 	education_idea_decision = { #education eff.
@@ -172,6 +322,18 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			clr_country_flag = national_idea_reminder
 			add_country_modifier = { name = education_idea duration = -1 }
 			change_variable = { which = national_idea_points value = -1 }
+		}
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 0
+				NOT = { has_global_flag = smart_ai }
+			}
+			modifier = {
+				factor = 0.75
+				has_global_flag = smart_ai
+				NOT = { literacy = 0.6 }
+			}
 		}
 	}
 	army_quantity_idea_decision = { #army quantity & logistics modifiers
@@ -201,6 +363,23 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			add_country_modifier = { name = army_quantity_idea duration = -1 }
 			change_variable = { which = national_idea_points value = -1 }
 		}
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 0
+				NOT = { has_global_flag = smart_ai }
+			}
+			modifier = {
+				factor = 0.5
+				has_global_flag = smart_ai
+				has_recently_lost_war = yes
+			}
+			modifier = {
+				factor = 0.25
+				has_global_flag = smart_ai
+				has_unclaimed_cores = yes
+			}
+		}
 	}
 	army_quality_idea_decision = { #army quality modifiers
 		alert = no
@@ -217,6 +396,23 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
 			add_country_modifier = { name = army_quality_idea duration = -1 }
 			change_variable = { which = national_idea_points value = -1 }
 		}
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 0
+				NOT = { has_global_flag = smart_ai }
+			}
+			modifier = {
+				factor = 0.5
+				has_global_flag = smart_ai
+				has_recently_lost_war = yes
+			}
+			modifier = {
+				factor = 0.25
+				has_global_flag = smart_ai
+				has_unclaimed_cores = yes
+			}
+		}
 	}
     colonial_migration_enable = {
         potential = {
@@ -227,8 +423,12 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
         effect = {
             set_country_flag = colonial_migration_idea
         }
-		ai_will_do = { #without this the ai was spamming the decision
-			factor = 0
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_global_flag = smart_ai }
+			}
 		}
     }
     colonial_migration_disable = {
@@ -239,6 +439,9 @@ political_decisions = { ### See common/event_modifiers.txt for the effects of th
         effect = {
             clr_country_flag = colonial_migration_idea
         }
+		ai_will_do = { 
+			factor = 0
+		}
     }
 }
 			

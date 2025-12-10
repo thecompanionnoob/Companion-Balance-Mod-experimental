@@ -303,3 +303,5 @@ accept_native_americans_title;Integrate the Natives;;;;;;
 accept_native_americans_desc;§RThis is mutually exclusive with Peru-Bolivia§!\nWe are in a unique position to place ourselves as a savior of the Natives of the Americas, and forge a state with true equality between Natives and Colonizers.;;;;;;
 accept_afro_brazil_title;Become the Savior of the Afro Brazilians;;;;;;
 accept_afro_brazil_desc;The African populations in neighboring Brazil labor under awful conditions. With our acceptance of the natives, we could also serve as the savior of these people. It would also work as a backdoor into our Brazilian rivals.;;;;;;
+allow_smart_ai_title;Allow AI to pick National Ideas & Values;;;;;;
+allow_smart_ai_desc;This decision allows ai to pick national ideas & values. This is useful for games where you will interact with the ai a lot (singleplayer or small lobby mp games). If you want to avoid ai picking ideas or national values whenever it takes over a player nation then do not click this decision.;;;;;;

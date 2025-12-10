@@ -14,7 +14,11 @@ political_decisions = {
 			set_country_flag = nv_switch_enabled
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_global_flag = smart_ai }
+			}
 		}
 	}
 	nv_switch_disable = {
@@ -30,7 +34,11 @@ political_decisions = {
 			clr_country_flag = nv_switch_enabled
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 1
+			modifier = {
+				factor = 0
+				has_global_flag = smart_ai 
+			}
 		}
 	}
 	order_decision = {
@@ -81,7 +89,11 @@ political_decisions = {
 			nationalvalue = nv_equality
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_global_flag = smart_ai }
+			}
 		}
 	}
 }
