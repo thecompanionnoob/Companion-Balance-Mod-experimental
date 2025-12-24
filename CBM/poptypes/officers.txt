@@ -296,6 +296,11 @@ soldiers =
 				everyday_needs = 0.8
 			}
 		}
+		
+		modifier = {
+			factor = -100
+			has_country_flag = collective_agriculture
+		}
 	}
 }
 

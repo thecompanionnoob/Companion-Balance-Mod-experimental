@@ -10,6 +10,8 @@ civilized = yes
 #GreaterPowers = prestige
 prestige = 80
 
+ decision = religion_setup
+
 # Political reforms
 slavery = yes_slavery
 upper_house_composition = appointed
@@ -30,6 +32,9 @@ health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
+
+set_country_flag = serfdom
+civ_land_reform = serfdom
 
 ruling_party = GNR_conservative
 upper_house = {
@@ -81,7 +86,7 @@ schools = traditional_academic
 
 oob = "RUS_oob.txt"
 
-decision = serfdom_setup
+#decision = serfdom_setup
 
 
 #great war setup
@@ -271,7 +276,6 @@ set_country_flag = national_fraternity
 	iron_railroad = 1
 	medicine = 1
 	inorganic_chemistry = 1
-set_country_flag = organic_chemistry
 	organic_chemistry = 1
 set_country_flag = organic_chemistry
 

@@ -45,7 +45,7 @@ political_decisions = {
 		effect = {
 			tech_school = army_tech_school
 			clr_country_flag = tech_schools_visible
-			add_country_modifier = { name = tech_school_timer duration = 12775 }
+			add_country_modifier = { name = tech_school_timer duration = 5475 }
 		}
 	}
 	switch_to_navy_tech = {
@@ -63,7 +63,7 @@ political_decisions = {
 		effect = {
 			tech_school = naval_tech_school
 			clr_country_flag = tech_schools_visible
-			add_country_modifier = { name = tech_school_timer duration = 12775 }
+			add_country_modifier = { name = tech_school_timer duration = 5475 }
 		}
 	}
 	switch_to_culture_tech = {
@@ -81,7 +81,7 @@ political_decisions = {
 		effect = {
 			tech_school = culture_tech_school
 			clr_country_flag = tech_schools_visible
-			add_country_modifier = { name = tech_school_timer duration = 12775 }
+			add_country_modifier = { name = tech_school_timer duration = 5475 }
 		}
 	}
 	switch_to_trade_tech = {
@@ -99,7 +99,7 @@ political_decisions = {
 		effect = {
 			tech_school = commerce_tech_school
 			clr_country_flag = tech_schools_visible
-			add_country_modifier = { name = tech_school_timer duration = 12775 }
+			add_country_modifier = { name = tech_school_timer duration = 5475 }
 		}
 	}
 	switch_to_industry_tech = {
@@ -117,7 +117,7 @@ political_decisions = {
 		effect = {
 			tech_school = industrial_tech_school
 			clr_country_flag = tech_schools_visible
-			add_country_modifier = { name = tech_school_timer duration = 12775 }
+			add_country_modifier = { name = tech_school_timer duration = 5475 }
 		}
 	}
 	switch_to_traditional_academic = {
@@ -136,7 +136,7 @@ political_decisions = {
 		effect = {
 			tech_school = traditional_academic
 			clr_country_flag = tech_schools_visible
-			add_country_modifier = { name = tech_school_timer duration = 12775 }
+			add_country_modifier = { name = tech_school_timer duration = 5475 }
 		}
 	}
 }

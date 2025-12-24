@@ -9,6 +9,18 @@ country_event = {
 		name = "yeah"
 		
 		country_event = { id = 69024 days = 365 }
+
+		any_country = {
+			limit = {
+				civ_land_reform = collectivized_agriculture
+			}
+			any_pop = {
+				limit = {
+					type = aristocrats
+				}
+				pop_type = craftsmen
+			}
+		}
 		
 		#tiny state assignment
 		any_country = {

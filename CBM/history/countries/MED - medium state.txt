@@ -5,3 +5,4 @@ plurality = 0.0
 nationalvalue = nv_none
 literacy = 0
 is_releasable_vassal = no
+ decision = religion_setup

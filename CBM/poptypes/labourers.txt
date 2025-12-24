@@ -588,6 +588,11 @@ promote_to =
 				aristocrats = 0.02
 			}
 		}
+		
+		modifier = {
+			factor = -100
+			has_country_flag = collective_agriculture
+		}
 
 		modifier = {
 			factor = -100

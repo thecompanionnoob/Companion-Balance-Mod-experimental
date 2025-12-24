@@ -328,3 +328,4 @@ set_country_flag = organic_chemistry
 #Inventions
 
 }
+ decision = religion_setup

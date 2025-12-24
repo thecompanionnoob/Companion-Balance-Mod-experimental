@@ -1,0 +1,574 @@
+political_decisions = {
+    open_religion_decisions = {
+        alert = no
+        potential = { 
+            NOT = { has_country_modifier = religion_timer } 
+            NOT = { has_country_flag = in_religion_menu }
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+            set_country_flag = in_religion_menu
+        }
+    }
+    close_religion_decisions = {
+        alert = no
+        potential = { 
+            has_country_flag = in_religion_menu 
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+            clr_country_flag = in_religion_menu
+        }
+    }
+    change_religion_catholicism = {
+        potential = {
+            NOT = { has_country_modifier = catholic_modifier }
+            has_country_flag = in_religion_menu 
+        }
+        allow = {
+            any_owned_province = {
+                is_core = THIS
+                NOT = { is_colonial = yes }
+                OR = {
+                    continent = europe
+                    continent = north_america
+                    continent = south_america
+                    is_core = PHI
+                }
+            }
+        }
+        effect = {
+            clr_country_flag = in_religion_menu
+            add_country_modifier = { name = religion_timer duration = 10950 }
+            add_country_modifier = { name = catholic_modifier duration = -1 }
+            remove_country_modifier = orthodox_modifier
+            remove_country_modifier = coptic_modifier
+            remove_country_modifier = sunni_modifier
+            remove_country_modifier = shia_modifier
+            remove_country_modifier = ibadi_modifier
+            remove_country_modifier = mahayana_modifier
+            remove_country_modifier = theravada_modifier
+            remove_country_modifier = shinto_modifier
+            remove_country_modifier = atheism_modifier
+            remove_country_modifier = protestant_modifier
+            any_pop = { militancy = 0.5 }
+        }
+
+    }
+    change_religion_orthodoxy = {
+        potential = {
+            NOT = { has_country_modifier = orthodox_modifier }
+            has_country_flag = in_religion_menu 
+        }
+        allow = {
+            any_owned_province = {
+                is_core = THIS
+                NOT = { is_colonial = yes }
+                OR = {
+                    is_core = RUS
+                    is_core = ROM
+                    is_core = SER
+                    is_core = YUG
+                    is_core = BUL
+                    is_core = GRE
+                    is_core = AEG
+                    is_core = GEO
+                }
+            }
+        }
+        effect = {
+            clr_country_flag = in_religion_menu
+            add_country_modifier = { name = religion_timer duration = 10950 }
+            add_country_modifier = { name = orthodox_modifier duration = -1 }
+            remove_country_modifier = catholic_modifier
+            remove_country_modifier = coptic_modifier
+            remove_country_modifier = sunni_modifier
+            remove_country_modifier = shia_modifier
+            remove_country_modifier = ibadi_modifier
+            remove_country_modifier = mahayana_modifier
+            remove_country_modifier = theravada_modifier
+            remove_country_modifier = shinto_modifier
+            remove_country_modifier = atheism_modifier
+            remove_country_modifier = protestant_modifier
+            any_pop = { militancy = 0.5 }
+        }
+
+    }
+    change_religion_protestant = {
+        potential = {
+            NOT = { has_country_modifier = protestant_modifier }
+            has_country_flag = in_religion_menu 
+        }
+        allow = {
+            any_owned_province = {
+                is_core = THIS
+                NOT = { is_colonial = yes }
+                OR = {
+                    is_core = NET
+                    is_core = SCA
+                    is_core = GER
+                    is_core = ENG
+                    is_core = USA
+                    is_core = CAN
+                    is_core = AST
+                    is_core = SAF
+                }
+            }
+        }
+        effect = {
+            clr_country_flag = in_religion_menu
+            add_country_modifier = { name = religion_timer duration = 10950 }
+            add_country_modifier = { name = protestant_modifier duration = -1 }
+            remove_country_modifier = catholic_modifier
+            remove_country_modifier = orthodox_modifier
+            remove_country_modifier = coptic_modifier
+            remove_country_modifier = sunni_modifier
+            remove_country_modifier = shia_modifier
+            remove_country_modifier = ibadi_modifier
+            remove_country_modifier = mahayana_modifier
+            remove_country_modifier = theravada_modifier
+            remove_country_modifier = shinto_modifier
+            remove_country_modifier = atheism_modifier
+            any_pop = { militancy = 0.5 }
+        }
+
+    }
+    change_religion_coptic = {
+        potential = {
+            NOT = { has_country_modifier = coptic_modifier }
+            has_country_flag = in_religion_menu 
+        }
+        allow = {
+            any_owned_province = {
+                is_core = THIS
+                NOT = { is_colonial = yes }
+                OR = {
+                    is_core = ETH
+                    is_core = EGY
+                }
+            }
+        }
+        effect = {
+            clr_country_flag = in_religion_menu
+            add_country_modifier = { name = religion_timer duration = 10950 }
+            add_country_modifier = { name = coptic_modifier duration = -1 }
+            remove_country_modifier = catholic_modifier
+            remove_country_modifier = orthodox_modifier
+            remove_country_modifier = protestant_modifier
+            remove_country_modifier = sunni_modifier
+            remove_country_modifier = shia_modifier
+            remove_country_modifier = ibadi_modifier
+            remove_country_modifier = mahayana_modifier
+            remove_country_modifier = theravada_modifier
+            remove_country_modifier = shinto_modifier
+            remove_country_modifier = atheism_modifier
+            any_pop = { militancy = 2.5 }
+        }
+
+    }
+    change_religion_sunni = {
+        potential = {
+            NOT = { has_country_modifier = sunni_modifier }
+            has_country_flag = in_religion_menu 
+        }
+        allow = {
+            any_owned_province = {
+                is_core = THIS
+                NOT = { is_colonial = yes }
+                OR = {
+                    is_core = ARA
+                    is_core = EGY
+                    is_core = MOR
+                    is_core = BRU
+                    is_core = BUK
+                    is_core = AFG
+                    is_core = PAK
+                    is_core = BNG
+                    is_core = TUR
+                }
+            }
+        }
+        effect = {
+            clr_country_flag = in_religion_menu
+            add_country_modifier = { name = religion_timer duration = 10950 }
+            add_country_modifier = { name = sunni_modifier duration = -1 }
+            remove_country_modifier = catholic_modifier
+            remove_country_modifier = orthodox_modifier
+            remove_country_modifier = protestant_modifier
+            remove_country_modifier = coptic_modifier
+            remove_country_modifier = shia_modifier
+            remove_country_modifier = ibadi_modifier
+            remove_country_modifier = mahayana_modifier
+            remove_country_modifier = theravada_modifier
+            remove_country_modifier = shinto_modifier
+            remove_country_modifier = atheism_modifier
+            any_pop = { militancy = 0.5 }
+        }
+
+    }
+    change_religion_shia = {
+        potential = {
+            NOT = { has_country_modifier = shia_modifier }
+            has_country_flag = in_religion_menu 
+        }
+        allow = {
+            any_owned_province = {
+                is_core = THIS
+                NOT = { is_colonial = yes }
+                OR = {
+                    is_core = ARA
+                    is_core = PER
+                }
+            }
+        }
+        effect = {
+            clr_country_flag = in_religion_menu
+            add_country_modifier = { name = religion_timer duration = 10950 }
+            add_country_modifier = { name = shia_modifier duration = -1 }
+            remove_country_modifier = catholic_modifier
+            remove_country_modifier = orthodox_modifier
+            remove_country_modifier = protestant_modifier
+            remove_country_modifier = sunni_modifier
+            remove_country_modifier = coptic_modifier
+            remove_country_modifier = ibadi_modifier
+            remove_country_modifier = mahayana_modifier
+            remove_country_modifier = theravada_modifier
+            remove_country_modifier = shinto_modifier
+            remove_country_modifier = atheism_modifier
+            any_pop = { militancy = 1 }
+        }
+
+    }
+    change_religion_ibadi = {
+        potential = {
+            NOT = { has_country_modifier = ibadi_modifier }
+            has_country_flag = in_religion_menu 
+        }
+        allow = {
+            any_owned_province = {
+                is_core = THIS
+                NOT = { is_colonial = yes }
+                province_id = 1166
+            }
+        }
+        effect = {
+            clr_country_flag = in_religion_menu
+            add_country_modifier = { name = religion_timer duration = 10950 }
+            add_country_modifier = { name = ibadi_modifier duration = -1 }
+            remove_country_modifier = catholic_modifier
+            remove_country_modifier = orthodox_modifier
+            remove_country_modifier = protestant_modifier
+            remove_country_modifier = sunni_modifier
+            remove_country_modifier = coptic_modifier
+            remove_country_modifier = shia_modifier
+            remove_country_modifier = mahayana_modifier
+            remove_country_modifier = theravada_modifier
+            remove_country_modifier = shinto_modifier
+            remove_country_modifier = atheism_modifier
+            any_pop = { militancy = 3.5 }
+        }
+
+    }
+    change_religion_mahayana = {
+        potential = {
+            NOT = { has_country_modifier = mahayana_modifier }
+            has_country_flag = in_religion_menu 
+        }
+        allow = {
+            any_owned_province = {
+                is_core = THIS
+                NOT = { is_colonial = yes }
+                OR = {
+                    is_core = MCK
+                    is_core = NAN
+                    is_core = YNN
+                    is_core = KOR
+                    is_core = JAP
+                    is_core = DAI
+                }
+            }
+        }
+        effect = {
+            clr_country_flag = in_religion_menu
+            add_country_modifier = { name = religion_timer duration = 10950 }
+            add_country_modifier = { name = mahayana_modifier duration = -1 }
+            remove_country_modifier = catholic_modifier
+            remove_country_modifier = orthodox_modifier
+            remove_country_modifier = protestant_modifier
+            remove_country_modifier = sunni_modifier
+            remove_country_modifier = coptic_modifier
+            remove_country_modifier = shia_modifier
+            remove_country_modifier = ibadi_modifier
+            remove_country_modifier = theravada_modifier
+            remove_country_modifier = shinto_modifier
+            remove_country_modifier = atheism_modifier
+            any_pop = { militancy = 1 }
+        }
+
+    }
+    change_religion_theravada = {
+        potential = {
+            NOT = { has_country_modifier = theravada_modifier }
+            has_country_flag = in_religion_menu 
+        }
+        allow = {
+            any_owned_province = {
+                is_core = THIS
+                NOT = { is_colonial = yes }
+                OR = {
+                    is_core = SIA
+                    is_core = BUR
+                }
+            }
+        }
+        effect = {
+            clr_country_flag = in_religion_menu
+            add_country_modifier = { name = religion_timer duration = 10950 }
+            add_country_modifier = { name = theravada_modifier duration = -1 }
+            remove_country_modifier = catholic_modifier
+            remove_country_modifier = orthodox_modifier
+            remove_country_modifier = protestant_modifier
+            remove_country_modifier = sunni_modifier
+            remove_country_modifier = coptic_modifier
+            remove_country_modifier = shia_modifier
+            remove_country_modifier = ibadi_modifier
+            remove_country_modifier = mahayana_modifier
+            remove_country_modifier = shinto_modifier
+            remove_country_modifier = atheism_modifier
+            any_pop = { militancy = 2 }
+        }
+
+    }
+    change_religion_shinto = {
+        potential = {
+            NOT = { has_country_modifier = shinto_modifier }
+            has_country_flag = in_religion_menu 
+        }
+        allow = {
+            tag = JAP
+            has_country_flag = meiji_restored
+        }
+        effect = {
+            clr_country_flag = in_religion_menu
+            add_country_modifier = { name = religion_timer duration = 10950 }
+            add_country_modifier = { name = shinto_modifier duration = -1 }
+            remove_country_modifier = catholic_modifier
+            remove_country_modifier = orthodox_modifier
+            remove_country_modifier = protestant_modifier
+            remove_country_modifier = sunni_modifier
+            remove_country_modifier = coptic_modifier
+            remove_country_modifier = shia_modifier
+            remove_country_modifier = ibadi_modifier
+            remove_country_modifier = mahayana_modifier
+            remove_country_modifier = theravada_modifier
+            remove_country_modifier = atheism_modifier
+            any_pop = { militancy = 2 }
+        }
+
+    }
+    change_religion_atheism = {
+        potential = {
+            NOT = { has_country_modifier = atheism_modifier }
+            has_country_flag = in_religion_menu 
+        }
+        allow = {
+            ruling_party_ideology = communist
+        }
+        effect = {
+            clr_country_flag = in_religion_menu
+            add_country_modifier = { name = religion_timer duration = 10950 }
+            add_country_modifier = { name = atheism_modifier duration = -1 }
+            remove_country_modifier = catholic_modifier
+            remove_country_modifier = orthodox_modifier
+            remove_country_modifier = protestant_modifier
+            remove_country_modifier = sunni_modifier
+            remove_country_modifier = coptic_modifier
+            remove_country_modifier = shia_modifier
+            remove_country_modifier = ibadi_modifier
+            remove_country_modifier = mahayana_modifier
+            remove_country_modifier = theravada_modifier
+            remove_country_modifier = shinto_modifier
+            any_pop = { militancy = 4 }
+        }
+
+    }
+
+    religion_setup = {
+        potential = {
+            always = no
+        }
+        allow = {
+            always = no 
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            tag = RUS
+                            tag = SER
+                            tag = ROM
+                            tag = GRE
+                            tag = BUL
+                            tag = GEO
+
+                        }
+                    }
+                }
+                owner = { 
+                    add_country_modifier = { name = orthodox_modifier duration = -1 }
+                }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            tag = AUS
+                            tag = BEL
+                            tag = SIC
+                            tag = SAR
+                            tag = PAP
+                            tag = TUS
+                            tag = LUC
+                            tag = PAR
+                            tag = MOD
+                            tag = SWI
+                            tag = FRA
+                            tag = SPA
+                            tag = POR 
+                            tag = CLM
+                            tag = PEU
+                            tag = BOL
+                            tag = VNZ
+                            tag = PRG
+                            tag = BRZ
+                            tag = ECU
+                            tag = URU
+                            tag = ARG
+                            tag = CHL
+                            tag = UCA
+                            tag = MEX
+                            tag = HAI
+                            tag = PHI
+                            tag = BAV
+                            tag = WUR
+                            tag = KUK
+                            tag = ITA
+
+                        }
+                    }
+                }
+                owner = { 
+                    add_country_modifier = { name = catholic_modifier duration = -1 }
+                }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            tag = ENG
+                            tag = NET
+                            tag = SCA
+                            tag = PRU
+                            tag = HES
+                            tag = SAX
+                            tag = HAN
+                            tag = BRA 
+                            tag = MEC
+                            tag = HOL 
+                            tag = OLD
+                            tag = USA
+                            tag = CAN
+                            tag = SAF
+                            tag = AST
+                            tag = GER
+                        }
+                    }
+                }
+                owner = { 
+                    add_country_modifier = { name = protestant_modifier duration = -1 }
+                }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            tag = EGY
+                            tag = MOR
+                            tag = AFG
+                            tag = PAK
+                            tag = BNG
+                            tag = BUK
+                            tag = BRU
+                            tag = TUR
+                        }
+                    }
+                }
+                owner = { 
+                    add_country_modifier = { name = sunni_modifier duration = -1 }
+                }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = PER 
+                        
+                    }
+                }
+                owner = { 
+                    add_country_modifier = { name = shia_modifier duration = -1 }
+                }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            tag = DAI
+                            tag = MCK
+                            tag = YNN
+                            tag = NAN
+                            tag = KOR
+                            tag = JAP
+                            tag = CHI
+                        }
+                    }
+                }
+                owner = { 
+                    add_country_modifier = { name = mahayana_modifier duration = -1 }
+                }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            tag = SIA
+                            tag = BUR
+                            tag = MGH
+                            tag = JAU
+                            tag = HND
+                            tag = TML
+                        }
+                    }
+                }
+                owner = { 
+                    add_country_modifier = { name = theravada_modifier duration = -1 }
+                }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        tag = ETH 
+                        
+                    }
+                }
+                owner = { 
+                    add_country_modifier = { name = coptic_modifier duration = -1 }
+                }
+            }
+        }
+    }
+}

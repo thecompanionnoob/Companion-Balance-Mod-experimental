@@ -343,6 +343,11 @@ promote_to =
 			factor = 25
 			luxury_needs = 0.5
 		}
+		
+		modifier = {
+			factor = -100
+			has_country_flag = collective_agriculture
+		}
 	}
 }
 

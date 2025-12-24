@@ -113,3 +113,4 @@ set_country_flag = constitutionalism
 	neokantian_idealism = yes
 	work_control_and_hierarchy = yes
 }
+ decision = religion_setup

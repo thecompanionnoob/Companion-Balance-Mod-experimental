@@ -43,6 +43,8 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
+civ_land_reform = tenant_farmers
+
 1925.1.1 = {
 	oob = "/1925/KOR_oob.txt"
 	literacy = 0.09
@@ -52,3 +54,4 @@ school_reforms = no_schools
 	
 	#Technologies
 }
+ decision = religion_setup

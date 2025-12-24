@@ -1057,6 +1057,34 @@ guiTypes = {
 				}
 			}
 			
+			windowType = {
+				name = "civ_land_reform"
+				backGround =""
+				position = { x = 225 y = 476 }
+				size = { x=310 y=100 }
+				moveable = 0
+				dontRender = ""
+				horizontalBorder = "0"
+				verticalBorder = ""
+				fullScreen = no
+				
+				iconType = {
+				 name = "politics_civ_land_reform"
+				 spriteType = "GFX_politics_land_reform"
+				 	 position = { x= 150 y = -15 }
+				 Orientation = "UPPER_LEFT"
+			 }
+				
+				instantTextBoxType = { 
+					name = "reform_name"
+					position = { x = 180 y = -7 }
+					font = "vic_18"
+					text = "REFORM_NAME"	
+					maxWidth = 100
+					maxHeight = 20	
+				}
+			}
+			
 			#windowType = {
 			#	name = "citizen_reforms"
 			#	backGround =""

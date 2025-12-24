@@ -1,0 +1,25 @@
+country_event = {
+    id = 69100
+    title = "EVTNAME69100"
+    desc = "EVTDESC69100"
+
+    fire_only_once = yes
+    
+    trigger = {
+        OR = {
+            tag = AUS
+            tag = KUK
+            tag = SGF
+        }
+        year = 1848
+        has_country_flag = serfdom
+    }
+
+    option = {
+        name = "EVTOPTA69100"
+        any_pop = { militancy = 3 }
+        social_reform = tenant_farmers
+        clr_country_flag = serfdom
+        
+    }
+}

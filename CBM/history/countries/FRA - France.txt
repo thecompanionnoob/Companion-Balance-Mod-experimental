@@ -32,6 +32,8 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
+civ_land_reform = tenant_farmers
+
 # Technologies
 post_napoleonic_thought = 1
 flintlock_rifles = 1
@@ -97,6 +99,16 @@ upper_house = {
 
 govt_flag = {
 	government = absolute_monarchy
+	flag = presidential_dictatorship
+}
+
+govt_flag = {
+	government = prussian_constitutionalism
+	flag = presidential_dictatorship
+}
+
+govt_flag = {
+	government = hms_government
 	flag = presidential_dictatorship
 }
 
@@ -313,4 +325,4 @@ set_country_flag = organic_chemistry
 set_country_flag = organic_chemistry
 	electricity = 1
 
-}
+} decision = religion_setup

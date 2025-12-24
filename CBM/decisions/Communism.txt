@@ -1,0 +1,40 @@
+political_decisions = {
+    collectivize_agriculture = {
+        potential = {
+            is_ideology_enabled = communist
+            NOT = { has_country_flag = collective_agriculture }
+        }
+        allow = {
+            ruling_party_ideology = communist
+        }
+        effect = {
+            clr_country_flag = serfdom
+            set_country_flag = collective_agriculture
+            social_reform = collectivized_agriculture
+            any_pop = {
+                limit = {
+                    type = aristocrats
+                }
+                pop_type = craftsmen
+            }
+        }
+    }
+    privatize_agriculture = {
+        potential = {
+            NOT = { ruling_party_ideology = communist }
+            has_country_flag = collective_agriculture
+        }
+        allow = {
+            NOT = {
+                OR = {
+                    ruling_party_ideology = communist
+                    ruling_party_ideology = socialist
+                }
+            }
+        }
+        effect = {
+            clr_country_flag = collective_agriculture
+            social_reform = commercialized_agriculture
+        }
+    }
+}

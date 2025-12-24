@@ -30,6 +30,8 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
+civ_land_reform = tenant_farmers
+
 ruling_party = PAR_reactionary
 upper_house = {
 	fascist = 0
@@ -134,3 +136,4 @@ set_country_flag = constitutionalism
 	chemotherapy = yes
 	work_specialization = yes
 }
+ decision = religion_setup

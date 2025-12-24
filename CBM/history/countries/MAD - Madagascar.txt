@@ -54,3 +54,4 @@ school_reforms = no_schools
 	#Technologies
 	flintlock_rifles = 1
 }
+ decision = religion_setup

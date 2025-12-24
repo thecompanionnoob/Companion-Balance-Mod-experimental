@@ -64,3 +64,4 @@ water_wheel_power = 1
 	#Military Reforms
 	foreign_training = yes_foreign_training
 }
+ decision = religion_setup

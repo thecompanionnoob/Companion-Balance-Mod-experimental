@@ -43,3 +43,4 @@ upper_house = {
 }
 
 
+ decision = religion_setup

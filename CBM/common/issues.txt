@@ -405,10 +405,10 @@ social_reforms = {
 		no_work_hour_limit = {
 		}
 		twelve_hours = {
-			pension_level	= -0.1
+			pension_level	= -0.2
 		}
 		eight_hours = {
-			pension_level	= -0.2
+			pension_level	= -0.4
 		}
 	}
 	safety_regulations = {
@@ -417,13 +417,13 @@ social_reforms = {
 		no_safety = {
 		}
 		low_safety = {
-			pension_level	= -0.1
+			pension_level	= -0.2
 		}
 		acceptable_safety = {
-			pension_level	= -0.15
+			pension_level	= -0.3
 		}
 		good_safety = {
-			pension_level	= -0.2
+			pension_level	= -0.4
 		}
 	}
 	
@@ -449,15 +449,76 @@ social_reforms = {
 		no_pensions = {
 		}
 		low_pensions = {
-			pension_level	= -0.1
-		}
-		acceptable_pensions = {
-			pension_level	= -0.15
-		}
-		good_pensions = {
 			pension_level	= -0.2
 		}
+		acceptable_pensions = {
+			pension_level	= -0.3
+		}
+		good_pensions = {
+			pension_level	= -0.4
+		}
 	}	
+	civ_land_reform = {
+		administrative = yes
+		serfdom = {
+
+			#-promotion
+			global_pop_militancy_modifier = -0.01
+			rgo_output = 0.05
+
+			allow = { 
+				always = no 
+			}
+		}
+		tenant_farmers = {
+
+			#-promotion
+			rgo_output = 0.05
+
+			allow = {
+				NOT = { has_country_flag = serfdom }
+				NOT = { has_country_flag = collective_agriculture }
+			}
+		}
+		homesteading = {
+
+			global_immigrant_attract = 0.1
+			rgo_output = 0.05
+			global_assimilation_rate = 0.2
+
+
+			allow = {
+				NOT = { has_country_flag = serfdom }
+				NOT = { has_country_flag = collective_agriculture }
+			}
+		}
+		commercialized_agriculture = {
+
+			rgo_throughput = 0.05
+			rgo_output = 0.05
+
+			max_tariff = -0.05
+			tax_efficiency = -0.06
+
+			#+promotion
+
+			allow = {
+            	NOT = { ruling_party_ideology = communist }
+				NOT = { has_country_flag = serfdom }
+				NOT = { has_country_flag = collective_agriculture }
+			}
+		}
+		collectivized_agriculture = {
+
+			#all aristos go to craftsmen
+			max_tariff = 0.05
+			tax_efficiency = 0.06
+
+			allow = {
+				always = no
+			}
+		}
+	}
 	health_care = {
 		administrative = yes
 		next_step_only = yes

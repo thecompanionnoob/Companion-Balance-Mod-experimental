@@ -48,6 +48,8 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
+civ_land_reform = tenant_farmers
+
 #great war setup
 1836.2.1 = {
 	decision = diplomatic_idea_decision
@@ -233,4 +235,4 @@ set_country_flag = organic_chemistry
 	organic_chemistry = 1
 set_country_flag = organic_chemistry
 
-}
+} decision = religion_setup

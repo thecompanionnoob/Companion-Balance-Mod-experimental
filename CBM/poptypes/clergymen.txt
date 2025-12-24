@@ -241,6 +241,11 @@ promote_to =
 			factor = -100
 			NOT = { clergymen = 0.04 }
 		}
+		
+		modifier = {
+			factor = -100
+			has_country_flag = collective_agriculture
+		}
 	}
 	farmers = { #and labourers
 		factor = 0.01

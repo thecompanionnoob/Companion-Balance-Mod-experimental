@@ -30,6 +30,8 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
+civ_land_reform = tenant_farmers
+
 ruling_party = MOD_reactionary
 upper_house = {
 	fascist = 0
@@ -143,3 +145,4 @@ set_country_flag = constitutionalism
 	mechanized_slaughtering_block = yes
 	northrop_power_loom = yes
 }
+ decision = religion_setup

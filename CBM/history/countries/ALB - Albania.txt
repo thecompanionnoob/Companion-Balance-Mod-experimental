@@ -66,3 +66,4 @@ publishing_industry = 1
 
 #Inventions
 }
+ decision = religion_setup

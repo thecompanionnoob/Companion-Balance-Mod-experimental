@@ -31,6 +31,9 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
+set_country_flag = serfdom
+civ_land_reform = serfdom
+
 ruling_party = GNR_conservative
 upper_house = {
 	fascist = 0
@@ -327,3 +330,4 @@ set_country_flag = organic_chemistry
 set_country_flag = organic_chemistry
 
 }
+ decision = religion_setup

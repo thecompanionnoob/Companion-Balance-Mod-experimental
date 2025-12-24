@@ -29,6 +29,8 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
+civ_land_reform = tenant_farmers
+
 ruling_party = BAY_conservative_2
 upper_house = {
 	fascist = 0
@@ -160,3 +162,4 @@ set_country_flag = organic_chemistry
 #Inventions
 
 }
+ decision = religion_setup

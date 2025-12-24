@@ -45,4 +45,4 @@ upper_house = {
 set_country_flag = tutorial
 set_country_flag = unciv_mobilize_explain
 	decision = great_war_setup
-}
+} decision = religion_setup

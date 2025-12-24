@@ -43,3 +43,4 @@ pensions = no_pensions
 school_reforms = no_schools
 
 
+ decision = religion_setup

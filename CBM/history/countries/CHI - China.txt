@@ -118,3 +118,4 @@ set_country_flag = unciv_mobilize_explain
 	military_staff_system = 1
 
 }
+ decision = religion_setup

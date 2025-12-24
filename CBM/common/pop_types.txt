@@ -105,8 +105,16 @@ promotion_chance =
 
     modifier = {
         factor = -0.05
-        country = { has_country_flag = has_serfdom }
+        country = { civ_land_reform = serfdom }
     }
+	modifier = {
+		factor = -0.025
+		country = { civ_land_reform = tenant_farmers }
+	}
+	modifier = {
+		factor = 0.025
+		country = { civ_land_reform = commercialized_agriculture }
+	}
 
     modifier = {
         factor = 0.1

@@ -15,17 +15,19 @@ political_decisions = {
 	}
 	abolish_serfdom = {
 		potential = {
-			tag = RUS
-			has_country_modifier = serfdom_modifier
+			has_country_flag = serfdom
 		}
 		allow = {
-			nationalism_n_imperialism = 1
+			OR = {
+				nationalism_n_imperialism = 1
+				NOT = { tag = RUS }
+			}
 			money = 500000
 		}
 		effect = {
 			money = -500000
-			remove_country_modifier = serfdom_modifier
-			clr_country_flag = has_serfdom
+			social_reform = tenant_farmers
+			clr_country_flag = serfdom
 		}
 	}
 	accept_ruthenian = {

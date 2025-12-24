@@ -124,3 +124,4 @@ set_country_flag = constitutionalism
 	building_station_shipyards = yes
 	jacquard_power_loom = yes
 }
+ decision = religion_setup

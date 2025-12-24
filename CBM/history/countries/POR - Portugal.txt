@@ -30,6 +30,8 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
+civ_land_reform = tenant_farmers
+
 ruling_party = GNR_liberal
 last_election = 1834.1.1
 upper_house = {
@@ -274,4 +276,4 @@ set_country_flag = organic_chemistry
 	organic_chemistry = 1
 set_country_flag = organic_chemistry
 
-}
+} decision = religion_setup

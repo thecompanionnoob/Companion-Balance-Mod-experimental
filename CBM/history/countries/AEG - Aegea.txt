@@ -8,3 +8,4 @@ nationalvalue = nv_none
 literacy = 0.22
 civilized = yes
 prestige = 5
+ decision = religion_setup

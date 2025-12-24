@@ -34,6 +34,8 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
+civ_land_reform = tenant_farmers
+
 ruling_party = GNR_conservative
 upper_house = {
 	fascist = 0
@@ -91,4 +93,4 @@ nonstate_consciousness = 1
 
 schools = traditional_academic
 
-oob = "PRU_oob.txt"
+oob = "PRU_oob.txt" decision = religion_setup

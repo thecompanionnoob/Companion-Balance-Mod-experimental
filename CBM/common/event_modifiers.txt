@@ -832,7 +832,17 @@ diplomatic_offensive = {
 	prestige = 0.05
 }
 
+immigrant_rush = {
+	icon = 7
+	global_immigrant_attract = 0.15
+}
+
 capital_supply_depot = {
+	max_attrition = -100
+	icon = 17
+}
+
+prov_supply_depot = {
 	max_attrition = -100
 	icon = 17
 }
@@ -995,6 +1005,52 @@ assim_idea = {
 national_idea_timer = {
 }
 
+#Religion
+
+catholic_modifier = {
+	global_pop_militancy_modifier = -0.01
+	research_points_modifier = 0.01
+}
+orthodox_modifier = {
+	global_pop_militancy_modifier = -0.02
+}
+protestant_modifier = {
+	education_efficiency_modifier = 0.025
+}
+coptic_modifier = {
+	war_exhaustion = -0.1
+}
+sunni_modifier = {
+	global_pop_militancy_modifier = -0.01
+	global_assimilation_rate = 0.05
+}
+shia_modifier = {
+	global_pop_militancy_modifier = -0.03
+}
+ibadi_modifier = {
+	import_cost = -0.1
+	factory_output = 0.05
+	factory_input = -0.05
+}
+mahayana_modifier = {
+	global_pop_militancy_modifier = -0.01
+	research_points_modifier = 0.025
+}
+theravada_modifier = {
+	global_pop_militancy_modifier = -0.01
+	education_efficiency_modifier = 0.1
+}
+shinto_modifier = {
+	global_pop_militancy_modifier = -0.01
+	war_exhaustion = -0.1
+	max_tariff = 0.025
+}
+atheism_modifier = {
+	education_efficiency_modifier = 0.05
+	research_points_modifier = 0.1
+	global_pop_militancy_modifier = 0.01
+}
+
 ### PROV SELECTOR
 
 province_attract_immigrants = {
@@ -1002,7 +1058,7 @@ province_attract_immigrants = {
 	immigrant_push = -1
 }
 assim_focus = { 
-	assimilation_rate = 8
+	assimilation_rate = 6
 }
 economic_aid_campaign = {
 	local_ruling_party_support = 0.15
@@ -1050,4 +1106,6 @@ naval_base_2 = {
 naval_base_3 = {
 }
 gambling_delay = {
+}
+religion_timer = {
 }

@@ -32,6 +32,9 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
+set_country_flag = serfdom
+civ_land_reform = serfdom
+
 ruling_party = GNR_conservative
 upper_house = {
 	fascist = 0
@@ -83,3 +86,4 @@ nonstate_consciousness = 2
 schools = traditional_academic
 
 oob = "AUS_oob.txt"
+ decision = religion_setup

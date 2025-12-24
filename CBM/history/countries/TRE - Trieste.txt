@@ -48,3 +48,4 @@ upper_house = {
 
 #Inventions
 }
+ decision = religion_setup

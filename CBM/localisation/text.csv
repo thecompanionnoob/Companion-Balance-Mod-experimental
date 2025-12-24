@@ -13562,7 +13562,7 @@ catholic;Catholic;Catholiques;Katholisch;;Católica;;;;;;;;;x;;;;
 protestant;Protestant;Protestants;Protestantisch;;Protestante;;;;;;;;;x;;;;
 orthodox;Orthodox;Orthodoxes;Orthodox;;Ortodoxa;;;;;;;;;x;;;;
 coptic;Coptic;Coptes;Koptisch;;Copta;;;;;;;;;x;;;;
-sunni;Sunni;Sunnites;Sunnitisch;;Sunní;;;;;;;;;x;;;;
+sunni;.;.;.;;.;;;;;;;;;x;;;;
 shiite;Shiite;Chiites;Schiitisch;;Chiíta;;;;;;;;;x;;;;
 jewish;Jewish;Juifs;Jüdisch;;Judía;;;;;;;;;x;;;;
 mahayana;Mahayana;Mahayana;Mahayana;;Budista Mahayana;;;;;;;;;x;;;;
@@ -14830,7 +14830,7 @@ TECH_OUTPUT;production output;rendement de la production;Produktionsleistung;;Sa
 TECH_INPUT;production input;matières premières de la production;Produktions-Input;;Entrada de producción;;;;;;;;;x;;;;
 TECH_THROUGHPUT;production throughput;débit de la production;Produktionsdurchsatz;;Rendimiento de producción;;;;;;;;;x;;;;
 CHANGES_UNIT_APPEARANCE_TECH;Changes unit appearance;Modifie l'apparence des unités;Verändert Einheitenerscheinung;;Cambia la apariencia de la unidad;;;;;;;;;x;;;;
-PRESTIGE_MODIFIER_TECH;Assimilation Rate: §G+50%§!\nPrestige gain;Gain de prestige;Prestigegewinn;;Ganancia de prestigio;;;;;;;;;x;;;;
+PRESTIGE_MODIFIER_TECH;Assimilation Rate: §G+25%§!\nPrestige gain;Gain de prestige;Prestigegewinn;;Ganancia de prestigio;;;;;;;;;x;;;;
 PERMANENT_PRESTIGE_TECH;Permanent prestige;Prestige permanent;Prestigegewinn (absolut);;Prestigio permanente;;;;;;;;;x;;;;
 COLONIAL_PRESTIGE_MODIFIER_TECH;Colonial prestige;Prestige colonial;Kolonialprestige;;Prestigio colonial;;;;;;;;;x;;;;
 SHARED_PRESTIGE_TECH;Shared prestige(current);Prestige partagé (actuel);Prestigegewinn (relativ);;Prestigio compartido (actual);;;;;;;;;x;;;;

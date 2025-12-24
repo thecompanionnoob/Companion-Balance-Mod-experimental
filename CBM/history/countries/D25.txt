@@ -42,3 +42,4 @@ upper_house = { # inherit
 }
 
 
+ decision = religion_setup

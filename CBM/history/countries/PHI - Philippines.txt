@@ -29,6 +29,8 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
+civ_land_reform = tenant_farmers
+
 ruling_party = GNR_conservative
 last_election = 1834.1.1
 upper_house = {
@@ -112,3 +114,4 @@ set_country_flag = constitutionalism
 
 #Inventions
 }
+ decision = religion_setup

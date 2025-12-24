@@ -76,3 +76,4 @@ basic_chemistry = 1
 # Starting Consciousness
 
 schools = traditional_academic
+ decision = religion_setup

@@ -149,3 +149,4 @@ set_country_flag = meritocracy
 #Inventions
 
 }
+ decision = religion_setup

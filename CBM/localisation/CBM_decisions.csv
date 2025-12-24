@@ -60,7 +60,7 @@ liberty_decision_desc;§G+3%§! Mobilization Size\n§G+10%§! Political & Social Ref
 equality_decision_title;Switch National Value to Equality;;;;;;;;;x
 equality_decision_desc;§G+2%§! Mobilization Size\n§G+20%§! Political & Social Reform Desire\n§G+20%§! Diplomatic Influence\n§G+15%§! Immigration Attraction\n§G-0.1§! Monthly War Exhaustion\n§G+20%§! RGO Output\n§G+10%§! Research Points;;;;;;;;;x
 tech_school_enable_change_title;Make Tech School Decisions Visible;;;;;;;;;x
-tech_school_enable_change_desc;§RThese decisions can only be picked every 35 years!§!;;;;;;;;;x
+tech_school_enable_change_desc;§RThese decisions can only be picked every 15 years!§!;;;;;;;;;x
 tech_school_disable_change_title;Hide Tech School Decisions;;;;;;;;;x
 tech_school_disable_change_desc; ;;;;;;;;;x
 form_aegea_title;Form Aegean Nation!;;;;;;;;;x
@@ -272,7 +272,7 @@ great_war_no_overseas_no_minors_desc;This decision forces a no minors, no overse
 demote_bureaucrats_title;Demote Unaccepted Bureaucrats;;;;;;
 demote_bureaucrats_desc;Demotes unaccepted bureaucrats to farmers/labourers.;;;;;;
 abolish_serfdom_title;Abolish Serfdom;;;;;;
-abolish_serfdom_desc;This decision removes the serfdom modifier.\n\n§RThe serfdom modifier also nerfs promotion§!;;;;;;
+abolish_serfdom_desc;Advances the Land Reform to Tenant Farmers!;;;;;;
 enable_gamble_title;Enable Gambling;;;;;;
 enable_gamble_desc;This decision enables gambling decisions for the rest of the campaign. In these decisions a player may bet an amount of money, and have a 50/50 to lose it or double it.;;;;;;
 i_want_to_gamble_title;Gamble Money;;;;;;
@@ -305,3 +305,33 @@ accept_afro_brazil_title;Become the Savior of the Afro Brazilians;;;;;;
 accept_afro_brazil_desc;The African populations in neighboring Brazil labor under awful conditions. With our acceptance of the natives, we could also serve as the savior of these people. It would also work as a backdoor into our Brazilian rivals.;;;;;;
 allow_smart_ai_title;Allow AI to pick National Ideas & Values;;;;;;
 allow_smart_ai_desc;This decision allows ai to pick national ideas & values. This is useful for games where you will interact with the ai a lot (singleplayer or small lobby mp games). If you want to avoid ai picking ideas or national values whenever it takes over a player nation then do not click this decision.;;;;;;
+open_religion_decisions_title;Show Religion Decisions;;;;;;
+open_religion_decisions_desc;Opens religion decisions;;;;;;
+close_religion_decisions_title;Close Religion Decisions;;;;;;
+close_religion_decisions_desc;Closes religion decisions;;;;;;
+change_religion_catholicism_title;Swap religion to Catholicism;;;;;;
+change_religion_catholicism_desc;Swaps religion to Catholicism\nReligion is a modifier which gives special bonuses. You may swap religions every 30 years.;;;;;;
+change_religion_orthodoxy_title;Swap religion to Orthodox;;;;;;
+change_religion_orthodoxy_desc;Swaps religion to Orthodox\nReligion is a modifier which gives special bonuses. You may swap religions every 30 years.;;;;;;
+change_religion_protestant_title;Swap religion to Protestant;;;;;;
+change_religion_protestant_desc;Swaps religion to Protestant\nReligion is a modifier which gives special bonuses. You may swap religions every 30 years.;;;;;;
+change_religion_coptic_title;Swap religion to Coptic;;;;;;
+change_religion_coptic_desc;Swaps religion to Coptic\nReligion is a modifier which gives special bonuses. You may swap religions every 30 years.;;;;;;
+change_religion_sunni_title;Swap religion to Sunni;;;;;;
+change_religion_sunni_desc;Swaps religion to Sunni\nReligion is a modifier which gives special bonuses. You may swap religions every 30 years.;;;;;;
+change_religion_shia_title;Swap religion to Shia;;;;;;
+change_religion_shia_desc;Swaps religion to Shia\nReligion is a modifier which gives special bonuses. You may swap religions every 30 years.;;;;;;
+change_religion_ibadi_title;Swap religion to Ibadi;;;;;;
+change_religion_ibadi_desc;Swaps religion to Ibadi\nReligion is a modifier which gives special bonuses. You may swap religions every 30 years.;;;;;;
+change_religion_mahayana_title;Swap religion to Mahayana;;;;;;
+change_religion_mahayana_desc;Swaps religion to Mahayana\nReligion is a modifier which gives special bonuses. You may swap religions every 30 years.;;;;;;
+change_religion_theravada_title;Swap religion to Theravada;;;;;;
+change_religion_theravada_desc;Swaps religion to Theravada\nReligion is a modifier which gives special bonuses. You may swap religions every 30 years.;;;;;;
+change_religion_shinto_title;Swap religion to Shinto;;;;;;
+change_religion_shinto_desc;Swaps religion to Shinto\nReligion is a modifier which gives special bonuses. You may swap religions every 30 years.;;;;;;
+change_religion_atheism_title;Swap religion to State Atheist;;;;;;
+change_religion_atheism_desc;Swaps religion to State Atheist\nReligion is a modifier which gives special bonuses. You may swap religions every 30 years.;;;;;;
+collectivize_agriculture_title;Collectivize Agriculture;;;;;;
+collectivize_agriculture_desc;Comrades! Our revolution has prevailed, and we are now in control of the fate of our nation. We must kick out the landowners, and collectivize the land for our new communist world!;;;;;;
+privatize_agriculture_title;Privatize Agriculture;;;;;;
+privatize_agriculture_desc;As part of our transition out of communist rule, we shall place the land back in the hands of the free market.;;;;;;
