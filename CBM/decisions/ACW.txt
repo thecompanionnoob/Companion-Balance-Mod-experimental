@@ -15,7 +15,7 @@ political_decisions = {
 		effect = {
 			prestige = 10
 			add_country_modifier = { name = immigrant_rush duration = 365 }
-			political_reform = homesteading
+			social_reform = homesteading
 		}
 	}		
 	manifest_destiny = {
