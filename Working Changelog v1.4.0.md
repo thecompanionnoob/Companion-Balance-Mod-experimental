@@ -152,7 +152,7 @@
 ## Religion
 - Added religion mechanic:
     - You are allowed to pick a religion based on owning non-colonial core provinces that were historically following that religion.
-    - There is a 30 year timer to select a new religion.
+    - There is a 20 year timer to select a new religion.
     - Each religion has unique bonuses.
     - You gain militancy for selecting a new religion, more for religions that were historically less popular.
     - Nations start with appropriate religions for their historical situation.

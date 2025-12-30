@@ -43,7 +43,7 @@ political_decisions = {
         }
         effect = {
             clr_country_flag = in_religion_menu
-            add_country_modifier = { name = religion_timer duration = 10950 }
+            add_country_modifier = { name = religion_timer duration = 7300 }
             add_country_modifier = { name = catholic_modifier duration = -1 }
             remove_country_modifier = orthodox_modifier
             remove_country_modifier = coptic_modifier
@@ -82,7 +82,7 @@ political_decisions = {
         }
         effect = {
             clr_country_flag = in_religion_menu
-            add_country_modifier = { name = religion_timer duration = 10950 }
+            add_country_modifier = { name = religion_timer duration = 7300 }
             add_country_modifier = { name = orthodox_modifier duration = -1 }
             remove_country_modifier = catholic_modifier
             remove_country_modifier = coptic_modifier
@@ -121,7 +121,7 @@ political_decisions = {
         }
         effect = {
             clr_country_flag = in_religion_menu
-            add_country_modifier = { name = religion_timer duration = 10950 }
+            add_country_modifier = { name = religion_timer duration = 7300 }
             add_country_modifier = { name = protestant_modifier duration = -1 }
             remove_country_modifier = catholic_modifier
             remove_country_modifier = orthodox_modifier
@@ -154,7 +154,7 @@ political_decisions = {
         }
         effect = {
             clr_country_flag = in_religion_menu
-            add_country_modifier = { name = religion_timer duration = 10950 }
+            add_country_modifier = { name = religion_timer duration = 7300 }
             add_country_modifier = { name = coptic_modifier duration = -1 }
             remove_country_modifier = catholic_modifier
             remove_country_modifier = orthodox_modifier
@@ -194,7 +194,7 @@ political_decisions = {
         }
         effect = {
             clr_country_flag = in_religion_menu
-            add_country_modifier = { name = religion_timer duration = 10950 }
+            add_country_modifier = { name = religion_timer duration = 7300 }
             add_country_modifier = { name = sunni_modifier duration = -1 }
             remove_country_modifier = catholic_modifier
             remove_country_modifier = orthodox_modifier
@@ -227,7 +227,7 @@ political_decisions = {
         }
         effect = {
             clr_country_flag = in_religion_menu
-            add_country_modifier = { name = religion_timer duration = 10950 }
+            add_country_modifier = { name = religion_timer duration = 7300 }
             add_country_modifier = { name = shia_modifier duration = -1 }
             remove_country_modifier = catholic_modifier
             remove_country_modifier = orthodox_modifier
@@ -257,7 +257,7 @@ political_decisions = {
         }
         effect = {
             clr_country_flag = in_religion_menu
-            add_country_modifier = { name = religion_timer duration = 10950 }
+            add_country_modifier = { name = religion_timer duration = 7300 }
             add_country_modifier = { name = ibadi_modifier duration = -1 }
             remove_country_modifier = catholic_modifier
             remove_country_modifier = orthodox_modifier
@@ -294,7 +294,7 @@ political_decisions = {
         }
         effect = {
             clr_country_flag = in_religion_menu
-            add_country_modifier = { name = religion_timer duration = 10950 }
+            add_country_modifier = { name = religion_timer duration = 7300 }
             add_country_modifier = { name = mahayana_modifier duration = -1 }
             remove_country_modifier = catholic_modifier
             remove_country_modifier = orthodox_modifier
@@ -327,7 +327,7 @@ political_decisions = {
         }
         effect = {
             clr_country_flag = in_religion_menu
-            add_country_modifier = { name = religion_timer duration = 10950 }
+            add_country_modifier = { name = religion_timer duration = 7300 }
             add_country_modifier = { name = theravada_modifier duration = -1 }
             remove_country_modifier = catholic_modifier
             remove_country_modifier = orthodox_modifier
@@ -354,7 +354,7 @@ political_decisions = {
         }
         effect = {
             clr_country_flag = in_religion_menu
-            add_country_modifier = { name = religion_timer duration = 10950 }
+            add_country_modifier = { name = religion_timer duration = 7300 }
             add_country_modifier = { name = shinto_modifier duration = -1 }
             remove_country_modifier = catholic_modifier
             remove_country_modifier = orthodox_modifier
@@ -380,7 +380,7 @@ political_decisions = {
         }
         effect = {
             clr_country_flag = in_religion_menu
-            add_country_modifier = { name = religion_timer duration = 10950 }
+            add_country_modifier = { name = religion_timer duration = 7300 }
             add_country_modifier = { name = atheism_modifier duration = -1 }
             remove_country_modifier = catholic_modifier
             remove_country_modifier = orthodox_modifier
