@@ -44,6 +44,7 @@
     - Pushed back forced start date of civil war to 1860.
     - Made it so when you go over 5 revanchism, the civil war no longer fires. 
     - Homestead act decision now switches land reform to homesteading & grants +15% immigration attraction for 1 year.
+    - Split Missouri & Iowa off of Kansas state.
 - Other new world nations:
     - Start with wealth voting, allowed public meetings, upper house based on population, and gerrymandering.
 - Russia:

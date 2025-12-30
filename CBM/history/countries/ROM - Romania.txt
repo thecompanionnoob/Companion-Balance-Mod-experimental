@@ -104,6 +104,8 @@ set_country_flag = unciv_mobilize_explain
 	decision = order_decision
 	decision = switch_to_army_tech
 
+	decision = abolish_serfdom
+
 	government = absolute_monarchy
 
 	plurality = 70

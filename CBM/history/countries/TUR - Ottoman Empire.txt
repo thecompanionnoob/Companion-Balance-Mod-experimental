@@ -162,6 +162,8 @@ set_country_flag = unciv_mobilize_explain
 	decision = order_decision
 	decision = switch_to_army_tech
 
+	decision = abolish_serfdom
+
 	plurality = 100
 	prestige = 25
 	literacy = 0.40

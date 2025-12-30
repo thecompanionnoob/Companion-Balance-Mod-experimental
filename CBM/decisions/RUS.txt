@@ -3,6 +3,7 @@ political_decisions = {
 		potential = {
 			tag = RUS
 			NOT = { has_country_flag = serfdom_setup }
+			always = no
 		}
 		allow = {
 
