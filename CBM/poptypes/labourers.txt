@@ -313,18 +313,96 @@ promote_to =
 		}	
 		group = {
 			modifier = {
-				factor = 45
-				NOT = { state_scope = { bureaucrats = 0.015 } }
+				factor = 2.5
+				administration_spending = 0.05
 			}
 			modifier = {
-				factor = 5
+				factor = 2.5
+				administration_spending = 0.1
+			}
+			modifier = {
+				factor = 2.5
+				administration_spending = 0.15
+			}
+			modifier = {
+				factor = 2.5
+				administration_spending = 0.2
+			}
+			modifier = {
+				factor = 2.5
+				administration_spending = 0.25
+			}
+			modifier = {
+				factor = 2.5
+				administration_spending = 0.3
+			}
+			modifier = {
+				factor = 2.5
+				administration_spending = 0.35
+			}
+			modifier = {
+				factor = 2.5
+				administration_spending = 0.4
+			}
+			modifier = {
+				factor = 2.5
+				administration_spending = 0.45
+			}
+			modifier = {
+				factor = 2.5
+				administration_spending = 0.5
+			}
+			modifier = {
+				factor = 2.5
+				administration_spending = 0.55
+			}
+			modifier = {
+				factor = 2.5
+				administration_spending = 0.6
+			}
+			modifier = {
+				factor = 2.5
+				administration_spending = 0.65
+			}
+			modifier = {
+				factor = 2.5
+				administration_spending = 0.7
+			}
+			modifier = {
+				factor = 2.5
+				administration_spending = 0.75
+			}
+			modifier = {
+				factor = 2.5
+				administration_spending = 0.8
+			}
+			modifier = {
+				factor = 2.5
+				administration_spending = 0.85
+			}
+			modifier = {
+				factor = 2.5
+				administration_spending = 0.9
+			}
+			modifier = {
+				factor = 2.5
+				administration_spending = 0.95
+			}
+			modifier = {
+				factor = 2.5
 				administration_spending = 1
 			}
-			modifier = {
-				factor = -100
-				state_scope = { bureaucrats = 0.016 }
+		}
+		modifier = {
+			factor = -100
+			state_scope = { bureaucrats = 0.016 }
+			NOT = {
+				location = {
+					is_colonial = yes
+				}
 			}
 		}
+
 	}
 	soldiers =
 	{
