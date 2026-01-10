@@ -6,7 +6,7 @@
     - Capitalists no longer demote when migrating.
     - Capitalists do not demote as long as there are less than 0.0005% capitalist pops in state.
     - Rich strata pops no longer emigrate or colonial migrate.
-- Soldiers now promote based on national officer % rather than local to prevent officer overpromotion
+- Soldiers now promote into officers based on national officer % rather than local to prevent officer overpromotion
 - Bureaucrats now promote based on the national bureaucrat spending.
 
 ## Army
