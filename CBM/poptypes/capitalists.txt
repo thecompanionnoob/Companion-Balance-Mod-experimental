@@ -3,7 +3,7 @@ color = { 18 129 10 }
 strata = rich
 state_capital_only = yes
 
-demote_migrant = yes
+#demote_migrant = yes
 
 rebel =
 {
@@ -223,13 +223,17 @@ promote_to =
 			factor = -100
 			NOT = { everyday_needs = 0.5 }
 			NOT = { literacy = 0.55 }
-			state_scope = { officers = 0.002 }
+			country = { officers = 0.002 }
+		}
+		modifier = {
+			factor = -100
+			NOT = { state_scope = { capitalists = 0.0005 } }
 		}
 		modifier = {
 			factor = 50
 			everyday_needs = 0.5
 			literacy = 0.55
-			NOT = { state_scope = { officers = 0.002 } }
+			NOT = { country = { officers = 0.002 } }
 		}
 	} 
 	farmers = { #and labourers
@@ -237,6 +241,10 @@ promote_to =
 		modifier = {
 			factor = -100
 			location = { work_available = { worker = craftsmen } }
+		}
+		modifier = {
+			factor = -100
+			NOT = { state_scope = { capitalists = 0.0005 } }
 		}
 		modifier = {
 			factor = -100
@@ -252,6 +260,10 @@ promote_to =
 		modifier = {
 			factor = -100
 			everyday_needs = 0.5 
+		}
+		modifier = {
+			factor = -100
+			NOT = { state_scope = { capitalists = 0.0005 } }
 		}
 		modifier = {
 			factor = -100
