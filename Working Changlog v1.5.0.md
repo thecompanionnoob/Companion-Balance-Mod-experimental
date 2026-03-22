@@ -94,6 +94,7 @@
 ## WW1
 - Bulgaria may no longer take its decisions for accepted pops in the ww1 bookmark.
 - Capitulation events are now enabled by a simple host decision, and the german decisions to start ww1 are removed.
+- Leadership is now gained via a decision instead of an event to prevent it from bugging in multiplayer.
 
 ## Fixes & QoL
 - Collectivized agriculture now correctly prevents promotion of aristocrats.
