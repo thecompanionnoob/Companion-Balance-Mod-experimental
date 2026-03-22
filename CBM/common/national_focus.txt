@@ -35,6 +35,15 @@ political_focus = {
 	}
 }
 
+population_focus = {
+	immigrant_attract_focus = {
+		immigrant_attract = 400 
+		immigrant_push = -1
+		icon = 4
+	}
+}
+
+
 military_focus = {
 	scorched_earth_focus = {
 		pop_militancy_modifier = 0.1

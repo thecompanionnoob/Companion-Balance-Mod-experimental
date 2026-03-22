@@ -6,6 +6,9 @@ post_nelsonian_thought = {
 	unciv_military = yes
 	activate_building = naval_base
 	colonial_points = 100
+	factory_goods_input = {
+		clipper_convoy = 0.04
+	}
 
 
 	ai_chance = {
@@ -83,6 +86,9 @@ battleship_column_doctrine = {
 	unciv_military = yes
 	#max_naval_base = 1
 	colonial_points = 200 
+	factory_goods_input = {
+		clipper_convoy = 0.04
+	}
 
 
 	ai_chance = {
@@ -159,6 +165,9 @@ raider_group_doctrine = {
 	cost = 10800
 	unciv_military = yes
 	max_naval_base = 1
+	factory_goods_input = {
+		steamer_convoy = 0.04
+	}
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -234,6 +243,9 @@ blue_and_brown_water_schools = {
 	unciv_military = yes
 	#max_naval_base = 1
 	colonial_points = 200
+	factory_goods_input = {
+		steamer_convoy = 0.04
+	}
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -309,6 +321,9 @@ high_sea_battle_fleet = {
 	cost = 18000
 	unciv_military = yes
 	max_naval_base = 1
+	factory_goods_input = {
+		steamer_convoy = 0.04
+	}
 
 	ai_chance = {
 		factor = 1
@@ -385,6 +400,9 @@ modern_naval_doctrine = {
 	unciv_military = yes
 	#max_naval_base = 1
 	colonial_points = 200
+	factory_goods_input = {
+		steamer_convoy = 0.04
+	}
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this

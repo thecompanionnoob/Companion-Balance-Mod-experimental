@@ -8,6 +8,7 @@ add_core = GER
 controller = OLD
 add_core = OLD
 add_core = GER
+add_core = PRU
 trade_goods = fish
 life_rating = 40
 #state_building = {

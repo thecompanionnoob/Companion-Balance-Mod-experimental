@@ -211,4 +211,20 @@ political_decisions = {
 			set_global_flag = smart_ai
 		}
 	}
+	enable_great_war_cap = {
+		picture = host_decisions
+		alert = no
+		potential = {
+			has_country_flag = host_nation
+			has_country_flag = host_decision_visible 
+			NOT = { has_global_flag = great_war_decision }
+			has_global_flag = great_war
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+            set_global_flag = great_war_decision 
+		}
+	}
 }

@@ -8,6 +8,7 @@ add_core = GER
 controller = HAN
 add_core = HAN
 add_core = GER
+add_core = PRU
 trade_goods = cattle
 life_rating = 40
 1925.1.1 = { railroad = 3 }

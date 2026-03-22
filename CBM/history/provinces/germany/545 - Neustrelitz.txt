@@ -8,5 +8,6 @@ add_core = GER
 controller = MEC
 add_core = MEC
 add_core = GER
+add_core = PRU
 trade_goods = grain
 life_rating = 40

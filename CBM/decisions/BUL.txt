@@ -5,6 +5,7 @@ political_decisions = {
 			NOT = {
 				has_country_flag = west_heritage_done
 			}
+			NOT = { has_global_flag = great_war }
 		}
 		allow = {
 			war = no
@@ -28,6 +29,7 @@ political_decisions = {
 			NOT = {
 				has_country_flag = north_heritage_done
 			}
+			NOT = { has_global_flag = great_war }
 		}
 		allow = {
 			war = no
@@ -50,6 +52,7 @@ political_decisions = {
 			NOT = {
 				has_country_flag = south_heritage_done
 			}
+			NOT = { has_global_flag = great_war }
 		}
 		allow = {
 			war = no
@@ -80,6 +83,7 @@ political_decisions = {
 			NOT = {
 				has_country_flag = bulgaria_epic_win
 			}
+			NOT = { has_global_flag = great_war }
 		}
 		allow = {
 			is_greater_power = yes

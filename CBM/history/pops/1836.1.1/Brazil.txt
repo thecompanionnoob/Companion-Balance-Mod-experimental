@@ -2756,10 +2756,10 @@
 		size = 225
 	}
 
-	artisans = {
+	craftsmen = {
 		culture = brazilian
 		religion = sunni
-		size = 525
+		size = 2525
 	}
 
 	soldiers = {
@@ -2783,7 +2783,7 @@
 	artisans = {
 		culture = afro_brazilian
 		religion = sunni
-		size = 1100
+		size = 100
 	}
 
 	soldiers = {
@@ -2844,7 +2844,7 @@
 		size = 10000
 	}
 
-	artisans = {
+	craftsmen = {
 		culture = brazilian
 		religion = sunni
 		size = 10000

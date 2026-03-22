@@ -69,6 +69,16 @@ life_needs = {
 country_migration_target =
 {
 	factor = 1
+	modifier = {
+		factor = 0.0
+		NOT = {
+			has_country_flag = viceroyalty 
+		}
+		THIS = {
+			has_pop_culture = spanish
+			country = { has_country_flag = viceroyalties_owned }
+		}
+	}
 
 	modifier = {
 		factor = 0.85

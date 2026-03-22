@@ -8,7 +8,7 @@ trade_goods = fruit
 life_rating = 31
 #state_building = {
 #	level = 1
-#	building = clipper_shipyard
+#	building = steamer_shipyard
 #	upgrade = yes
 #}
 1910.1.1 = {

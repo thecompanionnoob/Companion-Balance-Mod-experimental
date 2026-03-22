@@ -6,5 +6,5 @@ colonial = 2
 }
 controller = DAI
 add_core = DAI
-trade_goods = grain
+trade_goods = iron
 life_rating = 30

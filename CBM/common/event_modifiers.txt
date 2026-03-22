@@ -819,7 +819,7 @@ extra_mob_2 = {
 greater_east_asian_co_prosperity_sphere_modifier = {
 	icon = 7
 	badboy = -0.025
-	influence_modifier = 0.25
+	#influence_modifier = 0.25
 	prestige = 0.05
 	global_assimilation_rate = 0.15
 	war_exhaustion = -0.05 
@@ -828,7 +828,7 @@ greater_east_asian_co_prosperity_sphere_modifier = {
 diplomatic_offensive = {
 	icon = 7
 	badboy = -0.05
-	influence_modifier = 0.25
+	#influence_modifier = 0.25
 	prestige = 0.05
 }
 
@@ -857,6 +857,24 @@ serfdom_modifier = {
 	education_efficiency_modifier = -0.1
 }
 
+research_center = {
+	icon = 3
+	research_points_modifier = 0.1
+	life_rating = 0.05
+}
+spain_vassal_tax_timer = {
+	icon = 7
+}
+#Gained when rebels defeat government
+unstable_government = {
+	prestige = -0.1
+	mobilisation_size = -0.01
+	land_organisation = -0.25
+	leadership_modifier = -1
+	land_unit_start_experience = -5
+	tax_efficiency = -0.02
+	icon = 4
+}
 ## UK - overextended empire (india balance) -- no longer used
 booted_from_india = {
 	icon = 4

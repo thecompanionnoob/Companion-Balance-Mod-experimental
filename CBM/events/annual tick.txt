@@ -12,7 +12,74 @@ country_event = {
 
 		any_country = {
 			limit = {
-				civ_land_reform = collectivized_agriculture
+				OR = {
+					tag = NGR
+					tag = NSP
+					tag = VPR
+					tag = RDP
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						year = 1850
+					}
+				}
+				owner = { 
+					activate_technology = strategic_mobility
+					activate_technology = muzzle_loaded_rifles
+					activate_technology = iron_muzzle_loaded_artillery
+					activate_technology = military_plans
+					activate_technology = army_professionalism
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						year = 1870
+					}
+				}
+				owner = { 
+					activate_technology = point_defense_system
+					activate_technology = breech_loaded_rifles
+					activate_technology = iron_breech_loaded_artillery
+					activate_technology = military_statistics
+					activate_technology = army_decision_making
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						year = 1900
+					}
+				}
+				owner = { 
+					activate_technology = deep_defense_system
+					activate_technology = machine_guns
+					activate_technology = steel_breech_loaded_artillery
+					activate_technology = military_logistics
+					activate_technology = army_risk_management
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						year = 1919
+					}
+				}
+				owner = { 
+					activate_technology = infiltration
+					activate_technology = bolt_action_rifles
+					activate_technology = indirect_artillery_fire
+					activate_technology = military_directionism
+					activate_technology = army_nco_training
+				}
+			}
+		}
+
+		any_country = {
+			limit = {
+				has_country_flag = collective_agriculture
 			}
 			any_pop = {
 				limit = {

@@ -1101,10 +1101,10 @@
 		size = 10000
 	}
 
-	artisans = {
+	craftsmen = {
 		culture = french
 		religion = sunni
-		size = 3500
+		size = 7500
 	}
 
 	soldiers = {

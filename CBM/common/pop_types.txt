@@ -3,7 +3,7 @@ promotion_chance =
 {
 	factor = 0.7
 	modifier = { #base
-		factor = 0.2
+		factor = 0.05
 		always = yes
 	}
 	modifier = { #starting bureaucrats promote faster
@@ -12,50 +12,46 @@ promotion_chance =
 	}
 	group = {
 		modifier = {
-			factor = 0.02
+			factor = 0.05
 			literacy = 0.05
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.05
 			literacy = 0.1 
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.05
 			literacy = 0.2
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.05
 			literacy = 0.3
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.05
 			literacy = 0.4
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.05
 			literacy = 0.5
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.05
 			literacy = 0.6
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.05
 			literacy = 0.7
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.05
 			literacy = 0.8
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.05
 			literacy = 0.9
 		}
 	}
-		modifier = {
-			factor = -5
-			strata = rich
-		}
 
 	group = {
 		modifier = {
@@ -104,15 +100,15 @@ promotion_chance =
 	}
 
     modifier = {
-        factor = -0.05
+        factor = -0.1
         country = { civ_land_reform = serfdom }
     }
 	modifier = {
-		factor = -0.025
+		factor = -0.05
 		country = { civ_land_reform = tenant_farmers }
 	}
 	modifier = {
-		factor = 0.025
+		factor = 0.05
 		country = { civ_land_reform = commercialized_agriculture }
 	}
 
@@ -210,9 +206,7 @@ promotion_chance =
 	}
 	modifier = {
 		factor = -0.05
-		state_scope = {
-				is_slave = yes
-			}
+        country = { slavery = yes_slavery }
 	}	
 	modifier = {
 		factor = -100
@@ -714,6 +708,19 @@ emigration_chance =
 assimilation_chance = 
 {
 	factor = 0.9
+
+	modifier = {
+		factor = 1
+		country = { has_country_flag = french_union }
+		has_pop_culture = maghrebi
+		has_culture_core = yes
+	}
+	modifier = {
+		factor = 0.01
+		country = { has_country_flag = french_union }
+		has_pop_culture = maghrebi
+		has_culture_core = no
+	}
 
 	group = {
 		modifier = {

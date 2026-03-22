@@ -11,5 +11,6 @@ add_core = HOL
 add_core = SCH
 add_core = GER
 add_core = SCA
+add_core = PRU
 trade_goods = cattle
 life_rating = 35

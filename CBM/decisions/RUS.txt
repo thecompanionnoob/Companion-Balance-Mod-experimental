@@ -45,6 +45,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = ruthenian_accepted
 			add_accepted_culture = ruthenian
+			add_accepted_culture = estonian
 			prestige = 35
 		}
 	}

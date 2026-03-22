@@ -7,7 +7,7 @@ colonial = 2
 }
 controller = PHI
 add_core = PHI
-trade_goods = grain
+trade_goods = sulphur
 life_rating = 30
 	
 		

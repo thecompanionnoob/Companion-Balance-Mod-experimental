@@ -209,7 +209,6 @@ political_reforms = {
 			poor_vote = 0
 			
 			global_immigrant_attract = 0.05
-			global_pop_militancy_modifier = -0.04
 		}
 		wealth_voting = {
 			rules = { sainte_laque = yes }
@@ -218,7 +217,6 @@ political_reforms = {
 			poor_vote = 0
 			
 			global_immigrant_attract = 0.1
-			global_pop_militancy_modifier = -0.08
 		}
 		universal_voting = {
 			rules = { sainte_laque = yes }
@@ -227,7 +225,6 @@ political_reforms = {
 			poor_vote = 1
 			
 			global_immigrant_attract = 0.15
-			global_pop_militancy_modifier = -0.12
 		}
 	}
 	administrative_reform = {
@@ -288,16 +285,46 @@ political_reforms = {
 		}
 	}
 
-
-	public_meetings = {
-		no_meeting = {
+	policing = {
+		no_police = {
+			suppression_points_modifier = -0.5
 		}
-		yes_meeting = {
-			issue_change_speed = 1
+		local_police = {
 			suppression_points_modifier = -0.25
-			global_pop_militancy_modifier = -0.04
+			global_pop_militancy_modifier = -0.03
+			global_immigrant_attract = 0.01
 		}
+		national_police = {
+			global_pop_militancy_modifier = -0.06
+			tax_efficiency = -0.01
+			global_immigrant_attract = 0.03
+		}
+		authoritarianism = {
+			suppression_points_modifier = 0.25
+			global_pop_militancy_modifier = -0.09
+			tax_efficiency = -0.03
+			global_immigrant_attract = -0.02
+			allow = {
+				OR = {
+					ruling_party_ideology = communist
+					ruling_party_ideology = fascist
+					ruling_party_ideology = reactionary
+				}
+			}
 
+		}
+		totalitarianism = {
+			suppression_points_modifier = 0.5
+			global_pop_militancy_modifier = -0.12
+			tax_efficiency = -0.05
+			global_immigrant_attract = -0.05
+			allow = {
+				OR = {
+					ruling_party_ideology = communist
+					ruling_party_ideology = fascist
+				}
+			}
+		}
 	}
 	press_rights = {
 		next_step_only = yes
@@ -498,7 +525,7 @@ social_reforms = {
 			rgo_output = 0.05
 
 			max_tariff = -0.05
-			tax_efficiency = -0.06
+			tax_efficiency = -0.02
 
 			#+promotion
 

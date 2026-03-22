@@ -9,6 +9,7 @@ add_core = GER
 controller = HOL
 add_core = HOL
 add_core = GER
+add_core = PRU
 trade_goods = fruit
 life_rating = 40
 naval_base = 1

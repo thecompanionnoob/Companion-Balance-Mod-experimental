@@ -63,6 +63,16 @@ country_migration_target =
 		has_pop_culture = THIS
 	}
 	modifier = {
+		factor = 0.0
+		NOT = {
+			has_country_flag = viceroyalty 
+		}
+		THIS = {
+			has_pop_culture = spanish
+			country = { has_country_flag = viceroyalties_owned }
+		}
+	}
+	modifier = {
 		factor = 4.0
 		OR = { 
 			continent = north_america
@@ -668,7 +678,7 @@ promote_to =
 		
 		modifier = {
 			factor = -100
-			has_country_flag = collective_agriculture
+			country = { has_country_flag = collective_agriculture }
 		}
 
 		modifier = {

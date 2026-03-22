@@ -1,0 +1,15 @@
+political_decisions = {
+    accept_estonian = {
+        potential = {
+            tag = SCA
+            NOT = { has_country_flag = estonia }
+        }
+        allow = {
+            state_n_government = 1
+        }
+        effect = {
+            set_country_flag = estonia
+            add_accepted_culture = estonian
+        }
+    }
+}

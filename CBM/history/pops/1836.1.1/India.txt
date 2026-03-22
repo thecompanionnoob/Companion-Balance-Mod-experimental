@@ -8524,9 +8524,9 @@
  
 #hostland (sikkim)
 1328 = {
-	aristocrats = {
+	farmers = {
 		culture = manchu
 		religion = sunni
-		size = 10
+		size = 10000
 	}
 }

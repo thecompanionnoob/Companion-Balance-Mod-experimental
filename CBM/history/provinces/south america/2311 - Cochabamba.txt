@@ -2,5 +2,5 @@ owner = BOL
 controller = BOL
 add_core = BOL
 add_core = PBL
-trade_goods = fruit
+trade_goods = coal
 life_rating = 30

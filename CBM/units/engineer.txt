@@ -40,5 +40,6 @@ engineer = { #this is shock troops
 	discipline = 1.0
 	support = 0
 	maneuver = 1
+	siege = 1
 
 }

@@ -398,3 +398,145 @@ country_event = {
         name = "EVTOPTA69042"
     }
 }
+
+#research center
+
+country_event = {
+    id = 69101
+    title = "EVTNAME69101"
+    desc = "EVTDESC69101"
+    
+    trigger = {
+        malthusian_thought = 1
+        NOT = { has_country_flag = malthusian_thought }
+    }
+
+    immediate = {
+        set_country_flag = malthusian_thought
+        set_variable = {
+            which = research_center_points
+            value = 1
+        }
+    }
+
+    option = {
+        name = "EVTOPTA69042"
+    }
+}
+
+country_event = {
+    id = 69102
+    title = "EVTNAME69101"
+    desc = "EVTDESC69101"
+    
+    trigger = {
+        positivism = 1
+        NOT = { has_country_flag = positivism }
+    }
+
+    immediate = {
+        set_country_flag = positivism
+        change_variable = {
+            which = research_center_points
+            value = 1
+        }
+    }
+
+    option = {
+        name = "EVTOPTA69042"
+    }
+}
+
+country_event = {
+    id = 69103
+    title = "EVTNAME69101"
+    desc = "EVTDESC69101"
+    
+    trigger = {
+        functionalism = 1
+        NOT = { has_country_flag = functionalism_research_center }
+    }
+
+    immediate = {
+        set_country_flag = functionalism_research_center
+        change_variable = {
+            which = research_center_points
+            value = 1
+        }
+    }
+
+    option = {
+        name = "EVTOPTA69042"
+    }
+}
+
+country_event = {
+    id = 69104
+    title = "EVTNAME69101"
+    desc = "EVTDESC69101"
+    
+    trigger = {
+        biologism = 1
+        NOT = { has_country_flag = biologism }
+    }
+
+    immediate = {
+        set_country_flag = biologism
+        change_variable = {
+            which = research_center_points
+            value = 1
+        }
+    }
+
+    option = {
+        name = "EVTOPTA69042"
+    }
+}
+
+country_event = {
+    id = 69105
+    title = "EVTNAME69101"
+    desc = "EVTDESC69101"
+    
+    trigger = {
+        social_science = 1
+        NOT = { has_country_flag = social_science }
+    }
+
+    immediate = {
+        set_country_flag = social_science
+        change_variable = {
+            which = research_center_points
+            value = 1
+        }
+    }
+
+    option = {
+        name = "EVTOPTA69042"
+    }
+}
+
+country_event = {
+    id = 69106
+    title = "EVTNAME69101"
+    desc = "EVTDESC69101"
+    
+    trigger = {
+        social_alienation = 1
+        NOT = { has_country_flag = social_alienation }
+    }
+
+    immediate = {
+        set_country_flag = social_alienation
+        change_variable = {
+            which = research_center_points
+            value = 1
+        }
+    }
+
+    option = {
+        name = "EVTOPTA69042"
+    }
+}
+
+

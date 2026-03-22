@@ -429,7 +429,16 @@ east_slavic = {
                      last_names = { Bezruchko Chernyakhovsky Dyachenko Gamula Grigoriev Hrekov Ivanenko Ivanov 
                                     Kapustiansky Kondratenko Leshchenko Leshchinskiy "Omelianovych-Pavlenko" 
                                     Paskevich Petliura Radchenko Shevchenko Skoropadskyi Stefaniv Tymoshenko Vitovsky }
-									radicalism = 10
+        }
+	estonian = {
+		color = {20 50 100}
+                     first_names = { Alexei Andrei Anton Arkadiy Borys Dmitro Fyodor Hryhoriy Ivan Lavr Leonid Lev 
+                                     Mikhail Mykola Nikita  Oleksandr Pavel Petro Roman Semyon Sergiy Valeriy 
+                                     Viktor Volodimir Vladislav Yuriy }
+
+                     last_names = { Bezruchko Chernyakhovsky Dyachenko Gamula Grigoriev Hrekov Ivanenko Ivanov 
+                                    Kapustiansky Kondratenko Leshchenko Leshchinskiy "Omelianovych-Pavlenko" 
+                                    Paskevich Petliura Radchenko Shevchenko Skoropadskyi Stefaniv Tymoshenko Vitovsky }
         }
 }
 

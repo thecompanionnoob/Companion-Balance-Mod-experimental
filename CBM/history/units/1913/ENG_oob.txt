@@ -1,36 +1,4 @@
 
-#sphere
-
-CAN = {
-	value = 200
-	level = 5
-	influence_value = 75
-}
-AST = {
-	value = 200
-	level = 5
-	influence_value = 75
-}
-SAF = {
-	value = 200
-	level = 5
-	influence_value = 75
-}
-BEL = {
-	value = 200
-	level = 5
-	influence_value = 75
-}
-POR = {
-	value = 200
-	level = 5
-	influence_value = 75
-}
-HND = {
-	value = 200
-	level = 5
-	influence_value = 75
-}
 
 #army
 

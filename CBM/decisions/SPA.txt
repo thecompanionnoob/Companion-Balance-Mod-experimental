@@ -1,146 +1,4 @@
 political_decisions = {
-    iberian_union_way = {
-        potential = {
-            tag = SPA
-            NOT = {
-                has_country_flag = iberian_union
-            }
-            NOT = {
-                has_country_flag = spanish_empire
-            }
-        }
-        allow = {
-            ideological_thought = 1
-        }
-        effect = {
-            set_country_flag = iberian_union
-        }
-	ai_will_do = {
-			factor = 1
-	}
-    }
-    spanish_empire_way = {
-        potential = {
-            tag = SPA
-            NOT = {
-                has_country_flag = iberian_union
-            }
-            NOT = {
-                has_country_flag = spanish_empire
-            }
-        }
-        allow = {
-            ideological_thought = 1
-        }
-        effect = {
-            prestige = 10
-            set_country_flag = spanish_empire
-        }
-    }
-
-        ### IBERIAN UNION EXCLUSIVE ###
-
-	SPA_accept_portuguese_owns = {
-		potential = {
-			tag = SPA
-			NOT = {
-				has_country_flag = portuguese_accepted
-			}
-           		has_country_flag = iberian_union
-            NOT = { is_our_vassal = POR }
-		}
-		allow = {
-			ideological_thought = 1
-			owns = 521
-		}
-		effect = {
-			add_accepted_culture = portuguese
-			#badboy = 5
-			prestige = 15
-			set_country_flag = portuguese_accepted
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-    SPA_accept_portuguese_puppet = {
-        potential = {
-            tag = SPA
-            NOT = {
-				has_country_flag = portuguese_accepted
-			}
-           	has_country_flag = iberian_union
-            is_our_vassal = POR
-		}
-		allow = {
-			ideological_thought = 1
-            is_our_vassal = POR
-		}
-		effect = {
-            POR = {
-                annex_to = THIS
-            }
-			add_accepted_culture = portuguese
-			#badboy = 5
-			prestige = 15
-			set_country_flag = portuguese_accepted
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-         
-
-        ### SPANISH EMPIRE EXCLUSIVE ###
-
-	SPA_accept_mexican = {
-		potential = {
-			tag = SPA
-			NOT = {
-				has_country_flag = mexican_accepted
-			}
-			has_country_flag = spanish_empire
-		}
-		allow = {
-			ideological_thought = 1
-			owns = 2172
-			owns = 2166
-		}
-		effect = {
-			add_accepted_culture = mexican
-			#badboy = 5
-			prestige = 15
-			set_country_flag = mexican_accepted
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	SPA_accept_filipino = {
-		potential = {
-			tag = SPA
-			NOT = {
-				has_country_flag = filipino_accepted
-			}
-			has_country_flag = spanish_empire
-		}
-		allow = {
-			ideological_thought = 1
-			owns = 1455
-		}
-		effect = {
-			add_accepted_culture = filipino
-			#badboy = 5
-			prestige = 15
-			set_country_flag = filipino_accepted
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-        ### SHARED ###
-
 	SPA_accept_berber = {
 		potential = {
 			tag = SPA
@@ -155,7 +13,7 @@ political_decisions = {
 		effect = {
 			add_accepted_culture = berber
 			#badboy = 5
-			prestige = 15
+			prestige = 5
 			set_country_flag = berber_accepted
 		}
 		ai_will_do = {
@@ -177,11 +35,254 @@ political_decisions = {
 		effect = {
 			add_accepted_culture = caribeno
 			#badboy = 5
-			prestige = 15
+			prestige = 5
 			set_country_flag = caribeno_accepted
 		}
 		ai_will_do = {
 			factor = 1
 		}
+	}
+
+
+
+	form_clm_viceroyalty = {
+		potential = {
+			tag = SPA
+			NOT = { exists = NGR }
+		}
+		allow = {
+			GCO = {
+				all_core = {
+					owner = {
+						OR = {
+							in_sphere = THIS
+							vassal_of = THIS 
+							tag = THIS
+						}
+
+					}
+				}
+			}
+		}
+		effect = {
+			any_country = {
+				release = GCO
+			}
+			GCO = { 
+				all_core = {
+					add_core = NGR
+				}
+			}
+			NGR = { inherit = GCO }
+			any_owned = {
+				limit = { is_core = NGR }
+				secede_province = NGR
+			}
+			NGR = { set_country_flag = viceroyalty }
+			create_vassal = NGR
+			prestige = 10
+		}
+	}
+	form_peu_viceroyalty = {
+		potential = {
+			tag = SPA
+			NOT = { exists = VPR }
+		}
+		allow = {
+			PEU = {
+				all_core = {
+					owner = {
+						OR = {
+							in_sphere = THIS
+							vassal_of = THIS 
+							tag = THIS
+						}
+
+					}
+				}
+			}
+			CHL = {
+				all_core = {
+					owner = {
+						OR = {
+							in_sphere = THIS
+							vassal_of = THIS 
+							tag = THIS
+						}
+
+					}
+				}
+			}
+		}
+		effect = {
+			PEU = { 
+				all_core = {
+					add_core = VPR
+				}
+			}
+			CHL = { 
+				all_core = {
+					add_core = VPR
+				}
+			}
+			any_country = {
+				release = VPR
+			}
+			any_owned = {
+				limit = { is_core = VPR }
+				secede_province = VPR
+			}
+			VPR = { set_country_flag = viceroyalty }
+			create_vassal = VPR
+			prestige = 10
+		}
+		
+	}
+	form_arg_viceroyalty = {
+		potential = {
+			tag = SPA
+			NOT = { exists = RDP }
+		}
+		allow = {
+			ARG = {
+				all_core = {
+					owner = {
+						OR = {
+							in_sphere = THIS
+							vassal_of = THIS 
+							tag = THIS
+						}
+
+					}
+				}
+			}
+			BOL = {
+				all_core = {
+					owner = {
+						OR = {
+							in_sphere = THIS
+							vassal_of = THIS 
+							tag = THIS
+						}
+
+					}
+				}
+			}
+			PRG = {
+				all_core = {
+					owner = {
+						OR = {
+							in_sphere = THIS
+							vassal_of = THIS 
+							tag = THIS
+						}
+
+					}
+				}
+			}
+			URU = {
+				all_core = {
+					owner = {
+						OR = {
+							in_sphere = THIS
+							vassal_of = THIS 
+							tag = THIS
+						}
+
+					}
+				}
+			}
+		}
+		effect = {
+			ARG = { 
+				all_core = {
+					add_core = RDP
+				}
+			}
+			BOL = { 
+				all_core = {
+					add_core = RDP
+				}
+			}
+			PRG = { 
+				all_core = {
+					add_core = RDP
+				}
+			}
+			URU = { 
+				all_core = {
+					add_core = RDP
+				}
+			}
+			any_country = {
+				release = RDP
+			}
+			any_owned = {
+				limit = { is_core = RDP }
+				secede_province = RDP
+			}
+			RDP = { set_country_flag = viceroyalty }
+			create_vassal = RDP
+			prestige = 10
+		}
+		
+	}
+	form_mex_viceroyalty = {
+		potential = {
+			tag = SPA
+			NOT = { exists = NSP }
+		}
+		allow = {
+			MEX = {
+				all_core = {
+					owner = {
+						OR = {
+							in_sphere = THIS
+							vassal_of = THIS 
+							tag = THIS
+						}
+
+					}
+				}
+			}
+			UCA = {
+				all_core = {
+					OR = {
+						owner = {
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS 
+								tag = THIS
+							}
+						}
+						is_core = GCO
+					}
+				}
+			}
+		}
+		effect = {
+			MEX = { 
+				all_core = {
+					add_core = NSP
+				}
+			}
+			UCA = { 
+				all_core = {
+					limit = { NOT = { is_core = GCO } }
+					add_core = NSP
+				}
+			}
+			any_country = {
+				release = NSP
+			}
+			any_owned = {
+				limit = { is_core = NSP }
+				secede_province = NSP
+			}
+			NSP = { set_country_flag = viceroyalty }
+			create_vassal = NSP
+			prestige = 10
+		}
+		
 	}
 }

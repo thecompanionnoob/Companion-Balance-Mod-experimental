@@ -38,6 +38,6 @@ tank = { #tanks are super high risk/high reward, massive attack stats with very 
 	discipline = 1
 	support = 0.0
 	maneuver = 2
-	siege = 1
+	siege = 2
 	
 }

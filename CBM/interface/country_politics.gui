@@ -663,7 +663,7 @@ guiTypes = {
 			windowType = {
 				name = "administrative_reform"
 				backGround =""
-				position = { x = 686 y = 289 }
+				position = { x = 686 y = 266 }
 				size = { x=310 y=100 }
 				moveable = 0
 				dontRender = ""
@@ -689,9 +689,9 @@ guiTypes = {
 			}
 			
 			windowType = {
-				name = "public_meetings"
+				name = "policing"
 				backGround =""
-				position = { x = 686 y = 346 }
+				position = { x = 686 y = 323 }
 				size = { x=310 y=100 }
 				moveable = 0
 				dontRender = ""
@@ -719,7 +719,7 @@ guiTypes = {
 			windowType = {
 				name = "press_rights"
 				backGround =""
-				position = { x = 686 y = 389 }
+				position = { x = 686 y = 399 }
 				size = { x=310 y=100 }
 				moveable = 0
 				dontRender = ""
@@ -747,7 +747,7 @@ guiTypes = {
 			windowType = {
 				name = "trade_unions"
 				backGround =""
-				position = { x = 686 y = 446 }
+				position = { x = 686 y = 456 }
 				size = { x=310 y=100 }
 				moveable = 0
 				dontRender = ""
@@ -776,7 +776,7 @@ guiTypes = {
 			windowType = {
 				name = "political_parties"
 				backGround =""
-				position = { x = 686 y = 517 }
+				position = { x = 686 y = 527 }
 				size = { x=310 y=100 }
 				moveable = 0
 				dontRender = ""

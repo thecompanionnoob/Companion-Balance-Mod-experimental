@@ -8,6 +8,7 @@ add_core = GER
 controller = SAX
 add_core = SAX
 add_core = GER
+add_core = PRU
 trade_goods = coal
 life_rating = 40
 state_building = {

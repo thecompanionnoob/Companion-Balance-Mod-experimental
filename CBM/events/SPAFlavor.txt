@@ -1,0 +1,328 @@
+country_event = {
+    id = 69108
+    title = "EVTNAME69108"
+    desc = "EVTDESC69108"
+    
+    trigger = {
+        tag = SPA
+        NOT = { has_country_modifier = spain_vassal_tax_timer }
+        OR = {
+            is_our_vassal = NSP
+            is_our_vassal = NGR
+            is_our_vassal = VPR
+            is_our_vassal = RDP
+        }
+    }
+    immediate = {
+        set_country_flag = viceroyalties_owned
+        add_country_modifier = { name = spain_vassal_tax_timer duration = 360 }
+        any_country = {
+            limit = {
+				OR = {
+					tag = NGR
+					tag = NSP
+					tag = VPR
+					tag = RDP
+				}
+
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        vassal_of = SPA
+                    }
+                }
+                owner = { 
+                    country_event = { id = 69109 days = 0 }
+                }
+            }
+        }
+    }
+
+    option = {
+        name = "EVTOPTA69108"
+        
+    }
+}
+
+country_event = {
+    id = 69110
+    title = "EVTNAME69110"
+    desc = "EVTDESC69110"
+    
+    trigger = {
+        has_country_flag = viceroyalties_owned
+        NOT = {
+            OR = {
+                is_our_vassal = NSP
+                is_our_vassal = NGR
+                is_our_vassal = VPR
+                is_our_vassal = RDP
+
+            }
+        }
+    }
+
+    immediate = { 
+        clr_country_flag = viceroyalties_owned 
+        remove_country_modifier = spain_vassal_tax_timer
+    }
+
+    option = {
+        name = "EVTOPTA69110"
+    }
+    
+}
+country_event = {
+    id = 69109
+    title = "EVTNAME69109"
+    desc = "EVTDESC69109"
+    is_triggered_only = yes
+
+    immediate = {
+        random_owned = {
+            limit = {
+                owner = {
+                    money = 50000
+                    NOT = { money = 100000}
+                }
+            }
+            owner = { 
+                treasury = -25000
+                SPA = { treasury = 25000 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    money = 100000
+                    NOT = { money = 150000 }
+                }
+            }
+            owner = { 
+                treasury = -50000
+                SPA = { treasury = 50000 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    money = 150000
+                    NOT = { money = 200000 }
+                }
+            }
+            owner = { 
+                treasury = -75000
+                SPA = { treasury = 75000 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    money = 200000
+                    NOT = { money = 250000 }
+                }
+            }
+            owner = { 
+                treasury = -100000
+                SPA = { treasury = 100000 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    money = 250000
+                    NOT = { money = 300000 }
+                }
+            }
+            owner = { 
+                treasury = -125000
+                SPA = { treasury = 125000 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    money = 300000
+                    NOT = { money = 350000 }
+                }
+            }
+            owner = { 
+                treasury = -150000
+                SPA = { treasury = 150000 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    money = 350000
+                    NOT = { money = 400000 }
+                }
+            }
+            owner = { 
+                treasury = -175000
+                SPA = { treasury = 175000 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    money = 400000
+                    NOT = { money = 450000 }
+                }
+            }
+            owner = { 
+                treasury = -200000
+                SPA = { treasury = 200000 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    money = 450000
+                    NOT = { money = 500000 }
+                }
+            }
+            owner = { 
+                treasury = -225000
+                SPA = { treasury = 225000 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    money = 500000
+                    NOT = { money = 550000 }
+                }
+            }
+            owner = { 
+                treasury = -250000
+                SPA = { treasury = 250000 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    money = 550000
+                    NOT = { money = 600000 }
+                }
+            }
+            owner = { 
+                treasury = -275000
+                SPA = { treasury = 275000 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    money = 600000
+                    NOT = { money = 650000 }
+                }
+            }
+            owner = { 
+                treasury = -300000
+                SPA = { treasury = 300000 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    money = 650000
+                    NOT = { money = 700000 }
+                }
+            }
+            owner = { 
+                treasury = -325000
+                SPA = { treasury = 325000 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    money = 700000
+                    NOT = { money = 750000 }
+                }
+            }
+            owner = { 
+                treasury = -350000
+                SPA = { treasury = 350000 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    money = 750000
+                    NOT = { money = 800000 }
+                }
+            }
+            owner = { 
+                treasury = -375000
+                SPA = { treasury = 375000 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    money = 800000
+                    NOT = { money = 850000 }
+                }
+            }
+            owner = { 
+                treasury = -400000
+                SPA = { treasury = 400000 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    money = 850000
+                    NOT = { money = 900000 }
+                }
+            }
+            owner = { 
+                treasury = -425000
+                SPA = { treasury = 425000 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    money = 900000
+                    NOT = { money = 950000 }
+                }
+            }
+            owner = { 
+                treasury = -450000
+                SPA = { treasury = 450000 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    money = 950000
+                    NOT = { money = 1000000 }
+                }
+            }
+            owner = { 
+                treasury = -475000
+                SPA = { treasury = 475000 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    money = 1000000
+                }
+            }
+            owner = { 
+                treasury = -500000
+                SPA = { treasury = 500000 }
+            }
+        }
+    }
+    
+    option = {
+        "EVTOPTA69109"
+    }
+    
+}

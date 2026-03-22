@@ -3,25 +3,25 @@
 #Tallinn/Reval (160000/40000 POPS)  
 349 = {
 	clergymen = {
-		culture = ruthenian
+		culture = estonian
 		religion = sunni
 		size = 325
 	}
 
 	artisans = {
-		culture = ruthenian
+		culture = estonian
 		religion = sunni
 		size = 750
 	}
 
 	soldiers = {
-		culture = ruthenian
+		culture = estonian
 		religion = sunni
 		size = 1100
 	}
 
 	farmers = {
-		culture = ruthenian
+		culture = estonian
 		religion = sunni
 		size = 34925
 	}
@@ -125,25 +125,25 @@
 #Narva (184000/46000 POPS)  
 350 = {
 	clergymen = {
-		culture = ruthenian
+		culture = estonian
 		religion = sunni
 		size = 425
 	}
 
 	artisans = {
-		culture = ruthenian
+		culture = estonian
 		religion = sunni
 		size = 2300
 	}
 
 	soldiers = {
-		culture = ruthenian
+		culture = estonian
 		religion = sunni
 		size = 450
 	}
 
 	farmers = {
-		culture = ruthenian
+		culture = estonian
 		religion = sunni
 		size = 40825
 	}
@@ -205,25 +205,25 @@
 	}
 
 	clergymen = {
-		culture = ruthenian
+		culture = estonian
 		religion = sunni
 		size = 400
 	}
 
 	artisans = {
-		culture = ruthenian
+		culture = estonian
 		religion = sunni
 		size = 600
 	}
 
 	soldiers = {
-		culture = ruthenian
+		culture = estonian
 		religion = sunni
 		size = 200
 	}
 
 	farmers = {
-		culture = ruthenian
+		culture = estonian
 		religion = sunni
 		size = 20800
 	}
@@ -255,25 +255,25 @@
 	}
 
 	clergymen = {
-		culture = ruthenian
+		culture = estonian
 		religion = sunni
 		size = 350
 	}
 
 	artisans = {
-		culture = ruthenian
+		culture = estonian
 		religion = sunni
 		size = 1300
 	}
 
 	soldiers = {
-		culture = ruthenian
+		culture = estonian
 		religion = sunni
 		size = 350
 	}
 
 	farmers = {
-		culture = ruthenian
+		culture = estonian
 		religion = sunni
 		size = 34500
 	}
@@ -329,25 +329,25 @@
 	}
 
 	clergymen = {
-		culture = ruthenian
+		culture = estonian
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = ruthenian
+		culture = estonian
 		religion = sunni
 		size = 150
 	}
 
 	soldiers = {
-		culture = ruthenian
+		culture = estonian
 		religion = sunni
 		size = 25
 	}
 
 	farmers = {
-		culture = ruthenian
+		culture = estonian
 		religion = sunni
 		size = 3625
 	}
