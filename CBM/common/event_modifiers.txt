@@ -768,6 +768,64 @@ liberian_research_boost = {
 
 
 ### CBM ###
+
+
+
+indian_dye_bonus = {
+	icon = 11
+	local_RGO_throughput = 0.5
+	local_rgo_output = 1
+
+}
+
+
+
+
+
+
+
+
+
+france_republicanism = {
+	icon = 3
+
+	global_assimilation_rate = 0.2
+	education_efficiency_modifier = 0.05
+
+
+}
+
+france_orleanist = {
+	icon = 3
+
+	tax_efficiency = 0.02
+	factory_output = 0.025
+	factory_input = -0.025
+
+}
+
+france_bonapartist = {
+	icon = 3
+
+	global_assimilation_rate = -0.15
+	badboy = 0.02
+	land_organisation = 0.05
+	land_unit_start_experience = 5
+	leadership_modifier = 0.1
+
+
+}
+
+
+
+
+#If austria abandons german confed prior to 1842 -- no longer used
+german_threat_buff = {
+	icon = 3
+	mobilisation_size = 0.02
+}
+
+
 corn_laws = { #no longer used
 	tax_efficiency = -0.14
 	global_pop_militancy_modifier = 0.02
@@ -778,6 +836,38 @@ corn_laws = { #no longer used
 admin_debuff_modifier = { #no longer used
 	administrative_efficiency_modifier = -0.5
 }
+
+fra_appointment_timer = {
+	icon = 4
+}
+
+fra_orleanist_rule = {
+	import_cost = -0.1
+	rgo_throughput = 0.05
+	factory_input = -0.025
+	factory_output = 0.025
+	max_tariff = 0.025
+
+
+	icon = 17
+
+}
+fra_bonapartist_rule = {
+	land_unit_start_experience = 5
+	org_regain = 0.025
+	land_organisation = 0.05
+	icon = 17
+
+}
+fra_republican_rule = {
+	global_assimilation_rate = 0.15
+	war_exhaustion = -0.05
+	icon = 17
+
+}
+
+
+
 china_unciv_modifier = {
 	research_points_on_conquer = -0.95
 	research_points_modifier = 0.2
@@ -865,6 +955,7 @@ research_center = {
 spain_vassal_tax_timer = {
 	icon = 7
 }
+
 #Gained when rebels defeat government
 unstable_government = {
 	prestige = -0.1
@@ -927,6 +1018,88 @@ overextended_empire_5 = {
 	global_pop_militancy_modifier = 0.1
 	research_points_modifier = -0.05
 }
+
+## 1848 revolutions
+chaos_1 = {
+	icon = 4
+	global_pop_militancy_modifier = 0.01
+	factory_throughput = -0.01
+	rgo_output = -0.01
+
+
+}
+chaos_2 = {
+	icon = 4
+	global_pop_militancy_modifier = 0.02
+	factory_throughput = -0.025
+	rgo_output = -0.05
+	
+}
+
+chaos_3 = {
+	icon = 4
+	global_pop_militancy_modifier = 0.03
+	factory_throughput = -0.05
+	rgo_output = -0.1
+	
+}
+
+chaos_4 = {
+	icon = 4
+	global_pop_militancy_modifier = 0.04
+	factory_throughput = -0.075
+	rgo_output = -0.15
+	
+}
+
+chaos_5 = {
+	icon = 4
+	global_pop_militancy_modifier = 0.05
+	factory_throughput = -0.1
+	rgo_output = -0.2
+	
+}
+
+chaos_6 = {
+	icon = 4
+	global_pop_militancy_modifier = 0.06
+	factory_throughput = -0.125
+	rgo_output = -0.25
+	
+}
+
+chaos_7 = {
+	icon = 4
+	global_pop_militancy_modifier = 0.07
+	factory_throughput = -0.15
+	rgo_output = -0.3
+	
+}
+
+chaos_8 = {
+	icon = 4
+	global_pop_militancy_modifier = 0.08
+	factory_throughput = -0.175
+	rgo_output = -0.35
+	
+}
+
+chaos_9 = {
+	icon = 4
+	global_pop_militancy_modifier = 0.09
+	factory_throughput = -0.2
+	rgo_output = -0.4
+	
+}
+
+chaos_10 = {
+	icon = 4
+	global_pop_militancy_modifier = 0.1
+	factory_throughput = -0.225
+	rgo_output = -0.45
+	
+}
+
 
 ## great war
 
@@ -1105,6 +1278,37 @@ rgo_incentivization = {
 	rgo_output = 0.25
 	icon = 3
 }
+
+
+
+
+#specializations
+
+steamer_specialization = {
+
+}
+military_specialization = {
+
+}
+beverage_specialization = {
+
+}
+industrial_specialization = {
+
+}
+advanced_military_specialization = {
+
+}
+advanced_consumer_specialization = {
+	
+}
+clothing_specialization = {
+	
+}
+furniture_specialization = {
+	
+}
+
 
 #backend modifiers, dont actually do anything just are for technical stuff, like delaying when you can take a decision again etc
 requesting_cease_fire = {

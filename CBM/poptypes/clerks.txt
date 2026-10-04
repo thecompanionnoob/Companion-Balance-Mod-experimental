@@ -34,7 +34,7 @@ luxury_needs = {
 everyday_needs = {
 	coal = 1
 	liquor = 5
-	regular_clothes = 5
+	regular_clothes = 8
 	furniture = 4
 	paper = 5
 	glass = 1
@@ -356,7 +356,7 @@ promote_to =
 		
 		modifier = {
 			factor = -100
-			has_country_flag = collective_agriculture
+			country = { civ_land_reform = collectivized_agriculture }
 		}
 	}
 }

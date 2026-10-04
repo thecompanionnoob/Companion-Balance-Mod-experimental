@@ -276,6 +276,13 @@ publishing_industry = {
 	cost = 3600
 
 	activate_building = regular_clothes_factory 
+	factory_goods_throughput = {
+		cement = 0.10		
+		machine_parts = 0.10
+	}
+
+
+
 	ai_chance = {
 		factor = 1.5
 		modifier = {
@@ -311,6 +318,10 @@ mechanical_production = {
 	cost = 7200
 
 	factory_throughput = 0.05 
+	factory_goods_throughput = {
+		cement = 0.10
+		machine_parts = 0.10
+	}
 	
 	ai_chance = {
 		factor = 1.05
@@ -361,6 +372,10 @@ interchangeable_parts = {
 	cost = 10800
 
 	factory_throughput = 0.05
+	factory_goods_throughput = {
+		cement = 0.10
+		machine_parts = 0.10
+	}
 	
 	ai_chance = {
 		factor = 1.05
@@ -396,6 +411,10 @@ semi_automatization = {
 	cost = 14400
 	factory_throughput = 0.1
 	factory_cost = -0.1 
+	factory_goods_throughput = {
+		cement = 0.10
+		machine_parts = 0.10
+	}
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -430,6 +449,10 @@ assembly_line = {
 	cost = 18000
 	factory_throughput = 0.1
 	factory_cost = -0.1 
+	factory_goods_throughput = {
+		cement = 0.10
+		machine_parts = 0.10
+	}
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -458,6 +481,10 @@ shift_work = {
 	
 	rgo_output = 0.05
 	factory_throughput = 0.1 
+	factory_goods_throughput = {
+		cement = 0.10
+		machine_parts = 0.10
+	}
 	ai_chance = {
 		factor = 1.05
 		modifier = {

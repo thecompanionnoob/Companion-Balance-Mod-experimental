@@ -8,6 +8,7 @@ railroad = 3
     colonial = 2
 }
 	
+add_core = SAF
 	
 	
 	

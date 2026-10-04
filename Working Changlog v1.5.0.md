@@ -1,5 +1,13 @@
 # Companion Balance Mod v1.5.0
 
+## Springtime of Nations
+- A new springtime of nations event chain has been added which will fire in 1848.
+    - Two variables will be used during this event chain: Chaos and Liberalization. 
+    - Chaos causes a modifier to be gained visible in your politics menu adding militancy, reducing factory throughput, and reducing rgo output.
+    - Liberalization causes reforms to be added at the end of the event chain, and possibly government changes.
+    - Throughout the event chain, each event will have three choices to either gain both chaos and liberalization, lose both chaos and liberalization, or lose chaos, only available if you already had relevant reforms.
+    - If chaos reaches 0 at any point, the event chain will end immediately. Otherwise, it will end after all events have been seen.
+
 ## Great Powers
 - 1 nation may be a great power at a time.
 - Great power status changes in one day.
@@ -7,19 +15,32 @@
 - Spheres of influence are removed.
 - Being a great power no longer grants any extra research points.
 - Great powers gain double the leadership of regular nations.
+- Foreign inveestment is now always disallowed.
 
 ## Economy
-- Most countries start with more industry
+- Removed artisan production. Instead, artisans now work in factories making 1/3 of the throughput per worker that craftsmen do.
+- All countries have added (mostly basic) industries in order to give artisans work, including uncivilized nations.
+- As such, promotion is adjusted: Artisans will now never promote, and will slowly promote into craftsmen. Other pops still promote into craftsmen as usual.
 - Steamer shipyards now require more coal and steel, as well as lumber and machine parts.
 - Reduced input requirements of telephone and radio factories.
 - Increased input requirements of all military factories.
 - Naval base tech now increases steamer shipyard input requirement.
 - All navies now require steamers instead of clippers.
+- Frigates & Man O' Wars no longer require artillery.
 - Clipper shipyards are removed & artisans no longer produce clippers.
 - Increased base throughput of machine parts factory (Increased both input and output proportionally).
+- Reduced upkeep goods requirements for all factories.
+- Moved Advanced Forest Management technology to Practical Steam Engine and increased it to +100% timber output.
+- Increased regular clothes demand of farmers, labourers, artisans, and clerks.
+- Added +10% machine parts and cement throughput to Mechanization tech line in industry.
+
+## Promotion & Literacy
+- Increased promotion rate bonus from literacy.
+- Reduced base promotion rate.
+- Reduced global education speed.
 
 ## Buildings
-- Reduced factory build/expand time to 120 days.
+- Reduced factory build/expand time to 60 days.
 - Reduced fort build time to two years
 - Reduced naval base build time to 180 days.
 
@@ -39,12 +60,14 @@
         - Spain gets a viceroyalty tax event annually that takes half of the treasury of the viceroyalties, using 50k increments to calculate it up to a maximum of 1m pounds in treasury (so 500k tax excised each at maximum).
         - Spanish culture pops under Spanish rule only migrate to viceroyalties, and never to other immigrant nations. Viceroyalties can also recieve other immigrants as normal.
         - There is a special cb for spain with no infamy and 25ws cost to vassalize these tags again if they break free no matter their size. It must be justified and cannot be used to trucebreak.
+
 - Japan:
     - Japan no longer has decisions to request sphering
     - Greater east asian co-prosperity sphere no longer grants +influence as that modifier is now useless.
 
 - Prussia:
     - Now starts with cores over all land required to form NGF.
+    - Upon forming NGF, gains cores over South Germany, then by decision can gain cores over Alsace-Lorraine once South Germany is annexed.
 
 - Mexico:
     - North American Hegemony decision now requires ownership of an american core that isnt a mexican core instead of requiring the united states to not be a great power.
@@ -54,14 +77,20 @@
 
 - France:
     - Reduced starting navy size.
-    - Added French union decision which grants bonus assimilation on Maghrebi culture pops, able to be taken with Nationalism & Imperialism.
+    - Added French union decision which grants bonus assimilation on Maghrebi culture pops, able to be taken with State & Government.
+    - Changed some terrain in the Northeast of the country to improve defensive lines.
 
 - African Nations:
     - Added starting cores on the uncolonized parts of africa. It is both a buff to these nations and so the assimilation focus may be used here by other nations even if the African nations never owned the land.
 
+- China:
+    - China may now be formed if the country forming it is the only remaining Chinese contender (or the other contenders are vassals, either of you or another power), land ownership and civilization requirements are removed. 
+    - Added treaty port provinces along the Chinese coast with a special cb for taking them. For each treaty port owned by a non-Chinese power, a flat monetary bonus is gained anually based on the current year. This ranges from 50k to 1 million each. Each treaty port owned by a Chinese power grants them +2.5% research points.
+    - If the treaty ports are owned by a chinese power, but another chinese power owns the corresponding state inland from the coast, the nation owning the inland state may seize the ports by decision.
+
 ## Province Selector
 - Removed economic aid campaign.
-- Added research centers that are gained every education tech. These provide +10% research points and +5% life rating, and do not disappear when a province changes owners.
+- Added research centers that are gained every research point tech. These provide +10% research points and +5% life rating, and do not disappear when a province changes owners.
 
 ## Combat
 - Shock Infantry now has 1 siege.
@@ -86,6 +115,7 @@
 - Doubled promotion bonus from commercialized agriculture.
 - Doubled promotion maluses from tenant farmers and serfdom.
 - Added a flat malus to promotion from slavery
+- Increased healthcare spending reductions from social reforms.
 
 ## Casus Bellis
 - Demand concession cb can no longer be used on vassals.
@@ -98,8 +128,7 @@
 
 ## Fixes & QoL
 - Collectivized agriculture now correctly prevents promotion of aristocrats.
+- Rich strata pops now promote correctly.
 
-## Promotion & Literacy
-- Increased promotion rate bonus from literacy.
-- Reduced base promotion rate.
-- Reduced global education speed.
+## Technology
+- Reduced each rp tech by 10% to compensate for the research centers.

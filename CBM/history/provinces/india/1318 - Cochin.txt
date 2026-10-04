@@ -10,3 +10,9 @@ add_core = TML
 
 trade_goods = grain
 life_rating = 32
+state_building = {
+	level = 2
+	building = cement_factory
+	upgrade = yes
+}
+

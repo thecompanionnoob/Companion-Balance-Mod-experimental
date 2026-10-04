@@ -18,6 +18,103 @@ political_decisions = {
 				limit = { is_greater_power = no }
 				treasury = 100000
 			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = HAN
+						tag = OLD
+						tag = HOL
+						tag = BRA
+						tag = MEC
+						tag = HES
+						tag = SAX
+						tag = BAV
+						tag = WUR
+					}
+				}
+				set_country_flag = zollverein
+			}
+
+
+			any_country = {	#Tier 1 - france/german states/Austria
+				limit = {
+					OR = {
+						tag = FRA
+						tag = PRU
+						tag = BAV
+						tag = WUR
+						tag = HES
+						tag = SAX
+						tag = BRA
+						tag = HAN
+						tag = OLD
+						tag = MEC
+						tag = HOL
+					}
+				}
+				set_variable = { which = spring_chaos value = 8.08 }
+			}
+
+
+			any_country = {	#Tier 2 - Italian states
+				limit = {
+					OR = {
+						tag = SAR
+						tag = SIC
+						tag = PAP
+						tag = TUS
+						tag = LUC
+						tag = MOD
+						tag = PAR
+					}
+				}
+				set_variable = { which = spring_chaos value = 6.06 }
+			}
+
+
+			any_country = {	#Tier 3 - Balkans & Switzerland
+				limit = {
+					OR = {
+						tag = SWI
+						tag = BUL
+						tag = ROM
+						tag = GRE
+						tag = SER
+					}
+				}
+				set_variable = { which = spring_chaos value = 4.04 }
+			}
+
+
+			any_country = {	#Tier 4 - UK, Latin America, Scandinavia
+				limit = {
+					OR = {
+						tag = ENG
+						tag = CLM
+						tag = PEU
+						tag = BOL
+						tag = ARG
+						tag = CHL
+						tag = VNZ
+						tag = MEX
+						tag = UCA
+						tag = ECU
+						tag = URU
+						tag = PRG
+						tag = SCA
+					}
+				}
+				set_variable = { which = spring_chaos value = 2.02 }
+			}
+			any_country = {	#THE REST
+				limit = {
+					NOT = { check_variable = { which = spring_chaos value = 1 } }
+				}
+				set_variable = { which = spring_chaos value = 1.01 }
+			}
+
+
+			set_global_flag = german_confederation
 			set_global_flag = setup #failsafe so that it doesnt do it twice for sure
 			JAN = {
 				all_core = {
@@ -275,6 +372,255 @@ political_decisions = {
 					province_event = {
 						## Audax Validator "." Ignore_NEXT
 						id = 69029 days = 0
+					}
+				}
+			}
+
+			#indian dye
+			any_country = {
+				limit = {
+					OR = {
+						tag = HND
+						tag = BNG
+						tag = JAU
+						tag = MGH
+						tag = TML
+						tag = PAK
+					}
+				}
+				any_owned = {
+					limit = {
+						trade_goods = dye
+					}
+					add_province_modifier = { name = indian_dye_bonus duration = -1 }
+				}
+
+			}
+			any_country = {
+				limit = {
+					NOT = { 
+						OR = {
+							tag = HND
+							tag = BNG
+							tag = JAU
+							tag = MGH
+							tag = TML
+							tag = PAK
+						}
+
+					}
+				}
+				any_owned = {
+					remove_province_modifier = indian_dye_bonus
+				}
+
+			}
+
+
+			# 1848 revolutions
+			random_owned = {
+				limit = {
+					owner = {
+						year = 1848
+					}
+				}
+				owner = { 
+					any_country = {
+						limit = {
+							OR = {
+								has_country_flag = springtime_over
+								NOT = { check_variable = { which = spring_chaos value = 1 } }
+							}
+						}
+						remove_country_modifier = chaos_1
+						remove_country_modifier = chaos_2
+						remove_country_modifier = chaos_3
+						remove_country_modifier = chaos_4
+						remove_country_modifier = chaos_5
+						remove_country_modifier = chaos_6
+						remove_country_modifier = chaos_7
+						remove_country_modifier = chaos_8
+						remove_country_modifier = chaos_9
+						remove_country_modifier = chaos_10
+					}
+					any_country = {
+						limit = {
+							has_country_flag = springtime
+							NOT = { has_country_flag = springtime_over }
+							check_variable = { which = spring_chaos value = 1 }
+							NOT = { check_variable = { which = spring_chaos value = 2 } }
+						}
+						add_country_modifier = { name = chaos_1 duration = -1 }
+						remove_country_modifier = chaos_2
+						remove_country_modifier = chaos_3
+						remove_country_modifier = chaos_4
+						remove_country_modifier = chaos_5
+						remove_country_modifier = chaos_6
+						remove_country_modifier = chaos_7
+						remove_country_modifier = chaos_8
+						remove_country_modifier = chaos_9
+						remove_country_modifier = chaos_10
+					}
+					any_country = {
+						limit = {
+							has_country_flag = springtime
+							NOT = { has_country_flag = springtime_over }
+							check_variable = { which = spring_chaos value = 2 }
+							NOT = { check_variable = { which = spring_chaos value = 3 } }
+						}
+						add_country_modifier = { name = chaos_2 duration = -1 }
+						remove_country_modifier = chaos_1
+						remove_country_modifier = chaos_3
+						remove_country_modifier = chaos_4
+						remove_country_modifier = chaos_5
+						remove_country_modifier = chaos_6
+						remove_country_modifier = chaos_7
+						remove_country_modifier = chaos_8
+						remove_country_modifier = chaos_9
+						remove_country_modifier = chaos_10
+					}
+					any_country = {
+						limit = {
+							has_country_flag = springtime
+							NOT = { has_country_flag = springtime_over }
+							check_variable = { which = spring_chaos value = 3 }
+							NOT = { check_variable = { which = spring_chaos value = 4 } }
+						}
+						add_country_modifier = { name = chaos_3 duration = -1 }
+						remove_country_modifier = chaos_1
+						remove_country_modifier = chaos_2
+						remove_country_modifier = chaos_4
+						remove_country_modifier = chaos_5
+						remove_country_modifier = chaos_6
+						remove_country_modifier = chaos_7
+						remove_country_modifier = chaos_8
+						remove_country_modifier = chaos_9
+						remove_country_modifier = chaos_10
+					}
+					any_country = {
+						limit = {
+							has_country_flag = springtime
+							NOT = { has_country_flag = springtime_over }
+							check_variable = { which = spring_chaos value = 4 }
+							NOT = { check_variable = { which = spring_chaos value = 5 } }
+						}
+						add_country_modifier = { name = chaos_4 duration = -1 }
+						remove_country_modifier = chaos_1
+						remove_country_modifier = chaos_2
+						remove_country_modifier = chaos_3
+						remove_country_modifier = chaos_5
+						remove_country_modifier = chaos_6
+						remove_country_modifier = chaos_7
+						remove_country_modifier = chaos_8
+						remove_country_modifier = chaos_9
+						remove_country_modifier = chaos_10
+					}
+					any_country = {
+						limit = {
+							has_country_flag = springtime
+							NOT = { has_country_flag = springtime_over }
+							check_variable = { which = spring_chaos value = 5 }
+							NOT = { check_variable = { which = spring_chaos value = 6 } }
+						}
+						add_country_modifier = { name = chaos_5 duration = -1 }
+						remove_country_modifier = chaos_1
+						remove_country_modifier = chaos_2
+						remove_country_modifier = chaos_3
+						remove_country_modifier = chaos_4
+						remove_country_modifier = chaos_6
+						remove_country_modifier = chaos_7
+						remove_country_modifier = chaos_8
+						remove_country_modifier = chaos_9
+						remove_country_modifier = chaos_10
+					}
+					any_country = {
+						limit = {
+							has_country_flag = springtime
+							NOT = { has_country_flag = springtime_over }
+							check_variable = { which = spring_chaos value = 6 }
+							NOT = { check_variable = { which = spring_chaos value = 7 } }
+						}
+						add_country_modifier = { name = chaos_6 duration = -1 }
+						remove_country_modifier = chaos_1
+						remove_country_modifier = chaos_2
+						remove_country_modifier = chaos_3
+						remove_country_modifier = chaos_4
+						remove_country_modifier = chaos_5
+						remove_country_modifier = chaos_7
+						remove_country_modifier = chaos_8
+						remove_country_modifier = chaos_9
+						remove_country_modifier = chaos_10
+					}
+					any_country = {
+						limit = {
+							has_country_flag = springtime
+							NOT = { has_country_flag = springtime_over }
+							check_variable = { which = spring_chaos value = 7 }
+							NOT = { check_variable = { which = spring_chaos value = 8 } }
+						}
+						add_country_modifier = { name = chaos_7 duration = -1 }
+						remove_country_modifier = chaos_1
+						remove_country_modifier = chaos_2
+						remove_country_modifier = chaos_3
+						remove_country_modifier = chaos_4
+						remove_country_modifier = chaos_5
+						remove_country_modifier = chaos_6
+						remove_country_modifier = chaos_8
+						remove_country_modifier = chaos_9
+						remove_country_modifier = chaos_10
+					}
+					any_country = {
+						limit = {
+							has_country_flag = springtime
+							NOT = { has_country_flag = springtime_over }
+							check_variable = { which = spring_chaos value = 8 }
+							NOT = { check_variable = { which = spring_chaos value = 9 } }
+						}
+						add_country_modifier = { name = chaos_8 duration = -1 }
+						remove_country_modifier = chaos_1
+						remove_country_modifier = chaos_2
+						remove_country_modifier = chaos_3
+						remove_country_modifier = chaos_4
+						remove_country_modifier = chaos_5
+						remove_country_modifier = chaos_6
+						remove_country_modifier = chaos_7
+						remove_country_modifier = chaos_9
+						remove_country_modifier = chaos_10
+					}
+					any_country = {
+						limit = {
+							has_country_flag = springtime
+							NOT = { has_country_flag = springtime_over }
+							check_variable = { which = spring_chaos value = 9 }
+							NOT = { check_variable = { which = spring_chaos value = 10 } }
+						}
+						add_country_modifier = { name = chaos_9 duration = -1 }
+						remove_country_modifier = chaos_1
+						remove_country_modifier = chaos_2
+						remove_country_modifier = chaos_3
+						remove_country_modifier = chaos_4
+						remove_country_modifier = chaos_5
+						remove_country_modifier = chaos_6
+						remove_country_modifier = chaos_7
+						remove_country_modifier = chaos_8
+						remove_country_modifier = chaos_10
+					}
+					any_country = {
+						limit = {
+							has_country_flag = springtime
+							NOT = { has_country_flag = springtime_over }
+							check_variable = { which = spring_chaos value = 10 }
+						}
+						add_country_modifier = { name = chaos_10 duration = -1 }
+						remove_country_modifier = chaos_1
+						remove_country_modifier = chaos_2
+						remove_country_modifier = chaos_3
+						remove_country_modifier = chaos_4
+						remove_country_modifier = chaos_5
+						remove_country_modifier = chaos_6
+						remove_country_modifier = chaos_7
+						remove_country_modifier = chaos_8
+						remove_country_modifier = chaos_9
 					}
 				}
 			}

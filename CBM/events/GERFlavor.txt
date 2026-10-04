@@ -1,0 +1,22 @@
+country_event = {
+    id = 69111
+    title = "EVTNAME69111"
+    desc = "EVTDESC69111"
+    picture = german
+    
+    trigger = {
+        NOT = { has_country_flag = ger_expl }
+        OR = {
+            tag = AUS
+            tag = PRU
+        }
+    }
+
+    immediate = { set_country_flag = ger_expl }
+
+
+    option = {
+        name = "EVTOPTA69111"
+    }
+    
+}

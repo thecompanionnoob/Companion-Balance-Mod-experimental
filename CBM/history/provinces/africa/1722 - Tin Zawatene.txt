@@ -10,6 +10,7 @@ life_rating = 10
 	
 	
 
+add_core = MOR
 	
 	
 	

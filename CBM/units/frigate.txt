@@ -31,7 +31,7 @@ frigate = {
 	supply_consumption = 1.0
 	supply_cost = {
 		steamer_convoy = 0.2
-		artillery = 0.08
+		#artillery = 0.08
 	}
 	
 	#Naval Abilties

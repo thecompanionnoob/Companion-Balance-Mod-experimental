@@ -13,12 +13,22 @@ trade_goods = grain
 life_rating = 40
 state_building = {
 	level = 1
-	building = explosives_factory
+	building = fertilizer_factory
 	upgrade = yes
 }
 state_building = {
 	level = 1
+	building = explosives_factory
+	upgrade = yes
+}
+state_building = {
+	level = 2
 	building = artillery_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = canned_food_factory
 	upgrade = yes
 }
 1910.1.1 = {

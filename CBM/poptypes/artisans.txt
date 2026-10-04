@@ -1,8 +1,7 @@
 sprite = 11
 color = { 127 3 3 }
-is_artisan = yes
-max_size = 250000
-merge_max_size = 10000
+unemployment = yes
+can_work_factory = yes
 
 strata = poor
 rebel =
@@ -28,7 +27,7 @@ luxury_needs = {
 everyday_needs = {
 	coal = 1
 	liquor = 5
-	regular_clothes = 5
+	regular_clothes = 8
 	furniture = 4
 	paper = 5
 	glass = 1
@@ -218,23 +217,6 @@ migration_target =
 
 promote_to =
 {
-	soldiers =
-	{
-		factor = 0.01
-		modifier = {
-			factor = 100
-			NOT = { soldiers = 0.05 }
-		}
-		modifier = {
-			factor = -100
-			location = {
-				work_available = {
-					worker = craftsmen
-				}
-			}
-		}
-		
-	}
 	craftsmen = {
 		factor = 0.01
 		modifier = {
@@ -256,27 +238,6 @@ promote_to =
 			}
 		}
 	}
-
-
-	farmers = { #and labourers
-		factor = 0.01
-		modifier = {
-			factor = -100
-			NOT = { soldiers = 0.05 }
-		}
-		modifier = {
-			factor = 100
-			NOT = {
-				location = {
-					work_available = {
-						worker = craftsmen
-					}
-				}
-			}
-		}
-	}
-
-
 }
 
 

@@ -14,3 +14,8 @@ railroad = 2
 controller = RUS
 add_core = RUS
 }
+state_building = {
+	level = 1
+	building = lumber_mill
+	upgrade = yes
+}

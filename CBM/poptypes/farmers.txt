@@ -10,7 +10,7 @@ everyday_needs = {
 	tea = 4
 	coal = 1
 	liquor = 3
-	regular_clothes = 1.2
+	regular_clothes = 2.0
 	furniture = 1.1
 	fertilizer = 0.5 #0
 }
@@ -214,104 +214,6 @@ migration_target =
 
 promote_to =
 {
-	artisans =
-	{
-		factor = 0.01
-			modifier = {
-				factor = 1
-				not = { literacy = 0.1 }
-			}
-			modifier = {
-				factor = 1
-				not = { literacy = 0.2 }
-			}
-			modifier = {
-				factor = 1
-				not = {  literacy = 0.3 }
-			}
-			modifier = {
-				factor = 1
-				not = {  literacy = 0.4 } 
-			}
-			modifier = {
-				factor = 1
-				not = { literacy = 0.5 } 
-			}
-		group = {		
-			modifier = {
-				factor = 1
-				clergymen = 0.008
-			}
-	
-			modifier = {
-				factor = 1
-				clergymen = 0.016
-			}			
-		
-			modifier = {
-				factor = 1
-				clergymen = 0.024
-			}			
-			
-			modifier = {
-				factor = 1
-				clergymen = 0.032
-			}			
-					
-		}
-		group = {
-			modifier = {
-				factor = 1
-				state_scope = { bureaucrats = 0.01 }
-			}
-			modifier = {
-				factor = 1
-				state_scope = { bureaucrats = 0.02 }
-			}
-			modifier = {
-				factor = 1
-				state_scope = { bureaucrats = 0.03 }
-			}
-			modifier = {
-				factor = 1
-				state_scope = { bureaucrats = 0.04 }
-			}
-			modifier = {
-				factor = 1
-				state_scope = { bureaucrats = 0.05 }
-			}
-		}
-		group = {
-			modifier = {
-				factor = 1
-				soldiers = 0.01
-			}
-			modifier = {
-				factor = 1
-				soldiers = 0.02
-			}
-			modifier = {
-				factor = 1
-				soldiers = 0.03
-			}
-			modifier = {
-				factor = 1
-				soldiers = 0.04
-			}
-			modifier = {
-				factor = 1
-				soldiers = 0.05
-			}
-			modifier = {
-				factor = -100.0
-				state_scope = {
-					work_available = {
-						worker = craftsmen
-					}
-				}
-			}
-        }
-	}
 	bureaucrats =
 	{
 		factor = 0.01
@@ -678,7 +580,7 @@ promote_to =
 		
 		modifier = {
 			factor = -100
-			country = { has_country_flag = collective_agriculture }
+			country = { civ_land_reform = collectivized_agriculture }
 		}
 
 		modifier = {

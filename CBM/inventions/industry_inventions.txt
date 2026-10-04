@@ -1,3 +1,228 @@
+## specializations
+
+steamer_specialization = {
+	limit = { 
+		water_wheel_power = 1
+		has_country_modifier = steamer_specialization
+	}
+	chance = {
+		base = 0
+		modifier = {
+			factor = 100
+			has_country_modifier = steamer_specialization
+		}
+	}
+	effect = {
+		factory_goods_output = {
+			steamer_convoy = 0.15
+		}
+		factory_output = -0.025
+	}
+}
+
+military_specialization = {
+	limit = { 
+		water_wheel_power = 1
+		has_country_modifier = military_specialization
+	}
+	chance = {
+		base = 0
+		modifier = {
+			factor = 100
+			has_country_modifier = military_specialization
+		}
+	}
+	effect = {
+		factory_goods_output = {
+			canned_food = 0.2
+		}
+		factory_goods_output = {
+			small_arms = 0.2
+		}
+		factory_goods_output = {
+			ammunition = 0.2
+		}
+		factory_goods_output = {
+			artillery = 0.2
+		}
+		factory_output = -0.025
+	}
+}
+
+beverage_specialization = {
+	limit = { 
+		water_wheel_power = 1
+		has_country_modifier = beverage_specialization
+	}
+	chance = {
+		base = 0
+		modifier = {
+			factor = 100
+			has_country_modifier = beverage_specialization
+		}
+	}
+	effect = {
+		factory_goods_output = {
+			glass = 0.3
+		}
+		factory_goods_output = {
+			wine = 0.3
+		}
+		factory_goods_output = {
+			liquor = 0.3
+		}
+		factory_output = -0.025
+	}
+}
+
+industrial_specialization = {
+	limit = { 
+		water_wheel_power = 1
+		has_country_modifier = industrial_specialization
+	}
+	chance = {
+		base = 0
+		modifier = {
+			factor = 100
+			has_country_modifier = industrial_specialization
+		}
+	}
+	effect = {
+		factory_goods_output = {
+			fertilizer = 0.15
+		}
+		factory_goods_output = {
+			explosives = 0.15
+		}
+		factory_goods_output = {
+			cement = 0.15
+		}
+		factory_goods_output = {
+			machine_parts = 0.15
+		}
+		factory_goods_output = {
+			steel = 0.15
+		}
+		factory_output = -0.025
+	}
+}
+
+advanced_military_specialization = {
+	limit = { 
+		water_wheel_power = 1
+		has_country_modifier = advanced_military_specialization
+	}
+	chance = {
+		base = 0
+		modifier = {
+			factor = 100
+			has_country_modifier = advanced_military_specialization
+		}
+	}
+	effect = {
+		factory_goods_output = {
+			aeroplanes = 0.3
+		}
+		factory_goods_output = {
+			barrels = 0.3
+		}
+		factory_output = -0.025
+	}
+}
+
+advanced_consumer_specialization = {
+	limit = { 
+		water_wheel_power = 1
+		has_country_modifier = advanced_consumer_specialization
+	}
+	chance = {
+		base = 0
+		modifier = {
+			factor = 100
+			has_country_modifier = advanced_consumer_specialization
+		}
+	}
+	effect = {
+		factory_goods_output = {
+			radio = 0.2
+		}
+		factory_goods_output = {
+			telephones = 0.2
+		}
+		factory_goods_output = {
+			automobiles = 0.2
+		}
+		factory_output = -0.025
+	}
+}
+
+clothing_specialization = {
+	limit = { 
+		water_wheel_power = 1
+		has_country_modifier = clothing_specialization
+	}
+	chance = {
+		base = 0
+		modifier = {
+			factor = 100
+			has_country_modifier = clothing_specialization
+		}
+	}
+	effect = {
+		factory_goods_output = {
+			fabric = 0.3
+		}
+		factory_goods_output = {
+			regular_clothes = 0.3
+		}
+		factory_goods_output = {
+			luxury_clothes = 0.3
+		}
+		factory_output = -0.025
+	}
+}
+
+furniture_specialization = {
+	limit = { 
+		water_wheel_power = 1
+		has_country_modifier = furniture_specialization
+	}
+	chance = {
+		base = 0
+		modifier = {
+			factor = 100
+			has_country_modifier = furniture_specialization
+		}
+	}
+	effect = {
+		factory_goods_output = {
+			lumber = 0.1
+		}
+		factory_goods_output = {
+			furniture = 0.3
+		}
+		factory_goods_output = {
+			luxury_furniture = 0.3
+		}
+		factory_output = -0.025
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## rest
 advanced_iron_mining = {
 	limit = { cheap_steel = 1 }
 	chance = {
@@ -10,13 +235,13 @@ advanced_iron_mining = {
 	}
 }
 advanced_forest_management = {
-	limit = { high_n_low_pressure_steam_engines = 1 }
+	limit = { practical_steam_engine = 1 }
 	chance = {
 		base = 100
 	}
 	effect = {
 		rgo_goods_output = {
-			timber = 0.4
+			timber = 1
 		}
 	}
 }

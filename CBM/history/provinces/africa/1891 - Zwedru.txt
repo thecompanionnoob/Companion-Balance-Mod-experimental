@@ -6,6 +6,7 @@ life_rating = 15
     controller = USA
     colonial = 2
 }
+add_core = MOR
 	
 	
 	

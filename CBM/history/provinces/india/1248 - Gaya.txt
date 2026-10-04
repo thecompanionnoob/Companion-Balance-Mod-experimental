@@ -10,3 +10,23 @@ add_core = JAU
 trade_goods = opium
 life_rating = 32
 
+state_building = {
+	level = 1
+	building = cement_factory
+	upgrade = yes
+}
+state_building = {
+	level = 3
+	building = winery
+	upgrade = yes
+}
+state_building = {
+	level = 2
+	building = liquor_distillery
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = glass_factory
+	upgrade = yes
+}

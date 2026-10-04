@@ -363,3 +363,223 @@ spain_vassal_tax_timer_desc;When this runs out, if you have any viceroyalties, t
 make_viceroy_puppet;Vassalize Viceroyalty;;;;;;
 make_viceroy_puppet_setup;Vassalize Viceroyalty;;;;;;
 make_viceroy_puppet_short;Vassalize Viceroyalty;;;;;;
+research_center;Research Center;;;;;;
+establish_german_dominance;Establish Dominance in Germany;;;;;;
+establish_german_dominance_setup;Establish Dominance in Germany;;;;;;
+establish_german_dominance_short;Establish Dominance in Germany;;;;;;
+NORMAL_WAR_GERMAN_DOMINANCE_NAME;German Brothers' War;;;;;;
+VARIABLE_0;§b0§Z;;;;;;;;;x
+VARIABLE_1;§b1§Z;;;;;;;;;x
+VARIABLE_2;§b2§Z;;;;;;;;;x
+VARIABLE_3;§b3§Z;;;;;;;;;x
+VARIABLE_4;§b4§Z;;;;;;;;;x
+VARIABLE_5;§b5§Z;;;;;;;;;x
+VARIABLE_6;§b6§Z;;;;;;;;;x
+VARIABLE_7;§b7§Z;;;;;;;;;x
+VARIABLE_8;§b8§Z;;;;;;;;;x
+VARIABLE_9;§b9§Z;;;;;;;;;x
+VARIABLE_10;§b10§Z;;;;;;;;;x
+VARIABLE_11;§b11§Z;;;;;;;;;x
+VARIABLE_12;§b12§Z;;;;;;;;;x
+VARIABLE_13;§b13§Z;;;;;;;;;x
+VARIABLE_14;§b14§Z;;;;;;;;;x
+VARIABLE_15;§b15§Z;;;;;;;;;x
+VARIABLE_16;§b16§Z;;;;;;;;;x
+VARIABLE_17;§b17§Z;;;;;;;;;x
+VARIABLE_18;§b18§Z;;;;;;;;;x
+VARIABLE_19;§b19§Z;;;;;;;;;x
+VARIABLE_20;§b20§Z;;;;;;;;;x
+VARIABLE_21;§b21§Z;;;;;;;;;x
+VARIABLE_22;§b22§Z;;;;;;;;;x
+VARIABLE_23;§b23§Z;;;;;;;;;x
+VARIABLE_24;§b24§Z;;;;;;;;;x
+VARIABLE_25;§b25§Z;;;;;;;;;x
+VARIABLE_26;§b26§Z;;;;;;;;;x
+VARIABLE_27;§b27§Z;;;;;;;;;x
+VARIABLE_28;§b28§Z;;;;;;;;;x
+VARIABLE_29;§b29§Z;;;;;;;;;x
+VARIABLE_30;§b30§Z;;;;;;;;;x
+VARIABLE_31;§b31§Z;;;;;;;;;x
+VARIABLE_32;§b32§Z;;;;;;;;;x
+VARIABLE_33;§b33§Z;;;;;;;;;x
+VARIABLE_34;§b34§Z;;;;;;;;;x
+VARIABLE_35;§b35§Z;;;;;;;;;x
+VARIABLE_36;§b36§Z;;;;;;;;;x
+VARIABLE_37;§b37§Z;;;;;;;;;x
+VARIABLE_38;§b38§Z;;;;;;;;;x
+VARIABLE_39;§b39§Z;;;;;;;;;x
+VARIABLE_40;§b40§Z;;;;;;;;;x
+VARIABLE_41;§b41§Z;;;;;;;;;x
+VARIABLE_42;§b42§Z;;;;;;;;;x
+VARIABLE_43;§b43§Z;;;;;;;;;x
+VARIABLE_44;§b44§Z;;;;;;;;;x
+VARIABLE_45;§b45§Z;;;;;;;;;x
+VARIABLE_46;§b46§Z;;;;;;;;;x
+VARIABLE_47;§b47§Z;;;;;;;;;x
+VARIABLE_48;§b48§Z;;;;;;;;;x
+VARIABLE_49;§b49§Z;;;;;;;;;x
+VARIABLE_50;§b50§Z;;;;;;;;;x
+VARIABLE_51;§b51§Z;;;;;;;;;x
+VARIABLE_52;§b52§Z;;;;;;;;;x
+VARIABLE_53;§b53§Z;;;;;;;;;x
+VARIABLE_54;§b54§Z;;;;;;;;;x
+VARIABLE_55;§b55§Z;;;;;;;;;x
+VARIABLE_56;§b56§Z;;;;;;;;;x
+VARIABLE_57;§b57§Z;;;;;;;;;x
+LINE_BREAK;\n§Z;;;;;;;;;x
+LINE_BREAK_ALT;\n§z;;;;;;;
+COLOR_RESET_LOC;§!;;;;;;
+OUT_OF_TEN_LOC;§b/ 10§Z;;;;;;
+BONAPARTIST_LOC;§bBonapartist Influence:§Z;;;;;;
+REPUBLICAN_LOC;§bRepublican Influence:§Z;;;;;;
+ORLEANIST_LOC;§bOrleanist Influence:§Z;;;;;;
+SPRING_CHAOS_LOC;§WChaos:§z;;;;;;
+SPRING_LIB_LOC;§WLiberalism:§z;;;;;;
+SPRINGTIME_CURRENT_LIB;§bCurrent Liberalization:§Z;;;;;;
+SPRINGTIME_CURRENT_CHAOS;§bCurrent Chaos:§Z;;;;;;
+SPRING_NO_REFORMS_LOC;§WWe do not have the reforms required to take this option. As such, the effects are as if you accepted demands.§z;;;;;;
+PLUS_RED_LOC;§R+§z;;;;;;
+PLUS_GREEN_LOC;§G+§z;;;;;;
+MINUS_RED_LOC;§R-§z;;;;;;
+MINUS_GREEN_LOC;§G-§z;;;;;;
+policing;Policing;;;;;;
+RED_VARIABLE_0;§R0§z;;;;;;;;;x
+RED_VARIABLE_1;§R1§z;;;;;;;;;x
+RED_VARIABLE_2;§R2§z;;;;;;;;;x
+RED_VARIABLE_3;§R3§z;;;;;;;;;x
+RED_VARIABLE_4;§R4§z;;;;;;;;;x
+RED_VARIABLE_5;§R5§z;;;;;;;;;x
+RED_VARIABLE_6;§R6§z;;;;;;;;;x
+RED_VARIABLE_7;§R7§z;;;;;;;;;x
+RED_VARIABLE_8;§R8§z;;;;;;;;;x
+RED_VARIABLE_9;§R9§z;;;;;;;;;x
+RED_VARIABLE_10;§R10§z;;;;;;;;;x
+RED_VARIABLE_11;§R11§z;;;;;;;;;x
+RED_VARIABLE_12;§R12§z;;;;;;;;;x
+RED_VARIABLE_13;§R13§z;;;;;;;;;x
+RED_VARIABLE_14;§R14§z;;;;;;;;;x
+RED_VARIABLE_15;§R15§z;;;;;;;;;x
+RED_VARIABLE_16;§R16§z;;;;;;;;;x
+RED_VARIABLE_17;§R17§z;;;;;;;;;x
+RED_VARIABLE_18;§R18§z;;;;;;;;;x
+RED_VARIABLE_19;§R19§z;;;;;;;;;x
+RED_VARIABLE_20;§R20§z;;;;;;;;;x
+RED_VARIABLE_21;§R21§z;;;;;;;;;x
+RED_VARIABLE_22;§R22§z;;;;;;;;;x
+RED_VARIABLE_23;§R23§z;;;;;;;;;x
+RED_VARIABLE_24;§R24§z;;;;;;;;;x
+RED_VARIABLE_25;§R25§z;;;;;;;;;x
+RED_VARIABLE_26;§R26§z;;;;;;;;;x
+RED_VARIABLE_27;§R27§z;;;;;;;;;x
+RED_VARIABLE_28;§R28§z;;;;;;;;;x
+RED_VARIABLE_29;§R29§z;;;;;;;;;x
+RED_VARIABLE_30;§R30§z;;;;;;;;;x
+RED_VARIABLE_31;§R31§z;;;;;;;;;x
+RED_VARIABLE_32;§R32§z;;;;;;;;;x
+RED_VARIABLE_33;§R33§z;;;;;;;;;x
+RED_VARIABLE_34;§R34§z;;;;;;;;;x
+RED_VARIABLE_35;§R35§z;;;;;;;;;x
+RED_VARIABLE_36;§R36§z;;;;;;;;;x
+RED_VARIABLE_37;§R37§z;;;;;;;;;x
+RED_VARIABLE_38;§R38§z;;;;;;;;;x
+RED_VARIABLE_39;§R39§z;;;;;;;;;x
+RED_VARIABLE_40;§R40§z;;;;;;;;;x
+RED_VARIABLE_41;§R41§z;;;;;;;;;x
+RED_VARIABLE_42;§R42§z;;;;;;;;;x
+RED_VARIABLE_43;§R43§z;;;;;;;;;x
+RED_VARIABLE_44;§R44§z;;;;;;;;;x
+RED_VARIABLE_45;§R45§z;;;;;;;;;x
+RED_VARIABLE_46;§R46§z;;;;;;;;;x
+RED_VARIABLE_47;§R47§z;;;;;;;;;x
+RED_VARIABLE_48;§R48§z;;;;;;;;;x
+RED_VARIABLE_49;§R49§z;;;;;;;;;x
+RED_VARIABLE_50;§R50§z;;;;;;;;;x
+RED_VARIABLE_51;§R51§z;;;;;;;;;x
+RED_VARIABLE_52;§R52§z;;;;;;;;;x
+RED_VARIABLE_53;§R53§z;;;;;;;;;x
+RED_VARIABLE_54;§R54§z;;;;;;;;;x
+RED_VARIABLE_55;§R55§z;;;;;;;;;x
+RED_VARIABLE_56;§R56§z;;;;;;;;;x
+RED_VARIABLE_57;§R57§z;;;;;;;;;x
+GREEN_VARIABLE_0;§G0§z;;;;;;;;;x
+GREEN_VARIABLE_1;§G1§z;;;;;;;;;x
+GREEN_VARIABLE_2;§G2§z;;;;;;;;;x
+GREEN_VARIABLE_3;§G3§z;;;;;;;;;x
+GREEN_VARIABLE_4;§G4§z;;;;;;;;;x
+GREEN_VARIABLE_5;§G5§z;;;;;;;;;x
+GREEN_VARIABLE_6;§G6§z;;;;;;;;;x
+GREEN_VARIABLE_7;§G7§z;;;;;;;;;x
+GREEN_VARIABLE_8;§G8§z;;;;;;;;;x
+GREEN_VARIABLE_9;§G9§z;;;;;;;;;x
+GREEN_VARIABLE_10;§G10§z;;;;;;;;;x
+GREEN_VARIABLE_11;§G11§z;;;;;;;;;x
+GREEN_VARIABLE_12;§G12§z;;;;;;;;;x
+GREEN_VARIABLE_13;§G13§z;;;;;;;;;x
+GREEN_VARIABLE_14;§G14§z;;;;;;;;;x
+GREEN_VARIABLE_15;§G15§z;;;;;;;;;x
+GREEN_VARIABLE_16;§G16§z;;;;;;;;;x
+GREEN_VARIABLE_17;§G17§z;;;;;;;;;x
+GREEN_VARIABLE_18;§G18§z;;;;;;;;;x
+GREEN_VARIABLE_19;§G19§z;;;;;;;;;x
+GREEN_VARIABLE_20;§G20§z;;;;;;;;;x
+GREEN_VARIABLE_21;§G21§z;;;;;;;;;x
+GREEN_VARIABLE_22;§G22§z;;;;;;;;;x
+GREEN_VARIABLE_23;§G23§z;;;;;;;;;x
+GREEN_VARIABLE_24;§G24§z;;;;;;;;;x
+GREEN_VARIABLE_25;§G25§z;;;;;;;;;x
+GREEN_VARIABLE_26;§G26§z;;;;;;;;;x
+GREEN_VARIABLE_27;§G27§z;;;;;;;;;x
+GREEN_VARIABLE_28;§G28§z;;;;;;;;;x
+GREEN_VARIABLE_29;§G29§z;;;;;;;;;x
+GREEN_VARIABLE_30;§G30§z;;;;;;;;;x
+GREEN_VARIABLE_31;§G31§z;;;;;;;;;x
+GREEN_VARIABLE_32;§G32§z;;;;;;;;;x
+GREEN_VARIABLE_33;§G33§z;;;;;;;;;x
+GREEN_VARIABLE_34;§G34§z;;;;;;;;;x
+GREEN_VARIABLE_35;§G35§z;;;;;;;;;x
+GREEN_VARIABLE_36;§G36§z;;;;;;;;;x
+GREEN_VARIABLE_37;§G37§z;;;;;;;;;x
+GREEN_VARIABLE_38;§G38§z;;;;;;;;;x
+GREEN_VARIABLE_39;§G39§z;;;;;;;;;x
+GREEN_VARIABLE_40;§G40§z;;;;;;;;;x
+GREEN_VARIABLE_41;§G41§z;;;;;;;;;x
+GREEN_VARIABLE_42;§G42§z;;;;;;;;;x
+GREEN_VARIABLE_43;§G43§z;;;;;;;;;x
+GREEN_VARIABLE_44;§G44§z;;;;;;;;;x
+GREEN_VARIABLE_45;§G45§z;;;;;;;;;x
+GREEN_VARIABLE_46;§G46§z;;;;;;;;;x
+GREEN_VARIABLE_47;§G47§z;;;;;;;;;x
+GREEN_VARIABLE_48;§G48§z;;;;;;;;;x
+GREEN_VARIABLE_49;§G49§z;;;;;;;;;x
+GREEN_VARIABLE_50;§G50§z;;;;;;;;;x
+GREEN_VARIABLE_51;§G51§z;;;;;;;;;x
+GREEN_VARIABLE_52;§G52§z;;;;;;;;;x
+GREEN_VARIABLE_53;§G53§z;;;;;;;;;x
+GREEN_VARIABLE_54;§G54§z;;;;;;;;;x
+GREEN_VARIABLE_55;§G55§z;;;;;;;;;x
+GREEN_VARIABLE_56;§G56§z;;;;;;;;;x
+GREEN_VARIABLE_57;§G57§z;;;;;;;;;x
+chaos_1;§RChaos: 1/10;;;;;;;;;x
+chaos_1_desc;Our country is struggling due to the ongoing revolutions!;;;;;;
+chaos_2;§RChaos: 2/10;;;;;;;;;x
+chaos_2_desc;Our country is struggling due to the ongoing revolutions!;;;;;;
+chaos_3;§RChaos: 3/10;;;;;;;;;x
+chaos_3_desc;Our country is struggling due to the ongoing revolutions!;;;;;;
+chaos_4;§RChaos: 4/10;;;;;;;;;x
+chaos_4_desc;Our country is struggling due to the ongoing revolutions!;;;;;;
+chaos_5;§RChaos: 5/10;;;;;;;;;x
+chaos_5_desc;Our country is struggling due to the ongoing revolutions!;;;;;;
+chaos_6;§RChaos: 6/10;;;;;;;;;x
+chaos_6_desc;Our country is struggling due to the ongoing revolutions!;;;;;;
+chaos_7;§RChaos: 7/10;;;;;;;;;x
+chaos_7_desc;Our country is struggling due to the ongoing revolutions!;;;;;;
+chaos_8;§RChaos: 8/10;;;;;;;;;x
+chaos_8_desc;Our country is struggling due to the ongoing revolutions!;;;;;;
+chaos_9;§RChaos: 9/10;;;;;;;;;x
+chaos_9_desc;Our country is struggling due to the ongoing revolutions!;;;;;;
+chaos_10;§RChaos: 10+/10;;;;;;;;;x
+chaos_10_desc;Our country is struggling due to the ongoing revolutions!;;;;;;
+indian_dye_bonus;Indian Dye Industries;;;;;;
+indian_dye_bonus_desc;This bonus exists to improve dye production while indian dye provinces are owned by Indian uncivs. It will go away when this province is owned by a non-Indian nation.;;;;;;
+russian_sap;Russian Sap;;;;;;;
+russian_sap_desc;A 'Russian Sap' were trenches dug under the ground to the enemy line prior to an assault which were then blown open, allowing attackers to reach the enemy line without facing machine gun fire in the open, or having to rely on artillery supression.;;;;;;

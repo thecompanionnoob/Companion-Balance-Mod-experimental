@@ -407,12 +407,12 @@ country_event = {
     desc = "EVTDESC69101"
     
     trigger = {
-        malthusian_thought = 1
-        NOT = { has_country_flag = malthusian_thought }
+        late_enlightenment_philosophy = 1
+        NOT = { has_country_flag = late_enlightenment_philosophy }
     }
 
     immediate = {
-        set_country_flag = malthusian_thought
+        set_country_flag = late_enlightenment_philosophy
         set_variable = {
             which = research_center_points
             value = 1
@@ -430,12 +430,12 @@ country_event = {
     desc = "EVTDESC69101"
     
     trigger = {
-        positivism = 1
-        NOT = { has_country_flag = positivism }
+        idealism = 1
+        NOT = { has_country_flag = idealism }
     }
 
     immediate = {
-        set_country_flag = positivism
+        set_country_flag = idealism
         change_variable = {
             which = research_center_points
             value = 1
@@ -453,12 +453,12 @@ country_event = {
     desc = "EVTDESC69101"
     
     trigger = {
-        functionalism = 1
-        NOT = { has_country_flag = functionalism_research_center }
+        empiricism = 1
+        NOT = { has_country_flag = empiricism }
     }
 
     immediate = {
-        set_country_flag = functionalism_research_center
+        set_country_flag = empiricism
         change_variable = {
             which = research_center_points
             value = 1
@@ -476,12 +476,12 @@ country_event = {
     desc = "EVTDESC69101"
     
     trigger = {
-        biologism = 1
-        NOT = { has_country_flag = biologism }
+        analytic_philosophy = 1
+        NOT = { has_country_flag = analytic_philosophy }
     }
 
     immediate = {
-        set_country_flag = biologism
+        set_country_flag = analytic_philosophy
         change_variable = {
             which = research_center_points
             value = 1
@@ -499,12 +499,12 @@ country_event = {
     desc = "EVTDESC69101"
     
     trigger = {
-        social_science = 1
-        NOT = { has_country_flag = social_science }
+        phenomenology_n_hermeneutic = 1
+        NOT = { has_country_flag = phenomenology_n_hermeneutic }
     }
 
     immediate = {
-        set_country_flag = social_science
+        set_country_flag = phenomenology_n_hermeneutic
         change_variable = {
             which = research_center_points
             value = 1
@@ -522,12 +522,12 @@ country_event = {
     desc = "EVTDESC69101"
     
     trigger = {
-        social_alienation = 1
-        NOT = { has_country_flag = social_alienation }
+        anti__rationalism = 1
+        NOT = { has_country_flag = anti__rationalism }
     }
 
     immediate = {
-        set_country_flag = social_alienation
+        set_country_flag = anti__rationalism
         change_variable = {
             which = research_center_points
             value = 1

@@ -24,6 +24,8 @@ sanctions = {
 
 
 
+
+
 early_game_reform_desire_militancy = {
 	trigger = {
 		NOT = {

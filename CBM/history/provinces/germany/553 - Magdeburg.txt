@@ -10,6 +10,16 @@ add_core = PRU
 add_core = GER
 trade_goods = cattle
 life_rating = 40
+state_building = {
+	level = 2
+	building = cement_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = canned_food_factory
+	upgrade = yes
+}
 1910.1.1 = {
 	state_building = {
 		level = 15

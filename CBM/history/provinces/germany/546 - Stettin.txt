@@ -6,6 +6,16 @@ naval_base = 3
 controller = GER
 add_core = GER
  }
+state_building = {
+	level = 1
+	building = steamer_shipyard
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = lumber_mill
+	upgrade = yes
+}
 controller = PRU
 add_core = PRU
 add_core = GER

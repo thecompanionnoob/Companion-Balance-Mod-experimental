@@ -13,6 +13,11 @@ state_building = {
 	upgrade = yes
 }
  }
+state_building = {
+	level = 4
+	building = cement_factory
+	upgrade = yes
+}
 controller = ENG
 add_core = ENG
 

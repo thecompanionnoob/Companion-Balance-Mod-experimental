@@ -13,6 +13,11 @@ naval_base = 3
 		upgrade = yes
 	}
  }
+state_building = {
+	level = 3
+	building = cement_factory 
+	upgrade = yes
+}
 controller = ENG
 add_core = ENG
 trade_goods = grain

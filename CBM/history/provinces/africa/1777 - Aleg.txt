@@ -7,6 +7,7 @@ life_rating = 15
     colonial = 2
 }
 	
+add_core = MOR
 	
 	
 

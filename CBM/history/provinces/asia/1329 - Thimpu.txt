@@ -9,5 +9,10 @@ add_core = BNG
 
 trade_goods = wool
 life_rating = 25
+state_building = {
+	level = 1
+	building = fabric_factory_wool
+	upgrade = yes
+}
 
         

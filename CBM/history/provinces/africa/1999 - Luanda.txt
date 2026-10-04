@@ -1,4 +1,5 @@
 owner = POR
+add_core = SAF
 1910.1.1 = {
 railroad = 3
 }

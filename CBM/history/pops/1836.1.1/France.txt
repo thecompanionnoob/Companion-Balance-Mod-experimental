@@ -775,6 +775,12 @@
 		size = 650
 	}
 
+	craftsmen = {
+		culture = french
+		religion = sunni
+		size = 2650
+	}
+
 	farmers = {
 		culture = french
 		religion = sunni
@@ -1104,7 +1110,7 @@
 	craftsmen = {
 		culture = french
 		religion = sunni
-		size = 7500
+		size = 17500
 	}
 
 	soldiers = {

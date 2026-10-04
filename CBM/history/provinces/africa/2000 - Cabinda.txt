@@ -1,5 +1,6 @@
 trade_goods = fruit
 life_rating = 20
+add_core = SAF
 
 1910.1.1 = {
     owner = POR

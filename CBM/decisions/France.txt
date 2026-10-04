@@ -36,7 +36,7 @@ political_decisions = {
 			NOT = { has_country_flag = french_union }
 		}
 		allow = {
-			nationalism_n_imperialism = 1
+			state_n_government = 1
 			any_owned_province = {
 				culture = maghrebi
 			}
@@ -50,4 +50,5 @@ political_decisions = {
 			}
 		}
 	}
+
 }

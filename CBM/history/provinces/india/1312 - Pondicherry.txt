@@ -4,6 +4,11 @@ controller = FRA
 
 trade_goods = grain
 life_rating = 32
+state_building = {
+	level = 1
+	building = liquor_distillery
+	upgrade = yes
+}
 	
 		
 		

@@ -4,3 +4,8 @@ add_core = SPA
 trade_goods = wool
 life_rating = 35
 1925.1.1 = { railroad = 3 }
+state_building = {
+	level = 1
+	building = regular_clothes_factory
+	upgrade = yes
+}

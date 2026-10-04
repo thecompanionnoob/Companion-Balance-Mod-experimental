@@ -15,6 +15,6 @@ railroad = 5
 controller = ENG
 add_core = ENG
 
-trade_goods = fish
+trade_goods = timber
 life_rating = 35
 1925.1.1 = { railroad = 3 }

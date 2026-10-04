@@ -1,4 +1,28 @@
 political_decisions = {
+
+
+	abandon_german_confederation = {
+		alert = no
+		potential = {
+			OR = { 
+				tag = SGF
+				tag = DAN
+				tag = KUK
+				tag = AUS
+			}
+			has_global_flag = german_confederation
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			prestige = -30
+			clr_global_flag = german_confederation
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
 	form_south_german_confederation = { #mutually exclusive with the A-H / danubia route
 		potential = {
 			tag = AUS

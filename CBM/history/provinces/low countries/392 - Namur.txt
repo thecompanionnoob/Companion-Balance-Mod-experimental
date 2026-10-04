@@ -8,3 +8,8 @@ life_rating = 35
 1910.1.1 = {
 	railroad = 5
 }
+state_building = {
+	level = 1
+	building = cement_factory
+	upgrade = yes
+}

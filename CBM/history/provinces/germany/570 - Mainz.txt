@@ -5,6 +5,11 @@ railroad = 4
 controller = GER
 add_core = GER
  }
+state_building = {
+	level = 1
+	building = fertilizer_factory
+	upgrade = yes
+}
 controller = HES
 add_core = HES
 add_core = GER

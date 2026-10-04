@@ -1,0 +1,3652 @@
+
+#for every country, liberalization starts at 0/10 and effects the num of reforms gained at the end.
+#chaos varies by country, causes a negative modifier, and causes the end of the chain if it reaches 0.
+#if chaos does not reach 0, it ends at the end of the event chain with a militancy penalty for the amount of chaos.
+
+
+country_event = {
+    id = 69120
+    title = "EVTNAME69120"
+    desc = "EVTDESC69120"
+    picture = Picture
+    
+    trigger = {
+        year = 1848
+        NOT = { has_country_flag = springtime }
+        NOT = { has_country_flag = springtime_over }
+        NOT = { has_global_flag = great_war }
+    }
+
+    immediate = {
+        set_variable = { which = spring_liberal value = 0 }
+        #set_variable = { which = spring_chaos value = 1.01 } #temp
+        set_country_flag = springtime
+
+        #country_event = { id = 69122 days = 30 }
+
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = spring_chaos value = 1 }}
+                }
+            }
+            owner = { 
+                set_variable = { which = spring_chaos value = 1.01 }
+            }
+        }
+
+
+        SPRINGTIME_DESC_1 = { }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 1 }
+                    NOT = { check_variable = { which = spring_chaos value = 2 } }
+                }
+            }
+            owner = { 
+                VARIABLE_1 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 2 }
+                    NOT = { check_variable = { which = spring_chaos value = 3 } }
+                }
+            }
+            owner = { 
+                VARIABLE_2 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 3 }
+                    NOT = { check_variable = { which = spring_chaos value = 4 } }
+                }
+            }
+            owner = { 
+                VARIABLE_3 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 4 }
+                    NOT = { check_variable = { which = spring_chaos value = 5 } }
+                }
+            }
+            owner = { 
+                VARIABLE_4 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 5 }
+                    NOT = { check_variable = { which = spring_chaos value = 6 } }
+                }
+            }
+            owner = { 
+                VARIABLE_5 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 6 }
+                    NOT = { check_variable = { which = spring_chaos value = 7 } }
+                }
+            }
+            owner = { 
+                VARIABLE_6 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 7 }
+                    NOT = { check_variable = { which = spring_chaos value = 8 } }
+                }
+            }
+            owner = { 
+                VARIABLE_7 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 8 }
+                    NOT = { check_variable = { which = spring_chaos value = 9 } }
+                }
+            }
+            owner = { 
+                VARIABLE_8 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 9 }
+                }
+            }
+            owner = { 
+                VARIABLE_9 = { }
+            }
+        }
+
+    }
+    
+
+    #fire_only_once = yes
+
+    #tell me what liberalization does
+    option = {
+        name = "EVTOPTA69120"
+        country_event = { id = 69121 days = 0 }
+        
+    }
+    
+    option = {
+        name = "EVTOPTB69120"
+        
+    }
+    
+}
+
+
+country_event = {
+    id = 69121
+    title = "EVTNAME69121"
+    desc = "EVTDESC69121"
+    picture = Picture
+    
+    is_triggered_only = yes 
+
+    #fire_only_once = yes
+
+    #tell me what chaos does
+    option = {
+        name = "EVTOPTA69121"
+        country_event = { id = 69133 days = 0 }
+        
+        
+    }
+    
+    option = {
+        name = "EVTOPTB69121"
+        
+        
+    }
+    
+}
+
+country_event = {
+    id = 69133
+    title = "EVTNAME69133"
+    desc = "EVTDESC69133"
+    picture = Picture
+    
+    is_triggered_only = yes 
+
+    #fire_only_once = yes
+
+    
+    option = {
+        name = "EVTOPTA69133"
+        
+        
+    }
+    
+}
+
+
+#demand for voting franchise
+
+country_event = {
+    id = 69122
+    title = "EVTNAME69122"
+    desc = "EVTDESC69122"
+    picture = Picture
+    
+    trigger = {
+        has_country_flag = springtime
+        NOT = { has_country_flag = spring_1 }
+        NOT = { has_country_flag = spring_none_chaos }
+    }
+
+    immediate = {
+        set_country_flag = spring_1
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = spring_chaos value = 1 } }
+                }
+            }
+            owner = { 
+                set_country_flag = spring_none_chaos
+            }
+        }
+
+        SPRINGTIME_CURRENT_CHAOS = { }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 1 }
+                    NOT = { check_variable = { which = spring_chaos value = 2 } }
+                }
+            }
+            owner = { 
+                VARIABLE_1 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 2 }
+                    NOT = { check_variable = { which = spring_chaos value = 3 } }
+                }
+            }
+            owner = { 
+                VARIABLE_2 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 3 }
+                    NOT = { check_variable = { which = spring_chaos value = 4 } }
+                }
+            }
+            owner = { 
+                VARIABLE_3 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 4 }
+                    NOT = { check_variable = { which = spring_chaos value = 5 } }
+                }
+            }
+            owner = { 
+                VARIABLE_4 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 5 }
+                    NOT = { check_variable = { which = spring_chaos value = 6 } }
+                }
+            }
+            owner = { 
+                VARIABLE_5 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 6 }
+                    NOT = { check_variable = { which = spring_chaos value = 7 } }
+                }
+            }
+            owner = { 
+                VARIABLE_6 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 7 }
+                    NOT = { check_variable = { which = spring_chaos value = 8 } }
+                }
+            }
+            owner = { 
+                VARIABLE_7 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 8 }
+                    NOT = { check_variable = { which = spring_chaos value = 9 } }
+                }
+            }
+            owner = { 
+                VARIABLE_8 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 9 }
+                    NOT = { check_variable = { which = spring_chaos value = 10 } }
+                }
+            }
+            owner = { 
+                VARIABLE_9 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 10 }
+                }
+            }
+            owner = { 
+                VARIABLE_10 = { }
+            }
+        }
+        OUT_OF_TEN_LOC = { }
+        LINE_BREAK = { }
+
+        SPRINGTIME_CURRENT_LIB = { }
+
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = spring_liberal value = 1 } }
+                }
+            }
+            owner = { 
+                VARIABLE_0 = { }
+            }
+        }
+
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 1 }
+                    NOT = { check_variable = { which = spring_liberal value = 2 } }
+                }
+            }
+            owner = { 
+                VARIABLE_1 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 2 }
+                    NOT = { check_variable = { which = spring_liberal value = 3 } }
+                }
+            }
+            owner = { 
+                VARIABLE_2 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 3 }
+                    NOT = { check_variable = { which = spring_liberal value = 4 } }
+                }
+            }
+            owner = { 
+                VARIABLE_3 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 4 }
+                    NOT = { check_variable = { which = spring_liberal value = 5 } }
+                }
+            }
+            owner = { 
+                VARIABLE_4 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 5 }
+                    NOT = { check_variable = { which = spring_liberal value = 6 } }
+                }
+            }
+            owner = { 
+                VARIABLE_5 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 6 }
+                    NOT = { check_variable = { which = spring_liberal value = 7 } }
+                }
+            }
+            owner = { 
+                VARIABLE_6 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 7 }
+                    NOT = { check_variable = { which = spring_liberal value = 8 } }
+                }
+            }
+            owner = { 
+                VARIABLE_7 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 8 }
+                    NOT = { check_variable = { which = spring_liberal value = 9 } }
+                }
+            }
+            owner = { 
+                VARIABLE_8 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 9 }
+                    NOT = { check_variable = { which = spring_liberal value = 10 } }
+                }
+            }
+            owner = { 
+                VARIABLE_9 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 10 }
+                }
+            }
+            owner = { 
+                VARIABLE_10 = { }
+                PLUS_GREEN_LOC = { }
+            }
+        }
+
+        OUT_OF_TEN_LOC = { }
+
+
+
+    }
+
+
+    #We should do that (+chaos +lib)
+    option = {
+        name = "EVTOPTA69122"
+        change_variable = { which = spring_chaos value = 1.01 }
+        change_variable = { which = spring_liberal value = 1.01 }
+        any_pop = {
+            limit = {
+                strata = rich
+            }
+            militancy = 3
+        }
+        any_pop = {
+            limit = {
+                pop_majority_ideology = reactionary
+            }
+            militancy = 3
+        }
+        any_pop = {
+            limit = {
+                pop_majority_ideology = conservative
+            }
+            militancy = 1
+        }
+
+
+        SPRING_CHAOS_LOC = { }
+        PLUS_RED_LOC = { }
+        RED_VARIABLE_1 = { }
+        LINE_BREAK_ALT = { }
+
+        SPRING_LIB_LOC = { }
+        PLUS_GREEN_LOC = { }
+        GREEN_VARIABLE_1 = { }
+        
+    }
+    
+    #Send in the army (-chaos -lib)
+    option = {
+        name = "EVTOPTB69122"
+        change_variable = { which = spring_chaos value = -1.01 }
+        change_variable = { which = spring_liberal value = -1.01 }
+
+        LINE_BREAK_ALT = { }
+
+        SPRING_CHAOS_LOC = { }
+        MINUS_GREEN_LOC = { }
+        GREEN_VARIABLE_1 = { }
+        LINE_BREAK_ALT = { }
+
+        SPRING_LIB_LOC = { }
+        MINUS_RED_LOC = { }
+        RED_VARIABLE_1 = { }
+        
+    }
+    
+    #Special: We already have it (--chaos )
+    option = {
+        name = "EVTOPTC69122"
+        random_owned = {
+            limit = {
+                owner = {
+                    OR = {
+                        political_reform = universal_voting
+                        political_reform = wealth_voting
+                    }
+                }
+            }
+            owner = { 
+                change_variable = { which = spring_chaos value = -2.01 }
+                any_pop = {
+                    militancy = -2
+                }
+
+                SPRING_CHAOS_LOC = { }
+                MINUS_GREEN_LOC = { }
+                GREEN_VARIABLE_2 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = {
+                        OR = {
+                            political_reform = universal_voting
+                            political_reform = wealth_voting
+                        }
+                    }
+                }
+            }
+            owner = { 
+
+                any_pop = {
+                    limit = {
+                        strata = rich
+                    }
+                    militancy = 3
+                }
+                any_pop = {
+                    limit = {
+                        pop_majority_ideology = reactionary
+                    }
+                    militancy = 3
+                }
+                any_pop = {
+                    limit = {
+                        pop_majority_ideology = conservative
+                    }
+                    militancy = 1
+                }
+
+
+                SPRING_NO_REFORMS_LOC = { }
+                LINE_BREAK_ALT = { }
+
+                change_variable = { which = spring_chaos value = 1.01 }
+
+                SPRING_CHAOS_LOC = { }
+                PLUS_RED_LOC = { }
+                RED_VARIABLE_1 = { }
+                LINE_BREAK_ALT = { }
+                
+                change_variable = { which = spring_liberal value = 1.01 }
+
+                SPRING_LIB_LOC = { }
+                PLUS_GREEN_LOC = { }
+                GREEN_VARIABLE_1 = { }
+
+            }
+        }
+        
+        
+    }
+    
+}
+
+#demand for political parties reform
+
+country_event = {
+    id = 69123
+    title = "EVTNAME69123"
+    desc = "EVTDESC69123"
+    picture = Picture
+    
+    trigger = {
+        has_country_flag = spring_1
+        NOT = { has_country_flag = spring_2 }
+        NOT = { has_country_flag = spring_none_chaos }
+    }
+
+    immediate = {
+        set_country_flag = spring_2
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = spring_chaos value = 1 } }
+                }
+            }
+            owner = { 
+                set_country_flag = spring_none_chaos
+            }
+        }
+
+        SPRINGTIME_CURRENT_CHAOS = { }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 1 }
+                    NOT = { check_variable = { which = spring_chaos value = 2 } }
+                }
+            }
+            owner = { 
+                VARIABLE_1 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 2 }
+                    NOT = { check_variable = { which = spring_chaos value = 3 } }
+                }
+            }
+            owner = { 
+                VARIABLE_2 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 3 }
+                    NOT = { check_variable = { which = spring_chaos value = 4 } }
+                }
+            }
+            owner = { 
+                VARIABLE_3 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 4 }
+                    NOT = { check_variable = { which = spring_chaos value = 5 } }
+                }
+            }
+            owner = { 
+                VARIABLE_4 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 5 }
+                    NOT = { check_variable = { which = spring_chaos value = 6 } }
+                }
+            }
+            owner = { 
+                VARIABLE_5 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 6 }
+                    NOT = { check_variable = { which = spring_chaos value = 7 } }
+                }
+            }
+            owner = { 
+                VARIABLE_6 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 7 }
+                    NOT = { check_variable = { which = spring_chaos value = 8 } }
+                }
+            }
+            owner = { 
+                VARIABLE_7 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 8 }
+                    NOT = { check_variable = { which = spring_chaos value = 9 } }
+                }
+            }
+            owner = { 
+                VARIABLE_8 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 9 }
+                    NOT = { check_variable = { which = spring_chaos value = 10 } }
+                }
+            }
+            owner = { 
+                VARIABLE_9 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 10 }
+                }
+            }
+            owner = { 
+                VARIABLE_10 = { }
+            }
+        }
+        OUT_OF_TEN_LOC = { }
+        LINE_BREAK = { }
+
+        SPRINGTIME_CURRENT_LIB = { }
+
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = spring_liberal value = 1 } }
+                }
+            }
+            owner = { 
+                VARIABLE_0 = { }
+            }
+        }
+
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 1 }
+                    NOT = { check_variable = { which = spring_liberal value = 2 } }
+                }
+            }
+            owner = { 
+                VARIABLE_1 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 2 }
+                    NOT = { check_variable = { which = spring_liberal value = 3 } }
+                }
+            }
+            owner = { 
+                VARIABLE_2 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 3 }
+                    NOT = { check_variable = { which = spring_liberal value = 4 } }
+                }
+            }
+            owner = { 
+                VARIABLE_3 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 4 }
+                    NOT = { check_variable = { which = spring_liberal value = 5 } }
+                }
+            }
+            owner = { 
+                VARIABLE_4 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 5 }
+                    NOT = { check_variable = { which = spring_liberal value = 6 } }
+                }
+            }
+            owner = { 
+                VARIABLE_5 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 6 }
+                    NOT = { check_variable = { which = spring_liberal value = 7 } }
+                }
+            }
+            owner = { 
+                VARIABLE_6 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 7 }
+                    NOT = { check_variable = { which = spring_liberal value = 8 } }
+                }
+            }
+            owner = { 
+                VARIABLE_7 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 8 }
+                    NOT = { check_variable = { which = spring_liberal value = 9 } }
+                }
+            }
+            owner = { 
+                VARIABLE_8 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 9 }
+                    NOT = { check_variable = { which = spring_liberal value = 10 } }
+                }
+            }
+            owner = { 
+                VARIABLE_9 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 10 }
+                }
+            }
+            owner = { 
+                VARIABLE_10 = { }
+                PLUS_GREEN_LOC = { }
+            }
+        }
+
+        OUT_OF_TEN_LOC = { }
+
+
+
+    }
+
+    #We should do that (+chaos +lib)
+    option = {
+        name = "EVTOPTA69122"
+        change_variable = { which = spring_chaos value = 1.01 }
+        change_variable = { which = spring_liberal value = 1.01 }
+        
+    }
+    
+    #Send in the army (-chaos -lib)
+    option = {
+        name = "EVTOPTB69122"
+        change_variable = { which = spring_chaos value = -1.01 }
+        change_variable = { which = spring_liberal value = -1.01 }
+        
+    }
+    
+    #Special: We already have it (--chaos )
+    option = {
+        name = "EVTOPTC69123"
+        change_variable = { which = spring_chaos value = -2.01 }
+        
+        
+    }
+    
+}
+
+#demand for press rights reform
+
+country_event = {
+    id = 69124
+    title = "EVTNAME69124"
+    desc = "EVTDESC69124"
+    picture = Picture
+    
+    trigger = {
+        has_country_flag = spring_2
+        NOT = { has_country_flag = spring_3 }
+        NOT = { has_country_flag = spring_none_chaos }
+    }
+
+    immediate = {
+        set_country_flag = spring_3
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = spring_chaos value = 1 } }
+                }
+            }
+            owner = { 
+                set_country_flag = spring_none_chaos
+            }
+        }
+
+        SPRINGTIME_CURRENT_CHAOS = { }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 1 }
+                    NOT = { check_variable = { which = spring_chaos value = 2 } }
+                }
+            }
+            owner = { 
+                VARIABLE_1 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 2 }
+                    NOT = { check_variable = { which = spring_chaos value = 3 } }
+                }
+            }
+            owner = { 
+                VARIABLE_2 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 3 }
+                    NOT = { check_variable = { which = spring_chaos value = 4 } }
+                }
+            }
+            owner = { 
+                VARIABLE_3 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 4 }
+                    NOT = { check_variable = { which = spring_chaos value = 5 } }
+                }
+            }
+            owner = { 
+                VARIABLE_4 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 5 }
+                    NOT = { check_variable = { which = spring_chaos value = 6 } }
+                }
+            }
+            owner = { 
+                VARIABLE_5 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 6 }
+                    NOT = { check_variable = { which = spring_chaos value = 7 } }
+                }
+            }
+            owner = { 
+                VARIABLE_6 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 7 }
+                    NOT = { check_variable = { which = spring_chaos value = 8 } }
+                }
+            }
+            owner = { 
+                VARIABLE_7 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 8 }
+                    NOT = { check_variable = { which = spring_chaos value = 9 } }
+                }
+            }
+            owner = { 
+                VARIABLE_8 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 9 }
+                    NOT = { check_variable = { which = spring_chaos value = 10 } }
+                }
+            }
+            owner = { 
+                VARIABLE_9 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 10 }
+                }
+            }
+            owner = { 
+                VARIABLE_10 = { }
+            }
+        }
+        OUT_OF_TEN_LOC = { }
+        LINE_BREAK = { }
+
+        SPRINGTIME_CURRENT_LIB = { }
+
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = spring_liberal value = 1 } }
+                }
+            }
+            owner = { 
+                VARIABLE_0 = { }
+            }
+        }
+
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 1 }
+                    NOT = { check_variable = { which = spring_liberal value = 2 } }
+                }
+            }
+            owner = { 
+                VARIABLE_1 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 2 }
+                    NOT = { check_variable = { which = spring_liberal value = 3 } }
+                }
+            }
+            owner = { 
+                VARIABLE_2 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 3 }
+                    NOT = { check_variable = { which = spring_liberal value = 4 } }
+                }
+            }
+            owner = { 
+                VARIABLE_3 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 4 }
+                    NOT = { check_variable = { which = spring_liberal value = 5 } }
+                }
+            }
+            owner = { 
+                VARIABLE_4 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 5 }
+                    NOT = { check_variable = { which = spring_liberal value = 6 } }
+                }
+            }
+            owner = { 
+                VARIABLE_5 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 6 }
+                    NOT = { check_variable = { which = spring_liberal value = 7 } }
+                }
+            }
+            owner = { 
+                VARIABLE_6 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 7 }
+                    NOT = { check_variable = { which = spring_liberal value = 8 } }
+                }
+            }
+            owner = { 
+                VARIABLE_7 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 8 }
+                    NOT = { check_variable = { which = spring_liberal value = 9 } }
+                }
+            }
+            owner = { 
+                VARIABLE_8 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 9 }
+                    NOT = { check_variable = { which = spring_liberal value = 10 } }
+                }
+            }
+            owner = { 
+                VARIABLE_9 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 10 }
+                }
+            }
+            owner = { 
+                VARIABLE_10 = { }
+                PLUS_GREEN_LOC = { }
+            }
+        }
+
+        OUT_OF_TEN_LOC = { }
+
+
+
+    }
+    immediate = {
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = spring_chaos value = 1 } }
+                }
+            }
+            owner = { 
+                country_event = { id = 69132 days = 30 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 1 } 
+                }
+            }
+            owner = { 
+                country_event = { id = 69125 days = 30 }
+            }
+        }
+
+    }
+
+    #We should do that (+chaos +lib)
+    option = {
+        name = "EVTOPTA69122"
+        change_variable = { which = spring_chaos value = 1.01 }
+        change_variable = { which = spring_liberal value = 1.01 }
+        
+    }
+    
+    #Send in the army (-chaos -lib)
+    option = {
+        name = "EVTOPTB69122"
+        change_variable = { which = spring_chaos value = -1.01 }
+        change_variable = { which = spring_liberal value = -1.01 }
+        
+    }
+    
+    #Special: We already have it (--chaos )
+    option = {
+        name = "EVTOPTC69124"
+        change_variable = { which = spring_chaos value = -2.01 }
+        
+        
+    }
+    
+}
+
+#demand for land reform
+
+country_event = {
+    id = 69125
+    title = "EVTNAME69125"
+    desc = "EVTDESC69125"
+    picture = Picture
+    
+    trigger = {
+        has_country_flag = spring_3
+        NOT = { has_country_flag = spring_4 }
+        NOT = { has_country_flag = spring_none_chaos }
+    }
+
+    immediate = {
+        set_country_flag = spring_4
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = spring_chaos value = 1 } }
+                }
+            }
+            owner = { 
+                set_country_flag = spring_none_chaos
+            }
+        }
+
+        SPRINGTIME_CURRENT_CHAOS = { }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 1 }
+                    NOT = { check_variable = { which = spring_chaos value = 2 } }
+                }
+            }
+            owner = { 
+                VARIABLE_1 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 2 }
+                    NOT = { check_variable = { which = spring_chaos value = 3 } }
+                }
+            }
+            owner = { 
+                VARIABLE_2 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 3 }
+                    NOT = { check_variable = { which = spring_chaos value = 4 } }
+                }
+            }
+            owner = { 
+                VARIABLE_3 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 4 }
+                    NOT = { check_variable = { which = spring_chaos value = 5 } }
+                }
+            }
+            owner = { 
+                VARIABLE_4 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 5 }
+                    NOT = { check_variable = { which = spring_chaos value = 6 } }
+                }
+            }
+            owner = { 
+                VARIABLE_5 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 6 }
+                    NOT = { check_variable = { which = spring_chaos value = 7 } }
+                }
+            }
+            owner = { 
+                VARIABLE_6 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 7 }
+                    NOT = { check_variable = { which = spring_chaos value = 8 } }
+                }
+            }
+            owner = { 
+                VARIABLE_7 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 8 }
+                    NOT = { check_variable = { which = spring_chaos value = 9 } }
+                }
+            }
+            owner = { 
+                VARIABLE_8 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 9 }
+                    NOT = { check_variable = { which = spring_chaos value = 10 } }
+                }
+            }
+            owner = { 
+                VARIABLE_9 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 10 }
+                }
+            }
+            owner = { 
+                VARIABLE_10 = { }
+            }
+        }
+        OUT_OF_TEN_LOC = { }
+        LINE_BREAK = { }
+
+        SPRINGTIME_CURRENT_LIB = { }
+
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = spring_liberal value = 1 } }
+                }
+            }
+            owner = { 
+                VARIABLE_0 = { }
+            }
+        }
+
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 1 }
+                    NOT = { check_variable = { which = spring_liberal value = 2 } }
+                }
+            }
+            owner = { 
+                VARIABLE_1 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 2 }
+                    NOT = { check_variable = { which = spring_liberal value = 3 } }
+                }
+            }
+            owner = { 
+                VARIABLE_2 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 3 }
+                    NOT = { check_variable = { which = spring_liberal value = 4 } }
+                }
+            }
+            owner = { 
+                VARIABLE_3 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 4 }
+                    NOT = { check_variable = { which = spring_liberal value = 5 } }
+                }
+            }
+            owner = { 
+                VARIABLE_4 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 5 }
+                    NOT = { check_variable = { which = spring_liberal value = 6 } }
+                }
+            }
+            owner = { 
+                VARIABLE_5 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 6 }
+                    NOT = { check_variable = { which = spring_liberal value = 7 } }
+                }
+            }
+            owner = { 
+                VARIABLE_6 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 7 }
+                    NOT = { check_variable = { which = spring_liberal value = 8 } }
+                }
+            }
+            owner = { 
+                VARIABLE_7 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 8 }
+                    NOT = { check_variable = { which = spring_liberal value = 9 } }
+                }
+            }
+            owner = { 
+                VARIABLE_8 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 9 }
+                    NOT = { check_variable = { which = spring_liberal value = 10 } }
+                }
+            }
+            owner = { 
+                VARIABLE_9 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 10 }
+                }
+            }
+            owner = { 
+                VARIABLE_10 = { }
+                PLUS_GREEN_LOC = { }
+            }
+        }
+
+        OUT_OF_TEN_LOC = { }
+
+
+
+    }
+
+    #We should do that (+chaos +lib)
+    option = {
+        name = "EVTOPTA69122"
+        change_variable = { which = spring_chaos value = 1.01 }
+        change_variable = { which = spring_liberal value = 1.01 }
+        
+    }
+    
+    #Send in the army (-chaos -lib)
+    option = {
+        name = "EVTOPTB69122"
+        change_variable = { which = spring_chaos value = -1.01 }
+        change_variable = { which = spring_liberal value = -1.01 }
+        
+    }
+    
+    #Special: We already have it (--chaos )
+    option = {
+        name = "EVTOPTC69125"
+        change_variable = { which = spring_chaos value = -2.01 }
+        
+        
+    }
+    
+}
+
+#demand for policing reform
+
+country_event = {
+    id = 69126
+    title = "EVTNAME69126"
+    desc = "EVTDESC69126"
+    picture = Picture
+    
+    trigger = {
+        has_country_flag = spring_4
+        NOT = { has_country_flag = spring_5 }
+        NOT = { has_country_flag = spring_none_chaos }
+    }
+
+    immediate = {
+        set_country_flag = spring_5
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = spring_chaos value = 1 } }
+                }
+            }
+            owner = { 
+                set_country_flag = spring_none_chaos
+            }
+        }
+
+        SPRINGTIME_CURRENT_CHAOS = { }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 1 }
+                    NOT = { check_variable = { which = spring_chaos value = 2 } }
+                }
+            }
+            owner = { 
+                VARIABLE_1 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 2 }
+                    NOT = { check_variable = { which = spring_chaos value = 3 } }
+                }
+            }
+            owner = { 
+                VARIABLE_2 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 3 }
+                    NOT = { check_variable = { which = spring_chaos value = 4 } }
+                }
+            }
+            owner = { 
+                VARIABLE_3 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 4 }
+                    NOT = { check_variable = { which = spring_chaos value = 5 } }
+                }
+            }
+            owner = { 
+                VARIABLE_4 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 5 }
+                    NOT = { check_variable = { which = spring_chaos value = 6 } }
+                }
+            }
+            owner = { 
+                VARIABLE_5 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 6 }
+                    NOT = { check_variable = { which = spring_chaos value = 7 } }
+                }
+            }
+            owner = { 
+                VARIABLE_6 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 7 }
+                    NOT = { check_variable = { which = spring_chaos value = 8 } }
+                }
+            }
+            owner = { 
+                VARIABLE_7 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 8 }
+                    NOT = { check_variable = { which = spring_chaos value = 9 } }
+                }
+            }
+            owner = { 
+                VARIABLE_8 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 9 }
+                    NOT = { check_variable = { which = spring_chaos value = 10 } }
+                }
+            }
+            owner = { 
+                VARIABLE_9 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 10 }
+                }
+            }
+            owner = { 
+                VARIABLE_10 = { }
+            }
+        }
+        OUT_OF_TEN_LOC = { }
+        LINE_BREAK = { }
+
+        SPRINGTIME_CURRENT_LIB = { }
+
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = spring_liberal value = 1 } }
+                }
+            }
+            owner = { 
+                VARIABLE_0 = { }
+            }
+        }
+
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 1 }
+                    NOT = { check_variable = { which = spring_liberal value = 2 } }
+                }
+            }
+            owner = { 
+                VARIABLE_1 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 2 }
+                    NOT = { check_variable = { which = spring_liberal value = 3 } }
+                }
+            }
+            owner = { 
+                VARIABLE_2 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 3 }
+                    NOT = { check_variable = { which = spring_liberal value = 4 } }
+                }
+            }
+            owner = { 
+                VARIABLE_3 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 4 }
+                    NOT = { check_variable = { which = spring_liberal value = 5 } }
+                }
+            }
+            owner = { 
+                VARIABLE_4 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 5 }
+                    NOT = { check_variable = { which = spring_liberal value = 6 } }
+                }
+            }
+            owner = { 
+                VARIABLE_5 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 6 }
+                    NOT = { check_variable = { which = spring_liberal value = 7 } }
+                }
+            }
+            owner = { 
+                VARIABLE_6 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 7 }
+                    NOT = { check_variable = { which = spring_liberal value = 8 } }
+                }
+            }
+            owner = { 
+                VARIABLE_7 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 8 }
+                    NOT = { check_variable = { which = spring_liberal value = 9 } }
+                }
+            }
+            owner = { 
+                VARIABLE_8 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 9 }
+                    NOT = { check_variable = { which = spring_liberal value = 10 } }
+                }
+            }
+            owner = { 
+                VARIABLE_9 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 10 }
+                }
+            }
+            owner = { 
+                VARIABLE_10 = { }
+                PLUS_GREEN_LOC = { }
+            }
+        }
+
+        OUT_OF_TEN_LOC = { }
+
+
+
+    }
+
+    #We should do that (+chaos +lib)
+    option = {
+        name = "EVTOPTA69122"
+        change_variable = { which = spring_chaos value = 1.01 }
+        change_variable = { which = spring_liberal value = 1.01 }
+        
+    }
+    
+    #Send in the army (-chaos -lib)
+    option = {
+        name = "EVTOPTB69122"
+        change_variable = { which = spring_chaos value = -1.01 }
+        change_variable = { which = spring_liberal value = -1.01 }
+        
+    }
+    
+    #Special: We already have it (--chaos )
+    option = {
+        name = "EVTOPTC69126"
+        change_variable = { which = spring_chaos value = -2.01 }
+        
+        
+    }
+    
+}
+
+#demand for trade union reform
+
+country_event = {
+    id = 69127
+    title = "EVTNAME69127"
+    desc = "EVTDESC69127"
+    picture = Picture
+    
+    trigger = {
+        has_country_flag = spring_5
+        NOT = { has_country_flag = spring_6 }
+        NOT = { has_country_flag = spring_none_chaos }
+    }
+
+    immediate = {
+        set_country_flag = spring_6
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = spring_chaos value = 1 } }
+                }
+            }
+            owner = { 
+                set_country_flag = spring_none_chaos
+            }
+        }
+
+        SPRINGTIME_CURRENT_CHAOS = { }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 1 }
+                    NOT = { check_variable = { which = spring_chaos value = 2 } }
+                }
+            }
+            owner = { 
+                VARIABLE_1 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 2 }
+                    NOT = { check_variable = { which = spring_chaos value = 3 } }
+                }
+            }
+            owner = { 
+                VARIABLE_2 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 3 }
+                    NOT = { check_variable = { which = spring_chaos value = 4 } }
+                }
+            }
+            owner = { 
+                VARIABLE_3 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 4 }
+                    NOT = { check_variable = { which = spring_chaos value = 5 } }
+                }
+            }
+            owner = { 
+                VARIABLE_4 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 5 }
+                    NOT = { check_variable = { which = spring_chaos value = 6 } }
+                }
+            }
+            owner = { 
+                VARIABLE_5 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 6 }
+                    NOT = { check_variable = { which = spring_chaos value = 7 } }
+                }
+            }
+            owner = { 
+                VARIABLE_6 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 7 }
+                    NOT = { check_variable = { which = spring_chaos value = 8 } }
+                }
+            }
+            owner = { 
+                VARIABLE_7 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 8 }
+                    NOT = { check_variable = { which = spring_chaos value = 9 } }
+                }
+            }
+            owner = { 
+                VARIABLE_8 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 9 }
+                    NOT = { check_variable = { which = spring_chaos value = 10 } }
+                }
+            }
+            owner = { 
+                VARIABLE_9 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 10 }
+                }
+            }
+            owner = { 
+                VARIABLE_10 = { }
+            }
+        }
+        OUT_OF_TEN_LOC = { }
+        LINE_BREAK = { }
+
+        SPRINGTIME_CURRENT_LIB = { }
+
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = spring_liberal value = 1 } }
+                }
+            }
+            owner = { 
+                VARIABLE_0 = { }
+            }
+        }
+
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 1 }
+                    NOT = { check_variable = { which = spring_liberal value = 2 } }
+                }
+            }
+            owner = { 
+                VARIABLE_1 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 2 }
+                    NOT = { check_variable = { which = spring_liberal value = 3 } }
+                }
+            }
+            owner = { 
+                VARIABLE_2 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 3 }
+                    NOT = { check_variable = { which = spring_liberal value = 4 } }
+                }
+            }
+            owner = { 
+                VARIABLE_3 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 4 }
+                    NOT = { check_variable = { which = spring_liberal value = 5 } }
+                }
+            }
+            owner = { 
+                VARIABLE_4 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 5 }
+                    NOT = { check_variable = { which = spring_liberal value = 6 } }
+                }
+            }
+            owner = { 
+                VARIABLE_5 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 6 }
+                    NOT = { check_variable = { which = spring_liberal value = 7 } }
+                }
+            }
+            owner = { 
+                VARIABLE_6 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 7 }
+                    NOT = { check_variable = { which = spring_liberal value = 8 } }
+                }
+            }
+            owner = { 
+                VARIABLE_7 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 8 }
+                    NOT = { check_variable = { which = spring_liberal value = 9 } }
+                }
+            }
+            owner = { 
+                VARIABLE_8 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 9 }
+                    NOT = { check_variable = { which = spring_liberal value = 10 } }
+                }
+            }
+            owner = { 
+                VARIABLE_9 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 10 }
+                }
+            }
+            owner = { 
+                VARIABLE_10 = { }
+                PLUS_GREEN_LOC = { }
+            }
+        }
+
+        OUT_OF_TEN_LOC = { }
+
+
+
+    }
+
+    #We should do that (+chaos +lib)
+    option = {
+        name = "EVTOPTA69122"
+        change_variable = { which = spring_chaos value = 1.01 }
+        change_variable = { which = spring_liberal value = 1.01 }
+        
+    }
+    
+    #Send in the army (-chaos -lib)
+    option = {
+        name = "EVTOPTB69122"
+        change_variable = { which = spring_chaos value = -1.01 }
+        change_variable = { which = spring_liberal value = -1.01 }
+        
+    }
+    
+    #Special: We already have it (--chaos )
+    option = {
+        name = "EVTOPTC69127"
+        change_variable = { which = spring_chaos value = -2.01 }
+        
+        
+    }
+    
+}
+
+#demand for minimum wage reform
+
+country_event = {
+    id = 69128
+    title = "EVTNAME69128"
+    desc = "EVTDESC69128"
+    picture = Picture
+    
+    trigger = {
+        has_country_flag = spring_6
+        NOT = { has_country_flag = spring_7 }
+        NOT = { has_country_flag = spring_none_chaos }
+    }
+
+    immediate = {
+        set_country_flag = spring_7
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = spring_chaos value = 1 } }
+                }
+            }
+            owner = { 
+                set_country_flag = spring_none_chaos
+            }
+        }
+
+        SPRINGTIME_CURRENT_CHAOS = { }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 1 }
+                    NOT = { check_variable = { which = spring_chaos value = 2 } }
+                }
+            }
+            owner = { 
+                VARIABLE_1 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 2 }
+                    NOT = { check_variable = { which = spring_chaos value = 3 } }
+                }
+            }
+            owner = { 
+                VARIABLE_2 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 3 }
+                    NOT = { check_variable = { which = spring_chaos value = 4 } }
+                }
+            }
+            owner = { 
+                VARIABLE_3 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 4 }
+                    NOT = { check_variable = { which = spring_chaos value = 5 } }
+                }
+            }
+            owner = { 
+                VARIABLE_4 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 5 }
+                    NOT = { check_variable = { which = spring_chaos value = 6 } }
+                }
+            }
+            owner = { 
+                VARIABLE_5 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 6 }
+                    NOT = { check_variable = { which = spring_chaos value = 7 } }
+                }
+            }
+            owner = { 
+                VARIABLE_6 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 7 }
+                    NOT = { check_variable = { which = spring_chaos value = 8 } }
+                }
+            }
+            owner = { 
+                VARIABLE_7 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 8 }
+                    NOT = { check_variable = { which = spring_chaos value = 9 } }
+                }
+            }
+            owner = { 
+                VARIABLE_8 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 9 }
+                    NOT = { check_variable = { which = spring_chaos value = 10 } }
+                }
+            }
+            owner = { 
+                VARIABLE_9 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 10 }
+                }
+            }
+            owner = { 
+                VARIABLE_10 = { }
+            }
+        }
+        OUT_OF_TEN_LOC = { }
+        LINE_BREAK = { }
+
+        SPRINGTIME_CURRENT_LIB = { }
+
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = spring_liberal value = 1 } }
+                }
+            }
+            owner = { 
+                VARIABLE_0 = { }
+            }
+        }
+
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 1 }
+                    NOT = { check_variable = { which = spring_liberal value = 2 } }
+                }
+            }
+            owner = { 
+                VARIABLE_1 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 2 }
+                    NOT = { check_variable = { which = spring_liberal value = 3 } }
+                }
+            }
+            owner = { 
+                VARIABLE_2 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 3 }
+                    NOT = { check_variable = { which = spring_liberal value = 4 } }
+                }
+            }
+            owner = { 
+                VARIABLE_3 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 4 }
+                    NOT = { check_variable = { which = spring_liberal value = 5 } }
+                }
+            }
+            owner = { 
+                VARIABLE_4 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 5 }
+                    NOT = { check_variable = { which = spring_liberal value = 6 } }
+                }
+            }
+            owner = { 
+                VARIABLE_5 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 6 }
+                    NOT = { check_variable = { which = spring_liberal value = 7 } }
+                }
+            }
+            owner = { 
+                VARIABLE_6 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 7 }
+                    NOT = { check_variable = { which = spring_liberal value = 8 } }
+                }
+            }
+            owner = { 
+                VARIABLE_7 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 8 }
+                    NOT = { check_variable = { which = spring_liberal value = 9 } }
+                }
+            }
+            owner = { 
+                VARIABLE_8 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 9 }
+                    NOT = { check_variable = { which = spring_liberal value = 10 } }
+                }
+            }
+            owner = { 
+                VARIABLE_9 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 10 }
+                }
+            }
+            owner = { 
+                VARIABLE_10 = { }
+                PLUS_GREEN_LOC = { }
+            }
+        }
+
+        OUT_OF_TEN_LOC = { }
+
+
+
+    }
+
+    #We should do that (+chaos +lib)
+    option = {
+        name = "EVTOPTA69122"
+        change_variable = { which = spring_chaos value = 1.01 }
+        change_variable = { which = spring_liberal value = 1.01 }
+        
+    }
+    
+    #Send in the army (-chaos -lib)
+    option = {
+        name = "EVTOPTB69122"
+        change_variable = { which = spring_chaos value = -1.01 }
+        change_variable = { which = spring_liberal value = -1.01 }
+        
+    }
+    
+    #Special: We already have it (--chaos )
+    option = {
+        name = "EVTOPTC69128"
+        change_variable = { which = spring_chaos value = -2.01 }
+        
+        
+    }
+    
+}
+
+#demand for pension reform
+
+country_event = {
+    id = 69129
+    title = "EVTNAME69129"
+    desc = "EVTDESC69129"
+    picture = Picture
+    
+    trigger = {
+        has_country_flag = spring_7
+        NOT = { has_country_flag = spring_8 }
+        NOT = { has_country_flag = spring_none_chaos }
+    }
+
+    immediate = {
+        set_country_flag = spring_8
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = spring_chaos value = 1 } }
+                }
+            }
+            owner = { 
+                set_country_flag = spring_none_chaos
+            }
+        }
+
+        SPRINGTIME_CURRENT_CHAOS = { }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 1 }
+                    NOT = { check_variable = { which = spring_chaos value = 2 } }
+                }
+            }
+            owner = { 
+                VARIABLE_1 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 2 }
+                    NOT = { check_variable = { which = spring_chaos value = 3 } }
+                }
+            }
+            owner = { 
+                VARIABLE_2 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 3 }
+                    NOT = { check_variable = { which = spring_chaos value = 4 } }
+                }
+            }
+            owner = { 
+                VARIABLE_3 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 4 }
+                    NOT = { check_variable = { which = spring_chaos value = 5 } }
+                }
+            }
+            owner = { 
+                VARIABLE_4 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 5 }
+                    NOT = { check_variable = { which = spring_chaos value = 6 } }
+                }
+            }
+            owner = { 
+                VARIABLE_5 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 6 }
+                    NOT = { check_variable = { which = spring_chaos value = 7 } }
+                }
+            }
+            owner = { 
+                VARIABLE_6 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 7 }
+                    NOT = { check_variable = { which = spring_chaos value = 8 } }
+                }
+            }
+            owner = { 
+                VARIABLE_7 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 8 }
+                    NOT = { check_variable = { which = spring_chaos value = 9 } }
+                }
+            }
+            owner = { 
+                VARIABLE_8 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 9 }
+                    NOT = { check_variable = { which = spring_chaos value = 10 } }
+                }
+            }
+            owner = { 
+                VARIABLE_9 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 10 }
+                }
+            }
+            owner = { 
+                VARIABLE_10 = { }
+            }
+        }
+        OUT_OF_TEN_LOC = { }
+        LINE_BREAK = { }
+
+        SPRINGTIME_CURRENT_LIB = { }
+
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = spring_liberal value = 1 } }
+                }
+            }
+            owner = { 
+                VARIABLE_0 = { }
+            }
+        }
+
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 1 }
+                    NOT = { check_variable = { which = spring_liberal value = 2 } }
+                }
+            }
+            owner = { 
+                VARIABLE_1 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 2 }
+                    NOT = { check_variable = { which = spring_liberal value = 3 } }
+                }
+            }
+            owner = { 
+                VARIABLE_2 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 3 }
+                    NOT = { check_variable = { which = spring_liberal value = 4 } }
+                }
+            }
+            owner = { 
+                VARIABLE_3 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 4 }
+                    NOT = { check_variable = { which = spring_liberal value = 5 } }
+                }
+            }
+            owner = { 
+                VARIABLE_4 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 5 }
+                    NOT = { check_variable = { which = spring_liberal value = 6 } }
+                }
+            }
+            owner = { 
+                VARIABLE_5 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 6 }
+                    NOT = { check_variable = { which = spring_liberal value = 7 } }
+                }
+            }
+            owner = { 
+                VARIABLE_6 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 7 }
+                    NOT = { check_variable = { which = spring_liberal value = 8 } }
+                }
+            }
+            owner = { 
+                VARIABLE_7 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 8 }
+                    NOT = { check_variable = { which = spring_liberal value = 9 } }
+                }
+            }
+            owner = { 
+                VARIABLE_8 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 9 }
+                    NOT = { check_variable = { which = spring_liberal value = 10 } }
+                }
+            }
+            owner = { 
+                VARIABLE_9 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 10 }
+                }
+            }
+            owner = { 
+                VARIABLE_10 = { }
+                PLUS_GREEN_LOC = { }
+            }
+        }
+
+        OUT_OF_TEN_LOC = { }
+
+
+
+    }
+
+    #We should do that (+chaos +lib)
+    option = {
+        name = "EVTOPTA69122"
+        change_variable = { which = spring_chaos value = 1.01 }
+        change_variable = { which = spring_liberal value = 1.01 }
+        
+    }
+    
+    #Send in the army (-chaos -lib)
+    option = {
+        name = "EVTOPTB69122"
+        change_variable = { which = spring_chaos value = -1.01 }
+        change_variable = { which = spring_liberal value = -1.01 }
+        
+    }
+    
+    #Special: We already have it (--chaos )
+    option = {
+        name = "EVTOPTC69129"
+        change_variable = { which = spring_chaos value = -2.01 }
+        
+        
+    }
+    
+}
+
+#demand for working hours reform
+
+country_event = {
+    id = 69130
+    title = "EVTNAME69130"
+    desc = "EVTDESC69130"
+    picture = Picture
+    
+    trigger = {
+        has_country_flag = spring_8
+        NOT = { has_country_flag = spring_9 }
+        NOT = { has_country_flag = spring_none_chaos }
+    }
+
+    immediate = {
+        set_country_flag = spring_9
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = spring_chaos value = 1 } }
+                }
+            }
+            owner = { 
+                set_country_flag = spring_none_chaos
+            }
+        }
+
+        SPRINGTIME_CURRENT_CHAOS = { }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 1 }
+                    NOT = { check_variable = { which = spring_chaos value = 2 } }
+                }
+            }
+            owner = { 
+                VARIABLE_1 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 2 }
+                    NOT = { check_variable = { which = spring_chaos value = 3 } }
+                }
+            }
+            owner = { 
+                VARIABLE_2 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 3 }
+                    NOT = { check_variable = { which = spring_chaos value = 4 } }
+                }
+            }
+            owner = { 
+                VARIABLE_3 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 4 }
+                    NOT = { check_variable = { which = spring_chaos value = 5 } }
+                }
+            }
+            owner = { 
+                VARIABLE_4 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 5 }
+                    NOT = { check_variable = { which = spring_chaos value = 6 } }
+                }
+            }
+            owner = { 
+                VARIABLE_5 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 6 }
+                    NOT = { check_variable = { which = spring_chaos value = 7 } }
+                }
+            }
+            owner = { 
+                VARIABLE_6 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 7 }
+                    NOT = { check_variable = { which = spring_chaos value = 8 } }
+                }
+            }
+            owner = { 
+                VARIABLE_7 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 8 }
+                    NOT = { check_variable = { which = spring_chaos value = 9 } }
+                }
+            }
+            owner = { 
+                VARIABLE_8 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 9 }
+                    NOT = { check_variable = { which = spring_chaos value = 10 } }
+                }
+            }
+            owner = { 
+                VARIABLE_9 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_chaos value = 10 }
+                }
+            }
+            owner = { 
+                VARIABLE_10 = { }
+            }
+        }
+        OUT_OF_TEN_LOC = { }
+        LINE_BREAK = { }
+
+        SPRINGTIME_CURRENT_LIB = { }
+
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = spring_liberal value = 1 } }
+                }
+            }
+            owner = { 
+                VARIABLE_0 = { }
+            }
+        }
+
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 1 }
+                    NOT = { check_variable = { which = spring_liberal value = 2 } }
+                }
+            }
+            owner = { 
+                VARIABLE_1 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 2 }
+                    NOT = { check_variable = { which = spring_liberal value = 3 } }
+                }
+            }
+            owner = { 
+                VARIABLE_2 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 3 }
+                    NOT = { check_variable = { which = spring_liberal value = 4 } }
+                }
+            }
+            owner = { 
+                VARIABLE_3 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 4 }
+                    NOT = { check_variable = { which = spring_liberal value = 5 } }
+                }
+            }
+            owner = { 
+                VARIABLE_4 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 5 }
+                    NOT = { check_variable = { which = spring_liberal value = 6 } }
+                }
+            }
+            owner = { 
+                VARIABLE_5 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 6 }
+                    NOT = { check_variable = { which = spring_liberal value = 7 } }
+                }
+            }
+            owner = { 
+                VARIABLE_6 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 7 }
+                    NOT = { check_variable = { which = spring_liberal value = 8 } }
+                }
+            }
+            owner = { 
+                VARIABLE_7 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 8 }
+                    NOT = { check_variable = { which = spring_liberal value = 9 } }
+                }
+            }
+            owner = { 
+                VARIABLE_8 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 9 }
+                    NOT = { check_variable = { which = spring_liberal value = 10 } }
+                }
+            }
+            owner = { 
+                VARIABLE_9 = { }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 10 }
+                }
+            }
+            owner = { 
+                VARIABLE_10 = { }
+                PLUS_GREEN_LOC = { }
+            }
+        }
+
+        OUT_OF_TEN_LOC = { }
+
+
+
+    }
+
+    #We should do that (+chaos +lib)
+    option = {
+        name = "EVTOPTA69122"
+        change_variable = { which = spring_chaos value = 1.01 }
+        change_variable = { which = spring_liberal value = 1.01 }
+        
+    }
+    
+    #Send in the army (-chaos -lib)
+    option = {
+        name = "EVTOPTB69122"
+        change_variable = { which = spring_chaos value = -1.01 }
+        change_variable = { which = spring_liberal value = -1.01 }
+        
+    }
+    
+    #Special: We already have it (--chaos )
+    option = {
+        name = "EVTOPTC69130"
+        change_variable = { which = spring_chaos value = -2.01 }
+        
+        
+    }
+    
+}
+
+#demand for work safety reform
+
+country_event = {
+    id = 69131
+    title = "EVTNAME69131"
+    desc = "EVTDESC69131"
+    picture = Picture
+    
+    trigger = {
+        has_country_flag = spring_9
+        NOT = { has_country_flag = spring_none_chaos }
+    }
+
+    immediate = {
+        set_country_flag = spring_none_chaos
+
+    }
+
+    #We should do that (+chaos +lib)
+    option = {
+        name = "EVTOPTA69122"
+        change_variable = { which = spring_chaos value = 1.01 }
+        change_variable = { which = spring_liberal value = 1.01 }
+        
+    }
+    
+    #Send in the army (-chaos -lib)
+    option = {
+        name = "EVTOPTB69122"
+        change_variable = { which = spring_chaos value = -1.01 }
+        change_variable = { which = spring_liberal value = -1.01 }
+        
+    }
+    
+    #Special: We already have it (--chaos )
+    option = {
+        name = "EVTOPTC69131"
+        change_variable = { which = spring_chaos value = -2.01 }
+        
+        
+    }
+    
+}
+
+#end event
+
+country_event = {
+    id = 69132
+    title = "EVTNAME69132"
+    desc = "EVTDESC69132"
+    picture = Picture
+    
+    #is_triggered_only = yes
+
+    trigger = {
+        NOT = { has_country_flag = springtime_over }
+        has_country_flag = springtime
+        has_country_flag = spring_none_chaos
+    }
+
+    immediate = {
+        set_country_flag = springtime_over
+    }
+
+    option = {
+        name = "EVTOPTA69132"
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = spring_liberal value = 2 } }
+                }
+            }
+            owner = { 
+                prestige = 20
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 2 } 
+                    NOT = { check_variable = { which = spring_liberal value = 4 } }
+                }
+            }
+            owner = { 
+                random_owned = {
+                    limit = {
+                        owner = {
+                            OR = {
+                                government = proletarian_dictatorship
+                                government = presidential_dictatorship
+                                government = bourgeois_dictatorship
+                                government = fascist_dictatorship
+                            }
+                        }
+                    }
+                    owner = { 
+                        government = democracy
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            OR = {
+                                government = absolute_monarchy
+                            }
+                        }
+                    }
+                    owner = { 
+                        government = prussian_constitutionalism
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            political_reform = none_voting
+                        }
+                    }
+                    owner = { 
+                        political_reform = landed_voting
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            political_reform = yes_slavery
+                            NOT = { has_country_modifier = the_slavery_debate }
+                        }
+                    }
+                    owner = { 
+                        political_reform = no_slavery
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            political_reform = censored_press
+                        }
+                    }
+                    owner = { 
+                        political_reform = free_press
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            political_reform = state_press
+                        }
+                    }
+                    owner = { 
+                        political_reform = censored_press
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            political_reform = gerrymandering
+                        }
+                    }
+                    owner = { 
+                        political_reform = secret_ballots
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            political_reform = underground_parties
+                        }
+                    }
+                    owner = { 
+                        political_reform = gerrymandering
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 4 } 
+                    NOT = { check_variable = { which = spring_liberal value = 6 } }
+                }
+            }
+            owner = { 
+                random_owned = {
+                    limit = {
+                        owner = {
+                            OR = {
+                                government = proletarian_dictatorship
+                                government = presidential_dictatorship
+                                government = bourgeois_dictatorship
+                                government = fascist_dictatorship
+                            }
+                        }
+                    }
+                    owner = { 
+                        government = democracy
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            OR = {
+                                government = absolute_monarchy
+                                government = prussian_constitutionalism
+                            }
+                        }
+                    }
+                    owner = { 
+                        government = hms_government
+                    }
+                }
+                political_reform = secret_ballots
+                political_reform = universal_voting
+                political_reform = free_press
+                political_reform = population_equal_weight
+                random_owned = {
+                    limit = {
+                        owner = {
+                            NOT = { has_country_modifier = the_slavery_debate }
+                        }
+                    }
+                    owner = { 
+                        political_reform = no_slavery
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            OR = {
+                                political_reform = authoritarianism
+                                political_reform = totalitarianism
+                                political_reform = local_police
+                            }
+                        }
+                    }
+                    owner = { 
+                        political_reform = national_police
+                    }
+                }
+            
+                random_owned = {
+                    limit = {
+                        owner = {
+                            political_reform = no_police
+                        }
+                    }
+                    owner = { 
+                        political_reform = local_police
+                    }
+                }
+            
+                random_owned = {
+                    limit = {
+                        owner = {
+                            political_reform = non_socialist
+                        }
+                    }
+                    owner = { 
+                        political_reform = all_trade_unions
+                    }
+                }
+            
+                random_owned = {
+                    limit = {
+                        owner = {
+                            political_reform = no_trade_unions
+                        }
+                    }
+                    owner = { 
+                        political_reform = non_socialist
+                    }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 6 } 
+                    NOT = { check_variable = { which = spring_liberal value = 8 } }
+                }
+            }
+            owner = { 
+                random_owned = {
+                    limit = {
+                        owner = {
+                            OR = {
+                                government = proletarian_dictatorship
+                                government = presidential_dictatorship
+                                government = bourgeois_dictatorship
+                                government = fascist_dictatorship
+                            }
+                        }
+                    }
+                    owner = { 
+                        government = democracy
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            OR = {
+                                government = absolute_monarchy
+                                government = prussian_constitutionalism
+                            }
+                        }
+                    }
+                    owner = { 
+                        government = hms_government
+                    }
+                }
+                political_reform = secret_ballots
+                political_reform = universal_voting
+                political_reform = free_press
+                political_reform = population_equal_weight
+                random_owned = {
+                    limit = {
+                        owner = {
+                            NOT = { has_country_modifier = the_slavery_debate }
+                        }
+                    }
+                    owner = { 
+                        political_reform = no_slavery
+                    }
+                }
+                political_reform = all_trade_unions
+                political_reform = national_police
+                random_owned = {
+                    limit = {
+                        owner = {
+                            social_reform = acceptable_minimum_wage
+                        }
+                    }
+                    owner = { 
+                        social_reform = good_minimum_wage
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            social_reform = low_minimum_wage
+                        }
+                    }
+                    owner = { 
+                        social_reform = acceptable_minimum_wage
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            social_reform = no_minimum_wage
+                        }
+                    }
+                    owner = { 
+                        social_reform = low_minimum_wage
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            social_reform = twelve_hours
+                        }
+                    }
+                    owner = { 
+                        social_reform = eight_hours
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            social_reform = no_work_hour_limit
+                        }
+                    }
+                    owner = { 
+                        social_reform = twelve_hours
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            social_reform = acceptable_safety
+                        }
+                    }
+                    owner = { 
+                        social_reform = good_safety
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            social_reform = low_safety
+                        }
+                    }
+                    owner = { 
+                        social_reform = acceptable_safety
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            social_reform = no_safety
+                        }
+                    }
+                    owner = { 
+                        social_reform = low_safety
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            social_reform = acceptable_subsidies
+                        }
+                    }
+                    owner = { 
+                        social_reform = good_subsidies
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            social_reform = low_subsidies
+                        }
+                    }
+                    owner = { 
+                        social_reform = acceptable_subsidies
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            social_reform = no_subsidies
+                        }
+                    }
+                    owner = { 
+                        social_reform = low_subsidies
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            social_reform = acceptable_pensions
+                        }
+                    }
+                    owner = { 
+                        social_reform = good_pensions
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            social_reform = low_pensions
+                        }
+                    }
+                    owner = { 
+                        social_reform = acceptable_pensions
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            social_reform = no_pensions
+                        }
+                    }
+                    owner = { 
+                        social_reform = low_pensions
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            social_reform = tenant_farmers
+                        }
+                    }
+                    owner = { 
+                        social_reform = homesteading
+                    }
+                }
+
+
+
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 8 } 
+                    NOT = { check_variable = { which = spring_liberal value = 10 } }
+                }
+            }
+            owner = {
+                government = democracy
+                political_reform = secret_ballots
+                political_reform = universal_voting
+                political_reform = free_press
+                political_reform = population_equal_weight
+                random_owned = {
+                    limit = {
+                        owner = {
+                            NOT = { has_country_modifier = the_slavery_debate }
+                        }
+                    }
+                    owner = { 
+                        political_reform = no_slavery
+                    }
+                }
+                political_reform = all_trade_unions
+                political_reform = national_police
+                social_reform = eight_hours
+                random_owned = {
+                    limit = {
+                        owner = {
+                            OR = {
+                                social_reform = acceptable_minimum_wage
+                                social_reform = low_minimum_wage
+                            }
+                        }
+                    }
+                    owner = { 
+                        social_reform = good_minimum_wage
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            social_reform = no_minimum_wage
+                        }
+                    }
+                    owner = { 
+                        social_reform = acceptable_minimum_wage
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            OR = {
+                                social_reform = low_safety
+                                social_reform = acceptable_safety
+
+                            }
+                        }
+                    }
+                    owner = { 
+                        social_reform = good_safety
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            social_reform = no_safety
+                        }
+                    }
+                    owner = { 
+                        social_reform = acceptable_safety
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            OR = {
+                                social_reform = low_subsidies
+
+                                social_reform = acceptable_subsidies
+                            }
+                        }
+                    }
+                    owner = { 
+                        social_reform = good_subsidies
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            social_reform = no_subsidies
+                        }
+                    }
+                    owner = { 
+                        social_reform = acceptable_subsidies
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            OR = {
+                                social_reform = acceptable_pensions
+                                social_reform = low_pensions
+
+                            }
+                        }
+                    }
+                    owner = { 
+                        social_reform = good_pensions
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            social_reform = no_pensions
+                        }
+                    }
+                    owner = { 
+                        social_reform = acceptable_pensions
+                    }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            social_reform = tenant_farmers
+                        }
+                    }
+                    owner = { 
+                        social_reform = homesteading
+                    }
+                }
+
+
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = spring_liberal value = 10 } 
+                }
+            }
+            owner = {
+                government = democracy
+                political_reform = secret_ballots
+                political_reform = universal_voting
+                political_reform = free_press
+                political_reform = population_equal_weight
+                random_owned = {
+                    limit = {
+                        owner = {
+                            NOT = { has_country_modifier = the_slavery_debate }
+                        }
+                    }
+                    owner = { 
+                        political_reform = no_slavery
+                    }
+                }
+                political_reform = all_trade_unions
+                political_reform = national_police
+                social_reform = eight_hours
+                social_reform = good_minimum_wage
+                social_reform = eight_hours
+                social_reform = good_safety
+                social_reform = good_subsidies
+                social_reform = good_pensions
+
+            }
+        }
+        
+    }
+}

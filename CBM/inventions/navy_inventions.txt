@@ -51,6 +51,21 @@ naval_ideas = {
 	}
 }
 
+
+shipyard_unlock = {
+	limit = { 
+		post_nelsonian_thought = 1 
+	}
+	chance = {
+		base = 100
+	}
+	effect = {
+		activate_building = steamer_shipyard
+        
+	}
+
+}
+
 #battleship_column_doctrine
 long_range_fire_tactic = {
 	limit = { battleship_column_doctrine = 1 }

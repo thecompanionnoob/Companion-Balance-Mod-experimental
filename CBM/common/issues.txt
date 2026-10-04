@@ -36,7 +36,7 @@ party_issues = {
 				pop_build_factory_invest = yes
 				pop_expand_factory_invest = yes
 				open_factory_invest = yes
-				allow_foreign_investment = yes
+				allow_foreign_investment = no
 				build_railway_invest = yes
 				can_invest_in_pop_projects = yes
 			}
@@ -63,7 +63,7 @@ party_issues = {
 				build_factory_invest = yes
 				expand_factory_invest = yes
 				build_railway_invest = yes
-				allow_foreign_investment = yes
+				allow_foreign_investment = no
 				can_invest_in_pop_projects = yes
 			}
 		}
@@ -85,7 +85,7 @@ party_issues = {
 				build_factory_invest = yes
 				expand_factory_invest = yes
 				build_railway_invest = yes
-				allow_foreign_investment = yes
+				allow_foreign_investment = no
 				can_invest_in_pop_projects = yes
 			}
 		}
@@ -107,7 +107,7 @@ party_issues = {
 				build_factory_invest = yes
 				expand_factory_invest = yes
 				build_railway_invest = yes
-				allow_foreign_investment = yes
+				allow_foreign_investment = no
 				can_invest_in_pop_projects = yes
 			}
 		}

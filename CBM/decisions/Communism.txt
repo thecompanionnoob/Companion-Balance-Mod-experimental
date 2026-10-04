@@ -37,4 +37,44 @@ political_decisions = {
             social_reform = commercialized_agriculture
         }
     }
+
+    nationalize_industry = {
+        potential = {
+            is_ideology_enabled = communist
+            NOT = { has_country_flag = nationalized_industry }
+        }
+        allow = {
+            ruling_party_ideology = communist
+        }
+        effect = {
+            set_country_flag = nationalized_industry
+            any_pop = {
+                limit = {
+                    type = capitalists
+                }
+                pop_type = craftsmen
+            }
+        }
+    }
+
+    privatize_industry = {
+        potential = {
+            NOT = { ruling_party_ideology = communist }
+            has_country_flag = nationalized_industry
+        }
+        allow = {
+            NOT = {
+                OR = {
+                    ruling_party_ideology = communist
+                    ruling_party_ideology = socialist
+                }
+            }
+        }
+        effect = {
+            clr_country_flag = nationalized_industry
+        }
+
+    }
+
+
 }

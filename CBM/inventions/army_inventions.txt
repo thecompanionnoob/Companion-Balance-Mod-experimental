@@ -591,6 +591,22 @@ bolt_action_rifle_armament = {
 	}
 }
 
+russian_sap = {
+	limit = {
+		bolt_action_rifles = 1
+	}
+	news = no
+	chance = {
+		base = 100
+	}
+	effect = {
+		army_base = {
+			siege = 1
+		}
+	}
+
+}
+
 #modern_divisional_structure
 modern_divisional_tactics = {
 	limit = {

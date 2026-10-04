@@ -61,7 +61,7 @@ guiTypes = {
 		
 		iconType = {
 			name ="main_bg"
-			spriteType = "GFX_main_bg"
+			spriteType = "GFX_main_bg_alt"
 			position = { x= -70 y = -70 }
 			Orientation = "UPPER_LEFT"
 		}
@@ -75,7 +75,7 @@ guiTypes = {
 		
 		textBoxType = { 
 			name = "headline_production"
-			position = { x = 770 y = -42 }
+			position = { x = 902 y = -42 }
 			font = "vic_title"
 			text = "PRODUCTION"	
 			maxWidth = 200
@@ -85,7 +85,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "close_button"
-			position = { x= -31 y = -7}
+			position = { x= 103 y = -7}
 			quadTextureSprite = "GFX_main_close_button"		
 			Orientation = "UPPER_RIGHT"
 			shortcut = "ESCAPE"
@@ -762,7 +762,7 @@ guiTypes = {
 			name ="state_listbox"
 			position = { x = 33 y = 141 }
 			backGround=""
-			size = { x= 942 y = 468 }
+			size = { x= 1096 y = 468 }
 			Orientation = "UPPER_LEFT"
 			scrollbartype = "standardlistbox_slider"
 		}
@@ -1030,7 +1030,7 @@ guiTypes = {
 	windowType = {
 		name = "state_info"
 		backGround =""
-		size = { x=964 y=117 }
+		size = { x=1096 y=117 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = "0"
@@ -1072,7 +1072,7 @@ guiTypes = {
 		}
 		
 		guiButtonType = {
-			position = { x = 895 y = 36 }
+			position = { x = 1037 y = 36 }
 			name = "build_new_factory"
 			quadTextureSprite = "GFX_build_factory"
 		}
@@ -1094,12 +1094,12 @@ guiTypes = {
 		iconType = {
 			name ="avg_infra"
 			spriteType = "GFX_prod_railroad_icon"
-			position = { x= 860 y = 2 }
+			position = { x= 198 y = 2 }
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = { 
 			name = "avg_infra_text"
-			position = { x = 882 y =4 }
+			position = { x = 220 y =4 }
 			font = "vic_22"
 			text = "675"	
 			maxWidth = 60

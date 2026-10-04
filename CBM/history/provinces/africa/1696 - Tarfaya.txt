@@ -6,6 +6,7 @@ owner = SPA
 controller = SPA
 colonial = 2
 }
+add_core = MOR
 	
 	
 

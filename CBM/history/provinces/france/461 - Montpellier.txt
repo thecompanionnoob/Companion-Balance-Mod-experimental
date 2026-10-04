@@ -7,6 +7,11 @@ controller = FRA
 add_core = FRA
 trade_goods = cattle
 life_rating = 31
+state_building = {
+	level = 3
+	building = winery
+	upgrade = yes
+}
 1910.1.1 = {
 	state_building = {
 		level = 8

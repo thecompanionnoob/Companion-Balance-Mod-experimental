@@ -235,6 +235,10 @@ promote_to =
 			everyday_needs = 0.5
 			#literacy = 0.55
 		}
+		modifier = {
+			factor = -100
+			country = { has_country_flag = nationalized_industry }
+		}
 	}
 	aristocrats = {
 		factor = 0.01

@@ -9,4 +9,14 @@ add_core = BNG
 
 trade_goods = tea
 life_rating = 32
+state_building = {
+	level = 1
+	building = glass_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = winery
+	upgrade = yes
+}
 

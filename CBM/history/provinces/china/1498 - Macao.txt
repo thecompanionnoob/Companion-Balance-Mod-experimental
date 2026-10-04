@@ -6,3 +6,8 @@ controller = POR
 add_core = YNN
 trade_goods = tea
 life_rating = 32
+state_building = {
+	level = 1
+	building = winery
+	upgrade = yes
+}

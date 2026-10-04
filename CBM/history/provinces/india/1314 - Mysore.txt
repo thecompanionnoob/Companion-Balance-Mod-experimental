@@ -10,3 +10,13 @@ add_core = TML
 
 trade_goods = silk
 life_rating = 32
+state_building = {
+	level = 2
+	building = regular_clothes_factory
+	upgrade = yes
+}
+state_building = {
+	level = 2
+	building = fabric_factory
+	upgrade = yes
+}

@@ -11,18 +11,33 @@ political_decisions = {
 		}
 		allow = {
 			war = no
-			civilized = yes
-			owns = 1612
-			owns = 2221
-			owns = 1601
-			owns = 1493
-			owns = 1555
-			owns = 1577
-			owns = 1470
+			#civilized = yes
+			NAN = {
+				OR = {
+					exists = no 
+					is_vassal = yes
+				} 
+			}
+			YNN = {
+				OR = {
+					exists = no 
+					is_vassal = yes
+				} 
+			}
 		}
 		effect = {
-			prestige = 100
+			prestige = 50
 			#badboy = 10
+			any_country = {
+				limit = {
+					vassal_of = THIS
+					OR = {
+						tag = NAN
+						tag = YNN
+					}
+				}
+				annex_to = THIS
+			}
 			NAN = {
 				all_core = {
 					add_core = YUA
@@ -64,18 +79,55 @@ political_decisions = {
 		}
 		allow = {
 			war = no
-			civilized = yes
-			owns = 1612
-			owns = 2221
-			owns = 1601
-			owns = 1493
-			owns = 1555
-			owns = 1577
-			owns = 1470
+			#civilized = yes
+			OR = {
+				AND = {
+					tag = YNN
+					NAN = {
+						OR = {
+							exists = no 
+							is_vassal = yes
+						} 
+					}
+					MCK = {
+						OR = {
+							exists = no 
+							is_vassal = yes
+						} 
+					}
+				}
+				AND = {
+					tag = NAN
+					YNN = {
+						OR = {
+							exists = no 
+							is_vassal = yes
+						} 
+					}
+					MCK = {
+						OR = {
+							exists = no 
+							is_vassal = yes
+						} 
+					}
+				}
+			}
 		}
 		effect = {
-			prestige = 100
+			prestige = 50
 			#badboy = 10
+			any_country = {
+				limit = {
+					vassal_of = THIS
+					OR = {
+						tag = NAN
+						tag = YNN
+						tag = MCK
+					}
+					NOT = { tag = THIS }
+				}
+				annex_to = THIS
+			}
 			change_tag = CHI
 			NAN = {
 				all_core = {

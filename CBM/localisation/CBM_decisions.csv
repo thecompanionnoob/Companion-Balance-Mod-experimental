@@ -11,7 +11,7 @@ SPA_accept_caribeno_title;Reintegrate the Caribbean!;;;;;;;;;x
 SPA_accept_caribeno_desc;With the recapture of Havana and the capture of Port Au Prince, we can reclaim overlordship of the Caribbean. Viva Espana!;;;;;;;;;x
 ENG_accept_irish_title;Integrate Ireland!;;;;;;;;;x
 ENG_accept_irish_desc;The Irish have never quite fit in with the rest of the British empire, often resenting their rightful overlords. Now that the Irish language is practically erased, and now that Ireland has been under British rule for a very long time, we can finally integrate the Irish populace.;;;;;;;;;x
-accept_afro_brazilian_title;Integrate the Negro population.;;;;;;;;;x
+accept_afro_brazilian_title;Integrate the Negro population;;;;;;;;;x
 accept_afro_brazilian_desc;Our Negro population has long been put down by slavery. Now that slavery has been outlawed, we should integrate these people into society.;;;;;;;;;x
 TUR_reclaim_greece_title;Reclaim Greece!;;;;;;;;;x
 TUR_reclaim_greece_desc;The Greek people have long had fantasies of independence. It is time to squash that dream forever, and integrate them into Ottoman society!;;;;;;;;;x
@@ -342,6 +342,10 @@ form_clm_viceroyalty_desc;Reestablish the Viceroyalty of New Granada\nViceroyalt
 enable_great_war_cap_title;Enables great war capitulation events;;;;;;
 enable_great_war_cap_desc;Enables events for all powers historically in the great war to capitulate to their historic enemies when certain conditions are met.;;;;;;
 form_french_union_title;Form the Union Française;;;;;;
-form_french_union_desc;We shall form the union française, replacing our old colonial system with a new union of all France and her territories.\n\nThis grants +1 assimilation rate for Maghrebi culture pops.;;;;;;
+form_french_union_desc;We shall form the union française, replacing our old colonial system with a new union of all France and her territories.\n\nThis grants +5 assimilation rate for Maghrebi culture pops.;;;;;;
 ww1_generals_decision_title;Gain Leadership to Roll Generals;;;;;;;
 ww1_generals_decision_desc;This decision gives you leadership in order to roll generals in the ww1 bookmark.;;;;;;
+move_industry_to_siberia_title;Relocate Industry to the Urals;;;;;;
+move_industry_to_siberia_desc;This decision will move all craftsmen pops in provinces you control from Western russia to the states of Perm, Samara, and Ural, at the cost of 1m pounds and reducing the pop sizes by 10%. It will be your responsibility to build industries for them in these states. This results in craftsmen numbering (with bookmark start values) about 647k in Perm, 243k in Ural, and 141k in Samara. The states moved include: Estonia, Latvia, Lietuva, Wielkopolskie, Mazowieckie, Brest, Minsk, Orsha, Kiev, Rovne, Budjak, Cherson, Luhansk, and Crimea.;;;;;;
+abandon_german_confederation_title;Abandon the German Confederation;;;;;;
+abandon_german_confederation_desc;We shall abandon the German Confederation, leaving Prussia as the dominant power in Germany.\nThis decision removes the German Confederation, which means that any german minor counts as if it is owned or vassalized by Prussia for the purposes of forming the NGF and Germany.;;;;;;

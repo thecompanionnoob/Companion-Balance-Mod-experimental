@@ -11,6 +11,11 @@ add_core = GER
 add_core = PRU
 trade_goods = coal
 life_rating = 40
+state_building = {
+	level = 1
+	building = furniture_factory
+	upgrade = yes
+}
 1925.1.1 = { railroad = 3 }
 1910.1.1 = {
 	state_building = {

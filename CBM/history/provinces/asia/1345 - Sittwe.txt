@@ -9,5 +9,10 @@ add_core = BNG
 
 trade_goods = grain
 life_rating = 35
+state_building = {
+	level = 1
+	building = liquor_distillery
+	upgrade = yes
+}
 
     

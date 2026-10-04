@@ -7,7 +7,7 @@ post_nelsonian_thought = {
 	activate_building = naval_base
 	colonial_points = 100
 	factory_goods_input = {
-		clipper_convoy = 0.04
+		steamer_convoy = 0.05
 	}
 
 
@@ -87,7 +87,7 @@ battleship_column_doctrine = {
 	#max_naval_base = 1
 	colonial_points = 200 
 	factory_goods_input = {
-		clipper_convoy = 0.04
+		steamer_convoy = 0.05
 	}
 
 
@@ -166,7 +166,7 @@ raider_group_doctrine = {
 	unciv_military = yes
 	max_naval_base = 1
 	factory_goods_input = {
-		steamer_convoy = 0.04
+		steamer_convoy = 0.05
 	}
 	ai_chance = {
 		factor = 1
@@ -244,7 +244,7 @@ blue_and_brown_water_schools = {
 	#max_naval_base = 1
 	colonial_points = 200
 	factory_goods_input = {
-		steamer_convoy = 0.04
+		steamer_convoy = 0.05
 	}
 	ai_chance = {
 		factor = 1
@@ -322,7 +322,7 @@ high_sea_battle_fleet = {
 	unciv_military = yes
 	max_naval_base = 1
 	factory_goods_input = {
-		steamer_convoy = 0.04
+		steamer_convoy = 0.05
 	}
 
 	ai_chance = {
@@ -401,7 +401,7 @@ modern_naval_doctrine = {
 	#max_naval_base = 1
 	colonial_points = 200
 	factory_goods_input = {
-		steamer_convoy = 0.04
+		steamer_convoy = 0.05
 	}
 	ai_chance = {
 		factor = 1
@@ -479,7 +479,7 @@ clipper_design = {
 	year = 1836
 	cost = 3600
 	unciv_military = yes
-	activate_building = clipper_shipyard 
+	#activate_building = clipper_shipyard 
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -560,7 +560,7 @@ steamers = {
 	year = 1836
 	cost = 7200
 	unciv_military = yes
-	activate_building = steamer_shipyard 
+	#activate_building = steamer_shipyard 
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -1540,8 +1540,8 @@ alphabetic_flag_signaling = {
 	year = 1836
 	cost = 3600
 	unciv_military = yes
-	factory_goods_throughput = {
-		clipper_convoy = 0.10
+	factory_goods_output = {
+		steamer_convoy = 0.10
 	}
 	
 	
@@ -1586,8 +1586,8 @@ naval_plans = {
 	year = 1836
 	cost = 7200
 	unciv_military = yes
-	factory_goods_throughput = {
-		clipper_convoy = 0.10
+	factory_goods_output = {
+		steamer_convoy = 0.10
 	}
 	
 	ai_chance = {
@@ -1631,8 +1631,8 @@ naval_statistics = {
 	year = 1850
 	cost = 10800
 	unciv_military = yes
-	factory_goods_throughput = {
-		steamer_convoy = 0.20
+	factory_goods_output = {
+		steamer_convoy = 0.10
 	}
 		ai_chance = {
 		factor = 1.01
@@ -1675,8 +1675,8 @@ naval_logistics = {
 	year = 1870
 	cost = 14400
 	unciv_military = yes
-	factory_goods_throughput = {
-		steamer_convoy = 0.20
+	factory_goods_output = {
+		steamer_convoy = 0.10
 	}
 		ai_chance = {
 		factor = 1.01
@@ -1719,8 +1719,8 @@ naval_directionism = {
 	year = 1900
 	cost = 18000
 	unciv_military = yes
-	factory_goods_throughput = {
-		steamer_convoy = 0.15
+	factory_goods_output = {
+		steamer_convoy = 0.10
 	}
 		ai_chance = {
 		factor = 1.01
@@ -1763,8 +1763,8 @@ naval_integration = {
 	year = 1919
 	cost = 21600
 	unciv_military = yes
-	factory_goods_throughput = {
-		steamer_convoy = 0.15
+	factory_goods_output = {
+		steamer_convoy = 0.10
 	}
 		ai_chance = {
 		factor = 1.01

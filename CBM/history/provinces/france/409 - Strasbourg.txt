@@ -9,6 +9,16 @@ add_core = FRA
 add_core = GER
 trade_goods = grain
 life_rating = 33
+state_building = {
+	level = 2
+	building = fertilizer_factory
+	upgrade = yes
+}
+state_building = {
+	level = 2
+	building = lumber_mill
+	upgrade = yes
+}
 
 1910.1.1 = {
 	state_building = {

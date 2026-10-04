@@ -15,6 +15,284 @@ political_decisions = {
         }
     }
 
+
+    move_industry_to_siberia = {
+        potential = {
+            tag = RUS
+            has_global_flag = great_war
+            NOT = { has_country_flag = moved_indu_east }
+        }
+        allow = {
+            #national_provinces_occupied = 0.3
+            money = 1000000
+            OR = {
+                war_with = GER
+                war_with = KUK
+                war_with = DAN
+            }
+        }
+        effect = {
+            set_country_flag = moved_indu_east
+            treasury = -1000000
+            prestige = -15
+
+            #Estonia
+            any_pop = {
+                limit = { 
+                    type = craftsmen
+                    location = {
+                        OR = {
+                            province_id = 349
+                            province_id = 351
+                            province_id = 350
+                            province_id = 352
+                            province_id = 353
+                        }
+                    }
+                }
+                reduce_pop = 0.9
+                move_pop = 1031
+            }
+
+            #Latvia
+            any_pop = {
+                limit = { 
+                    type = craftsmen
+                    location = {
+                        OR = {
+                            province_id = 354
+                            province_id = 357
+                            province_id = 358
+                            province_id = 359
+                            province_id = 355
+                            province_id = 356
+                        }
+                    }
+                }
+                reduce_pop = 0.9
+                move_pop = 1026
+            }
+
+            #Lithuania
+            any_pop = {
+                limit = { 
+                    type = craftsmen
+                    location = {
+                        OR = {
+                            province_id = 363
+                            province_id = 364
+                            province_id = 365
+                            province_id = 360
+                            province_id = 361
+                            province_id = 362
+                        }
+                    }
+                }
+                reduce_pop = 0.9
+                move_pop = 1042
+            }
+
+            #Wielkopolskie
+            any_pop = {
+                limit = { 
+                    type = craftsmen
+                    location = {
+                        OR = {
+                            province_id = 710
+                            province_id = 717
+                            province_id = 712
+                            province_id = 713
+                            province_id = 716
+                        }
+                    }
+                }
+                reduce_pop = 0.9
+                move_pop = 1058
+            }
+
+            #Mazowieckie
+            any_pop = {
+                limit = { 
+                    type = craftsmen
+                    location = {
+                        OR = {
+                            province_id = 706
+                            province_id = 707
+                            province_id = 708
+                            province_id = 709
+                            province_id = 711
+                            province_id = 715
+                        }
+                    }
+                }
+                reduce_pop = 0.9
+                move_pop = 1029
+            }
+
+            #Brest
+            any_pop = {
+                limit = { 
+                    type = craftsmen
+                    location = {
+                        OR = {
+                            province_id = 719
+                            province_id = 936
+                            province_id = 937
+                            province_id = 938
+                            province_id = 939
+                            province_id = 940
+                        }
+                    }
+                }
+                reduce_pop = 0.9
+                move_pop = 1044
+            }
+
+            #Minsk
+            any_pop = {
+                limit = { 
+                    type = craftsmen
+                    location = {
+                        OR = {
+                            province_id = 718
+                            province_id = 941
+                            province_id = 942
+                        }
+                    }
+                }
+                reduce_pop = 0.9
+                move_pop = 1061
+            }
+
+            #Orsha
+            any_pop = {
+                limit = { 
+                    type = craftsmen
+                    location = {
+                        OR = {
+                            province_id = 947
+                            province_id = 944
+                            province_id = 945
+                            province_id = 946
+                            province_id = 948
+                            province_id = 949
+                        }
+                    }
+                }
+                reduce_pop = 0.9
+                move_pop = 2700
+            }
+
+            #Rovne
+            any_pop = {
+                limit = { 
+                    type = craftsmen
+                    location = {
+                        OR = {
+                            province_id = 955
+                            province_id = 956
+                            province_id = 957
+                        }
+                    }
+                }
+                reduce_pop = 0.9
+                move_pop = 1060
+            }
+
+            #Kiev
+            any_pop = {
+                limit = { 
+                    type = craftsmen
+                    location = {
+                        OR = {
+                            province_id = 954
+                            province_id = 959
+                            province_id = 960
+                            province_id = 958
+                            province_id = 961
+                            province_id = 962
+                            province_id = 963
+                        }
+                    }
+                }
+                reduce_pop = 0.9
+                move_pop = 1026
+            }
+
+            #Budjak
+            any_pop = {
+                limit = { 
+                    type = craftsmen
+                    location = {
+                        OR = {
+                            province_id = 677
+                            province_id = 676
+                            province_id = 678
+                        }
+                    }
+                }
+                reduce_pop = 0.9
+                move_pop = 1034
+            }
+
+            #Cherson
+            any_pop = {
+                limit = { 
+                    type = craftsmen
+                    location = {
+                        OR = {
+                            province_id = 969
+                            province_id = 968
+                            province_id = 970
+                            province_id = 971
+                            province_id = 965
+                        }
+                    }
+                }
+                reduce_pop = 0.9
+                move_pop = 1062
+            }
+
+            #Luhansk
+            any_pop = {
+                limit = { 
+                    type = craftsmen
+                    location = {
+                        OR = {
+                            province_id = 972
+                            province_id = 973
+                            province_id = 974
+                            province_id = 975
+                            province_id = 976
+                            province_id = 978
+                            province_id = 980
+                        }
+                    }
+                }
+                reduce_pop = 0.9
+                move_pop = 1029
+            }
+
+            #Crimea
+            any_pop = {
+                limit = { 
+                    type = craftsmen
+                    location = {
+                        OR = {
+                            province_id = 964
+                            province_id = 966
+                            province_id = 967
+                        }
+                    }
+                }
+                reduce_pop = 0.9
+                move_pop = 1043
+            }
+
+
+        }
+    }
+
     ww1_generals_decision = {
         potential = {
             has_global_flag = great_war

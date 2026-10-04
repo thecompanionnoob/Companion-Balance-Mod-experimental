@@ -27,6 +27,10 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\sort_factories.dds"
 	}
 	spriteType = {
+		name = "GFX_main_bg_alt"
+		texturefile = "gfx\\interface\\main_bg_alt.dds"
+	}
+	spriteType = {
 		name = "GFX_prod_button_bg"
 		texturefile = "gfx\\interface\\prod_button_bg.dds"
 	}

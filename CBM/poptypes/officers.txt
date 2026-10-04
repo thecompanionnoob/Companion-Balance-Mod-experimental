@@ -309,7 +309,7 @@ soldiers =
 		
 		modifier = {
 			factor = -100
-			has_country_flag = collective_agriculture
+			country = { civ_land_reform = collectivized_agriculture }
 		}
 	}
 }

@@ -2,6 +2,11 @@ owner = FRA
 1910.1.1 = {
 railroad = 4
 }
+state_building = {
+	level = 3
+	building = cement_factory
+	upgrade = yes
+}
 controller = FRA
 add_core = FRA
 trade_goods = iron

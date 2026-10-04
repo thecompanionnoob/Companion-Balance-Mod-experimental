@@ -9,6 +9,7 @@ life_rating = 20
 }
 	
 	
+add_core = MOR
 	
 
 	
